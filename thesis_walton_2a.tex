@@ -1,0 +1,117 @@
+\documentclass[PhD, copyrightpage]{csuthesis} %draft means that it won't actually render any pictures (graphs) it will just include space for them.
+% As soon as you get this to compile, your next step
+% should be to remove the draft option, so that your
+% figures will show up.  Right now it's there so that
+% the document will compile as is, with sample figures.
+
+% If the grad school gives you grief for the smallcaps
+% (all caps but capital capitals slightly larger) then
+% you can use the "nosmallcaps" option to eliminate
+% all smallcaps from the preliminary pages.
+
+% The "copyrightpage" option tells the document class
+% to generate a copyright page.  If you don't want a
+% copyright page, erase that option.
+
+% Now, change the following fields to match your thesis:
+\title{Barium Tagging in Solid Xenon for the nEXO Neutrinoless Double Beta Decay Experiment}
+\author{Timothy Walton}
+\departmentname{Department of Physics}
+\gradterm{Fall} %The semester that you are going to turn this in.
+% The year will automatically be set to the current year.  If you
+% want to modify the year manually, use this command:
+%\gradyear{2014}
+% But otherwise, ignore that command.
+\advisor{William M. Fairbank, Jr.}
+%\coadvisor{Test Test} %optional
+\committee{Robert Wilson \and someone \and Alan Van Orden} %separate committee names with \and
+%committee names should not have any honorifics (i.e. NO Dr., PhD, professor, etc.)  Just names.
+
+% you do not need these newcommand lines.
+% They are my personal shorthand for derivatives.
+\newcommand{\deriv}[2]{\frac{\mathrm{d}#1}{\mathrm{d}#2}}
+\newcommand{\dby}[1]{\frac{\mathrm{d}}{\mathrm{d}#1}}
+\newcommand{\pd}[2]{\frac{\partial#1}{\partial#2}}
+\newcommand{\pby}[1]{\frac{\partial}{\partial#1}}
+
+\usepackage{lipsum}%this package provides nonsense text for testing document layouts.  Not needed for real thesis.
+
+% a couple useful options that you may wish to uncomment:
+% \setcounter{tocdepth}{3} %more depth in table of contents
+% \numberwithin{equation}{chapter} %display eqn # as 1.3, not 3
+% \renewcommand{\bibname}{References} %change the name of your bibliography
+% numberwithin commands for table, figure, and section are 
+% already included in the .cls file.  You can search for 
+% them and remove them if you want to.
+
+\begin{document}
+\frontmatter
+%turns the page numbering to roman, and does some other stuff.
+
+\input{abstract}
+%\begin{abstract}
+%abztrakt
+%\end{abstract}
+% note that for amsbook (which is basically the class we are copying), the abstract must be declared before the title.  It prints as part of maketitle.
+% personally, I put my abstract definition in a separate file, abs_for_diss.tex, and used \input{abs_for_diss} here.
+% The grad school requires an abstract.
+
+\input{acknowledgements}
+%this is optional.  It must be declared before maketitle, a lot like abstract.  Consider having this in a separate file, like ack.tex, and then using \input{ack}
+
+\maketitle
+% maketitle is a huge command in a small package.  It will render the title page, copyright page, acknowledgements, abstract, and probably a bunch of other stuff that I'm forgetting about.  If you choose not to define copyright, acknowledgements, etc, it automatically doesn't render them.
+
+% other optional frontmatter could go somewhere in here.  dedication, biography, etc.  Grad school lists approved frontmatter pages somewhere.
+% most frontmatter than I consider silly is not yet automated.  Also most frontmatter doesn't have any explicit style requirements, so I feel justified in ignoring it.
+
+\tableofcontents %don't move this around too much
+%\listoftables %optional, but this is the spot it should go
+%\listoffigures %optional, but this is the right location for it
+
+\mainmatter %switches page numbering to normal, resets page counter, etc.
+% This is the start of the main writing, but there are a couple more
+% notes that I think might be helpful, tossed in here and there with
+% the format testing stuff.
+
+\input{chapter_intro}
+\input{chapter_theory}
+\input{chapter_EXO}
+\input{chapter_apparatus}
+\input{chapter_results}
+\input{chapter_conclusions}
+
+%\backmatter %...this doesn't seem to do anything
+
+\appendix %this switches to apppendix mode.  Now any new chapters will be appendices instead of chapters.
+
+\chapter{Supplementary Material} %this will be displayed as an appendix, not a chapter.  Appendices are at the same level in the hierarchy as chapters.
+
+make these also into separate files plz
+
+\section{Some Sample Material}
+
+Appendix is a strange name.  Did the name for the written material come before the name of the organ? Here~\cite{infodim} is a citation in an appendix.
+
+\chapter{Another Supplement}
+
+% still missing some, like backmatter (what is that?), and bibliography:
+
+% <same preamble as we have here>
+% \begin{document}
+% \frontmatter
+% \input{abstract}
+% \input{acknowledgements}
+% \maketitle
+% \mainmatter
+% \input{ch1intro}
+% \input{anotherchapter}
+% <etc>
+% \backmatter
+% \bibliographystyle{ieeetr}
+% \bibliography{thebib}
+% \appendix
+% \input{thatappendix}
+% \end{document}
+
+\end{document}
