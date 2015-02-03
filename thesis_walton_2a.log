@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=latex 2013.6.7)  2 FEB 2015 13:38
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.6.6)  3 FEB 2015 08:39
 entering extended mode
 **thesis_walton_2a.tex
 (C:\Walton\thesis\timthesis\thesis_walton_2a.tex
@@ -124,7 +124,7 @@ Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is not detected.
+Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
 Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
@@ -170,23 +170,9 @@ Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-
-! Package pdftex.def Error: PDF mode expected, but DVI mode detected!
-(pdftex.def)                If you are using `latex', then call `pdflatex'.
-(pdftex.def)                Otherwise check and correct the driver options.
-(pdftex.def)                Error recovery by switching to PDF mode.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.433   }\@ehc
-              
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 \Gread@gobject=\count103
-))) ("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+)))
+("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count104
 \float@exts=\toks27
@@ -278,9 +264,9 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 50.
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
 *geometry* driver: auto-detecting
-*geometry* detected driver: dvips
+*geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
-* driver: dvips
+* driver: pdftex
 * paper: <default>
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -331,13 +317,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 65--65
  []
 
 [0
-Non-PDF special ignored!
 
 
 
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-[1] [2
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [1] [2
 
 ] [3
 
@@ -389,7 +373,9 @@ Package pdftex.def Info: figures/hierarchy_alterred.png used on input line 82.
 Underfull \vbox (badness 1371) has occurred while \output is active []
 
  [5]
-[6 <C:/Walton/thesis/timthesis/figures/hierarchy_alterred.png>])
+Underfull \vbox (badness 5756) has occurred while \output is active []
+
+ [6 <C:/Walton/thesis/timthesis/figures/hierarchy_alterred.png>])
 (C:\Walton\thesis\timthesis\chapter_EXO.tex [7]
 Chapter 3
 ) (C:\Walton\thesis\timthesis\chapter_apparatus.tex
@@ -443,9 +429,9 @@ Package natbib Warning: There were undefined citations.
 
 ] (C:\Walton\thesis\timthesis\thesis_walton_2a.aux) ) 
 Here is how much of TeX's memory you used:
- 3999 strings out of 494046
- 50721 string characters out of 3148408
- 214806 words of memory out of 3000000
+ 3999 strings out of 494045
+ 50721 string characters out of 3148385
+ 214774 words of memory out of 3000000
  7053 multiletter control sequences out of 15000+200000
  11539 words of font info for 45 fonts, out of 3000000 for 9000
  876 hyphenation exceptions out of 8191
@@ -462,7 +448,7 @@ s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2
 .9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts
 /type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
 blic/amsfonts/cm/cmti12.pfb>
-Output written on thesis_walton_2a.pdf (23 pages, 221485 bytes).
+Output written on thesis_walton_2a.pdf (23 pages, 222305 bytes).
 PDF statistics:
  128 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

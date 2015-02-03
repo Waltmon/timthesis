@@ -6,8 +6,8 @@
 \contentsline {chapter}{\tocchapter {Chapter}{2}{Theory}}{3}
 \contentsline {section}{\tocsection {}{2.1}{Neutrinos}}{3}
 \contentsline {subsection}{\tocsubsection {}{2.1.1}{Neutrino Oscillation and Mass}}{4}
-\contentsline {subsection}{\tocsubsection {}{2.1.2}{Neutrinoless Double Beta Decay}}{6}
-\contentsline {section}{\tocsection {}{2.2}{Barium Spectroscopy}}{6}
+\contentsline {subsection}{\tocsubsection {}{2.1.2}{Neutrinoless Double Beta Decay}}{7}
+\contentsline {section}{\tocsection {}{2.2}{Barium Spectroscopy}}{7}
 \contentsline {section}{\tocsection {}{2.3}{Matrix Isolation Spectroscopy}}{7}
 \contentsline {chapter}{\tocchapter {Chapter}{3}{Enriched Xenon Observatory}}{8}
 \contentsline {section}{\tocsection {}{3.1}{EXO-200}}{9}
