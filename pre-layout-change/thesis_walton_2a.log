@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.18)  31 MAY 2015 19:28
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.18)  31 MAY 2015 14:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -231,7 +231,6 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/braket/braket.sty)
 
 LaTeX Warning: Unused global option(s):
     [PhD].
@@ -239,24 +238,24 @@ LaTeX Warning: Unused global option(s):
 (./thesis_walton_2a.aux)
 \openout1 = `thesis_walton_2a.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Try loading font information for U+msa on input line 51.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Try loading font information for U+msa on input line 50.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 51.
+LaTeX Font Info:    Try loading font information for U+msb on input line 50.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -353,7 +352,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 (./abstract.tex) (./acknowledgements.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 66--66
+Underfull \hbox (badness 10000) in paragraph at lines 65--65
 
  []
 
@@ -375,18 +374,23 @@ Table of Contents
  [4
 
 
-] (./chapter_intro.tex
+] [5] (./chapter_intro.tex
 Chapter 1
 
-Underfull \vbox (badness 4673) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [1
 
 
 
 
+])
+(./chapter_theory.tex [2]
+Chapter 2
+[3
+
+
 ]
-[2]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
@@ -396,50 +400,61 @@ Missing character: There is no “ in font cmr12!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [3]
-<figures/hierarchy_alterred.png, id=40, 449.68pt x 368.37625pt>
+ [4]
+<figures/hierarchy_alterred.png, id=43, 449.68pt x 368.37625pt>
 File: figures/hierarchy_alterred.png Graphic file (type png)
 
 <use figures/hierarchy_alterred.png>
-Package pdftex.def Info: figures/hierarchy_alterred.png used on input line 86.
+Package pdftex.def Info: figures/hierarchy_alterred.png used on input line 82.
 (pdftex.def)             Requested size: 234.8775pt x 192.41113pt.
- [4 <./figures/hierarchy_alterred.png>]
-[5] [6] [7]) (./chapter_theory.tex [8]
-Chapter 2
-) (./chapter_apparatus.tex [9
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]
+[6 <./figures/hierarchy_alterred.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7])
+(./chapter_EXO.tex [8]
+Chapter 3
+) (./chapter_apparatus.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9
 
 
 ]
-Chapter 3
-<figures/figer.png, id=62, 668.4975pt x 420.06938pt>
+[10]
+Chapter 4
+<figures/figer.png, id=68, 668.4975pt x 420.06938pt>
 File: figures/figer.png Graphic file (type png)
  <use figures/figer.png>
 Package pdftex.def Info: figures/figer.png used on input line 20.
 (pdftex.def)             Requested size: 422.77664pt x 265.67067pt.
 
-[10
+[11
 
 
 ]
 Underfull \vbox (badness 7415) has occurred while \output is active []
 
- [11 <./figures/figer.png>] [12]) (./chapter_results.tex [13]
-Chapter 4
-) (./chapter_conclusions.tex [14
+ [12 <./figures/figer.png>] [13]) (./chapter_results.tex [14]
+Chapter 5
+) (./chapter_conclusions.tex [15
 
 
 ]
-Chapter 5
-) [15
+Chapter 6
+) [16
 
 
 ]
 Appendix A
 
-Package natbib Warning: Citation `infodim' on page 16 undefined on input line 9
-8.
+Package natbib Warning: Citation `infodim' on page 17 undefined on input line 9
+7.
 
-[16
+[17
 
 
 ]
@@ -447,18 +462,18 @@ Appendix B
 
 Package natbib Warning: There were undefined citations.
 
-[17
+[18
 
 
 ] (./thesis_walton_2a.aux) ) 
 Here is how much of TeX's memory you used:
- 4377 strings out of 493304
- 57052 string characters out of 6139871
- 227521 words of memory out of 5000000
- 7567 multiletter control sequences out of 15000+600000
+ 4352 strings out of 493304
+ 56714 string characters out of 6139871
+ 228273 words of memory out of 5000000
+ 7543 multiletter control sequences out of 15000+600000
  11539 words of font info for 45 fonts, out of 8000000 for 9000
  1118 hyphenation exceptions out of 8191
- 40i,14n,35p,1197b,231s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,14n,35p,1195b,229s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
@@ -471,10 +486,10 @@ ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf
 nts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmti12.pfb>
-Output written on thesis_walton_2a.pdf (22 pages, 211625 bytes).
+Output written on thesis_walton_2a.pdf (24 pages, 210392 bytes).
 PDF statistics:
- 127 PDF objects out of 1000 (max. 8388607)
- 87 compressed objects within 1 object stream
+ 133 PDF objects out of 1000 (max. 8388607)
+ 91 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
