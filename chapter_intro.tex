@@ -10,7 +10,7 @@ maybe here you should talk about neutrinos' aid in glimpsing certain things, lik
 
 \section{Neutrinos}
 
-Neutrinos are chargeless leptons which only interact via the weak force (and gravity).  There are three known ``flavors'' of neutrinos, each corresponding to one of the three known leptons:  $\nu_{e}$, $\nu_{\mu}$, and $\nu_{\tau}$.  These are the eigenstates in the basis of the weak force, and so they are the states in which a neutrino will interact via the weak force.
+Neutrinos are chargeless leptons which only interact via the weak force (and gravity).  There are three known ``flavors'' of neutrinos, each corresponding to one of the three known leptons:  $\nu_{e}$, $\nu_{\mu}$, and $\nu_{\tau}$.  These are the eigenstates in the basis of the weak force, so they are the states in which a neutrino will interact via the weak force.
 
 {\color{gray}\emph{History:  }Neutrinos were first proposed while studying beta decay.  If the emitted electron and daughter nucleus in beta decay were the only products, the electron's energy should be essentially the same for every observed beta decay for a given isotope, since there is a certain energy difference between the initial and final states of the nucleus, and since the final kinetic energy of the nucleus is negligible due to its mass.  But instead of a sharp peak at this Q-value, a very broad electron energy spectrum is observed, all beneath and decreasing toward the Q-value.
 
@@ -79,7 +79,7 @@ $\sin^{2} \theta_{13}$ & \\
 \end{tabular}
 \end{table}
 
-Note that only the absolute value of $\Delta m_{31}^{2}$ is known.  As a consequence, there are still two possibilities for the hierarchy of the three neutrino masses.  These are called the Normal and Inverted Hierarchies, as shown in Fig. \ref{fig:numasshier}.
+Note that only the absolute value of $\Delta m_{31}^{2}$ is known.  As a consequence, there are two possibilities for the hierarchy of the three neutrino masses.  These are called the Normal and Inverted Hierarchies, as shown in Fig. \ref{fig:numasshier}.
 
 \begin{figure}[H]
         \centering
@@ -88,18 +88,35 @@ Note that only the absolute value of $\Delta m_{31}^{2}$ is known.  As a consequ
 \label{fig:numasshier}
 \end{figure}
 
-Neutrino oscillation demonstrates that neutrinos have non-zero mass, and though these experiments can measure the mass squared differences, we still do not have a measurement of the absolute masses of the three neutrinos.  {\color{gray}\emph{History:  }mention Pauli's first statement of limit near electron mass?  Then maybe say the 0 assumption, which I think came from Fermi's beta decay theory, but if you mention that above, just refer to it here.}
+\noindent
+The correct mass hierarchy remains unknown, but next-generation neutrino experiments, possibly including nEXO, will be able to discern this.
 
-The current upper limits on the mass come from...
+Neutrino oscillation demonstrates that neutrinos have non-zero mass, and though oscillation experiments can measure the mass squared differences, we still do not have a measurement of the absolute masses of the three neutrinos.  {\color{gray}\emph{History:  }mention Pauli's first statement of limit near electron mass?  Then maybe say the 0 assumption, which I think came from Fermi's beta decay theory, but if you mention that above, just refer to it here.}
+
+The current upper limits on the mass come from...(KATRIN(\rightarrow\nu_{e})?  Cosmology(\rightarrow sum)?
+
 Neutrinoless double beta decay experiments like EXO-200 can put upper limits on specifically the Majorana neutrino mass (i.e., upper limits on the neutrino mass if neutrinos are indeed Majorana particles).  As discussed in the next chapter, [EXO-200 and KamLAND (sp?) ZEN (sp?) together provide the strongest Majorana neutrino mass upper limit of [] (IS THAT TRUE?)].
 
 Neutrino oscillation and non-zero neutrino mass are physics beyond the Standard Model (SM) of particle physics, and though much has been discovered through oscillation experiments, there is much yet to learn about neutrinos. Since they are chargeless, they may be Majorana particles, and their small mass could be explained by the See-saw Mechanism [ref]. Majorana particles are their own anti-particle, and this, along with the discovery that neutrinos have mass, allows for a unique test of the Majorana (vs. Dirac) nature of neutrinos: neutrinoless double beta decay.
 
 \subsection{Neutrinoless Double Beta Decay}
 
-Double beta decay is the simultaneous emission of two electrons from a nucleus.  Two-neutrino double beta decay, shown in Fig. (figure), is allowed by the Standard Model and has been observed in several isotopes which are listed in Table (table).  Similar to beta decay, a neutrino accompanies each electron in this decay, broadening the spectrum of the summed electron energy. This is a second-order process, making it a rare decay, and requiring low backgrounds to measure.
+Double beta decay is the simultaneous emission of two electrons from a nucleus.  Two-neutrino double beta decay, shown in Fig. \ref{fig:feynman_diags}(left), is allowed by the Standard Model and has been observed in several isotopes which are listed in Table (table).  Similar to beta decay, a neutrino accompanies each electron in this decay, broadening the spectrum of the summed electron energy. This is a second-order process, making it a rare decay, and requiring low backgrounds to measure.
 
-Neutrinoless double beta decay is a postulated mode of double beta decay, and is shown in Fig. (figure). In this case, the neutrino is exchanged as a virtual particle (which would require that it is a Majorana particle), and there are no neutrinos in the final products. If discovered, not only would neutrinos be determined Majorana particles, but their mass could also be measured in the form of an effective electron neutrino mass, since the rate of neutrinoless double beta decay will depend on the absolute neutrino mass as shown in Eqn. \ref{eqn:rate_vs_mass}:
+\begin{figure}[H]
+        %\centering
+        \begin{subfigure}
+                \includegraphics[width=.35\textwidth]{figures/feynman-ish_2nu.png}
+                %\caption{barf}
+%        %\end{subfigure}
+        %\begin{subfigure}
+                \includegraphics[width=.35\textwidth]{figures/feynman-ish_0nu.png}
+                \caption{Two-neutrino (left) and Neutrinoless (right) double beta decay.}
+        \end{subfigure}
+        \label{fig:feynman_diags}
+\end{figure}
+
+Neutrinoless double beta decay is a postulated mode of double beta decay, and is shown in Fig. \ref{fig:feynman_diags}(right). In this case, the neutrino is exchanged as a virtual particle (which would require that it is a Majorana particle), and there are no neutrinos in the final products. If discovered, not only would neutrinos be determined Majorana particles, but their mass could also be measured in the form of an effective electron neutrino mass, since the rate of neutrinoless double beta decay will depend on the absolute neutrino mass as shown in Eqn. \ref{eqn:rate_vs_mass}:
 
 \begin{equation}
 T_{1/2}^{0\nu} = (G^{0\nu}(Q,Z)|M^{0\nu}|^{2}\braket{m_{\nu}}^{2})^{-1}
