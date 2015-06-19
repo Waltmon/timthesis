@@ -4,23 +4,23 @@
 \contentsline {section}{\tocsection {}{1.1}{Neutrinos}}{1}
 \contentsline {subsection}{\tocsubsection {}{1.1.1}{Neutrino Oscillation and Mass}}{2}
 \contentsline {subsection}{\tocsubsection {}{1.1.2}{Neutrinoless Double Beta Decay}}{5}
-\contentsline {section}{\tocsection {}{1.2}{Enriched Xenon Observatory}}{7}
-\contentsline {subsection}{\tocsubsection {}{1.2.1}{EXO-200}}{8}
-\contentsline {subsection}{\tocsubsection {}{1.2.2}{nEXO}}{8}
-\contentsline {section}{\tocsection {}{1.3}{something like "Can We Do This?", but probably not that at all.}}{9}
-\contentsline {chapter}{\tocchapter {Chapter}{2}{Theory}}{10}
-\contentsline {section}{\tocsection {}{2.1}{Barium Spectroscopy}}{10}
-\contentsline {section}{\tocsection {}{2.2}{Matrix Isolation Spectroscopy}}{10}
-\contentsline {chapter}{\tocchapter {Chapter}{3}{Apparatus}}{11}
-\contentsline {section}{\tocsection {}{3.1}{Ion Beam}}{11}
-\contentsline {subsection}{\tocsubsection {}{3.1.1}{Barium Ion Source/Acceleration}}{11}
-\contentsline {subsection}{\tocsubsection {}{3.1.2}{Velocity Filter, Lensing}}{12}
-\contentsline {subsection}{\tocsubsection {}{3.1.3}{Ion Beam Pulsing}}{13}
-\contentsline {section}{\tocsection {}{3.2}{Ba Getter Source}}{13}
-\contentsline {section}{\tocsection {}{3.3}{Solid Xenon Matrix Deposition}}{13}
-\contentsline {subsection}{\tocsubsection {}{3.3.1}{Deposition Procedure}}{14}
-\contentsline {chapter}{\tocchapter {Chapter}{4}{Results}}{15}
-\contentsline {chapter}{\tocchapter {Chapter}{5}{Conclusions}}{16}
-\contentsline {chapter}{\tocappendix {Appendix}{A}{Supplementary Material}}{17}
-\contentsline {section}{\tocsection {}{A.1}{Some Sample Material}}{17}
-\contentsline {chapter}{\tocappendix {Appendix}{B}{Another Supplement}}{18}
+\contentsline {section}{\tocsection {}{1.2}{Enriched Xenon Observatory}}{8}
+\contentsline {subsection}{\tocsubsection {}{1.2.1}{EXO-200}}{9}
+\contentsline {subsection}{\tocsubsection {}{1.2.2}{nEXO}}{9}
+\contentsline {section}{\tocsection {}{1.3}{something like "Can We Do This?", but probably not that at all.}}{10}
+\contentsline {chapter}{\tocchapter {Chapter}{2}{Theory}}{11}
+\contentsline {section}{\tocsection {}{2.1}{Barium Spectroscopy}}{11}
+\contentsline {section}{\tocsection {}{2.2}{Matrix Isolation Spectroscopy}}{11}
+\contentsline {chapter}{\tocchapter {Chapter}{3}{Apparatus}}{12}
+\contentsline {section}{\tocsection {}{3.1}{Ion Beam}}{12}
+\contentsline {subsection}{\tocsubsection {}{3.1.1}{Barium Ion Source/Acceleration}}{12}
+\contentsline {subsection}{\tocsubsection {}{3.1.2}{Velocity Filter, Lensing}}{13}
+\contentsline {subsection}{\tocsubsection {}{3.1.3}{Ion Beam Pulsing}}{14}
+\contentsline {section}{\tocsection {}{3.2}{Ba Getter Source}}{14}
+\contentsline {section}{\tocsection {}{3.3}{Solid Xenon Matrix Deposition}}{14}
+\contentsline {subsection}{\tocsubsection {}{3.3.1}{Deposition Procedure}}{15}
+\contentsline {chapter}{\tocchapter {Chapter}{4}{Results}}{16}
+\contentsline {chapter}{\tocchapter {Chapter}{5}{Conclusions}}{17}
+\contentsline {chapter}{\tocappendix {Appendix}{A}{Supplementary Material}}{18}
+\contentsline {section}{\tocsection {}{A.1}{Some Sample Material}}{18}
+\contentsline {chapter}{\tocappendix {Appendix}{B}{Another Supplement}}{19}
