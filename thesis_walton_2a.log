@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.6.6)  2 JUN 2015 14:49
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.6.6)  19 JUN 2015 13:07
 entering extended mode
 **thesis_walton_2a.tex
 (C:\Walton\thesis\timthesis\thesis_walton_2a.tex
@@ -393,19 +393,21 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<figures/feynman-ish_2nu.png, id=48, 526.96875pt x 620.3175pt>
-File: figures/feynman-ish_2nu.png Graphic file (type png)
+<figures/feynman_2nu_quarks.png, id=48, 526.96875pt x 637.63219pt>
+File: figures/feynman_2nu_quarks.png Graphic file (type png)
 
-<use figures/feynman-ish_2nu.png>
-Package pdftex.def Info: figures/feynman-ish_2nu.png used on input line 109.
-(pdftex.def)             Requested size: 164.41711pt x 193.54585pt.
+<use figures/feynman_2nu_quarks.png>
+Package pdftex.def Info: figures/feynman_2nu_quarks.png used on input line 109.
 
-<figures/feynman-ish_0nu.png, id=49, 526.96875pt x 620.3175pt>
-File: figures/feynman-ish_0nu.png Graphic file (type png)
+(pdftex.def)             Requested size: 164.41711pt x 198.94823pt.
 
-<use figures/feynman-ish_0nu.png>
-Package pdftex.def Info: figures/feynman-ish_0nu.png used on input line 113.
-(pdftex.def)             Requested size: 164.41711pt x 193.54585pt.
+<figures/feynman_0nu_quarks.png, id=49, 526.96875pt x 637.63219pt>
+File: figures/feynman_0nu_quarks.png Graphic file (type png)
+
+<use figures/feynman_0nu_quarks.png>
+Package pdftex.def Info: figures/feynman_0nu_quarks.png used on input line 113.
+
+(pdftex.def)             Requested size: 164.41711pt x 198.94823pt.
 
 
 ! LaTeX Error: \begin{figure} on input line 106 ended by \end{subfigure}.
@@ -423,8 +425,8 @@ or  <return>  to continue without it.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [6 <C:/Walton/thesis/timthesis/figures/feynman-ish_2nu.png> <C:/Walton/thesis/
-timthesis/figures/feynman-ish_0nu.png>]
+ [6 <C:/Walton/thesis/timthesis/figures/feynman_2nu_quarks.png> <C:/Walton/thes
+is/timthesis/figures/feynman_0nu_quarks.png>]
 Underfull \vbox (badness 5245) has occurred while \output is active []
 
  [7]
@@ -435,7 +437,7 @@ Chapter 2
 
 ]
 Chapter 3
-<figures/figer.png, id=67, 668.4975pt x 420.06938pt>
+<figures/figer.png, id=68, 668.4975pt x 420.06938pt>
 File: figures/figer.png Graphic file (type png)
  <use figures/figer.png>
 Package pdftex.def Info: figures/figer.png used on input line 20.
@@ -478,7 +480,7 @@ Package natbib Warning: There were undefined citations.
 ] (C:\Walton\thesis\timthesis\thesis_walton_2a.aux) ) 
 Here is how much of TeX's memory you used:
  4037 strings out of 494045
- 51333 string characters out of 3148385
+ 51363 string characters out of 3148385
  213931 words of memory out of 3000000
  7088 multiletter control sequences out of 15000+200000
  11539 words of font info for 45 fonts, out of 3000000 for 9000
@@ -496,9 +498,9 @@ s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2
 .9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts
 /type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
 blic/amsfonts/cm/cmti12.pfb>
-Output written on thesis_walton_2a.pdf (23 pages, 274577 bytes).
+Output written on thesis_walton_2a.pdf (23 pages, 274036 bytes).
 PDF statistics:
- 131 PDF objects out of 1000 (max. 8388607)
+ 132 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
