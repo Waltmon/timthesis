@@ -1,9 +1,9 @@
 \contentsline {chapter}{Abstract}{ii}
 \contentsline {chapter}{Acknowledgements}{iii}
 \contentsline {chapter}{\tocchapter {Chapter}{1}{Introduction}}{1}
-\contentsline {section}{\tocsection {}{1.1}{Neutrinos}}{1}
+\contentsline {section}{\tocsection {}{1.1}{Neutrinos}}{2}
 \contentsline {subsection}{\tocsubsection {}{1.1.1}{Neutrino Oscillation and Mass}}{2}
-\contentsline {subsection}{\tocsubsection {}{1.1.2}{Neutrinoless Double Beta Decay}}{5}
+\contentsline {subsection}{\tocsubsection {}{1.1.2}{Neutrinoless Double Beta Decay}}{6}
 \contentsline {section}{\tocsection {}{1.2}{Enriched Xenon Observatory}}{8}
 \contentsline {subsection}{\tocsubsection {}{1.2.1}{EXO-200}}{9}
 \contentsline {subsection}{\tocsubsection {}{1.2.2}{nEXO}}{9}
