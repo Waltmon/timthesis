@@ -1,0 +1,2 @@
+Remote / Fetch from / origin
+Merge / Local Merge / hit OK or whatev
