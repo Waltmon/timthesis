@@ -85,7 +85,7 @@ The correct mass hierarchy remains unknown, but next-generation neutrino experim
 
 Neutrino oscillation demonstrates that neutrinos have non-zero mass, and though oscillation experiments can measure the mass squared differences, we still do not have a measurement of the absolute masses of the three neutrinos.  {\color{gray}\emph{History:  }mention Pauli's first statement of limit near electron mass?  Then maybe say the 0 assumption, which I think came from Fermi's beta decay theory, but if you mention that above, just refer to it here.}
 
-The current upper limits on the mass come from...(KATRIN(\rightarrow\nu_{e})?  Cosmology(\rightarrow sum)?
+The current upper limits on the mass come from...(KATRIN($\rightarrow \nu_{e}$)?  Cosmology($\rightarrow$ sum)?
 
 Neutrinoless double beta decay experiments like EXO-200 can put upper limits on specifically the Majorana neutrino mass (i.e., upper limits on the neutrino mass if neutrinos are indeed Majorana particles).  As discussed in the next chapter, [EXO-200 and KamLAND (sp?) ZEN (sp?) together provide the strongest Majorana neutrino mass upper limit of [] (IS THAT TRUE?)].
 
@@ -93,18 +93,18 @@ Neutrino oscillation and non-zero neutrino mass are physics beyond the Standard 
 
 \subsection{Neutrinoless Double Beta Decay}
 
-Double beta decay is the simultaneous emission of two electrons from a nucleus.  Two-neutrino double beta decay, shown in Fig. \ref{fig:feynman_diags}(left), is allowed by the Standard Model and has been observed in several isotopes which are listed in Table (table).  Similar to beta decay, a neutrino accompanies each electron in this decay, broadening the spectrum of the summed electron energy. This is a second-order process, making it a rare decay, and requiring low backgrounds to measure.
+Double beta decay is the simultaneous emission of two electrons from a nucleus.  Two-neutrino double beta decay, shown in Fig. \ref{fig:feynman_diags}(left), is allowed by the Standard Model and has been observed in several isotopes which are listed in Table \ref{table:bb_isotopes}.  Similar to beta decay, a neutrino accompanies each electron in this decay, broadening the spectrum of the summed electron energy. This is a second-order process, making it a rare decay, and requiring low backgrounds to measure.
 
 \begin{figure}[H]
         %\centering
-        \begin{subfigure}
+        %\begin{subfigure}
                 \includegraphics[width=.35\textwidth]{figures/feynman_2nu_quarks.png}
                 %\caption{barf}
 %        %\end{subfigure}
         %\begin{subfigure}
                 \includegraphics[width=.35\textwidth]{figures/feynman_0nu_quarks.png}
                 \caption{Two-neutrino (left) and Neutrinoless (right) double beta decay.}
-        \end{subfigure}
+        %\end{subfigure}
         \label{fig:feynman_diags}
 \end{figure}
 
@@ -132,7 +132,17 @@ The sum of the energies of the emitted electrons in double beta decay will serve
 \label{fig:spectrum_bb}
 \end{figure}
 
-The rarity of double beta decay (see the very long half lives in Table (table)) requires very low backgrounds, especially around the Q-value for the $0\nu\beta\beta$ search. The next sections describe EXO-200 and it's next-generation successor, nEXO.
+\begin{table}[!htbp]
+\caption{$2\nu\beta\beta$ half-lives measured for various isotopes.} %not sure what [Small Table], between \caption and {}, w/ no spaces, does
+\label{table:bb_isotopes}
+\begin{tabular}{c|c|c}
+Isostope & Experiment & $T^{2\nu}_{1/2}$\\
+\hline
+Xe$_{136}$ & EXO-200 & 2.\\
+\end{tabular}
+\end{table}
+
+The rarity of double beta decay (see the very long half lives in Table \ref{table:bb_isotopes}) requires very low backgrounds, especially around the Q-value for the $0\nu\beta\beta$ search. The next sections describe EXO-200 and it's next-generation successor, nEXO.
 
 \section{Enriched Xenon Observatory}
 

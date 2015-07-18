@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.18)  4 JUL 2015 23:22
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.18)  18 JUL 2015 17:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -409,39 +409,9 @@ Package pdftex.def Info: figures/hierarchy_alterred.png used on input line 78.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [4]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.88 ...n the mass come from...(KATRIN(\rightarrow
-                                                  \nu_{e})?  Cosmology(\righ...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.89 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1783) has occurred while \output is active []
 
  [5 <./figures/hierarchy_alterred.png>]
-
-! LaTeX Error: Environment subfigure undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.100         \begin{subfigure}
-                               
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
 <figures/feynman_2nu_quarks.png, id=49, 526.96875pt x 637.63219pt>
 File: figures/feynman_2nu_quarks.png Graphic file (type png)
 
@@ -458,20 +428,6 @@ Package pdftex.def Info: figures/feynman_0nu_quarks.png used on input line 105.
 
 (pdftex.def)             Requested size: 164.41711pt x 198.94823pt.
 
-
-! LaTeX Error: \begin{figure} on input line 98 ended by \end{subfigure}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.107         \end{subfigure}
-                             
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
 Underfull \vbox (badness 4013) has occurred while \output is active []
 
  [6 <./figures/feynman_2nu_quarks.png> <./figures/feynman_0nu_quarks.png>]
@@ -485,14 +441,18 @@ Package pdftex.def Info: figures/spectrum_bb.png used on input line 130.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7]
-[8 <./figures/spectrum_bb.png>] [9]) (./chapter_theory.tex [10]
+[8 <./figures/spectrum_bb.png>] [9]) (./chapter_theory.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10]
+[11]
 Chapter 2
-) (./chapter_apparatus.tex [11
+) (./chapter_apparatus.tex [12
 
 
 ]
 Chapter 3
-<figures/figer.png, id=74, 668.4975pt x 420.06938pt>
+<figures/figer.png, id=77, 668.4975pt x 420.06938pt>
 File: figures/figer.png Graphic file (type png)
  <use figures/figer.png>
 Package pdftex.def Info: figures/figer.png used on input line 22.
@@ -500,31 +460,31 @@ Package pdftex.def Info: figures/figer.png used on input line 22.
 
 Underfull \vbox (badness 4673) has occurred while \output is active []
 
- [12
+ [13
 
 
 ]
-[13 <./figures/figer.png>]
+[14 <./figures/figer.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [14])
-(./chapter_results.tex [15]
+ [15])
+(./chapter_results.tex [16]
 Chapter 4
-) (./chapter_conclusions.tex [16
+) (./chapter_conclusions.tex [17
 
 
 ]
 Chapter 5
-) [17
+) [18
 
 
 ]
 Appendix A
 
-Package natbib Warning: Citation `infodim' on page 18 undefined on input line 9
+Package natbib Warning: Citation `infodim' on page 19 undefined on input line 9
 8.
 
-[18
+[19
 
 
 ]
@@ -532,18 +492,18 @@ Appendix B
 
 Package natbib Warning: There were undefined citations.
 
-[19
+[20
 
 
 ] (./thesis_walton_2a.aux) ) 
 Here is how much of TeX's memory you used:
- 4398 strings out of 493304
- 57576 string characters out of 6139871
- 226456 words of memory out of 5000000
- 7584 multiletter control sequences out of 15000+600000
+ 4397 strings out of 493304
+ 57574 string characters out of 6139871
+ 226464 words of memory out of 5000000
+ 7583 multiletter control sequences out of 15000+600000
  11891 words of font info for 46 fonts, out of 8000000 for 9000
  1118 hyphenation exceptions out of 8191
- 40i,14n,35p,1378b,232s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,14n,35p,1378b,231s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
@@ -557,10 +517,10 @@ nts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmti8.pfb>
-Output written on thesis_walton_2a.pdf (24 pages, 271287 bytes).
+Output written on thesis_walton_2a.pdf (25 pages, 270649 bytes).
 PDF statistics:
- 143 PDF objects out of 1000 (max. 8388607)
- 94 compressed objects within 1 object stream
+ 147 PDF objects out of 1000 (max. 8388607)
+ 97 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
