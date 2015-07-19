@@ -149,13 +149,13 @@ The rarity of double beta decay (see the very long half lives in Table \ref{tabl
 
 The Enriched Xenon Observatory (EXO) is a set of two experiments, each a LXe time projection chamber (TPC) designed to study the double beta decay of the isotope \textsuperscript{136}Xe, and ultimately to search for the zero-neutrino mode.  There are several advantages to a LXe detector.  Xe is extremely transparent, and scintillates at [around?] [xxx] nm, which is [efficiently collected by [type that the APDs are]] [reference]; so the Xe acts as a detection medium in addition to being the source of the double beta decay [reference? I didn't make up that kind of sentence].  Xe can be continuously purified to maintain large electron lifetimes in the LXe.  Also, the ratio between observed scintillation light and remaining ionized electrons (drifted from the decay site by the TPC's electric field) exhibits a well-known microscopic anti-correlation [ref.], the understanding of which improves the energy resolution of the detector.  Finally, a LXe TPC approach offers the opportunity, [fairly] unique in double beta decay, to reach in and identify, or ``tag'', the daughter Ba\textsuperscript{++} at the site of the double beta decay event, which would provide a background-free identification of neutrinoless double beta decay. Barium tagging is the focus of our group at CSU and is the subject of this thesis.
 
-The following sections decribe the EXO-200 experiment, as well as nEXO, the next-generation tonne-scale liquid xenon TPC which is now in the design stages.  EXO-200 does not have barium tagging implemented, but it is hoped that nEXO will. 
+The following sections decribe the EXO-200 experiment, as well as nEXO, the next-generation tonne-scale LXe TPC which is now in the design stages.  EXO-200 does not have barium tagging implemented, but it is hoped that nEXO will. 
 
 \subsection{EXO-200}
 
-EXO-200 has been operational since April of 20[xx](?).  It is a liquid xenon TPC designed to probe Majorana neutrino masses down to around 100~meV [EXO instrum. paper part I], located about half a mile underground in the Waste Isolation Pilot Plant (WIPP) near Carlsbad, NM.  This mine is in a salt basin, which contains lower levels of Uranium and Thorium than a typical mine in rock, making it more ideal for a low-background experiment.
+EXO-200 has been operational since April of 20[xx](?).  It is a LXe TPC designed to probe Majorana neutrino masses down to around 100~meV [EXO instrum. paper part I], and is located about half a mile underground in the Waste Isolation Pilot Plant (WIPP) near Carlsbad, NM.  This mine is in a salt basin, which contains lower levels of Uranium and Thorium than a typical mine in rock, making it more ideal for a low-background experiment.  WIPP's main purpose is to permanently store transuranic nuclear waste, which is stored at the other end of the mine and is not an issue for EXO-200.
 
-A schematic of the TPC in the class 100 cleanroom is shown in Fig. \ref{fig:cleanroom}.  Several layers of lead wall surround the copper cryostat, which is filled with hydro-fluoro-ethylwhatever (HFE), a cryogenic fluid which keeps the TPC cooled to LXe temperatures, as well as aids in shielding.  The copper material is [purified or something?], and is kept as thin as possible to maintain low backgrounds.
+A schematic of the TPC in the class 100 cleanroom is shown in Fig. \ref{fig:cleanroom}.  Several layers of lead wall surround the copper cryostat, which is filled with hydro-fluoro-ethylwhatever (HFE), a cryogenic fluid which keeps the TPC cooled to LXe temperatures, as well as aids in shielding.  The copper material of the cryostat and TPC is [purified or something?], and is kept as thin as possible to minimize backgrounds.
 
 \begin{figure}[H]
 	\centering
@@ -164,31 +164,49 @@ A schematic of the TPC in the class 100 cleanroom is shown in Fig. \ref{fig:clea
 \label{fig:cleanroom}
 \end{figure}
 
-Fig. \ref{fig:tpc} shows the EXO-200 detector.  It is actually two TPCs which share a cathode.  The detection planes are a combination of ionized charge induction/collection wires and avalanche photodiodes which detect scintillation light.
+Fig. \ref{fig:tpc} shows the EXO-200 detector.  It is actually two face-to-face TPCs which share a cathode.  The detection planes are a combination of ionized charge induction/collection wires and avalanche photodiodes which detect scintillation light.
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=.7\textwidth]{figures/TPC.png}
-	\caption{EXO-200 TPC diagram.  {\color{red}Better rez of this too?}}
+	\caption{EXO-200 TPC diagram.  [ref $0\nu$ paper or whatev]  {\color{red}Better rez of this too?}}
 \label{fig:tpc}
 \end{figure}
 
-A close-up of the detection plane is shown in Fig. \ref{fig:detectionplane}.  When a double beta decay event occurs in the LXe, the energetic electrons ionize many surrounding Xe atoms.  Some electrons very quickly recombine, emitting scintillation light which is collected by the APDs.  This is part of the energy collection, and also provides a time stamp for the event.  
+A photograph of the detection plane is shown in Fig. \ref{fig:tpcphoto}, and a schematic of event detection is shown in Fig. \ref{fig:detectionplane}.  When a double beta decay event occurs in the LXe, the energetic electrons ionize many surrounding Xe atoms.  Some electrons very quickly recombine, emitting scintillation light which is collected by the APDs.  This is part of the energy collection, and also provides a time stamp for the event.  
 
-The cathode is set to 8~kV, providing an electric field of [xxx] V/cm across the 20~cm in each TPC.  Ionized electrons drift from the decay site, and first pass the v-wires, which receive an induction signal, and are then collected by the u-wires, set {\color{red}60$^\circ$} from the v-wires.  The charge collection provides the remainder of the energy collection of the initial decay.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.7\textwidth]{figures/TPCphoto.jpg}
+	\caption{View of the detection plane in one of the two EXO-200 TPCs.  [ref $0\nu$ paper or whatev]  {\color{red}I \textbf{know} you have a better rez of this.}}
+\label{fig:tpcphoto}
+\end{figure}
 
-Together, the u- and v-wires give an x/y position measurement for the event.  The time between the initial scintillation detection and the charge collection give a z position, and a 3D position can be reconstructed for the event.  This allows a fiducial volume to be defined, which aids in background rejection.  
-
-[talk about SS and MS, further rejection of gamma events by MS, and about anticorrelation]
-
-[data, measurement and limit]
+The cathode is set to 8~kV, providing an electric field of [xxx] V/cm across the 20~cm drift length of each TPC.  Ionized electrons drift from the decay site, first passing the v-wires, which receive an induction signal, and are then collected by the u-wires, which are set at a  {\color{red}60$^\circ$} angle from the v-wires.  The charge collection provides the remainder of the energy collection of the initial decay.
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=.7\textwidth]{figures/anodecathodedriftcharges.png}
-	\caption{EX-200 detection plane.}
+	\caption{EXO-200 event detection.  }
 \label{fig:detectionplane}
 \end{figure}
+
+Together, the u- and v-wires give an x/y position measurement for the event.  The time between the initial scintillation detection and the charge collection give a z position, and a 3D position can be reconstructed for the event.  
+
+Having a reconstructed 3D event position is important in several ways.  Firstly, position-based corrections on scintillation and charge collection can be applied.  For charge, electronegative impurities in the LXe will absorb the drifting charge, requiring a drift-length (z-position) correction.  High purity levels, measured in terms of electron lifetime, of [???] are maintained in EXO-200, but a small correction of [???] must still be applied [ref].  {\color{red}\textbf{(Is there an x/y purity correction?)}}  For scintillation, a full 3D correction is applied (called the Light Map), as some regions have more efficient light collection by the APDs [ref, maybe for whole paragraph].
+
+A 3D position also allows a fiducial volume to be defined.  The materials of the Teflon walls and cathode/detection planes contain more radioactive background-producing elements.  Radioactive daughters from impurities like radon in the LXe bulk also tend to collect of the cathode [ref], so a stand-off distance of [???] is used as the fiducial cut.
+
+Finally, 3D reconstruction allows the distinction between single-site (SS) and multi-site (MS) events.  A(n?) MS event is one where two spatially separated events occur in the same [???]-$\mu s$ time window.  These are mostly caused by gamma rays interacting in the LXe, which can Compton-scatter several times.  Rejecting MS events strongly separates gamma events from double beta decay events.
+
+Of course, barium tagging will also require a 3D reconstructed position in nEXO.
+
+Calibration of EXO-200 is done using various radioactive sources which can be moved to several positions around the outside of the TPC.  Several different sources span the energy range of interest, but the main source is {\color{red}Th$_{228}$}, which produces gamma rays at [???]~MeV, near the Q-value of Xe$_{136}$ double beta decay where the $0\nu\beta\beta$ peak will be.  Source calibration data also provides a comparison between data and Monet-Carlo simulation, and provides the data for purity measurement and Light Map determination.  Data and Monte-Carlo for Th$_{228}$ are shown in Fig. [ref fig source agreement].
+
+The relationship between scintillation and ionization for a given event in LXe exhibits a well-known anti-correlation.  Applying this to the combination of those signals improves the energy resolution, shown in Fig. [ref fig anticorrelation].  This correction defines a combined energy axis, called the rotated energy.  Energy resolution is important in a $0\nu\beta\beta$ search, as it distinguished those events from $2\nu\beta\beta$ events in the tail of their spectrum.  Resolution of [???] is achieved in [ref $\nu$ paper].
+
+The final data set is fit using a combination of probability distribution functions (PDFs) for $0\nu\beta\beta$, $2\nu\beta\beta$, and all possible backgrounds.  
+[data, fitting, measurement and limit]
 
 \subsection{nEXO}
 
