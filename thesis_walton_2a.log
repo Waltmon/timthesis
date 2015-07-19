@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.18)  18 JUL 2015 17:57
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.18)  18 JUL 2015 23:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -441,18 +441,38 @@ Package pdftex.def Info: figures/spectrum_bb.png used on input line 130.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7]
-[8 <./figures/spectrum_bb.png>] [9]) (./chapter_theory.tex
+[8 <./figures/spectrum_bb.png>]
+<figures/cleanroom.png, id=65, 794.97pt x 614.295pt>
+File: figures/cleanroom.png Graphic file (type png)
+
+<use figures/cleanroom.png>
+Package pdftex.def Info: figures/cleanroom.png used on input line 162.
+(pdftex.def)             Requested size: 328.82707pt x 254.10281pt.
+ [9]
+<figures/TPC.png, id=69, 331.2375pt x 330.23375pt>
+File: figures/TPC.png Graphic file (type png)
+ <use figures/TPC.png>
+Package pdftex.def Info: figures/TPC.png used on input line 171.
+(pdftex.def)             Requested size: 328.82707pt x 327.84445pt.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [10]
-[11]
+ [10 <./figures/cleanroom.png (PNG copy)>] [11 <./figures/TPC.png (PNG copy)>]
+<figures/anodecathodedriftcharges.png, id=76, 722.7pt x 542.025pt>
+File: figures/anodecathodedriftcharges.png Graphic file (type png)
+
+<use figures/anodecathodedriftcharges.png>
+Package pdftex.def Info: figures/anodecathodedriftcharges.png used on input lin
+e 188.
+(pdftex.def)             Requested size: 328.82707pt x 246.62175pt.
+ [12 <./figures/anodecathodedriftcharges.png>]) (./chapter_theory.tex [13]
 Chapter 2
-) (./chapter_apparatus.tex [12
+) (./chapter_apparatus.tex [14
 
 
 ]
 Chapter 3
-<figures/figer.png, id=77, 668.4975pt x 420.06938pt>
+<figures/figer.png, id=87, 668.4975pt x 420.06938pt>
 File: figures/figer.png Graphic file (type png)
  <use figures/figer.png>
 Package pdftex.def Info: figures/figer.png used on input line 22.
@@ -460,31 +480,31 @@ Package pdftex.def Info: figures/figer.png used on input line 22.
 
 Underfull \vbox (badness 4673) has occurred while \output is active []
 
- [13
+ [15
 
 
 ]
-[14 <./figures/figer.png>]
+[16 <./figures/figer.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [15])
-(./chapter_results.tex [16]
+ [17])
+(./chapter_results.tex [18]
 Chapter 4
-) (./chapter_conclusions.tex [17
+) (./chapter_conclusions.tex [19
 
 
 ]
 Chapter 5
-) [18
+) [20
 
 
 ]
 Appendix A
 
-Package natbib Warning: Citation `infodim' on page 19 undefined on input line 9
+Package natbib Warning: Citation `infodim' on page 21 undefined on input line 9
 8.
 
-[19
+[21
 
 
 ]
@@ -492,15 +512,15 @@ Appendix B
 
 Package natbib Warning: There were undefined citations.
 
-[20
+[22
 
 
 ] (./thesis_walton_2a.aux) ) 
 Here is how much of TeX's memory you used:
- 4397 strings out of 493304
- 57574 string characters out of 6139871
- 226464 words of memory out of 5000000
- 7583 multiletter control sequences out of 15000+600000
+ 4415 strings out of 493304
+ 58011 string characters out of 6139871
+ 226497 words of memory out of 5000000
+ 7598 multiletter control sequences out of 15000+600000
  11891 words of font info for 46 fonts, out of 8000000 for 9000
  1118 hyphenation exceptions out of 8191
  40i,14n,35p,1378b,231s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -517,10 +537,10 @@ nts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmti8.pfb>
-Output written on thesis_walton_2a.pdf (25 pages, 270649 bytes).
+Output written on thesis_walton_2a.pdf (27 pages, 707990 bytes).
 PDF statistics:
- 147 PDF objects out of 1000 (max. 8388607)
- 97 compressed objects within 1 object stream
+ 157 PDF objects out of 1000 (max. 8388607)
+ 101 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
