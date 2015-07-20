@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.18)  19 JUL 2015 15:29
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.18)  19 JUL 2015 21:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -493,15 +493,25 @@ Package pdftex.def Info: figures/exo_200_results.png used on input line 210.
 
 Underfull \vbox (badness 5105) has occurred while \output is active []
 
- [15 <./figures/exo_200_results.png (PNG copy)>] [16]) (./chapter_theory.tex [1
-7]
+ [15 <./figures/exo_200_results.png (PNG copy)>]
+<figures/sensitivity.png, id=92, 627.09282pt x 469.00218pt>
+File: figures/sensitivity.png Graphic file (type png)
+
+<use figures/sensitivity.png>
+Package pdftex.def Info: figures/sensitivity.png used on input line 225.
+(pdftex.def)             Requested size: 328.82707pt x 245.93642pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16])
+(./chapter_theory.tex [17 <./figures/sensitivity.png>]
 Chapter 2
 ) (./chapter_apparatus.tex [18
 
 
 ]
 Chapter 3
-<figures/figer.png, id=101, 668.4975pt x 420.06938pt>
+<figures/figer.png, id=102, 668.4975pt x 420.06938pt>
 File: figures/figer.png Graphic file (type png)
  <use figures/figer.png>
 Package pdftex.def Info: figures/figer.png used on input line 22.
@@ -546,10 +556,10 @@ Package natbib Warning: There were undefined citations.
 
 ] (./thesis_walton_2a.aux) ) 
 Here is how much of TeX's memory you used:
- 4428 strings out of 493304
- 58302 string characters out of 6139871
- 226519 words of memory out of 5000000
- 7608 multiletter control sequences out of 15000+600000
+ 4434 strings out of 493304
+ 58450 string characters out of 6139871
+ 226530 words of memory out of 5000000
+ 7613 multiletter control sequences out of 15000+600000
  11891 words of font info for 46 fonts, out of 8000000 for 9000
  1118 hyphenation exceptions out of 8191
  40i,14n,35p,1378b,233s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -566,10 +576,10 @@ nts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmti8.pfb>
-Output written on thesis_walton_2a.pdf (31 pages, 961133 bytes).
+Output written on thesis_walton_2a.pdf (31 pages, 1068885 bytes).
 PDF statistics:
- 172 PDF objects out of 1000 (max. 8388607)
+ 173 PDF objects out of 1000 (max. 8388607)
  110 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
