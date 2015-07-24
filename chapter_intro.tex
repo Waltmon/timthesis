@@ -134,7 +134,7 @@ The sum of the energies of the emitted electrons in double beta decay will serve
 \begin{tabular}{c|c|c}
 Isostope & Experiment & $T^{2\nu}_{1/2}$\\
 \hline
-Xe$_{136}$ & EXO-200 & 2.\\
+$^{136}$Xe & EXO-200 & 2.\\
 ... & ... & ...\\
 \end{tabular}
 \end{table}
@@ -165,7 +165,7 @@ Fig. \ref{fig:tpc} shows the EXO-200 detector.  It is actually two face-to-face 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=.7\textwidth]{figures/TPC.png}
-	\caption{EXO-200 TPC diagram.  [ref $0\nu$ paper or whatev]  {\color{red}Better rez of this too?}}
+	\caption{EXO-200 TPC diagram.  [ref $2\nu$ long paper]}
 \label{fig:tpc}
 \end{figure}
 
@@ -173,7 +173,7 @@ A photograph of the detection plane is shown in Fig. \ref{fig:tpcphoto}, and a s
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=.7\textwidth]{figures/TPCphoto.jpg}
+	\includegraphics[width=.7\textwidth]{figures/TPCphoto.jpeg}
 	\caption{View of the detection plane in one of the two EXO-200 TPCs.  [ref $0\nu$ paper or whatev]  {\color{red}I \textbf{know} you have a better rez of this.}}
 \label{fig:tpcphoto}
 \end{figure}
@@ -197,7 +197,7 @@ Finally, 3D reconstruction allows the distinction between single-site (SS) and m
 
 Of course, barium tagging will also require a 3D reconstructed position in nEXO.
 
-Calibration of EXO-200 is done using various radioactive sources which can be moved to several positions around the outside of the TPC.  Several different sources span the energy range of interest, but the main source is {\color{red}Th$_{228}$}, which produces gamma rays at [???]~MeV, near the Q-value of Xe$_{136}$ double beta decay where the $0\nu\beta\beta$ peak will be.  Source calibration data also provides a comparison between data and Monet-Carlo simulation, and provides the data for purity measurement and Light Map determination.  Data and Monte-Carlo for Th$_{228}$ are shown in Fig. [ref fig source agreement].
+Calibration of EXO-200 is done using various radioactive sources which can be moved to several positions around the outside of the TPC.  Several different sources span the energy range of interest, but the main source is $^{228}$Th, which produces gamma rays at [???]~MeV, near the Q-value of $^{136}$Xe double beta decay where the $0\nu\beta\beta$ peak will be.  Source calibration data also provides a comparison between data and Monet-Carlo simulation, and provides the data for purity measurement and Light Map determination.  Data and Monte-Carlo for $^{228}$Th are shown in Fig. [ref fig source agreement].
 
 The relationship between scintillation and ionization for a given event in LXe exhibits a well-known anti-correlation.  Applying this to the combination of those signals improves the energy resolution, shown in Fig. [ref fig anticorrelation].  This correction defines a combined energy axis, called the rotated energy.  Energy resolution is important in a $0\nu\beta\beta$ search, as it distinguished those events from $2\nu\beta\beta$ events in the tail of their spectrum.  Resolution of [???] is achieved in [ref $0\nu$ paper].
 
@@ -210,13 +210,11 @@ The final data set is fit using a combination of probability distribution functi
 \label{fig:exo200data}
 \end{figure}
 
-[ref nature] reports the most accurate measurement of the $2\nu\beta\beta$ of Xe$_{136}$ to date, at [???], and reports a limit on the half-life of $0\nu\beta\beta$ of Xe$_{136}$ of [???] at the {\color{red}95~\%} confidence level, which translates to an upper limit on the Majorana neutrino mass between [???] and [???], depending on the method of calculation for [which param?].
+[ref nature] reports the most accurate measurement of the $2\nu\beta\beta$ of $^{136}$Xe to date, at [???], and reports a limit on the half-life of $0\nu\beta\beta$ of $^{136}$Xe of [???] at the {\color{red}95~\%} confidence level, which translates to an upper limit on the Majorana neutrino mass between [???] and [???], depending on the method of calculation for [which param?].
 
 \subsection{nEXO}
 
 The next-generation successor to EXO-200 is nEXO, a tonne-scale LXe TPC which will probe Majorana neutrino masses down to the [???] scale [ref].  The sensitivity projections for nEXO are shown in Fig. \ref{fig:sensitivity_nEXO}, along with those of EXO-200.  nEXO will reach phase space where the two possible mass hierarchies begin to split; if nEXO successfully observes $0\nu\beta\beta$ in these regions, it may be able to also determine the mass hierarchy.  Barium tagging will push the sensitivity further into the region allowed only by the normal hierarchy [ref for this?].
-
-A schematic of the experimental setup is shown in Fig. [fig cryopit] in one of the possible locations for nEXO, the SNOLab cryopit.  Similar to EXO-200, the copper-housed TPC will be submerged in HFE fluid, inside a copper cryostat.  The cryostat is insulated and submerged in a large volume of water shielding.  Photo-multiplier tubes in the water tank can provide muon veto by observing Cherenkov radiation.
 
 \begin{figure}[H]
 	\centering
@@ -225,8 +223,31 @@ A schematic of the experimental setup is shown in Fig. [fig cryopit] in one of t
 \label{fig:sensitivity_nEXO}
 \end{figure}
 
-nEXO will be a single TPC with charge and light readouts at opposing ends of the TPC.  Rather than wires, nEXO will use tile electrodes for charge readout, shown in Fig. [ref fig nEXO tiles].
+A schematic of the experimental setup is shown in Fig. \ref{fig:nEXO_cryopit} in one of the possible locations for nEXO, the SNOLAB cryopit.  Similar to EXO-200, the copper-housed TPC will be submerged in HFE fluid, inside a copper cryostat.  The cryostat will be insulated and submerged in a large volume of water shielding, in which photo-multiplier tubes could provide muon veto by observing Cherenkov radiation.
+
+nEXO will be a single TPC with charge and light readouts at opposing ends of the TPC.  Rather than wires, nEXO will use tile electrodes for charge readout, shown in Fig. \ref{fig:nEXO_readout}.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.7\textwidth]{figures/nEXO_cryopit.png}
+	\caption{nEXO in the SNOLAB cryopit. }
+\label{fig:nEXO_cryopit}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.7\textwidth]{figures/nEXO_readout.png}
+	\caption{nEXO readout.}
+\label{fig:nEXO_readout}
+\end{figure}
 
 \subsection{Barium Tagging}
 
-backgrounds ... 
+The backgrounds observed around the Q-value in EXO-200 can be expected to scale up with the size of nEXO.  The power of barium tagging to veto all background events is very desirable.  
+
+Several possible techniques have been proposed.  Perhaps the most natural concept is to direct one or more lasers at the decay site to induce fluorescence of the barium daughter.  This technique was explored thoroughly by Fairbank's group, and was abandoned when reliable fluorescence of Ba\textsuperscript{+} in LXe could not be observed [ref Kendy's thesis].
+
+Another concept was to grab the daughter in SXe on a cold probe, similar to the method explored in this thesis, but to then evaporate the SXe and drift the daughter into a trap for detection in vacuum.  This method was abandoned when extraction of barium from SXe samples could not be achieved by Liang Yang's group [ref?].
+
+Two barium tagging techniques continue to be explored.  One of these is to grab the daughter on a surface, brought to the decay site by a probe, and then move it to a location where it can be desorbed by an infrared laser, and subsequently resonantly ionized by two lasers in order to detect it by time-of-flight spectroscopy {\color{red}(or other trap/detect methods?)}.  The [instrumentation paper]
+
