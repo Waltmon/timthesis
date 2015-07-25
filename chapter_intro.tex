@@ -230,7 +230,7 @@ nEXO will be a single TPC with charge and light readouts at opposing ends of the
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=.7\textwidth]{figures/nEXO_cryopit.png}
-	\caption{nEXO in the SNOLAB cryopit. }
+	\caption{nEXO in the SNOLAB cryopit. {\color{red}Needs labels}}
 \label{fig:nEXO_cryopit}
 \end{figure}
 
@@ -243,11 +243,16 @@ nEXO will be a single TPC with charge and light readouts at opposing ends of the
 
 \subsection{Barium Tagging}
 
-The backgrounds observed around the Q-value in EXO-200 can be expected to scale up with the size of nEXO.  The power of barium tagging to veto all background events is very desirable.  
+The backgrounds observed around the Q-value in EXO-200 can be expected to scale up with the size of nEXO.  But with the veto power of barium tagging, nEXO's sensitivity to $0\nu\beta\beta$ scales with the total \textsuperscript{136}Xe mass in the detector, vs. the square root of that mass without barium tagging [ref].
 
-Several possible techniques have been proposed.  Perhaps the most natural concept is to direct one or more lasers at the decay site to induce fluorescence of the barium daughter.  This technique was explored thoroughly by Fairbank's group, and was abandoned when reliable fluorescence of Ba\textsuperscript{+} in LXe could not be observed [ref Kendy's thesis].
+Several possible barium tagging techniques have been proposed.  Perhaps the most natural concept is to direct one or more lasers at the decay site to induce fluorescence of the barium daughter.  This technique was explored thoroughly by Fairbank's group, and was abandoned when reliable fluorescence of Ba\textsuperscript{+} in LXe could not be observed [ref Kendy's thesis].
 
 Another concept was to grab the daughter in SXe on a cold probe, similar to the method explored in this thesis, but to then evaporate the SXe and drift the daughter into a trap for detection in vacuum.  This method was abandoned when extraction of barium from SXe samples could not be achieved by Liang Yang's group [ref?].
 
-Two barium tagging techniques continue to be explored.  One of these is to grab the daughter on a surface, brought to the decay site by a probe, and then move it to a location where it can be desorbed by an infrared laser, and subsequently resonantly ionized by two lasers in order to detect it by time-of-flight spectroscopy {\color{red}(or other trap/detect methods?)}.  The [instrumentation paper]
+Two barium tagging techniques continue to be explored.  One of these is to grab the daughter on a surface, brought to the decay site by a probe, and then move it to a location where it can be desorbed from that surface by an infrared laser, and subsequently resonantly ionized by two lasers in order to detect it by time-of-flight spectroscopy {\color{red}(or other trap/detect methods?)}.  The apparatus for the study of this method is described in [instrumentation paper], along with some initial results.
 
+The other remaining technique for barium tagging, now the concentration of Fairbank's group and the subject of this thesis, is what we call tagging in SXe.  Here, we would send a cold probe to the site of the candidate $0\nu\beta\beta$ event in order to trap the Ba/Ba\textsuperscript{+} in a small amount of SXe, and then observe it by its laser-induced fluorescence in the SXe, a technique called matrix isolation spectroscopy.
+
+A concept for a probe is shown in Fig. [ref fig cryoprobe].  The SXe forms on a sapphire window or plug.  Sapphire is a good candidate for a substrate; it has good thermal conductivity at low temperature, is extremely transparent, and can be purified to contain low amounts of fluorescing impurities such as Cr\textsuperscript{3+}.  An excitation laser would be brought into the probe through a fiber, and aimed through the sapphire to excite the Ba/Ba\textsuperscript{+} in the SXe.  A return fiber could collect the laser reflections and used for measure the SXe thickness via interference fringes.  {\color{red}\textbf{[in the fig., label things like the fibers like (A), (B), and just say what those are in the caption]}}  The Ba/Ba\textsuperscript{+} fluorescence would then be collected by a lens/filter system and imaged onto a CCD.
+
+The next chapter describes theory relevant to single Ba/Ba\textsuperscript{+} detection in SXe matrices.
