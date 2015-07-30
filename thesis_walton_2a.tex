@@ -92,15 +92,7 @@
 
 \appendix %this switches to apppendix mode.  Now any new chapters will be appendices instead of chapters.
 
-\chapter{Supplementary Material} %this will be displayed as an appendix, not a chapter.  Appendices are at the same level in the hierarchy as chapters.
-
-make these also into separate files plz
-
-\section{Some Sample Material}
-
-Did the name for the written material come before the name of the organ? Here~\cite{infodim} is a citation in an appendix.
-
-\chapter{Another Supplement}
+%\input{appendix_a}
 
 % still missing some, like backmatter (what is that?), and bibliography:
 
@@ -115,8 +107,9 @@ Did the name for the written material come before the name of the organ? Here~\c
 % \input{anotherchapter}
 % <etc>
 % \backmatter
-% \bibliographystyle{ieeetr}
-% \bibliography{thebib}
+\newpage
+ \bibliographystyle{ieeetr}
+ \bibliography{leifbib}
 % \appendix
 % \input{thatappendix}
 % \end{document}

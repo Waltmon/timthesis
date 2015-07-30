@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.18)  25 JUL 2015 22:19
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.18)  30 JUL 2015 16:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -528,12 +528,13 @@ File: figures/BaLevs_ion.pdf Graphic file (type pdf)
 <use figures/BaLevs_ion.pdf>
 Package pdftex.def Info: figures/BaLevs_ion.pdf used on input line 11.
 (pdftex.def)             Requested size: 164.41711pt x 117.5106pt.
-) (./chapter_apparatus.tex [19
+ [19
 
 
- <./figures/BaLevs_atom.pdf> <./figures/BaLevs_ion.pdf>]
+ <./figures/BaLevs_atom.pdf> <./figures/BaLevs_ion.pdf>]) (./chapter_apparatus.
+tex [20]
 Chapter 3
-<figures/figer.png, id=125, 668.4975pt x 420.06938pt>
+<figures/figer.png, id=129, 668.4975pt x 420.06938pt>
 File: figures/figer.png Graphic file (type png)
  <use figures/figer.png>
 Package pdftex.def Info: figures/figer.png used on input line 22.
@@ -541,64 +542,47 @@ Package pdftex.def Info: figures/figer.png used on input line 22.
 
 Underfull \vbox (badness 4673) has occurred while \output is active []
 
- [20
+ [21
 
 
 ]
-[21 <./figures/figer.png>]
+[22 <./figures/figer.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [22])
-(./chapter_results.tex [23]
+ [23])
+(./chapter_results.tex [24]
 Chapter 4
-) (./chapter_conclusions.tex [24
+) (./chapter_conclusions.tex [25
 
 
 ]
 Chapter 5
-) [25
+) [26
 
 
-]
-Appendix A
-
-Package natbib Warning: Citation `infodim' on page 26 undefined on input line 1
-01.
-
-[26
-
-
-]
-Appendix B
-
-Package natbib Warning: There were undefined citations.
-
-[27
-
-
-] (./thesis_walton_2a.aux) ) 
+] (./thesis_walton_2a.bbl) [27] (./thesis_walton_2a.aux) ) 
 Here is how much of TeX's memory you used:
- 4458 strings out of 493304
- 59025 string characters out of 6139871
- 228596 words of memory out of 5000000
- 7633 multiletter control sequences out of 15000+600000
- 12192 words of font info for 47 fonts, out of 8000000 for 9000
+ 4466 strings out of 493304
+ 59148 string characters out of 6139871
+ 228611 words of memory out of 5000000
+ 7638 multiletter control sequences out of 15000+600000
+ 12791 words of font info for 49 fonts, out of 8000000 for 9000
  1118 hyphenation exceptions out of 8191
  40i,14n,35p,1378b,254s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmti8.pfb>
-Output written on thesis_walton_2a.pdf (32 pages, 3556079 bytes).
+</usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
+Output written on thesis_walton_2a.pdf (32 pages, 3559793 bytes).
 PDF statistics:
  196 PDF objects out of 1000 (max. 8388607)
  124 compressed objects within 2 object streams
