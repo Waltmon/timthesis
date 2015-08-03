@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.18)  31 JUL 2015 15:56
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.18)  2 AUG 2015 20:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -531,41 +531,44 @@ Package pdftex.def Info: figures/BaLevs_ion.pdf used on input line 11.
  [19
 
 
- <./figures/BaLevs_atom.pdf> <./figures/BaLevs_ion.pdf>]) (./chapter_apparatus.
-tex [20]
-Chapter 3
-<figures/figer.png, id=129, 668.4975pt x 420.06938pt>
-File: figures/figer.png Graphic file (type png)
- <use figures/figer.png>
-Package pdftex.def Info: figures/figer.png used on input line 22.
-(pdftex.def)             Requested size: 422.77664pt x 265.67067pt.
-
-Underfull \vbox (badness 4673) has occurred while \output is active []
-
- [21
-
-
-]
-[22 <./figures/figer.png>]
+ <./figures/BaLevs_atom.pdf> <./figures/BaLevs_ion.pdf>] [20]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [23])
-(./chapter_results.tex [24]
+ [21])
+(./chapter_apparatus.tex [22]
+Chapter 3
+[23
+
+
+] <figures/figer.png, id=139, 668.4975pt x 420.06938pt>
+File: figures/figer.png Graphic file (type png)
+
+<use figures/figer.png>
+Package pdftex.def Info: figures/figer.png used on input line 21.
+(pdftex.def)             Requested size: 422.77664pt x 265.67067pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [24 <./figures/figer.png>]
+Underfull \vbox (badness 4254) has occurred while \output is active []
+
+ [25]
+[26]) (./chapter_results.tex [27]
 Chapter 4
-) (./chapter_conclusions.tex [25
+) (./chapter_conclusions.tex [28
 
 
 ]
 Chapter 5
-) [26
+) [29
 
 
-] (./thesis_walton_2a.bbl) [27] (./thesis_walton_2a.aux) ) 
+] (./thesis_walton_2a.bbl) [30] (./thesis_walton_2a.aux) ) 
 Here is how much of TeX's memory you used:
- 4466 strings out of 493304
- 59148 string characters out of 6139871
- 228611 words of memory out of 5000000
- 7638 multiletter control sequences out of 15000+600000
+ 4467 strings out of 493304
+ 59165 string characters out of 6139871
+ 228620 words of memory out of 5000000
+ 7639 multiletter control sequences out of 15000+600000
  12791 words of font info for 49 fonts, out of 8000000 for 9000
  1118 hyphenation exceptions out of 8191
  40i,14n,35p,1378b,254s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -582,10 +585,10 @@ sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on thesis_walton_2a.pdf (32 pages, 3559794 bytes).
+Output written on thesis_walton_2a.pdf (35 pages, 3567784 bytes).
 PDF statistics:
- 196 PDF objects out of 1000 (max. 8388607)
- 124 compressed objects within 2 object streams
+ 205 PDF objects out of 1000 (max. 8388607)
+ 130 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  76 words of extra memory for PDF output out of 10000 (max. 10000000)
 
