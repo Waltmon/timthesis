@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.6.6)  4 AUG 2015 14:45
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.6.6)  4 AUG 2015 15:08
 entering extended mode
 **thesis_walton_2a.tex
 (C:\Walton\thesis\timthesis\thesis_walton_2a.tex
@@ -449,21 +449,21 @@ Package pdftex.def Info: figures/exo_200_results.png used on input line 208.
 Underfull \vbox (badness 5105) has occurred while \output is active []
 
  [14 <C:/Walton/thesis/timthesis/figures/exo_200_results.png (PNG copy)>]
-<figures/sensitivity.png, id=88, 627.09282pt x 469.00218pt>
-File: figures/sensitivity.png Graphic file (type png)
+<figures/sensitivity_v2.png, id=88, 519.44063pt x 511.15968pt>
+File: figures/sensitivity_v2.png Graphic file (type png)
 
-<use figures/sensitivity.png>
-Package pdftex.def Info: figures/sensitivity.png used on input line 221.
-(pdftex.def)             Requested size: 328.82707pt x 245.93642pt.
- [15 <C:/Walton/thesis/timthesis/figures/sensitivity.png>] <figures/nEXO_cryopi
-t.png, id=92, 519.44063pt x 615.0478pt>
+<use figures/sensitivity_v2.png>
+Package pdftex.def Info: figures/sensitivity_v2.png used on input line 221.
+(pdftex.def)             Requested size: 328.82707pt x 323.58443pt.
+ [15 <C:/Walton/thesis/timthesis/figures/sensitivity_v2.png>] <figures/nEXO_cry
+opit.png, id=93, 519.44063pt x 615.0478pt>
 File: figures/nEXO_cryopit.png Graphic file (type png)
 
 <use figures/nEXO_cryopit.png>
 Package pdftex.def Info: figures/nEXO_cryopit.png used on input line 232.
 (pdftex.def)             Requested size: 328.82707pt x 389.34976pt.
 
-<figures/nEXO_readout.png, id=93, 1064.47687pt x 606.76688pt>
+<figures/nEXO_readout.png, id=94, 1064.47687pt x 606.76688pt>
 File: figures/nEXO_readout.png Graphic file (type png)
 
 <use figures/nEXO_readout.png>
@@ -477,7 +477,7 @@ is/timthesis/figures/nEXO_readout.png>]) (C:\Walton\thesis\timthesis\chapter_th
 eory.tex
 [18]
 Chapter 2
-<figures/elevs.png, id=103, 1799.22188pt x 606.76688pt>
+<figures/elevs.png, id=104, 1799.22188pt x 606.76688pt>
 File: figures/elevs.png Graphic file (type png)
 
 <use figures/elevs.png>
@@ -496,7 +496,7 @@ Chapter 3
 [23
 
 
-] <figures/figer.png, id=122, 668.4975pt x 420.06938pt>
+] <figures/figer.png, id=123, 668.4975pt x 420.06938pt>
 File: figures/figer.png Graphic file (type png)
 
 <use figures/figer.png>
@@ -523,7 +523,7 @@ Chapter 5
 (C:\Walton\thesis\timthesis\thesis_walton_2a.aux) ) 
 Here is how much of TeX's memory you used:
  4109 strings out of 494045
- 53015 string characters out of 3148385
+ 53030 string characters out of 3148385
  215112 words of memory out of 3000000
  7145 multiletter control sequences out of 15000+200000
  12791 words of font info for 49 fonts, out of 3000000 for 9000
@@ -542,9 +542,9 @@ MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9
 ype1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
 ic/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
 nts/cm/cmti8.pfb>
-Output written on thesis_walton_2a.pdf (35 pages, 3638759 bytes).
+Output written on thesis_walton_2a.pdf (35 pages, 3790105 bytes).
 PDF statistics:
- 186 PDF objects out of 1000 (max. 8388607)
+ 187 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  71 words of extra memory for PDF output out of 10000 (max. 10000000)
 
