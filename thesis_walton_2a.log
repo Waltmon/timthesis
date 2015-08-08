@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.6.6)  6 AUG 2015 14:49
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.6.6)  7 AUG 2015 23:22
 entering extended mode
 **thesis_walton_2a.tex
 (C:\Walton\thesis\timthesis\thesis_walton_2a.tex
@@ -496,14 +496,14 @@ Chapter 3
 [23
 
 
-] <figures/ionBeam.png, id=123, 1763.83969pt x 335.75438pt>
+] <figures/ionBeam.png, id=123, 1770.615pt x 335.75438pt>
 File: figures/ionBeam.png Graphic file (type png)
 
 <use figures/ionBeam.png>
 Package pdftex.def Info: figures/ionBeam.png used on input line 21.
-(pdftex.def)             Requested size: 469.75502pt x 89.4202pt.
+(pdftex.def)             Requested size: 469.75502pt x 89.07695pt.
 
-Underfull \vbox (badness 8132) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [24 <C:/Walton/thesis/timthesis/figures/ionBeam.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -550,7 +550,7 @@ onts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmti8.pfb>
-Output written on thesis_walton_2a.pdf (36 pages, 4063754 bytes).
+Output written on thesis_walton_2a.pdf (36 pages, 4066554 bytes).
 PDF statistics:
  196 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
