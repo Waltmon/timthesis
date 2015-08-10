@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.6.6)  10 AUG 2015 12:25
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.6.6)  10 AUG 2015 15:45
 entering extended mode
 **thesis_walton_2a.tex
 (C:\Walton\thesis\timthesis\thesis_walton_2a.tex
@@ -506,12 +506,19 @@ Package pdftex.def Info: figures/ionBeam.png used on input line 21.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [24 <C:/Walton/thesis/timthesis/figures/ionBeam.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+<figures/ExB.png, id=128, 376.40625pt x 585.68813pt>
+File: figures/ExB.png Graphic file (type png)
+ <use figures/ExB.png>
+Package pdftex.def Info: figures/ExB.png used on input line 40.
+(pdftex.def)             Requested size: 140.92793pt x 219.28397pt.
 
- [25]
-[26]) (C:\Walton\thesis\timthesis\chapter_results.tex [27]
+[25 <C:/Walton/thesis/timthesis/figures/ExB.png>]
+Underfull \vbox (badness 2142) has occurred while \output is active []
+
+ [26])
+(C:\Walton\thesis\timthesis\chapter_results.tex [27]
 Chapter 4
-<figures/hole_bleach_590.png, id=138, 1218.80344pt x 225.84375pt>
+<figures/hole_bleach_590.png, id=139, 1218.80344pt x 225.84375pt>
 File: figures/hole_bleach_590.png Graphic file (type png)
 
 <use figures/hole_bleach_590.png>
@@ -529,10 +536,10 @@ Chapter 5
 
 ] [31] (C:\Walton\thesis\timthesis\thesis_walton_2a.aux) ) 
 Here is how much of TeX's memory you used:
- 4122 strings out of 494045
- 53274 string characters out of 3148385
- 215168 words of memory out of 3000000
- 7159 multiletter control sequences out of 15000+200000
+ 4128 strings out of 494045
+ 53369 string characters out of 3148385
+ 215179 words of memory out of 3000000
+ 7164 multiletter control sequences out of 15000+200000
  13100 words of font info for 50 fonts, out of 3000000 for 9000
  876 hyphenation exceptions out of 8191
  40i,14n,35p,1378b,254s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -550,9 +557,9 @@ onts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmti8.pfb>
-Output written on thesis_walton_2a.pdf (36 pages, 4066642 bytes).
+Output written on thesis_walton_2a.pdf (36 pages, 4079416 bytes).
 PDF statistics:
- 196 PDF objects out of 1000 (max. 8388607)
+ 197 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 76 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
