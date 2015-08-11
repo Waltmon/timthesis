@@ -1,29 +1,29 @@
 \chapter{Apparatus}
 
-{\color{gray}\emph{Should data results of diagnostic stuff, like Ba\textsuperscript{+} velocity (from pulses), be in this chapter?}}
-
 This chapter describes the apparatus at Colorado State University, which we have used for all described studies of Ba/Ba\textsuperscript{+} fluorescence in SXe after deposition in vacuum.  Our main barium source, the Ba\textsuperscript{+} ion beam, is first described, as well as a purely Ba neutral source.  The co-deposit of Ba/Ba\textsuperscript{+} with Xe gas onto a cold sapphire window, subsequent laser excitation, and finally the collection optics for the fluorescence, are described.
 
 \section{Ion Beam}
 
-The full ion beam is shown in Fig. [ref fig ion beam w/ circuit diagram too].  {\color{red}\emph{refer to A,B etc. in figure:  }}An E$\times$B velocity filter selects Ba\textsuperscript{+}.  Pulsing plates can be used to deposit small numbers of ions with {\color{red}2-$\mu$s} pulses, which are detected with induction plates.  The main Faraday cup detects ion current from pulsing and from continuous beam mode.  Final deflection plates tune the position of deposition toward the sapphire window.
+The full ion beam is shown in Fig. \ref{fig:ionbeam}.  This is a clean source of Ba\textsuperscript{+} which can do a very wide range of deposit sizes, from billions of ions in a focused laser region all the way down to the single-ion level {\color{gray}, and even deposits sparse enough to scan a laser over spatially separated ions (may only want to say that if we have those scans)}.
 
-\subsection{Barium Ion Source/Acceleration}
+\subsection{Ion Source/Acceleration}
 
-Ba\textsuperscript{+} ions are produced in a Colutron [type?] ion gun system [reference], as depicted in Fig. x.  A solid barium charge is placed into the hollowed end of a stainless steel rod, which is then inserted into the discharge chamber, near the hot filament.  The heated barium vaporizes, and is allowed to escape the hollowed rod around a loosely threaded set screw at the end of the rod.
+Ba\textsuperscript{+} ions are produced in a Colutron [type?] ion gun system [reference], shows Fig. [ref fig with ion source, showing Ar gas as well as Ba charge, and lens with ion path].  A solid barium charge is placed into the hollowed end of a stainless steel rod, which is then inserted into the discharge chamber, near the hot filament.  The heated barium vaporizes, and is allowed to escape the hollowed rod around a loosely threaded set screw at the end of the rod.
 
-The source is designed to produce a discharge between the anode plate and the filament cathode, through an argon buffer(?) gas leaked into the source chamber.  This controlled discharge would then also ionize atoms from the solid charge to produce the desired ion beam.  However, to avoid contamination of our solid matrix with Ar, which could affect the spectroscopy, we do not use the buffer gas in the ion source.  As a result, {\color{red}we do not know exactly where our discharge occurs -- \textbf{don't like that}}.  It may be a between the filament and anode as designed, if a Ba pressure exists in the hot source chamber, or it may occurring elsewhere.  The longevity of our ion current from a single charge suggests that Ba is coating the inner walls of the chamber and is depleted slowly.  In any case, the discharge produces a plasma, containing barium ions, which escapes the chamber through a small hole in the anode, where it enters the acceleration potential.
+The source is designed to produce a discharge between the anode plate and the filament cathode, through an argon buffer(?) gas leaked into the source chamber.  This controlled discharge would then also ionize atoms from the solid charge to produce the desired ion beam, and Ar ions are filtered out.  However, to avoid contamination of our solid matrix with Ar, we do not use the buffer gas in the ion source.  We are still able to maintain a discharge between the filament and anode circuits.  This discharge produces a plasma, containing barium ions, which escapes the chamber through a small hole in the anode, where it enters the acceleration potential.
+
+The longevity of our ion current from a single charge (at least 10s of hours) suggests that Ba is coating the inner walls of the chamber and is depleted slowly.  This is supported by the observation of white oxidation of the inner source parts after a few minutes of exposure to air.
 
 The acceleration potential is 2~kV, between the ion source anode and an aperture, which constitutes \emph{THIS IS DUMB} the first element of the acceleration Einzel lens (Fig.~\ref{fig:testfig}).  This lens approximately collimates the ion beam for passage through the E$\times$B velocity filter.
 
 \begin{figure}[H]
         \centering
                 \includegraphics[width=1.\textwidth]{figures/ionBeam.png}
-                \caption{ ... The decelerating lens is used only as an Einzel lens in this work, since all deposits are made at the beam's initial energy of 2~keV.  All deflection plates are set to constant values except the final set, which requires different tunings for peak ion current at Faraday cup 3 vs. the sapphire window.}
+                \caption{\color{red}Is the 3rd Lens 1 element really an aperture?  Label H1/V1/H2V2}
 \label{fig:ionbeam}
 \end{figure}
 
-\subsection{Velocity Filter, Lensing}
+\subsection{E$\times$B Velocity Filter}
 
 The E$\times$B velocity filter selects Ba\textsuperscript{+} by creating perpendicular electric and magnetic fields, which produce opposing forces on charged particles moving straight through the filter.  Those fields are chosen such that those forces are equal for Ba\textsuperscript{+}, according to Eqn. \ref{eqn:massfilt}:
 
@@ -44,9 +44,11 @@ Other ions will be deflected, while Ba\textsuperscript{+} will continue along th
 
 [figure with Ba+ peak, and the correction from Ar+, explain hysteresis]
 
-The decelerator lens has been used in the past for varying deposit energy, but it is not used in this work.  It and Einzel lens 2 are turned off.  Einzel Lens 3 focuses the beam onto the main Faraday cup (cup 3), which is used during experiments to measure ion current.  It is on a bellows for retraction during deposits.
+\subsection{Other Beam Components}
 
-The final set of deflection plates, H2 and V2, are also used during experiments to steer the beam for deposits.
+The first three sets of deflection plates can be used for beam diagnostics, and are set to 0~V during normal operation.  The set just before the pulsing plates, called H1 and V1, are set to constant values of {\color{red}50~V and 0~V}, respectively, which have been selected such that the beam, in both pulsing and continuous modes, can be deposited at the sapphire window for reasonable settings on the final deflection plates, H2 and V2.  As described in \ref{subsec:ionDepCal}, different settings in H2/V2 are required for peaking up on cup 3 vs. peak deposit at the window.
+
+Einzel lens 2 focuses the beam the pass through the aperture in the first element of the decelerator lens.  Einzel lens 3 is not used in this setup.  The decelerator lens can be used to vary Ba\textsuperscript{+} deposit energy, but it in this work it acts as an Einzel lens with only the second element at voltage, and it focuses the beam at Faraday cup 3 (there is no Faraday cup 2 in this setup).  Faraday cup 3 measures the ion current during experiments, and is retracted when deposits are being made.  Its use in deposit calibration is described in \ref{subsec:ionDepCal}.  Faraday cup 1 is used for beam diagnostics, and is usually retracted on its bellows.  
 
 \subsection{Ion Beam Pulsing}
 
@@ -56,7 +58,10 @@ The induction plates observe pulses during a deposit.  Pulses just prior to a de
 
 [x brand, or whatever] pre-amplifiers convert the ... [put this before scope picture?] [have a figure of the shaped plots too]
 
+Pulsing data also provides additional confirmation that the beam is composed of Ba\textsuperscript{+}.  {\color{gray}[figure and data (\textbf{may need to \emph{average} Ar+ as well as Ba+ stuff, w/ some kind of informed pulse data feature to determine velocity}) showing velocity measurement]}
+
 \subsection{Calibration of Ion Deposition}
+\label{subsec:ionDepCal}
 
 To calibrate the signal at cup 3 to an ion density at the sapphire window, another Faraday cup (cup w) can be attached to the cold finger in place of the sapphire window.  
 
@@ -69,21 +74,21 @@ Firstly, the ratio in $\frac{fC}{pulse}$ between cup 3 and cup w is measured.  T
 
 \section{Ba Getter Source}
 
-Ba "getters" are neutral Ba sources typically used to grab reactive gas molecules in purifiers and vacuum tubes.  We can use a getter as a source of neutral Ba.
+Ba getters are neutral Ba sources typically used to grab reactive gas molecules in purifiers and vacuum tubes.  We can use a getter as a source of neutral Ba.  It is very helpful to have a completely different Ba source, especially a neutral-only source, in identifying observed fluorescence peaks.  This is discussed further in \ref{subsec:peakIdentify}.
 
-...
-
-It is very helpful to have a completely different type of Ba source, to rule out any source-related quirks, e.g. source-produced impurities.
+The getter used briefly in this work is an endothermic ... getter wire ... {\color{gray}[describe it]} ... show diagram, maybe also of it in the system at same position as cup 3.
 
 \section{Solid Xenon Matrix Deposition}
 
-The final destination of the barium ions is in the solid xenon matrix, which is deposited onto a cold sapphire window.  Sapphire has good thermal conductivity, good optical transparency in the visible, and does not fluorescese in the wavelength region where barium fluoresces.  
+The final destination of the barium ions is of course in the solid xenon matrix, which is deposited onto a cold sapphire window.  Sapphire has good thermal conductivity, good optical transparency in the visible, and does not fluorescese in the wavelength region where barium fluoresces.  
 
-Xenon freezes around 73~K (?) at our pressures ($0.5$ - $1 \times 10^{-7}$~Torr), so the window is cooled to temperatures below that.  The window is held to a cold finger (Fig. 6x, picture of), cooled by a -brand- cryostat. % -brand- said {\color{red}brand}, but that had errors
+Xenon freezes around 73~K (?) at our pressures ({\color{red}$0.5$ - $1 \times 10^{-7}$~Torr ... it's lower when cold, can you determine what that is?}), so the window is cooled to temperatures below that.  The window is held to a cold finger (Fig. 6x, picture of), cooled by a -brand- cryostat. % -brand- said {\color{red}brand}, but that had errors
 
 \subsection{Deposition Procedure}
 
 Before barium ions are let through, xenon gas is allowed to flow, controlled by a leak valve, onto the cold sapphire window, where it freezes and begins growing the solid matrix.  The Faraday cup is then retracted, to clear the path for barium ions.  The cup serves as a shutter for DC deposition, or if pulsing is being used, they are performed at this time.  Barium ions land in the solid xenon as the matrix continues to grow.  The cup is then replaced, and the xenon leak stopped.
+
+\subsection{Laser Excitation}
 
 \subsection{Collection Optics}
 
