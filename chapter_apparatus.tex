@@ -19,26 +19,28 @@ The acceleration potential is 2~kV, between the ion source anode and an aperture
 \begin{figure}[H]
         \centering
                 \includegraphics[width=1.\textwidth]{figures/ionBeam.png}
-                \caption{\color{red}Is the 3rd Lens 1 element really an aperture?  Label H1/V1/H2V2}
+                \caption{Ba\textsuperscript{+} ion beam.}
 \label{fig:ionbeam}
 \end{figure}
 
 \subsection{E$\times$B Velocity Filter}
 
-The E$\times$B velocity filter selects Ba\textsuperscript{+} by creating perpendicular electric and magnetic fields, which produce opposing forces on charged particles moving straight through the filter.  Those fields are chosen such that those forces are equal for Ba\textsuperscript{+}, according to Eqn. \ref{eqn:massfilt}:
+The E$\times$B velocity filter selects Ba\textsuperscript{+} by creating perpendicular electric and magnetic fields, which produce opposing forces on charged particles moving straight through the filter.  The opposing forces will be equal for ions with velocity $v = \frac{E}{B}$.  Since ion velocity is determined by mass ($m$), charge ($q$) and beam potential ($V$), the filter selects ions satisfying Eq. \ref{eqn:massfilt}:
 
 \begin{equation}
-\sigma = 1.
+\frac{m}{q} = \frac{2 V B^{2}}{E^{2}}
 \label{eqn:massfilt}
 \end{equation}
 
 \noindent
-Other ions will be deflected, while Ba\textsuperscript{+} will continue along the beam path.  ref fig \ref{fig:exb}
+where $B$ and $E$ are the magnetic and electric fields, respectively.  Those fields are chosen such that those forces are equal for Ba\textsuperscript{+}, while other ions will be deflected.  
+
+The E$\times$B filter is shown in Fig. \ref{fig:exb}.  Electromagnets provide the vertical magnetic field.  Electrode plates and field-shaping guard rings provide the horizontal electric field.  The guard rings prevent a lensing and astigmatism effect from fringe fields of the plates \cite{Colutron}.
 
 \begin{figure}[H]
         \centering
-                \includegraphics[width=.3\textwidth]{figures/ExB.png}
-                \caption{{\color{red}Add connections maybe, like ExB underscore colutron.png (in figures folder).}}
+                \includegraphics[width=.7\textwidth]{figures/ExB.png}
+                \caption{Colutron E$\times$B ion velocity filter.}
 \label{fig:exb}
 \end{figure}
 
