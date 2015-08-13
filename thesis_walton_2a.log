@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.6.6)  12 AUG 2015 19:00
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.6.6)  13 AUG 2015 16:52
 entering extended mode
 **thesis_walton_2a.tex
 (C:\Walton\thesis\timthesis\thesis_walton_2a.tex
@@ -367,25 +367,25 @@ Underfull \vbox (badness 6016) has occurred while \output is active []
 File: figures/hierarchy_alterred.png Graphic file (type png)
 
 <use figures/hierarchy_alterred.png>
-Package pdftex.def Info: figures/hierarchy_alterred.png used on input line 78.
+Package pdftex.def Info: figures/hierarchy_alterred.png used on input line 77.
 (pdftex.def)             Requested size: 234.8775pt x 192.41393pt.
 
-Underfull \vbox (badness 1281) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
 [4 <C:/Walton/thesis/timthesis/figures/hierarchy_alterred.png>]
-<figures/feynman_2nu_quarks.png, id=45, 526.96875pt x 637.63219pt>
+<figures/feynman_2nu_quarks.png, id=44, 526.96875pt x 637.63219pt>
 File: figures/feynman_2nu_quarks.png Graphic file (type png)
 
 <use figures/feynman_2nu_quarks.png>
-Package pdftex.def Info: figures/feynman_2nu_quarks.png used on input line 99.
+Package pdftex.def Info: figures/feynman_2nu_quarks.png used on input line 98.
 (pdftex.def)             Requested size: 164.41711pt x 198.94823pt.
 
-<figures/feynman_0nu_quarks.png, id=46, 526.96875pt x 637.63219pt>
+<figures/feynman_0nu_quarks.png, id=45, 526.96875pt x 637.63219pt>
 File: figures/feynman_0nu_quarks.png Graphic file (type png)
 
 <use figures/feynman_0nu_quarks.png>
-Package pdftex.def Info: figures/feynman_0nu_quarks.png used on input line 103.
+Package pdftex.def Info: figures/feynman_0nu_quarks.png used on input line 102.
 
 (pdftex.def)             Requested size: 164.41711pt x 198.94823pt.
 
@@ -393,49 +393,49 @@ Underfull \vbox (badness 4013) has occurred while \output is active []
 
  [5 <C:/Walton/thesis/timthesis/figures/feynman_2nu_quarks.png> <C:/Walton/thes
 is/timthesis/figures/feynman_0nu_quarks.png>]
-<figures/spectrum_bb.png, id=52, 434.37282pt x 289.08pt>
+<figures/spectrum_bb.png, id=51, 434.37282pt x 289.08pt>
 File: figures/spectrum_bb.png Graphic file (type png)
 
 <use figures/spectrum_bb.png>
-Package pdftex.def Info: figures/spectrum_bb.png used on input line 128.
+Package pdftex.def Info: figures/spectrum_bb.png used on input line 127.
 (pdftex.def)             Requested size: 328.82707pt x 218.85175pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6]
 [7 <C:/Walton/thesis/timthesis/figures/spectrum_bb.png>] [8]
-<figures/cleanroom.png, id=64, 851.43094pt x 587.94656pt>
+<figures/cleanroom.png, id=63, 851.43094pt x 587.94656pt>
 File: figures/cleanroom.png Graphic file (type png)
 
 <use figures/cleanroom.png>
-Package pdftex.def Info: figures/cleanroom.png used on input line 160.
+Package pdftex.def Info: figures/cleanroom.png used on input line 159.
 (pdftex.def)             Requested size: 328.82707pt x 227.07335pt.
 
-<figures/TPC.png, id=65, 563.10374pt x 538.26094pt>
+<figures/TPC.png, id=64, 563.10374pt x 538.26094pt>
 File: figures/TPC.png Graphic file (type png)
  <use figures/TPC.png>
-Package pdftex.def Info: figures/TPC.png used on input line 169.
+Package pdftex.def Info: figures/TPC.png used on input line 168.
 (pdftex.def)             Requested size: 328.82707pt x 314.31877pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9 <C:/Walton/thesis/timthesis/figures/cleanroom.png>]
-<figures/TPCphoto.jpeg, id=69, 2055.68pt x 1541.76pt>
+<figures/TPCphoto.jpeg, id=68, 2055.68pt x 1541.76pt>
 File: figures/TPCphoto.jpeg Graphic file (type jpg)
 
 <use figures/TPCphoto.jpeg>
-Package pdftex.def Info: figures/TPCphoto.jpeg used on input line 178.
+Package pdftex.def Info: figures/TPCphoto.jpeg used on input line 177.
 (pdftex.def)             Requested size: 328.82707pt x 246.61606pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [10 <C:/Walton/thesis/timthesis/figures/TPC.png>]
-<figures/anodecathodedriftcharges.png, id=73, 722.7pt x 542.025pt>
+<figures/anodecathodedriftcharges.png, id=72, 722.7pt x 542.025pt>
 File: figures/anodecathodedriftcharges.png Graphic file (type png)
 
 <use figures/anodecathodedriftcharges.png>
 Package pdftex.def Info: figures/anodecathodedriftcharges.png used on input lin
-e 187.
+e 186.
 (pdftex.def)             Requested size: 328.82707pt x 246.62175pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -447,25 +447,25 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [13]
-<figures/exo_200_results.png, id=83, 943.525pt x 825.0825pt>
+<figures/exo_200_results.png, id=82, 943.525pt x 825.0825pt>
 File: figures/exo_200_results.png Graphic file (type png)
 
 <use figures/exo_200_results.png>
-Package pdftex.def Info: figures/exo_200_results.png used on input line 210.
+Package pdftex.def Info: figures/exo_200_results.png used on input line 209.
 (pdftex.def)             Requested size: 328.82707pt x 287.54941pt.
 
 Underfull \vbox (badness 5105) has occurred while \output is active []
 
  [14 <C:/Walton/thesis/timthesis/figures/exo_200_results.png (PNG copy)>]
-<figures/sensitivity_v2.png, id=88, 519.44063pt x 511.15968pt>
+<figures/sensitivity_v2.png, id=87, 519.44063pt x 511.15968pt>
 File: figures/sensitivity_v2.png Graphic file (type png)
 
 <use figures/sensitivity_v2.png>
-Package pdftex.def Info: figures/sensitivity_v2.png used on input line 223.
+Package pdftex.def Info: figures/sensitivity_v2.png used on input line 222.
 (pdftex.def)             Requested size: 328.82707pt x 323.58443pt.
 
 ! Text line contains an invalid character.
-l.225 ...5Â°, and $\theta$13=0Â° and the $\Delta$
+l.224 ...5Â°, and $\theta$13=0Â° and the $\Delta$
                                                   m2s
 A funny symbol that I can't read has just been input.
 Continue, and I'll forget that it ever happened.
@@ -477,18 +477,18 @@ Missing character: There is no ° in font cmr12!
 Missing character: There is no Â in font cmr12!
 Missing character: There is no ° in font cmr12!
 [15 <C:/Walton/thesis/timthesis/figures/sensitivity_v2.png>]
-<figures/nEXO_cryopit.png, id=93, 519.44063pt x 615.0478pt>
+<figures/nEXO_cryopit.png, id=92, 519.44063pt x 615.0478pt>
 File: figures/nEXO_cryopit.png Graphic file (type png)
 
 <use figures/nEXO_cryopit.png>
-Package pdftex.def Info: figures/nEXO_cryopit.png used on input line 236.
+Package pdftex.def Info: figures/nEXO_cryopit.png used on input line 235.
 (pdftex.def)             Requested size: 328.82707pt x 389.34976pt.
 
-<figures/nEXO_readout.png, id=94, 1064.47687pt x 606.76688pt>
+<figures/nEXO_readout.png, id=93, 1064.47687pt x 606.76688pt>
 File: figures/nEXO_readout.png Graphic file (type png)
 
 <use figures/nEXO_readout.png>
-Package pdftex.def Info: figures/nEXO_readout.png used on input line 243.
+Package pdftex.def Info: figures/nEXO_readout.png used on input line 242.
 (pdftex.def)             Requested size: 328.82707pt x 187.42917pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -498,7 +498,7 @@ is/timthesis/figures/nEXO_readout.png>]) (C:\Walton\thesis\timthesis\chapter_th
 eory.tex
 [18]
 Chapter 2
-<figures/elevs.png, id=104, 1799.22188pt x 606.76688pt>
+<figures/elevs.png, id=103, 1799.22188pt x 606.76688pt>
 File: figures/elevs.png Graphic file (type png)
 
 <use figures/elevs.png>
@@ -575,7 +575,7 @@ s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2
 ype1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
 lic/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
 nts/cm/cmti12.pfb>
-Output written on thesis_walton_2a.pdf (37 pages, 4094101 bytes).
+Output written on thesis_walton_2a.pdf (37 pages, 4095006 bytes).
 PDF statistics:
  204 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
