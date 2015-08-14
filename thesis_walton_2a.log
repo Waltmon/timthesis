@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.6.6)  14 AUG 2015 10:25
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.6.6)  14 AUG 2015 15:17
 entering extended mode
 **thesis_walton_2a.tex
 (C:\Walton\thesis\timthesis\thesis_walton_2a.tex
@@ -371,14 +371,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
 [4 <C:/Walton/thesis/timthesis/figures/hierarchy_alterred.png>]
-<figures/feynman_2nu_quarks.png, id=44, 526.96875pt x 637.63219pt>
+<figures/feynman_2nu_quarks.png, id=43, 526.96875pt x 637.63219pt>
 File: figures/feynman_2nu_quarks.png Graphic file (type png)
 
 <use figures/feynman_2nu_quarks.png>
 Package pdftex.def Info: figures/feynman_2nu_quarks.png used on input line 99.
 (pdftex.def)             Requested size: 164.41711pt x 198.94823pt.
 
-<figures/feynman_0nu_quarks.png, id=45, 526.96875pt x 637.63219pt>
+<figures/feynman_0nu_quarks.png, id=44, 526.96875pt x 637.63219pt>
 File: figures/feynman_0nu_quarks.png Graphic file (type png)
 
 <use figures/feynman_0nu_quarks.png>
@@ -393,7 +393,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6 <C:/Walton/thesis/timthesis/figures/feynman_2nu_quarks.png> <C:/Walton/thes
 is/timthesis/figures/feynman_0nu_quarks.png>]
-<figures/spectrum_bb.png, id=54, 434.37282pt x 289.08pt>
+<figures/spectrum_bb.png, id=53, 434.37282pt x 289.08pt>
 File: figures/spectrum_bb.png Graphic file (type png)
 
 <use figures/spectrum_bb.png>
@@ -403,7 +403,7 @@ Package pdftex.def Info: figures/spectrum_bb.png used on input line 128.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7 <C:/Walton/thesis/timthesis/figures/spectrum_bb.png>] [8]
-<figures/cleanroom.png, id=63, 851.43094pt x 587.94656pt>
+<figures/cleanroom.png, id=62, 851.43094pt x 587.94656pt>
 File: figures/cleanroom.png Graphic file (type png)
 
 <use figures/cleanroom.png>
@@ -413,7 +413,7 @@ Package pdftex.def Info: figures/cleanroom.png used on input line 160.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9]
-<figures/TPC.png, id=67, 563.10374pt x 538.26094pt>
+<figures/TPC.png, id=66, 563.10374pt x 538.26094pt>
 File: figures/TPC.png Graphic file (type png)
  <use figures/TPC.png>
 Package pdftex.def Info: figures/TPC.png used on input line 169.
@@ -552,11 +552,11 @@ Missing character: There is no “ in font cmr12!
 Here is how much of TeX's memory you used:
  4192 strings out of 494045
  54314 string characters out of 3148385
- 216919 words of memory out of 3000000
+ 216955 words of memory out of 3000000
  7224 multiletter control sequences out of 15000+200000
  13107 words of font info for 50 fonts, out of 3000000 for 9000
  876 hyphenation exceptions out of 8191
- 40i,14n,35p,1378b,254s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 40i,14n,35p,1378b,237s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKT
 eX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
@@ -571,7 +571,7 @@ gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files
 pe1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
 ic/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
 ts/cm/cmti12.pfb>
-Output written on thesis_walton_2a.pdf (38 pages, 4096576 bytes).
+Output written on thesis_walton_2a.pdf (38 pages, 4096435 bytes).
 PDF statistics:
  207 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
