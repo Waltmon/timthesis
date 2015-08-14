@@ -1,2 +1,7 @@
 joule thompson vs other normal one (cryogenic He gas?)
 why does He heat at some parameters?
+
+on sensitivity plot:
+"To make this plot we used the best fit values of the mixing
+	angles $\theta$sol=33.9°, $\theta$atm=45°, and $\theta$13=0° and the $\Delta$m2s
+	(Table I)" from review bb Rev...pdf (2008)

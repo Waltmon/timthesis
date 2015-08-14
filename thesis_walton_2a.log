@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.6.6)  13 AUG 2015 16:52
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.6.6)  14 AUG 2015 10:25
 entering extended mode
 **thesis_walton_2a.tex
 (C:\Walton\thesis\timthesis\thesis_walton_2a.tex
@@ -353,21 +353,18 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
+[2]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
-
-Underfull \vbox (badness 6016) has occurred while \output is active []
-
- [2]
-<figures/hierarchy_alterred.png, id=31, 337.26pt x 276.28218pt>
+ <figures/hierarchy_alterred.png, id=31, 337.26pt x 276.28218pt>
 File: figures/hierarchy_alterred.png Graphic file (type png)
 
 <use figures/hierarchy_alterred.png>
-Package pdftex.def Info: figures/hierarchy_alterred.png used on input line 77.
+Package pdftex.def Info: figures/hierarchy_alterred.png used on input line 78.
 (pdftex.def)             Requested size: 234.8775pt x 192.41393pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -378,162 +375,154 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: figures/feynman_2nu_quarks.png Graphic file (type png)
 
 <use figures/feynman_2nu_quarks.png>
-Package pdftex.def Info: figures/feynman_2nu_quarks.png used on input line 98.
+Package pdftex.def Info: figures/feynman_2nu_quarks.png used on input line 99.
 (pdftex.def)             Requested size: 164.41711pt x 198.94823pt.
 
 <figures/feynman_0nu_quarks.png, id=45, 526.96875pt x 637.63219pt>
 File: figures/feynman_0nu_quarks.png Graphic file (type png)
 
 <use figures/feynman_0nu_quarks.png>
-Package pdftex.def Info: figures/feynman_0nu_quarks.png used on input line 102.
+Package pdftex.def Info: figures/feynman_0nu_quarks.png used on input line 103.
 
 (pdftex.def)             Requested size: 164.41711pt x 198.94823pt.
 
-Underfull \vbox (badness 4013) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5 <C:/Walton/thesis/timthesis/figures/feynman_2nu_quarks.png> <C:/Walton/thes
+ [5]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6 <C:/Walton/thesis/timthesis/figures/feynman_2nu_quarks.png> <C:/Walton/thes
 is/timthesis/figures/feynman_0nu_quarks.png>]
-<figures/spectrum_bb.png, id=51, 434.37282pt x 289.08pt>
+<figures/spectrum_bb.png, id=54, 434.37282pt x 289.08pt>
 File: figures/spectrum_bb.png Graphic file (type png)
 
 <use figures/spectrum_bb.png>
-Package pdftex.def Info: figures/spectrum_bb.png used on input line 127.
+Package pdftex.def Info: figures/spectrum_bb.png used on input line 128.
 (pdftex.def)             Requested size: 328.82707pt x 218.85175pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [6]
-[7 <C:/Walton/thesis/timthesis/figures/spectrum_bb.png>] [8]
+ [7 <C:/Walton/thesis/timthesis/figures/spectrum_bb.png>] [8]
 <figures/cleanroom.png, id=63, 851.43094pt x 587.94656pt>
 File: figures/cleanroom.png Graphic file (type png)
 
 <use figures/cleanroom.png>
-Package pdftex.def Info: figures/cleanroom.png used on input line 159.
+Package pdftex.def Info: figures/cleanroom.png used on input line 160.
 (pdftex.def)             Requested size: 328.82707pt x 227.07335pt.
 
-<figures/TPC.png, id=64, 563.10374pt x 538.26094pt>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9]
+<figures/TPC.png, id=67, 563.10374pt x 538.26094pt>
 File: figures/TPC.png Graphic file (type png)
  <use figures/TPC.png>
-Package pdftex.def Info: figures/TPC.png used on input line 168.
+Package pdftex.def Info: figures/TPC.png used on input line 169.
 (pdftex.def)             Requested size: 328.82707pt x 314.31877pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [9 <C:/Walton/thesis/timthesis/figures/cleanroom.png>]
-<figures/TPCphoto.jpeg, id=68, 2055.68pt x 1541.76pt>
+ [10 <C:/Walton/thesis/timthesis/figures/cleanroom.png>]
+<figures/TPCphoto.jpeg, id=71, 2055.68pt x 1541.76pt>
 File: figures/TPCphoto.jpeg Graphic file (type jpg)
 
 <use figures/TPCphoto.jpeg>
-Package pdftex.def Info: figures/TPCphoto.jpeg used on input line 177.
+Package pdftex.def Info: figures/TPCphoto.jpeg used on input line 178.
 (pdftex.def)             Requested size: 328.82707pt x 246.61606pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [10 <C:/Walton/thesis/timthesis/figures/TPC.png>]
-<figures/anodecathodedriftcharges.png, id=72, 722.7pt x 542.025pt>
+ [11 <C:/Walton/thesis/timthesis/figures/TPC.png>]
+<figures/anodecathodedriftcharges.png, id=75, 722.7pt x 542.025pt>
 File: figures/anodecathodedriftcharges.png Graphic file (type png)
 
 <use figures/anodecathodedriftcharges.png>
 Package pdftex.def Info: figures/anodecathodedriftcharges.png used on input lin
-e 186.
+e 187.
 (pdftex.def)             Requested size: 328.82707pt x 246.62175pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [11 <C:/Walton/thesis/timthesis/figures/TPCphoto.jpeg>]
+ [12 <C:/Walton/thesis/timthesis/figures/TPCphoto.jpeg>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [12 <C:/Walton/thesis/timthesis/figures/anodecathodedriftcharges.png>]
+ [13 <C:/Walton/thesis/timthesis/figures/anodecathodedriftcharges.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13]
-<figures/exo_200_results.png, id=82, 943.525pt x 825.0825pt>
+ [14]
+<figures/exo_200_results.png, id=86, 943.525pt x 825.0825pt>
 File: figures/exo_200_results.png Graphic file (type png)
 
 <use figures/exo_200_results.png>
-Package pdftex.def Info: figures/exo_200_results.png used on input line 209.
+Package pdftex.def Info: figures/exo_200_results.png used on input line 210.
 (pdftex.def)             Requested size: 328.82707pt x 287.54941pt.
 
 Underfull \vbox (badness 5105) has occurred while \output is active []
 
- [14 <C:/Walton/thesis/timthesis/figures/exo_200_results.png (PNG copy)>]
-<figures/sensitivity_v2.png, id=87, 519.44063pt x 511.15968pt>
+ [15 <C:/Walton/thesis/timthesis/figures/exo_200_results.png (PNG copy)>]
+<figures/sensitivity_v2.png, id=90, 519.44063pt x 511.15968pt>
 File: figures/sensitivity_v2.png Graphic file (type png)
 
 <use figures/sensitivity_v2.png>
-Package pdftex.def Info: figures/sensitivity_v2.png used on input line 222.
+Package pdftex.def Info: figures/sensitivity_v2.png used on input line 223.
 (pdftex.def)             Requested size: 328.82707pt x 323.58443pt.
-
-! Text line contains an invalid character.
-l.224 ...5Â°, and $\theta$13=0Â° and the $\Delta$
-                                                  m2s
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Missing character: There is no Â in font cmr12!
-Missing character: There is no ° in font cmr12!
-Missing character: There is no Â in font cmr12!
-Missing character: There is no ° in font cmr12!
-Missing character: There is no Â in font cmr12!
-Missing character: There is no ° in font cmr12!
-[15 <C:/Walton/thesis/timthesis/figures/sensitivity_v2.png>]
-<figures/nEXO_cryopit.png, id=92, 519.44063pt x 615.0478pt>
+ [16 <C:/Walton/thesis/timthesis/figures/sensitivity_v2.png>] <figures/nEXO_cry
+opit.png, id=95, 519.44063pt x 615.0478pt>
 File: figures/nEXO_cryopit.png Graphic file (type png)
 
 <use figures/nEXO_cryopit.png>
-Package pdftex.def Info: figures/nEXO_cryopit.png used on input line 235.
+Package pdftex.def Info: figures/nEXO_cryopit.png used on input line 234.
 (pdftex.def)             Requested size: 328.82707pt x 389.34976pt.
 
-<figures/nEXO_readout.png, id=93, 1064.47687pt x 606.76688pt>
+<figures/nEXO_readout.png, id=96, 1064.47687pt x 606.76688pt>
 File: figures/nEXO_readout.png Graphic file (type png)
 
 <use figures/nEXO_readout.png>
-Package pdftex.def Info: figures/nEXO_readout.png used on input line 242.
+Package pdftex.def Info: figures/nEXO_readout.png used on input line 241.
 (pdftex.def)             Requested size: 328.82707pt x 187.42917pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [16 <C:/Walton/thesis/timthesis/figures/nEXO_cryopit.png>] [17 <C:/Walton/thes
+ [17 <C:/Walton/thesis/timthesis/figures/nEXO_cryopit.png>] [18 <C:/Walton/thes
 is/timthesis/figures/nEXO_readout.png>]) (C:\Walton\thesis\timthesis\chapter_th
 eory.tex
-[18]
+[19]
 Chapter 2
-<figures/elevs.png, id=103, 1799.22188pt x 606.76688pt>
+<figures/elevs.png, id=106, 1799.22188pt x 606.76688pt>
 File: figures/elevs.png Graphic file (type png)
 
 <use figures/elevs.png>
 Package pdftex.def Info: figures/elevs.png used on input line 11.
 (pdftex.def)             Requested size: 422.77664pt x 142.57172pt.
- [19
+ [20
 
 
  <C:/Walton/thesis/timthesis/figures/elevs.png>]
-[20]
+[21]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [21])
-(C:\Walton\thesis\timthesis\chapter_apparatus.tex [22]
+ [22])
+(C:\Walton\thesis\timthesis\chapter_apparatus.tex [23]
 Chapter 3
-[23
+[24
 
 
-] <figures/ionBeam.png, id=122, 1770.615pt x 335.75438pt>
+] <figures/ionBeam.png, id=125, 1770.615pt x 335.75438pt>
 File: figures/ionBeam.png Graphic file (type png)
 
 <use figures/ionBeam.png>
 Package pdftex.def Info: figures/ionBeam.png used on input line 21.
 (pdftex.def)             Requested size: 469.75502pt x 89.07695pt.
- [24 <C:/Walton/thesis/timthesis/figures/ionBeam.png>] <figures/ExB.png, id=127
+ [25 <C:/Walton/thesis/timthesis/figures/ionBeam.png>] <figures/ExB.png, id=130
 , 730.98094pt x 585.68813pt>
 File: figures/ExB.png Graphic file (type png)
  <use figures/ExB.png>
 Package pdftex.def Info: figures/ExB.png used on input line 42.
 (pdftex.def)             Requested size: 328.82707pt x 263.46785pt.
 
-[25 <C:/Walton/thesis/timthesis/figures/ExB.png>] [26] [27])
-(C:\Walton\thesis\timthesis\chapter_results.tex [28]
+[26 <C:/Walton/thesis/timthesis/figures/ExB.png>] [27] [28])
+(C:\Walton\thesis\timthesis\chapter_results.tex [29]
 Chapter 4
-<figures/hole_bleach_590.png, id=143, 1218.80344pt x 225.84375pt>
+<figures/hole_bleach_590.png, id=146, 1218.80344pt x 225.84375pt>
 File: figures/hole_bleach_590.png Graphic file (type png)
 
 <use figures/hole_bleach_590.png>
@@ -542,42 +531,49 @@ Package pdftex.def Info: figures/hole_bleach_590.png used on input line 22.
 
 Underfull \vbox (badness 2698) has occurred while \output is active []
 
- [29
+ [30
 
 
 ])
-(C:\Walton\thesis\timthesis\chapter_conclusions.tex [30 <C:/Walton/thesis/timth
+(C:\Walton\thesis\timthesis\chapter_conclusions.tex [31 <C:/Walton/thesis/timth
 esis/figures/hole_bleach_590.png>]
 Chapter 5
-) [31
+) [32
 
 
-] [32] (C:\Walton\thesis\timthesis\thesis_walton_2a.aux) ) 
+]
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+ [33] (C:\Walton\thesis\timthesis\thesis_walton_2a.aux) ) 
 Here is how much of TeX's memory you used:
- 4183 strings out of 494045
- 54167 string characters out of 3148385
- 215871 words of memory out of 3000000
- 7215 multiletter control sequences out of 15000+200000
+ 4192 strings out of 494045
+ 54314 string characters out of 3148385
+ 216919 words of memory out of 3000000
+ 7224 multiletter control sequences out of 15000+200000
  13107 words of font info for 50 fonts, out of 3000000 for 9000
  876 hyphenation exceptions out of 8191
  40i,14n,35p,1378b,254s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.p
-fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/cm/cmti12.pfb>
-Output written on thesis_walton_2a.pdf (37 pages, 4095006 bytes).
+<C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmti12.pfb>
+Output written on thesis_walton_2a.pdf (38 pages, 4096576 bytes).
 PDF statistics:
- 204 PDF objects out of 1000 (max. 8388607)
+ 207 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
