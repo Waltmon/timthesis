@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.18)  15 AUG 2015 09:42
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.18)  15 AUG 2015 12:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -416,149 +416,143 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: figures/feynman_2nu_quarks.png Graphic file (type png)
 
 <use figures/feynman_2nu_quarks.png>
-Package pdftex.def Info: figures/feynman_2nu_quarks.png used on input line 99.
+Package pdftex.def Info: figures/feynman_2nu_quarks.png used on input line 95.
 (pdftex.def)             Requested size: 164.41711pt x 198.94823pt.
 
 <figures/feynman_0nu_quarks.png, id=45, 526.96875pt x 637.63219pt>
 File: figures/feynman_0nu_quarks.png Graphic file (type png)
 
 <use figures/feynman_0nu_quarks.png>
-Package pdftex.def Info: figures/feynman_0nu_quarks.png used on input line 103.
-
+Package pdftex.def Info: figures/feynman_0nu_quarks.png used on input line 99.
 (pdftex.def)             Requested size: 164.41711pt x 198.94823pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [5]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [6 <./figures/feynman_2nu_quarks.png> <./figures/feynman_0nu_quarks.png>]
-<figures/spectrum_bb.png, id=54, 434.37282pt x 289.08pt>
+ [5 <./figures/feynman_2nu_quarks.png> <./figures/feynman_0nu_quarks.png>]
+<figures/spectrum_bb.png, id=51, 434.37282pt x 289.08pt>
 File: figures/spectrum_bb.png Graphic file (type png)
 
 <use figures/spectrum_bb.png>
-Package pdftex.def Info: figures/spectrum_bb.png used on input line 128.
+Package pdftex.def Info: figures/spectrum_bb.png used on input line 124.
 (pdftex.def)             Requested size: 328.82707pt x 218.85175pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7 <./figures/spectrum_bb.png>] [8]
-<figures/cleanroom.png, id=63, 851.43094pt x 587.94656pt>
+ [6]
+[7 <./figures/spectrum_bb.png>]
+<figures/cleanroom.png, id=59, 851.43094pt x 587.94656pt>
 File: figures/cleanroom.png Graphic file (type png)
 
 <use figures/cleanroom.png>
-Package pdftex.def Info: figures/cleanroom.png used on input line 160.
+Package pdftex.def Info: figures/cleanroom.png used on input line 156.
 (pdftex.def)             Requested size: 328.82707pt x 227.07335pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [9]
-<figures/TPC.png, id=67, 563.10374pt x 538.26094pt>
+ [8]
+<figures/TPC.png, id=64, 563.10374pt x 538.26094pt>
 File: figures/TPC.png Graphic file (type png)
  <use figures/TPC.png>
-Package pdftex.def Info: figures/TPC.png used on input line 169.
+Package pdftex.def Info: figures/TPC.png used on input line 165.
 (pdftex.def)             Requested size: 328.82707pt x 314.31877pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [10 <./figures/cleanroom.png>] <figures/TPCphoto.jpeg, id=72, 2055.68pt x 1541
-.76pt>
+ [9 <./figures/cleanroom.png>] <figures/TPCphoto.jpeg, id=69, 2055.68pt x 1541.
+76pt>
 File: figures/TPCphoto.jpeg Graphic file (type jpg)
 
 <use figures/TPCphoto.jpeg>
-Package pdftex.def Info: figures/TPCphoto.jpeg used on input line 178.
+Package pdftex.def Info: figures/TPCphoto.jpeg used on input line 174.
 (pdftex.def)             Requested size: 328.82707pt x 246.61606pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [11 <./figures/TPC.png>]
-<figures/anodecathodedriftcharges.png, id=76, 722.7pt x 542.025pt>
+ [10 <./figures/TPC.png>]
+<figures/anodecathodedriftcharges.png, id=73, 722.7pt x 542.025pt>
 File: figures/anodecathodedriftcharges.png Graphic file (type png)
 
 <use figures/anodecathodedriftcharges.png>
 Package pdftex.def Info: figures/anodecathodedriftcharges.png used on input lin
-e 187.
+e 183.
 (pdftex.def)             Requested size: 328.82707pt x 246.62175pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [12 <./figures/TPCphoto.jpeg>]
+ [11 <./figures/TPCphoto.jpeg>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13 <./figures/anodecathodedriftcharges.png>]
+ [12 <./figures/anodecathodedriftcharges.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [14]
-<figures/exo_200_results.png, id=87, 943.525pt x 825.0825pt>
+ [13]
+<figures/exo_200_results.png, id=83, 943.525pt x 825.0825pt>
 File: figures/exo_200_results.png Graphic file (type png)
 
 <use figures/exo_200_results.png>
-Package pdftex.def Info: figures/exo_200_results.png used on input line 210.
+Package pdftex.def Info: figures/exo_200_results.png used on input line 206.
 (pdftex.def)             Requested size: 328.82707pt x 287.54941pt.
 
 Underfull \vbox (badness 5105) has occurred while \output is active []
 
- [15 <./figures/exo_200_results.png (PNG copy)>]
-<figures/sensitivity_v2.png, id=91, 519.44063pt x 511.15968pt>
+ [14 <./figures/exo_200_results.png (PNG copy)>]
+<figures/sensitivity_v2.png, id=88, 519.44063pt x 511.15968pt>
 File: figures/sensitivity_v2.png Graphic file (type png)
 
 <use figures/sensitivity_v2.png>
-Package pdftex.def Info: figures/sensitivity_v2.png used on input line 223.
+Package pdftex.def Info: figures/sensitivity_v2.png used on input line 219.
 (pdftex.def)             Requested size: 328.82707pt x 323.58443pt.
- [16 <./figures/sensitivity_v2.png>]
-<figures/nEXO_cryopit.png, id=96, 519.44063pt x 615.0478pt>
+ [15 <./figures/sensitivity_v2.png>]
+<figures/nEXO_cryopit.png, id=93, 519.44063pt x 615.0478pt>
 File: figures/nEXO_cryopit.png Graphic file (type png)
 
 <use figures/nEXO_cryopit.png>
-Package pdftex.def Info: figures/nEXO_cryopit.png used on input line 234.
+Package pdftex.def Info: figures/nEXO_cryopit.png used on input line 230.
 (pdftex.def)             Requested size: 328.82707pt x 389.34976pt.
 
-<figures/nEXO_readout.png, id=97, 1064.47687pt x 606.76688pt>
+<figures/nEXO_readout.png, id=94, 1064.47687pt x 606.76688pt>
 File: figures/nEXO_readout.png Graphic file (type png)
 
 <use figures/nEXO_readout.png>
-Package pdftex.def Info: figures/nEXO_readout.png used on input line 241.
+Package pdftex.def Info: figures/nEXO_readout.png used on input line 237.
 (pdftex.def)             Requested size: 328.82707pt x 187.42917pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [17 <./figures/nEXO_cryopit.png>] [18 <./figures/nEXO_readout.png>])
-(./chapter_theory.tex [19]
+ [16 <./figures/nEXO_cryopit.png>] [17 <./figures/nEXO_readout.png>])
+(./chapter_theory.tex [18]
 Chapter 2
-<figures/elevs.png, id=107, 1799.22188pt x 606.76688pt>
+<figures/elevs.png, id=104, 1799.22188pt x 606.76688pt>
 File: figures/elevs.png Graphic file (type png)
 
 <use figures/elevs.png>
 Package pdftex.def Info: figures/elevs.png used on input line 11.
 (pdftex.def)             Requested size: 422.77664pt x 142.57172pt.
- [20
+ [19
 
 
- <./figures/elevs.png>] [21]
+ <./figures/elevs.png>] [20]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [22])
-(./chapter_apparatus.tex [23]
+ [21])
+(./chapter_apparatus.tex [22]
 Chapter 3
-[24
+[23
 
 
-] <figures/ionBeam.png, id=126, 1770.615pt x 335.75438pt>
+] <figures/ionBeam.png, id=123, 1770.615pt x 335.75438pt>
 File: figures/ionBeam.png Graphic file (type png)
 
 <use figures/ionBeam.png>
 Package pdftex.def Info: figures/ionBeam.png used on input line 21.
 (pdftex.def)             Requested size: 469.75502pt x 89.07695pt.
- [25 <./figures/ionBeam.png>]
-<figures/ExB.png, id=131, 730.98094pt x 585.68813pt>
+ [24 <./figures/ionBeam.png>]
+<figures/ExB.png, id=128, 730.98094pt x 585.68813pt>
 File: figures/ExB.png Graphic file (type png)
  <use figures/ExB.png>
 Package pdftex.def Info: figures/ExB.png used on input line 42.
 (pdftex.def)             Requested size: 328.82707pt x 263.46785pt.
 
-[26 <./figures/ExB.png>] [27] [28]) (./chapter_results.tex [29]
+[25 <./figures/ExB.png>] [26] [27]) (./chapter_results.tex [28]
 Chapter 4
-<figures/hole_bleach_590.png, id=147, 1218.80344pt x 225.84375pt>
+<figures/hole_bleach_590.png, id=144, 1218.80344pt x 225.84375pt>
 File: figures/hole_bleach_590.png Graphic file (type png)
 
 <use figures/hole_bleach_590.png>
@@ -567,13 +561,13 @@ Package pdftex.def Info: figures/hole_bleach_590.png used on input line 22.
 
 Underfull \vbox (badness 2698) has occurred while \output is active []
 
- [30
+ [29
 
 
 ])
-(./chapter_conclusions.tex [31 <./figures/hole_bleach_590.png>]
+(./chapter_conclusions.tex [30 <./figures/hole_bleach_590.png>]
 Chapter 5
-) [32
+) [31
 
 
 ]
@@ -583,15 +577,15 @@ Missing character: There is no “ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
- [33] (./thesis_walton_2a.aux) ) 
+ [32] (./thesis_walton_2a.aux) ) 
 Here is how much of TeX's memory you used:
  4545 strings out of 493304
  60371 string characters out of 6139871
- 230528 words of memory out of 5000000
+ 230527 words of memory out of 5000000
  7714 multiletter control sequences out of 15000+600000
  13107 words of font info for 50 fonts, out of 8000000 for 9000
  1118 hyphenation exceptions out of 8191
- 40i,14n,35p,1378b,237s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,14n,35p,1364b,237s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
@@ -606,10 +600,10 @@ onts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmti12.pfb>
-Output written on thesis_walton_2a.pdf (38 pages, 4074682 bytes).
+Output written on thesis_walton_2a.pdf (37 pages, 4073817 bytes).
 PDF statistics:
- 210 PDF objects out of 1000 (max. 8388607)
- 130 compressed objects within 2 object streams
+ 207 PDF objects out of 1000 (max. 8388607)
+ 128 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
