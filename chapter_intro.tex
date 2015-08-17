@@ -85,9 +85,9 @@ The correct mass hierarchy remains unknown, but next-generation neutrino experim
 
 Neutrino oscillation demonstrates that neutrinos have non-zero mass, and though oscillation experiments measure the mass squared differences, we still do not have a measurement of the absolute masses of the three neutrinos.  Cosmology can put limits on the sum of the three neutrino masses.  The Planck collaboration reports an upper bound on this sum at $\sum\limits_{i} m_{i} < 0.23$~eV \cite{Planck}.  The KATRIN experiment will search for absolute neutrino mass with limiting capability of $m_{\bar{\nu}_{e}} < 0.2$~eV (90\% CL) by measuring the spectrum of tritium beta decay near the Q-value, searching for deviation from the spectrum with zero neutrino mass \cite{KATRIN}.
 
-\subsection{Neutrinoless Double Beta Decay}
+\section{Double Beta Decay}
 
-Double beta decay is the simultaneous emission of two electrons from a nucleus.  Two-neutrino double beta decay ($2\nu\beta\beta$), shown in Fig. \ref{fig:feynman_diags}(left), is allowed by the Standard Model and has been observed in several isotopes which are listed in Table \ref{table:bb_isotopes}.  Similar to beta decay, a neutrino accompanies each electron in this decay, broadening the spectrum of the summed electron energy. This is a second-order process, making it a rare decay, and requiring low backgrounds to measure.
+Double beta decay is the simultaneous decay of two neutrons in a nucleus into two protons and two electrons.  Two-neutrino double beta decay ($2\nu\beta\beta$), shown in Fig. \ref{fig:feynman_diags}(left), is allowed by the Standard Model and has been observed in eleven isotopes with half-lives between $10^{19}$ and $10^{21}$ years.  Similar to beta decay, a neutrino accompanies each electron in this decay, broadening the spectrum of the summed electron energy. This is a second-order process, making it a rare decay, and requiring low backgrounds to measure.
 
 \begin{figure}[H]
         %\centering
@@ -101,6 +101,17 @@ Double beta decay is the simultaneous emission of two electrons from a nucleus. 
         %\end{subfigure}
         \label{fig:feynman_diags}
 \end{figure}
+
+%\begin{table}[!htbp]
+%\caption{$2\nu\beta\beta$ half-lives measured for various isotopes.} %not sure what [Small Table], between \caption and {}, w/ no spaces, does
+%\label{table:bb_isotopes}
+%\begin{tabular}{c|c|c}
+%Isostope & $T^{2\nu}_{1/2} (10^{21}$~y) & Experiment\\
+%\hline
+%$^{136}$Xe & $2.165 \pm 0.016 \pm 0.059$ & EXO-200\\
+%$^{76}$Ge & $1.84^{+0.14}_{-0.10}$ & GERDA\\
+%\end{tabular}
+%\end{table}
 
 $0\nu\beta\beta$, shown in Fig. \ref{fig:feynman_diags}(right), is a postulated mode of double beta decay. In this case, the neutrino is exchanged as a virtual particle (which would require that it is a Majorana particle), and there are no neutrinos in the final products. If discovered, not only would neutrinos be determined Majorana particles, but their absolute mass could also be measured as it relates to the $0\nu\beta\beta$ half-life according to Eqn. \ref{eqn:rate_vs_mass}:
 
@@ -126,40 +137,29 @@ The sum of the energies of the emitted electrons in double beta decay will serve
 \label{fig:spectrum_bb}
 \end{figure}
 
-\begin{table}[!htbp]
-\caption{$2\nu\beta\beta$ half-lives measured for various isotopes.} %not sure what [Small Table], between \caption and {}, w/ no spaces, does
-\label{table:bb_isotopes}
-\begin{tabular}{c|c|c}
-Isostope & Experiment & $T^{2\nu}_{1/2}$\\
-\hline
-$^{136}$Xe & EXO-200 & 2.\\
-... & ... & ...\\
-\end{tabular}
-\end{table}
-
-The rarity of double beta decay (see the very long half lives in Table \ref{table:bb_isotopes}) requires very low backgrounds, especially around the Q-value for the $0\nu\beta\beta$ search. The next sections describe the experiments EXO-200 and it's next-generation successor, nEXO.
+The rarity of double beta decay requires very low backgrounds, especially around the Q-value for the $0\nu\beta\beta$ search. The next sections describe the experiments EXO-200 and it's next-generation successor, nEXO.
 
 \section{Enriched Xenon Observatory}
 
-The Enriched Xenon Observatory (EXO) is a set of two experiments, each a LXe time projection chamber (TPC) designed to study the double beta decay of the isotope \textsuperscript{136}Xe, and ultimately to search for the zero-neutrino mode.  Xe is fairly unique among the double beta decay isotopes in that it can be studied in a gas or liquid TPC instead of solid crystals or foils.  The 3D event position reconstruction abilities of a TPC have advantages in background reduction, described in section \ref{subsec:EXO200}.  Purification of Xe is straightforward and can be done continuously in a detector.  Xe is transparent, and scintillates at [around?] [xxx] nm, which is [efficiently collected by [type that the APDs are]] [reference]; so the Xe acts as a detection medium in addition to being the source of the double beta decay [reference? I didn't make up that kind of sentence].  Also, the ratio between observed scintillation light and remaining ionized electrons (drifted from the decay site by the TPC's electric field) exhibits a well-known microscopic anti-correlation [ref.], the understanding of which improves the energy resolution of the detector.  Finally, a liquid TPC approach offers the opportunity to identify, or ``tag'', the daughter Ba\textsuperscript{++} at the site of the double beta decay event, which would provide a background-free identification of $0\nu\beta\beta$. Barium tagging is the focus of our group at CSU and is the subject of this thesis. [ref ... MOE?]
+EXO-200 and nEXO (EXO standing for Enriched Xenon Observatory) are a progression of two experiments, each a LXe time projection chamber (TPC) designed to study the double beta decay of the isotope \textsuperscript{136}Xe, and ultimately to search for the zero-neutrino mode.  Xe is fairly unique among the double beta decay isotopes in that it can be studied in a gas or liquid TPC instead of solid crystals or foils.  The 3D event position reconstruction abilities of a TPC have advantages in background reduction, described in section \ref{subsec:EXO200}.  Purification of Xe is straightforward and can be done continuously in a detector.  LXe is transparent, and produces substantial ionization and scintillation at 178~nm when energy is deposited in the LXe \cite{EXO200TwoNuLong}.  Also, the ratio between observed scintillation light and remaining ionized electrons (drifted from the decay site by the TPC's electric field) exhibits a well-known microscopic anti-correlation \cite{anticorr}, the understanding of which improves the energy resolution of the detector.  Finally, a liquid TPC approach offers the opportunity to identify, or ``tag'', the daughter Ba\textsuperscript{++} at the site of the double beta decay event, which would provide a background-free identification of $0\nu\beta\beta$ \cite{Moe1991}. Barium tagging is the focus of our group at CSU and is the subject of this thesis.
 
 The following sections decribe the EXO-200 experiment, as well as nEXO, the next-generation tonne-scale LXe TPC which is now in the design stages.  EXO-200 does not have barium tagging implemented, but it is hoped that nEXO will. 
 
 \subsection{EXO-200}
 \label{subsec:EXO200}
 
-EXO-200 has been operational since 2011.  It is a TPC using LXe enriched to 86\% \textsuperscript{136}Xe,  designed to probe Majorana neutrino masses down to around 100~meV [EXO instrum. paper part I], and is located about half a mile underground in the Waste Isolation Pilot Plant (WIPP) near Carlsbad, NM.  This mine is in a salt basin, which contains lower levels of Uranium and Thorium than a typical mine in rock, making it more ideal for a low-background experiment.  WIPP's main purpose is to permanently store transuranic nuclear waste, which is stored at the other end of the mine and is not an issue for EXO-200.
+EXO-200 has been operational since 2011.  It is a TPC using 110~kg of active LXe enriched to 80.672\% $\pm$ 0.14\% \textsuperscript{136}Xe \cite{EXO200TwoNuLong},  designed to probe Majorana neutrino masses down to around 109-135~meV (the range covers different matrix element calculations) \cite{EXO200instrumentationPart1}, and is located about half a mile underground in the Waste Isolation Pilot Plant (WIPP) near Carlsbad, NM.  This mine is in a salt basin, which contains lower levels of Uranium and Thorium than a more typical mine in rock.
 
-A schematic of the TPC in the class 100 cleanroom is shown in Fig. \ref{fig:cleanroom}.  Several layers of lead wall surround the copper cryostat, which is filled with hydro-fluoro-ethylwhatever (HFE), a cryogenic fluid which keeps the TPC cooled to LXe temperatures, as well as aids in shielding.  The copper material of the cryostat and TPC is [purified or something?], and is kept as thin as possible to minimize backgrounds.  Scintillating panels on the outside of the cleanroom provide muon veto.
+A schematic of the TPC in the class 100 cleanroom is shown in Fig. \ref{fig:cleanroom}.  Several layers of lead wall surround the copper cryostat, which is filled with HFE-7000, a cryogenic fluid which keeps the TPC cooled to LXe temperatures, as well as aids in shielding.  The TPC vessel is made of low-radioactivity copper, and is kept as thin as possible to minimize backgrounds.  Scintillating panels on the outside of the cleanroom provide muon veto.
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=.7\textwidth]{figures/cleanroom.png}
-	\caption{Drawing of cleanroom laboratory in the WIPP drift.  \textbf{\color{red} Find better-rez pic.}}
+	\caption{Drawing of cleanroom laboratory in the WIPP drift.}
 \label{fig:cleanroom}
 \end{figure}
 
-Fig. \ref{fig:tpc} shows the EXO-200 detector.  It is actually two face-to-face TPCs which share a cathode.  The detection planes are a combination of ionized charge induction/collection wires and avalanche photodiodes which detect scintillation light.
+A cut-away view of the EXO-200 detector is shown in Fig. \ref{fig:tpc}.  It is two mirrored TPCs which share a cathode.  The detection planes are a combination of ionized charge induction/collection wires and large area avalanche photodiodes (LAAPDs) which detect scintillation light \cite{APDs}.
 
 \begin{figure}[H]
 	\centering
@@ -168,7 +168,7 @@ Fig. \ref{fig:tpc} shows the EXO-200 detector.  It is actually two face-to-face 
 \label{fig:tpc}
 \end{figure}
 
-A photograph of the detection plane is shown in Fig. \ref{fig:tpcphoto}, and a schematic of event detection is shown in Fig. \ref{fig:detectionplane}.  When a double beta decay event occurs in the LXe, the energetic electrons ionize many surrounding Xe atoms.  Some electrons very quickly recombine, emitting scintillation light which is collected by the APDs.  This is part of the energy collection, and also provides a time stamp for the event.  
+A photograph of the detection plane is shown in Fig. \ref{fig:tpcphoto}, and a schematic of event detection is shown in Fig. \ref{fig:detectionplane}.  When a double beta decay event occurs in the LXe, the energetic electrons ionize many surrounding Xe atoms.  Some electrons very quickly recombine, emitting scintillation light which is collected by the LAAPDs.  This is part of the energy collection, and also provides a time stamp for the event.  
 
 \begin{figure}[H]
 	\centering
