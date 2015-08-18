@@ -163,8 +163,8 @@ A cut-away view of the EXO-200 detector is shown in Fig. \ref{fig:tpc}.  It is t
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=.7\textwidth]{figures/TPC.png}
-	\caption{EXO-200 TPC diagram.  [ref $2\nu$ long paper]}
+	\includegraphics[width=.9\textwidth]{figures/TPC.png}
+	\caption{EXO-200 TPC cutaway \cite{EXO200TwoNuLong}.}
 \label{fig:tpc}
 \end{figure}
 
@@ -172,21 +172,19 @@ A photograph of the detection plane is shown in Fig. \ref{fig:tpcphoto}, and a s
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=.7\textwidth]{figures/TPCphoto.jpeg}
-	\caption{View of the detection plane in one of the two EXO-200 TPCs.  [ref $0\nu$ paper or whatev] }
+	\includegraphics[width=.9\textwidth]{figures/TPCphoto.jpeg}
+	\caption{View of the detection plane in one of the two EXO-200 TPCs.}
 \label{fig:tpcphoto}
 \end{figure}
 
-The cathode is set to 8~kV, providing an electric field of [xxx] V/cm across the 20~cm drift length of each TPC.  Ionized electrons drift from the decay site, first passing the v-wires, which receive an induction signal, and are then collected by the u-wires, which are set at a  {\color{red}60$^\circ$} angle from the v-wires.  The charge collection provides the remainder of the energy collection of the initial decay.
+The cathode is set to -8~kV, providing an electric field of 374~V/cm across the 20~cm drift length of each TPC.  Ionized electrons drift from the decay site, first passing the v-wires, which receive an induction signal, and are then collected by the u-wires, which are set at a 60$^\circ$ angle from the v-wires.  The charge collection provides the remainder of the energy collection of the initial decay.  Together, the u- and v-wires give an x/y position measurement for the event.  The time between the initial scintillation detection and the charge collection give a z position, and a 3D position can be reconstructed for the event.
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=.7\textwidth]{figures/anodecathodedriftcharges.png}
-	\caption{EXO-200 event detection.  }
+	\caption{EXO-200 event topology.}
 \label{fig:detectionplane}
 \end{figure}
-
-Together, the u- and v-wires give an x/y position measurement for the event.  The time between the initial scintillation detection and the charge collection give a z position, and a 3D position can be reconstructed for the event.  
 
 Having a reconstructed 3D event position is important in several ways.  Firstly, position-based corrections on scintillation and charge collection can be applied.  For charge, electronegative impurities in the LXe will absorb the drifting charge, requiring a drift-length (z-position) correction.  High purity levels, measured in terms of electron lifetime, of [???] are maintained in EXO-200, but a small correction of [???] must still be applied [ref].  For scintillation, a full 3D correction is applied (called the Light Map), as some regions have more efficient light collection by the APDs [ref, maybe for whole paragraph].
 
