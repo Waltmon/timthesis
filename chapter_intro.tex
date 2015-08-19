@@ -177,20 +177,18 @@ A photograph of the detection plane is shown in Fig. \ref{fig:tpcphoto}, and a s
 \label{fig:tpcphoto}
 \end{figure}
 
-The cathode is set to -8~kV, providing an electric field of 374~V/cm across the 20~cm drift length of each TPC.  Ionized electrons drift from the decay site, first passing the v-wires, which receive an induction signal, and are then collected by the u-wires, which are set at a 60$^\circ$ angle from the v-wires.  The charge collection provides the remainder of the energy collection of the initial decay.  Together, the u- and v-wires give an x/y position measurement for the event.  The time between the initial scintillation detection and the charge collection give a z position, and a 3D position can be reconstructed for the event.
+The cathode is set to -8~kV, providing an electric field of 374~V/cm across the 20~cm drift length of each TPC.  Ionized electrons drift from the decay site, first passing the v-wires, which receive an induction signal, and are then collected by the u-wires, which are set at a 60$^\circ$ angle from the v-wires.  An electric field of 778~V/cm between the u- and v-wires ensures 100\% v-wire transparency.  The charge collection provides the remainder of the energy collection of the initial decay.  Together, the u- and v-wires give an x/y position measurement for the event.  The time between the initial scintillation detection and the charge collection give a z position, and a 3D position can be reconstructed for the event.  \cite{EXO200TwoNuLong}
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=.7\textwidth]{figures/anodecathodedriftcharges.png}
-	\caption{EXO-200 event topology.}
+	\caption{EXO-200 event detection.  }
 \label{fig:detectionplane}
 \end{figure}
 
-Having a reconstructed 3D event position is important in several ways.  Firstly, position-based corrections on scintillation and charge collection can be applied.  For charge, electronegative impurities in the LXe will absorb the drifting charge, requiring a drift-length (z-position) correction.  High purity levels, measured in terms of electron lifetime, of [???] are maintained in EXO-200, but a small correction of [???] must still be applied [ref].  For scintillation, a full 3D correction is applied (called the Light Map), as some regions have more efficient light collection by the APDs [ref, maybe for whole paragraph].
+Having a reconstructed 3D event position is important in several ways.  Firstly, position-based corrections on scintillation and charge collection can be applied.  For charge, electronegative impurities in the LXe will absorb the drifting charge, requiring a drift-length (z-position) correction.  High purity levels, measured in terms of electron lifetime, of 2-3$\times 10^{3}~\mu$s are maintained in EXO-200, resulting in a small correction of few \% for maximal drift lengths.  For scintillation, a full 3D correction is applied (called the Light Map), as some regions have more efficient light collection by the LAAPDs [ref, maybe for whole paragraph].  A 3D position also allows a fiducial volume to be defined.  The effect of radioimpurities on detector surface, e.g. radon daughters collecting on the cathode, is mitigated by defining a stand-off distance required for events used in analysis.  \cite{EXO200TwoNuLong}
 
-A 3D position also allows a fiducial volume to be defined.  The materials of the Teflon walls and cathode/detection planes contain more radioactive background-producing elements.  Radioactive daughters from impurities like radon in the LXe bulk also tend to collect of the cathode [ref], so a stand-off distance of [???] is used as the fiducial cut.
-
-Finally, 3D reconstruction allows the distinction between single-site (SS) and multi-site (MS) events.  A(n?) MS event is one where two spatially separated events occur in the same [???]-$\mu s$ time window.  These are mostly caused by gamma rays interacting in the LXe, which can Compton-scatter several times.  Rejecting MS events strongly separates gamma events from double beta decay events.
+\textbf{\color{red}here:  }Finally, 3D reconstruction allows the distinction between single-site (SS) and multi-site (MS) events.  A(n?) MS event is one where two spatially separated events occur in the same [???]-$\mu s$ time window.  These are mostly caused by gamma rays interacting in the LXe, which can Compton-scatter several times.  Rejecting MS events strongly separates gamma events from double beta decay events.
 
 Of course, barium tagging will also require a 3D reconstructed position in nEXO.
 
