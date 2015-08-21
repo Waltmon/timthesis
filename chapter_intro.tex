@@ -73,7 +73,7 @@ $\delta / \pi$ (2$\sigma$ range)& 1.39$^{+0.38}_{-0.27}$ (1.31$^{+0.29}_{-0.33}$
 
 Note that only the absolute value of the atmospheric neutrino oscillation parameter $\Delta m^{2}$ is known.  As a consequence, there are two possibilities for the hierarchy of the three neutrino masses.  These are called the Normal and Inverted Hierarchies, as shown in Fig. \ref{fig:numasshier}.
 
-\begin{figure}[H]
+\begin{figure} %[H]
         \centering
                 \includegraphics[width=.5\textwidth]{figures/hierarchy_alterred.png}
                 \caption{The two possible hierarchies of neutrino masses.  The colors depict the mixing between the mass and flavor bases.}
@@ -89,7 +89,7 @@ Neutrino oscillation demonstrates that neutrinos have non-zero mass, and though 
 
 Double beta decay is the simultaneous decay of two neutrons in a nucleus into two protons and two electrons.  Two-neutrino double beta decay ($2\nu\beta\beta$), shown in Fig. \ref{fig:feynman_diags}(left), is allowed by the Standard Model and has been observed in eleven isotopes with half-lives between $10^{19}$ and $10^{21}$ years.  Similar to beta decay, a neutrino accompanies each electron in this decay, broadening the spectrum of the summed electron energy. This is a second-order process, making it a rare decay, and requiring low backgrounds to measure.
 
-\begin{figure}[H]
+\begin{figure} %[H]
         %\centering
         %\begin{subfigure}
                 \includegraphics[width=.35\textwidth]{figures/feynman_2nu_quarks.png}
@@ -130,7 +130,7 @@ where $T_{1/2}^{0\nu}$ is the $0\nu\beta\beta$ half-life,  $G^{0\nu}$ is a known
 
 The sum of the energies of the emitted electrons in double beta decay will serve as the distinction between the two-neutrino and zero-neutrino modes, shown in Fig. \ref{fig:spectrum_bb}. In the two-neutrino mode, the total decay energy is shared probabilistically between the electrons and the neutrinos (the nucleus recoil energy is negligible), resulting in a broad distribution in the summed electron energy. (Recall the similarly broad electron energy in single beta decay, which ultimately led to discovery of the neutrino involved.) But in the zero-neutrino mode, all of the decay energy is carried away by the two electrons, resulting in only a single allowed value for the summed electron energy -- a peak in the summed electron energy spectrum at the Q-value. 
 
-\begin{figure}[H]
+\begin{figure} %[H]
         \centering
                 \includegraphics[width=.7\textwidth]{figures/spectrum_bb.png}
                 \caption{Conceptual two-neutrino (blue) and zero-neutrino (red) double beta decay spectra.}
@@ -150,16 +150,16 @@ EXO-200 has been operational since 2011.  It is a TPC using 110~kg of active LXe
 
 A schematic of the TPC in the class 100 cleanroom is shown in Fig. \ref{fig:cleanroom}.  Several layers of lead wall surround the copper cryostat, which is filled with HFE-7000, a cryogenic fluid which keeps the TPC cooled to LXe temperatures, as well as aids in shielding.  The TPC vessel is made of low-radioactivity copper, and is kept as thin as possible to minimize backgrounds.  Scintillating panels on the outside of the cleanroom provide muon veto.
 
-\begin{figure}[H]
+\begin{figure} %[H]
 	\centering
-	\includegraphics[width=.7\textwidth]{figures/cleanroom.png}
+	\includegraphics[width=.9\textwidth]{figures/cleanroom.png}
 	\caption{Drawing of cleanroom laboratory in the WIPP drift.}
 \label{fig:cleanroom}
 \end{figure}
 
 A cut-away view of the EXO-200 detector is shown in Fig. \ref{fig:tpc}.  It is two mirrored TPCs which share a cathode.  The detection planes are a combination of ionized charge induction/collection wires and large area avalanche photodiodes (LAAPDs) which detect scintillation light \cite{APDs}.
 
-\begin{figure}[H]
+\begin{figure} %[H]
 	\centering
 	\includegraphics[width=.9\textwidth]{figures/TPC.png}
 	\caption{EXO-200 TPC cutaway \cite{EXO200TwoNuLong}.}
@@ -168,7 +168,7 @@ A cut-away view of the EXO-200 detector is shown in Fig. \ref{fig:tpc}.  It is t
 
 A photograph of the detection plane is shown in Fig. \ref{fig:tpcphoto}, and a schematic of event detection is shown in Fig. \ref{fig:detectionplane}.  When a double beta decay event occurs in the LXe, the energetic electrons ionize many surrounding Xe atoms, as well as produce a scintillation signal.  Scintillation light provides a time stamp for the event as well as an energy measurement.
 
-\begin{figure}[H]
+\begin{figure} %[H]
 	\centering
 	\includegraphics[width=.9\textwidth]{figures/TPCphoto.jpeg}
 	\caption{View of the detection plane in one of the two EXO-200 TPCs.}
@@ -177,7 +177,7 @@ A photograph of the detection plane is shown in Fig. \ref{fig:tpcphoto}, and a s
 
 The cathode is set to -8~kV, providing an electric field of 374~V/cm across the 20~cm drift length of each TPC.  Ionized electrons drift from the decay site, first passing the v-wires, which receive an induction signal, and are then collected by the u-wires, which are set at a 60$^\circ$ angle from the v-wires.  An electric field of 778~V/cm between the u- and v-wires ensures 100\% v-wire transparency.  The charge collection provides an energy measurement complimentary to that of the scintillation.  Together, the u- and v-wires give an x/y position measurement for the event.  The time between the initial scintillation detection and the charge collection give a z position, and a 3D position can be reconstructed for the event.  \cite{EXO200TwoNuLong}  Additional scintillation resulting from recombination of ionized electrons leads to a well-known microscopic anti-correlation between ionization and scintillation signals \cite{anticorr}.  Applying this to the combination of those signals improves the energy resolution.  This correction defines a combined energy axis, called the rotated energy.  Energy resolution is important in a $0\nu\beta\beta$ search, as it distinguishes those events from $2\nu\beta\beta$ events in the tail of their spectrum.
 
-\begin{figure}[H]
+\begin{figure} %[H]
 	\centering
 	\includegraphics[width=.7\textwidth]{figures/anodecathodedriftcharges.png}
 	\caption{EXO-200 event detection.  }
@@ -190,7 +190,7 @@ Having a reconstructed 3D event position is important in several ways.  Firstly,
 
 The final data set is fit using a combination of probability distribution functions (PDFs) for $0\nu\beta\beta$, $2\nu\beta\beta$, and all possible backgrounds.  Fits to the final energy spectrum data for (a) SS events, and (b) MS events are shown in Fig. \ref{fig:exo200data} for the most recent $0\nu\beta\beta$ search analysis.  The green bands beneath each plot show the residuals vs. energy.  The $2\nu\beta\beta$ spectrum, in gray, dominates the backgrounds in the SS spectrum.  The vertical red lines in the SS spectrum outline the $\pm 2 \sigma$ region of interest around the Q-value, where the $0\nu\beta\beta$ peak will lie.  The insets are a zoom into this region.  The fit value for $0\nu\beta\beta$ in this dataset is non-zero, but it is consistent with the null hypothesis at $1.2 \sigma$.  This sets an upper limit on the $0\nu\beta\beta$ half-life at $T^{0\nu\beta\beta}_{1/2} < 1.1 \times 10^{25}$~yr (90\% CL), which corresponds to $\braket{m_{\nu_{e}}} < $190-450~meV depending on nuclear matrix element calculations \cite{EXO2000nuNature}.  EXO-200 reports the $2\nu\beta\beta$ half-life measurement in \cite{EXO200TwoNuLong} of $T^{2\nu\beta\beta}_{1/2} = 2.165 \pm 0.016$(stat)$ \pm 0.059$(sys)$ \times 10^{21}$~yr.  This is consistent with previous measurements by EXO-200 in 2011 \cite{EXO200TwoNuOriginal} and KamLAND-ZEN in 2012 \cite{KamLAND}.
 
-\begin{figure}[H]
+\begin{figure} %[H]
 	\centering
 	\includegraphics[width=.95\textwidth]{figures/0nu_spectrum_nature.png}
 	\caption{EXO-200 energy spectrum from $0\nu\beta\beta$ search analysis \cite{EXO2000nuNature}.}
@@ -201,23 +201,23 @@ The final data set is fit using a combination of probability distribution functi
 
 The next-generation successor to EXO-200 is nEXO, a tonne-scale LXe TPC which will probe Majorana neutrino masses down to the 10~meV scale.  The sensitivity projections for nEXO are shown in Fig. \ref{fig:sensitivity_nEXO}, along with those of EXO-200.  nEXO will reach phase space where the two possible mass hierarchies begin to split; if nEXO successfully observes $0\nu\beta\beta$ in these regions, it may be able to also determine the mass hierarchy.  Barium tagging will push the sensitivity further into the region allowed only by the normal hierarchy {\color{gray}[ref for this?]}.
 
-\begin{figure}[H]
+\begin{figure} %[H]
 	\centering
-	\includegraphics[width=.7\textwidth]{figures/sensitivity_v2.png}
+	\includegraphics[width=.9\textwidth]{figures/sensitivity_v2.png}
 	\caption{nEXO projected sensitivity to the Majorana neutrino mass vs. the minimum of the three masses m$_{min}$. {\color{red}check for updated version}}
 \label{fig:sensitivity_nEXO}
 \end{figure}
 
 A schematic of the experimental setup is shown in Fig. \ref{fig:nEXO_cryopit} in one of the possible locations for nEXO, the SNOLAB cryopit.  Similar to EXO-200, the copper-housed TPC will be submerged in HFE fluid, inside a copper cryostat.  The cryostat will be insulated and submerged in a large volume of water shielding, in which photo-multiplier tubes could provide muon veto by observing Cherenkov radiation.  nEXO will be a single TPC with charge and light readouts at opposing ends of the TPC.  Rather than wires, nEXO will use tile electrodes for charge readout, shown in Fig. \ref{fig:nEXO_readout}.
 
-\begin{figure}[H]
+\begin{figure} %[H]
 	\centering
 	\includegraphics[width=.7\textwidth]{figures/nEXO_cryopit.png}
 	\caption{nEXO TPC in the SNOLAB cryopit.}
 \label{fig:nEXO_cryopit}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure} %[H]
 	\centering
 	\includegraphics[width=.7\textwidth]{figures/nEXO_readout.png}
 	\caption{nEXO readout.}
@@ -226,18 +226,18 @@ A schematic of the experimental setup is shown in Fig. \ref{fig:nEXO_cryopit} in
 
 \subsection{Barium Tagging}
 
-The backgrounds observed around the Q-value in EXO-200 can be expected to scale up with the size of nEXO.  But with the veto power of barium tagging, nEXO's sensitivity to $0\nu\beta\beta$ scales with the total \textsuperscript{136}Xe mass in the detector, vs. the square root of that mass without barium tagging [ref? in ba spec?].
+The backgrounds observed around the Q-value in EXO-200 can be expected to scale up with the size of nEXO.  But with the veto power of barium tagging, nEXO's sensitivity to $0\nu\beta\beta$ scales with the total \textsuperscript{136}Xe mass in the detector, vs. the square root of that mass without barium tagging.
 
-Several possible barium tagging techniques have been proposed.  Perhaps the most natural concept is to direct one or more lasers at the decay site to induce fluorescence of the barium daughter.  This technique was explored thoroughly by Fairbank's group, and was abandoned when reliable fluorescence of Ba\textsuperscript{+} in LXe could not be observed [ref Kendy's thesis].
+Several possible barium tagging techniques have been proposed.  Perhaps the most natural concept is to direct one or more lasers at the decay site to induce fluorescence of the barium daughter.  This technique was explored thoroughly by Fairbank's group, and was abandoned when reliable fluorescence of Ba\textsuperscript{+} in LXe could not be observed [ref Kendy's thesis, after kamland in list].
 
-Another concept was to grab the daughter in SXe on a cold probe, similar to the method explored in this thesis, but to then evaporate the SXe and drift the daughter into a trap for detection in vacuum.  This method was abandoned when extraction of barium from SXe samples could not be achieved by Liang Yang's group [ref?].
+%Another concept was to grab the daughter in SXe on a cold probe, similar to the method explored in this thesis, but to then evaporate the SXe and drift the daughter into a trap for detection in vacuum.  This method was abandoned when extraction of barium from SXe samples could not be achieved by Liang Yang's group [ref?].
 
-Two barium tagging techniques continue to be explored.  One of these is to grab the daughter on a surface, brought to the decay site by a probe, and then move it to a location where it can be desorbed from that surface by an infrared laser, and subsequently resonantly ionized by two lasers in order to detect it by time-of-flight spectroscopy {\color{red}(or other trap/detect methods?)}.  The apparatus for the study of this method is described in [instrumentation paper], along with some initial results.
+Three barium tagging techniques continue to be explored.  One of these is to grab the daughter on a surface, brought to the decay site by a probe, and then move it to a location where it can be desorbed from that surface by an infrared laser, and subsequently resonantly ionized by two lasers in order to detect it by time-of-flight spectroscopy.  The apparatus for the study of this method is described in \cite{Twelker2014}, along with some initial results.  Another concept is to also grab the daughter on the surface of a probe, but then to thermally desorb it for subsequent trapping and detection [ref upcoming Liang paper, after Twelker].
 
-The other remaining technique for barium tagging, now the concentration of Fairbank's group and the subject of this thesis, is what we call tagging in SXe.  Here, we would send a cold probe to the site of the candidate $0\nu\beta\beta$ event in order to trap the Ba/Ba\textsuperscript{+} in a small amount of SXe, and then observe it by its laser-induced fluorescence in the SXe, a technique called matrix isolation spectroscopy.
+The other remaining technique for barium tagging, now the concentration of Fairbank's group and the subject of this thesis, is called tagging in SXe.  Here, a cold probe would go to the site of the candidate $0\nu\beta\beta$ event in order to trap the Ba/Ba\textsuperscript{+} in a small amount of SXe, and then observe it by its laser-induced fluorescence in the SXe, a technique called matrix isolation spectroscopy.
 
-A concept for a probe is shown in Fig. [ref fig cryoprobe].  The SXe forms on a sapphire window or plug.  Sapphire is a good candidate for a substrate; it has good thermal conductivity at low temperature, is extremely transparent, and can be purified to contain low amounts of fluorescing impurities such as Cr\textsuperscript{3+}.  An excitation laser would be brought into the probe through a fiber, and aimed through the sapphire to excite the Ba/Ba\textsuperscript{+} in the SXe.  A return fiber could collect the laser reflections and used for measure the SXe thickness via interference fringes.  {\color{red}\textbf{[in the fig., label things like the fibers like (A), (B), and just say what those are in the caption]}}  The Ba/Ba\textsuperscript{+} fluorescence would then be collected by a lens/filter system and imaged onto a CCD.  Additional components, not shown, would be required for cooling the sapphire, either by liquid He or by a Joule-Thompson nozzle, as well as a thermometer.
+A concept for a probe is shown in Fig. [ref fig cryoprobe].  The SXe forms on a sapphire window or plug.  Sapphire is a good candidate for a substrate; it has good thermal conductivity at low temperature, and is extremely transparent.  An excitation laser would be brought into the probe through a fiber, and aimed through the sapphire to excite the Ba/Ba\textsuperscript{+} in the SXe.  A return fiber could collect the laser reflections to measure the SXe thickness via interference fringes.  {\color{red}\textbf{[in the fig., label things like the fibers like (A), (B), and just say what those are in the caption]}}  The Ba/Ba\textsuperscript{+} fluorescence would then be collected by a lens/filter system and imaged onto a CCD.  Additional components, not shown, would be required for cooling the sapphire, either by liquid He or by a Joule-Thompson nozzle, as well as a thermometer.
 
-\emph{\color{gray}alpha-ion study and its relevance to ba tagging?}
+Whether the daughter Ba will neutralize or remain ionized is not yet known.  It is however expected that a Ba\textsuperscript{++} ion will neutralize once to Ba\textsuperscript{+} in lXe, since the lXe conduction band gap is slightly less than the ionization potential for Ba\textsuperscript{+} \cite{Moe1991}.  Further neutralization could also occur.  A study of neutralization of alpha decay daughters in EXO-200 has observed a fairly equal balance of neutralized daughters vs. ionized daughters [ref alphaion].  The feasibility of detecting single Ba ions as well as atoms is still of interest.
 
-The next chapter describes theory relevant to single Ba/Ba\textsuperscript{+} detection in SXe matrices.
+%The next chapter describes theory relevant to single Ba/Ba\textsuperscript{+} detection in SXe matrices.
