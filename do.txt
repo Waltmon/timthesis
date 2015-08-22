@@ -1,0 +1,2 @@
+- ba tagging in intro should have reference to Thomas gas tagging
+- if you're not refering to ba spec paper in intro, need to move the reference
