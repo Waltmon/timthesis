@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.18)  22 AUG 2015 16:34
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.18)  23 AUG 2015 20:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -546,19 +546,19 @@ Package pdftex.def Info: figures/ionBeam.png used on input line 11.
 <figures/ExB.png, id=131, 730.98094pt x 585.68813pt>
 File: figures/ExB.png Graphic file (type png)
  <use figures/ExB.png>
-Package pdftex.def Info: figures/ExB.png used on input line 42.
+Package pdftex.def Info: figures/ExB.png used on input line 38.
 (pdftex.def)             Requested size: 328.82707pt x 263.46785pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 4254) has occurred while \output is active []
 
  [25]
-[26 <./figures/ExB.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [27]
-[28]) (./chapter_results.tex [29]
+[26 <./figures/ExB.png>] [27] [28]) (./chapter_results.tex [29]
 Chapter 4
-<figures/hole_bleach_590.png, id=150, 1218.80344pt x 225.84375pt>
+<figures/hole_bleach_590.png, id=151, 1218.80344pt x 225.84375pt>
 File: figures/hole_bleach_590.png Graphic file (type png)
 
 <use figures/hole_bleach_590.png>
@@ -585,11 +585,11 @@ Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
  [33] [34] (./thesis_walton_2a.aux) ) 
 Here is how much of TeX's memory you used:
- 4578 strings out of 493304
- 61053 string characters out of 6139871
+ 4580 strings out of 493304
+ 61072 string characters out of 6139871
  230685 words of memory out of 5000000
- 7746 multiletter control sequences out of 15000+600000
- 13107 words of font info for 50 fonts, out of 8000000 for 9000
+ 7747 multiletter control sequences out of 15000+600000
+ 13459 words of font info for 51 fonts, out of 8000000 for 9000
  1118 hyphenation exceptions out of 8191
  40i,14n,35p,1437b,330s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1
@@ -606,11 +606,12 @@ dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmti12.pfb>
-Output written on thesis_walton_2a.pdf (39 pages, 4024858 bytes).
+nts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmti8.pfb>
+Output written on thesis_walton_2a.pdf (39 pages, 4032790 bytes).
 PDF statistics:
- 219 PDF objects out of 1000 (max. 8388607)
- 135 compressed objects within 2 object streams
+ 223 PDF objects out of 1000 (max. 8388607)
+ 138 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  86 words of extra memory for PDF output out of 10000 (max. 10000000)
 
