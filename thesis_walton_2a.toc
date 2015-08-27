@@ -20,7 +20,7 @@
 \contentsline {subsection}{\tocsubsection {}{3.1.4}{Ion Beam Pulsing}}{27}
 \contentsline {subsection}{\tocsubsection {}{3.1.5}{Calibration of Ion Deposit}}{29}
 \contentsline {section}{\tocsection {}{3.2}{Ba Getter Source}}{30}
-\contentsline {section}{\tocsection {}{3.3}{Sample Deposition}}{30}
+\contentsline {section}{\tocsection {}{3.3}{Sample Deposition}}{31}
 \contentsline {subsection}{\tocsubsection {}{3.3.1}{Laser Excitation}}{31}
 \contentsline {subsection}{\tocsubsection {}{3.3.2}{Collection Optics}}{31}
 \contentsline {chapter}{\tocchapter {Chapter}{4}{Results}}{32}

@@ -56,9 +56,17 @@ Einzel lens 2 focuses the beam the pass through the aperture in the first elemen
 
 \subsection{Ion Beam Pulsing}
 
-When running in pulsing mode, the pulsing plates are first set to 200~V and -200~V to deflect the beam, and are pulsed to 0~V for 1~$\mu$s for each pulse.  The pulsing circuit is shown in Fig. [ref fig pulsing circuit, \textbf{ref Shon thesis \cite{Shon} if this is same figure}].  Square waves, triggered by LabVIEW at 500~Hz, enter the circuit at [x]. {\color{red}[describe how the pulse happens]}
+When running in pulsing mode, the pulsing plates are first set to 200~V and -200~V to deflect the beam, and are pulsed to 0~V for 1~$\mu$s for each pulse.  The pulsing circuit is shown in Fig. \ref{fig:pulse_circuit}.  Square waves, triggered by LabVIEW at 500~Hz, enter the circuit at (a). {\color{red}[describe how the pulse happens ... what is the mosfet for?  does Shon say?]}
 
-The induction plates observe pulses during a deposit.  Pulses just prior to a deposit can be observed by cup 3 as well as the induction plates, for a local measurement of ion current in the pulses.  eV Products pre-amplifiers convert the ion current to voltage signals which are read out with a digital oscilloscope.  An example of an oscilloscope readout of 16 averaged pulses is shown in Fig. \ref{fig:pulse_raw_shaped}(left).  The pre-amp circuit is solved to retrieve the original current by Eqn. \ref{eqn:preamp}:
+
+\begin{figure} %[h]
+        \centering
+                \includegraphics[width=.85\textwidth]{figures/pulsing_circuit.png}
+                \caption{Pulsing circuit.  \emph{\color{red}Say what the values are?} \cite{Shon}}
+\label{fig:pulse_circuit}
+\end{figure}
+
+The induction plates observe pulses during a deposit.  Pulses just prior to a deposit can be observed by cup 3 (as well as the induction plates) for a local measurement of ion current in the pulses.  eV Products pre-amplifiers convert the ion current to voltage signals which are read out with a digital oscilloscope.  An example of an oscilloscope readout of 16 averaged pulses is shown in Fig. \ref{fig:pulse_raw_shaped}(left).  The pre-amp circuit is solved to retrieve the original current, given by Eqn. \ref{eqn:preamp}:
 
 \begin{equation}
 I = \frac{-(V_{out} + R_{1} C \frac{dV_{out}}{dt})}{R_{1} M}.
@@ -81,7 +89,7 @@ $R_{1} C$ and $R_{1} M$ are determined for each pre-amp.  The time constant $R_{
         \label{fig:pulse_raw_shaped}
 \end{figure}
 
-Pulsing data also provides confirmation that the beam is composed of Ba\textsuperscript{+}.  The time between the center of the pulsing plate voltage overlap and the center of the pulse measured by the Faraday cup, along with a measurement of the distance traveled, provides a velocity measurement of the ions.  This distance of 31.5~cm $\pm$ 1.0~cm, \emph{\color{red}check the d measurenet -- can you make the uncertainty +- .5 cm?  and look at older Ar+ ones  for consistency because 6-25 gives like 35.7 +- 5}
+Pulsing data also provides confirmation that the beam is composed of Ba\textsuperscript{+}.  The time between the center of the pulsing plate voltage overlap and the center of the pulse measured by the Faraday cup, along with a measurement of the distance traveled, provides a velocity measurement of the ions.  \emph{\color{red}put Ba and Ar mass measurements and ref fig\ref{fig:pulses_ArBa}}
 
 \begin{figure}[h]
         \centering
@@ -102,8 +110,6 @@ To calibrate the signal at cup 3 to an ion density at the sapphire window, anoth
 
 \noindent
 where $C$ is $\frac{fC}{pulse}$ at cup 3, $A$ is the area of cup w, and $e$ is the elementary charge.  The required settings of the final deflection plates H2 and V2 are also determined by cup w.  These typically differ from the peak values for cup 3 by about ???, corresponding to ??? mm.
-
-{\color{gray}\emph{Talk about beam size?}}
 
 \section{Ba Getter Source}
 
