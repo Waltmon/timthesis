@@ -56,13 +56,12 @@ Einzel lens 2 focuses the beam the pass through the aperture in the first elemen
 
 \subsection{Ion Beam Pulsing}
 
-When running in pulsing mode, the pulsing plates are first set to 200~V and -200~V to deflect the beam, and are pulsed to 0~V for 1~$\mu$s for each pulse.  The pulsing circuit is shown in Fig. \ref{fig:pulse_circuit}.  Square waves, triggered by LabVIEW at 500~Hz, enter the circuit at (a). {\color{red}[describe how the pulse happens ... what is the mosfet for?  does Shon say?]}
-
+When running in pulsing mode, the pulsing plates are first set to 200~V and -200~V to deflect the beam, and are pulsed to 0~V for 1~$\mu$s for each pulse.  The pulsing circuit is shown in Fig. \ref{fig:pulse_circuit}.  Square waves, triggered by LabVIEW at 500~Hz, enter the circuit at (a). The transformed pulse triggers the MOSFET switch, which closes the circuit for the period of the pulse.
 
 \begin{figure} %[h]
         \centering
                 \includegraphics[width=.85\textwidth]{figures/pulsing_circuit.png}
-                \caption{Pulsing circuit.  \emph{\color{red}Say what the values are?} \cite{Shon}}
+                \caption{Pulsing circuit.  R$_{1}$ = R$_{2}$ = $470~\Omega$, R$_{3}$ = R$_{4}$ = 20~k$\Omega$, \newline C$_{1}$ = C$_{2}$ = 680~nF. \cite{Shon}}
 \label{fig:pulse_circuit}
 \end{figure}
 
@@ -89,7 +88,7 @@ $R_{1} C$ and $R_{1} M$ are determined for each pre-amp.  The time constant $R_{
         \label{fig:pulse_raw_shaped}
 \end{figure}
 
-Pulsing data also provides confirmation that the beam is composed of Ba\textsuperscript{+}.  The time between the center of the pulsing plate voltage overlap and the center of the pulse measured by the Faraday cup, along with a measurement of the distance traveled, provides a velocity measurement of the ions.  \emph{\color{red}put Ba and Ar mass measurements and ref fig\ref{fig:pulses_ArBa}}
+Pulsing data also provides confirmation that the beam is composed of Ba\textsuperscript{+}.  The time between the center of the pulsing plate voltage overlap and the center of the pulse measured by the Faraday cup, along with a measurement of the distance traveled, provides a velocity measurement of the ions.  This distance was measured to be 31.5 $\pm$ 0.5~cm, and time-of-flight data, e.g. Fig. \ref{fig:pulses_ArBa}, give 39.8 $\pm$ 3.4~amu for Ar\textsuperscript{+} and 136.8 $\pm$ 6.3~amu for Ba\textsuperscript{+}, including uncertainties on the time of flight of $\pm$ 0.1~$\mu s$.  This rules out any BaO\textsuperscript{+} contribution to the Ba\textsuperscript{+} ion beam.
 
 \begin{figure}[h]
         \centering
@@ -109,7 +108,7 @@ To calibrate the signal at cup 3 to an ion density at the sapphire window, anoth
 \end{equation}
 
 \noindent
-where $C$ is $\frac{fC}{pulse}$ at cup 3, $A$ is the area of cup w, and $e$ is the elementary charge.  The required settings of the final deflection plates H2 and V2 are also determined by cup w.  These typically differ from the peak values for cup 3 by about ???, corresponding to ??? mm.
+where $C$ is $\frac{fC}{pulse}$ at cup 3, $A$ is the area of cup w, and $e$ is the elementary charge.  The required settings of the final deflection plates H2 and V2 are also determined by cup w.  These typically differ from the peak values for cup 3 by about 70~V in H2 and 60~V in V2, corresponding to about 4~mm in x and y position at cup w.
 
 \section{Ba Getter Source}
 
@@ -119,13 +118,32 @@ The getter used briefly in this work is an endothermic ... getter wire ... {\col
 
 \section{Sample Deposition}
 
-The Ba\textsuperscript{+}/Ba are co-deposited with Xe gas onto a cold sapphire window tiled at 45$^{\circ}$.  Sapphire has good thermal conductivity at low temperature and good optical transparency in the visible.  Xe freezes around {\color{red}73~K} in vacuum.  The window is held to a cold finger (Fig. 6x, picture of), cooled by a -brand- cryostat. % -brand- said {\color{red}brand}, but that had errors
+The Ba\textsuperscript{+}/Ba is co-deposited with Xe gas onto a cold sapphire window.  Sapphire has good thermal conductivity at low temperature and good optical transparency in the visible.  The window is held to a coldfinger and is tilted at 45$^{\circ}$ to allow access of the ion beam as well as the excitation laser and collection optics.  To begin a deposit, Xe gas is flowed toward the window via a leak valve.  Cup 3 is then retracted, to clear the path for barium ions.  Ba\textsuperscript{+} ions land in the SXe as the matrix grows.  Cup 3 is then replaced, and the Xe leak stopped.
 
-Before barium ions are let through, xenon gas is allowed to flow, controlled by a leak valve, onto the cold sapphire window, where it freezes and begins growing the solid matrix.  The Faraday cup is then retracted, to clear the path for barium ions.  The cup serves as a shutter for DC deposition, or if pulsing is being used, they are performed at this time.  Barium ions land in the solid xenon as the matrix continues to grow.  The cup is then replaced, and the xenon leak stopped.
+\emph{\color{red}refer to fringe figure, and say that the SXe index doesn't change much between 50 and 30 maybe with ref to refractive underscore index.pdf}
 
-[show new fringe tests]
+\begin{figure} %[h]
+        \centering
+                \includegraphics[width=.7\textwidth]{figures/fringes_50K_vs_10K.png}
+                \caption{}
+\label{fig:fringes_50K_vs_10K}
+\end{figure}
 
-\subsection{Laser Excitation}
+\begin{figure} %[h]
+        \centering
+                \includegraphics[width=.7\textwidth]{figures/fringes_melt.png}
+                \caption{either have this ...}
+\label{fig:fringes_melt_alone}
+\end{figure}
+
+\begin{figure} %[h]
+        \centering
+                \includegraphics[width=.7\textwidth]{figures/fringe_dep_and_melt_temporary.png}
+                \caption{... or this, maybe also with temperature overlain. \emph{\color{red}Note that number of melt fringes is the same as deposited fringes (maybe put that in main text instead).}}
+\label{fig:fringes_melt_withDep}
+\end{figure}
+
+\section{Laser Excitation}
 
 um
 
@@ -135,6 +153,6 @@ um
 
 [waist measurements -- apply calibration uncertainty to the good motor-stage ones]
 
-\subsection{Collection Optics}
+\section{Collection Optics}
 
 talk about all that, including spectrometer
