@@ -21,15 +21,15 @@
 \contentsline {subsection}{\tocsubsection {}{3.1.5}{Calibration of Ion Deposit}}{29}
 \contentsline {section}{\tocsection {}{3.2}{Ba Getter Source}}{30}
 \contentsline {section}{\tocsection {}{3.3}{Sample Deposition}}{31}
-\contentsline {section}{\tocsection {}{3.4}{Laser Excitation}}{33}
+\contentsline {section}{\tocsection {}{3.4}{Laser Excitation}}{32}
 \contentsline {section}{\tocsection {}{3.5}{Collection Optics}}{33}
-\contentsline {chapter}{\tocchapter {Chapter}{4}{Results}}{34}
-\contentsline {section}{\tocsection {}{4.1}{Fluorescence of Ba in SXe}}{34}
-\contentsline {subsection}{\tocsubsection {}{4.1.1}{Identifying Peaks as Ba in SXe}}{34}
-\contentsline {section}{\tocsection {}{4.2}{Bleaching}}{35}
-\contentsline {section}{\tocsection {}{4.3}{Imaging}}{35}
-\contentsline {subsection}{\tocsubsection {}{4.3.1}{Imaging 577- and 591-nm peaks}}{35}
-\contentsline {subsection}{\tocsubsection {}{4.3.2}{Imaging 619-nm peak}}{35}
-\contentsline {chapter}{\tocchapter {Chapter}{5}{Conclusions}}{36}
-\contentsline {section}{\tocsection {}{5.1}{Future Steps}}{36}
-\contentsline {chapter}{Bibliography}{37}
+\contentsline {chapter}{\tocchapter {Chapter}{4}{Results}}{35}
+\contentsline {section}{\tocsection {}{4.1}{Fluorescence of Ba in SXe}}{35}
+\contentsline {subsection}{\tocsubsection {}{4.1.1}{Identifying Peaks as Ba in SXe}}{35}
+\contentsline {section}{\tocsection {}{4.2}{Bleaching}}{36}
+\contentsline {section}{\tocsection {}{4.3}{Imaging}}{36}
+\contentsline {subsection}{\tocsubsection {}{4.3.1}{Imaging 577- and 591-nm peaks}}{36}
+\contentsline {subsection}{\tocsubsection {}{4.3.2}{Imaging 619-nm peak}}{36}
+\contentsline {chapter}{\tocchapter {Chapter}{5}{Conclusions}}{37}
+\contentsline {section}{\tocsection {}{5.1}{Future Steps}}{37}
+\contentsline {chapter}{Bibliography}{38}
