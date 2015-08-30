@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.18)  29 AUG 2015 16:42
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.18)  29 AUG 2015 21:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -377,7 +377,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 70--70
 ]
 Table of Contents
 (./thesis_walton_2a.toc
-Underfull \vbox (badness 5245) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [4
 
@@ -541,7 +541,7 @@ Chapter 3
 File: figures/ionBeam.png Graphic file (type png)
 
 <use figures/ionBeam.png>
-Package pdftex.def Info: figures/ionBeam.png used on input line 11.
+Package pdftex.def Info: figures/ionBeam.png used on input line 12.
 (pdftex.def)             Requested size: 1770.6107pt x 335.75356pt.
  [23
 
@@ -551,78 +551,82 @@ Package pdftex.def Info: figures/ionBeam.png used on input line 11.
 File: figures/ionSource.png Graphic file (type png)
 
 <use figures/ionSource.png>
-Package pdftex.def Info: figures/ionSource.png used on input line 22.
+Package pdftex.def Info: figures/ionSource.png used on input line 23.
 (pdftex.def)             Requested size: 446.26582pt x 243.15004pt.
  [25 <./figures/ionSource.png>]
 <figures/ExB.png, id=139, 730.98094pt x 585.68813pt>
 File: figures/ExB.png Graphic file (type png)
  <use figures/ExB.png>
-Package pdftex.def Info: figures/ExB.png used on input line 43.
+Package pdftex.def Info: figures/ExB.png used on input line 44.
 (pdftex.def)             Requested size: 328.82707pt x 263.46785pt.
 
-Underfull \vbox (badness 2158) has occurred while \output is active []
-
- [26 <./figures/ExB.png>] <figures/pulsing_circuit.png, id=145, 712.91344pt x 5
-08.14844pt>
+[26 <./figures/ExB.png>]
+<figures/pulsing_circuit.png, id=144, 712.91344pt x 508.14844pt>
 File: figures/pulsing_circuit.png Graphic file (type png)
 
 <use figures/pulsing_circuit.png>
-Package pdftex.def Info: figures/pulsing_circuit.png used on input line 63.
+Package pdftex.def Info: figures/pulsing_circuit.png used on input line 64.
 (pdftex.def)             Requested size: 399.29463pt x 284.6077pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [27]
-<figures/pulse_ind_cup3_raw.png, id=149, 698.61pt x 674.52pt>
+<figures/pulse_ind_cup3_raw.png, id=148, 698.61pt x 674.52pt>
 File: figures/pulse_ind_cup3_raw.png Graphic file (type png)
 
 <use figures/pulse_ind_cup3_raw.png>
-Package pdftex.def Info: figures/pulse_ind_cup3_raw.png used on input line 81.
+Package pdftex.def Info: figures/pulse_ind_cup3_raw.png used on input line 82.
 (pdftex.def)             Requested size: 230.18253pt x 222.24234pt.
 
-<figures/pulse_ind_cup3_shaped.png, id=150, 698.61pt x 674.52pt>
+<figures/pulse_ind_cup3_shaped.png, id=149, 698.61pt x 674.52pt>
 File: figures/pulse_ind_cup3_shaped.png Graphic file (type png)
 
 <use figures/pulse_ind_cup3_shaped.png>
 Package pdftex.def Info: figures/pulse_ind_cup3_shaped.png used on input line 8
-5.
+6.
 (pdftex.def)             Requested size: 230.18253pt x 222.24234pt.
  [28 <./figures/pulsing_circuit.png>]
-<figures/pulses_BaAr.png, id=155, 520.19344pt x 462.97969pt>
+<figures/pulses_BaAr.png, id=154, 520.19344pt x 462.97969pt>
 File: figures/pulses_BaAr.png Graphic file (type png)
 
 <use figures/pulses_BaAr.png>
-Package pdftex.def Info: figures/pulses_BaAr.png used on input line 95.
+Package pdftex.def Info: figures/pulses_BaAr.png used on input line 96.
 (pdftex.def)             Requested size: 328.82707pt x 292.6607pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[29 <./figures/pulse_ind_cup3_raw.png> <./figures/pulse_ind_cup3_shaped.png>]
+
+Underfull \vbox (badness 4859) has occurred while \output is active []
+
+ [29 <./figures/pulse_ind_cup3_raw.png> <./figures/pulse_ind_cup3_shaped.png>] 
 [30 <./figures/pulses_BaAr.png>]
-<figures/fringe_setup.png, id=163, 599.99156pt x 554.82281pt>
+<figures/fringe_setup.png, id=162, 599.99156pt x 554.82281pt>
 File: figures/fringe_setup.png Graphic file (type png)
 
 <use figures/fringe_setup.png>
-Package pdftex.def Info: figures/fringe_setup.png used on input line 123.
+Package pdftex.def Info: figures/fringe_setup.png used on input line 124.
 (pdftex.def)             Requested size: 187.89914pt x 173.7542pt.
  [31 <./figures/fringe_setup.png>]
-<figures/fringes_52K_vs_11K.png, id=168, 560.8453pt x 361.35pt>
+<figures/fringes_52K_vs_11K.png, id=167, 560.8453pt x 361.35pt>
 File: figures/fringes_52K_vs_11K.png Graphic file (type png)
 
 <use figures/fringes_52K_vs_11K.png>
-Package pdftex.def Info: figures/fringes_52K_vs_11K.png used on input line 132.
+Package pdftex.def Info: figures/fringes_52K_vs_11K.png used on input line 133.
 
 (pdftex.def)             Requested size: 328.82707pt x 211.86032pt.
 
-<figures/fringes_dep_and_melt.png, id=169, 802.49812pt x 365.11406pt>
+<figures/fringes_dep_and_melt.png, id=168, 802.49812pt x 365.11406pt>
 File: figures/fringes_dep_and_melt.png Graphic file (type png)
 
 <use figures/fringes_dep_and_melt.png>
-Package pdftex.def Info: figures/fringes_dep_and_melt.png used on input line 13
-9.
+Package pdftex.def Info: figures/fringes_dep_and_melt.png used on input line 14
+0.
 (pdftex.def)             Requested size: 422.77664pt x 192.3563pt.
- [32 <./figures/fringes_52K_vs_11K.png>]) (./chapter_results.tex [33 <./figures
-/fringes_dep_and_melt.png>] [34]
+ [32 <./figures/fringes_52K_vs_11K.png>]
+[33 <./figures/fringes_dep_and_melt.png>]) (./chapter_results.tex [34]
 Chapter 4
-<figures/hole_bleach_590.png, id=181, 1218.80344pt x 225.84375pt>
+<figures/hole_bleach_590.png, id=180, 1218.80344pt x 225.84375pt>
 File: figures/hole_bleach_590.png Graphic file (type png)
 
 <use figures/hole_bleach_590.png>
@@ -645,11 +649,11 @@ Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
  [38] [39] (./thesis_walton_2a.aux) ) 
 Here is how much of TeX's memory you used:
- 4635 strings out of 493304
- 62512 string characters out of 6139871
+ 4633 strings out of 493304
+ 62493 string characters out of 6139871
  230819 words of memory out of 5000000
- 7795 multiletter control sequences out of 15000+600000
- 13100 words of font info for 50 fonts, out of 8000000 for 9000
+ 7794 multiletter control sequences out of 15000+600000
+ 12748 words of font info for 49 fonts, out of 8000000 for 9000
  1118 hyphenation exceptions out of 8191
  40i,14n,35p,1647b,332s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1
@@ -665,12 +669,11 @@ xmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmti8.pfb>
-Output written on thesis_walton_2a.pdf (45 pages, 4174523 bytes).
+msfonts/cm/cmti12.pfb>
+Output written on thesis_walton_2a.pdf (45 pages, 4168114 bytes).
 PDF statistics:
- 250 PDF objects out of 1000 (max. 8388607)
- 148 compressed objects within 2 object streams
+ 246 PDF objects out of 1000 (max. 8388607)
+ 145 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  126 words of extra memory for PDF output out of 10000 (max. 10000000)
 
