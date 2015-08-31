@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.6.6)  31 AUG 2015 12:48
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.6.6)  31 AUG 2015 16:43
 entering extended mode
 **thesis_walton_2a.tex
 (C:\Walton\thesis\timthesis\thesis_walton_2a.tex
@@ -598,26 +598,30 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [32 <C:/Walton/thesis/timthesis/figures/fringe_setup.png>] [33 <C:/Walton/thes
 is/timthesis/figures/fringes_52K_vs_11K.png> <C:/Walton/thesis/timthesis/figure
-s/fringes_dep_and_melt.png>]
-Underfull \vbox (badness 1642) has occurred while \output is active []
+s/fringes_dep_and_melt.png>] [34]
+<figures/100_1885.JPG, id=180, 136.56018pt x 146.19618pt>
+File: figures/100_1885.JPG Graphic file (type jpg)
 
- [34])
-(C:\Walton\thesis\timthesis\chapter_results.tex [35]
+<use figures/100_1885.JPG>
+Package pdftex.def Info: figures/100_1885.JPG used on input line 179.
+(pdftex.def)             Requested size: 234.8775pt x 251.4748pt.
+) (C:\Walton\thesis\timthesis\chapter_results.tex
+[35] [36 <C:/Walton/thesis/timthesis/figures/100_1885.JPG>]
 Chapter 4
-<figures/hole_bleach_590.png, id=183, 1218.80344pt x 225.84375pt>
+<figures/hole_bleach_590.png, id=187, 1218.80344pt x 225.84375pt>
 File: figures/hole_bleach_590.png Graphic file (type png)
 
 <use figures/hole_bleach_590.png>
 Package pdftex.def Info: figures/hole_bleach_590.png used on input line 24.
 (pdftex.def)             Requested size: 422.77664pt x 78.34004pt.
- [36
+ [37
 
 
 ])
-(C:\Walton\thesis\timthesis\chapter_conclusions.tex [37 <C:/Walton/thesis/timth
+(C:\Walton\thesis\timthesis\chapter_conclusions.tex [38 <C:/Walton/thesis/timth
 esis/figures/hole_bleach_590.png>]
 Chapter 5
-) [38
+) [39
 
 
 ]
@@ -627,12 +631,12 @@ Missing character: There is no “ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
- [39] [40] (C:\Walton\thesis\timthesis\thesis_walton_2a.aux) ) 
+ [40] [41] (C:\Walton\thesis\timthesis\thesis_walton_2a.aux) ) 
 Here is how much of TeX's memory you used:
- 4286 strings out of 494045
- 56572 string characters out of 3148385
- 217258 words of memory out of 3000000
- 7309 multiletter control sequences out of 15000+200000
+ 4293 strings out of 494045
+ 56704 string characters out of 3148385
+ 217270 words of memory out of 3000000
+ 7314 multiletter control sequences out of 15000+200000
  12748 words of font info for 49 fonts, out of 3000000 for 9000
  876 hyphenation exceptions out of 8191
  40i,14n,35p,1647b,332s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -650,9 +654,9 @@ es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX
 type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
 blic/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
 onts/cm/cmti12.pfb>
-Output written on thesis_walton_2a.pdf (46 pages, 4193392 bytes).
+Output written on thesis_walton_2a.pdf (47 pages, 4539019 bytes).
 PDF statistics:
- 247 PDF objects out of 1000 (max. 8388607)
+ 251 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 131 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 136 words of extra memory for PDF output out of 10000 (max. 10000000)
 
