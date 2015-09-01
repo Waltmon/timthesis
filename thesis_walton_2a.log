@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.6.6)  31 AUG 2015 16:43
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.6.6)  1 SEP 2015 16:34
 entering extended mode
 **thesis_walton_2a.tex
 (C:\Walton\thesis\timthesis\thesis_walton_2a.tex
@@ -563,22 +563,22 @@ Underfull \vbox (badness 4859) has occurred while \output is active []
 
  [29 <C:/Walton/thesis/timthesis/figures/pulse_ind_cup3_raw.png> <C:/Walton/the
 sis/timthesis/figures/pulse_ind_cup3_shaped.png>]
-<figures/window_etc.png, id=157, 717.43031pt x 682.80093pt>
+<figures/window_etc.png, id=157, 718.18312pt x 661.72218pt>
 File: figures/window_etc.png Graphic file (type png)
 
 <use figures/window_etc.png>
 Package pdftex.def Info: figures/window_etc.png used on input line 120.
-(pdftex.def)             Requested size: 422.77664pt x 402.38022pt.
+(pdftex.def)             Requested size: 422.77664pt x 389.54436pt.
  [30 <C:/Walton/thesis/timthesis/figures/pulses_BaAr.png>] [31 <C:/Walton/thesi
 s/timthesis/figures/window_etc.png>]
-<figures/fringe_setup.png, id=166, 599.99156pt x 554.82281pt>
+<figures/fringe_setup.png, id=167, 599.99156pt x 554.82281pt>
 File: figures/fringe_setup.png Graphic file (type png)
 
 <use figures/fringe_setup.png>
 Package pdftex.def Info: figures/fringe_setup.png used on input line 131.
 (pdftex.def)             Requested size: 187.89914pt x 173.7542pt.
 
-<figures/fringes_52K_vs_11K.png, id=167, 560.8453pt x 361.35pt>
+<figures/fringes_52K_vs_11K.png, id=168, 560.8453pt x 361.35pt>
 File: figures/fringes_52K_vs_11K.png Graphic file (type png)
 
 <use figures/fringes_52K_vs_11K.png>
@@ -586,7 +586,7 @@ Package pdftex.def Info: figures/fringes_52K_vs_11K.png used on input line 140.
 
 (pdftex.def)             Requested size: 328.82707pt x 211.86032pt.
 
-<figures/fringes_dep_and_melt.png, id=168, 802.49812pt x 365.11406pt>
+<figures/fringes_dep_and_melt.png, id=169, 802.49812pt x 365.11406pt>
 File: figures/fringes_dep_and_melt.png Graphic file (type png)
 
 <use figures/fringes_dep_and_melt.png>
@@ -598,30 +598,30 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [32 <C:/Walton/thesis/timthesis/figures/fringe_setup.png>] [33 <C:/Walton/thes
 is/timthesis/figures/fringes_52K_vs_11K.png> <C:/Walton/thesis/timthesis/figure
-s/fringes_dep_and_melt.png>] [34]
-<figures/100_1885.JPG, id=180, 136.56018pt x 146.19618pt>
+s/fringes_dep_and_melt.png>] [34] <figures/100_1885.JPG, id=181, 136.1085pt x 1
+22.859pt>
 File: figures/100_1885.JPG Graphic file (type jpg)
 
 <use figures/100_1885.JPG>
-Package pdftex.def Info: figures/100_1885.JPG used on input line 179.
-(pdftex.def)             Requested size: 234.8775pt x 251.4748pt.
+Package pdftex.def Info: figures/100_1885.JPG used on input line 177.
+(pdftex.def)             Requested size: 234.8775pt x 212.03506pt.
 ) (C:\Walton\thesis\timthesis\chapter_results.tex
-[35] [36 <C:/Walton/thesis/timthesis/figures/100_1885.JPG>]
+[35 <C:/Walton/thesis/timthesis/figures/100_1885.JPG>]
 Chapter 4
-<figures/hole_bleach_590.png, id=187, 1218.80344pt x 225.84375pt>
+<figures/hole_bleach_590.png, id=185, 1218.80344pt x 225.84375pt>
 File: figures/hole_bleach_590.png Graphic file (type png)
 
 <use figures/hole_bleach_590.png>
 Package pdftex.def Info: figures/hole_bleach_590.png used on input line 24.
 (pdftex.def)             Requested size: 422.77664pt x 78.34004pt.
- [37
+ [36
 
 
 ])
-(C:\Walton\thesis\timthesis\chapter_conclusions.tex [38 <C:/Walton/thesis/timth
+(C:\Walton\thesis\timthesis\chapter_conclusions.tex [37 <C:/Walton/thesis/timth
 esis/figures/hole_bleach_590.png>]
 Chapter 5
-) [39
+) [38
 
 
 ]
@@ -631,12 +631,12 @@ Missing character: There is no “ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
- [40] [41] (C:\Walton\thesis\timthesis\thesis_walton_2a.aux) ) 
+ [39] [40] (C:\Walton\thesis\timthesis\thesis_walton_2a.aux) ) 
 Here is how much of TeX's memory you used:
- 4293 strings out of 494045
- 56704 string characters out of 3148385
- 217270 words of memory out of 3000000
- 7314 multiletter control sequences out of 15000+200000
+ 4296 strings out of 494045
+ 56755 string characters out of 3148385
+ 217286 words of memory out of 3000000
+ 7317 multiletter control sequences out of 15000+200000
  12748 words of font info for 49 fonts, out of 3000000 for 9000
  876 hyphenation exceptions out of 8191
  40i,14n,35p,1647b,332s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -654,9 +654,9 @@ es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX
 type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
 blic/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
 onts/cm/cmti12.pfb>
-Output written on thesis_walton_2a.pdf (47 pages, 4539019 bytes).
+Output written on thesis_walton_2a.pdf (46 pages, 4505374 bytes).
 PDF statistics:
- 251 PDF objects out of 1000 (max. 8388607)
+ 249 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  136 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -24,13 +24,13 @@
 \contentsline {section}{\tocsection {}{3.4}{Laser Excitation}}{33}
 \contentsline {section}{\tocsection {}{3.5}{Collection Optics}}{34}
 \contentsline {section}{\tocsection {}{3.6}{Laser Scanning}}{35}
-\contentsline {chapter}{\tocchapter {Chapter}{4}{Results}}{37}
-\contentsline {section}{\tocsection {}{4.1}{Fluorescence of Ba in SXe}}{37}
-\contentsline {subsection}{\tocsubsection {}{4.1.1}{Identifying Peaks as Ba in SXe}}{37}
-\contentsline {section}{\tocsection {}{4.2}{Bleaching}}{38}
-\contentsline {section}{\tocsection {}{4.3}{Imaging}}{38}
-\contentsline {subsection}{\tocsubsection {}{4.3.1}{Imaging 577- and 591-nm peaks}}{38}
-\contentsline {subsection}{\tocsubsection {}{4.3.2}{Imaging 619-nm peak}}{38}
-\contentsline {chapter}{\tocchapter {Chapter}{5}{Conclusions}}{39}
-\contentsline {section}{\tocsection {}{5.1}{Future Steps}}{39}
-\contentsline {chapter}{Bibliography}{40}
+\contentsline {chapter}{\tocchapter {Chapter}{4}{Results}}{36}
+\contentsline {section}{\tocsection {}{4.1}{Fluorescence of Ba in SXe}}{36}
+\contentsline {subsection}{\tocsubsection {}{4.1.1}{Identifying Peaks as Ba in SXe}}{36}
+\contentsline {section}{\tocsection {}{4.2}{Bleaching}}{37}
+\contentsline {section}{\tocsection {}{4.3}{Imaging}}{37}
+\contentsline {subsection}{\tocsubsection {}{4.3.1}{Imaging 577- and 591-nm peaks}}{37}
+\contentsline {subsection}{\tocsubsection {}{4.3.2}{Imaging 619-nm peak}}{37}
+\contentsline {chapter}{\tocchapter {Chapter}{5}{Conclusions}}{38}
+\contentsline {section}{\tocsection {}{5.1}{Future Steps}}{38}
+\contentsline {chapter}{Bibliography}{39}
