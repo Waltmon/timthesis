@@ -11,7 +11,7 @@
 \contentsline {chapter}{\tocchapter {Chapter}{2}{Theory}}{19}
 \contentsline {section}{\tocsection {}{2.1}{Ba/Ba\textsuperscript {+} Spectroscopy in Vacuum}}{19}
 \contentsline {section}{\tocsection {}{2.2}{Matrix Isolation Spectroscopy}}{20}
-\contentsline {subsection}{\tocsubsection {}{2.2.1}{6-level model}}{22}
+\contentsline {subsection}{\tocsubsection {}{2.2.1}{6-level System}}{22}
 \contentsline {section}{\tocsection {}{2.3}{shon had a flu eff section}}{22}
 \contentsline {chapter}{\tocchapter {Chapter}{3}{Experimental}}{23}
 \contentsline {section}{\tocsection {}{3.1}{Ion Beam}}{23}
