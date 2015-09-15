@@ -12,26 +12,26 @@
 \contentsline {section}{\tocsection {}{2.1}{Ba/Ba\textsuperscript {+} Spectroscopy in Vacuum}}{19}
 \contentsline {section}{\tocsection {}{2.2}{Matrix Isolation Spectroscopy}}{20}
 \contentsline {subsection}{\tocsubsection {}{2.2.1}{6-level System}}{22}
-\contentsline {section}{\tocsection {}{2.3}{shon had a flu eff section}}{22}
-\contentsline {chapter}{\tocchapter {Chapter}{3}{Experimental}}{23}
-\contentsline {section}{\tocsection {}{3.1}{Ion Beam}}{23}
-\contentsline {subsection}{\tocsubsection {}{3.1.1}{Ion Source}}{23}
-\contentsline {subsection}{\tocsubsection {}{3.1.2}{E$\times $B Velocity Filter}}{25}
-\contentsline {subsection}{\tocsubsection {}{3.1.3}{Other Beam Components}}{26}
-\contentsline {subsection}{\tocsubsection {}{3.1.4}{Ion Beam Pulsing}}{27}
-\contentsline {subsection}{\tocsubsection {}{3.1.5}{Calibration of Ion Deposit}}{29}
-\contentsline {section}{\tocsection {}{3.2}{Ba Getter Source}}{30}
-\contentsline {section}{\tocsection {}{3.3}{Sample Deposition}}{31}
-\contentsline {section}{\tocsection {}{3.4}{Laser Excitation}}{33}
-\contentsline {section}{\tocsection {}{3.5}{Collection Optics}}{34}
-\contentsline {section}{\tocsection {}{3.6}{Laser Scanning}}{35}
-\contentsline {chapter}{\tocchapter {Chapter}{4}{Results}}{36}
-\contentsline {section}{\tocsection {}{4.1}{Fluorescence of Ba in SXe}}{36}
-\contentsline {subsection}{\tocsubsection {}{4.1.1}{Identifying Peaks as Ba in SXe}}{36}
-\contentsline {section}{\tocsection {}{4.2}{Bleaching}}{37}
-\contentsline {section}{\tocsection {}{4.3}{Imaging}}{37}
-\contentsline {subsection}{\tocsubsection {}{4.3.1}{Imaging 577- and 591-nm peaks}}{37}
-\contentsline {subsection}{\tocsubsection {}{4.3.2}{Imaging 619-nm peak}}{37}
-\contentsline {chapter}{\tocchapter {Chapter}{5}{Conclusions}}{38}
-\contentsline {section}{\tocsection {}{5.1}{Future Steps}}{38}
-\contentsline {chapter}{Bibliography}{39}
+\contentsline {section}{\tocsection {}{2.3}{shon had a flu eff section}}{23}
+\contentsline {chapter}{\tocchapter {Chapter}{3}{Experimental}}{24}
+\contentsline {section}{\tocsection {}{3.1}{Ion Beam}}{24}
+\contentsline {subsection}{\tocsubsection {}{3.1.1}{Ion Source}}{24}
+\contentsline {subsection}{\tocsubsection {}{3.1.2}{E$\times $B Velocity Filter}}{26}
+\contentsline {subsection}{\tocsubsection {}{3.1.3}{Other Beam Components}}{27}
+\contentsline {subsection}{\tocsubsection {}{3.1.4}{Ion Beam Pulsing}}{28}
+\contentsline {subsection}{\tocsubsection {}{3.1.5}{Calibration of Ion Deposit}}{30}
+\contentsline {section}{\tocsection {}{3.2}{Ba Getter Source}}{31}
+\contentsline {section}{\tocsection {}{3.3}{Sample Deposition}}{32}
+\contentsline {section}{\tocsection {}{3.4}{Laser Excitation}}{34}
+\contentsline {section}{\tocsection {}{3.5}{Collection Optics}}{35}
+\contentsline {section}{\tocsection {}{3.6}{Laser Scanning}}{36}
+\contentsline {chapter}{\tocchapter {Chapter}{4}{Results}}{37}
+\contentsline {section}{\tocsection {}{4.1}{Fluorescence of Ba in SXe}}{37}
+\contentsline {subsection}{\tocsubsection {}{4.1.1}{Identifying Peaks as Ba in SXe}}{37}
+\contentsline {section}{\tocsection {}{4.2}{Bleaching}}{38}
+\contentsline {section}{\tocsection {}{4.3}{Imaging}}{38}
+\contentsline {subsection}{\tocsubsection {}{4.3.1}{Imaging 577- and 591-nm peaks}}{38}
+\contentsline {subsection}{\tocsubsection {}{4.3.2}{Imaging 619-nm peak}}{38}
+\contentsline {chapter}{\tocchapter {Chapter}{5}{Conclusions}}{39}
+\contentsline {section}{\tocsection {}{5.1}{Future Steps}}{39}
+\contentsline {chapter}{Bibliography}{40}
