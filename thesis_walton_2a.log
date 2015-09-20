@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.18)  19 SEP 2015 16:50
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.18)  19 SEP 2015 18:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -665,23 +665,24 @@ input line 12.
  [37
 
 
- <./figures/BaAbs_fromBaSpec-eps-converted-to.pdf>]
-<figures/hole_bleach_590.png, id=228, 1218.80344pt x 225.84375pt>
+]
+<figures/hole_bleach_590.png, id=194, 1218.80344pt x 225.84375pt>
 File: figures/hole_bleach_590.png Graphic file (type png)
 
 <use figures/hole_bleach_590.png>
-Package pdftex.def Info: figures/hole_bleach_590.png used on input line 39.
+Package pdftex.def Info: figures/hole_bleach_590.png used on input line 37.
 (pdftex.def)             Requested size: 422.77664pt x 78.34004pt.
 
-<figures/fitgrouped_20150807_20150916_inset.png, id=229, 899.36pt x 1015.795pt>
+<figures/fitgrouped_20150807_20150916_inset.png, id=195, 899.36pt x 1015.795pt>
 File: figures/fitgrouped_20150807_20150916_inset.png Graphic file (type png)
 <use figures/fitgrouped_20150807_20150916_inset.png>
 Package pdftex.def Info: figures/fitgrouped_20150807_20150916_inset.png used on
- input line 55.
+ input line 53.
 (pdftex.def)             Requested size: 328.82707pt x 371.38983pt.
-)
-(./chapter_conclusions.tex [38 <./figures/hole_bleach_590.png>] [39 <./figures/
-fitgrouped_20150807_20150916_inset.png>]
+ [38 <./figures/BaAbs_fromBaSpec-eps-converted-to.pdf> <./figures/hole_bleach_5
+90.png>])
+(./chapter_conclusions.tex [39 <./figures/fitgrouped_20150807_20150916_inset.pn
+g>]
 Chapter 5
 ) [40
 
@@ -715,7 +716,7 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmti12.pfb>
-Output written on thesis_walton_2a.pdf (48 pages, 4553209 bytes).
+Output written on thesis_walton_2a.pdf (48 pages, 4553166 bytes).
 PDF statistics:
  290 PDF objects out of 1000 (max. 8388607)
  152 compressed objects within 2 object streams
