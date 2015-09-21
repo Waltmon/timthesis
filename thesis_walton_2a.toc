@@ -27,13 +27,14 @@
 \contentsline {section}{\tocsection {}{3.6}{Laser Scanning}}{36}
 \contentsline {chapter}{\tocchapter {Chapter}{4}{Results}}{37}
 \contentsline {section}{\tocsection {}{4.1}{Fluorescence of Ba in SXe}}{37}
-\contentsline {subsection}{\tocsubsection {}{4.1.1}{Identifying Peaks as Ba in SXe}}{37}
-\contentsline {subsection}{\tocsubsection {}{4.1.2}{Temperature/annealing}}{37}
-\contentsline {section}{\tocsection {}{4.2}{Bleaching}}{38}
-\contentsline {section}{\tocsection {}{4.3}{Imaging}}{38}
-\contentsline {subsection}{\tocsubsection {}{4.3.1}{Imaging 577- and 591-nm peaks}}{38}
-\contentsline {subsection}{\tocsubsection {}{4.3.2}{Imaging 619-nm peak}}{39}
-\contentsline {section}{\tocsection {}{4.4}{Candidate Ba\textsuperscript {+} Lines}}{39}
-\contentsline {chapter}{\tocchapter {Chapter}{5}{Conclusions}}{40}
-\contentsline {section}{\tocsection {}{5.1}{Future Steps}}{40}
-\contentsline {chapter}{Bibliography}{41}
+\contentsline {subsection}{\tocsubsection {}{4.1.1}{Annealing/Temperature Dependence}}{39}
+\contentsline {subsection}{\tocsubsection {}{4.1.2}{Bleaching}}{39}
+\contentsline {section}{\tocsection {}{4.2}{Backgrounds}}{40}
+\contentsline {section}{\tocsection {}{4.3}{Imaging}}{40}
+\contentsline {subsection}{\tocsubsection {}{4.3.1}{Imaging 577- and 591-nm peaks}}{40}
+\contentsline {subsection}{\tocsubsection {}{4.3.2}{Imaging 619-nm peak}}{40}
+\contentsline {subsection}{\tocsubsection {}{4.3.3}{Further Checks on 619-nm Peak}}{41}
+\contentsline {section}{\tocsection {}{4.4}{Candidate Ba\textsuperscript {+} Lines}}{41}
+\contentsline {chapter}{\tocchapter {Chapter}{5}{Conclusions}}{42}
+\contentsline {section}{\tocsection {}{5.1}{Future Steps}}{42}
+\contentsline {chapter}{Bibliography}{43}
