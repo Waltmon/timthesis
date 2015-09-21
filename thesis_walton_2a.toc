@@ -27,8 +27,8 @@
 \contentsline {section}{\tocsection {}{3.6}{Laser Scanning}}{36}
 \contentsline {chapter}{\tocchapter {Chapter}{4}{Results}}{37}
 \contentsline {section}{\tocsection {}{4.1}{Fluorescence of Ba in SXe}}{37}
-\contentsline {subsection}{\tocsubsection {}{4.1.1}{Annealing/Temperature Dependence}}{39}
-\contentsline {subsection}{\tocsubsection {}{4.1.2}{Bleaching}}{39}
+\contentsline {subsection}{\tocsubsection {}{4.1.1}{Annealing/Temperature Dependence}}{38}
+\contentsline {subsection}{\tocsubsection {}{4.1.2}{Bleaching}}{38}
 \contentsline {section}{\tocsection {}{4.2}{Backgrounds}}{40}
 \contentsline {section}{\tocsection {}{4.3}{Imaging}}{40}
 \contentsline {subsection}{\tocsubsection {}{4.3.1}{Imaging 577- and 591-nm peaks}}{40}
