@@ -28,12 +28,12 @@
 \contentsline {chapter}{\tocchapter {Chapter}{4}{Results}}{37}
 \contentsline {section}{\tocsection {}{4.1}{Fluorescence of Ba in SXe}}{37}
 \contentsline {subsection}{\tocsubsection {}{4.1.1}{Annealing/Temperature Dependence}}{38}
-\contentsline {subsection}{\tocsubsection {}{4.1.2}{Bleaching}}{38}
+\contentsline {subsection}{\tocsubsection {}{4.1.2}{Bleaching}}{40}
 \contentsline {section}{\tocsection {}{4.2}{Backgrounds}}{40}
 \contentsline {section}{\tocsection {}{4.3}{Imaging}}{40}
 \contentsline {subsection}{\tocsubsection {}{4.3.1}{Imaging 577- and 591-nm peaks}}{40}
 \contentsline {subsection}{\tocsubsection {}{4.3.2}{Imaging 619-nm peak}}{40}
-\contentsline {subsection}{\tocsubsection {}{4.3.3}{Further Checks on 619-nm Peak}}{41}
+\contentsline {subsection}{\tocsubsection {}{4.3.3}{Further Checks on 619-nm Peak}}{40}
 \contentsline {section}{\tocsection {}{4.4}{Candidate Ba\textsuperscript {+} Lines}}{41}
 \contentsline {chapter}{\tocchapter {Chapter}{5}{Conclusions}}{42}
 \contentsline {section}{\tocsection {}{5.1}{Future Steps}}{42}
