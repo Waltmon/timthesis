@@ -1,13 +1,15 @@
 \chapter{Results}
 
-\emph{\color{gray}Was there something more you wanted to put in experimental?}
+\emph{\color{gray}Probably add astigmatism correction observation results to Experimental when optical flat is talked about.}
 
-Studies of several emission peaks of neutral Ba in SXe are discussed in \ref{sec:fluorescence}.  Temperature and annealing dependence are discussed in \ref{subsec:tempanneal}.  Bleaching of these peaks is discussed in detail in \ref{subsec:bleaching}.  Imaging of Ba fluorescence in a focused laser region is discussed in \ref{imaging}, with the ultimate achievement of imaging at the single atom level using the 619-nm fluorescence peak.  Candidate fluorescence peaks of Ba\textsuperscript{+} in SXe are reported in \ref{sec:BaPlus}.
+\emph{\color{gray}Also in Experimental -- probably need to mention CCD digitaztion pedestal and noise, and dark counts which are zero when cold.  ALSO:  add (C480) after mention of Coumarin 480 (in Experimental).}
+
+Studies of several emission peaks of neutral Ba in SXe are discussed in \ref{sec:fluorescence}.  Temperature and annealing dependence are discussed in \ref{subsec:tempanneal}, and bleaching of these peaks is discussed in detail in \ref{subsec:bleaching}.  Imaging of Ba fluorescence in a focused laser region is discussed in \ref{imaging}, with the ultimate achievement of imaging at the single atom level using the 619-nm fluorescence peak.  Candidate fluorescence peaks of Ba\textsuperscript{+} in SXe are reported in \ref{sec:BaPlus}.
 
 \section{Fluorescence of Ba in SXe}
 \label{sec:fluorescence}
 
-Deposits of Ba in SXe absorb primarily between 540~nm and 570~nm.  An absorption spectrum, obtained by observing absorption of white light by a large Ba deposit at 11~K, is shown in Fig. \ref{fig:BaAbs}, along with an example emission spectrum.  Significant broadening, as well as a 4-nm redshift  of the central peak, occur relative to the vacuum $6s^{2}$ $^{1}$S$_{0} \rightarrow 6s6p$ $^{1}$P$_{1}$ absorption value of 553.5~nm.  The observation of the same absorption and emission spectra with deposits made with the Ba\textsuperscript{+} ion beam as with the neutral Ba getter source demonstrate some neutralization of the ions.  The fraction of ions neutralized is not determined.  \cite{Mong2015,Shon,Brian}
+Deposits of Ba in SXe absorb primarily between 540~nm and 570~nm.  An absorption spectrum, obtained by observing absorption of white light by a large Ba deposit at 11~K, is shown in Fig. \ref{fig:BaAbs}, along with an example emission spectrum.  Significant broadening, as well as a 4-nm redshift  of the central peak, occur relative to the vacuum $6s^{2}$ $^{1}$S$_{0} \rightarrow 6s6p$ $^{1}$P$_{1}$ absorption value of 553.5~nm.  Initial discovery of this absorption and emission was done with the purely neutral Ba getter source.  Observation of the same spectra from Ba\textsuperscript{+} ion beam deposits demonstrates some neutralization of the ions.  The fraction of ions neutralized is not determined.  \cite{Mong2015,Shon,Brian}
 
 \begin{figure} %[H]
         \centering
@@ -16,9 +18,11 @@ Deposits of Ba in SXe absorb primarily between 540~nm and 570~nm.  An absorption
 \label{fig:BaAbs}
 \end{figure}
 
-The several red-shifted emission peaks observed are attributed to Ba atoms occupying different matrix sites in the SXe.  Deposition at temperatures higher than 11~K and exploration of more excitation wavelengths have led to discovery of a few emission peaks beyond the 591- and 577-nm peaks reported in \cite{Shon} and \cite{Brian}.  Emission spectra for selected excitation wavelengths are shown in Fig. \ref{fig:excitspecGrn}(a), for a deposit made at 44~K and observed at 11~K.  These selections are part of a full excitation spectrum, shown in Fig. \ref{fig:excitspecGrn}(b).
+The several red-shifted emission peaks observed are attributed to Ba atoms occupying different matrix sites in the SXe.  Deposition at temperatures higher than 11~K and exploration of more excitation wavelengths have led to discovery of a few emission peaks beyond the 591- and 577-nm peaks reported in \cite{Shon} and \cite{Brian}.  Emission spectra for selected excitation wavelengths are shown in Fig. \ref{fig:excitspecGrn}(a), for a deposit made at 44~K and observed at 11~K.  These selections are part of a full excitation spectrum, shown in Fig. \ref{fig:excitspecGrn}(b).  An excitation spectrum is produced by scanning the dye laser and measuring the magnitude of each fluorescence peak vs. excitation wavelength.  For each \emph{\color{red}x-}s CCD exposure, a sum of {\color{red}asymmetric Gaussian} functions is fit to the spectrum after pedestal subtraction.  An example frame with fits is shown in Fig. [fig excitspec spectrum with fits and wavelength fit on left .. \emph{\color{gray}or should it be Fig. 4.2(b) with (a) still the selections and (c) the excit spec?}].  Rather than attempting frame-by-frame background subtractions, additional Gaussians are fit to the broad and sharp background fluorescence.  These backgrounds and their excitation spectra are discussed in \ref{sec:bgs}.  A {\color{red}568-nm} Raman filter is used to attenuate the majority of the laser scatter, however the small amount of scatter passed by the filter is used to determine the frame's excitation wavelength \emph{\color{red}(Check flatness of attenuation by filter??)}.  Each peak's fit contribution is then integrated and scaled by the frame's laser power, as the power output is not constant through the dye range.
 
 \emph{\color{gray}Care about 10~K excitation spectrum?}
+
+Wavelength calibration is done using three lasers whose wavelengths are first measured with a {\color{red}brand} Wavemeter:  a {\color{gray}[list the lasers used -- hopefully it's the red, blue dye and 532]}.  These lasers directed at the same position on the sapphire window, and their scatter is imaged along the same path as the Ba fluorescence.  The WinSpec software applies the diffraction grating equation to calibrate each CCD pixel to a wavelength.
 
 \begin{figure} %[H]
         \centering
@@ -34,12 +38,14 @@ The several red-shifted emission peaks observed are attributed to Ba atoms occup
 
 Matrix site occupancies for Ba atoms can depend on annealing history, and similarly on the temperature at which a deposit is made.  Spectra under different conditions are shown in Fig. [fig spectra temp/anneal].  \emph{\color{gray}Describe it -- should you do a new one with other peaks?  There is more 577, but is 591 the same? It looks so in the paper plot, but were they scaled? \textbf{... and point out here that the signal is higher especially for the 619, which is important to us.}}  
 
-Fluorescence signal through several annealing cycles for a deposit made at 11~K is shown for \emph{\color{gray}(all observed peaks?)} in Fig. [fig annealing cycles].  \emph{\color{gray}Describe relevant things -- gain in some, loss?  Show annealing of a 50~K dep? (Did we ever do that?) -- and say how there is some loss when going to higher temp, possibly refering to a statement in a paper about diffusion becoming possible.}
+Fluorescence signal through several annealing cycles for a deposit made at 11~K is shown for \emph{\color{gray}(all observed peaks?)} in Fig. [fig annealing cycles].  Similar to excitation spectra, {\color{red}summed asymmetric Gaussian} fits determine the magnitude of each fluorescence peak vs. temperature.  \emph{\color{gray}Describe relevant things -- gain in some, loss?  Show annealing of a 50~K dep? (Did we ever do that?) -- and say how there is some loss when going to higher temp, possibly referring to a statement in a paper about diffusion becoming possible.}
 
 Direct temperature dependence of fluorescence is also observed in annealing cycles.  For all Ba peaks, fluorescence all but disappears by ? K.  This could be due to a different matrix environment at higher temperature, or possibly a loss of fluorescence efficiency due to increased non-radiative decays from the excited state.  This suggests that a probe in nEXO will need to be moved to an evacuated chamber in order to cool to 11~K or below for observation.
 
 \subsection{Bleaching}
 \label{subsec:bleaching}
+
+\emph{\color{gray}Describe how you align here -- observe focused image, find its focus, and defocus by an amount, then centering the broad Ba fluorescence for a known intensity region of x\% ... \textbf{do you want an explanation of the image in experimental?  or maybe this is a good place to introduce it?}}
 
 ({\color{red}do a correction on p-meter sensitive area and on p-meter quantum efficiency, and also a spherical aberation correction for power, though that may not matter for the defocused studies.})
 
@@ -52,6 +58,8 @@ Direct temperature dependence of fluorescence is also observed in annealing cycl
 \label{fig:testfig}
 \end{figure}
 
+Repump attempts -- nothing found with cheap lasers.
+
 619, with the changes in time and I
 
 bleaching effect on excit spec (bleaching site change search)
@@ -59,12 +67,26 @@ bleaching effect on excit spec (bleaching site change search)
 \section{Backgrounds}
 \label{sec:bgs}
 
-Show Cr$^{+++}$ excit spec agreement with old paper for calling broad stuff also due to that.
+One source of background in spectra and images is fluorescence from the sapphire window.  A spectrum of this fluorescence with x~nm excitation is shown in Fig. [fig sapphire spectrum](a).  The strong, sharp peak at \emph{\color{gray}(peaks around? May need to ask Bill about what peaks exist and at what temps)} x~nm are a well-known fluorescence of Cr\textsuperscript{3+} impurities in the sapphire bulk.  \emph{\color{gray}Is only one of the lines (the one mentioned on wikipedia) strong at room temp?  I think you have room temp soectra somewhere.}  A weaker and much broader fluorescence is observed, also from the sapphire bulk, which reaches into the wavelength regions of the Ba fluorescence peaks.  The excitation spectra for these fluorescence components are shown in Fig. [fig Cr](b), over the range of both R6G and R110 dyes, as well as the blue dye C480.  The excitation spectrum for the {\color{red}693(s?)} Cr\textsuperscript{3+} peak{\color{red}(s)} agrees with the literature [cite that one paper].  The identical excitation spectrum of the broad fluorescence, including the small peaks around x~nm, demonstrate that it too is due to Cr\textsuperscript{3+} in the sapphire.  \emph{\color{gray}\textbf{check this -- was it certainly from just the bulk and not from partly surface BG for those excit. spec.? -- ACTUALLY is it possible that some of this is the surface BG?  Yes, if it was a broad laser, unless the sapphire is really high in these, which maybe it is?}.}  Commercially available c-plane quality sapphire windows contain very low concentrations of Cr\textsuperscript{3+}.  The highest purity windows we have found are from Meller Optics, with Cr\textsuperscript{3+} concentrations of around {\color{red}10 ppt} estimated from our spectra.
+
+Another background emission is observed from the surfaces of the window.  Its broad fluorescence is shown in Fig. [fig 1st order surface BG] with a 610-nm Raman filter cutoff and {\color{red}570~nm} excitation, in a 1\textsuperscript{st}-order image, where the x-axis is wavelength and the y-axis is y position in the image.  The nature of this emission has not been determined, however a few features have been identified.  One is that the emission increases as the window temperature is decreased, down to about 100~K where it is flat down to 11~K, shown in Fig. [fig BG temp dep] along with the temperature dependence of the Cr\textsuperscript{3+} emission, which has the inverse relationship.  Another feature of the surface background is that it bleaches with laser exposure, shown in Fig. [fig surfaceBG bleaching].  This useful in that the background can be reduced by pre-bleaching of the window.  However, the bleaching behavior also presents a nuisance.  Frequent Xe-only deposits must be made in order to establish proper background subtraction, as historical bleaching and possible slight movements of the laser to differently bleached positions can cause variation in the background over en experiment period.  Spacial variation in the background is especially cumbersome in a laser scanning experiment, as discussed in xxx.  Given these behaviors, it is possible that the surface background is caused by a species which freezes to the window, or something which coats the window and fluoresces more at lower temperatures.  In either case, the bleaching could be explained by evaporation with laser heating, or by optical pumping of the species into a metastable state.
 
 \section{Imaging}
 \label{imaging}
 
+Though the imaging spectrometer can produce spacial images with the 0-order grating reflection, better collection efficiency and imaging quality are achieved by removing the spectrometer and imaging directly onto the CCD.  Band-pass filters are used to pass the desired Ba fluorescence peak(s) while attenuating laser scatter and sapphire fluorescence.
+
+An example image of the focused 570~nm dye laser passing through a c-plane sapphire window of thickness 0.5~mm, using the 620-nm band-pass filter on the fluorescence, is shown in Fig. [fig example image].  With 4$\times$ magnification, each pixel is 5~$\mu$m $\times$ 5~$\mu$m.  The laser's path through the window is faintly visible by the tail of the broad Cr\textsuperscript{3+} fluorescence in the 620-nm region (see Fig. [ref fig band passes on spectrum with BG and Ba fluorescence shown] for regions passes by various filters).  The laser is focused at the top surface of the window, which faces the ion beam.  The surface background is seen on both surfaces.  The observed size of the laser spot, with a 1/e$^{2}$ radius of about 12~$\mu$m, is larger than the 2.06~$\mu$m $\times$ 2.66~$\mu$m laser spot size.  Aberrations and vibrations in the collection optics could contribute to this inability to reach the diffraction limit in imaging.
+
+\subsection{Vibrations and Effective Laser Region}
+
+Relative vibrations between the laser and sapphire window will affect the number of Ba atoms exposed, increasing the effective laser spot size.  This was studied by observing the position of a ``dust spot" (a highly scattering feature on the sapphire window) relative to the position of the laser in an image on time scales down to 50~ms.  An example of an image from this experiment is shown in Fig. [fig dust spot vibe image].  The 570-nm dye laser is somewhat de-focused, and the dust spot is illuminated by a de-focused {\color{red}657~nm} diode laser. For each frame, 2D Gaussian functions are fit to locate the center of the laser spot and the dust spot in order to measure their relative position.  The fit for the laser spot is restricted in y so that it is not affected by the bulk sapphire fluorescence path.  The difference between dust spot and laser positions is plotted in Fig. [fig vibe vs. time with sine fit] for both x and y.  Each exposure in this plot is 50~ms, though readout time and camera shutter compensation time result in x~s between frames.  The best fit of a sine function results in a vibration frequency of x~Hz.  This is consistent with the audible frequency of the cryostat He pump.
+
+To quantify the effect of this vibration [gaussian chris thing]
+
 \subsection{Imaging 577- and 591-nm peaks}
+
+First attempts at imaging [lower-bleaching 577, but also 591 w/ the big filter]
 
 \subsection{Imaging 619-nm peak}
 
