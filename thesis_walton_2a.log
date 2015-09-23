@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.18)  22 SEP 2015 16:33
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.18)  22 SEP 2015 18:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -695,8 +695,9 @@ File: figures/fitgrouped_20150807_20150916_inset.png Graphic file (type png)
 Package pdftex.def Info: figures/fitgrouped_20150807_20150916_inset.png used on
  input line 97.
 (pdftex.def)             Requested size: 328.82707pt x 371.38983pt.
- [45 <./figures/fitgrouped_20150807_20150916_inset.png>]) (./chapter_conclusion
-s.tex [46]
+ [45])
+(./chapter_conclusions.tex [46 <./figures/fitgrouped_20150807_20150916_inset.pn
+g>]
 Chapter 5
 ) [47
 
@@ -731,7 +732,7 @@ ist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmti12.pfb>
-Output written on thesis_walton_2a.pdf (55 pages, 4649799 bytes).
+Output written on thesis_walton_2a.pdf (55 pages, 4650941 bytes).
 PDF statistics:
  285 PDF objects out of 1000 (max. 8388607)
  167 compressed objects within 2 object streams
