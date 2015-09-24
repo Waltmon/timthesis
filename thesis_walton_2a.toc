@@ -28,14 +28,14 @@
 \contentsline {chapter}{\tocchapter {Chapter}{4}{Results}}{37}
 \contentsline {section}{\tocsection {}{4.1}{Fluorescence of Ba in SXe}}{37}
 \contentsline {subsection}{\tocsubsection {}{4.1.1}{Annealing/Temperature Dependence}}{40}
-\contentsline {subsection}{\tocsubsection {}{4.1.2}{Bleaching}}{41}
-\contentsline {section}{\tocsection {}{4.2}{Backgrounds}}{42}
-\contentsline {section}{\tocsection {}{4.3}{Imaging}}{43}
-\contentsline {subsection}{\tocsubsection {}{4.3.1}{Vibrations and Effective Laser Region}}{44}
-\contentsline {subsection}{\tocsubsection {}{4.3.2}{Imaging 577- and 591-nm peaks}}{45}
-\contentsline {subsection}{\tocsubsection {}{4.3.3}{Imaging 619-nm peak}}{46}
-\contentsline {subsection}{\tocsubsection {}{4.3.4}{Further Checks on 619-nm Peak}}{46}
-\contentsline {section}{\tocsection {}{4.4}{Candidate Ba\textsuperscript {+} Lines}}{47}
-\contentsline {chapter}{\tocchapter {Chapter}{5}{Conclusions}}{48}
-\contentsline {section}{\tocsection {}{5.1}{Future Steps}}{48}
-\contentsline {chapter}{Bibliography}{49}
+\contentsline {subsection}{\tocsubsection {}{4.1.2}{Bleaching}}{42}
+\contentsline {section}{\tocsection {}{4.2}{Backgrounds}}{44}
+\contentsline {section}{\tocsection {}{4.3}{Imaging}}{46}
+\contentsline {subsection}{\tocsubsection {}{4.3.1}{Vibrations and Effective Laser Region}}{46}
+\contentsline {subsection}{\tocsubsection {}{4.3.2}{Imaging 577- and 591-nm peaks}}{47}
+\contentsline {subsection}{\tocsubsection {}{4.3.3}{Imaging 619-nm peak}}{48}
+\contentsline {subsection}{\tocsubsection {}{4.3.4}{Further Checks on 619-nm Peak}}{49}
+\contentsline {section}{\tocsection {}{4.4}{Candidate Ba\textsuperscript {+} Lines}}{49}
+\contentsline {chapter}{\tocchapter {Chapter}{5}{Conclusions}}{50}
+\contentsline {section}{\tocsection {}{5.1}{Future Steps}}{50}
+\contentsline {chapter}{Bibliography}{51}
