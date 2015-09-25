@@ -44,9 +44,9 @@ Wavelength calibration is done using three lasers whose wavelengths are first me
 \subsection{Annealing/Temperature Dependence}
 \label{subsec:tempanneal}
 
-\emph{\color{gray}When does it need to be mentioned that certain data was also used in the paper(s)?}
+%\emph{\color{gray}When does it need to be mentioned that certain data was also used in the paper(s)?}
 
-Matrix site occupancies for Ba atoms can depend on annealing history, and similarly on the temperature at which a deposit is made.  Spectra under different temperature conditions are shown in Fig. \ref{fig:specTempConditions}.  Peak shapes look similar for deposits made at 40-55~K as those made at 11~K and then annealed to 40-55~K, both being observed at 11~K, though relative amplitudes are not the same, likely due to matrix site populations.  Without annealing, 11-K deposits have a different peak shape around 590~nm, with a broader peak centered around 596~nm.
+Matrix site occupancies for Ba atoms can depend on annealing history, and similarly on the temperature at which a deposit is made.  Spectra under different temperature conditions are shown in Fig. \ref{fig:specTempConditions}.  Peak shapes look similar for deposits made at 40-55~K as those made at 11~K and then annealed to 40-55~K, both being observed at 11~K, though relative amplitudes are not the same, likely due to matrix site populations.  Without annealing, 11-K deposits have a different peak shape around 590~nm, with a broader peak centered around 596~nm.  Another possibility is that the broader shape is due to a higher population of the 601-nm peak, and it is not resolved from the 591-nm peak.
 
 \begin{figure} %[H]
         \centering
@@ -55,12 +55,14 @@ Matrix site occupancies for Ba atoms can depend on annealing history, and simila
 \label{fig:specTempConditions}
 \end{figure}
 
-Fluorescence spectra with 564~nm excitation through several annealing cycles for a deposit made at 11~K is shown in Fig. \ref{fig:specAnneal}.  At this wavelength, all six observed Ba peaks are prominent except the 570-nm peak.  Similar to excitation spectra, individual fluorescence peak amplitudes can be plotted vs. temperature by fitting the full spectrum in each frame.  Rather than asymmetric Gaussians, this analysis uses standard Gaussian and Lorentzian functions.  Lorentzians fit the 619-nm and 670-nm peaks well.  Each individual peak's amplitude is plotted vs. temperature in Fig.[](b-f), with an example of a fit spectrum in Fig. [](a).  \emph{\color{gray}Describe relevant things -- gain in some, loss?  Show annealing of a 50~K dep? (Did we ever do that?) -- and say how there is some loss when going to higher temp, possibly referring to a statement in a paper about diffusion becoming possible.} \emph{\color{gray}... mention that 619 goes up a lot after anneal, and then refer to a different plot of 619 dependence on dep temp.}
+Fluorescence spectra with 564~nm excitation through several annealing cycles for a deposit made at 11~K are shown in Fig. \ref{fig:specAnneal}.  At this wavelength, all observed Ba peaks are prominent except the 570-nm peak.  Similar to excitation spectra, individual fluorescence peak amplitudes can be plotted vs. temperature by fitting the full spectrum in each frame.  Rather than asymmetric Gaussians, this analysis used standard Gaussian and Lorentzian functions.  Lorentzians fit the 619-nm and 670-nm peaks well.  Each individual peak's amplitude is plotted vs. temperature in Fig. \ref{fig:annealGrn}(b-f), with an example of a fit spectrum in Fig. \ref{fig:annealGrn}(a).  In this interpretation, the 601-nm \emph{\textbf{\color{red}Is it similar to the 601 fit in excit spec?}} peak along with the 591-nm peak fit the broader peak in the initial 11~K deposit.  The 601-nm peak shows nearly complete loss in the first anneal cycle.  The 670-nm peak sees significant loss, with more loss with each succeeding anneal cycle, each of which reach higher temperatures.  The 591-nm sees moderate loss with each cycle.  The 577-nm and 619-nm peaks gain significantly with the first anneal \emph{\color{gray}refer to 50~K vs 11~K deposit plot showing higher 619 here, or is that somewhere else now, like near spectra condistions plot?}, suggesting that they are due to more stable matrix sites.  Both peaks remain about the same after the second cycle (small gain in 577-nm), and both see loss after the third cycle, which reaches the higher temperature of 48~K. \emph{\color{gray}Either just say this could be due to diffusion (or something else?), or was there a specific temperature to reference from that paper?}
+
+\emph{\color{gray}A conclusion is that we deposit at around 50~K ($\pm 5$) in experiments for more signal in 619 as well as 591/577.}
 
 \begin{figure} %[H]
         \centering
                 \includegraphics[width=.95\textwidth]{figures/spectra_annealing.png}
-                \caption{Spectra of a large Ba\textsuperscript{+} deposit through several annealing cycles.  Initial deposit was at 11~K.  Laser power was about 0.2~mW with an unfocused beam waist of w = 7.056~mm, at 564~nm wavelength.}
+                \caption{Spectra of a large Ba\textsuperscript{+} deposit through several annealing cycles.  Initial deposit was at 11~K.  Laser power was about 0.2~mW with an unfocused beam waist of w = 7.056~mm, at 564~nm wavelength.  \emph{\color{red}This same data, but a different plot, is in BaSpec, as is some of the annealing plots -- do I just cite the paper or what?}}
 \label{fig:specAnneal}
 \end{figure}
 
@@ -75,11 +77,13 @@ Fluorescence spectra with 564~nm excitation through several annealing cycles for
                 \includegraphics[width=.5\textwidth]{figures/anneal_619peak.png}
                 ~
                 \includegraphics[width=.5\textwidth]{figures/anneal_670peak.png}
-                \caption{\color{red}Needs legends for anneals -- just on one?  Needs larger text, and thicker border? Prolly test that on excitspec to coincide with larger plot.}
+                \caption{\color{red}Needs legends for anneals -- just on one?  Needs larger text, and thicker border? Prolly test that on excitspec to coincide with larger plot.  (a) needs (a).  Want 1 2 3 on anneals?}
 \label{fig:annealGrn}
 \end{figure}
 
-Direct temperature dependence of fluorescence is also observed in annealing cycles.  For all Ba peaks, fluorescence all but disappears by ? K.  This could be due to a different matrix environment at higher temperature, or possibly a loss of fluorescence efficiency due to increased non-radiative decays from the excited state.  This suggests that a probe in nEXO will need to be moved to an evacuated chamber in order to cool to 11~K or below for observation.
+Aside from matrix site changes, direct temperature dependence of fluorescence is observed in annealing cycles.  The 577-, 591- and 619-nm peaks have their highest amplitude at 11~K.  The 577-nm and 619-nm peaks appear to be leveled off at 11~K, while the 591-nm may benefit from even lower temperatures.  The 670-nm peak has its highest amplitude at around 25~K (apparent after its major site alteration has occurred).  \emph{\color{gray}601 and (not shown) 570 would require different wavelength to study.} \emph{\color{gray}This [loss of flu at higher temp] suggests that a probe in nEXO will need to be moved to an evacuated chamber in order to cool to 11~K or below for observation.}
+
+%[inverse relationship] could be due to a different matrix environment at higher temperature, or possibly a loss of fluorescence efficiency due to increased non-radiative decays from the excited state.  
 
 \subsection{Bleaching}
 \label{subsec:bleaching}
