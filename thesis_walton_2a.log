@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.18)  25 SEP 2015 16:19
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.18)  25 SEP 2015 23:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -835,7 +835,7 @@ Here is how much of TeX's memory you used:
  7904 multiletter control sequences out of 15000+600000
  12798 words of font info for 49 fonts, out of 8000000 for 9000
  1118 hyphenation exceptions out of 8191
- 40i,14n,35p,2359b,332s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,14n,35p,2362b,332s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
@@ -850,7 +850,7 @@ ist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmti12.pfb>
-Output written on thesis_walton_2a.pdf (60 pages, 4915457 bytes).
+Output written on thesis_walton_2a.pdf (60 pages, 4915470 bytes).
 PDF statistics:
  313 PDF objects out of 1000 (max. 8388607)
  177 compressed objects within 2 object streams
