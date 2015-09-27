@@ -34,8 +34,8 @@
 \contentsline {subsection}{\tocsubsection {}{4.3.1}{Vibrations and Effective Laser Region}}{48}
 \contentsline {subsection}{\tocsubsection {}{4.3.2}{Imaging 577- and 591-nm peaks}}{49}
 \contentsline {subsection}{\tocsubsection {}{4.3.3}{Imaging 619-nm peak}}{50}
-\contentsline {subsection}{\tocsubsection {}{4.3.4}{Further Checks on 619-nm Peak}}{51}
-\contentsline {section}{\tocsection {}{4.4}{Candidate Ba\textsuperscript {+} Lines}}{53}
+\contentsline {subsection}{\tocsubsection {}{4.3.4}{Further Checks on 619-nm Peak}}{52}
+\contentsline {section}{\tocsection {}{4.4}{Candidate Ba\textsuperscript {+} Lines/Blue Excitation}}{53}
 \contentsline {chapter}{\tocchapter {Chapter}{5}{Conclusions}}{54}
 \contentsline {section}{\tocsection {}{5.1}{Future Steps}}{54}
 \contentsline {chapter}{Bibliography}{55}
