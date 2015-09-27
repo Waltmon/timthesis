@@ -1,3 +1,7 @@
+- results:
+  - legend for (b) of excitspec fig
+  - red in intro:  determine whether semi-focus used in excitspec
+
 - thicker borders on small plots? test with excit spec to match the big one in that same figure.
 - ba tagging in intro should have reference to Thomas gas tagging (does it?)
 - if you're not refering to ba spec paper in intro, need to move the reference (did you?)
