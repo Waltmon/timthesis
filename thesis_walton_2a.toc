@@ -11,7 +11,7 @@
 \contentsline {chapter}{\tocchapter {Chapter}{2}{Theory}}{19}
 \contentsline {section}{\tocsection {}{2.1}{Ba/Ba\textsuperscript {+} Spectroscopy in Vacuum}}{19}
 \contentsline {section}{\tocsection {}{2.2}{Matrix Isolation Spectroscopy}}{20}
-\contentsline {subsection}{\tocsubsection {}{2.2.1}{6-level System}}{22}
+\contentsline {subsection}{\tocsubsection {}{2.2.1}{6-level System}}{23}
 \contentsline {section}{\tocsection {}{2.3}{shon had a flu eff section}}{23}
 \contentsline {chapter}{\tocchapter {Chapter}{3}{Experimental}}{24}
 \contentsline {section}{\tocsection {}{3.1}{Ion Beam}}{24}
@@ -30,12 +30,12 @@
 \contentsline {subsection}{\tocsubsection {}{4.1.1}{Annealing/Temperature Dependence}}{40}
 \contentsline {subsection}{\tocsubsection {}{4.1.2}{Bleaching}}{45}
 \contentsline {section}{\tocsection {}{4.2}{Backgrounds}}{46}
-\contentsline {section}{\tocsection {}{4.3}{Imaging}}{47}
-\contentsline {subsection}{\tocsubsection {}{4.3.1}{Vibrations and Effective Laser Region}}{48}
-\contentsline {subsection}{\tocsubsection {}{4.3.2}{Imaging 577- and 591-nm peaks}}{49}
+\contentsline {section}{\tocsection {}{4.3}{Imaging}}{48}
+\contentsline {subsection}{\tocsubsection {}{4.3.1}{Vibrations and Effective Laser Region}}{49}
+\contentsline {subsection}{\tocsubsection {}{4.3.2}{Imaging 577- and 591-nm peaks}}{50}
 \contentsline {subsection}{\tocsubsection {}{4.3.3}{Imaging 619-nm peak}}{50}
-\contentsline {subsection}{\tocsubsection {}{4.3.4}{Further Checks on 619-nm Peak}}{52}
-\contentsline {section}{\tocsection {}{4.4}{Candidate Ba\textsuperscript {+} Lines/Blue Excitation}}{53}
-\contentsline {chapter}{\tocchapter {Chapter}{5}{Conclusions}}{54}
-\contentsline {section}{\tocsection {}{5.1}{Future Steps}}{54}
-\contentsline {chapter}{Bibliography}{55}
+\contentsline {subsection}{\tocsubsection {}{4.3.4}{Further Checks on 619-nm Peak}}{53}
+\contentsline {section}{\tocsection {}{4.4}{Candidate Ba\textsuperscript {+} Lines/Blue Excitation}}{54}
+\contentsline {chapter}{\tocchapter {Chapter}{5}{Conclusions}}{55}
+\contentsline {section}{\tocsection {}{5.1}{Future Steps}}{55}
+\contentsline {chapter}{Bibliography}{56}
