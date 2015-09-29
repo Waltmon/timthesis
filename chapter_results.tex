@@ -65,7 +65,7 @@ Matrix site occupancies for Ba atoms can depend on annealing history, and simila
 \begin{figure} %[H]
         \centering
                 \includegraphics[width=.95\textwidth]{figures/spectra_annealing.png}
-                \caption{Spectra of a large Ba\textsuperscript{+} deposit through several annealing cycles.  Initial deposit was at 11~K.  Laser power was about 0.2~mW with an unfocused beam waist of w = 7.056~mm, at 564~nm wavelength.  These are selections from the full data set shown as peak counts vs. temperature in Fig. \ref{fig:annealGrn}.  \emph{\color{red}This same data, but a different plot, is in BaSpec, as is some of the annealing plots -- do I just cite the paper or what?}}
+                \caption{Spectra of a large Ba\textsuperscript{+} deposit through several annealing cycles.  Initial deposit was at 11~K.  Laser power was about 0.2~mW with an unfocused beam waist of w = 7.056~mm, at 564~nm wavelength.  These are selections from the full data set shown as peak counts vs. temperature in Fig. \ref{fig:annealGrn}.  \emph{\color{red}This same data, but a different plot, is in BaSpec, as is some of the annealing plots -- do I just cite the paper or what?} \emph{\color{blue}rm things like that and write them in blue w/ pen on printout}}
 \label{fig:specAnneal}
 \end{figure}
 
@@ -121,7 +121,25 @@ bleaching effect on excit spec (bleaching site change search)
 \section{Backgrounds}
 \label{sec:bgs}
 
-One source of background in spectra and images is fluorescence from the sapphire window.  A spectrum of this fluorescence with 562~nm excitation is shown in Fig. \ref{fig:Cr}(a).  The strong, sharp peak at {\color{red}694.2~nm} is a well-known emission of Cr\textsuperscript{3+} impurities in the sapphire bulk.  An excitation spectrum for this peak is shown in Fig. \ref{fig:Cr}(b) over the range all three dyes R6G, R110, and C480.  Multiple features observed in the excitation spectrum are consistent with the absorption spectrum of Cr\textsuperscript{3+} in sapphire at 77~K, including three sharp peaks in the blue, and a broad absorption in the green/yellow with \emph{\color{gray}describe the vibronic peaks}.  In addition to the {\color{red}694.2-nm peak}, a weaker and much broader emission is observed, along with three weak peaks in the 619-nm Ba peak region, also from the sapphire bulk.  An excitation spectrum for these fluorescence components are shown in Fig. \ref{fig:Cr}(c) for the R6G dye range.  Spectra identical to that of the {\color{red}694.2-nm} peak demonstrate that these emissions are also due to Cr\textsuperscript{3+} in the sapphire.  \emph{\color{gray}\textbf{check this -- was it certainly from just the bulk and not from partly surface BG for those excit. spec.? -- ACTUALLY is it possible that some of this is the surface BG?  Yes, if it was a broad laser, unless the sapphire is really high in these, which maybe it is?}.}  Commercially available c-plane quality sapphire windows contain very low concentrations of Cr\textsuperscript{3+}.  Windows from a few companies were tested, and the highest purity windows found were from Meller Optics, with Cr\textsuperscript{3+} concentrations of around {\color{red}10 ppt} observed.
+One source of background emission was observed from the surfaces of the window.  Its broad fluorescence is shown in Fig. \ref{fig:surfBG}(a) with a 610-nm Raman filter cutoff and 570.4~nm excitation, and its excitation spectrum is shown in Fig. \ref{fig:surfBG}(b) over the R6G dye range.  The nature of this emission has not been determined, however a few features were identified.  One was that the emission increased as the window temperature was decreased, down to about 100~K where it remained flat down to 11~K, shown in Fig. \ref{fig:BGtempDependence}.  Another feature of the surface background is that it bleaches with laser exposure.  This was useful in that the background could be reduced by pre-bleaching of the window.  However, the bleaching behavior also presented an inconvenient time dependence of the surface background, as historical bleaching and possible slight movements of the laser could lead to variation.  Frequent Xe-only deposits were made in order to establish proper background subtraction.  Spacial variation in the background is especially cumbersome in a laser scanning experiment, as discussed in \ref{sec:scanning}.  Given these behaviors, it is possible that the surface background is caused by a species which freezes to the window, or something which coats the window and fluoresces more at lower temperatures.  In either case, the bleaching could be explained by evaporation with laser heating, or by optical pumping of the species into a metastable state.
+
+%, shown in Fig. [fig surfaceBG bleaching]
+
+\begin{figure} %[H]
+        \centering
+                \includegraphics[width=.7\textwidth]{figures/surfaceBG_a.png}
+                \includegraphics[width=.7\textwidth]{figures/surfaceBG_b.png}
+                \caption{emission w/ like 570.5~nm excit (a)}
+\label{fig:surfBG}
+\end{figure}
+
+\emph{\color{red}Plz uncomment the following after the figure exists:}
+%\begin{figure} %[H]
+%        \centering
+%                \includegraphics[width=.7\textwidth]{figures/BG_T-dependence.png}
+%                \caption{}
+%\label{fig:BGtempDependence}
+%\end{figure}
 
 \begin{figure} %[H]
         \centering
@@ -131,30 +149,67 @@ One source of background in spectra and images is fluorescence from the sapphire
 \label{fig:Cr}
 \end{figure}
 
+\begin{figure} %[H]
+        \centering
+                \includegraphics[width=.7\textwidth]{figures/Cr_broad.png}
+                \caption{}
+        \label{fig:CrBroad}
+\end{figure}
+
+Another source of background is fluorescence from the sapphire window.  A spectrum of this fluorescence with 562~nm excitation is shown in Fig. \ref{fig:Cr}(a).  The strong, sharp peak at 694~nm is a well-known emission of Cr\textsuperscript{3+} impurities in the sapphire bulk.  An excitation spectrum for this peak is shown in Fig. \ref{fig:Cr}(b) over the range all three dyes R6G, R110, and C480, using a sapphire window with relatively high Cr\textsuperscript{3+} content.  Multiple features observed in the excitation spectrum are consistent with the absorption spectrum of Cr\textsuperscript{3+} in sapphire at 77~K, including three sharp peaks in the blue, and a broad absorption in the green/yellow with vibrational peaks on the red tail \cite{SapphireFord,SapphireMcclure}.  In addition to the 694-nm peak, a weaker and much broader emission is observed, along with three weak peaks around the 619-nm Ba peak region, also from the sapphire bulk.  Excitation spectra for these fluorescence components are shown in Fig. \ref{fig:CrBroad} for the R6G dye range.  In this experiment, the laser was de-focused to about w = 200~$\mu$m, and the emission observed was from the surface laser spot.  As a result, \emph{\color{red}need to say that surface BG comes in on weak parts of the Cr emission ... it's the same experiment as other figure} Observation of the same vibrational peaks demonstrates that this emission is also due to Cr\textsuperscript{3+} in the sapphire.  Commercially available c-plane quality sapphire windows contain very low concentrations of Cr\textsuperscript{3+}.  Windows from a few companies were tested, and those from Meller Optics produced the lowest sapphire bulk emission in the 620-nm band-pass region.  The choice of 570~nm for excitation of the 619-nm fluorescence peak was made by an optimization of $S$/$\sqrt{B}$, where $S$ is the 619-nm signal and the background $B$ is the broad emission in the 620 band-pass filter region (orange curve in Fig. \ref{fig:CrBroad}).  The Cr\textsuperscript{3+} emission has an inverse relationship with temperature, shown in Fig. \ref{fig:BGtempDependence}.
+
+%with Cr\textsuperscript{3+} concentrations of around {\color{red}10 ppt} observed.
+
 %(peaks around? May need to ask Bill about what peaks exist and at what temps ... a new idea is to just leave it vague, as ``peaks" since you're sure there are at least 2, but vauge is OK)
-
-The choice of 570~nm for excitation of the 619-nm fluorescence peak was made by an optimization of $S$/$\sqrt{B}$, where $S$ is te 619-nm signal and the background $B$ is the broad Cr\textsuperscript{3+} emission in the 620 band-pass filter region.  This ratio is plotted in Fig. [fig S/sqrt(B)].  570~nm is near the peak of this optimization.  \emph{\color{gray}what about surface BG?}
-
-Another background emission was observed from the surfaces of the window.  Its broad fluorescence is shown in Fig. [fig subtracted surfaceBG spectrum] with a 610-nm Raman filter cutoff and {\color{red}570~nm} excitation.  The nature of this emission has not been determined, however a few features were identified.  One was that the emission increased as the window temperature was decreased, down to about 100~K where it remained flat down to 11~K, shown in Fig. [fig BG temp dep].  Also shown is the temperature dependence of the Cr\textsuperscript{3+} emission, which had the reverse relationship.  Another feature of the surface background is that it bleached with laser exposure, shown in Fig. [fig surfaceBG bleaching].  This useful in that the background could be reduced by pre-bleaching of the window.  However, the bleaching behavior also presented an inconvenient time dependence of the surface background, as historical bleaching and possible slight movements of the laser could lead to variation.  Frequent Xe-only deposits were made in order to establish proper background subtraction.  Spacial variation in the background is especially cumbersome in a laser scanning experiment, as discussed in xxx.  Given these behaviors, it is possible that the surface background was caused by a species which freezes to the window, or something which coats the window and fluoresces more at lower temperatures.  In either case, the bleaching could be explained by evaporation with laser heating, or by optical pumping of the species into a metastable state.
 
 \section{Imaging}
 \label{imaging}
 
 Though the imaging spectrometer can produce spacial images with the 0-order grating reflection, better collection efficiency and imaging quality are achieved by removing the spectrometer and imaging directly onto the CCD.  Band-pass filters were used to pass the desired Ba fluorescence peak(s) while attenuating laser scatter and sapphire fluorescence.
 
-An example image of the focused 570~nm dye laser passing through a c-plane sapphire window of thickness 0.5~mm, using the 620-nm band-pass filter on the fluorescence, is shown in Fig. [fig example image].  With 4$\times$ magnification, each pixel is 5~$\mu$m$\times$5~$\mu$m.  The laser's path through the window is faintly visible by the tail of the broad Cr\textsuperscript{3+} fluorescence in the 620-nm region (see Fig. [fig band passes on spectrum with BG and Ba fluorescence shown] for regions passes by various filters).  The laser is focused at the top surface of the window, which faces the ion beam.  The surface background is seen on both surfaces.  The observed size of the laser spot, with a 1/e$^{2}$ radius of about 12~$\mu$m, is larger than the 2.06~$\mu$m $\times$ 2.66~$\mu$m 1/e$^{2}$ laser spot size.  Aberrations and vibrations in the collection optics could contribute to this inability to reach the diffraction limit in imaging.
+%angle=90,
+\begin{figure} %[H]
+        \centering
+                \includegraphics[width=.4\textwidth]{figures/raw_14-atom_labels_from_paper_1f.png}
+                \caption{Ba\textsuperscript{+} ion beam.}
+\label{fig:imageexamp}
+\end{figure}
+
+An example image of the focused 570~nm dye laser passing through a c-plane sapphire window of thickness 0.5~mm, using the 620-nm band-pass filter on the fluorescence, is shown in Fig. \ref{fig:imageexamp}.  With 4$\times$ magnification, each pixel is 5~$\mu$m$\times$5~$\mu$m.  The laser's path through the window is faintly visible by the tail of the broad Cr\textsuperscript{3+} fluorescence in the 620-nm band-pass.  The laser is focused at the top surface of the window, which faces the ion beam.  The surface background is seen on both surfaces.  The observed size of the laser spot, with a 1/e$^{2}$ radius of about 12~$\mu$m, is larger than the 2.06~$\mu$m $\times$ 2.66~$\mu$m 1/e$^{2}$ laser spot size.  Aberrations and vibrations in the collection optics could contribute to this inability to reach the diffraction limit in imaging.
+
+%\begin{wrapfigure}{r}{0.5\textwidth}
+  %\begin{center}
+   % \includegraphics[width=0.35\textwidth]{figures/raw_14-atom_labels_from_paper_1f.png}
+  %\end{center}
+  %\caption{}
+  %\label{fig:imageexamp}
+%\end{wrapfigure}
 
 \subsection{Vibrations and Effective Laser Region}
 
-Relative vibrations between the laser and sapphire window will affect the number of Ba atoms exposed, increasing the effective laser spot size.  This was studied by observing the position of a ``dust spot" (a highly scattering feature on the sapphire window) relative to the position of the laser in an image on time scales down to 50~ms.  An example of an image from this experiment is shown in Fig. [fig dust spot vibe image].  The 570-nm dye laser was somewhat de-focused, and the dust spot was illuminated by a de-focused 657~nm diode laser. For each frame, 2D Gaussian functions were fit to locate the center of the laser spot and the dust spot in order to measure their relative position.  The fit for the laser spot was restricted in y so that it was not affected by the bulk sapphire fluorescence path.  The difference between dust spot and laser positions is plotted in Fig. [fig vibe vs. time with sine fit] for both x and y.  Each exposure in this plot is 50~ms, though readout time and camera shutter compensation time result in x~s between frames.  The best fit of a sine function results in a vibration frequency of x~Hz.  This is consistent with the audible frequency of the cryostat He pump.
+\begin{figure} %[H]
+        \centering
+                \includegraphics[width=.6\textwidth]{figures/image_dustspot.png}
+                \caption{}
+\label{fig:dustspot}
+\end{figure}
 
-To calculate an effective laser spot size due to this vibration, each difference (x,y) between laser and dust spot was used as the center of a 2D Gaussian, each with w$_{x} = 2.06~\mu$m and w$_{y} = 2.66~\mu$m to represent the laser spot.  Such Gaussian functions were summed to all points to produce a distribution of summed laser exposure, shown in Fig. [fig vibe sum 2D].  The total area enclosed by a 1/e contour then represents the effective area.  Since x and y movement are correlated, and since the movement is sinusoidal, the effective area is only about 2$\times$ the real laser spot size, and the effective laser region is {\color{red}17.6}~$\mu$m$^{2}$.
+Relative vibrations between the laser and sapphire window will affect the number of Ba atoms exposed, increasing the effective laser spot size.  This was studied by observing the position of a ``dust spot" (a highly scattering feature on the sapphire window) relative to the position of the laser in an image on time scales down to 50~ms.  An example of an image from this experiment is shown in Fig. \ref{fig:dustspot}.  The 570-nm dye laser was somewhat de-focused, and the dust spot was illuminated by a de-focused 657~nm diode laser. For each frame, 2D Gaussian functions were fit to locate the center of the laser spot and the dust spot in order to measure their relative position.  The fit for the laser spot was restricted in y so that it was not affected by the bulk sapphire fluorescence path.  \emph{\color{gray}The difference between dust spot and laser positions is plotted in Fig. [fig vibe vs. time with sine fit] for both x and y.  Each exposure in this plot is 50~ms, though readout time and camera shutter compensation time result in x~s between frames.  The best fit of a sine function results in a vibration frequency of x~Hz.  This is consistent with the audible frequency of the cryostat He pump.}
+
+To calculate an effective laser spot size due to this vibration, each difference (x,y) between laser and dust spot was used as the center of a 2D Gaussian, each with w$_{x} = 2.06~\mu$m and w$_{y} = 2.66~\mu$m to represent the laser spot.  Such Gaussian functions were summed to all points to produce a distribution of summed laser exposure, shown in Fig. [fig vibe sum 2D].  The total area enclosed by a 1/e contour then represents the effective area.  Since x and y movement are correlated, and since the movement is sinusoidal, the effective area is only about 2$\times$ the real laser spot size, and the effective laser region is 17.8~$\mu$m$^{2}$.
 
 The aforementioned is the most concerning vibration to understand.  Vibration of the laser itself is included in that study.  Vibration of the collection optics will affect the imaging resolution, but not the number of atoms being observed.  These vibrations were minimized by stable mounts.
 
 \subsection{Imaging 577- and 591-nm peaks}
 
-First attempts at imaging small numbers of Ba atoms in a focused laser region were done with the 577- and 591-nm Ba fluorescence peaks together using a {\color{red}579-nm} band-pass filter (Fig. [fig band passes on spectrum with BG and Ba fluorescence shown]).  This filter has a 2" diameter, resulting in a factor of 4$\times$ more collection efficiency.  Bleaching data was used to optimize laser intensity and exposure time to achieve maximal signal in frame 1, and to avoid hole bleaching.  The fast bleaching of these peaks is the limiting factor on sensitivity.  An image of $\leq$ 10$^{4}$ atoms (10$^{4}$ Ba\textsuperscript{+} ions deposited into the effective laser region) is shown in Fig. [fig 590-lines image].  At only x total counts, this is near the limit of sensitivity.  As discussed in [bleaching section], detection of very small numbers of atoms in these sites may require several infrared re-pump lasers.  As a result of low total exposure, neither the sapphire nor the surface backgrounds are present in these images.
+\begin{figure} %[H]
+        \centering
+                \includegraphics[width=.6\textwidth]{figures/image_1e4.png}
+                \caption{}
+\label{fig:image590s}
+\end{figure}
+
+First attempts at imaging small numbers of Ba atoms in a focused laser region were done with the 577- and 591-nm Ba fluorescence peaks together using a 586-nm band-pass filter, which passes 573 - 599~nm FWHM.  This filter has a 2" diameter, resulting in a factor of 4$\times$ more collection efficiency.  Bleaching data was used to optimize laser intensity and exposure time to achieve maximal signal in frame 1, and to avoid hole bleaching.  The fast bleaching of these peaks is the limiting factor on sensitivity.  An image of $\leq$ 10$^{4}$ atoms (10$^{4}$ Ba\textsuperscript{+} ions deposited into the effective laser region) is shown in Fig. [fig 590-lines image].  \emph{\color{red}No:} At only x total counts, this is near the limit of sensitivity.  As discussed in [bleaching section], detection of very small numbers of atoms in these sites may require several infrared re-pump lasers.  As a result of low total exposure, neither the sapphire nor the surface backgrounds are present in these images.  \emph{\color{gray}talk about long esposure, idk...}
 
 \subsection{Imaging 619-nm peak}
 
@@ -183,6 +238,9 @@ The 619-nm peak, as well as the 670-nm peak, was attributed to neutral Ba by a f
 \emph{\color{gray}Whatever you did with the extra-filter-pass check (IR etc.) ... and was there something else?}
 
 %at one point youthought leak rate dependence could go here
+
+\section{Scanned Images}
+\label{sec:scanning}
 
 \section{Candidate Ba\textsuperscript{+} Lines/Blue Excitation}
 \label{sec:BaPlus}

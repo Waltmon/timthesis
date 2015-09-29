@@ -30,12 +30,13 @@
 \contentsline {subsection}{\tocsubsection {}{4.1.1}{Annealing/Temperature Dependence}}{40}
 \contentsline {subsection}{\tocsubsection {}{4.1.2}{Bleaching}}{45}
 \contentsline {section}{\tocsection {}{4.2}{Backgrounds}}{46}
-\contentsline {section}{\tocsection {}{4.3}{Imaging}}{48}
-\contentsline {subsection}{\tocsubsection {}{4.3.1}{Vibrations and Effective Laser Region}}{49}
-\contentsline {subsection}{\tocsubsection {}{4.3.2}{Imaging 577- and 591-nm peaks}}{50}
-\contentsline {subsection}{\tocsubsection {}{4.3.3}{Imaging 619-nm peak}}{50}
-\contentsline {subsection}{\tocsubsection {}{4.3.4}{Further Checks on 619-nm Peak}}{53}
-\contentsline {section}{\tocsection {}{4.4}{Candidate Ba\textsuperscript {+} Lines/Blue Excitation}}{54}
-\contentsline {chapter}{\tocchapter {Chapter}{5}{Conclusions}}{55}
-\contentsline {section}{\tocsection {}{5.1}{Future Steps}}{55}
-\contentsline {chapter}{Bibliography}{56}
+\contentsline {section}{\tocsection {}{4.3}{Imaging}}{49}
+\contentsline {subsection}{\tocsubsection {}{4.3.1}{Vibrations and Effective Laser Region}}{51}
+\contentsline {subsection}{\tocsubsection {}{4.3.2}{Imaging 577- and 591-nm peaks}}{52}
+\contentsline {subsection}{\tocsubsection {}{4.3.3}{Imaging 619-nm peak}}{53}
+\contentsline {subsection}{\tocsubsection {}{4.3.4}{Further Checks on 619-nm Peak}}{56}
+\contentsline {section}{\tocsection {}{4.4}{Scanned Images}}{57}
+\contentsline {section}{\tocsection {}{4.5}{Candidate Ba\textsuperscript {+} Lines/Blue Excitation}}{57}
+\contentsline {chapter}{\tocchapter {Chapter}{5}{Conclusions}}{58}
+\contentsline {section}{\tocsection {}{5.1}{Future Steps}}{58}
+\contentsline {chapter}{Bibliography}{59}
