@@ -99,9 +99,7 @@ Aside from matrix site changes, direct temperature dependence of fluorescence ca
 
 Decay of fluorescence with laser exposure, or bleaching, was observed for all six Ba fluorescence peaks.  It is a rapid process for the 570-, 577-, 591-, and 601-nm peaks, and a much slower process for the 619- and 670-nm peaks.  With the prospect of counteracting the effect for single-atom imaging, bleaching of the 577- and 591-nm peaks was studied in detail by observing the fluorescence decay rate for varying excitation rates.  
 
-To produce a well-known laser intensity, the laser was de-focused to a specific beam waist (w), and the image of 619-nm fluorescence from a large Ba\textsuperscript{+} deposit was centered in the spectrometer slit and a y-pixel region of interest (ROI) with edges at 90\% of the maximal intensity.
-
-({\color{red}do a correction on p-meter sensitive area and on p-meter quantum efficiency, and also a spherical aberation correction for power, though that may not matter for the defocused studies.})
+To produce a well-known laser intensity, the laser was de-focused to a specific beam waist (w), and the image of 619-nm fluorescence (which defines the laser region due to its low bleaching) from a large Ba\textsuperscript{+} deposit was centered in the spectrometer slit and a y-pixel region of interest (ROI) with edges at 90\% of the maximal intensity.  Fluorescence counts vs. time \emph{\color{gray}(excitations?)} for the 577- and 591-nm peaks are plotted in Fig. [fig bleaching].  \emph{\color{gray}...explain... does it make sense?} ({\color{red}do a correction on p-meter sensitive area and on p-meter quantum efficiency, and also a spherical aberation correction for power, though that may not matter for the defocused studies.})
 
 590 etc, model fit -- they look like vacuum rates
 
@@ -112,11 +110,13 @@ To produce a well-known laser intensity, the laser was de-focused to a specific 
 %\label{fig:testfig}
 %\end{figure}
 
-Repump attempts -- nothing found with cheap lasers.
+Effecting re-pumping of optically pumped Ba could require up to three additional lasers, one for each of the populated metastable D states, as it does in vacuum.  The optimal absorption for each transition would need to be discovered using tunable lasers in the infrared, and the search would be challenging, as the effect of re-pump is small until all three are achieved.  However, mixing of states in the Xe matrix could lower the number of lasers needed.  Searches for an effect of additional excitation lasers were attempted with a few different lasers.  \emph{\color{red}describe which lasers were supposed to do which transitions -- 1550, 1064, 657, 406, blue bye}.
 
-619, with the changes in time and I
+The only effects observed on bleaching rates by these re-pump lasers were increased bleaching by the blue dye and 406-nm Kr ion lasers.  Some effect of a return of fluorescence was observed for separate exposures of low-intensity 406-nm Kr ion laser, shown in Fig. [fig Kr return].  In this experiment, bleaching of the 591-nm peak was observed by x-nm excitation, and then the x-nm laser was blocked for a length of time, either for a waiting period or for exposure to the 406-nm laser.  Larger returns in 591-nm fluorescence were observed with 406-nm exposure than for just waiting, for low intensities of the 406~nm.  However, co-exposure of this intensity of 406~nm with the green excitation laser had no noticeable effect.  This phenomenon was not explored further.
 
-bleaching effect on excit spec (bleaching site change search)
+Another possible mechanism for bleaching is matrix site change caused by the difference in the Ba-Xe interactions when the Ba is in the excited state.  This was explored in an experiment where excitation spectra were produced before and after bleaching the Ba sample at various wavelengths.  Selected runs are shown in Fig. [bleaching excitspec].  \emph{\color{gray}describe -- interesting changes may reveal different site components of the peaks -- or does it?  idk how this could happen ... cuz the triple peak thing was supposedly normal for a single site ... small rises were ween, but poplulations cannot be known, so we don;t know}
+
+The 619-nm peak bleaches at much higher laser intensities, only becoming a limiting factor in a focused laser at \emph{\color{red}several?} mW.  619-nm fluorescence vs. time from an image in a focused laser at x~nm for three laser powers.  ... defines power we use
 
 \section{Backgrounds}
 \label{sec:bgs}
