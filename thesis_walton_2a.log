@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.18)  30 SEP 2015 22:56
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.18)  1 OCT 2015 09:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -690,20 +690,14 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 19--23
 [37
 
 
-]
-Underfull \vbox (badness 2512) has occurred while \output is active []
-
- [38 <./figures/BaAbs_fromBaSpec.png>] [39 <./figures/excitspec_grn_spectra_v2.
-png> <./figures/excitspec_grn_spectra_fit.png> <./figures/excitspec_grn.png>]
+] [38 <./figures/BaAbs_fromBaSpec.png>] [39 <./figures/excitspec_grn_spectra_v2
+.png> <./figures/excitspec_grn_spectra_fit.png> <./figures/excitspec_grn.png>]
 Overfull \hbox (3.15996pt too wide) in paragraph at lines 45--46
  \OT1/cmr/m/n/12 4.1.1.\OT1/cmr/m/sc/12 Annealing/Temperature De-pen-dence.[] \
 OT1/cmr/m/n/12 Ma-trix site oc-cu-pan-cies for Ba atoms
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [40]
+[40]
 <figures/spectra_temperature_conditions.png, id=207, 712.16063pt x 451.6875pt>
 File: figures/spectra_temperature_conditions.png Graphic file (type png)
 
@@ -853,7 +847,7 @@ ine 161.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [48]
-Underfull \vbox (badness 1622) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [49 <./figures/surfaceBG_a.png> <./figures/surfaceBG_b.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -866,11 +860,8 @@ File: figures/raw_14-atom_labels_from_paper_1f.png Graphic file (type png)
 Package pdftex.def Info: figures/raw_14-atom_labels_from_paper_1f.png used on i
 nput line 175.
 (pdftex.def)             Requested size: 187.89914pt x 369.12784pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [51 <./figures/Cr_broad.png>]
-<figures/image_dustspot.png, id=261, 1019.81pt x 1015.795pt>
+ [51 <./figures/Cr_broad.png>] <figures/image_dustspot.png, id=261, 1019.81pt x
+ 1015.795pt>
 File: figures/image_dustspot.png Graphic file (type png)
 
 <use figures/image_dustspot.png>
@@ -891,10 +882,7 @@ File: figures/image_1e4.png Graphic file (type png)
 <use figures/image_1e4.png>
 Package pdftex.def Info: figures/image_1e4.png used on input line 216.
 (pdftex.def)             Requested size: 281.85587pt x 382.36366pt.
- [54 <./figures/cryovibes_a.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [55 <./figures/image_1e4.png>]
+ [54 <./figures/cryovibes_a.png>] [55 <./figures/image_1e4.png>]
 <figures/fitgrouped_20150807_20150916_inset.png, id=278, 899.36pt x 1015.795pt>
 File: figures/fitgrouped_20150807_20150916_inset.png Graphic file (type png)
 <use figures/fitgrouped_20150807_20150916_inset.png>
@@ -996,7 +984,7 @@ amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
 10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on thesis_walton_2a.pdf (72 pages, 5050032 bytes).
+Output written on thesis_walton_2a.pdf (72 pages, 5050432 bytes).
 PDF statistics:
  364 PDF objects out of 1000 (max. 8388607)
  200 compressed objects within 2 object streams

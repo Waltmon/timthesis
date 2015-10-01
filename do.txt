@@ -1,7 +1,6 @@
+BEFORE PRINTING, remove at least that one red thing in excitspec legend to write in w/ blue pen
 - results:
-  - legend for (b) of excitspec fig
-  - red in intro:  determine whether semi-focus used in excitspec
-
+  - two gray refs for Be:Xe and diffusion at x K
 
 
 - do yourself the surface bg excitspec
