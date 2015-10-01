@@ -60,13 +60,13 @@ Matrix site occupancies for Ba atoms can depend on annealing history, and simila
 \begin{figure} [h]
         \centering
                 \includegraphics[width=.7\textwidth]{figures/619_deposit_conditions.png}
-                \caption{Summed 619-nm fluorescence counts over time from imaging focused 570-nm laser region, for Ba\textsuperscript{+} deposits at different temperature and Xe leak conditions.  Frame times are 0.1~s, with time in between frames of about 0.11~s.}
+                \caption{619-nm fluorescence counts over time from imaging focused 570-nm laser region, for Ba\textsuperscript{+} deposits at different temperature and Xe leak conditions.  Frame times are 0.1~s, with time in between frames of about 0.11~s.}
 \label{fig:specTempConditions619}
 \end{figure}
 
 \begin{figure} %[H]
         \centering
-                \includegraphics[width=.95\textwidth]{figures/spectra_annealing.png}
+                \includegraphics[width=.8\textwidth]{figures/spectra_annealing.png}
                 \caption{Spectra of a large Ba\textsuperscript{+} deposit through several annealing cycles.  Initial deposit was at 11~K.  Laser power was about 0.2~mW with an unfocused beam waist of w = 7.056~mm, at 564~nm wavelength.  These are selections from the full data set shown as peak counts vs. temperature in Fig. \ref{fig:annealGrn}.  \emph{\color{red}This same data, but a different plot, is in BaSpec, as is some of the annealing plots -- do I just cite the paper or what?} \emph{\color{blue}rm things like that and write them in blue w/ pen on printout}}
 \label{fig:specAnneal}
 \end{figure}
@@ -99,9 +99,18 @@ Aside from matrix site changes, direct temperature dependence of fluorescence ca
 
 Decay of fluorescence with laser exposure, or bleaching, was observed for all six Ba fluorescence peaks.  It is a rapid process for the 570-, 577-, 591-, and 601-nm peaks, and a much slower process for the 619- and 670-nm peaks.  With the prospect of counteracting the effect for single-atom imaging, bleaching of the 577- and 591-nm peaks was studied in detail by observing the fluorescence decay rate for varying excitation rates.  
 
-To produce a well-known laser intensity, the laser was de-focused to a specific beam waist (w), and the image of 619-nm fluorescence (which defines the laser region due to its low bleaching) from a large Ba\textsuperscript{+} deposit was centered in the spectrometer slit and a y-pixel region of interest (ROI) with edges at 90\% of the maximal intensity.  Fluorescence counts vs. time \emph{\color{gray}(excitations?)} for the 577- and 591-nm peaks are plotted in Fig. [fig bleaching].  \emph{\color{gray}...explain... does it make sense?} ({\color{red}do a correction on p-meter sensitive area and on p-meter quantum efficiency, and also a spherical aberation correction for power, though that may not matter for the defocused studies.})
+\begin{figure} %[H]
+        \centering
+                \includegraphics[width=.5\textwidth]{figures/bleach_spec.png}
+                \caption{needs re-plot}
+\label{fig:specBleach}
+\end{figure}
 
-590 etc, model fit -- they look like vacuum rates
+To produce a well-known laser intensity, the laser was de-focused to a specific beam waist (w), and the image of 619-nm fluorescence (which defines the laser region due to its low bleaching) from a large Ba\textsuperscript{+} deposit was centered in the spectrometer slit and a y-pixel region of interest (ROI) with edges at 90\% of the maximal intensity.  Ba spectra over time are shown in Fig. \ref{fig:specBleach}(a,b,c) for excitation at (a) 556.9~nm, (b) 562.6~nm, and (c) 566.3~nm.  \emph{\color{gray}say something about that.}  Fluorescence counts vs. time \emph{\color{gray}(excitations?)} for the 577- and 591-nm peaks are plotted in Fig. [fig bleaching].  \emph{\color{gray}...explain... does it make sense?} ({\color{red}do a correction on p-meter sensitive area and on p-meter quantum efficiency, and also a spherical aberation correction for power, though that may not matter for the defocused studies.})
+
+590 etc, model fit -- they look like vacuum rates, and there's a small a26
+
+QE
 
 %\begin{figure} %[H]
  %       \centering
@@ -114,9 +123,16 @@ Effecting re-pumping of optically pumped Ba could require up to three additional
 
 The only effects observed on bleaching rates by these re-pump lasers were increased bleaching by the blue dye and 406-nm Kr ion lasers.  Some effect of a return of fluorescence was observed after separate exposures of low-intensity 406-nm Kr ion laser, shown in Fig. [fig Kr return].  In this experiment, bleaching of the 591-nm peak was observed by x-nm excitation, and then the x-nm laser was blocked for a length of time, either for a waiting period or for exposure to the 406-nm laser.  Larger returns in 591-nm fluorescence were observed with 406-nm exposure than for periods of just waiting, for low intensities of the 406~nm.  However, co-exposure of this intensity of 406~nm with the green excitation laser had no noticeable effect.  This phenomenon was not explored further.
 
-Another possible mechanism for bleaching is matrix site change caused by the difference in the Ba-Xe interactions when the Ba is in the excited state.  This was explored in an experiment where excitation spectra were produced before and after bleaching the Ba sample at various wavelengths.  \emph{\color{gray}Selected} runs are shown in Fig. [bleaching excitspec].  \emph{\color{gray}describe -- interesting changes may reveal different site components of the peaks -- or does it?  idk how this could happen ... cuz the triple peak thing was supposedly normal for a single site ... small rises were ween, but poplulations cannot be known, so we don;t know}  \emph{\color{red}plots could be simple, like 2 excitspec for a single peak with an arrow at the bleaching (between) $\lambda$ w/ a note like ``bleach w/ x~mW of x~nm"...}
+%Another possible mechanism for bleaching is matrix site change caused by the difference in the Ba-Xe interactions when the Ba is in the excited state.  This was explored in an experiment where excitation spectra were produced before and after bleaching the Ba sample at various wavelengths.  \emph{\color{gray}Selected} runs are shown in Fig. [bleaching excitspec].  \emph{\color{gray}describe -- interesting changes may reveal different site components of the peaks -- or does it?  idk how this could happen ... cuz the triple peak thing was supposedly normal for a single site ... small rises were ween, but poplulations cannot be known, so we don;t know}  \emph{\color{red}plots could be simple, like 2 excitspec for a single peak with an arrow at the bleaching (between) $\lambda$ w/ a note like ``bleach w/ x~mW of x~nm"...}
 
-The 619-nm peak bleaches at much higher laser intensities.  At \emph{\color{red}several? a few?} mW of around 570~nm, bleaching is observed when the laser is focused.  Integrated 619-nm fluorescence vs. time from an image of a focused x-nm laser is shown in Fig. [fig 619 bleaching] for three laser powers.  \emph{\color{gray}describe why it's plotted that way and what it means}...  Observation of lower total counts when laser intensity and exposure time are increased and decreased, respectively, by the same factor, i.e. the same number of photons on faster time scales, indicates a time-dependent return mechanism for the fluorescence.  This could be a return from a metastable state.  Alternatively, if the 619-nm bleaching is caused by laser-heating of the sample (likely by heating the sapphire window), then the time-dependent return could be defined by the cryostat cooling power.  Faster exposure times are more convenient, however this must be balanced against a loss of fluorescence.  The {\color{red}x}~mW/$\mu$m$^{2}$ intensity was chosen, with exposure times of around 60~s.  
+The 619-nm peak bleaches at much higher laser intensities.  At a few mW of around 570~nm, bleaching is observed when the laser is focused.  Integrated 619-nm fluorescence vs. time from an image of a focused x-nm laser is shown in Fig. [fig 619 bleaching] for three laser powers.  \emph{\color{gray}describe why it's plotted that way and what it means}...  Observation of lower total counts when laser intensity and exposure time are increased and decreased, respectively, by the same factor, i.e. the same number of photons on faster time scales, indicates a time-dependent return mechanism for the fluorescence.  This could be a return from a metastable state.  Alternatively, if the 619-nm bleaching is caused by laser-heating of the sample (likely by heating the sapphire window), then the time-dependent return could be defined by the cryostat cooling power.  Faster exposure times are more convenient, however this must be balanced against a loss of fluorescence.  The {\color{red}x}~mW/$\mu$m$^{2}$ intensity was chosen, with exposure times of around 60~s.  
+
+\begin{figure} %[h]
+        \centering
+                \includegraphics[width=.7\textwidth]{figures/619_bleach_summed_chris.png}
+                \caption{needs Tim plot}
+\label{fig:bleaching619}
+\end{figure}
 
 %As indicated in Fig. \ref{fig:specTempConditions619} in \ref{subsec:tempanneal}, more rapid bleaching of the 619-nm peak is observed with the lower SXe growth rate of 5~nm/s.  This is not understood, though possible explanations include 
 
@@ -135,13 +151,12 @@ One source of background emission was observed from the surfaces of the window. 
 \label{fig:surfBG}
 \end{figure}
 
-\emph{\color{red}Plz uncomment the following after the figure exists:}
-%\begin{figure} %[H]
-%        \centering
-%                \includegraphics[width=.7\textwidth]{figures/BG_T-dependence.png}
-%                \caption{}
-%\label{fig:BGtempDependence}
-%\end{figure}
+\begin{figure} %[H]
+        \centering
+                \includegraphics[width=.6\textwidth]{figures/bg_temp_dep.png}
+                \caption{}
+\label{fig:BGtempDependence}
+\end{figure}
 
 \begin{figure} %[H]
         \centering
@@ -202,8 +217,10 @@ The distances in x and y between the dust spot and laser are plotted for each 50
 
 \begin{figure} %[H]
         \centering
-                \includegraphics[width=.7\textwidth]{figures/cryovibes_a.png}
-                \caption{make into smal plot for side by side}
+                \includegraphics[width=.5\textwidth]{figures/cryovibes_a.png}
+                ~
+                \includegraphics[width=.5\textwidth]{figures/cryovibes_b_chris_run10_15_diff_func_wcontour.png}
+                \caption{should (b) axes say laser position or something?}
 \label{fig:cryovibe2D}
 \end{figure}
 
@@ -214,7 +231,7 @@ The aforementioned is the most concerning vibration to understand.  Vibration of
 \begin{figure} %[H]
         \centering
                 \includegraphics[width=.6\textwidth]{figures/image_1e4.png}
-                \caption{\emph{\color{gray}Binned 3x3.  No bleaching at this intensity*t $\rightarrow$ successive frames are not shown.... this is 1e4 total exposed, but basically 5e3 at a given time, and since there's no bleaching maybe that can be quoted.}  \emph{\color{red}Mention ``at one time" thing, which puts the 2.4 to 1 atom.}}
+                \caption{\emph{\color{gray}Binned 3x3.  No bleaching at this intensity*t $\rightarrow$ successive frames are not shown.... this is 1e4 total exposed, but basically 5e3 at a given time, and since there's no bleaching maybe that can be quoted.}  \emph{\color{red}Mention ``at one time" thing, which puts the 2.4 to 1 atom.} 100-s exposure (4), .4e-8 refl. (.02~$\mu$W according to EXOWeek talk) of 566~nm, .1-.2~s DC dep of about 1~nA, 50~K dep}
 \label{fig:image590s}
 \end{figure}
 
