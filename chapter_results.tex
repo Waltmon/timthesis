@@ -102,22 +102,22 @@ Decay of fluorescence with laser exposure, or bleaching, was observed for all si
 \begin{figure} %[H]
         \centering
                 \includegraphics[width=.5\textwidth]{figures/bleach_spec.png}
-                \caption{needs re-plot}
+                \caption{\color{red}will re-do these, ideally showing 670-nm. \cite{Mong2015}}
 \label{fig:specBleach}
 \end{figure}
 
-To produce a well-known laser intensity, the laser was de-focused to a specific beam waist (w), and the image of 619-nm fluorescence (which defines the laser region due to its low bleaching) from a large Ba\textsuperscript{+} deposit was centered in the spectrometer slit and a y-pixel region of interest (ROI) with edges at 90\% of the maximal intensity.  Ba spectra over time are shown in Fig. \ref{fig:specBleach}(a,b,c) for excitation at (a) 556.9~nm, (b) 562.6~nm, and (c) 566.3~nm, where relative bleaching rates between peaks can be seen to depend on the excitation wavelength.  Fluorescence counts vs. total excitations (excitation rate $w_{12} \times$ times) for the {\color{red}577- and 591-nm} peaks are plotted in Fig. [fig bleaching].  \emph{\color{gray}...I swear this doesn't make sense, because you KNOW 1/x$\times$t and x$\times$I does not yield the same total counts.} \emph{\color{red}don't forget the correction on p-meter sensitive area and on p-meter quantum efficiency}
+To produce a well-known laser intensity, the laser was de-focused to a specific beam waist (w), and the image of 619-nm fluorescence (which defines the laser region due to its low bleaching) from a large Ba\textsuperscript{+} deposit was centered in the spectrometer slit and a y-pixel region of interest (ROI) with edges at 90\% of the maximal intensity.  Ba spectra over time are shown in Fig. \ref{fig:specBleach}(a,b,c) for excitation at (a) 556.9~nm, (b) 562.6~nm, and (c) 566.3~nm, where relative bleaching rates between peaks can be seen to depend on the excitation wavelength.  Fluorescence counts vs. total excitations (excitation rate $w_{12}$ $\times$ time) for the {\color{red}577- and 591-nm} peaks are plotted in Fig. [fig bleaching].  \emph{\color{gray}...I swear this doesn't make sense, because you KNOW 1/x$\times$t and x$\times$I does not yield the same total counts.} \emph{\color{red}don't forget the correction on p-meter sensitive area and on p-meter quantum efficiency}
 
-The 6-level model solved in [sec. in Ch. 2] can be applied to this bleaching data to determine deviations from vacuum transition rates.  The 6\textsuperscript{th} level allows for one additional vacuum-forbidden transition from the P state, $a_{26}$ and its decay back to ground $a_{61}$, e.g. a \textsuperscript{3}P state.  A successful model will fit observed bleaching curves for all values of $w_{12}$ with the same transition lifetimes.  An example \emph{\color{gray}examples of} of a good model fit\emph{\color{gray}s} is shown in Fig. \ref{fig:bleachModel}.   The nearly constant decay slope in later frames was easily fit with the introduction of non-zero $a_{26}$, and could not be fit by manipulation of the existing transitions, suggesting the existence of an additional matrix-induced path out of the excited state. In addition, non-zero $a_{61}$ values only hurt the fit, suggesting that this state does not a recovery path  \emph{\color{gray}(is this just for one of the peaks?)}.  An important observation is that the other rates do not require much change from their respective vacuum values, with the exception of \emph{\color{gray}whatever that one is.}  \emph{\color{red}try non-changed $a_{2?}$, to see if maybe the extra .5-s is actually in between each frame ... \textbf{go into the lab and try come where this ,5-s would dominate and see if it's there}}  This suggests that the observed bleaching is mostly due to optical pumping into the metastable D states, and thus that laser re-pumping should be possible to increase the fluorescence signal from these peaks.
+The 6-level model solved in [sec. in Ch. 2] can be applied to this bleaching data to determine deviations from vacuum transition rates.  The 6\textsuperscript{th} level allows for one additional vacuum-forbidden transition from the excited state, $a_{26}$ and its decay back to ground $a_{61}$, e.g. a \textsuperscript{3}P state.  A successful model will fit observed bleaching curves for all values of $w_{12}$ with the same transition lifetimes.  An example \emph{\color{gray}examples of} of a good model fit\emph{\color{gray}s} is shown in Fig. \ref{fig:bleachModel}.   The nearly constant decay slope in later frames was easily fit with the introduction of non-zero $a_{26}$, and could not be fit by manipulation of the existing transitions, suggesting the presence of an additional matrix-induced path out of the excited state. In addition, non-zero $a_{61}$ values only hurt the fit, suggesting that this state does not have a spontaneous recovery path  \emph{\color{gray}(is this just for one of the peaks?)}.  An important observation is that the other rates do not require much change from their respective vacuum values, with the exception of \emph{\color{gray}whatever that one is.}  \emph{\color{red}try non-changed $a_{2?}$, to see if maybe the extra .5-s is actually in between each frame ... \textbf{go into the lab and try come where this ,5-s would dominate and see if it's there}}  This suggests that the observed bleaching is mostly due to optical pumping into the metastable D states, with the exception of $a_{26}$, and thus that laser re-pumping should be possible to increase the fluorescence signal from these peaks.
 
 \begin{figure} %[H]
         \centering
                 \includegraphics[width=.7\textwidth]{figures/model_smallw12_a26_run96and88_close.png}
-                \caption{needs real plot}
+                \caption{\color{red}example place-holder}
 \label{fig:bleachModel}
 \end{figure}
 
-Another interesting result is the model's inability to explain the low fluorescence efficiency ($\epsilon_{f}$)observed in these peaks.  The number of counts observed is significantly lower than expected from $a_{21} = ?$.  $\epsilon_{f}$, defined in [Ch.2], is measured by the total counts observed in the first frame of exposure divided by its respective $w_{12}$, shown in Fig. \ref{fig:qe}.  This method of measuring $\epsilon_{f}$ becomes less accurate with more optical pumping in the first frame.  Thus, the trend should be extrapolated toward zero, suggesting a real $\epsilon_{f}$ of about {\color{red}1\%}.  The bleaching model was unable to explain this low $\epsilon_{f}$ by additional paths out of the excited state without introducing extreme alterations to existing rates, or by introducing extreme $a_{26}$ and $a_{61}$, in order to compete with $a_{21}$.  A possibility is that the low count rate actually reflects a matrix site population by only about 1\% of deposited Ba\textsuperscript{+} ions.
+Another interesting result is the model's inability to explain the low fluorescence efficiency ($\epsilon_{f}$) observed in these peaks.  The number of counts observed is significantly lower than expected from $a_{21} = ?$.  $\epsilon_{f}$, defined in [Ch.2], was measured by the total counts observed in the first frame of exposure divided by its respective $w_{12}$, shown in Fig. \ref{fig:qe}.  This method of measuring $\epsilon_{f}$ becomes less accurate with more optical pumping in the first frame, i.e. with higher $w_{12}$ for a given frame time.  Thus, the trend should be extrapolated toward zero, suggesting a real $\epsilon_{f}$ of about {\color{red}1\%}.  The bleaching model was unable to explain this low $\epsilon_{f}$ by additional paths out of the excited state without introducing extreme alterations to existing rates, or by introducing extreme $a_{26}$ and $a_{61}$, in order to dominate $a_{21}$.  A possibility is that the low count rate actually reflects a matrix site population by only about 1\% of deposited Ba\textsuperscript{+} ions.
 
 \begin{figure} %[H]
         \centering
@@ -139,7 +139,7 @@ The only effects observed on bleaching rates by these re-pump lasers were increa
 
 %Another possible mechanism for bleaching is matrix site change caused by the difference in the Ba-Xe interactions when the Ba is in the excited state.  This was explored in an experiment where excitation spectra were produced before and after bleaching the Ba sample at various wavelengths.  \emph{\color{gray}Selected} runs are shown in Fig. [bleaching excitspec].  \emph{\color{gray}describe -- interesting changes may reveal different site components of the peaks -- or does it?  idk how this could happen ... cuz the triple peak thing was supposedly normal for a single site ... small rises were ween, but poplulations cannot be known, so we don;t know}  \emph{\color{red}plots could be simple, like 2 excitspec for a single peak with an arrow at the bleaching (between) $\lambda$ w/ a note like ``bleach w/ x~mW of x~nm"...}
 
-The 619-nm peak bleaches at much higher laser intensities.  At a few mW of around 570~nm, bleaching is observed when the laser is focused.  Integrated 619-nm fluorescence vs. time from an image of a focused x-nm laser is shown in Fig. [fig 619 bleaching] for three laser powers.  \emph{\color{gray}describe why it's plotted that way and what it means}...  Observation of lower total counts when laser intensity and exposure time are increased and decreased, respectively, by the same factor, i.e. the same number of photons on faster time scales, indicates a time-dependent return mechanism for the fluorescence.  This could be a return from a metastable state.  Alternatively, if the 619-nm bleaching is caused by laser-heating of the sample (likely by heating the sapphire window), then the time-dependent return could be defined by the cryostat cooling power.  Faster exposure times are more convenient, however this must be balanced against a loss of fluorescence.  The {\color{red}x}~mW/$\mu$m$^{2}$ intensity was chosen, with exposure times of around 60~s.  
+The 619-nm peak bleaches at much higher laser intensities.  At a few mW of around 570~nm, bleaching is observed when the laser is focused.  Integrated 619-nm fluorescence, divided by laser power, vs. time from an image of a focused 570-nm laser is shown in Fig. \ref{fig:bleaching619} for three laser powers.  Observation of lower total counts when laser intensity and exposure time are increased and decreased, respectively, by the same factor, i.e. the same number of photons on faster time scales, indicates a time-dependent return mechanism for the fluorescence.  This could be a return from a metastable state.  Alternatively, if the 619-nm bleaching is caused by laser-heating of the sample (likely by heating the sapphire window), then the time-dependent return could be defined by the cryostat cooling power.  Faster exposure times are more convenient, however this must be balanced against a loss of fluorescence.  The {\color{red}x}~mW/$\mu$m$^{2}$ intensity was chosen, with exposure times of around 60~s.  
 
 \begin{figure} %[h]
         \centering
@@ -161,14 +161,14 @@ One source of background emission was observed from the surfaces of the window. 
         \centering
                 \includegraphics[width=.7\textwidth]{figures/surfaceBG_a.png}
                 \includegraphics[width=.7\textwidth]{figures/surfaceBG_b.png}
-                \caption{Surface background emission spectrum w/ excitation at 570.5~nm (a) and its excitation spectrum in R6G dye range (b).  The sharp drop in (a) around 608~nm is the Raman filter cutoff. \emph{\color{gray}side-by-side?}}
+                \caption{Surface background emission spectrum w/ excitation at 570.5~nm (a) and its excitation spectrum in R6G dye range (b).  The sharp drop in (a) around 608~nm is the Raman filter cutoff.}
 \label{fig:surfBG}
 \end{figure}
 
 \begin{figure} %[H]
         \centering
                 \includegraphics[width=.6\textwidth]{figures/bg_temp_dep.png}
-                \caption{}
+                \caption{Temperature dependence of surface (red) and sapphire bulk (b) backgrounds.}
 \label{fig:BGtempDependence}
 \end{figure}
 
@@ -176,14 +176,14 @@ One source of background emission was observed from the surfaces of the window. 
         \centering
                 \includegraphics[width=.7\textwidth]{figures/Cr_a.png}
                 \includegraphics[width=.7\textwidth]{figures/Cr_b.png}
-                \caption{562-nm excitation, 11~K.  \emph{\color{gray}relative heights of C and Rs is not known due to different excitation conditions.  Rs are scaled to match.}Say not seen is another peak which is only at like 100 K and up?  side-by-side?}
+                \caption{Sapphire bulk emission with 562-nm excitation at 11~K (a), and excitation spectrum of the sharp 694-nm emission peak using three different laser dyes (b).  Relative heights of Coumarin and Rhodamine are not exact, as excitation rates are different between experiments.  R110 and R6G were scaled to match at their boundary for the same reason.}
 \label{fig:Cr}
 \end{figure}
 
 \begin{figure} %[H]
         \centering
                 \includegraphics[width=.7\textwidth]{figures/Cr_broad.png}
-                \caption{}
+                \caption{Excitation spectra for weaker sapphire bulk emissions (blue,orange) along with that of the sharp 694-nm emission (red).}
         \label{fig:CrBroad}
 \end{figure}
 
@@ -202,7 +202,7 @@ Though the imaging spectrometer can produce spacial images with the 0-order grat
 \begin{figure} %[H]
         \centering
                 \includegraphics[width=.4\textwidth]{figures/raw_14-atom_labels_from_paper_1f.png}
-                \caption{Did you want one with no Ba in it?  It sort of says that.}
+                \caption{Example image of focused laser spot on sapphire window surface,and its path through the window.  \emph{\color{red}will replace w/ one w/o Ba}}
 \label{fig:imageexamp}
 \end{figure}
 
@@ -221,20 +221,21 @@ An example image of the focused 570~nm dye laser passing through a c-plane sapph
 \begin{figure} %[H]
         \centering
                 \includegraphics[width=.6\textwidth]{figures/image_dustspot.png}
-                \caption{}
+                \caption{Example image of dust spot and laser during observation of cryostat vibrations.}
 \label{fig:dustspot}
 \end{figure}
 
-Relative vibrations between the laser and sapphire window will affect the number of Ba atoms exposed, increasing the effective laser spot size.  This was studied by observing the position of a ``dust spot" (a highly scattering feature on the sapphire window) relative to the position of the laser in an image on time scales down to 50~ms.  An example of an image from this experiment is shown in Fig. \ref{fig:dustspot}.  The 570-nm dye laser was somewhat de-focused, and the dust spot was illuminated by a de-focused 657~nm diode laser. For each frame, 2D Gaussian functions were fit to locate the center of the laser spot and the dust spot in order to measure their relative position.  The fit for the laser spot was restricted in y so that it was not affected by the bulk sapphire fluorescence path.  \emph{\color{gray}The difference between dust spot and laser positions is plotted in {\color{red}Fig. [fig vibe vs. time with sine fit]} for both x and y.  Each exposure in this plot is 50~ms, though readout time and camera shutter compensation time result in x~s between frames.  The best fit of a sine function results in a vibration frequency of x~Hz.  This is consistent with the audible frequency of the cryostat He pump.}
+Relative vibrations between the laser and sapphire window will affect the number of Ba atoms exposed, increasing the effective laser spot size.  This was studied by observing the position of a ``dust spot" (a highly scattering feature on the sapphire window) relative to the position of the laser in an image on time scales down to 50~ms.  An example of an image from this experiment is shown in Fig. \ref{fig:dustspot}.  The 570-nm dye laser was somewhat de-focused, and the dust spot was illuminated by a de-focused 657~nm diode laser. For each frame, 2D Gaussian functions were fit to locate the center of the laser spot and the dust spot in order to measure their relative position.  The fit for the laser spot was restricted in y so that it was not affected by the bulk sapphire fluorescence path.  The distances in x and y between the dust spot and laser are plotted for each 50-ms snapshot in Fig. \ref{fig:cryovibe2D}(a).  The distribution shows a correlation between x and y.  To calculate an effective laser spot size due to this vibration, each difference (x,y) between laser and dust spot was used as the center of a 2D Gaussian, each with w$_{x} = 2.06~\mu$m and w$_{y} = 2.66~\mu$m to represent the laser spot.  Such Gaussian functions were summed to all points to produce a distribution of summed laser exposure, shown in Fig. \ref{fig:cryovibe2D}{\color{red}(b)}.  The total area enclosed by a 1/e contour then represents the effective area.  Since x and y movement are correlated, and since the movement is sinusoidal, the effective area is only about 2$\times$ the real laser spot size, and the effective laser region is 17.8~$\mu$m$^{2}$.
 
-The distances in x and y between the dust spot and laser are plotted for each 50-ms snapshot in Fig. \ref{fig:cryovibe2D}(a).  The distribution shows a correlation between x and y.  To calculate an effective laser spot size due to this vibration, each difference (x,y) between laser and dust spot was used as the center of a 2D Gaussian, each with w$_{x} = 2.06~\mu$m and w$_{y} = 2.66~\mu$m to represent the laser spot.  Such Gaussian functions were summed to all points to produce a distribution of summed laser exposure, shown in Fig. \ref{fig:cryovibe2D}{\color{red}(b)}.  The total area enclosed by a 1/e contour then represents the effective area.  Since x and y movement are correlated, and since the movement is sinusoidal, the effective area is only about 2$\times$ the real laser spot size, and the effective laser region is 17.8~$\mu$m$^{2}$.
+%The difference between dust spot and laser positions is plotted in {\color{red}Fig. [fig vibe vs. time with sine fit]} for both x and y.  Each exposure in this plot is 50~ms, though readout time and camera shutter compensation time result in x~s between frames.  The best fit of a sine function results in a vibration frequency of x~Hz.  This is consistent with the audible frequency of the cryostat He pump.
+%...could do this for rotated
 
 \begin{figure} %[H]
         \centering
                 \includegraphics[width=.5\textwidth]{figures/cryovibes_a.png}
                 ~
                 \includegraphics[width=.5\textwidth]{figures/cryovibes_b_chris_run10_15_diff_func_wcontour.png}
-                \caption{should (b) axes say laser position or something?}
+                \caption{Cryostat vibration measurements based on relative position of dust spot vs. laser on sapphire window in 50-ms snapshots (a), with 2D Gaussians overlain on each point to represent total laser exposure vs. position (b). \emph{\color{red}will re-do (b) myself}}
 \label{fig:cryovibe2D}
 \end{figure}
 
@@ -245,18 +246,18 @@ The aforementioned is the most concerning vibration to understand.  Vibration of
 \begin{figure} %[H]
         \centering
                 \includegraphics[width=.6\textwidth]{figures/image_1e4.png}
-                \caption{\emph{\color{gray}Binned 3x3.  No bleaching at this intensity*t $\rightarrow$ successive frames are not shown.... this is 1e4 total exposed, but basically 5e3 at a given time, and since there's no bleaching maybe that can be quoted.}  \emph{\color{red}Mention ``at one time" thing, which puts the 2.4 to 1 atom.} 100-s exposure (4), .4e-8 refl. (.02~$\mu$W according to EXOWeek talk) of 566~nm, .1-.2~s DC dep of about 1~nA, 50~K dep}
+                \caption{Image of about $10^{4}$ total Ba atoms in SXe, with about $5 \times 10^{3}$ atoms exposed at a time.  100-s exposure with .02~$\mu$W of 566~nm excitation, deposited at 50~K and observed at 11~K.  $3 \times 3$ CCD pixel binning.}
 \label{fig:image590s}
 \end{figure}
 
-\emph{\color{red}Mention ``at one time" thing, which puts the 2.4 to 1 atom.}  First attempts at imaging small numbers of Ba atoms in a focused laser region were done with the 577- and 591-nm Ba fluorescence peaks together using a 586-nm band-pass filter, which passes 573 - 599~nm FWHM.  This filter has a 2" diameter, resulting in a factor of 4$\times$ more collection efficiency.  Bleaching data was used to optimize laser intensity and exposure time to achieve maximal signal in frame 1, and to avoid hole bleaching.  The fast bleaching of these peaks is the limiting factor on sensitivity.  An image of $\leq$ 10$^{4}$ \emph{\color{gray}Say 5e3? see fig caption} atoms (10$^{4}$ Ba\textsuperscript{+} ions deposited into the effective laser region) is shown in Fig. [fig 590-lines image].  \emph{\color{red}No:} At only x total counts, this is near the limit of sensitivity.  As discussed in [bleaching section], detection of very small numbers of atoms in these sites may require several infrared re-pump lasers.  As a result of low total exposure, neither the sapphire nor the surface backgrounds are present in these images \emph{\color{gray}(but it is Xe-subbed anyway)}.  \emph{\color{gray}talk about long esposure, idk...}
+First attempts at imaging small numbers of Ba atoms in a focused laser region were done with the 577- and 591-nm Ba fluorescence peaks together using a 586-nm band-pass filter, which passes 573 - 599~nm FWHM.  This filter has a 2" diameter, resulting in a factor of 4$\times$ more collection efficiency.  Bleaching data was used to optimize laser intensity and exposure time to achieve maximal signal in frame 1, and to avoid hole bleaching.  The fast bleaching of these peaks is the limiting factor on sensitivity.  An image of $\leq$ 10$^{4}$ atoms (10$^{4}$ Ba\textsuperscript{+} ions deposited into the effective laser region) is shown in Fig. \ref{fig:image590s}.  This is a 100-s exposure with 0.02~$\mu$W of 566-nm excitation.  At this low intensity, no bleaching was observed in the four frames observed (frame 1 is shown).  Since the effective laser region is approximately doubled by cryostat vibrations, the signal observed at a given moment in time is actually due to the real laser spot size in the scenario of little to no bleaching.  Thus it should be said that Fig. \ref{fig:image590s} is an image of $5 \times 10^{3}$ atoms on average, with $10^{4}$ total atoms exposed.  Groups of 9 ($3 \times 3$) CCD pixels are binned to produce the nice peak shown.  As discussed in \ref{subsec:bleaching}, detection of very small numbers of atoms in these sites may require several infrared re-pump lasers.  As a result of low total exposure, neither the sapphire nor the surface backgrounds are present in these images, though a Xe-only image has been subtracted. 
 
 \subsection{Imaging 619-nm peak}
 
 \begin{figure} %[H]
         \centering
                 \includegraphics[width=.99\textwidth]{figures/fitgrouped_20150807_20150916_inset.png}
-                \caption{\emph{\color{gray}Better may be all points with stat errors instead of combined points, and try adding other days too:  5-26, and something before that (and after?).  X errors should prolly just be systematic.}  Combined 2015-08-07 and 2015-09-16 with statistical errors.  \emph{\color{gray}Move y-axis title over.}}
+                \caption{619-nm signal vs. Ba\textsuperscript{+} deposited in focused laser region. \emph{\color{red}move y-ax title over, Remove x errors}}
 \label{fig:lin}
 \end{figure}
 
@@ -265,16 +266,18 @@ At low laser intensities, the 619-nm peak appears minor compared to the 577- and
 \begin{figure} %[H]
         \centering
                 \includegraphics[width=.4\textwidth]{figures/xe_variation.png}
-                \caption{}
+                \caption{Background counts in focused laser region over the course of an experiment.}
 \label{fig:xevar}
 \end{figure}
 
-An imaging experiment consisted of many different pulsed Ba\textsuperscript{+} deposits, each of which was evaporated after observation.  This procedure is described in \ref{sec:deposition}-\ref{sec:collection}.  A linear relationship between observed signal and ions deposited must be observed and repeated.  Frequent Xe-only deposits ware made, typically every three runs, to establish the local background.  The image of each deposit was analyzed by summing the counts of a 3-pixel$\times$3-pixel (15$\mu$m$\times$15$\mu$m) region centered on the laser spot in the SXe layer where it excites Ba atoms, i.e. at the top of the laser path in Fig. \ref{fig:imageexamp}.  A partial-bin integrator was implemented such that the 3-pixel$\times$3-pixel region could be centered on the peak center of each run, which typically varied by about half a micron between runs.  Summed counts vs. Ba\textsuperscript{+} ions deposited into the laser region is shown in Fig. \ref{fig:lin} for a combination of data sets from {\color{red}two} separate days \emph{\color{gray}maybe you want them separate (with each point having errors) by color to show agreement ... and try combining those other days.  It will require scaling for intensity difference (spher. abb.) and time, and remember different I$\times$t might give different efficiency.}  Each point has subtracted the averaged counts from the two surrounding Xe-only deposits.  Some variation in signal is observed, likely due to spatial drifting of the ion beam, as this variation was larger on days where larger beam drift was observed.  Nonetheless, a clear linearity in observed in signal vs. ions deposited, all the way down to single ions deposited.  Recall that the number of ions is an upper limit on the number of atoms in the 619-nm peak matrix site.  ``0-pulse" deposits are also made, wherein Faraday cup 3 is retracted for the 1-s period, but the ion beam remains deflected with no pulses.  This establishes the level of neutral Ba atoms making their way down the beam line from the source into the laser region.  Signal at the few-atom level is observed from these deposits.
+An imaging experiment consisted of many different pulsed Ba\textsuperscript{+} deposits, each of which was evaporated after observation.  This procedure is described in \ref{sec:deposition}-\ref{sec:collection}.  A linear relationship between observed signal and ions deposited must be observed and repeated.  Frequent Xe-only deposits ware made, typically every three runs, to establish the local background.  The image of each deposit was analyzed by summing the counts of a 3-pixel$\times$3-pixel (15$\mu$m$\times$15$\mu$m) region centered on the laser spot in the SXe layer where it excites Ba atoms, i.e. at the top of the laser path in Fig. \ref{fig:imageexamp}.  A partial-bin integrator was implemented such that the 3-pixel$\times$3-pixel region could be centered on the peak center of each run, which typically varied by about half a micron between runs.  Summed counts vs. Ba\textsuperscript{+} ions deposited into the laser region is shown in Fig. \ref{fig:lin} for a combination of data sets from two separate days \emph{\color{blue}maybe you want them separate (with each point having errors) by color to show agreement }  Each point has subtracted the averaged counts from the two surrounding Xe-only deposits.  Some variation in signal is observed, likely due to spatial drifting of the ion beam, as this variation was larger on days where larger beam drift was observed.  Nonetheless, a clear linearity in observed in signal vs. ions deposited, all the way down to single ions deposited.  Recall that the number of ions is an upper limit on the number of atoms in the 619-nm peak matrix site.  ``0-pulse" deposits are also made, wherein Faraday cup 3 is retracted for the 1-s period, but the ion beam remains deflected with no pulses.  This establishes the level of neutral Ba atoms making their way down the beam line from the source into the laser region.  Signal at the few-atom level is observed from these deposits.
+
+%... and try combining those other days.  It will require scaling for intensity difference (spher. abb.) and time, and remember different I$\times$t might give different efficiency.
 
 \begin{figure} %[H]
         \centering
                 \includegraphics[width=.99\textwidth]{figures/train_20150807_v3_runs70_88_81_fromGiorgioFolder.png}
-                \caption{\color{red}should:  1) have more than this, 2) do pixel (5micron) on axis like others, 3) have same-looking phi angle on all}
+                \caption{\color{red}will change:  1) have more than this, 2) do pixel (5micron) on axis like others, 3) have same-looking phi angle on all}
 \label{fig:train}
 \end{figure}
 
@@ -301,7 +304,7 @@ The 619-nm peak, as well as the 670-nm peak, was attributed to neutral Ba by a f
                 \includegraphics[width=.5\textwidth]{figures/Ar_vs_Ba.png}
                 ~
                 \includegraphics[width=.5\textwidth]{figures/ArImaging.png}
-                \caption{}
+                \caption{Comparison of signal observed for deposits with the Ba\textsuperscript{+} ion beam (red), Ba getter (blue), and Ar\textsuperscript{+} ion beam (green) (a), and signal through 620-nm band-pass from deposits of small to large numbers of Ar\textsuperscript{+} ions in SXe.}
 \label{fig:ArVsBa}
 \end{figure}
 
