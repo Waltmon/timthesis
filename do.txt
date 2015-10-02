@@ -1,7 +1,7 @@
 BEFORE PRINTING, remove at least that one red thing in excitspec legend to write in w/ blue pen
 - results:
-  - two gray refs for Be:Xe and diffusion at x K
-  - talk to Bill about sine fit to x (or rotated?) vibes
+  w two gray refs for Be:Xe and diffusion at x K
+  - talk to Bill about sine fit to x (or rotated?) vibes (1.56 Adam got by hand on 50-ms ... you too?)
   - make less important plots side-by-side
   - better-looking train plot -- somehow w/ a bunch more images? w/ atoms ranges noted?
   - scanned images sec.
