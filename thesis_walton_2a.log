@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.18)  3 OCT 2015 11:27
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.18)  3 OCT 2015 16:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1046,13 +1046,13 @@ Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
  [69] [70] (./thesis_walton_2a.aux) ) 
 Here is how much of TeX's memory you used:
- 4973 strings out of 493304
- 70696 string characters out of 6139871
- 233735 words of memory out of 5000000
- 8086 multiletter control sequences out of 15000+600000
+ 4974 strings out of 493304
+ 70709 string characters out of 6139871
+ 233744 words of memory out of 5000000
+ 8087 multiletter control sequences out of 15000+600000
  12798 words of font info for 49 fonts, out of 8000000 for 9000
  1118 hyphenation exceptions out of 8191
- 40i,14n,35p,2478b,332s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,14n,35p,2478b,334s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
@@ -1067,7 +1067,7 @@ ist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmti12.pfb>
-Output written on thesis_walton_2a.pdf (76 pages, 5354694 bytes).
+Output written on thesis_walton_2a.pdf (76 pages, 5355744 bytes).
 PDF statistics:
  394 PDF objects out of 1000 (max. 8388607)
  213 compressed objects within 3 object streams
