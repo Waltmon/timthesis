@@ -29,14 +29,14 @@
 \contentsline {section}{\tocsection {}{4.1}{Fluorescence of Ba in SXe}}{37}
 \contentsline {subsection}{\tocsubsection {}{4.1.1}{Annealing/Temperature Dependence}}{40}
 \contentsline {subsection}{\tocsubsection {}{4.1.2}{Bleaching}}{44}
-\contentsline {section}{\tocsection {}{4.2}{Backgrounds}}{49}
+\contentsline {section}{\tocsection {}{4.2}{Backgrounds}}{50}
 \contentsline {section}{\tocsection {}{4.3}{Imaging}}{54}
-\contentsline {subsection}{\tocsubsection {}{4.3.1}{Vibrations and Effective Laser Region}}{55}
-\contentsline {subsection}{\tocsubsection {}{4.3.2}{Imaging 577- and 591-nm peaks}}{57}
+\contentsline {subsection}{\tocsubsection {}{4.3.1}{Vibrations and Effective Laser Region}}{56}
+\contentsline {subsection}{\tocsubsection {}{4.3.2}{Imaging 577- and 591-nm peaks}}{58}
 \contentsline {subsection}{\tocsubsection {}{4.3.3}{Imaging 619-nm peak}}{59}
-\contentsline {subsection}{\tocsubsection {}{4.3.4}{Further Checks on 619-nm Peak}}{62}
+\contentsline {subsection}{\tocsubsection {}{4.3.4}{Further Checks on 619-nm Peak}}{64}
 \contentsline {section}{\tocsection {}{4.4}{Scanned Images}}{64}
-\contentsline {section}{\tocsection {}{4.5}{Candidate Ba\textsuperscript {+} Lines/Blue Excitation}}{64}
-\contentsline {chapter}{\tocchapter {Chapter}{5}{Conclusions}}{67}
-\contentsline {section}{\tocsection {}{5.1}{Future Steps}}{67}
-\contentsline {chapter}{Bibliography}{68}
+\contentsline {section}{\tocsection {}{4.5}{Candidate Ba\textsuperscript {+} Lines/Blue Excitation}}{65}
+\contentsline {chapter}{\tocchapter {Chapter}{5}{Conclusions}}{68}
+\contentsline {section}{\tocsection {}{5.1}{Future Steps}}{68}
+\contentsline {chapter}{Bibliography}{69}

@@ -106,9 +106,9 @@ Decay of fluorescence with laser exposure, or bleaching, was observed for all si
 \label{fig:specBleach}
 \end{figure}
 
-To produce a well-known laser intensity, the laser was de-focused to a specific beam waist (w), and the image of 619-nm fluorescence (which defines the laser region due to its low bleaching) from a large Ba\textsuperscript{+} deposit was centered in the spectrometer slit and a y-pixel region of interest (ROI) with edges at 90\% of the maximal intensity.  Ba spectra over time are shown in Fig. \ref{fig:specBleach}(a,b,c) for excitation at (a) 556.9~nm, (b) 562.6~nm, and (c) 566.3~nm, where relative bleaching rates between peaks can be seen to depend on the excitation wavelength.  Fluorescence counts vs. total excitations (excitation rate $w_{12}$ $\times$ time) for the 570-, 577-, and 591-nm peaks are plotted in Fig. [fig bleaching].  \emph{\color{gray}...I swear this doesn't make sense, because you KNOW 1/x$\times$t and x$\times$I does not yield the same total counts.} \emph{\color{red}don't forget the correction on p-meter sensitive area and on p-meter quantum efficiency}
+To produce a well-known laser intensity, the laser was de-focused to a specific beam waist (w), and the image of 619-nm fluorescence (which defines the laser region due to its low bleaching) from a large Ba\textsuperscript{+} deposit was centered in the spectrometer slit and a y-pixel region of interest (ROI) with edges at 90\% of the maximal intensity.  Ba spectra over time are shown in Fig. \ref{fig:specBleach}(a,b,c) for excitation at (a) 556.9~nm, (b) 562.6~nm, and (c) 566.3~nm, where relative bleaching rates between peaks can be seen to depend on the excitation wavelength.  Fluorescence counts vs. total excitations (excitation rate $w_{12}$ $\times$ time) for the 570-, 577-, and 591-nm peaks are plotted in Fig. [fig bleaching].  \emph{\color{gray}...I swear this doesn't make sense, because you KNOW 1/x$\times$t and x$\times$I does not yield the same total counts...\textbf{maybe you just want to globalize ones with the same I and t, or just compare differently}} \emph{\color{red}don't forget the correction on p-meter sensitive area and on p-meter quantum efficiency}  Note that the 577-nm peak has a lower bleaching rate when excited in the region around {\color{red}566}~nm.  This informed the usage of {\color{red}x}~nm in imaging this fluorescence in \ref{subsec:imaging590and577}.
 
-The 6-level model solved in [sec. in Ch. 2] can be applied to this bleaching data to determine deviations from vacuum transition rates.  The 6\textsuperscript{th} level allows for one additional vacuum-forbidden transition from the excited state, $a_{26}$ and its decay back to ground $a_{61}$, e.g. a \textsuperscript{3}P state.  A successful model will fit observed bleaching curves for all values of $w_{12}$ with the same transition lifetimes.  An example \emph{\color{gray}examples of} of a good model fit\emph{\color{gray}s} is shown in Fig. \ref{fig:bleachModel}.   The nearly constant decay slope in later frames was easily fit with the introduction of non-zero $a_{26}$, and could not be fit by manipulation of the existing transitions, suggesting the presence of an additional matrix-induced path out of the excited state. In addition, non-zero $a_{61}$ values only hurt the fit, suggesting that this state does not have a spontaneous recovery path  \emph{\color{gray}(is this just for one of the peaks?)}.  An important observation is that the other rates do not require much change from their respective vacuum values, with the exception of \emph{\color{gray}whatever that one is.}  \emph{\color{red}try non-changed $a_{2?}$, to see if maybe the extra .5-s is actually in between each frame ... \textbf{go into the lab and try come where this ,5-s would dominate and see if it's there}}  This suggests that the observed bleaching is mostly due to optical pumping into the metastable D states, with the exception of $a_{26}$, and thus that laser re-pumping should be possible to increase the fluorescence signal from these peaks.
+The 6-level model solved in [sec. in Ch. 2] can be applied to this bleaching data to determine deviations from vacuum transition rates.  The 6\textsuperscript{th} level allows for one additional vacuum-forbidden transition from the excited state, $a_{26}$ and its decay back to ground $a_{61}$, e.g. a \textsuperscript{3}P state.  A successful model will fit observed bleaching curves for all values of $w_{12}$ with the same transition lifetimes.  An example \emph{\color{gray}examples of} of a good model fit\emph{\color{gray}s} is shown in Fig. \ref{fig:bleachModel}.   The nearly constant decay slope in later frames was easily fit with the introduction of non-zero $a_{26}$, and could not be fit by manipulation of the existing transitions, suggesting the presence of an additional matrix-induced path out of the excited state. In addition, non-zero $a_{61}$ values only hurt the fit, suggesting that this state does not have a spontaneous recovery path  \emph{\color{gray}(is this just for one of the peaks?)}.  An important observation is that the other rates do not require much change from their respective vacuum values, with the exception of \emph{\color{gray}whatever that one is.}  \emph{try non-changed $a_{2?}$, to see if maybe the extra .5-s is actually in between each frame ... \textbf{go into the lab and try come where this ,5-s would dominate and see if it's there}}  This suggests that the observed bleaching is mostly due to optical pumping into the metastable D states, with the exception of $a_{26}$, and thus that laser re-pumping should be possible to increase the fluorescence signal from these peaks.
 
 \begin{figure} %[H]
         \centering
@@ -117,9 +117,7 @@ The 6-level model solved in [sec. in Ch. 2] can be applied to this bleaching dat
 \label{fig:bleachModel}
 \end{figure}
 
-Another interesting result is the model's inability to explain the low fluorescence efficiency ($\epsilon_{f}$) observed in these peaks.  The number of counts observed is significantly lower than expected from $a_{21} = ?$.  $\epsilon_{f}$, defined in [Ch.2], was measured by the total counts observed in the first frame of exposure divided by its respective $w_{12}$, shown in Fig. \ref{fig:qe}.  This method of measuring $\epsilon_{f}$ becomes less accurate with more optical pumping in the first frame, i.e. with higher $w_{12}$ for a given frame time.  Thus, the trend should be extrapolated toward zero, suggesting a real $\epsilon_{f}$ of about {\color{red}1\%}.  The bleaching model was unable to explain this low $\epsilon_{f}$ by additional paths out of the excited state without introducing extreme alterations to existing rates, or by introducing extreme $a_{26}$ and $a_{61}$, in order to dominate $a_{21}$.  A possibility is that the low count rate actually reflects a matrix site population by only about 1\% of deposited Ba\textsuperscript{+} ions.
-
-\emph{\color{gray}Lower bleaching of 577 around 564-nm excitation was informing of imaging exp.}
+Another interesting result is the model's inability to explain the low fluorescence efficiency ($\epsilon_{f}$) observed in these peaks.  The number of counts observed is significantly lower than expected from $a_{21} = ?$.  $\epsilon_{f}$, defined in [Ch.2], was measured by the total counts observed in the first frame of exposure divided by its respective $w_{12}$, shown in Fig. \ref{fig:qe}.  This method of measuring $\epsilon_{f}$ becomes less accurate with more optical pumping in the first frame, i.e. with higher $w_{12}$ for a given frame time.  Thus, the trend should be extrapolated toward zero.  Since it seems to be leveling off in the lowest $w_{12}$ values,  the trend suggests a real $\epsilon_{f}$ of about {\color{red}0.5\%}.  The bleaching model was unable to explain this low $\epsilon_{f}$ by additional paths out of the excited state without introducing extreme alterations to existing rates, or by introducing extreme $a_{26}$ and $a_{61}$, in order to dominate $a_{21}$.  A possibility is that the low count rate actually reflects a matrix site population by only about 1\% of deposited Ba\textsuperscript{+} ions.  \emph{\color{gray}I bet $w = 100~\mu m$ is more likely to be the wrong one ... does that one require that more extreme w12 change in modeling (or, the one that still requires a fix after the right P correction has been applied)?}
 
 \begin{figure} %[H]
         \centering
@@ -244,6 +242,7 @@ Relative vibrations between the laser and sapphire window will affect the number
 The aforementioned is the most concerning vibration to understand.  Vibration of the laser itself is included in that study.  Vibration of the collection optics will affect the imaging resolution, but not the number of atoms being observed.  These vibrations were minimized by stable mounts.
 
 \subsection{Imaging 577- and 591-nm peaks}
+\label{subsec:imaging590and577}
 
 \begin{figure} %[H]
         \centering
@@ -259,7 +258,7 @@ First attempts at imaging small numbers of Ba atoms in a focused laser region we
 \begin{figure} %[H]
         \centering
                 \includegraphics[width=.99\textwidth]{figures/fitgrouped_20150807_20150916_inset.png}
-                \caption{619-nm signal vs. Ba\textsuperscript{+} deposited in focused laser region. \emph{\color{red}move y-ax title over, Remove x errors}}
+                \caption{619-nm signal vs. Ba\textsuperscript{+} deposited in effective excitation region of 17.8~$\mu$m using focused laser at 570~nm. \emph{\color{red}move y-ax title over, Remove x errors}}
 \label{fig:lin}
 \end{figure}
 
@@ -315,6 +314,8 @@ The 619-nm peak, as well as the 670-nm peak, was attributed to neutral Ba by a f
 \section{Scanned Images}
 \label{sec:scanning}
 
+The ultimate demonstration of single-atom imaging would be to scan the focused laser over a sample of separated Ba atoms, observing a peak when the laser moves over each atom.  Preliminary scans were performed by scanning the focusing lens in a grid patter, using the setup described in \ref{sec:laserscanning}.   \emph{\color{gray}choose what to show and what to say about it}  [issues are BG, reproduceability, vibrations]
+
 \section{Candidate Ba\textsuperscript{+} Lines/Blue Excitation}
 \label{sec:BaPlus}
 
@@ -335,7 +336,7 @@ Blue excitation of Ba\textsuperscript{+} in SXe were first explored in the thesi
         \centering
                 \includegraphics[width=.7\textwidth]{figures/excitspecBlue_a.png}
                 \includegraphics[width=.7\textwidth]{figures/excitspecBlue_b.png}
-                \caption{\emph{\color{gray}(a) is in 29140916/fitloop/121\_v101/ and is fr. 60}}
+                \caption{\emph{\color{gray}(a) is in 29140916/fitloop/121\_v101/ and is fr. 60} (a) Multiple-component fit to example emission spectrum with 468.2-nm excitation, and (b) excitation spectra for peaks observed through C480 dye range. \emph{\color{red}what does the left broad BG excitspec look like?? Cr or surf BG?}}
 \label{fig:excitspecBlue}
 \end{figure}
 

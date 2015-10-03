@@ -173,6 +173,7 @@ The CCD has a removable Princeton Instruments imaging spectrometer.  With this a
 To limit laser exposure to only the time of CCD exposure, a laser shutter is linked to the camera exposure with a LabVIEW program.  This program also records laser power via a calibrated pickoff, as well as the temperature of the coldfinger near the sapphire window during observation.
 
 \section{Laser Scanning}
+\label{sec:laserscanning}
 
 In order to obtain images of separated single atoms, the laser focusing lens is attached to motorized Newport translation stages which scan the laser position by scanning the lens in x and y, shown in Fig. \ref{fig:laserStages}.  These stages sit atop a manual z-translation stage for laser focusing.  An extension of the aforementioned LabVIEW program coordinates movement of these stages such that x or y position is stepped in between CCD frames, and each frame then corresponds to a position in a laser scan grid.
 
