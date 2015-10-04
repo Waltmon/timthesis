@@ -589,7 +589,7 @@
 }{%
 	% 	Great thanks are also due to Leif Anderson for building this \LaTeX\ document class, allowing me to meet the graduate school formatting requirements with no effort on my part. % You're welcome.
 	
-	%This \ifphd dissertation \else thesis \fi is typset in \LaTeX\ using a document class designed by Leif Anderson.%The more professional version.
+	This \ifphd dissertation \else thesis \fi is typset in \LaTeX\ using a document class designed by Leif Anderson.%The more professional version.
 	% Go ahead, comment it out.  But if you're here you probably know how much work went into this.
 	% I call this my little "no need to thank me" easter egg.
   \endlist\egroup
