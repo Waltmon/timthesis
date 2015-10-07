@@ -309,9 +309,12 @@
 \def\section{\@startsection{section}{1}%
   \z@{.7\linespacing\@plus\linespacing}{.5\linespacing}%
   {\normalfont\scshape\centering}} %writes the section headings in smallcaps, centered.
+%\def\subsection{\@startsection{subsection}{2}%
+%  \normalparindent{.5\linespacing\@plus.7\linespacing}{-.5em}%
+%  {\normalfont\scshape}}%writes the subsection headings in smallcaps.
 \def\subsection{\@startsection{subsection}{2}%
-  \normalparindent{.5\linespacing\@plus.7\linespacing}{-.5em}%
-  {\normalfont\scshape}}%writes the subsection headings in smallcaps.
+  \z@{.7\linespacing\@plus\linespacing}{.5\linespacing}%
+  {\normalfont\scshape}}
 \def\subsubsection{\@startsection{subsubsection}{3}%
   \normalparindent\z@{-.5em}%
   {\normalfont\itshape}}%sub sub sections are italics.
