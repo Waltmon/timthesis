@@ -39,24 +39,26 @@ Ba\textsuperscript{+} & $6p$ $^{2}P_{3/2}$\textsuperscript{o} $\rightarrow 6s $ 
 \end{tabular}
 \end{table}
 
-Single atom/ion detection by spectroscopy generally requires, in addition to the main excitation laser, lasers to provide transitions out of the metastable D states once the atom/ion decays into one of them.  For the atom, this can be done via three additional infrared lasers for the direct transitions back to the $6s6p$ $^{1}$P$_{1}$\textsuperscript{o} state, and also via excitation to higher-level states which have paths back to ground such as $6s6p$ $^{3}$D$_{1}$\textsuperscript{o}.  Trapping/detection of Ba atoms in a magneto-optical trap (MOT) is achieved in \cite{BaMOT}.  Single Ba\textsuperscript{+} observation requires only two lasers if the $^{2}$P$_{1/2}$ excited state is used, e.g. \cite{singleBaPlusEXO}.
+Single atom/ion detection by spectroscopy generally requires, in addition to the main excitation laser, lasers to provide transitions out of the metastable D states once the atom/ion decays into one of them.  For the atom, this can be done via three additional infrared lasers for the direct transitions back to the $6s6p$ $^{1}$P$_{1}$\textsuperscript{o} state, and also via excitation to higher-level states which have paths back into the fluorescence cycle, such as $6s6p$ $^{3}$D$_{1}$\textsuperscript{o}.  Trapping/detection of Ba atoms in a magneto-optical trap (MOT) was achieved in \cite{BaMOT}.  Observation of trapped single Ba\textsuperscript{+} ions requires only two lasers if the $^{2}$P$_{1/2}$ excited state is used, e.g. \cite{singleBaPlusEXO}.
 
 \section{Matrix Isolation Spectroscopy}
 
 %\emph{\color{gray}May be good matrix isolation theory references in Ba Spec... yeah, 1 and 2 i think ... shon's 55, 57, 58 are probably good too and maybe overlapping}
 
-In the matrix isolation spectroscopy technique \cite{matrixIso}, the species of interest, e.g. Ba/Ba\textsuperscript{+}, is embedded and trapped in an inert host matrix, e.g. solid Xe, ideally with a host:guest ratio of $10^{3}$ or greater for a low probability of guest-guest interaction.  The ground S state of Ba, as well as for Ba\textsuperscript{+}, is spherically symmetric, and being slightly larger in Van der Waals radius than Xe, it is likely to take the place of one or more Xe atoms in the fcc crystal (substitution), vs. existing in between Xe atoms in the crystal structure (interstitial).  However, the strength of the Ba-Xe interaction, an induced dipole-dipole Van der Waals force, is likely quite different when the Ba is in the non-spherically-symmetric excited P state \cite{crepin}.  This leads to significant broadening of absorption and emission for the Ba, as well as an energy shift between the two, according to the Franck Condon Principle, illustrated in Fig. \ref{fig:FranckCondon}.  In a cold matrix, the system will be in the ground lattice vibrational state before excitation.  Electronic excitation can occur to multiple vibrational modes whose wavefunctions overlap that of the ground state, thus broadening the absorption energy.  In the excited state, rapid decay occurs to the lowest vibrational mode before electronic decay can occur, and then a similar broadening in the spontaneous emission energy occurs.  A redshift in the emission is observed relative to the excitation.  
+In the matrix isolation spectroscopy technique \cite{matrixIso}, the species of interest, e.g. Ba/Ba\textsuperscript{+}, is embedded and trapped in an inert host matrix, e.g. solid Xe, ideally with a host:guest ratio of $10^{3}$ or greater for a low probability of guest-guest interaction.  The ground S state of Ba, as well as for Ba\textsuperscript{+}, is spherically symmetric, and being slightly larger in Van der Waals radius than Xe, it is likely to take the place of one or more Xe atoms in the fcc crystal (substitution), vs. existing in between Xe atoms in the crystal structure (interstitial).  However, the strength of the Ba-Xe interaction, an induced dipole-dipole Van der Waals force, is quite different when the Ba is in the non-spherically-symmetric excited P state \cite{crepin}.  This leads to significant broadening of absorption and emission for the Ba, as well as an energy shift between the two, according to the Franck Condon Principle, illustrated in Fig. \ref{fig:FranckCondon}.  In a cold matrix, the system will be in the ground lattice vibrational state {\color{red}($\nu_{0}$)} before excitation.  Electronic excitation can occur to multiple vibrational modes whose wavefunctions overlap that of the ground state, thus broadening the absorption energy.  In the excited state, rapid decay occurs to the lowest vibrational mode, and then a similar broadening in the spontaneous emission energy occurs.  A redshift in the emission is observed relative to the excitation.
+
+% before electronic decay can occur
 
 \begin{figure} %[H]
         \centering
                 \includegraphics[width=.7\textwidth]{figures/FranckCondon.png}
-                \caption{Illustration of the Franck-Condon Principle resulting in red-shifted emission as well as broadening in absorption (A) and emission (B).}
+                \caption{Illustration of the Franck-Condon Principle resulting in red-shifted emission as well as broadening in absorption (A) and emission (B).  \emph{\color{red}label excited and ground state, and maybe label the vibrational modes}}
 \label{fig:FranckCondon}
 \end{figure}
 
 %\emph{\color{gray}Jahn-Teller?}
 
-The spectroscopy of Ba in solid Ar (SAr) and Kr (SKr) matrices was studied in \cite{SAr}.  The example of Ba in SAr is shown in Fig. \ref{fig:BaSAr}.  The absorption is 10s of nm broad with a multi-peak structure, and the emission is broadened to nms and red-shifted.  These were attributed to the main $6s^{2}$ $^{1}$S$_{0} \rightarrow 6s6p$ $^{1}$P$_{1}$\textsuperscript{o} transition and its spontaneous emission.
+The spectroscopy of Ba in solid Ar (SAr) and solid Kr (SKr) matrices was studied in \cite{SAr}.  The example of Ba in SAr is shown in Fig. \ref{fig:BaSAr}.  The absorption is 10s of nm broad with a multi-peak structure, and the emission is broadened to nms and red-shifted.  These were attributed to the main $6s^{2}$ $^{1}$S$_{0} \rightarrow 6s6p$ $^{1}$P$_{1}$\textsuperscript{o} transition and its spontaneous emission.
 
 \begin{figure} %[H]
         \centering
@@ -87,7 +89,7 @@ Neutral Ba in vacuum is a 5-level system.  However, solving a 6-level system is 
 
 \section{Fluorescence Efficiency}
 
-Fluorescence efficiency, $\epsilon_{f}$, is the ratio of fluorescence photons emitted to excitations to the fluorescing state.  This becomes less than one when there are paths out of the excited state other than the one which emits the photon being measured, e.g. the $\epsilon_{f}$ of Ba in vacuum is about 99.7\%, not quite 1 due to about 1 in 350 decays from the P state into a metastable D state rather than back to ground.  $\epsilon_{f}$ can be calculated by Eqn. \ref{eqn:flueEff}:
+Fluorescence efficiency, $\epsilon_{f}$, is the ratio of fluorescence photons emitted to excitations into the fluorescing state.  This becomes less than one when there are paths out of the excited state other than the one which emits the photon being measured, e.g. the $\epsilon_{f}$ of Ba in vacuum is about 99.7\%, not quite 1 due to about 1 in 330 decays from the P state into a metastable D state rather than back to ground.  $\epsilon_{f}$ can be calculated by Eqn. \ref{eqn:flueEff}:
 
 \begin{equation}
 \epsilon_{f} = \frac{f}{w_{12} \epsilon_{c}} = \frac{f h \nu}{\sigma I \epsilon_{c}}

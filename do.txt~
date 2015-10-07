@@ -1,13 +1,13 @@
-BEFORE PRINTING, remove at least that one red thing in excitspec legend to write in w/ blue pen
 - results:
   w two gray refs for Be:Xe and diffusion at x K
-  - talk to Bill about sine fit to x (or rotated?) vibes
+  w talk to Bill about sine fit to x (or rotated?) vibes (1.56 Adam got by hand on 50-ms ... you too?)
   - make less important plots side-by-side
   - better-looking train plot -- somehow w/ a bunch more images? w/ atoms ranges noted?
   - scanned images sec.
-  - plots for blue excit.
+  * plots for blue excit.
   w bleaching green excitspec
-  - fixed 619 bleach plot
+  * fixed 619 bleach plot
+  - talk to Bill about discrepancies between this and BaSpec -- leak rate and 11 K vs. 10 K
 
 
 - do yourself the surface bg excitspec
