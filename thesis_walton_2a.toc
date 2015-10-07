@@ -7,7 +7,7 @@
 \contentsline {section}{\tocsection {}{1.3}{Enriched Xenon Observatory}}{8}
 \contentsline {subsection}{\tocsubsection {}{1.3.1}{EXO-200}}{8}
 \contentsline {subsection}{\tocsubsection {}{1.3.2}{nEXO}}{13}
-\contentsline {subsection}{\tocsubsection {}{1.3.3}{Barium Tagging}}{14}
+\contentsline {subsection}{\tocsubsection {}{1.3.3}{Barium Tagging}}{15}
 \contentsline {chapter}{\tocchapter {Chapter}{2}{Theory}}{19}
 \contentsline {section}{\tocsection {}{2.1}{Ba/Ba\textsuperscript {+} Spectroscopy in Vacuum}}{19}
 \contentsline {section}{\tocsection {}{2.2}{Matrix Isolation Spectroscopy}}{20}

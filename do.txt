@@ -1,3 +1,6 @@
+- intro:
+  - read about CP-violation aspect of Majorana phases
+
 - theory:
   - Bill:  refs for Ba rates
   - Bill:  soln to 6-level -- small w12?
