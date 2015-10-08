@@ -23,31 +23,6 @@ An example image of the focused 570~nm dye laser passing through a c-plane sapph
   %\label{fig:imageexamp}
 %\end{wrapfigure}
 
-\section{Vibrations and Effective Laser Region}
-
-\begin{figure} %[H]
-        \centering
-                \includegraphics[width=.6\textwidth]{figures/image_dustspot.png}
-                \caption{Example image of dust spot and laser during observation of cryostat vibrations.}
-\label{fig:dustspot}
-\end{figure}
-
-Relative vibrations between the laser and sapphire window will affect the number of Ba atoms exposed, increasing the effective laser spot size.  This was studied by observing the position of a ``dust spot" (a highly scattering feature on the sapphire window) relative to the position of the laser in an image on time scales down to 50~ms.  An example of an image from this experiment is shown in Fig. \ref{fig:dustspot}.  The 570-nm dye laser was somewhat de-focused, and the dust spot was illuminated by a de-focused 657~nm diode laser. For each frame, 2D Gaussian functions were fit to locate the center of the laser spot and the dust spot in order to measure their relative position.  The fit for the laser spot was restricted in y so that it was not affected by the bulk sapphire fluorescence path.  The distances in x and y between the dust spot and laser are plotted for each 50-ms snapshot in Fig. \ref{fig:cryovibe2D}(a).  The distribution shows a correlation between x and y.  To calculate an effective laser spot size due to this vibration, each difference (x,y) between laser and dust spot was used as the center of a 2D Gaussian, each with w$_{x} = 2.06~\mu$m and w$_{y} = 2.66~\mu$m to represent the laser spot.  Such Gaussian functions were summed to all points to produce a distribution of summed laser exposure, shown in Fig. \ref{fig:cryovibe2D}{\color{red}(b)}.  The total area enclosed by a 1/e contour then represents the effective area.  Since x and y movement are correlated, and since the movement is sinusoidal, the effective area is only about 2$\times$ the real laser spot size, and the effective laser region is 17.8~$\mu$m$^{2}$.
-
-%The difference between dust spot and laser positions is plotted in {\color{red}Fig. [fig vibe vs. time with sine fit]} for both x and y.  Each exposure in this plot is 50~ms, though readout time and camera shutter compensation time result in x~s between frames.  The best fit of a sine function results in a vibration frequency of x~Hz.  This is consistent with the audible frequency of the cryostat He pump.
-%...could do this for rotated
-
-\begin{figure} %[H]
-        \centering
-                \includegraphics[width=.5\textwidth]{figures/cryovibes_a.png}
-                ~
-                \includegraphics[width=.5\textwidth]{figures/cryovibes_b_chris_run10_15_diff_func_wcontour.png}
-                \caption{Cryostat vibration measurements based on relative position of dust spot vs. laser on sapphire window in 50-ms snapshots (a), with 2D Gaussians overlain on each point to represent total laser exposure vs. position (b). \emph{\color{red}will re-do (b) myself}}
-\label{fig:cryovibe2D}
-\end{figure}
-
-The aforementioned is the most concerning vibration to understand.  Vibration of the laser itself is included in that study.  Vibration of the collection optics will affect the imaging resolution, but not the number of atoms being observed.  These vibrations were minimized by stable mounts.
-
 \section{Imaging 577- and 591-nm peaks}
 \label{sec:imaging590and577}
 

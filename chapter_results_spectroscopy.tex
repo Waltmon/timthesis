@@ -1,8 +1,8 @@
 \chapter{Results: Spectroscopy}
 
-Studies of several emission peaks of neutral Ba in SXe are discussed in \ref{sec:fluorescence}.  Temperature and annealing dependence are discussed in \ref{sec:tempanneal}, and bleaching of these peaks is discussed in detail in \ref{sec:bleaching}.  Imaging of Ba fluorescence in a focused laser region is discussed in \ref{imaging}, with the ultimate achievement of imaging at the single atom level using the 619-nm fluorescence peak.  First attempts at scanned images of single Ba atoms are discussed in \ref{sec:scanning}.  Candidate fluorescence peaks of Ba\textsuperscript{+} in SXe are reported in \ref{sec:BaPlus}.
+The spectroscopy of Ba in SXe was studied in detail beyond that reported in \cite{Shon,Brian}, with the goal of imaging single Ba atoms.  Emission and excitation spectra are analyzed in \ref{sec:fluorescence}, with particular interest in the origin of the 619-nm peak in \ref{sec:619identification}.  Studies of temperature and bleaching effects in \ref{sec:tempanneal} and \ref{sec:bleaching} aid in determining optimal conditions for observation.  Backgrounds are analyzed in \ref{sec:bgs} in order to optimize sensitivity, and finally, candidate emission lines for Ba\textsuperscript{+} in SXe are discussed in \ref{sec:BaPlus}.
 
-\section{Fluorescence of Ba in SXe}
+\section{Emission and Excitation of Ba in SXe}
 \label{sec:fluorescence}
 
 Deposits of Ba in SXe absorb primarily between 540~nm and 570~nm.  An absorption spectrum, obtained by observing absorption of white light by a large Ba deposit at 11~K, is shown in Fig. \ref{fig:BaAbs}, along with an example emission spectrum of a Ba\textsuperscript{+} deposit made at 45~K and observed at 11~K with 557~nm excitation.  Significant broadening, as well as a 4-nm redshift  of the central peak, occur relative to the vacuum $6s^{2}$ $^{1}$S$_{0} \rightarrow 6s6p$ $^{1}$P$_{1}$ absorption value of 553.5~nm.  Initial discovery of this absorption and emission was done with the purely neutral Ba getter source.  Observation of the same spectra from Ba\textsuperscript{+} ion beam deposits demonstrates some neutralization of the ions.  The fraction of ions neutralized is not determined.  \cite{Mong2015,Shon,Brian}
@@ -31,11 +31,27 @@ Deposits of Ba in SXe absorb primarily between 540~nm and 570~nm.  An absorption
 %\label{eqn:specfit}
 %\end{equation}
 
-The several red-shifted emission peaks observed are attributed to Ba atoms occupying different matrix sites in the SXe.  Deposition at temperatures higher than 11~K and exploration of more excitation wavelengths have led to discovery of a few emission peaks beyond the 591- and 577-nm peaks reported in \cite{Shon} and \cite{Brian}.  Emission spectra for selected excitation wavelengths are shown in Fig. \ref{fig:excitspecGrn}(a), for a deposit made at 44~K and observed at 11~K.  These selections are part of a full excitation spectrum, shown in Fig. \ref{fig:excitspecGrn}(c).  An excitation spectrum is produced by scanning the dye laser and measuring the magnitude of each fluorescence peak vs. excitation wavelength.  For each 1-s CCD exposure, a sum of asymmetric Gaussian functions and standard Gaussian functions is fit to the spectrum after pedestal subtraction.  The asymmetric Gaussian fit function used, which fits the 577- and 591-nm peaks somewhat better than standard Gaussians, is $A(1+$erf$(\frac{x-a}{\sigma_{1}})(1-$erf$(\frac{x-a}{\sigma_{2}}))$, where $A$ is the free amplitude parameter.  The peak position $a$ is fixed for each peak, as are the left and right smearing widths $\sigma_{1}$ and $\sigma_{2}$.  The function erf() is a Gaussian error function.  The asymmetric Gaussian function is not perfect for all frames, as the shape of the emission can depend on the excitation wavelength.  An example frame with fits is shown in Fig. \ref{fig:excitspecGrn}(b).  The full fit is the dotted black line, and each peak's contribution is in color.  Curves in (a) have about 100$\times$ the laser power used in the excitation spectrum (e.g. (b)) where low intensity is desired to avoid bleaching during the scan.  Rather than attempting frame-by-frame background subtractions, additional Gaussians are fit to the broad and sharp background fluorescence.  These backgrounds and their excitation spectra are discussed in \ref{sec:bgs}.  A 566~nm Raman filter was used to attenuate the majority of the laser scatter, however the small amount of scatter passed by the filter was used to determine the frame's excitation wavelength.  Each peak's fit contribution was then integrated and scaled by the frame's laser power, as the power output is not constant through the dye range.
+The several red-shifted emission peaks observed are attributed to Ba atoms occupying different matrix sites in the SXe.  Deposition at temperatures higher than 11~K and exploration of more excitation wavelengths have led to discovery of a few emission peaks beyond the 591- and 577-nm peaks reported in \cite{Shon} and \cite{Brian}.  Emission spectra for selected excitation wavelengths are shown in Fig. \ref{fig:excitspecGrn}(a), for a deposit made at 44~K and observed at 11~K.  These selections are part of a full excitation spectrum, shown in Fig. \ref{fig:excitspecGrn}(c).  An excitation spectrum is produced by scanning the dye laser and measuring the magnitude of each fluorescence peak vs. excitation wavelength.  For each 1-s CCD exposure, a sum of \emph{\color{gray}don't call them this} asymmetric Gaussian functions and standard Gaussian functions is fit to the spectrum after pedestal subtraction.  The asymmetric Gaussian fit function used, which fits the 577- and 591-nm peaks somewhat better than standard Gaussians, is $A(1+$erf$(\frac{x-a}{\sigma_{1}})(1-$erf$(\frac{x-a}{\sigma_{2}}))$, where $A$ is the free amplitude parameter.  The peak position $a$ is fixed for each peak, as are the left and right smearing widths $\sigma_{1}$ and $\sigma_{2}$.  The function erf() is a Gaussian error function.  The asymmetric Gaussian function is not perfect for all frames, as the shape of the emission can depend on the excitation wavelength.  An example frame with fits is shown in Fig. \ref{fig:excitspecGrn}(b).  The full fit is the dotted black line, and each peak's contribution is in color.  Curves in (a) have about 100$\times$ the laser power used in the excitation spectrum (e.g. (b)) where low intensity is desired to avoid bleaching during the scan.  Rather than attempting frame-by-frame background subtractions, additional Gaussians are fit to the broad and sharp background fluorescence.  These backgrounds and their excitation spectra are discussed in \ref{sec:bgs}.  A 566~nm Raman filter was used to attenuate the majority of the laser scatter, however the small amount of scatter passed by the filter was used to determine the frame's excitation wavelength.  Each peak's fit contribution was then integrated and scaled by the frame's laser power, as the power output is not constant through the dye range.
 
 %\emph{\color{gray}Care about 10~K excitation spectrum?}
 
 Wavelength calibration was done using three lasers whose wavelengths were first measured with a Burleigh Wavemeter:  a red diode laser at 656.99~nm, a doubled Nd:YAG laser at 532.23~nm, and the C480 blue dye laser typically around 475~nm (at 488.91~nm for the data in Fig. \ref{fig:excitspecGrn}).  These lasers were directed at the same position on the sapphire window, and their scatter was imaged along the same path as the Ba fluorescence.  The WinSpec software applies the diffraction grating equation to calibrate each CCD pixel to a wavelength.
+
+\section{619-nm Peak Identification}
+\label{sec:619identification}
+
+The 619-nm peak, as well as the 670-nm peak, was attributed to neutral Ba by a few further tests.  A large Ba\textsuperscript{+} deposit is compared to a deposit made with the Ba getter in Fig. \ref{fig:ArVsBa}(a).  The 619-nm and 670-nm peaks were observed with both sources, and since the getter produces only neutral Ba, they were attributed to neutralized ions in Ba\textsuperscript{+} deposits.  Observation of the fluorescence with two different types of Ba sources is itself positive.  In addition, observation of the fluorescence with the low deposit energy of the getter may bode well for the prospect of grabbing on a probe in LXe.  Observation of a large deposit of Ar\textsuperscript{+} in SXe is also shown in Fig. \ref{fig:ArVsBa}(a).  The lack of fluorescence further disfavors a matrix-damage-related source of the fluorescence, such as color centers.  Finally, to rule out the possibility that the signal in Ba imaging experiments is due to passed wavelengths far from the 620-nm band-pass region, e.g. infrared, imaging experiments of Ar\textsuperscript{+} deposits in SXe were performed with both pulsing and continuous ion beams.  The same 620-nm band-pass filter was used, as well as the same focused 570-nm laser, to be similar to Ba\textsuperscript{+} 619-nm imaging experiments.  Summed counts from these deposits were consistent with background, as shown in Fig. \ref{fig:ArVsBa}(b).
+
+\begin{figure} %[H]
+        \centering
+                \includegraphics[width=.5\textwidth]{figures/Ar_vs_Ba.png}
+                ~
+                \includegraphics[width=.5\textwidth]{figures/ArImaging.png}
+                \caption{Comparison of signal observed for deposits with the Ba\textsuperscript{+} ion beam (red), Ba getter (blue), and Ar\textsuperscript{+} ion beam (green) (a), and signal through 620-nm band-pass from deposits of small to large numbers of Ar\textsuperscript{+} ions in SXe.}
+\label{fig:ArVsBa}
+\end{figure}
+
+%at one point youthought leak rate dependence could go here
 
 \section{Annealing/Temperature Dependence}
 \label{sec:tempanneal}
@@ -65,7 +81,7 @@ Matrix site occupancies for Ba atoms can depend on annealing history, and simila
 \begin{figure} %[H]
         \centering
                 \includegraphics[width=.8\textwidth]{figures/spectra_annealing.png}
-                \caption{Spectra of a large Ba\textsuperscript{+} deposit through several annealing cycles.  Initial deposit was at 11~K.  Laser power was about 0.2~mW with an unfocused beam waist of w = 7.056~mm, at 564~nm wavelength.  These are selections from the full data set shown as peak counts vs. temperature in Fig. \ref{fig:annealGrn}.  \emph{\color{red}This same data, but a different plot, is in BaSpec, as is some of the annealing plots -- do I just cite the paper or what?} \emph{\color{blue}rm things like that and write them in blue w/ pen on printout}}
+                \caption{Spectra of a large Ba\textsuperscript{+} deposit through several annealing cycles.  Initial deposit was at 11~K.  Laser power was about 0.2~mW with an unfocused beam waist of w = 7.056~mm, at 564~nm wavelength.  These are selections from the full data set shown as peak counts vs. temperature in Fig. \ref{fig:annealGrn}.  \cite{Mong2015}}
 \label{fig:specAnneal}
 \end{figure}
 
@@ -94,6 +110,8 @@ Aside from matrix site changes, direct temperature dependence of fluorescence ca
 
 \section{Bleaching}
 \label{sec:bleaching}
+
+\emph{\color{gray}Just show bleaching, as informant on how to image, rather than showing model fits.}
 
 Decay of fluorescence with laser exposure, or bleaching, was observed for all six Ba fluorescence peaks.  It is a rapid process for the 570-, 577-, 591-, and 601-nm peaks, and a much slower process for the 619- and 670-nm peaks.  With the prospect of counteracting the effect for single-atom imaging, bleaching of the 577- and 591-nm peaks was studied in detail by observing the fluorescence decay rate for varying excitation rates.  
 
@@ -151,6 +169,8 @@ The 619-nm peak bleaches at much higher laser intensities.  At a few mW of aroun
 \section{Backgrounds}
 \label{sec:bgs}
 
+\emph{\color{gray}Should \textbf{show} the S/sqrt(B), and perhaps do a new one with the surf-bg-dominated spectrum to say maybe x should be used instead, but maybe not.}
+
 One source of background emission was observed from the surfaces of the window.  Its broad fluorescence is shown in Fig. \ref{fig:surfBG}(a) with a 610-nm Raman filter cutoff and 570.4~nm excitation, and its excitation spectrum is shown in Fig. \ref{fig:surfBG}(b) over the R6G dye range.  The nature of this emission has not been determined, however a few features were identified.  One was that the emission increased as the window temperature was decreased, down to about 100~K where it remained flat down to 11~K, shown in Fig. \ref{fig:BGtempDependence}.  Another feature of the surface background is that it bleaches with laser exposure.  This was useful in that the background could be reduced by pre-bleaching of the window.  However, the bleaching behavior also presented an inconvenient time dependence of the surface background, as historical bleaching and possible slight movements of the laser could lead to variation.  Frequent Xe-only deposits were made in order to establish proper background subtraction.  Spacial variation in the background is especially cumbersome in a laser scanning experiment, as discussed in \ref{sec:scanning}.  Given these behaviors, it is possible that the surface background is caused by a species which freezes to the window, or something which coats the window and fluoresces more at lower temperatures.  In either case, the bleaching could be explained by evaporation with laser heating, or by optical pumping of the species into a metastable state.
 
 %, shown in Fig. [fig surfaceBG bleaching]
@@ -190,23 +210,6 @@ Another source of background is fluorescence from the sapphire window.  A spectr
 %with Cr\textsuperscript{3+} concentrations of around {\color{red}10 ppt} observed.
 
 %(peaks around? May need to ask Bill about what peaks exist and at what temps ... a new idea is to just leave it vague, as ``peaks" since you're sure there are at least 2, but vauge is OK)
-
-
-\section{619-nm Peak Identification}
-\label{sec:619identification}
-
-The 619-nm peak, as well as the 670-nm peak, was attributed to neutral Ba by a few further tests.  A large Ba\textsuperscript{+} deposit is compared to a deposit made with the Ba getter in Fig. \ref{fig:ArVsBa}(a).  The 619-nm and 670-nm peaks were observed with both sources, and since the getter produces only neutral Ba, they were attributed to neutralized ions in Ba\textsuperscript{+} deposits.  Observation of the fluorescence with two different types of Ba sources is itself positive.  In addition, observation of the fluorescence with the low deposit energy of the getter may bode well for the prospect of grabbing on a probe in LXe.  Observation of a large deposit of Ar\textsuperscript{+} in SXe is also shown in Fig. \ref{fig:ArVsBa}(a).  The lack of fluorescence further disfavors a matrix-damage-related source of the fluorescence, such as color centers.  Finally, to rule out the possibility that the signal in Ba imaging experiments is due to passed wavelengths far from the 620-nm band-pass region, e.g. infrared, imaging experiments of Ar\textsuperscript{+} deposits in SXe were performed with both pulsing and continuous ion beams.  The same 620-nm band-pass filter was used, as well as the same focused 570-nm laser, to be similar to Ba\textsuperscript{+} 619-nm imaging experiments.  Summed counts from these deposits were consistent with background, as shown in Fig. \ref{fig:ArVsBa}(b).
-
-\begin{figure} %[H]
-        \centering
-                \includegraphics[width=.5\textwidth]{figures/Ar_vs_Ba.png}
-                ~
-                \includegraphics[width=.5\textwidth]{figures/ArImaging.png}
-                \caption{Comparison of signal observed for deposits with the Ba\textsuperscript{+} ion beam (red), Ba getter (blue), and Ar\textsuperscript{+} ion beam (green) (a), and signal through 620-nm band-pass from deposits of small to large numbers of Ar\textsuperscript{+} ions in SXe.}
-\label{fig:ArVsBa}
-\end{figure}
-
-%at one point youthought leak rate dependence could go here
 
 \section{Candidate Ba\textsuperscript{+} Lines/Blue Excitation}
 \label{sec:BaPlus}

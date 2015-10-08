@@ -52,7 +52,15 @@ s_{12} s_{23} - c_{12} c_{23} s_{13} e^{i \delta} & -c_{12} s_{23} - s_{12} c_{2
 \end{equation}
 
 \noindent
-where $c_{ij} = \cos \theta_{ij}$ and $s_{ij} = \sin \theta_{ij}$.  $\delta$ is a phase factor related to lepton CP violation, and $\alpha_{i}$ are Majorana phases.  
+where $c_{ij} = \cos \theta_{ij}$ and $s_{ij} = \sin \theta_{ij}$.  $\delta$  and $\alpha_{i}$ are Dirac and Majorana, respectively, CP-violating phases.  Transformation between bases is done by Eqn. \ref{eqn:nuTransform}:
+
+\begin{equation}
+\begin{aligned}
+\ket{\nu_{\alpha}} &= \sum\limits_{i} U^{*}_{\alpha i} \ket{\nu_{i}},\\
+\ket{\nu_{i}} &= \sum\limits_{\alpha} U_{\alpha i} \ket{\nu_{\alpha}}.
+\end{aligned}
+\label{eqn:nuTransform}
+\end{equation}
 
 A two-neutrino approximation demonstrates how this results in neutrino oscillation.  In this case, there is only one mixing angle $\theta$ and one mass squared difference $\Delta$, and the Hamiltonian $H$ and mixing matrix $U$ are as follows:
 
@@ -149,7 +157,7 @@ T_{1/2}^{0\nu} = (G^{0\nu}(Q,Z)|M^{0\nu}|^{2}\braket{m_{\nu}}^{2})^{-1}
 \end{equation}
 
 \noindent
-where $T_{1/2}^{0\nu}$ is the $0\nu\beta\beta$ half-life,  $G^{0\nu}$ is a known phase space factor, and $M^{0\nu}$ is a model-dependent nuclear matrix element. The effective Majorana neutrino mass $\braket{m_{\nu}}$ is defined as follows:
+where $T_{1/2}^{0\nu}$ is the $0\nu\beta\beta$ half-life,  $G^{0\nu}$ is a known phase space factor, and $M^{0\nu}$ is a model-dependent nuclear matrix element.  $\braket{m_{\nu}}$ is the effective Majorana neutrino mass:
 
 \begin{equation}
 \braket{m_{\nu}} = \sum\limits_{i} U_{ei}^{2} m_{i}.
@@ -233,12 +241,14 @@ The final data set is fit using a combination of probability distribution functi
 
 \subsection{nEXO}
 
-The next-generation successor to EXO-200 is nEXO, a tonne-scale LXe TPC which will probe Majorana neutrino masses down to the 10~meV scale.  The sensitivity projections for nEXO are shown in Fig. \ref{fig:sensitivity_nEXO}, along with those of EXO-200.  nEXO will reach phase space where the two possible mass hierarchies split, and will probe the full phase space of the inverted hierarchy.  Barium tagging will push the sensitivity further into the region allowed only by the normal hierarchy {\color{gray}[ref for this?]}.
+The next-generation successor to EXO-200 is nEXO, a tonne-scale LXe TPC which will probe Majorana neutrino masses down to the 10~meV scale.  The sensitivity projections for nEXO are shown in Fig. \ref{fig:sensitivity_nEXO}, along with those of EXO-200.  nEXO will reach phase space where the two possible mass hierarchies split, and will probe the full phase space of the inverted hierarchy.  Barium tagging will push the sensitivity further into the region allowed only by the normal hierarchy.
+
+% {\color{gray}[ref for this?]}
 
 \begin{figure} %[H]
 	\centering
 	\includegraphics[width=.9\textwidth]{figures/sensitivity_v2.png}
-	\caption{nEXO projected sensitivity to the Majorana neutrino mass vs. the minimum of the three masses m$_{min}$. {\color{red}check for updated version}}
+	\caption{nEXO projected sensitivity to the Majorana neutrino mass vs. the minimum of the three masses m$_{min}$.  Solid (dotted) lines are \textbf{\color{red}1(2)}-$\sigma$ bands bands on measured neutrino oscillation parameters.  {\color{red}can I have this in here?}}
 \label{fig:sensitivity_nEXO}
 \end{figure}
 
