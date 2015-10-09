@@ -1,12 +1,12 @@
 \chapter{Experimental}
 
-\emph{\color{gray}Probably need to mention CCD digitaztion pedestal and noise, and dark counts which are zero when cold -- did you do that?.}
+%\emph{\color{gray}Probably need to mention CCD digitaztion pedestal and noise, and dark counts which are zero when cold -- did you do that?.}
 
-This chapter describes the apparatus at Colorado State University which has been used for all described studies of Ba/Ba\textsuperscript{+} fluorescence in SXe after deposition in vacuum.  Our main barium source, a Ba\textsuperscript{+} ion beam, is first described, as well as a purely Ba neutral source.  The co-deposit of Ba/Ba\textsuperscript{+} with Xe gas onto a cold sapphire window, subsequent laser excitation, and finally the collection optics for the fluorescence are described.
+This chapter describes the apparatus at Colorado State University which has been used for producing and observing  deposits of Ba/Ba\textsuperscript{+} in SXe.  The main barium source, a Ba\textsuperscript{+} ion beam, is first described, as well as a neutral Ba getter source.  The co-deposit of Ba/Ba\textsuperscript{+} with Xe gas onto a cold sapphire window, subsequent laser excitation, and finally the collection optics for the fluorescence are described.
 
 \section{Ion Beam}
 
-The full ion beam is shown in Fig. \ref{fig:ionbeam}.  This is a clean source of Ba\textsuperscript{+} which can do a very wide range of deposit sizes, from billions of ions in a focused laser region all the way down to the single-ion level, and even deposit sparsely enough to scan a focused laser over spatially separated ions.
+The ion beam system is shown in Fig. \ref{fig:ionbeam}.  This is a clean source of Ba\textsuperscript{+} which can do a very wide range of deposit sizes, from billions of ions in a focused laser region all the way down to the single-ion level and below.
 %(may only want to say that if we have those scans)
 
 \begin{figure} %[H]
@@ -18,7 +18,9 @@ The full ion beam is shown in Fig. \ref{fig:ionbeam}.  This is a clean source of
 
 \subsection{Ion Source}
 
-Ba\textsuperscript{+} ions are produced in a Colutron ion gun system \cite{Colutron}.  The source is shown in Fig. \ref{fig:ionsource}.  A solid barium charge is placed into the hollowed end of a stainless steel rod, which is then inserted into the discharge chamber, near the hot filament.  The barium vaporizes, and escapes the hollowed rod around a loosely threaded set screw.  The source is designed to produce a discharge between the anode plate and the filament cathode, through an argon buffer gas leaked into the source chamber.  This controlled discharge would then also ionize atoms from the solid charge to produce the desired ion beam, and Ar ions would be filtered out.  However, to avoid contamination of the SXe matrix with residual Ar gas, the buffer gas is not used in this work.  We are still able to maintain a discharge between the filament and anode circuits.  The longevity of ion current from a single charge (at least several 10s of hours) suggests that Ba is coating the inner walls of the chamber and is depleted slowly.  This is supported by the observation of white oxidation of the inner source parts after a few minutes of exposure to air when opening the system.  The discharge produces a plasma, containing barium ions, which escapes the chamber through a small hole in the anode, where it enters the acceleration region.  The acceleration potential is 2~kV, between the ion source anode and an aperture, which is the first element of Einzel lens 1.  This lens approximately collimates the ion beam for passage through the E$\times$B velocity filter.
+Ba\textsuperscript{+} ions are produced in a Colutron \emph{\color{gray}Model} ion gun system \cite{Colutron}.  The source is shown in Fig. \ref{fig:ionsource}.  A solid barium charge is placed into the hollowed end of a stainless steel rod, which is inserted into the discharge chamber, where it is heated by a filament.  The barium vaporizes, and escapes the hollowed rod around a loosely threaded set screw.  The source is designed to produce a discharge between the anode plate and the filament cathode, through an argon buffer gas leaked into the source chamber.  This controlled discharge would then also ionize atoms from the solid charge to produce the desired ion beam, and Ar ions would be filtered out.  However, to avoid contamination of the SXe matrix with residual Ar gas, the buffer gas is not used in this work.  We are still able to maintain a discharge with the residual Ba vapor.  The longevity of ion current from a single charge (at least several 10s of hours) suggests that Ba is coating the inner walls of the source chamber, and is heated enough to provide sufficient Ba pressure to support a discharge.  The discharge produces a plasma, containing barium ions, which escapes the chamber through a small hole in the anode, where it enters the acceleration region.  The acceleration potential applied is 2~kV, between the ion source anode and the first element of Einzel lens 1.  This lens approximately collimates the ion beam for passage through the E$\times$B velocity filter.
+
+%This is supported by the observation of white oxidation of the inner source parts after a few minutes of exposure to air when opening the system.
 
 \begin{figure} %[H]
         \centering
@@ -29,7 +31,7 @@ Ba\textsuperscript{+} ions are produced in a Colutron ion gun system \cite{Colut
 
 \subsection{E$\times$B Velocity Filter}
 
-The E$\times$B velocity filter selects Ba\textsuperscript{+} by creating perpendicular electric and magnetic fields, which produce opposing forces on charged particles moving straight through the filter.  The opposing forces will be equal for ions with velocity $v = \frac{E}{B}$.  Since ion velocity is determined by mass ($m$), charge ($q$) and beam potential ($V$), the filter selects ions satisfying Eqn. \ref{eqn:massfilt}:
+The E$\times$B velocity filter selects Ba\textsuperscript{+} by creating perpendicular electric and magnetic fields, which produce opposing forces on charged particles moving through the filter.  The opposing forces will be equal for ions with velocity $v = \frac{E}{B}$.  Since ion velocity is determined by mass ($m$), charge ($q$) and beam potential ($V$), the filter selects ions satisfying Eqn. \ref{eqn:massfilt}:
 
 \begin{equation}
 \frac{m}{q} = \frac{2 V B^{2}}{E^{2}}
@@ -37,7 +39,7 @@ The E$\times$B velocity filter selects Ba\textsuperscript{+} by creating perpend
 \end{equation}
 
 \noindent
-where $B$ and $E$ are the magnetic and electric fields, respectively.  Those fields are chosen such that the forces are equal for Ba\textsuperscript{+}.  Other ions will be deflected.  
+where $B$ and $E$ are the magnetic and electric fields, respectively.  Those fields are chosen such that Ba\textsuperscript{+} ions pass straight through.  Other ions will be deflected.  
 
 The E$\times$B filter is shown in Fig. \ref{fig:exb}.  Electromagnets provide the vertical magnetic field.  Electrode plates and field-shaping guard rings provide the horizontal electric field.  The guard rings prevent a lensing and astigmatism effect from fringe fields of the plates \cite{Colutron}.
 
@@ -53,13 +55,15 @@ The E$\times$B filter is shown in Fig. \ref{fig:exb}.  Electromagnets provide th
 
 \subsection{Other Beam Components}
 
-The first three sets of deflection plates can be used for beam diagnostics, and are set to 0~V during normal operation.  The deflection plates just before the pulsing plates, H1 and V1, are set to constant values of 50~V and 0~V, respectively, which have been selected such that the beam, in both pulsing and continuous modes, can be deposited at the sapphire window for reasonable settings on the final deflection plates, H2 and V2.  As described in \ref{subsec:ionDepCal}, different settings in H2/V2 are required for peak ion current in Faraday cup 3 vs. peak deposit at the window.
+The first three sets of deflection plates can be used for beam diagnostics, and are set to 0~V during normal operation.  The deflection plates just before the pulsing plates, H1 and V1, are set to constant values of +50~V and 0~V, respectively, which have been selected such that the beam, in both pulsing and continuous modes, can be deposited at the sapphire window for reasonable settings on the final deflection plates, H2 and V2.  As described in Section \ref{subsec:ionDepCal}, different settings in H2/V2 are required for peak ion current in Faraday cup 3 vs. peak deposit at the window.
 
-Einzel lens 2 focuses the beam to pass through the aperture in the first element of the decelerator lens.  Einzel lens 3 is not used in this setup.  The decelerator lens can be used to vary Ba\textsuperscript{+} deposit energy, but it in this work it acts as an Einzel lens with only the second element at voltage, and it focuses the beam at Faraday cup 3 (there is no Faraday cup 2 in this setup).  Faraday cup 3 measures the ion current during experiments, and is retracted when deposits are being made.  Its use in deposit calibration is described in \ref{subsec:ionDepCal}.  Faraday cup 1 is used for beam diagnostics, and is usually retracted on its bellows.  
+Einzel lens 2 focuses the beam to pass through the aperture in the first element of the decelerator lens.  Einzel lens 3 is grounded in this setup.  The decelerator lens can be used to vary Ba\textsuperscript{+} deposit energy, which was done in \cite{Shon}, but it in this work it acts as an Einzel lens with only the second element at voltage.  It focuses the beam near the sample and Faraday cup 3 (there is no Faraday cup 2 in this setup).  Faraday cup 3 measures the ion current during experiments, and is retracted when deposits are being made.  Calibration of deposits using Faraday cup 3 is described in Section \ref{subsec:ionDepCal}.  Faraday cup 1 is used for beam diagnostics, and is usually retracted.  
+
+\emph{\color{gray}More to report on from ion beam studies back when?  I think this covers it.}
 
 \subsection{Ion Beam Pulsing}
 
-When running in pulsing mode, the pulsing plates are first set to 200~V and -200~V to deflect the beam, and are pulsed to 0~V for 1~$\mu$s for each pulse.  The pulsing circuit is shown in Fig. \ref{fig:pulse_circuit}.  Square waves, triggered by LabVIEW at 500~Hz, enter the circuit at (a). The transformed pulse triggers the MOSFET switch, which closes the circuit for the period of the pulse.
+When running in pulsing mode, the pulsing plates are normally set to 200~V and -200~V to deflect the beam, and are pulsed to 0~V for 1~$\mu$s to pass a short pulse of ions straight forward.  The pulsing circuit is shown in Fig. \ref{fig:pulse_circuit}.  Square waves, triggered by LabVIEW at 500~Hz, enter the circuit at (a). The transformed pulse triggers the MOSFET switch, which closes the circuit for the period of the pulse.
 
 \begin{figure} %[h]
         \centering
@@ -68,15 +72,15 @@ When running in pulsing mode, the pulsing plates are first set to 200~V and -200
 \label{fig:pulse_circuit}
 \end{figure}
 
-The induction plates observe pulses during a deposit.  Pulses just prior to a deposit can be observed by cup 3 (as well as the induction plates) for a local measurement of ion current in the pulses.  eV Products pre-amplifiers convert the ion current to voltage signals which are read out with a digital oscilloscope.  An example of an oscilloscope readout of 16 averaged pulses is shown in Fig. \ref{fig:pulse_raw_shaped}(left).  The pre-amp circuit is solved to retrieve the original current, given by Eqn. \ref{eqn:preamp}:
+The induction plates are used to observe pulses during a deposit.  Pulses just prior to a deposit can be observed by cup 3 (as well as the induction plates) for a measurement of ion current in the pulses.  eV Products pre-amplifiers convert the ion current to voltage signals, which are recorded on a digital oscilloscope.  An example of raw oscilloscope traces of Faraday cup 3 and induction plate signals are shown in Fig. \ref{fig:pulse_raw_shaped}(a).  The pre-amp output voltage is related to the input current according to Eqn. \ref{eqn:preamp}:
 
 \begin{equation}
-I = \frac{-(V_{out} + R_{1} C \frac{dV_{out}}{dt})}{R_{1} M}.
+I = \frac{-(V_{out} + R_{1} C \frac{dV_{out}}{dt})}{R_{1} M}
 \label{eqn:preamp}
 \end{equation}
 
 \noindent
-$R_{1} C$ and $R_{1} M$ are determined for each pre-amp.  The time constant $R_{1} C$ is determined by fitting an exponential to the decay of a signal, and $R_{1} M$ is a constant which is then determined by fitting this shaped signal to a known input square pulse.  Final shaped currents for signals from the induction plates and cup 3 are shown in Fig. \ref{fig:pulse_raw_shaped}(right).
+$R_{1} C$ and $R_{1} M$ are determined by putting a known square pulse into the pre-amp.  First, the time constant of an exponential fit to the signal decay determines $R_{1} C$, and then $R_{1} M$ is determined by matching this shaped signal to the original square pulse.  Actual currents in the induction plates and cup 3 are shown in Fig. \ref{fig:pulse_raw_shaped}(b).  The induction signal is positive as ions are approaching the sensitive plate, and an equal but negative signal is seen after the ions pass through.  The Faraday cup stops the ions, so it produces only a positive induction signal as ions approach it.
 
 \begin{figure} %[H]
         %\centering
@@ -86,12 +90,12 @@ $R_{1} C$ and $R_{1} M$ are determined for each pre-amp.  The time constant $R_{
 %        %\end{subfigure}
         %\begin{subfigure}
                 \includegraphics[width=.49\textwidth]{figures/pulse_ind_cup3_shaped.png}
-                \caption{Raw (left) and shaped (right) pulse signals from induction plates and cup 3.  The raw induction signal appears small because it is a less sensitive pre-amp (accounted for in shaping).}
+                \caption{\emph{\color{red}Needs (a),(b)} Raw (left) and shaped (right) pulse signals from induction plates and cup 3.  The raw induction signal appears small because it is a less sensitive pre-amp (accounted for in shaping).}
         %\end{subfigure}
         \label{fig:pulse_raw_shaped}
 \end{figure}
 
-Pulsing data also provides confirmation that the beam is composed of Ba\textsuperscript{+}.  The time between the center of the pulsing plate voltage overlap and the center of the pulse measured by the Faraday cup, along with a measurement of the distance traveled, provides a velocity measurement of the ions.  This distance was measured to be 31.5 $\pm$ 0.5~cm, and time-of-flight data, e.g. Fig. \ref{fig:pulses_ArBa}, give 39.8 $\pm$ 3.4~amu for Ar\textsuperscript{+} and 136.8 $\pm$ 6.3~amu for Ba\textsuperscript{+}, including an uncertainty on the time of flight of $\pm$ 0.1~$\mu s$.  This rules out any BaO\textsuperscript{+} contribution to the Ba\textsuperscript{+} ion beam.
+Pulsing data also provides confirmation that the beam is composed of Ba\textsuperscript{+}.  The time between the center of the pulsing plate voltage overlap and the center of the pulse measured by the Faraday cup, along with a measurement of the distance traveled, provides a velocity measurement of the ions.  This distance was measured to be 31.5 $\pm$ 0.5~cm from the center of the pulsing plates to the Faraday cup, and time-of-flight data, e.g. Fig. \ref{fig:pulses_ArBa}, give 39.8 $\pm$ 3.4~amu for Ar\textsuperscript{+} and 136.8 $\pm$ 6.3~amu for Ba\textsuperscript{+}, including an uncertainty on the time of flight of $\pm$ 0.1~$\mu s$.
 
 \begin{figure}[h]
         \centering
@@ -115,7 +119,7 @@ where $C$ is $\frac{fC}{pulse}$ at cup 3, $A$ is the area of cup w, and $e$ is t
 
 \section{Ba Getter Source}
 
-A BaAl$_{4}$ getter is employed as a purely neutral Ba source which can be inserted on a bellows to emit toward the sapphire window, shown in Fig. \ref{fig:endOfBeam}.  Getters were used extensively in previous work \cite{Brian} for measuring the absorption of Ba in SXe with large Ba deposits, and in identifying emission peaks.  A getter is used briefly in this work in identifying the 619-nm fluorescence peak, as described in \ref{sec:619identification}.  Getters used in \cite{Brian} were exothermic BaAl$_{4}$-Ni flash getters.  The getter used here is an endothermic type, designed for more controlled Ba emission.  
+A BaAl$_{4}$ getter is employed as a purely neutral Ba source which can be inserted on a bellows to emit toward the sapphire window, shown in Fig. \ref{fig:endOfBeam}.  Getters were used extensively in previous work \cite{Brian} for measuring the absorption of Ba in SXe with large Ba deposits, and in identifying emission peaks.  A getter is used briefly in this work in identifying the 619-nm fluorescence peak, as described in Section \ref{sec:619identification}.  Getters used in \cite{Brian} were exothermic BaAl$_{4}$-Ni flash getters.  The getter used here is an endothermic type, designed for more controlled Ba emission.  
 
 \begin{figure} %[h]
         \centering
