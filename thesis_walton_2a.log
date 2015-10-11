@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.18)  10 OCT 2015 01:04
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.18)  11 OCT 2015 16:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -432,7 +432,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5 <./figures/hierarchy_alterred.png>]
-<figures/feynman_2nu_quarks.png, id=54, 526.96875pt x 637.63219pt>
+<figures/feynman_2nu_quarks.png, id=55, 526.96875pt x 637.63219pt>
 File: figures/feynman_2nu_quarks.png Graphic file (type png)
 
 <use figures/feynman_2nu_quarks.png>
@@ -440,7 +440,7 @@ Package pdftex.def Info: figures/feynman_2nu_quarks.png used on input line 131.
 
 (pdftex.def)             Requested size: 164.41711pt x 198.94823pt.
 
-<figures/feynman_0nu_quarks.png, id=55, 526.96875pt x 637.63219pt>
+<figures/feynman_0nu_quarks.png, id=56, 526.96875pt x 637.63219pt>
 File: figures/feynman_0nu_quarks.png Graphic file (type png)
 
 <use figures/feynman_0nu_quarks.png>
@@ -448,7 +448,7 @@ Package pdftex.def Info: figures/feynman_0nu_quarks.png used on input line 135.
 
 (pdftex.def)             Requested size: 164.41711pt x 198.94823pt.
  [6 <./figures/feynman_2nu_quarks.png> <./figures/feynman_0nu_quarks.png>]
-<figures/spectrum_bb.png, id=62, 434.37282pt x 289.08pt>
+<figures/spectrum_bb.png, id=63, 434.37282pt x 289.08pt>
 File: figures/spectrum_bb.png Graphic file (type png)
 
 <use figures/spectrum_bb.png>
@@ -458,7 +458,7 @@ Package pdftex.def Info: figures/spectrum_bb.png used on input line 171.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7 <./figures/spectrum_bb.png>] [8]
-<figures/cleanroom.png, id=70, 851.43094pt x 587.94656pt>
+<figures/cleanroom.png, id=71, 851.43094pt x 587.94656pt>
 File: figures/cleanroom.png Graphic file (type png)
 
 <use figures/cleanroom.png>
@@ -467,7 +467,7 @@ Package pdftex.def Info: figures/cleanroom.png used on input line 195.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [9 <./figures/cleanroom.png>] <figures/TPC.png, id=74, 563.10374pt x 538.26094
+ [9 <./figures/cleanroom.png>] <figures/TPC.png, id=75, 563.10374pt x 538.26094
 pt>
 File: figures/TPC.png Graphic file (type png)
 
@@ -477,14 +477,14 @@ Package pdftex.def Info: figures/TPC.png used on input line 204.
 
 Underfull \vbox (badness 2799) has occurred while \output is active []
 
- [10 <./figures/TPC.png>] <figures/TPCphoto.jpeg, id=78, 2055.68pt x 1541.76pt>
+ [10 <./figures/TPC.png>] <figures/TPCphoto.jpeg, id=79, 2055.68pt x 1541.76pt>
 File: figures/TPCphoto.jpeg Graphic file (type jpg)
 
 <use figures/TPCphoto.jpeg>
 Package pdftex.def Info: figures/TPCphoto.jpeg used on input line 219.
 (pdftex.def)             Requested size: 422.77664pt x 317.07443pt.
 
-<figures/anodecathodedriftcharges.png, id=79, 722.7pt x 542.025pt>
+<figures/anodecathodedriftcharges.png, id=80, 722.7pt x 542.025pt>
 File: figures/anodecathodedriftcharges.png Graphic file (type png)
 
 <use figures/anodecathodedriftcharges.png>
@@ -496,7 +496,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [11]
 [12 <./figures/TPCphoto.jpeg> <./figures/anodecathodedriftcharges.png>]
-<figures/0nu_spectrum_nature.png, id=87, 795.72281pt x 675.27281pt>
+<figures/0nu_spectrum_nature.png, id=88, 795.72281pt x 675.27281pt>
 File: figures/0nu_spectrum_nature.png Graphic file (type png)
 
 <use figures/0nu_spectrum_nature.png>
@@ -504,14 +504,14 @@ Package pdftex.def Info: figures/0nu_spectrum_nature.png used on input line 239
 .
 (pdftex.def)             Requested size: 446.26582pt x 378.7066pt.
  [13]
-<figures/sensitivity_v2.png, id=91, 519.44063pt x 511.15968pt>
+<figures/sensitivity_v2.png, id=92, 519.44063pt x 511.15968pt>
 File: figures/sensitivity_v2.png Graphic file (type png)
 
 <use figures/sensitivity_v2.png>
 Package pdftex.def Info: figures/sensitivity_v2.png used on input line 252.
 (pdftex.def)             Requested size: 422.77664pt x 416.03377pt.
 
-<figures/nEXO_cryopit.png, id=92, 519.44063pt x 615.0478pt>
+<figures/nEXO_cryopit.png, id=93, 519.44063pt x 615.0478pt>
 File: figures/nEXO_cryopit.png Graphic file (type png)
 
 <use figures/nEXO_cryopit.png>
@@ -521,7 +521,7 @@ Package pdftex.def Info: figures/nEXO_cryopit.png used on input line 261.
 Underfull \vbox (badness 1997) has occurred while \output is active []
 
  [14 <./figures/0nu_spectrum_nature.png>]
-<figures/nEXO_readout.png, id=96, 1064.47687pt x 606.76688pt>
+<figures/nEXO_readout.png, id=97, 1064.47687pt x 606.76688pt>
 File: figures/nEXO_readout.png Graphic file (type png)
 
 <use figures/nEXO_readout.png>
@@ -529,7 +529,7 @@ Package pdftex.def Info: figures/nEXO_readout.png used on input line 268.
 (pdftex.def)             Requested size: 328.82707pt x 187.42917pt.
  [15 <./figures/sensitivity_v2.png>] [16 <./figures/nEXO_cryopit.png> <./figure
 s/nEXO_readout.png>]
-<figures/probe_flat.png, id=106, 384.6872pt x 626.34pt>
+<figures/probe_flat.png, id=107, 384.6872pt x 626.34pt>
 File: figures/probe_flat.png Graphic file (type png)
 
 <use figures/probe_flat.png>
@@ -541,7 +541,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [17])
 (./chapter_theory.tex [18 <./figures/probe_flat.png>]
 Chapter 2
-<figures/elevs.png, id=114, 1799.22188pt x 606.76688pt>
+<figures/elevs.png, id=115, 1799.22188pt x 606.76688pt>
 File: figures/elevs.png Graphic file (type png)
 
 <use figures/elevs.png>
@@ -630,7 +630,7 @@ Package pdftex.def Info: figures/pulses_BaAr.png used on input line 102.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [30 <./figures/pulse_ind_cup3_raw.png> <./figures/pulse_ind_cup3_shaped.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 5475) has occurred while \output is active []
 
  [31 <./figures/pulses_BaAr.png>]
 <figures/window_etc.png, id=173, 718.18312pt x 661.72218pt>
@@ -646,73 +646,69 @@ File: figures/fringe_setup.png Graphic file (type png)
 <use figures/fringe_setup.png>
 Package pdftex.def Info: figures/fringe_setup.png used on input line 138.
 (pdftex.def)             Requested size: 187.89914pt x 173.7542pt.
- [32] [33 <./figures/window_etc.png> <./figures/fringe_setup.png>]
-<figures/fringes_52K_vs_11K.png, id=182, 560.8453pt x 361.35pt>
+ [32]
+<figures/fringes_52K_vs_11K.png, id=178, 560.8453pt x 361.35pt>
 File: figures/fringes_52K_vs_11K.png Graphic file (type png)
 
 <use figures/fringes_52K_vs_11K.png>
 Package pdftex.def Info: figures/fringes_52K_vs_11K.png used on input line 147.
 
 (pdftex.def)             Requested size: 328.82707pt x 211.86032pt.
-
-<figures/fringes_dep_and_melt.png, id=183, 802.49812pt x 365.11406pt>
+ [33 <./figures/window_etc.png>]
+<figures/fringes_dep_and_melt.png, id=184, 802.49812pt x 365.11406pt>
 File: figures/fringes_dep_and_melt.png Graphic file (type png)
 
 <use figures/fringes_dep_and_melt.png>
 Package pdftex.def Info: figures/fringes_dep_and_melt.png used on input line 15
 4.
 (pdftex.def)             Requested size: 422.77664pt x 192.3563pt.
+ [34 <./figures/fringe_setup.png> <./figures/fringes_52K_vs_11K.png>] [35 <./fi
+gures/fringes_dep_and_melt.png>]
+Underfull \vbox (badness 1642) has occurred while \output is active []
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [34 <./figures/fringes_52K_vs_11K.png> <./figures/fringes_dep_and_melt.png>] [
-35]
-<figures/image_dustspot.png, id=192, 1019.81pt x 1015.795pt>
+ [36]
+<figures/image_dustspot.png, id=197, 1019.81pt x 1015.795pt>
 File: figures/image_dustspot.png Graphic file (type png)
 
 <use figures/image_dustspot.png>
-Package pdftex.def Info: figures/image_dustspot.png used on input line 183.
+Package pdftex.def Info: figures/image_dustspot.png used on input line 185.
 (pdftex.def)             Requested size: 281.85587pt x 280.74722pt.
- [36]
-<figures/cryovibes_a.png, id=197, 1019.81pt x 674.52pt>
+ [37 <./figures/image_dustspot.png>]
+<figures/cryovibes_a.png, id=201, 1019.81pt x 674.52pt>
 File: figures/cryovibes_a.png Graphic file (type png)
 
 <use figures/cryovibes_a.png>
-Package pdftex.def Info: figures/cryovibes_a.png used on input line 197.
+Package pdftex.def Info: figures/cryovibes_a.png used on input line 199.
 (pdftex.def)             Requested size: 234.8775pt x 155.35248pt.
 
-<figures/cryovibes_b.png, id=198, 1019.81pt x 674.52pt>
+<figures/cryovibes_b.png, id=202, 1019.81pt x 674.52pt>
 File: figures/cryovibes_b.png Graphic file (type png)
 
 <use figures/cryovibes_b.png>
-Package pdftex.def Info: figures/cryovibes_b.png used on input line 199.
+Package pdftex.def Info: figures/cryovibes_b.png used on input line 201.
 (pdftex.def)             Requested size: 234.8775pt x 155.35248pt.
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 197--200
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 199--202
  [][] [] 
  []
 
-
-Underfull \vbox (badness 3838) has occurred while \output is active []
-
- [37 <./figures/image_dustspot.png>]
-<figures/100_1885.JPG, id=202, 136.1085pt x 122.859pt>
+[38 <./figures/cryovibes_a.png> <./figures/cryovibes_b.png>]
+<figures/100_1885.JPG, id=206, 136.1085pt x 122.859pt>
 File: figures/100_1885.JPG Graphic file (type jpg)
 
 <use figures/100_1885.JPG>
-Package pdftex.def Info: figures/100_1885.JPG used on input line 213.
+Package pdftex.def Info: figures/100_1885.JPG used on input line 217.
 (pdftex.def)             Requested size: 234.8775pt x 212.03506pt.
-) (./chapter_results_spectroscopy.tex [38 <./figures/cryovibes_a.png> <./figure
-s/cryovibes_b.png>] [39 <./figures/100_1885.JPG>]
+) (./chapter_results_spectroscopy.tex [39 <./figures/100_1885.JPG>]
 Chapter 4
-<figures/BaAbs_fromBaSpec.png, id=209, 1177.39874pt x 748.29562pt>
+<figures/BaAbs_fromBaSpec.png, id=210, 1177.39874pt x 748.29562pt>
 File: figures/BaAbs_fromBaSpec.png Graphic file (type png)
 
 <use figures/BaAbs_fromBaSpec.png>
 Package pdftex.def Info: figures/BaAbs_fromBaSpec.png used on input line 12.
 (pdftex.def)             Requested size: 328.82707pt x 208.9847pt.
 
-<figures/excitspec_grn_spectra_v2.png, id=210, 949.5475pt x 674.52pt>
+<figures/excitspec_grn_spectra_v2.png, id=211, 949.5475pt x 674.52pt>
 File: figures/excitspec_grn_spectra_v2.png Graphic file (type png)
 
 <use figures/excitspec_grn_spectra_v2.png>
@@ -720,7 +716,7 @@ Package pdftex.def Info: figures/excitspec_grn_spectra_v2.png used on input lin
 e 19.
 (pdftex.def)             Requested size: 234.8775pt x 166.84901pt.
 
-<figures/excitspec_grn_spectra_fit.png, id=211, 949.5475pt x 674.52pt>
+<figures/excitspec_grn_spectra_fit.png, id=212, 949.5475pt x 674.52pt>
 File: figures/excitspec_grn_spectra_fit.png Graphic file (type png)
 
 <use figures/excitspec_grn_spectra_fit.png>
@@ -728,7 +724,7 @@ Package pdftex.def Info: figures/excitspec_grn_spectra_fit.png used on input li
 ne 21.
 (pdftex.def)             Requested size: 234.8775pt x 166.84901pt.
 
-<figures/excitspec_grn.png, id=212, 712.16063pt x 479.54156pt>
+<figures/excitspec_grn.png, id=213, 712.16063pt x 479.54156pt>
 File: figures/excitspec_grn.png Graphic file (type png)
 
 <use figures/excitspec_grn.png>
@@ -744,14 +740,14 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 19--23
 
 ] [41 <./figures/BaAbs_fromBaSpec.png>] [42 <./figures/excitspec_grn_spectra_v2
 .png> <./figures/excitspec_grn_spectra_fit.png> <./figures/excitspec_grn.png>] 
-[43] <figures/Ar_vs_Ba.png, id=228, 949.5475pt x 674.52pt>
+[43] <figures/Ar_vs_Ba.png, id=229, 949.5475pt x 674.52pt>
 File: figures/Ar_vs_Ba.png Graphic file (type png)
 
 <use figures/Ar_vs_Ba.png>
 Package pdftex.def Info: figures/Ar_vs_Ba.png used on input line 47.
 (pdftex.def)             Requested size: 234.8775pt x 166.84901pt.
 
-<figures/ArImaging.png, id=229, 949.5475pt x 674.52pt>
+<figures/ArImaging.png, id=230, 949.5475pt x 674.52pt>
 File: figures/ArImaging.png Graphic file (type png)
 
 <use figures/ArImaging.png>
@@ -763,7 +759,7 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 47--50
  []
 
 [44 <./figures/Ar_vs_Ba.png> <./figures/ArImaging.png>]
-<figures/spectra_temperature_conditions.png, id=233, 712.16063pt x 451.6875pt>
+<figures/spectra_temperature_conditions.png, id=234, 712.16063pt x 451.6875pt>
 File: figures/spectra_temperature_conditions.png Graphic file (type png)
 
 <use figures/spectra_temperature_conditions.png>
@@ -771,7 +767,7 @@ Package pdftex.def Info: figures/spectra_temperature_conditions.png used on inp
 ut line 69.
 (pdftex.def)             Requested size: 328.82707pt x 208.55759pt.
 
-<figures/619_deposit_conditions.png, id=234, 949.5475pt x 674.52pt>
+<figures/619_deposit_conditions.png, id=235, 949.5475pt x 674.52pt>
 File: figures/619_deposit_conditions.png Graphic file (type png)
 
 <use figures/619_deposit_conditions.png>
@@ -782,7 +778,7 @@ Package pdftex.def Info: figures/619_deposit_conditions.png used on input line
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/spectra_annealing.png, id=235, 712.16063pt x 445.665pt>
+<figures/spectra_annealing.png, id=236, 712.16063pt x 445.665pt>
 File: figures/spectra_annealing.png Graphic file (type png)
 
 <use figures/spectra_annealing.png>
@@ -796,42 +792,42 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Warning: Text page 46 contains only floats.
 
 [46 <./figures/spectra_temperature_conditions.png> <./figures/619_deposit_condi
-tions.png>] <figures/spectra_anneal_fit.png, id=243, 949.5475pt x 674.52pt>
+tions.png>] <figures/spectra_anneal_fit.png, id=244, 949.5475pt x 674.52pt>
 File: figures/spectra_anneal_fit.png Graphic file (type png)
 
 <use figures/spectra_anneal_fit.png>
 Package pdftex.def Info: figures/spectra_anneal_fit.png used on input line 92.
 (pdftex.def)             Requested size: 234.8775pt x 166.84901pt.
 
-<figures/anneal_577peak.png, id=244, 949.5475pt x 674.52pt>
+<figures/anneal_577peak.png, id=245, 949.5475pt x 674.52pt>
 File: figures/anneal_577peak.png Graphic file (type png)
 
 <use figures/anneal_577peak.png>
 Package pdftex.def Info: figures/anneal_577peak.png used on input line 94.
 (pdftex.def)             Requested size: 234.8775pt x 166.84901pt.
 
-<figures/anneal_591peak.png, id=245, 949.5475pt x 674.52pt>
+<figures/anneal_591peak.png, id=246, 949.5475pt x 674.52pt>
 File: figures/anneal_591peak.png Graphic file (type png)
 
 <use figures/anneal_591peak.png>
 Package pdftex.def Info: figures/anneal_591peak.png used on input line 95.
 (pdftex.def)             Requested size: 234.8775pt x 166.84901pt.
 
-<figures/anneal_601peak.png, id=246, 949.5475pt x 674.52pt>
+<figures/anneal_601peak.png, id=247, 949.5475pt x 674.52pt>
 File: figures/anneal_601peak.png Graphic file (type png)
 
 <use figures/anneal_601peak.png>
 Package pdftex.def Info: figures/anneal_601peak.png used on input line 97.
 (pdftex.def)             Requested size: 234.8775pt x 166.84901pt.
 
-<figures/anneal_619peak.png, id=247, 949.5475pt x 674.52pt>
+<figures/anneal_619peak.png, id=248, 949.5475pt x 674.52pt>
 File: figures/anneal_619peak.png Graphic file (type png)
 
 <use figures/anneal_619peak.png>
 Package pdftex.def Info: figures/anneal_619peak.png used on input line 98.
 (pdftex.def)             Requested size: 234.8775pt x 166.84901pt.
 
-<figures/anneal_670peak.png, id=248, 949.5475pt x 674.52pt>
+<figures/anneal_670peak.png, id=249, 949.5475pt x 674.52pt>
 File: figures/anneal_670peak.png Graphic file (type png)
 
 <use figures/anneal_670peak.png>
@@ -855,7 +851,7 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 92--101
 [47 <./figures/spectra_annealing.png>] [48 <./figures/spectra_anneal_fit.png> <
 ./figures/anneal_577peak.png> <./figures/anneal_591peak.png> <./figures/anneal_
 601peak.png> <./figures/anneal_619peak.png> <./figures/anneal_670peak.png>]
-<figures/bleach_spec.png, id=257, 363.60844pt x 732.48656pt>
+<figures/bleach_spec.png, id=258, 363.60844pt x 732.48656pt>
 File: figures/bleach_spec.png Graphic file (type png)
 
 <use figures/bleach_spec.png>
@@ -1097,7 +1093,7 @@ ist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmti12.pfb>
-Output written on thesis_walton_2a.pdf (80 pages, 5457447 bytes).
+Output written on thesis_walton_2a.pdf (80 pages, 5460442 bytes).
 PDF statistics:
  410 PDF objects out of 1000 (max. 8388607)
  222 compressed objects within 3 object streams

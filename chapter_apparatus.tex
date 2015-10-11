@@ -107,31 +107,31 @@ Pulsing data also provides confirmation that the beam is composed of Ba\textsupe
 \subsection{Calibration of Ion Deposit}
 \label{subsec:ionDepCal}
 
-To calibrate the signal at cup 3 to an ion density at the sapphire window, another Faraday cup (cup w) is attached to the cold finger in place of the sapphire window.  Firstly, the ratio in $\frac{fC}{pulse}$ between cup 3 and cup w is measured ($\equiv f$).  Then, knowing the radius of cup w lets one determine the ion density per pulse at the sapphire window:
+To calibrate the signal at cup 3 to an ion density at the sapphire window, another Faraday cup (cup W) is attached to the cold finger in place of the sapphire window.  The ratio of $\frac{fC}{pulse}$ between cup 3 and cup W is measured ($\equiv f$).  Then, knowing the radius of the entrance aperture in cup W lets one determine the ion density per pulse at the sapphire window:
 
 \begin{equation}
-\frac{ions}{pulse \times m^{2}} = \frac{C f}{A e}
+\frac{ions}{pulse \times m^{2}} = \frac{Q f}{e A}
 \label{eqn:ion_density}
 \end{equation}
 
 \noindent
-where $C$ is $\frac{fC}{pulse}$ at cup 3, $A$ is the area of cup w, and $e$ is the elementary charge.  The required settings of the final deflection plates H2 and V2 are also determined by cup w.  These typically differ from the peak values for cup 3 by about 70~V in H2 and 60~V in V2, corresponding to about 4~mm in x and y position at cup w.
+where $Q$ is the charge/pulse at cup 3, $A$ is the area of cup W, and $e$ is the elementary charge.  The voltages on the final deflection plates H2 and V2 are also determined to optimize the signal in cup W.  These typically differ from the values for maximum cup 3 signal by about 70~V in H2 and 60~V in V2, corresponding to about 4~mm in x and y position at cup W. \emph{\color{gray}maybe need to explain this}
 
 \section{Ba Getter Source}
 
-A BaAl$_{4}$ getter is employed as a purely neutral Ba source which can be inserted on a bellows to emit toward the sapphire window, shown in Fig. \ref{fig:endOfBeam}.  Getters were used extensively in previous work \cite{Brian} for measuring the absorption of Ba in SXe with large Ba deposits, and in identifying emission peaks.  A getter is used briefly in this work in identifying the 619-nm fluorescence peak, as described in Section \ref{sec:619identification}.  Getters used in \cite{Brian} were exothermic BaAl$_{4}$-Ni flash getters.  The getter used here is an endothermic type, designed for more controlled Ba emission.  
+A BaAl$_{4}$ getter can be inserted on a bellows to emit toward the sapphire window, shown in Fig. \ref{fig:endOfBeam}.  When heated, the getter emits neutral Ba with minimal Ba\textsuperscript{+} \emph{\color{gray}evidence?}.  Getters were used extensively in previous work \cite{Brian} for measuring the absorption of Ba in SXe with large Ba deposits, and in identifying emission peaks.  A getter was used briefly in this work in identifying the 619-nm fluorescence peak, as described in Section \ref{sec:619identification}.  The barium getters used in \cite{Brian} were exothermic BaAl$_{4}$-Ni flash getters.  The getter used here is an endothermic BaAl$_{4}$ type, designed for more controlled Ba emission.  
 
 \begin{figure} %[h]
         \centering
                 \includegraphics[width=.9\textwidth]{figures/window_etc.png}
-                \caption{Apparatus around sapphire window, including Ba getter, and optics for excitation and collection.}
+                \caption{Apparatus in spectroscopy region, including Ba getter, Faraday cup 3, induction plates, and optics for excitation, fluorescence collection, spectroscopy and detection.}
 \label{fig:endOfBeam}
 \end{figure}
 
 \section{Sample Deposition}
 \label{sec:deposition}
 
-The Ba\textsuperscript{+}/Ba is co-deposited with ultra-pure Xe gas onto a cold sapphire window.  Sapphire has good thermal conductivity at low temperature and good optical transparency in the visible.  The window is held to a coldfinger and is tilted at 45$^{\circ}$ to allow access of the ion beam as well as the excitation laser and collection optics.  To begin a deposit, Xe gas is flowed toward the window via a leak valve.  Cup 3 is then retracted to clear the path for Ba\textsuperscript{+} ions, which land in the SXe matrix as it grows.  Cup 3 is then replaced, and the Xe leak stopped.
+The Ba\textsuperscript{+}/Ba is co-deposited with ultra-pure Xe gas onto a cold sapphire window.  Sapphire has good thermal conductivity at low temperature and good optical transparency in the visible.  The window is held in a copper mount attached to a coldfinger and is tilted at 45$^{\circ}$ to allow access of the ion beam and Xe gas, as well as the excitation laser and collection optics.  To begin a deposit, Xe gas is flowed toward the window via a leak valve.  Cup 3 is then retracted and the ion beam is pulsed, depositing Ba\textsuperscript{+} ions into the SXe matrix as it grows.  Cup 3 is then replaced, and the Xe leak stopped.
 
 \begin{figure} %[h]
         \centering
@@ -140,7 +140,7 @@ The Ba\textsuperscript{+}/Ba is co-deposited with ultra-pure Xe gas onto a cold 
 \label{fig:fringe_setup}
 \end{figure}
 
-SXe matrix growth rate can be measured by interference fringes in a laser reflected against the front surface of the sapphire window, as shown in Fig. \ref{fig:fringe_setup}.  Fringes for SXe deposition at 52~K and 11~K are shown in Fig. \ref{fig:fringes_52K_vs_11K} for the leak rate used in this work.  The refractive index of SXe has a negligible dependence on temperature between 50~ and 30~K \cite{SXeIndex}, so these can be compared directly.  A somewhat lower rate is observed at 52~K, at 31~nm/s, vs. 37~nm/s at 11~K.  To evaporate a sample, the window is heated to 100~K.  Fringes appear during this process as well.  The full set of fringes for a deposit at 52~K and its evaporation when heated is shown in Fig. \ref{fig:fringes_melt_withDep}, along with the window temperature.  This shows that the SXe evaporates between 73~K and 78~K.  Notice that the same number of fringes appear in the deposit and the evaporation.
+SXe matrix growth rate can be measured by interference fringes in a laser reflected against the front surface of the sapphire window, as shown in Fig. \ref{fig:fringe_setup}.  Fringes for SXe deposition at 52~K and 11~K are shown in Fig. \ref{fig:fringes_52K_vs_11K} for the leak rate used in this work.  The refractive index of SXe has a negligible dependence on temperature between 50~ and 30~K \cite{SXeIndex}, so these can be compared directly.  A somewhat lower rate is observed at 52~K, 31~nm/s, vs. 37~nm/s at 11~K \emph{\color{gray}Bill: Is this repeatable?  Was it repeated? How repeatable is the Xe gas leak setting? What is the reason? since 6 fringes both on dep + heat, bot evaporation around 50~K -- it must be different sticking coeff, if that makes sense -- \textbf{do fits on all and get a statistical uncertainty, and determine a systematic -- window/laser angle? idk what else.  idk if you want to show other data to show repeatability or not}}.  To evaporate a sample, the window is heated to 100~K.  Fringes appear during this process as well.  The full set of fringes for a deposit at 52~K and its evaporation when heated is shown in Fig. \ref{fig:fringes_melt_withDep}, along with the window temperature.  This shows that the SXe evaporates between 73~K and 78~K.  The same number of fringes appear in the deposit and the evaporation.  Note that these Xe deposits were longer than for a typical deposit during a fluorescence experiment, in order to observe several fringes.
 
 \begin{figure} %[h]
         \centering
@@ -152,15 +152,17 @@ SXe matrix growth rate can be measured by interference fringes in a laser reflec
 \begin{figure} %[h]
         \centering
                 \includegraphics[width=.9\textwidth]{figures/fringes_dep_and_melt.png}
-                \caption{Interference fringes of a deposit at 52~K and of its subsequent evaporation when heating the sapphire window.}
+                \caption{\emph{\color{gray}Bill was wondering if the heating during dep is due to condensation -- it's just the heater cycle, should this be mentioned?} Interference fringes of a deposit at 52~K and of its subsequent evaporation when heating the sapphire window.}
 \label{fig:fringes_melt_withDep}
 \end{figure}
 
 \section{Laser Excitation}
 
-Green/yellow laser excitation is done with a Coherent 599 dye laser, pumped by the 514-nm line of a Lexel 3500 Ar ion laser.  Rhodamine 110 (R110) dye tunes over 542 - 566~nm, and Rhodamine 6G (R6G) tunes over 567 - 590~nm.  Another Coherent 599 contains Coumarin 480 (C480) dye for blue excitation, which is pumped by a Kr ion laser.
+Green to yellow laser excitation was done with a Coherent 599 dye laser, pumped by the 514-nm line of a Lexel 3500 Ar ion laser.  Rhodamine 110 (R110) dye was used for the 542 - 566~nm wavelength range, and Rhodamine 6G (R6G) for the 567 - 590~nm range.  Another Coherent 599 dye laser with Coumarin 480 (C480) dye was used for blue excitation, which was pumped by a Kr ion laser.  The Coherent 599 dye lasers were used with birefringent filters for wavelength tuning, but without etalons, since the broad absorption of Ba in SXe does not require single-mode laser excitation.
 
-A 7.9-cm focal length aspherical lens focuses the laser into the cryostat from the side (Fig. \ref{fig:endOfBeam}).  This lens reduces spherical aberration in the laser focus so that it can reach the diffraction limit.  However, to reach the diffraction limit in the SXe, astigmatism introduced by the tilted sapphire window must be corrected.  To do this, compensating astigmatism is introduced by a fused silica optical flat of 1~cm thickness, placed after the lens, tilted in the y-plane, whereas the sapphire window is tilted in the x-plane.  The proper angle for the compensator is determined to be about 10$^{\circ}$ from normal by a ray matrix equation for a sapphire window of thickness 0.5~mm \cite{raymatrix}.  The effect of the SXe layer is negligible since its thickness if less than a wavelength.  With the compensator, overlapping minimum spot sizes of 2.06~$\mu$m and 2.66~$\mu$m are calculated for x and y, respectively, corresponding to an effective minimum spot size (w$_{0}$) of 2.36~$\mu$m in the SXe.  \emph{\color{gray}Show astig. corr. data w/ 2D gaus fits.}
+A lens focused the laser into the cryostat from the side (Fig. \ref{fig:endOfBeam}).  Initial work, spectroscopy (Chapter 4) and some imaging, was done using a bi-convex, which produced spherical aberration near the laser focus.  This effect does not affect the results in Chapter 4, where semi-focused beam waists of 100-1000~$/mu$m were used.  However, spherical aberrations caused the minimum beam waist to be about twice that of the diffraction limit.  To approach the diffraction limit in imaging small numbers (Chapter 5), a 7.9-cm focal length aspherical lens was used.  A comparison of the minimum spot sizes, calculated by David Fairbank at Thorlabs, is shown in Fig. [fig David lenses].
+
+To correct for astigmatism introduced by the tilted sapphire window, compensating astigmatism was introduced by a fused silica optical flat of 1~cm thickness, placed after the lens, tilted on the y-axis (the laser is along the z-axis, and the sapphire window is tilted on the x-axis).  The proper angle for the compensator was determined to be about 10$^{\circ}$ from normal by a ray matrix calculation \cite{raymatrix}.  The effect of the SXe layer is negligible since its thickness is only about half a micron in a typical fluorescence experiment.  With the compensator, overlapping minimum spot sizes of 2.06~$\mu$m and 2.66~$\mu$m are calculated for x and y, respectively.  \emph{\color{gray}Show astig. corr. data w/ 2D gaus fits.}
 
 %[waist measurements? -- apply calibration uncertainty to the good motor-stage ones]
 
@@ -170,11 +172,11 @@ A 7.9-cm focal length aspherical lens focuses the laser into the cryostat from t
 \section{Collection Optics}
 \label{sec:collection}
 
-Fluorescence is collected above the cryostat (Fig. \ref{fig:endOfBeam}).  A 50~mm Nikon camera lens collimates the light, and a fluorescence filter sits on top of it.  A band-pass filter is used for imaging, and a Raman filter is used for spectroscopy.  The fluorescence then reflects off two steering mirrors, and is imaged by a 200~mm Nikon camera lens onto a Roper Scientific liquid-nitrogen-cooled CCD, with a magnification of 4.
+Fluorescence was collected above the cryostat (Fig. \ref{fig:endOfBeam}).  A 50~mm Nikon camera lens collimated the light, and a fluorescence filter sat on top of it.  A band-pass filter was used for imaging, and a Raman filter was used for spectroscopy.  The fluorescence then reflected off two steering mirrors, and was imaged by a 200~mm Nikon camera lens onto a Roper Scientific liquid-nitrogen-cooled CCD, with a magnification of 4.
 
-The CCD has a removable Princeton Instruments imaging spectrometer.  With this attached, the 200~mm camera lens focuses the light onto an inlet slit, which is then imaged by the spectrometer onto the CCD after reflecting off a diffraction grating.  The 0-order reflection of the grating provides an image for alignment, and the grating can be tilted to distribute the 1\textsuperscript{st}-order reflection across the horizontal CCD pixels for doing spectroscopy.  When a 1" diameter filter is used, the system has a collection efficiency ($\epsilon_{c}$) of about 1.5\% without the spectrometer, and about half of that with the spectrometer due to a grating efficiency of 50\%.  The spectrometer also limits the system to an f-number of 4.
+The CCD has a removable Princeton Instruments imaging spectrometer.  With this attached, the 200~mm camera lens focuses the light onto an inlet slit, which is then imaged by the spectrometer onto the CCD after reflecting off a diffraction grating.  The 0-order reflection of the grating provides an image for alignment, and the grating can be tilted to distribute the 1\textsuperscript{st}-order reflection across the horizontal CCD pixels for doing spectroscopy.  When a 1" diameter filter is used, the imaging system has a collection efficiency ($\epsilon_{c}$) of about 1.5\% \emph{\color{gray}Need QE of CCD} without the spectrometer, and about half of that \emph{\color{gray}Need to imput mirror losses} with the spectrometer due to a grating efficiency of 50\%.  The spectrometer also limits the system to an f-number of 4.  In slow ADC mode, about {\color{red}8} photons produce one CCD count.
 
-To limit laser exposure to only the time of CCD exposure, a laser shutter is linked to the camera exposure with a LabVIEW program.  This program also records laser power via a calibrated pickoff, as well as the temperature of the coldfinger near the sapphire window during observation.
+To limit laser exposure to only the time of CCD exposure, a laser shutter was linked to the camera exposure with a LabVIEW program.  This program also recorded laser power via a calibrated pickoff, as well as the temperature of the coldfinger near the sapphire window during observation.
 
 \section{Vibrations and Effective Laser Region}
 
@@ -208,9 +210,11 @@ The aforementioned is the most concerning vibration to understand.  Vibration of
 
 In order to obtain images of separated single atoms, the laser focusing lens is attached to motorized Newport translation stages which scan the laser position by scanning the lens in x and y, shown in Fig. \ref{fig:laserStages}.  These stages sit atop a manual z-translation stage for laser focusing.  An extension of the aforementioned LabVIEW program coordinates movement of these stages such that x or y position is stepped in between CCD frames, and each frame then corresponds to a position in a laser scan grid.
 
+\emph{\color{gray}Show data on steps and reproducibility -- say this isn;t good and new stages will be used later.}
+
 \begin{figure} %[h]
         \centering
                 \includegraphics[width=.5\textwidth]{figures/100_1885.JPG}
-                \caption{\color{gray}\emph{Put pic of new ones? Otherwise w/ asphere at least.}}
+                \caption{\color{gray}\emph{new pic q/ apshere}}
 \label{fig:laserStages}
 \end{figure}
