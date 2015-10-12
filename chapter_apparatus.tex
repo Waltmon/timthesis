@@ -18,7 +18,7 @@ The ion beam system is shown in Fig. \ref{fig:ionbeam}.  This is a clean source 
 
 \subsection{Ion Source}
 
-Ba\textsuperscript{+} ions are produced in a Model 100 Colutron ion gun system \cite{Colutron}.  The source is shown in Fig. \ref{fig:ionsource}.  A solid barium charge is placed into the hollowed end of a stainless steel rod, which is inserted into the discharge chamber, where it is heated by a filament.  The barium vaporizes, and escapes the hollowed rod around a loosely threaded set screw.  The source is designed to produce a discharge between the anode plate and the filament cathode, through an argon buffer gas leaked into the source chamber.  This controlled discharge would then also ionize atoms from the solid charge to produce the desired ion beam, and Ar ions would be filtered out.  However, to avoid contamination of the SXe matrix with residual Ar gas, the buffer gas is not used in this work.  We are still able to maintain a discharge with the residual Ba vapor.  The longevity of ion current from a single charge (at least several 10s of hours) suggests that Ba is coating the inner walls of the source chamber, and is heated enough to provide sufficient Ba pressure to support a discharge.  The discharge produces a plasma, containing barium ions, which escapes the chamber through a small hole in the anode, where it enters the acceleration region.  The acceleration potential applied is 2~kV, between the ion source anode and the first element of Einzel lens 1.  This lens approximately collimates the ion beam for passage through the E$\times$B velocity filter.
+Ba\textsuperscript{+} ions are produced in a Model DCIS-101 Colutron ion gun system \cite{Colutron}.  The source is shown in Fig. \ref{fig:ionsource}.  A solid barium charge is placed into the hollowed end of a stainless steel rod, which is inserted into the discharge chamber, where it is heated by a filament.  The barium vaporizes, and escapes the hollowed rod around a loosely threaded set screw.  The source is designed to produce a discharge between the anode plate and the filament cathode, through an argon buffer gas leaked into the source chamber.  This controlled discharge would then also ionize atoms from the solid charge to produce the desired ion beam, and Ar ions would be filtered out.  However, to avoid contamination of the SXe matrix with residual Ar gas, the buffer gas is not used in this work.  We are still able to maintain a discharge with the residual Ba vapor.  The longevity of ion current from a single charge (at least several 10s of hours) suggests that Ba is coating the inner walls of the source chamber, and is heated enough to provide sufficient Ba pressure to support a discharge.  The discharge produces a plasma, containing barium ions, which escapes the chamber through a small hole in the anode, where it enters the acceleration region.  The acceleration potential applied is 2~kV, between the ion source anode and the first element of Einzel lens 1.  This lens approximately collimates the ion beam for passage through the E$\times$B velocity filter.
 
 %This is supported by the observation of white oxidation of the inner source parts after a few minutes of exposure to air when opening the system.
 
@@ -59,7 +59,7 @@ The first three sets of deflection plates can be used for beam diagnostics, and 
 
 Einzel lens 2 focuses the beam to pass through the aperture in the first element of the decelerator lens.  Einzel lens 3 is grounded in this setup.  The decelerator lens can be used to vary Ba\textsuperscript{+} deposit energy, which was done in \cite{Shon}, but it in this work it acts as an Einzel lens with only the second element at voltage.  It focuses the beam near the sample and Faraday cup 3 (there is no Faraday cup 2 in this setup).  Faraday cup 3 measures the ion current during experiments, and is retracted when deposits are being made.  Calibration of deposits using Faraday cup 3 is described in Section \ref{subsec:ionDepCal}.  Faraday cup 1 is used for beam diagnostics, and is usually retracted.  
 
-\emph{\color{gray}More to report on from ion beam studies back when?  I think this covers it.}
+%\emph{\color{gray}More to report on from ion beam studies back when?  I think this covers it.}
 
 \subsection{Ion Beam Pulsing}
 
@@ -119,14 +119,23 @@ where $Q$ is the charge/pulse at cup 3, $A$ is the area of cup W, and $e$ is the
 
 \section{Ba Getter Source}
 
-A BaAl$_{4}$ getter can be inserted on a bellows to emit toward the sapphire window, shown in Fig. \ref{fig:endOfBeam}.  When heated, the getter emits neutral Ba with minimal Ba\textsuperscript{+} \emph{\color{gray}evidence?}.  Getters were used extensively in previous work \cite{Brian} for measuring the absorption of Ba in SXe with large Ba deposits, and in identifying emission peaks.  A getter was used briefly in this work in identifying the 619-nm fluorescence peak, as described in Section \ref{sec:619identification}.  The barium getters used in \cite{Brian} were exothermic BaAl$_{4}$-Ni flash getters.  The getter used here is an endothermic BaAl$_{4}$ type, designed for more controlled Ba emission.  
+A BaAl$_{4}$ getter, manufactured by SAES, can be inserted on a bellows to emit toward the sapphire window, shown in Fig. \ref{fig:endOfBeamBa}.  When heated, the getter emits neutral Ba with minimal Ba\textsuperscript{+}.  Getters were used extensively in previous work \cite{Brian} for measuring the absorption of Ba in SXe with large Ba deposits, and in identifying emission peaks.  A getter was used briefly in this work in identifying the 619-nm fluorescence peak, as described in Section \ref{sec:619identification}.  The barium getters used in \cite{Brian} were exothermic BaAl$_{4}$-Ni flash getters.  The getter used here is an endothermic BaAl$_{4}$ type, designed for more controlled Ba emission.  
+
+%no evidence is provided in Brian's thesis, nor Shon's, and I don't see anything on the SAES website
 
 \begin{figure} %[h]
         \centering
-                \includegraphics[width=.9\textwidth]{figures/window_etc.png}
-                \caption{Apparatus in spectroscopy region, including Ba getter, Faraday cup 3, induction plates, and optics for excitation, fluorescence collection, spectroscopy and detection.}
-\label{fig:endOfBeam}
+                \includegraphics[width=.75\textwidth]{figures/window_etc_justBa.png}
+                \caption{Apparatus near sapphire window, including Ba getter, Faraday cup 3, induction plates, and Xe gas inlet.}
+\label{fig:endOfBeamBa}
 \end{figure}
+
+%\begin{figure} %[h]
+%        \centering
+%                \includegraphics[width=.9\textwidth]{figures/window_etc.png}
+%                \caption{Apparatus in spectroscopy region, including Ba getter, Faraday cup 3, induction plates, and optics for excitation, fluorescence collection, spectroscopy and detection.}
+%\label{fig:endOfBeam}
+%\end{figure}
 
 \section{Sample Deposition}
 \label{sec:deposition}
@@ -136,31 +145,44 @@ The Ba\textsuperscript{+}/Ba is co-deposited with ultra-pure Xe gas onto a cold 
 \begin{figure} %[h]
         \centering
                 \includegraphics[width=.4\textwidth]{figures/fringe_setup.png}
-                \caption{Setup for measuring SXe growth rate by interference fringes.}
+                \caption{Setup for measuring SXe deposition rate by interference fringes.}
 \label{fig:fringe_setup}
 \end{figure}
 
-SXe matrix growth rate can be measured by interference fringes in a laser reflected against the front surface of the sapphire window, as shown in Fig. \ref{fig:fringe_setup}.  Fringes for SXe deposition at 52~K and 11~K are shown in Fig. \ref{fig:fringes_52K_vs_11K} for the leak rate used in this work.  The refractive index of SXe has a negligible dependence on temperature between 50~ and 30~K \cite{SXeIndex}, so these can be compared directly.  A somewhat lower rate is observed at 52~K, 31~nm/s, vs. 37~nm/s at 11~K \emph{\color{gray}Bill: Is this repeatable?  Was it repeated? How repeatable is the Xe gas leak setting? What is the reason? since 6 fringes both on dep + heat, bot evaporation around 50~K -- it must be different sticking coeff, if that makes sense -- \textbf{do fits on all and get a statistical uncertainty, and determine a systematic -- window/laser angle? idk what else.  idk if you want to show other data to show repeatability or not}}.  To evaporate a sample, the window is heated to 100~K.  Fringes appear during this process as well.  The full set of fringes for a deposit at 52~K and its evaporation when heated is shown in Fig. \ref{fig:fringes_melt_withDep}, along with the window temperature.  This shows that the SXe evaporates between 73~K and 78~K.  The same number of fringes appear in the deposit and the evaporation.  Note that these Xe deposits were longer than for a typical deposit during a fluorescence experiment, in order to observe several fringes.
-
 \begin{figure} %[h]
         \centering
-                \includegraphics[width=.7\textwidth]{figures/fringes_52K_vs_11K.png}
+                \includegraphics[width=.5\textwidth]{figures/fringes_52K_vs_11K.png}
+                ~
+                \includegraphics[width=.5\textwidth]{figures/fringes_52K_vs_11K_statistics.png}
                 \caption{Interference fringes for the same Xe gas leak rate deposited on the sapphire window at 11~K and at 52~K.}
 \label{fig:fringes_52K_vs_11K}
 \end{figure}
 
+SXe matrix deposition rate can be measured by interference fringes in a laser reflected against the front surface of the sapphire window, as shown in Fig. \ref{fig:fringe_setup}.  Fringes for SXe deposition at 52~K and 11~K are shown in Fig. \ref{fig:fringes_52K_vs_11K}(a) for the leak rate used in this work.  The refractive index of SXe has a negligible dependence on temperature between 50~ and 30~K \cite{SXeIndex}, so these can be compared directly.  A distribution of SXe deposition rate measurements from several deposits is shown in Fig. \ref{fig:fringes_52K_vs_11K}(b).  A somewhat lower rate is observed at 52~K, $31.3 \pm 0.44(\text{stat}) \pm 0.31(\text{sys})$~nm/s, vs. $35.4 \pm 0.41(\text{stat}) \pm 0.35(\text{sys})$~nm/s at 11~K.  Statistical errors are $\sigma / \sqrt{N}$ where $\sigma$ is the standard deviation of the Gaussian fits to the distributions in Fig. \ref{fig:fringes_52K_vs_11K}(b), and $N$ is the number of entries.  Systematic errors come from propagating an uncertainty on the angle between the laser and sapphire window of $\pm 2^{\circ}$.
+
 \begin{figure} %[h]
         \centering
                 \includegraphics[width=.9\textwidth]{figures/fringes_dep_and_melt.png}
-                \caption{\emph{\color{gray}Bill was wondering if the heating during dep is due to condensation -- it's just the heater cycle, should this be mentioned?} Interference fringes of a deposit at 52~K and of its subsequent evaporation when heating the sapphire window.}
+                \caption{(a) Interference fringes of a deposit at 52~K and of its subsequent evaporation when heating the sapphire window, and (b) distribution of SXe deposition rates calculated from fringe period of several measurements.}
 \label{fig:fringes_melt_withDep}
 \end{figure}
+
+To evaporate a sample, the window is heated to 100~K.  Fringes appear during this process as well.  The full set of fringes for a deposit at 52~K and its evaporation when heated is shown in Fig. \ref{fig:fringes_melt_withDep}, along with the window temperature.  This shows that the SXe evaporates between 73~K and 78~K.  The same number of fringes appear in the deposit and the evaporation, indicating that the lower deposition rate at around 50~K is not due to simultaneous evaporation.  The variance in temperature during the deposit is due to the heater cycle.  Note that these Xe deposits were longer than for a typical deposit during a fluorescence experiment, in order to observe several fringes.
+
+%quadrature errors: 0.54 for 52 K and 
 
 \section{Laser Excitation}
 
 Green to yellow laser excitation was done with a Coherent 599 dye laser, pumped by the 514-nm line of a Lexel 3500 Ar ion laser.  Rhodamine 110 (R110) dye was used for the 542 - 566~nm wavelength range, and Rhodamine 6G (R6G) for the 567 - 590~nm range.  Another Coherent 599 dye laser with Coumarin 480 (C480) dye was used for blue excitation, which was pumped by a Kr ion laser.  The Coherent 599 dye lasers were used with birefringent filters for wavelength tuning, but without etalons, since the broad absorption of Ba in SXe does not require single-mode laser excitation.
 
-A lens focused the laser into the cryostat from the side (Fig. \ref{fig:endOfBeam}).  Initial work, spectroscopy (Chapter 4) and some imaging, was done using a bi-convex, which produced spherical aberration near the laser focus.  This effect does not affect the results in Chapter 4, where semi-focused beam waists of 100-1000~$/mu$m were used.  However, spherical aberrations caused the minimum beam waist to be about twice that of the diffraction limit.  To approach the diffraction limit in imaging small numbers (Chapter 5), a 7.9-cm focal length aspherical lens was used.  A comparison of the minimum spot sizes, calculated by David Fairbank at Thorlabs, is shown in Fig. [fig David lenses].
+\begin{figure} %[h]
+        \centering
+                \includegraphics[width=.7\textwidth]{figures/window_etc_justOptics.png}
+                \caption{Apparatus in spectroscopy region, including optics for excitation, fluorescence collection, spectroscopy and detection.}
+\label{fig:endOfBeamOptics}
+\end{figure}
+
+A lens focused the laser into the cryostat from the side, shown in Fig. \ref{fig:endOfBeamOptics}.  Initial work, spectroscopy (Chapter 4) and some imaging, was done using a bi-convex, which produced spherical aberration near the laser focus.  This effect does not affect the results in Chapter 4, where semi-focused beam waists of 100-1000~$/mu$m were used.  However, spherical aberrations caused the minimum beam waist to be about twice that of the diffraction limit.  To approach the diffraction limit in imaging small numbers (Chapter 5), a 7.9-cm focal length aspherical lens was used.  A comparison of the minimum spot sizes, calculated by David Fairbank at Thorlabs, is shown in Fig. [fig David lenses].
 
 To correct for astigmatism introduced by the tilted sapphire window, compensating astigmatism was introduced by a fused silica optical flat of 1~cm thickness, placed after the lens, tilted on the y-axis (the laser is along the z-axis, and the sapphire window is tilted on the x-axis).  The proper angle for the compensator was determined to be about 10$^{\circ}$ from normal by a ray matrix calculation \cite{raymatrix}.  The effect of the SXe layer is negligible since its thickness is only about half a micron in a typical fluorescence experiment.  With the compensator, overlapping minimum spot sizes of 2.06~$\mu$m and 2.66~$\mu$m are calculated for x and y, respectively.  \emph{\color{gray}Show astig. corr. data w/ 2D gaus fits.}
 
@@ -172,7 +194,7 @@ To correct for astigmatism introduced by the tilted sapphire window, compensatin
 \section{Collection Optics}
 \label{sec:collection}
 
-Fluorescence was collected above the cryostat (Fig. \ref{fig:endOfBeam}).  A 50~mm Nikon camera lens collimated the light, and a fluorescence filter sat on top of it.  A band-pass filter was used for imaging, and a Raman filter was used for spectroscopy.  The fluorescence then reflected off two steering mirrors, and was imaged by a 200~mm Nikon camera lens onto a Roper Scientific liquid-nitrogen-cooled CCD, with a magnification of 4.
+Fluorescence was collected above the cryostat (Fig. \ref{fig:endOfBeamOptics}).  A 50~mm Nikon camera lens collimated the light, and a fluorescence filter sat on top of it.  A band-pass filter was used for imaging, and a Raman filter was used for spectroscopy.  The fluorescence then reflected off two steering mirrors, and was imaged by a 200~mm Nikon camera lens onto a Roper Scientific liquid-nitrogen-cooled CCD, with a magnification of 4.
 
 The CCD has a removable Princeton Instruments imaging spectrometer.  With this attached, the 200~mm camera lens focuses the light onto an inlet slit, which is then imaged by the spectrometer onto the CCD after reflecting off a diffraction grating.  The 0-order reflection of the grating provides an image for alignment, and the grating can be tilted to distribute the 1\textsuperscript{st}-order reflection across the horizontal CCD pixels for doing spectroscopy.  When a 1" diameter filter is used, the imaging system has a collection efficiency ($\epsilon_{c}$) of about 1.5\% \emph{\color{gray}Need QE of CCD} without the spectrometer, and about half of that \emph{\color{gray}Need to imput mirror losses} with the spectrometer due to a grating efficiency of 50\%.  The spectrometer also limits the system to an f-number of 4.  In slow ADC mode, about {\color{red}8} photons produce one CCD count.
 
