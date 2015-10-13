@@ -59,7 +59,7 @@ The first three sets of deflection plates can be used for beam diagnostics, and 
 
 Einzel lens 2 focuses the beam to pass through the aperture in the first element of the decelerator lens.  Einzel lens 3 is grounded in this setup.  The decelerator lens can be used to vary Ba\textsuperscript{+} deposit energy, which was done in \cite{Shon}, but it in this work it acts as an Einzel lens with only the second element at voltage.  It focuses the beam near the sample and Faraday cup 3 (there is no Faraday cup 2 in this setup).  Faraday cup 3 measures the ion current during experiments, and is retracted when deposits are being made.  Calibration of deposits using Faraday cup 3 is described in Section \ref{subsec:ionDepCal}.  Faraday cup 1 is used for beam diagnostics, and is usually retracted.  
 
-%\emph{\color{gray}More to report on from ion beam studies back when?  I think this covers it.}
+\emph{\color{gray}on from ion beam studies back when?  At least the procedure for alignment?}
 
 \subsection{Ion Beam Pulsing}
 
@@ -115,7 +115,7 @@ To calibrate the signal at cup 3 to an ion density at the sapphire window, anoth
 \end{equation}
 
 \noindent
-where $Q$ is the charge/pulse at cup 3, $A$ is the area of cup W, and $e$ is the elementary charge.  The voltages on the final deflection plates H2 and V2 are also determined to optimize the signal in cup W.  These typically differ from the values for maximum cup 3 signal by about 70~V in H2 and 60~V in V2, corresponding to about 4~mm in x and y position at cup W. \emph{\color{gray}maybe need to explain this}
+where $Q$ is the charge/pulse at cup 3, $A$ is the area of cup W, and $e$ is the elementary charge.  The voltages on the final deflection plates H2 and V2 are also determined to optimize the signal in cup W.  In later experiments, these differed from the values for maximum cup 3 signal by about 70~V in H2 and 60~V in V2, corresponding to about 4~mm in x and y position at cup W, indicating that some drift in optimal ion beam component settings occurred over time, either due to power supply drift or changes in the location of discharge in the source.
 
 \section{Ba Getter Source}
 
@@ -173,8 +173,6 @@ To evaporate a sample, the window is heated to 100~K.  Fringes appear during thi
 
 \section{Laser Excitation}
 
-Green to yellow laser excitation was done with a Coherent 599 dye laser, pumped by the 514-nm line of a Lexel 3500 Ar ion laser.  Rhodamine 110 (R110) dye was used for the 542 - 566~nm wavelength range, and Rhodamine 6G (R6G) for the 567 - 590~nm range.  Another Coherent 599 dye laser with Coumarin 480 (C480) dye was used for blue excitation, which was pumped by a Kr ion laser.  The Coherent 599 dye lasers were used with birefringent filters for wavelength tuning, but without etalons, since the broad absorption of Ba in SXe does not require single-mode laser excitation.
-
 \begin{figure} %[h]
         \centering
                 \includegraphics[width=.7\textwidth]{figures/window_etc_justOptics.png}
@@ -182,7 +180,16 @@ Green to yellow laser excitation was done with a Coherent 599 dye laser, pumped 
 \label{fig:endOfBeamOptics}
 \end{figure}
 
-A lens focused the laser into the cryostat from the side, shown in Fig. \ref{fig:endOfBeamOptics}.  Initial work, spectroscopy (Chapter 4) and some imaging, was done using a bi-convex, which produced spherical aberration near the laser focus.  This effect does not affect the results in Chapter 4, where semi-focused beam waists of 100-1000~$/mu$m were used.  However, spherical aberrations caused the minimum beam waist to be about twice that of the diffraction limit.  To approach the diffraction limit in imaging small numbers (Chapter 5), a 7.9-cm focal length aspherical lens was used.  A comparison of the minimum spot sizes, calculated by David Fairbank at Thorlabs, is shown in \emph{\color{gray}Fig. [fig David lenses]}.
+Green to yellow laser excitation was done with a Coherent 599 dye laser, pumped by the 514-nm line of a Lexel 3500 Ar ion laser.  Rhodamine 110 (R110) dye was used for the 542 - 566~nm wavelength range, and Rhodamine 6G (R6G) for the 567 - 590~nm range.  Another Coherent 599 dye laser with Coumarin 480 (C480) dye was used for blue excitation, which was pumped by a Kr ion laser.  The Coherent 599 dye lasers were used with birefringent filters for wavelength tuning, but without etalons, since the broad absorption of Ba in SXe does not require single-mode laser excitation.
+
+\begin{figure} %[h]
+        \centering
+                \includegraphics[width=.7\textwidth]{figures/DFairbank_aber.png}
+                \caption{Calculated minimum laser spot size distributions, with wavelength 570~nm and unfocused waist w = 7~mm, for (a) bi-convex f = 7~cm lens, and (b) aspherical f = 7.9~cm lens.}
+\label{fig:DFairbank}
+\end{figure}
+
+A lens focused the laser into the cryostat from the side, shown in Fig. \ref{fig:endOfBeamOptics}.  Initial work, spectroscopy (Chapter 4) and some imaging, was done using a bi-convex, which produced spherical aberration near the laser focus.  This effect does not affect the results in Chapter 4, where semi-focused beam waists of 100-1000~$/mu$m were used.  However, spherical aberrations caused the minimum beam waist to be about twice that of the diffraction limit.  To approach the diffraction limit in imaging small numbers (Chapter 5), a 7.9-cm focal length aspherical lens was used.  A comparison of the minimum spot sizes for these two lenses, calculated by David Fairbank at Thorlabs, is shown in Fig. \ref{fig:DFairbank}.
 
 To correct for astigmatism introduced by the tilted sapphire window, compensating astigmatism was introduced by a fused silica optical flat of 1~cm thickness, placed after the lens, tilted on the y-axis (the laser is along the z-axis, and the sapphire window is tilted on the x-axis).  The proper angle for the compensator was determined to be about 10$^{\circ}$ from normal by a ray matrix calculation \cite{raymatrix}.  The effect of the SXe layer is negligible since its thickness is only about half a micron in a typical fluorescence experiment.  With the compensator, overlapping minimum spot sizes of 2.06~$\mu$m and 2.66~$\mu$m are calculated for x and y, respectively.  \emph{\color{gray}Show astig. corr. data w/ 2D gaus fits.}
 
@@ -210,7 +217,7 @@ Cryostat Window & 0.99 & \\
 Camera Lenses ($\times 2$) & {\color{red}??} & \\
 Steering Mirrors ($\times 2$) & 0.95 & \\
 CCD Quantum Efficiency & 0.90 & \\
-Filter & {\color{red}0.99} & \\
+Filter & 0.98 & \\
 Counts per Photon (CCD) & 0.5 & $\epsilon_{c}\text{(w/o spectrom.)} = ${\color{red}??}\\
 \hline
 Spectrom. Mirrors ($\times 2$) & {\color{red}??} & \\
@@ -229,7 +236,7 @@ To limit laser exposure to only the time of CCD exposure, a laser shutter was li
 \label{fig:dustspot}
 \end{figure}
 
-Relative vibrations between the laser and sapphire window affect the number of Ba atoms exposed, increasing the effective laser spot size.  This was studied by observing the position of a ``dust spot" (a highly scattering feature on the sapphire window) relative to the position of the laser in an image on time scales down to 50~ms.  An example of an image from this experiment is shown in Fig. \ref{fig:dustspot}.  The 570-nm dye laser was somewhat de-focused, and the dust spot was illuminated by a de-focused 657~nm diode laser. For each frame, 2D Gaussian functions were fit to locate the center of the laser spot and the dust spot in order to measure their relative position.  The fit for the laser spot was restricted in y so that it was not affected by the bulk sapphire fluorescence path.  The distances in x and y between the dust spot and laser are plotted for each 50-ms snapshot in Fig. \ref{fig:cryovibe2D}(a).  The distribution shows a correlation between x and y.  To calculate an effective laser spot size due to this vibration, each difference (x,y) between laser and dust spot was used as the center of a 2D Gaussian, each with w$_{x} = 2.06~\mu$m and w$_{y} = 2.66~\mu$m to represent the laser spot.  Such Gaussian functions were summed for all points to produce a distribution of summed laser exposure, shown in Fig. \ref{fig:cryovibe2D}(b).  The total area enclosed by a 1/e contour then represents the effective area.  Since x and y movement are correlated, and since the movement is sinusoidal, the effective area is only about {\color{red}2$\times$} the real laser spot size, and the effective laser region is {\color{red}17.8~$\mu$m$^{2}$}.
+Relative vibrations between the laser and sapphire window affect the number of Ba atoms exposed, increasing the effective laser spot size.  This was studied by observing the position of a ``dust spot" (a highly scattering feature on the sapphire window) relative to the position of the laser in an image on time scales down to 50~ms.  An example of an image from this experiment is shown in Fig. \ref{fig:dustspot}.  The 570-nm dye laser was somewhat de-focused, and the dust spot was illuminated by a de-focused 657~nm diode laser. For each frame, 2D Gaussian functions were fit to locate the center of the laser spot and the dust spot in order to measure their relative position.  The fit for the laser spot was restricted in y so that it was not affected by the bulk sapphire fluorescence path.  The distances in x and y between the dust spot and laser are plotted for each 50-ms snapshot in Fig. \ref{fig:cryovibe2D}(a).  The distribution shows a correlation between x and y.  To calculate an effective laser spot size due to this vibration, each difference (x,y) between laser and dust spot was used as the center of a 2D Gaussian, each with w$_{x} = 2.06~\mu$m and w$_{y} = 2.66~\mu$m to represent the laser spot.  Such Gaussian functions were summed for all points to produce a distribution of summed laser exposure, shown in Fig. \ref{fig:cryovibe2D}(b).  The total area enclosed by a 1/e contour then represents the effective area.  Since x and y movement are correlated, and since the movement is sinusoidal, the effective area is only about {\color{red}2$\times$} \emph{\color{gray}make an ``if greater than or equal to 1/e" thing for bins} the real laser spot size, and the effective laser region is {\color{red}17.8~$\mu$m$^{2}$}.
 
 %The difference between dust spot and laser positions is plotted in {\color{red}Fig. [fig vibe vs. time with sine fit]} for both x and y.  Each exposure in this plot is 50~ms, though readout time and camera shutter compensation time result in x~s between frames.  The best fit of a sine function results in a vibration frequency of x~Hz.  This is consistent with the audible frequency of the cryostat He pump.
 %...could do this for rotated
@@ -254,7 +261,7 @@ In order to obtain images of separated single atoms, the laser focusing lens is 
 
 \begin{figure} %[h]
         \centering
-                \includegraphics[width=.5\textwidth]{figures/100_1885.JPG}
-                \caption{\color{gray}\emph{new pic q/ apshere}}
+                \includegraphics[width=.5\textwidth]{figures/stages_2.JPG}
+                \caption{Asphere laser focusing lens mounted to motorized Newport translation stages for laser scanning.}
 \label{fig:laserStages}
 \end{figure}

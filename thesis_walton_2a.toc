@@ -23,7 +23,7 @@
 \contentsline {section}{\tocsection {}{3.2}{Ba Getter Source}}{32}
 \contentsline {section}{\tocsection {}{3.3}{Sample Deposition}}{32}
 \contentsline {section}{\tocsection {}{3.4}{Laser Excitation}}{35}
-\contentsline {section}{\tocsection {}{3.5}{Collection Optics}}{36}
+\contentsline {section}{\tocsection {}{3.5}{Collection Optics}}{37}
 \contentsline {section}{\tocsection {}{3.6}{Vibrations and Effective Laser Region}}{38}
 \contentsline {section}{\tocsection {}{3.7}{Laser Scanning}}{40}
 \contentsline {chapter}{\tocchapter {Chapter}{4}{Results: Spectroscopy}}{41}
