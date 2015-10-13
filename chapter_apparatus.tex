@@ -182,7 +182,7 @@ Green to yellow laser excitation was done with a Coherent 599 dye laser, pumped 
 \label{fig:endOfBeamOptics}
 \end{figure}
 
-A lens focused the laser into the cryostat from the side, shown in Fig. \ref{fig:endOfBeamOptics}.  Initial work, spectroscopy (Chapter 4) and some imaging, was done using a bi-convex, which produced spherical aberration near the laser focus.  This effect does not affect the results in Chapter 4, where semi-focused beam waists of 100-1000~$/mu$m were used.  However, spherical aberrations caused the minimum beam waist to be about twice that of the diffraction limit.  To approach the diffraction limit in imaging small numbers (Chapter 5), a 7.9-cm focal length aspherical lens was used.  A comparison of the minimum spot sizes, calculated by David Fairbank at Thorlabs, is shown in Fig. [fig David lenses].
+A lens focused the laser into the cryostat from the side, shown in Fig. \ref{fig:endOfBeamOptics}.  Initial work, spectroscopy (Chapter 4) and some imaging, was done using a bi-convex, which produced spherical aberration near the laser focus.  This effect does not affect the results in Chapter 4, where semi-focused beam waists of 100-1000~$/mu$m were used.  However, spherical aberrations caused the minimum beam waist to be about twice that of the diffraction limit.  To approach the diffraction limit in imaging small numbers (Chapter 5), a 7.9-cm focal length aspherical lens was used.  A comparison of the minimum spot sizes, calculated by David Fairbank at Thorlabs, is shown in \emph{\color{gray}Fig. [fig David lenses]}.
 
 To correct for astigmatism introduced by the tilted sapphire window, compensating astigmatism was introduced by a fused silica optical flat of 1~cm thickness, placed after the lens, tilted on the y-axis (the laser is along the z-axis, and the sapphire window is tilted on the x-axis).  The proper angle for the compensator was determined to be about 10$^{\circ}$ from normal by a ray matrix calculation \cite{raymatrix}.  The effect of the SXe layer is negligible since its thickness is only about half a micron in a typical fluorescence experiment.  With the compensator, overlapping minimum spot sizes of 2.06~$\mu$m and 2.66~$\mu$m are calculated for x and y, respectively.  \emph{\color{gray}Show astig. corr. data w/ 2D gaus fits.}
 
@@ -194,9 +194,29 @@ To correct for astigmatism introduced by the tilted sapphire window, compensatin
 \section{Collection Optics}
 \label{sec:collection}
 
-Fluorescence was collected above the cryostat (Fig. \ref{fig:endOfBeamOptics}).  A 50~mm Nikon camera lens collimated the light, and a fluorescence filter sat on top of it.  A band-pass filter was used for imaging, and a Raman filter was used for spectroscopy.  The fluorescence then reflected off two steering mirrors, and was imaged by a 200~mm Nikon camera lens onto a Roper Scientific liquid-nitrogen-cooled CCD, with a magnification of 4.
+Fluorescence was collected above the cryostat (Fig. \ref{fig:endOfBeamOptics}).  A 50~mm Nikon camera lens collimated the light, and a fluorescence filter sat on top of it.  A band-pass filter was used for imaging, and a Raman filter was used for spectroscopy.  The fluorescence then reflected off two steering mirrors, and was imaged by a 200~mm Nikon camera lens onto a Roper Scientific liquid-nitrogen-cooled CCD, with a magnification of 4.  The CCD has a quantum efficiency of 90\% in the visible, and in slow ADC mode, records one count per two photons collected.  At the set point of -100~$^{\circ}$C, dark counts are negligible.
 
-The CCD has a removable Princeton Instruments imaging spectrometer.  With this attached, the 200~mm camera lens focuses the light onto an inlet slit, which is then imaged by the spectrometer onto the CCD after reflecting off a diffraction grating.  The 0-order reflection of the grating provides an image for alignment, and the grating can be tilted to distribute the 1\textsuperscript{st}-order reflection across the horizontal CCD pixels for doing spectroscopy.  When a 1" diameter filter is used, the imaging system has a collection efficiency ($\epsilon_{c}$) of about 1.5\% \emph{\color{gray}Need QE of CCD} without the spectrometer, and about half of that \emph{\color{gray}Need to imput mirror losses} with the spectrometer due to a grating efficiency of 50\%.  The spectrometer also limits the system to an f-number of 4.  In slow ADC mode, about {\color{red}8} photons produce one CCD count.
+The CCD has a removable Princeton Instruments imaging spectrometer.  With this attached, the 200~mm camera lens focuses the light onto an inlet slit, which is then imaged by the spectrometer onto the CCD after reflecting off a diffraction grating.  The 0-order reflection of the grating provides an image for alignment, and the grating can be tilted to distribute the 1\textsuperscript{st}-order reflection across the horizontal CCD pixels for doing spectroscopy.
+
+When a 1" diameter filter is used, the imaging system has a solid angle collection of about 1.5\%.  Each additional component in the collection optics, listed in Table \ref{table:colleff}, contributes some loss, resulting in a total collection efficiency ($\epsilon_{c}$) of {\color{red}??} with the spectrometer, and {\color{red}??} without.  The spectrometer also limits the system to an f-number of 4, though this is not limiting in this setup.
+
+\begin{table} [!htbp]
+\caption{Factors contributing to optical collection efficiency.}
+\label{table:colleff}
+\begin{tabular}{l l l}
+Component & Efficiency & \\
+\hline
+Cryostat Window & 0.99 & \\
+Camera Lenses ($\times 2$) & {\color{red}??} & \\
+Steering Mirrors ($\times 2$) & 0.95 & \\
+CCD Quantum Efficiency & 0.90 & \\
+Filter & {\color{red}0.99} & \\
+Counts per Photon (CCD) & 0.5 & $\epsilon_{c}\text{(w/o spectrom.)} = ${\color{red}??}\\
+\hline
+Spectrom. Mirrors ($\times 2$) & {\color{red}??} & \\
+Diffraction Grating & 0.5 & $\epsilon_{c}\text{(w/ spectrom.)} = ${\color{red}??}\\
+\end{tabular}
+\end{table}
 
 To limit laser exposure to only the time of CCD exposure, a laser shutter was linked to the camera exposure with a LabVIEW program.  This program also recorded laser power via a calibrated pickoff, as well as the temperature of the coldfinger near the sapphire window during observation.
 
@@ -209,9 +229,7 @@ To limit laser exposure to only the time of CCD exposure, a laser shutter was li
 \label{fig:dustspot}
 \end{figure}
 
-\emph{\color{gray}May need language alteration since this used to be in Imaging section.}
-
-Relative vibrations between the laser and sapphire window will affect the number of Ba atoms exposed, increasing the effective laser spot size.  This was studied by observing the position of a ``dust spot" (a highly scattering feature on the sapphire window) relative to the position of the laser in an image on time scales down to 50~ms.  An example of an image from this experiment is shown in Fig. \ref{fig:dustspot}.  The 570-nm dye laser was somewhat de-focused, and the dust spot was illuminated by a de-focused 657~nm diode laser. For each frame, 2D Gaussian functions were fit to locate the center of the laser spot and the dust spot in order to measure their relative position.  The fit for the laser spot was restricted in y so that it was not affected by the bulk sapphire fluorescence path.  The distances in x and y between the dust spot and laser are plotted for each 50-ms snapshot in Fig. \ref{fig:cryovibe2D}(a).  The distribution shows a correlation between x and y.  To calculate an effective laser spot size due to this vibration, each difference (x,y) between laser and dust spot was used as the center of a 2D Gaussian, each with w$_{x} = 2.06~\mu$m and w$_{y} = 2.66~\mu$m to represent the laser spot.  Such Gaussian functions were summed to all points to produce a distribution of summed laser exposure, shown in Fig. \ref{fig:cryovibe2D}{\color{red}(b)}.  The total area enclosed by a 1/e contour then represents the effective area.  Since x and y movement are correlated, and since the movement is sinusoidal, the effective area is only about 2$\times$ the real laser spot size, and the effective laser region is 17.8~$\mu$m$^{2}$.
+Relative vibrations between the laser and sapphire window affect the number of Ba atoms exposed, increasing the effective laser spot size.  This was studied by observing the position of a ``dust spot" (a highly scattering feature on the sapphire window) relative to the position of the laser in an image on time scales down to 50~ms.  An example of an image from this experiment is shown in Fig. \ref{fig:dustspot}.  The 570-nm dye laser was somewhat de-focused, and the dust spot was illuminated by a de-focused 657~nm diode laser. For each frame, 2D Gaussian functions were fit to locate the center of the laser spot and the dust spot in order to measure their relative position.  The fit for the laser spot was restricted in y so that it was not affected by the bulk sapphire fluorescence path.  The distances in x and y between the dust spot and laser are plotted for each 50-ms snapshot in Fig. \ref{fig:cryovibe2D}(a).  The distribution shows a correlation between x and y.  To calculate an effective laser spot size due to this vibration, each difference (x,y) between laser and dust spot was used as the center of a 2D Gaussian, each with w$_{x} = 2.06~\mu$m and w$_{y} = 2.66~\mu$m to represent the laser spot.  Such Gaussian functions were summed for all points to produce a distribution of summed laser exposure, shown in Fig. \ref{fig:cryovibe2D}(b).  The total area enclosed by a 1/e contour then represents the effective area.  Since x and y movement are correlated, and since the movement is sinusoidal, the effective area is only about {\color{red}2$\times$} the real laser spot size, and the effective laser region is {\color{red}17.8~$\mu$m$^{2}$}.
 
 %The difference between dust spot and laser positions is plotted in {\color{red}Fig. [fig vibe vs. time with sine fit]} for both x and y.  Each exposure in this plot is 50~ms, though readout time and camera shutter compensation time result in x~s between frames.  The best fit of a sine function results in a vibration frequency of x~Hz.  This is consistent with the audible frequency of the cryostat He pump.
 %...could do this for rotated
