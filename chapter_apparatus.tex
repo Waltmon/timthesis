@@ -57,7 +57,7 @@ The E$\times$B filter is shown in Fig. \ref{fig:exb}.  Electromagnets provide th
 
 The first three sets of deflection plates can be used for beam diagnostics, and are set to 0~V during normal operation.  The deflection plates just before the pulsing plates, H1 and V1, are set to constant values of +50~V and 0~V, respectively, which have been selected such that the beam, in both pulsing and continuous modes, can be deposited at the sapphire window for reasonable settings on the final deflection plates, H2 and V2.  As described in Section \ref{subsec:ionDepCal}, different settings in H2/V2 are required for peak ion current in Faraday cup 3 vs. peak deposit at the window.
 
-Einzel lens 2 focuses the beam to pass through the aperture in the first element of the decelerator lens.  Einzel lens 3 is grounded in this setup.  The decelerator lens can be used to vary Ba\textsuperscript{+} deposit energy, which was done in \cite{Shon}, but it in this work it acts as an Einzel lens with only the second element at voltage.  It focuses the beam near the sample and Faraday cup 3 (there is no Faraday cup 2 in this setup).  Faraday cup 3 measures the ion current during experiments, and is retracted when deposits are being made.  Calibration of deposits using Faraday cup 3 is described in Section \ref{subsec:ionDepCal}.  Faraday cup 1 is used for beam diagnostics, and is usually retracted.  
+Einzel lens 2 focuses the beam to pass through the aperture in the first element of the decelerator lens.  Einzel lens 3 is set to zero in this setup.  The decelerator lens can be used to vary Ba\textsuperscript{+} deposit energy, which was done in \cite{Shon}, but it in this work it acts as an Einzel lens with only the second element at voltage.  It focuses the beam near the sample and Faraday cup 3 (there is no Faraday cup 2 in this setup).  Faraday cup 3 measures the ion current during experiments, and is retracted when deposits are being made.  Calibration of deposits using Faraday cup 3 is described in Section \ref{subsec:ionDepCal}.  Faraday cup 1 is used for beam diagnostics, and is usually retracted.  
 
 \emph{\color{gray}on from ion beam studies back when?  At least the procedure for alignment?}
 
@@ -191,7 +191,9 @@ Green to yellow laser excitation was done with a Coherent 599 dye laser, pumped 
 
 A lens focused the laser into the cryostat from the side, shown in Fig. \ref{fig:endOfBeamOptics}.  Initial work, spectroscopy (Chapter 4) and some imaging, was done using a bi-convex, which produced spherical aberration near the laser focus.  This effect does not affect the results in Chapter 4, where semi-focused beam waists of 100-1000~$/mu$m were used.  However, spherical aberrations caused the minimum beam waist to be about twice that of the diffraction limit.  To approach the diffraction limit in imaging small numbers (Chapter 5), a 7.9-cm focal length aspherical lens was used.  A comparison of the minimum spot sizes for these two lenses, calculated by David Fairbank at Thorlabs, is shown in Fig. \ref{fig:DFairbank}.
 
-To correct for astigmatism introduced by the tilted sapphire window, compensating astigmatism was introduced by a fused silica optical flat of 1~cm thickness, placed after the lens, tilted on the y-axis (the laser is along the z-axis, and the sapphire window is tilted on the x-axis).  The proper angle for the compensator was determined to be about 10$^{\circ}$ from normal by a ray matrix calculation \cite{raymatrix}.  The effect of the SXe layer is negligible since its thickness is only about half a micron in a typical fluorescence experiment.  With the compensator, overlapping minimum spot sizes of 2.06~$\mu$m and 2.66~$\mu$m are calculated for x and y, respectively.  To observe the astigmatism and the effect of the compensator, the relative position of the x- and y-focus was observed by imaging 619-nm Ba fluorescence from a large deposit of Ba\textsuperscript{+} in SXe, with a varying laser focus.  For each z-position of the laser focusing lens, an image was taken, and a 2D Gaussian fit determined the x and y beam waists, w$_{\text{x}}$ and w$_{\text{y}}$.  Example fits to the 619-nm fluorescence for three laser focus positions, using the astigmatism compensator at 11$^{\circ}$, are shown in Fig. \ref{fig:astig}(a,b,c).  Gaussian fit values for w$_{\text{x}}$ and w$_{\text{y}}$ are plotted vs. laser focus position with (d) no compensator, and with the compensator at (e) 10$\pm 1^{\circ}$, (f) 13$\pm 1^{\circ}$, and (g) {\color{red}11}$\pm 1^{\circ}$.  With no compensator (d), the focal positions for x and y are measured to be about {\color{red}120}~$\mu$m apart, \emph{\color{gray}which is consistent with the calculated value of {\color{red}??}~$\mu$m from...}  10$\pm 1^{\circ}$ (e) and 13$\pm 1^{\circ}$ (f) can be seen to under- and over-shoot, respectively, the optimal angle, and {\color{red}11}$\pm 1^{\circ}$ (g), which was used in imaging experiments, is optimal, i.e. the x and y foci are consistent to within 50~$\mu$m.  \emph{\color{gray}A systematic uncertainty... on the beam size is then obtained ... leading to a focused laser spot of ?? $\pm$ ?? $\mu$m\textsuperscript{2}}
+To correct for astigmatism introduced by the tilted sapphire window, compensating astigmatism was introduced by a fused silica optical flat of 1~cm thickness, placed after the lens, tilted on the y-axis (the laser is along the z-axis, and the sapphire window is tilted on the x-axis).  The proper angle for the compensator was determined to be about 10$^{\circ}$ from normal by a ray matrix calculation \cite{raymatrix}.  The effect of the SXe layer is negligible since its thickness is only about half a micron in a typical fluorescence experiment.  With the compensator, overlapping minimum spot sizes of 2.06~$\mu$m and 2.66~$\mu$m are calculated for x and y, respectively.  To observe the astigmatism and the effect of the compensator, the relative position of the x- and y-focus was observed by imaging 619-nm Ba fluorescence from a large deposit of Ba\textsuperscript{+} in SXe, with a varying laser focus.  For each z-position of the laser focusing lens, an image was taken, and a 2D Gaussian fit determined the x and y beam waists, w$_{\text{x}}$ and w$_{\text{y}}$.  Example fits to the 619-nm fluorescence for three laser focus positions, using the astigmatism compensator at 10$\pm 1^{\circ}$, are shown in Fig. \ref{fig:astig}(a,b,c).  Gaussian fit values for w$_{\text{x}}$ and w$_{\text{y}}$ are plotted vs. laser focus position with (d) no compensator, and with the compensator at (e) 10$\pm 1^{\circ}$, (f) 13$\pm 1^{\circ}$, and (g) 11$\pm 1^{\circ}$.  With no compensator (d), the focal positions for x and y are measured to be 127.6$ \pm 2.5$~$\mu$m apart.  10$\pm 1^{\circ}$ (e) and 13$\pm 1^{\circ}$ (f) can be seen to under- and over-shoot the optimal angle, respectively.  11$\pm 1^{\circ}$ (g), which was used in imaging experiments, is near optimal, i.e. the x and y foci are consistent to within 45~$\mu$m.  \emph{\color{gray}A systematic uncertainty... on the beam size is then obtained ... leading to a focused laser spot of ?? $\pm$ ?? $\mu$m\textsuperscript{2}}
+
+%\emph{\color{gray}which is consistent with the calculated value of {\color{red}??}~$\mu$m from...}
 
 \begin{figure} %[H]
         \centering
@@ -200,13 +202,13 @@ To correct for astigmatism introduced by the tilted sapphire window, compensatin
                 \includegraphics[width=.33\textwidth]{figures/astig_thesis_2Dgaus_run39.png}
                 ~
                 \includegraphics[width=.33\textwidth]{figures/astig_thesis_2Dgaus_run43.png}
-                \includegraphics[width=.33\textwidth]{figures/astigcorr_curve_no-corr_806.png}
+                \includegraphics[width=.45\textwidth]{figures/astigcorr_curve_no-corr_806.png}
                 ~
-                \includegraphics[width=.33\textwidth]{figures/astigcorr_curve_corr_10deg.png}
-                \includegraphics[width=.33\textwidth]{figures/astigcorr_curve_corr_13deg.png}
+                \includegraphics[width=.45\textwidth]{figures/astigcorr_curve_corr_10deg.png}
+                \includegraphics[width=.45\textwidth]{figures/astigcorr_curve_corr_13deg.png}
                 ~
-                \includegraphics[width=.33\textwidth]{figures/astigcorr_curve_corr_9-16.png}
-                \caption{Example 2D Gaussian fits (black grid lines) with varying laser focus (a,b,c) \emph{\color{gray}Needs larger text} .. \emph{\color{gray}make them squished more -- square}}
+                \includegraphics[width=.45\textwidth]{figures/astigcorr_curve_corr_9-16.png}
+                \caption{Example 2D Gaussian fits (black grid lines) with varying laser focus (a,b,c), and fit waists  w$_{\text{x}}$ (black) and  w$_{\text{y}}$ (blue) vs. laser focus lens position with (d) no compensator, and with compensator at about (e) 10$^{\circ}$, (f) 13$^{\circ}$, and (g) 11$^{\circ}$.}
 \label{fig:astig}
 \end{figure}
 
@@ -231,7 +233,8 @@ When a 1" diameter filter is used, the imaging system has a solid angle collecti
 Component & Efficiency & \\
 \hline
 Cryostat Window & 0.99 & \\
-Camera Lenses ($\times 2$) & {\color{red}??} & \\
+Camera Lens 50~mm & 0.89 & \\
+Camera Lens 200~mm & 0.91 & \\
 Steering Mirrors ($\times 2$) & 0.95 & \\
 CCD Quantum Efficiency & 0.90 & \\
 Filter & 0.98 & \\
