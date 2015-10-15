@@ -2,7 +2,7 @@
 
 %\emph{\color{gray}Probably need to mention CCD digitaztion pedestal and noise, and dark counts which are zero when cold -- did you do that?.}
 
-This chapter describes the apparatus at Colorado State University which has been used for producing and observing  deposits of Ba/Ba\textsuperscript{+} in SXe.  The main barium source, a Ba\textsuperscript{+} ion beam, is first described, as well as a neutral Ba getter source.  The co-deposit of Ba/Ba\textsuperscript{+} with Xe gas onto a cold sapphire window, subsequent laser excitation, and finally the collection optics for the fluorescence are described.
+This chapter describes the apparatus at Colorado State University which was used for producing and observing  deposits of Ba/Ba\textsuperscript{+} in SXe.  The main barium source, a Ba\textsuperscript{+} ion beam, is first described, as well as a neutral Ba getter source.  The co-deposit of Ba/Ba\textsuperscript{+} with Xe gas onto a cold sapphire window, subsequent laser excitation, and finally the collection optics for the fluorescence are described.
 
 \section{Ion Beam}
 
@@ -18,7 +18,7 @@ The ion beam system is shown in Fig. \ref{fig:ionbeam}.  This is a clean source 
 
 \subsection{Ion Source}
 
-Ba\textsuperscript{+} ions are produced in a Model DCIS-101 Colutron ion gun system \cite{Colutron}.  The source is shown in Fig. \ref{fig:ionsource}.  A solid barium charge is placed into the hollowed end of a stainless steel rod, which is inserted into the discharge chamber, where it is heated by a filament.  The barium vaporizes, and escapes the hollowed rod around a loosely threaded set screw.  The source is designed to produce a discharge between the anode plate and the filament cathode, through an argon buffer gas leaked into the source chamber.  This controlled discharge would then also ionize atoms from the solid charge to produce the desired ion beam, and Ar ions would be filtered out.  However, to avoid contamination of the SXe matrix with residual Ar gas, the buffer gas is not used in this work.  We are still able to maintain a discharge with the residual Ba vapor.  The longevity of ion current from a single charge (at least several 10s of hours) suggests that Ba is coating the inner walls of the source chamber, and is heated enough to provide sufficient Ba pressure to support a discharge.  The discharge produces a plasma, containing barium ions, which escapes the chamber through a small hole in the anode, where it enters the acceleration region.  The acceleration potential applied is 2~kV, between the ion source anode and the first element of Einzel lens 1.  This lens approximately collimates the ion beam for passage through the E$\times$B velocity filter.
+Ba\textsuperscript{+} ions are produced in a Model DCIS-101 Colutron ion gun system \cite{Colutron}.  The source is shown in Fig. \ref{fig:ionsource}.  A solid barium charge is placed into the hollowed end of a stainless steel rod, which is inserted into the discharge chamber, where it is heated by a filament.  The barium vaporizes, and escapes the hollowed rod around a loosely threaded set screw.  The source is designed to produce a discharge between the anode plate and the filament cathode, through an argon buffer gas leaked into the source chamber.  This controlled discharge would then also ionize atoms from the solid charge to produce the desired ion beam, and Ar ions would be filtered out.  However, to avoid contamination of the SXe matrix with residual Ar gas, the buffer gas was not used in this work.  Discharge can be maintained with Ba vapor alone.  The longevity of ion current from a single charge (at least several 10s of hours) suggests that Ba is coating the inner walls of the source chamber, and is heated enough to provide sufficient Ba pressure to support a discharge.  The discharge produces a plasma, containing barium ions, which escapes the chamber through a small hole in the anode, where it enters the acceleration region.  The acceleration potential applied is 2~kV, between the ion source anode and the first element of Einzel lens 1 (L1).  This lens approximately collimates the ion beam for passage through the E$\times$B velocity filter.
 
 %This is supported by the observation of white oxidation of the inner source parts after a few minutes of exposure to air when opening the system.
 
@@ -57,11 +57,9 @@ The E$\times$B filter is shown in Fig. \ref{fig:exb}.  Electromagnets provide th
 
 The first three sets of deflection plates can be used for beam diagnostics, and are set to 0~V during normal operation.  The deflection plates just before the pulsing plates, H1 and V1, are set to constant values of +50~V and 0~V, respectively, which have been selected such that the beam, in both pulsing and continuous modes, can be deposited at the sapphire window for reasonable settings on the final deflection plates, H2 and V2.  As described in Section \ref{subsec:ionDepCal}, different settings in H2/V2 are required for peak ion current in Faraday cup 3 vs. peak deposit at the window.
 
-Einzel lens 2 focuses the beam to pass through the aperture in the first element of the decelerator lens.  Einzel lens 3 is set to zero in this setup.  The decelerator lens can be used to vary Ba\textsuperscript{+} deposit energy, which was done in \cite{Shon}, but it in this work it acts as an Einzel lens with only the second element at voltage.  It focuses the beam near the sample and Faraday cup 3 (there is no Faraday cup 2 in this setup).  Faraday cup 3 measures the ion current during experiments, and is retracted when deposits are being made.  Calibration of deposits using Faraday cup 3 is described in Section \ref{subsec:ionDepCal}.  Faraday cup 1 is used for beam diagnostics, and is usually retracted.  
+Einzel lens 2 (L2) focuses the beam to pass through the aperture in the first element of the decelerator lens.  Einzel lens 3 (L3) is set to zero in this setup \emph{\color{gray}triple check that it's not L2...}.  The decelerator lens can be used to vary Ba\textsuperscript{+} deposit energy, which was done in \cite{Shon}, but it in this work it acts as an Einzel lens with only the second element (D2) at voltage.  It focuses the beam near the sample and Faraday cup 3 (there is no Faraday cup 2 in this setup).  Faraday cup 3 measures the ion current during experiments, and is retracted when deposits are being made.  Calibration of deposits using Faraday cup 3 is described in Section \ref{subsec:ionDepCal}.  Faraday cup 1 can be used for beam diagnostics, and is usually retracted.  
 
-To align the ion beam, L1 is first tuned to maximize ion current in Faraday cup 3, with L2, L3, and D2 
-
-\emph{\color{gray}on from ion beam studies back when?  At least the procedure for alignment?}
+To align the ion beam, L1 was first tuned to maximize ion current in Faraday cup 3, with L2, L3, and D2 set to zero.  Since cup 3 is about {\color{red}??}~m away from L1, this approximately collimates the beam for passage through the E$\times$B filter.  The optimal value for L1 was found to be around {\color{red}??}, which is consistent with a long focal length [cite Shon[71]].  Next, L2 and D2 were fine-tuned together to achieve maximal current in cup 3, beginning with calculated values which predict that L2 focuses near the aperture in the decelerator, and that D2 then focuses near cup 3.  Finally, the straightness of the beam was checked by peaking ion current with deflection plates H1 and V1 on cup 3, as well as on cup W, which is an additional Faraday cup attached to the coldfinger in place of the sapphire window.  Cup W is further described in Section \ref{subsec:ionDepCal}.
 
 \subsection{Ion Beam Pulsing}
 
@@ -109,7 +107,7 @@ Pulsing data also provides confirmation that the beam is composed of Ba\textsupe
 \subsection{Calibration of Ion Deposit}
 \label{subsec:ionDepCal}
 
-To calibrate the signal at cup 3 to an ion density at the sapphire window, another Faraday cup (cup W) is attached to the cold finger in place of the sapphire window.  The ratio of $\frac{fC}{pulse}$ between cup 3 and cup W is measured ($\equiv f$).  Then, knowing the radius of the entrance aperture in cup W lets one determine the ion density per pulse at the sapphire window:
+To calibrate the signal at cup 3 to an ion density at the sapphire window, another Faraday cup (cup W) is attached to the cold finger in place of the sapphire window.  The ratio of between ion current in cup 3 and cup W is measured ($\equiv f$).  Then, knowing the radius of the entrance aperture in cup W lets one determine the ion density per pulse at the sapphire window:
 
 \begin{equation}
 \frac{ions}{pulse \times m^{2}} = \frac{Q f}{e A}
@@ -117,7 +115,7 @@ To calibrate the signal at cup 3 to an ion density at the sapphire window, anoth
 \end{equation}
 
 \noindent
-where $Q$ is the charge/pulse at cup 3, $A$ is the area of cup W, and $e$ is the elementary charge.  The voltages on the final deflection plates H2 and V2 are also determined to optimize the signal in cup W.  In later experiments, these differed from the values for maximum cup 3 signal by about 70~V in H2 and 60~V in V2, corresponding to about 4~mm in x and y position at cup W, indicating that some drift in optimal ion beam component settings occurred over time, either due to power supply drift or changes in the location of discharge in the source.
+where $Q$ is the charge/pulse at cup 3, $A$ is the area of cup W, and $e$ is the elementary charge.  The voltages on the final deflection plates H2 and V2 are also determined to optimize the signal in cup W.  In later experiments, these differed from the values for maximum cup 3 signal by about 70~V in H2 and 60~V in V2, corresponding to about 4~mm in x and y position at cup W, indicating that some drift in optimal ion beam component settings occurred over time.
 
 \section{Ba Getter Source}
 
@@ -175,6 +173,8 @@ To evaporate a sample, the window is heated to 100~K.  Fringes appear during thi
 
 \section{Laser Excitation}
 
+\emph{\color{gray}Make this back to ``is" for system stuff, like above, and maybe after this too.}
+
 \begin{figure} %[h]
         \centering
                 \includegraphics[width=.7\textwidth]{figures/window_etc_justOptics.png}
@@ -229,7 +229,7 @@ The CCD has a removable Princeton Instruments imaging spectrometer.  With this a
 When a 1" diameter filter is used, the imaging system has a solid angle collection of about 1.5\%.  Each additional component in the collection optics, listed in Table \ref{table:colleff}, contributes some loss, resulting in a total collection efficiency ($\epsilon_{c}$) of {\color{red}??} with the spectrometer, and {\color{red}??} without.  The spectrometer also limits the system to an f-number of 4, though this is not limiting in this setup.
 
 \begin{table} [!htbp]
-\caption{Factors contributing to optical collection efficiency.}
+\caption{Factors contributing to optical collection efficiency.  Total $\epsilon_{c}$ includes 1.5\% solid angle collection.}
 \label{table:colleff}
 \begin{tabular}{l l l}
 Component & Efficiency & \\
@@ -240,7 +240,7 @@ Camera Lens 200~mm & 0.91 & \\
 Steering Mirrors ($\times 2$) & 0.95 & \\
 CCD Quantum Efficiency & 0.90 & \\
 Filter & 0.98 & \\
-Counts per Photon (CCD) & 0.5 & $\epsilon_{c}\text{(w/o spectrom.)} = ${\color{red}??}\\
+Counts per Photon (CCD) & 0.5 & $\epsilon_{c}\text{(w/o spectrom.)} = 4.8 \times 10^{-3}$\\
 \hline
 Spectrom. Mirrors ($\times 2$) & {\color{red}??} & \\
 Diffraction Grating & 0.5 & $\epsilon_{c}\text{(w/ spectrom.)} = ${\color{red}??}\\
