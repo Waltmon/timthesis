@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.6.6)  15 OCT 2015 14:37
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.6.6)  16 OCT 2015 10:19
 entering extended mode
 **thesis_walton.tex
 (C:\Walton\thesis\timthesis\thesis_walton.tex
@@ -526,7 +526,7 @@ Chapter 2
 File: figures/elevs.png Graphic file (type png)
 
 <use figures/elevs.png>
-Package pdftex.def Info: figures/elevs.png used on input line 11.
+Package pdftex.def Info: figures/elevs.png used on input line 13.
 (pdftex.def)             Requested size: 422.77664pt x 142.57172pt.
  [19
 
@@ -536,14 +536,14 @@ Package pdftex.def Info: figures/elevs.png used on input line 11.
 File: figures/FranckCondon.png Graphic file (type png)
 
 <use figures/FranckCondon.png>
-Package pdftex.def Info: figures/FranckCondon.png used on input line 54.
+Package pdftex.def Info: figures/FranckCondon.png used on input line 56.
 (pdftex.def)             Requested size: 328.82707pt x 270.9185pt.
 
 <figures/Ba_in_SAr.png, id=123, 934.99312pt x 643.6547pt>
 File: figures/Ba_in_SAr.png Graphic file (type png)
 
 <use figures/Ba_in_SAr.png>
-Package pdftex.def Info: figures/Ba_in_SAr.png used on input line 65.
+Package pdftex.def Info: figures/Ba_in_SAr.png used on input line 67.
 (pdftex.def)             Requested size: 328.82707pt x 226.36287pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1206,7 +1206,7 @@ type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
 blic/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
 onts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
 cmti8.pfb>
-Output written on thesis_walton.pdf (84 pages, 6348007 bytes).
+Output written on thesis_walton.pdf (84 pages, 6348027 bytes).
 PDF statistics:
  435 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
