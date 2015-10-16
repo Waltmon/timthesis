@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.6.6)  16 OCT 2015 10:19
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.6.6)  16 OCT 2015 14:45
 entering extended mode
 **thesis_walton.tex
 (C:\Walton\thesis\timthesis\thesis_walton.tex
@@ -971,7 +971,7 @@ Package pdftex.def Info: figures/bleach_spec.png used on input line 120.
 File: figures/model_smallw12_a26_run96and88_close.png Graphic file (type png)
  <use figures/model_smallw12_a26_run96and88_close.png>
 Package pdftex.def Info: figures/model_smallw12_a26_run96and88_close.png used o
-n input line 131.
+n input line 133.
 (pdftex.def)             Requested size: 328.82707pt x 184.75768pt.
 
 Underfull \vbox (badness 1642) has occurred while \output is active []
@@ -983,7 +983,7 @@ File: figures/QE_20140626_separate_w.png Graphic file (type png)
 
 <use figures/QE_20140626_separate_w.png>
 Package pdftex.def Info: figures/QE_20140626_separate_w.png used on input line 
-140.
+142.
 (pdftex.def)             Requested size: 328.82707pt x 184.75768pt.
  [56 <C:/Walton/thesis/timthesis/figures/QE_20140626_separate_w.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -994,24 +994,24 @@ File: figures/619_bleach_summed_per_mW.png Graphic file (type png)
 
 <use figures/619_bleach_summed_per_mW.png>
 Package pdftex.def Info: figures/619_bleach_summed_per_mW.png used on input lin
-e 162.
+e 164.
 (pdftex.def)             Requested size: 328.82707pt x 217.48729pt.
  [58 <C:/Walton/thesis/timthesis/figures/619_bleach_summed_per_mW.png>]
 <figures/surfaceBG_a.png, id=305, 949.5475pt x 674.52pt>
 File: figures/surfaceBG_a.png Graphic file (type png)
 
 <use figures/surfaceBG_a.png>
-Package pdftex.def Info: figures/surfaceBG_a.png used on input line 180.
+Package pdftex.def Info: figures/surfaceBG_a.png used on input line 182.
 (pdftex.def)             Requested size: 328.82707pt x 233.5845pt.
 
 <figures/surfaceBG_b.png, id=306, 949.5475pt x 674.52pt>
 File: figures/surfaceBG_b.png Graphic file (type png)
 
 <use figures/surfaceBG_b.png>
-Package pdftex.def Info: figures/surfaceBG_b.png used on input line 181.
+Package pdftex.def Info: figures/surfaceBG_b.png used on input line 183.
 (pdftex.def)             Requested size: 328.82707pt x 233.5845pt.
 
-Underfull \hbox (badness 1253) in paragraph at lines 182--182
+Underfull \hbox (badness 1253) in paragraph at lines 184--184
 \OT1/cmr/m/sc/12 Figure 4.12.\OT1/cmr/m/n/12 Surface back-ground emis-sion spec
 -trum w/ ex-ci-ta-tion at
  []
@@ -1020,29 +1020,29 @@ Underfull \hbox (badness 1253) in paragraph at lines 182--182
 File: figures/bg_temp_dep.png Graphic file (type png)
 
 <use figures/bg_temp_dep.png>
-Package pdftex.def Info: figures/bg_temp_dep.png used on input line 188.
+Package pdftex.def Info: figures/bg_temp_dep.png used on input line 190.
 (pdftex.def)             Requested size: 281.85587pt x 186.42502pt.
 
 <figures/Cr_a.png, id=308, 949.5475pt x 674.52pt>
 File: figures/Cr_a.png Graphic file (type png)
  <use figures/Cr_a.png>
-Package pdftex.def Info: figures/Cr_a.png used on input line 195.
+Package pdftex.def Info: figures/Cr_a.png used on input line 197.
 (pdftex.def)             Requested size: 328.82707pt x 233.5845pt.
 
 <figures/Cr_b.png, id=309, 712.16063pt x 505.89pt>
 File: figures/Cr_b.png Graphic file (type png)
  <use figures/Cr_b.png>
-Package pdftex.def Info: figures/Cr_b.png used on input line 196.
+Package pdftex.def Info: figures/Cr_b.png used on input line 198.
 (pdftex.def)             Requested size: 328.82707pt x 233.58449pt.
 
 <figures/Cr_broad.png, id=310, 949.5475pt x 674.52pt>
 File: figures/Cr_broad.png Graphic file (type png)
 
 <use figures/Cr_broad.png>
-Package pdftex.def Info: figures/Cr_broad.png used on input line 203.
+Package pdftex.def Info: figures/Cr_broad.png used on input line 205.
 (pdftex.def)             Requested size: 328.82707pt x 233.5845pt.
 
-Underfull \hbox (badness 2856) in paragraph at lines 204--204
+Underfull \hbox (badness 2856) in paragraph at lines 206--206
 \OT1/cmr/m/sc/12 Figure 4.15.\OT1/cmr/m/n/12 Excitation spec-tra for weaker sap
 -phire bulk emis-sions
  []
@@ -1059,16 +1059,16 @@ thesis/figures/surfaceBG_b.png>] <figures/BaHx_a.png, id=318, 949.5475pt x 674.
 File: figures/BaHx_a.png Graphic file (type png)
 
 <use figures/BaHx_a.png>
-Package pdftex.def Info: figures/BaHx_a.png used on input line 221.
+Package pdftex.def Info: figures/BaHx_a.png used on input line 223.
 (pdftex.def)             Requested size: 234.8775pt x 166.84901pt.
  <figures/BaHx_b.png, id=319, 949.5475pt x 674.52pt>
 File: figures/BaHx_b.png Graphic file (type png)
 
 <use figures/BaHx_b.png>
-Package pdftex.def Info: figures/BaHx_b.png used on input line 223.
+Package pdftex.def Info: figures/BaHx_b.png used on input line 225.
 (pdftex.def)             Requested size: 234.8775pt x 166.84901pt.
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 221--224
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 223--226
  [][] [] 
  []
 
@@ -1080,14 +1080,14 @@ figures/Cr_b.png>] <figures/excitspecBlue_a.png, id=327, 949.5475pt x 674.52pt>
 File: figures/excitspecBlue_a.png Graphic file (type png)
 
 <use figures/excitspecBlue_a.png>
-Package pdftex.def Info: figures/excitspecBlue_a.png used on input line 232.
+Package pdftex.def Info: figures/excitspecBlue_a.png used on input line 234.
 (pdftex.def)             Requested size: 328.82707pt x 233.5845pt.
 
 <figures/excitspecBlue_b.png, id=328, 949.5475pt x 674.52pt>
 File: figures/excitspecBlue_b.png Graphic file (type png)
 
 <use figures/excitspecBlue_b.png>
-Package pdftex.def Info: figures/excitspecBlue_b.png used on input line 233.
+Package pdftex.def Info: figures/excitspecBlue_b.png used on input line 235.
 (pdftex.def)             Requested size: 328.82707pt x 233.5845pt.
 
 Underfull \vbox (badness 4967) has occurred while \output is active []
@@ -1206,7 +1206,7 @@ type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
 blic/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
 onts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
 cmti8.pfb>
-Output written on thesis_walton.pdf (84 pages, 6348027 bytes).
+Output written on thesis_walton.pdf (84 pages, 6347859 bytes).
 PDF statistics:
  435 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
