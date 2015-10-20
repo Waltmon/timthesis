@@ -36,7 +36,7 @@
 \contentsline {chapter}{\tocchapter {Chapter}{5}{Results: Imaging}}{66}
 \contentsline {section}{\tocsection {}{5.1}{Imaging 577- and 591-nm peaks}}{67}
 \contentsline {section}{\tocsection {}{5.2}{Imaging 619-nm peak}}{69}
-\contentsline {section}{\tocsection {}{5.3}{Scanned Images}}{73}
-\contentsline {chapter}{\tocchapter {Chapter}{6}{Conclusions}}{74}
-\contentsline {section}{\tocsection {}{6.1}{Future Steps}}{74}
-\contentsline {chapter}{Bibliography}{75}
+\contentsline {section}{\tocsection {}{5.3}{Scanned Images}}{74}
+\contentsline {chapter}{\tocchapter {Chapter}{6}{Conclusions}}{75}
+\contentsline {section}{\tocsection {}{6.1}{Future Steps}}{75}
+\contentsline {chapter}{Bibliography}{76}
