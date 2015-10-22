@@ -58,12 +58,12 @@ First attempts at imaging small numbers of Ba atoms in a focused laser region we
 
 At low laser intensities, the 619-nm peak appears minor compared to the 577- and 591-nm peaks.  However, its much lower bleaching rate brings it to dominate over larger exposures, e.g. with the intensity of a focused laser at 0.01-0.1~mW over seconds or minutes.  Experiments imaging small numbers of Ba atoms in SXe in a focused laser region with the 619-nm peak were successful down to the single-atom level.
 
-\begin{figure} %[H]
-        \centering
-                \includegraphics[width=.4\textwidth]{figures/xe_variation.png}
-                \caption{Background counts in focused laser region over the course of an experiment.}
-\label{fig:xevar}
-\end{figure}
+%\begin{figure} %[H]
+%        \centering
+%                \includegraphics[width=.4\textwidth]{figures/xe_variation.png}
+%                \caption{Background counts in focused laser region over the course of an experiment.}
+%\label{fig:xevar}
+%\end{figure}
 
 An imaging experiment consisted of many different pulsed Ba\textsuperscript{+} deposits, each of which was evaporated after observation.  This procedure is described in \ref{sec:deposition}-\ref{sec:collection}.  A linear relationship between observed signal and ions deposited must be observed and repeated.  Frequent Xe-only deposits ware made, typically every three runs, to establish the local background.  The image of each deposit was analyzed by summing the counts of a 3-pixel$\times$3-pixel (15$\mu$m$\times$15$\mu$m) region centered on the laser spot in the SXe layer where it excites Ba atoms, i.e. at the top of the laser path in Fig. \ref{fig:imageexamp}.  A partial-bin integrator was implemented such that the 3-pixel$\times$3-pixel region could be centered on the peak center of each run, which typically varied by about half a micron between runs.  Summed counts vs. Ba\textsuperscript{+} ions deposited into the laser region is shown in Fig. \ref{fig:lin} for a combination of data sets from two separate days \emph{\color{blue}maybe you want them separate (with each point having errors) by color to show agreement }  Each point has subtracted the averaged counts from the two surrounding Xe-only deposits.  Some variation in signal is observed, likely due to spatial drifting of the ion beam, as this variation was larger on days where larger beam drift was observed.  Nonetheless, a clear linearity in observed in signal vs. ions deposited, all the way down to single ions deposited.  Recall that the number of ions is an upper limit on the number of atoms in the 619-nm peak matrix site.  ``0-pulse" deposits are also made, wherein Faraday cup 3 is retracted for the 1-s period, but the ion beam remains deflected with no pulses.  This establishes the level of neutral Ba atoms making their way down the beam line from the source into the laser region.  Signal at the few-atom level is observed from these deposits.
 
@@ -83,7 +83,9 @@ An imaging experiment consisted of many different pulsed Ba\textsuperscript{+} d
 \label{fig:xebaxe}
 \end{figure}
 
-Variation in the background level, dominated by the surface background, is shown in Fig. \ref{fig:xevar}.  Variation was most likely caused by drift of the laser position on the window, to regions of different historical bleaching.  Local variations are at the single-atom signal level, however positive signal after subtraction, even at the single-atom level, demonstrates that this variation is sufficiently low.
+\emph{\color{gray}Paragraph on BG variation was here, but I moved it to Method w/o thinking thru completely in this context.  Image is also commented out here, above train figure... and actually I took it out there too...}
+
+%Variation in the background level, dominated by the surface background, is shown in Fig. \ref{fig:xevar}.  Variation was most likely caused by drift of the laser position on the window, to regions of different historical bleaching.  Local variations are at the single-atom signal level, however positive signal after subtraction, even at the single-atom level, demonstrates that this variation is sufficiently low.
 
 Xe-only images were also directly subtracted to produce images of 619-nm Ba fluorescence.  In cases where the image has shifted slightly between runs, a binning redistribution was applied to do sub-pixel image shifting for better subtraction, though images which did not require this were preferred.  619-nm fluorescence images for several deposits of varying numbers of atoms are shown in Fig. \ref{fig:train}.  
 
@@ -93,3 +95,5 @@ It is important to note that no Ba signal is left behind after a sample is evapo
 \label{sec:scanning}
 
 The ultimate demonstration of single-atom imaging would be to scan the focused laser over a sample of separated Ba atoms, observing a peak when the laser moves over each atom.  Preliminary scans were performed by scanning the focusing lens in a grid patter, using the setup described in \ref{sec:laserscanning}.   \emph{\color{gray}choose what to show and what to say about it -- there are some decent things to show really}  [issues are BG, reproduceability, vibrations]
+
+\emph{\color{gray}See thought\_process.pptx slide about expected signal / observed BG fluctuation, etc. (unfinished).}

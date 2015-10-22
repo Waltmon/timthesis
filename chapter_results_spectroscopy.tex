@@ -35,7 +35,9 @@ Deposition at temperatures higher than 10~K and exploration of more excitation w
 
 %this is dumb: These selections are part of a full excitation spectrum, shown in Fig. \ref{fig:excitspecGrn}(c).  
 
-An excitation spectrum is produced by scanning the dye laser and measuring the magnitude of each fluorescence peak vs. excitation wavelength.  For each frame, the spectrum is fit with a sum of peak-specific fit functions, where all function parameters are fixed (e.g., centers and widths) except the magnitudes.  Te fixed parameters were determined by ..um idk... 
+An excitation spectrum is produced by scanning the dye laser and measuring the magnitude of each fluorescence peak vs. excitation wavelength.  For each frame, the spectrum is fit with a sum of peak-specific fit functions, where function shape parameters are fixed (e.g., centers and widths) and magnitudes are allowed to float.  Shape parameters for each peak were determined by fitting spectra where that peak is relatively large, and 
+
+\emph{\color{gray}section on fitting?}
 
 a sum of \emph{\color{gray}don't call them this} asymmetric Gaussian functions and standard Gaussian functions is fit to the spectrum after pedestal subtraction.  The asymmetric Gaussian fit function used, which fits the 577- and 591-nm peaks somewhat better than standard Gaussians, is $A(1+$erf$(\frac{x-a}{\sigma_{1}})(1-$erf$(\frac{x-a}{\sigma_{2}}))$, where $A$ is the free amplitude parameter.  The peak position $a$ is fixed for each peak, as are the left and right smearing widths $\sigma_{1}$ and $\sigma_{2}$.  The function erf() is a Gaussian error function.  The asymmetric Gaussian function is not perfect for all frames, as the shape of the emission can depend on the excitation wavelength.  An example frame with fits is shown in Fig. \ref{fig:excitspecGrn}(b).  The full fit is the dotted black line, and each peak's contribution is in color.  
 
