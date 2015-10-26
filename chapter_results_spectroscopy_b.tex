@@ -1,6 +1,8 @@
 \chapter{Results: Spectroscopy}
 
-The spectroscopy of Ba in SXe was studied in detail beyond that reported in \cite{Shon,Brian}, with the goal of imaging single Ba atoms.  Emission and excitation spectra are analyzed in \ref{sec:fluorescence}, with particular interest in the origin of the 619-nm peak in \ref{sec:619identification}.  Studies of temperature and bleaching effects in \ref{sec:tempanneal} and \ref{sec:bleaching} aid in determining optimal conditions for observation.  Backgrounds are analyzed in \ref{sec:bgs} in order to optimize sensitivity, and finally, candidate emission lines for Ba\textsuperscript{+} in SXe are discussed in \ref{sec:BaPlus}.
+The spectroscopy of Ba in SXe was studied in detail beyond that reported in \cite{Shon,Brian}, with the goal of imaging single Ba atoms.  Emission and excitation spectra are analyzed in \ref{sec:fluorescence}, with particular interest in the origin of the 619-nm peak in \ref{sec:619identification}.  Studies of temperature and bleaching effects in \ref{sec:tempanneal} and \ref{sec:bleaching} aid in determining optimal conditions for observation.  Finally, candidate emission lines for Ba\textsuperscript{+} in SXe are discussed in \ref{sec:BaPlus}.
+
+%Backgrounds are analyzed in \ref{sec:bgs} in order to optimize sensitivity,
 
 \section{Excitation and Emission of Ba in SXe}
 \label{sec:fluorescence}
@@ -16,9 +18,9 @@ Deposits of Ba in SXe absorb primarily between 540~nm and 570~nm.  An absorption
 
 \begin{figure} %[H]
         \centering
-                \includegraphics[width=.5\textwidth]{figures/excitspec_grn_spectra_v2.png}
+                \includegraphics[width=.8\textwidth]{figures/excitspec_grn_spectra_v2.png}
                 \includegraphics[width=.9\textwidth]{figures/excitspec_grn.png}
-                \caption{(a) Background-subtracted fluorescence spectra for a few different excitation wavelengths, and (b) excitation spectra for all observed Ba fluorescence peaks.  Magnitudes in (b) have been scaled for visibility on the same plot.  Exposures are 1~s.}
+                \caption{(a) Background-subtracted fluorescence spectra for a few different excitation wavelengths, and (b) excitation spectra for all observed Ba fluorescence peaks.  Magnitudes in (b) have been scaled for visibility on the same plot.  Exposures are 1~s. \emph{\color{gray}fix text sizes}}
 \label{fig:excitspecGrn}
 \end{figure}
 
@@ -58,39 +60,51 @@ The 619-nm peak, as well as the 670-nm peak, was attributed to neutral Ba by a f
 
 %\emph{\color{gray}When does it need to be mentioned that certain data was also used in the paper(s)?}
 
-Matrix site occupancies for Ba atoms can depend on annealing history, and similarly on the temperature at which a deposit is made.  Spectra under different temperature conditions are shown in Fig. \ref{fig:specTempConditions}.  Peak shapes look similar for deposits made at 40-55~K as those made at 11~K and then annealed to 40-55~K, both being observed at 11~K, though relative amplitudes are not the same, likely due to matrix site populations.  Without annealing, 11-K deposits have a different peak shape around 590~nm, with a broader peak centered around 596~nm.  It is possible that the broader shape is due to a higher population of the 601-nm peak, and it is not resolved from the 591-nm peak.  The experiment in Fig. \ref{fig:specTempConditions} did not have optimal laser intensity for observing behavior of the 619-nm peak; a study of deposit conditions for this peak is shown in Fig. \ref{fig:specTempConditions619}.  In that experiment, the 619-nm fluorescence was observed in a focused laser beam at 570~nm, in an image through the 620-nm band-pass filter.  About 3$\times$ more 619-nm fluorescence was observed in the deposit at 52~K vs. 11~K for the same leak rate (the respective 31~nm/s and 37~nm/s are from the same Xe leak rate, resulting in different SXe deposition rates daccording to Fig. \ref{fig:fringes_52K_vs_11K}).  Also in this figure is a deposit at 11~K with the lower leak rate resulting in about 5~nm/s SXe deposition, which produced nearly 3$\times$ lower signal than the leak rate resulting in 37~nm/s SXe deposition.  Using the 10~K SXe density of 3.780~g/cm\textsuperscript{3} \cite{SXeDensity} and a typical Ba\textsuperscript{+} ion current density of 1.6~nA/mm\textsuperscript{2} at the sapphire window, \emph{\color{gray}Re-do this, ala procedure in thought\_process.pptx, since you don't claim 37 nm/s anymore:} 5~nm/s \emph{\color{gray}any other instances?} and 37~nm/s correspond to Xe:Ba ratios of about $8.7 \times 10^{3}$ and $6.4 \times 10^{4}$ respectively.  Xe leak rates above 37~nm/s result in rapid frosting of the SXe matrix, which causes blurring of the image and high laser scatter.  These tests guided the standard of depositing with Xe leak rate resulting in 31~nm/s SXe deposition at 50$\pm$5~K when observing the 577-, 591-, and/or 619-nm peaks.  The different bleaching behavior in the low Xe leak rate deposit is interesting but not well understood.
+%Matrix site occupancies for Ba atoms
+
+\begin{figure} %[H]
+        \centering
+                \includegraphics[width=.7\textwidth]{figures/spectra_temperature_conditions.png}
+                \caption{\emph{\color{gray}why is this plot even in here?} Spectra of peaks around 590~nm of a Ba\textsuperscript{+} deposit made at 11~K before and after annealing to 39.4~K, and one made at 44~K.  All observations are at 11~K.  Both Ba\textsuperscript{+} deposits are 15~s, however the 44~K deposit is scaled slightly to account for different ion current.  Laser power was about 0.1~mW with an unfocused beam waist of w = 7.056~mm, at 566~nm wavelength.}
+\label{fig:specTempConditions}
+\end{figure}
+
+Emission spectra can depend on annealing history, and similarly on the temperature at which a deposit is made.  Spectra under different temperature conditions are shown in Fig. \ref{fig:specTempConditions}.  Peak shapes look similar for deposits made at 40-55~K to those made at 11~K and then annealed to 40-55~K, where both are observed at 11~K.  Differences in relative amplitudes could be due to differences in matrix site populations.  The broader emission around 596~nm in non-annealed 11-K deposits is interpreted as a higher population of the 601-nm peak, as it is not resolved from the 591-nm peak.  Deposit temperature dependence of the 619-nm peak was studied by imaging the fluorescence from a focused laser through the 620-nm band-pass filter, shown in Fig. \ref{fig:specTempConditions619}.  The level of 619-nm signal is about 3$\times$ larger in deposits made at 52~K vs. 11~K.  Imaging is described in detail in Chapter 6.  These tests guided the standard of depositing at 50$\pm$5~K when observing the 577-, 591-, and/or 619-nm peaks.
+
+%the respective 31~nm/s and 37~nm/s are from the same Xe leak rate, resulting in different SXe deposition rates daccording to Fig. \ref{fig:fringes_52K_vs_11K}
+
+%A study of deposit conditions for the 619-nm peak (rather than just temp-depend)
 
 % is discussed briefly in \ref{sec:bleaching}.
 
 %5.4E4 Xe:Ba for leak 48 50~K (31 nm/s)
 
-\begin{figure} %[H]
-        \centering
-                \includegraphics[width=.7\textwidth]{figures/spectra_temperature_conditions.png}
-                \caption{Spectra of peaks around 590~nm of a Ba\textsuperscript{+} deposit made at 11~K before and after annealing to 39.4~K, and one made at 44~K.  All observations are at 11~K.  Both Ba\textsuperscript{+} deposits are 15~s, however the 44~K deposit is scaled slightly to account for different ion current.  Laser power was about 0.1~mW with an unfocused beam waist of w = 7.056~mm, at 566~nm wavelength.}
-\label{fig:specTempConditions}
-\end{figure}
-
 \begin{figure} [h]
         \centering
-                \includegraphics[width=.7\textwidth]{figures/619_deposit_conditions.png}
-                \caption{\emph{\color{gray}I guess just do custom-binned single points to show initial signal level for each type} 619-nm fluorescence counts over time from imaging focused 570-nm laser region, for Ba\textsuperscript{+} deposits at different temperature and Xe leak conditions.  Frame times are 0.1~s, with time in between frames of about 0.11~s.}
+                \includegraphics[width=.8\textwidth]{figures/619_deposit_temp.png}
+                \caption{Images of 619-nm fluorescence in focused 570-nm laser region for deposits made at (a) 11K and (b) 52~K.  Deposits are 3~s of continuous Ba\textsuperscript{+} current.  Exposures are 0.1~s at 11~K.}
 \label{fig:specTempConditions619}
 \end{figure}
 
+% at leak setting 48 (619 vs temp)
+
 \begin{figure} %[H]
         \centering
-                \includegraphics[width=.8\textwidth]{figures/spectra_annealing.png}
+                \includegraphics[width=.7\textwidth]{figures/spectra_annealing.png}
                 \caption{Spectra of a large Ba\textsuperscript{+} deposit through several annealing cycles.  Initial deposit was at 11~K.  Laser power was about 0.2~mW with an unfocused beam waist of w = 7.056~mm, at 564~nm wavelength.  These are selections from the full data set shown as peak counts vs. temperature in Fig. \ref{fig:annealGrn}.  \cite{Mong2015}}
 \label{fig:specAnneal}
 \end{figure}
 
-Fluorescence spectra with 564~nm excitation through several annealing cycles for a deposit made at 11~K are shown in Fig. \ref{fig:specAnneal}.  At this wavelength, all observed Ba peaks are prominent except the 570-nm peak.  Similar to excitation spectra, individual fluorescence peak amplitudes can be plotted vs. temperature by fitting the full spectrum in each frame.  Rather than asymmetric Gaussians, this analysis used standard Gaussian and Lorentzian functions.  Lorentzians fit the 619-nm and 670-nm peaks well.  Each individual peak's amplitude is plotted vs. temperature in Fig. \ref{fig:annealGrn}(b-f), with an example of a fit spectrum in Fig. \ref{fig:annealGrn}(a).  In this interpretation, the 601-nm peak along with the 591-nm peak fit the broader peak in the initial 11~K deposit.  The 601-nm peak had nearly complete loss in the first anneal cycle.  The 670-nm peak had significant loss, with more loss after each succeeding anneal cycle, each of which reached higher a temperature than the last.  The 591-nm had moderate loss with each cycle.  The 577-nm and 619-nm peaks gained significantly with the first anneal, suggesting that they are due to more stable matrix sites.  Both peaks remained about the same after the second cycle (small gain in 577-nm), and both had loss after the third cycle, which reached the higher temperature of 48~K. This could be due to greater diffusion at higher temperature leading to Ba/Ba interactions.
+Fluorescence spectra with 564~nm excitation through several annealing cycles for a deposit made at 11~K are shown in Fig. \ref{fig:specAnneal}.  At this wavelength, all obserrved Ba peaks are prominent except the 570-nm peak.  Initial exposure shows significant 591- and 601-nm (unresolved from one another) emission, with some 577-nm emission.  All peaks are reduced at the high temperature ends of the anneal cycles, and return to lower temperatures shows recovery to an overall increase for some peaks, and overall loss of others.  Fit peak counts (fitting is described in Sec. \ref{sec:fitting}) vs. temperature are shown in Fig. \ref{fig:annealGrn}.  The 577-nm and 619-nm peaks gained significantly with the first anneal, suggesting that they are due to more stable matrix sites.  Both of these peaks remained about the same after the second cycle (small gain in 577-nm), and both had loss after the third cycle, which reached the higher temperature of 48~K.  The 591-nm had moderate loss with each cycle.  The 601-nm peak had nearly complete loss in the first anneal cycle.  The 670-nm peak had significant loss, with more loss after each succeeding anneal cycle, each of which reached higher a temperature than the last.
+
+%This could be due to greater diffusion at higher temperature leading to Ba/Ba interactions.
+
+% In this interpretation, the 601-nm peak along with the 591-nm peak fit the broader peak in the initial 11~K deposit.
 
 \begin{figure} %[H]
         \centering
-                \includegraphics[width=.5\textwidth]{figures/spectra_anneal_fit.png}
-                ~
+%                \includegraphics[width=.5\textwidth]{figures/spectra_anneal_fit.png}
+%                ~
                 \includegraphics[width=.5\textwidth]{figures/anneal_577peak.png}
                 \includegraphics[width=.5\textwidth]{figures/anneal_591peak.png}
                 ~
@@ -98,11 +112,13 @@ Fluorescence spectra with 564~nm excitation through several annealing cycles for
                 \includegraphics[width=.5\textwidth]{figures/anneal_619peak.png}
                 ~
                 \includegraphics[width=.5\textwidth]{figures/anneal_670peak.png}
-                \caption{Example fit with standard Gaussians and Lorentzians (a) and fit peak counts for each fluorescence peak through three annealing cycles of the Ba\textsuperscript{+} deposit made at 11~K (b-f).  ``1, 2, and 3" mark the beginning of each anneal cycle.  Laser power was about 0.2~mW with an unfocused beam waist of w = 7.056~mm, at 564~nm wavelength.}
+                \caption{Fit peak counts for the (a) 577-, (b) 591-, (c) 601-, (d) 619-, and (e) 670-nm fluorescence peaks through three annealing cycles of the Ba\textsuperscript{+} deposit made at 11~K.  ``1", ``2", and ``3" mark the beginning of each anneal cycle.  Laser power was about 0.2~mW with an unfocused beam waist of w = 7.056~mm, at 564~nm wavelength.}
 \label{fig:annealGrn}
 \end{figure}
 
-Aside from matrix site changes, direct temperature dependence of fluorescence can be observed in annealing cycles.  The 577-, 591- and 619-nm peaks have their highest amplitude at 11~K.  The 577-nm and 619-nm peaks appear to be leveled off at 11~K, while the 591-nm may benefit from even lower temperatures.  The 670-nm peak has its highest amplitude at around 25~K (apparent after its major site alteration has occurred).  This inverse relationship between fluorescence and temperature suggests that a probe in nEXO will need to be moved to an evacuated chamber in order to cool to 11~K or below for observation.  
+Aside from matrix site changes, direct temperature dependence of fluorescence can be observed in annealing cycles.  The 577-, 591- and 619-nm peaks have their highest amplitude at 11~K.  The 577-nm and 619-nm peaks reach a plateau at 11~K, while the 591-nm may benefit from even lower temperatures.  The inverse relationship between fluorescence of these major peaks and temperature suggests that a probe in nEXO will need to be moved to an evacuated chamber in order to cool to 11~K or below for observation.  
+
+% After annealing, the 670-nm peak has its highest amplitude at around 25~K.
 
 %\emph{\color{gray}601 and (not shown) 570 would require different wavelength to study.}
 
