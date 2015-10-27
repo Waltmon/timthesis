@@ -1,0 +1,3 @@
+corrected w/ x1.57 in the following places:
+
+bleaching spectra figure caption (20140626)
