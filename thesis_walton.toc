@@ -36,10 +36,10 @@
 \contentsline {section}{\tocsection {}{5.3}{Annealing/Temperature Dependence}}{55}
 \contentsline {section}{\tocsection {}{5.4}{Bleaching}}{59}
 \contentsline {subsection}{\tocsubsection {}{5.4.1}{Bleaching of the 577- and 591-nm Peaks}}{60}
-\contentsline {subsection}{\tocsubsection {}{5.4.2}{Fluorescence Efficiency of 577- and 591-nm Peaks}}{60}
-\contentsline {subsection}{\tocsubsection {}{5.4.3}{Re-pumping}}{60}
-\contentsline {subsection}{\tocsubsection {}{5.4.4}{Bleaching of the 619-nm Peak}}{61}
-\contentsline {section}{\tocsection {}{5.5}{Candidate Ba\textsuperscript {+} Lines/Blue Excitation}}{62}
+\contentsline {subsection}{\tocsubsection {}{5.4.2}{Re-pumping}}{60}
+\contentsline {subsection}{\tocsubsection {}{5.4.3}{Bleaching of the 619-nm Peak}}{61}
+\contentsline {section}{\tocsection {}{5.5}{Fluorescence Efficiency of 577- and 591-nm Peaks}}{62}
+\contentsline {section}{\tocsection {}{5.6}{Candidate Ba\textsuperscript {+} Lines/Blue Excitation}}{62}
 \contentsline {chapter}{\tocchapter {Chapter}{6}{Results: Imaging}}{66}
 \contentsline {section}{\tocsection {}{6.1}{Imaging 577- and 591-nm peaks}}{67}
 \contentsline {section}{\tocsection {}{6.2}{Imaging 619-nm peak}}{69}
