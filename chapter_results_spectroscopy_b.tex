@@ -131,7 +131,7 @@ Aside from matrix site changes, direct temperature dependence of fluorescence ca
 
 % QUESTION: \emph{\color{gray}Just show bleaching, as informant on how to image, rather than showing model fits.}
 
-Decay of fluorescence with laser exposure, or bleaching, was observed for all six Ba fluorescence peaks.  Examples of bleaching spectra are shown in Fig. \ref{fig:specBleach}, with excitation at (a) 556.9~nm, (b) 562.6~nm, and (c) 566.3~nm, using a semi-focused laser of waist w = 1000 $\mu$m.  Each curve is the Ba emission spectrum at different points in time.  Bleaching is rapid for the 570-, 577-, 591-, and 601-nm peaks, and a much slower process for the 619- and 670-nm peaks.
+Decay of fluorescence with laser exposure, or bleaching, was observed for all six Ba fluorescence peaks.  Examples of bleaching spectra are shown in Fig. \ref{fig:specBleach}, with excitation at (a) 556.9~nm, (b) 562.6~nm, and (c) 566.3~nm, using a semi-focused laser of waist w = 1000 $\mu$m.  Each curve is the Ba emission spectrum at different points in time.  Bleaching was rapid for the 570-, 577-, 591-, and 601-nm peaks, and much slower for the 619- and 670-nm peaks.
 
 \begin{figure} %[H]
         \centering
@@ -147,7 +147,34 @@ Decay of fluorescence with laser exposure, or bleaching, was observed for all si
 
 \subsection{Bleaching of the 577- and 591-nm Peaks}
 
-[bleaching figures]:  (1) just show them, observe some things: different peaks are different, and dependency on excit wav, which may be consistent with place on excit curve, In [](a), [589] is juxtaposed with [577] for excitation on respectively high parts... [](b): (2) different 577 bleach at 555nm -- this all informed on usage of x for imaging, [](c) shows um idk
+\begin{figure} %[H]
+        \centering
+                \includegraphics[width=.5\textwidth]{figures/bleach_577vs591_on-res_a_low-I.png}
+                \includegraphics[width=.5\textwidth]{figures/bleach_577vs591_on-res_b_medium-I.png}
+                ~
+                \includegraphics[width=.5\textwidth]{figures/bleach_577vs591_on-res_c_high-I.png}
+                \caption{Fluorescence vs. time for three orders of magnitude (a,b,c) in laser intensity, for the 577-nm (purple) and 591-nm (green) fluorescence peaks.  Deposits are continuous Ba\textsuperscript{+} at 45~K, observed at 11~K.  Exposures are 0.2 or 2~s (indicated by point spacing minus 98.18~ms readout time).}
+\label{fig:bleach_577vs591}
+\end{figure}
+
+Fit integral fluorescence counts vs. time are shows in Fig. \ref{fig:bleach_577vs591} for both the 577-nm (purple) and 591-nm (green) fluorescence peaks, with laser intensities on the order of (a) 0.33, (b) 4.0, and (c) 43 mW/mm\textsuperscript{2}.  Exact intensities are listed in the legends.  The excitation wavelengths used for these comparisons were chosen to be optimal for the respective fluorescence peak:  566.3~nm was used for the 577-nm peak, and 562.6~nm for the 591-nm peak (see Fig. \ref{fig:excitspecGrn} for excitation spectrum).  Bleaching was more rapid in the 591-nm peak when low intensity is used (a).  For medium intensity (b), bleaching was more rapid for the 591-nm peak in the first 10~s, and then began approaching a similar rate to the 577-nm peak.  For the high intensity (c), the rates began similar, with the 577-nm peak bleaching rate barely surpassing that of the 591-nm peak after about 20~s.
+
+Comparisons of bleaching with different excitation wavelengths are shown in Fig. \ref{fig:bleach_excitCompare} for (a) the 577-nm peak, and (b) the 591-nm peak.  In the case of the 577-nm peak (a), the excitation wavelengths (566.3 and 556.9~nm) correspond to different peaks in the excitation spectrum (Fig. \ref{fig:excitspecGrn}).  Very different bleaching rates were observed (although the 556.9-nm excitation had about 2.5$\times$ the intensity).  In the case of the 591-nm peak (b), the excitation wavelengths (562.6 and 556.9~nm) correspond to neighboring peaks in the triplet structure of the excitation spectrum.  The bleaching rates are similar, with a somewhat faster rate for the 556.9-nm excitation, which had about 2$\times$ the intensity.
+
+% as the 562.6-nm excitation
+
+Ultimately, these studies suggested the usage of the 577-nm peak in imaging small numbers of atoms due to its lower bleaching rate, especially with excitation on the high-wavelength end of the range studied.  Imaging of Ba atoms using a combination of the 577- and 591-nm peaks with excitation at 566~nm, via a band-pass filter passing 573 - 599~nm FWHM, is discussed in Sec. \ref{sec:imaging590and577}.
+
+\begin{figure} %[H]
+        \centering
+                \includegraphics[width=.5\textwidth]{figures/bleach_577-nm_555vs560.png}
+                ~
+                \includegraphics[width=.5\textwidth]{figures/bleach_591-nm_555vs560.png}
+                \caption{}
+\label{fig:bleach_excitCompare}
+\end{figure}
+
+A numerical model of fluorescence vs. time, described in Sec. \ref{sec:model} for a 5-level system of Ba in vacuum, was calculated for comparison to bleaching data.
 
 The 6(5)-level model solved in [sec. in Ch. 2]... similar to vacuum rates is OK for beginning (fails at certain point, pretty consistent across the board) ...could draw regions A and B where there is disagreement
 
@@ -188,7 +215,7 @@ The 619-nm peak bleaches at much higher laser intensities.  At a few mW of aroun
 \begin{figure} %[H]
         \centering
                 \includegraphics[width=.7\textwidth]{figures/QE_20140626_separate_w.png}
-                \caption{\emph{\color{gray}correct this too for real w12}, and needs some correction to combine the two regions?}
+                \caption{\emph{\color{gray}correct this too for real w12 ... or just do I? prolly}, and needs some correction to combine the two regions?}
 \label{fig:qe}
 \end{figure}
 
