@@ -12,7 +12,7 @@ Deposits of Ba in SXe absorb primarily between 540~nm and 570~nm.  An absorption
 \begin{figure} %[H]
         \centering
                 \includegraphics[width=.7\textwidth]{figures/BaAbs_fromBaSpec.png}
-                \caption{Absorption and emission spectra of neutral Ba in SXe.  The absorption is of a Ba getter deposit at 10~K, and the emission is of a (neutralized) Ba\textsuperscript{+} deposit, deposited at 45~K and observed at 11~K with 557~nm excitation.\cite{Mong2015}}
+                \caption{Absorption and emission spectra of neutral Ba in SXe.  The absorption is of a Ba getter deposit at 10~K, and the emission is of a (neutralized) Ba\textsuperscript{+} deposit, deposited at 45~K and observed at 11~K with 557~nm excitation.  From \cite{Mong2015}.}
 \label{fig:BaAbs}
 \end{figure}
 
@@ -159,6 +159,15 @@ Decay of fluorescence with laser exposure, or bleaching, was observed for all si
 
 Fit integral fluorescence counts vs. time are shows in Fig. \ref{fig:bleach_577vs591} for both the 577-nm (purple) and 591-nm (green) fluorescence peaks, with laser intensities on the order of (a) 0.33, (b) 4.0, and (c) 43 mW/mm\textsuperscript{2}.  Exact intensities are listed in the legends.  The excitation wavelengths used for these comparisons were chosen to be optimal for the respective fluorescence peak:  566.3~nm was used for the 577-nm peak, and 562.6~nm for the 591-nm peak (see Fig. \ref{fig:excitspecGrn} for excitation spectrum).  Bleaching was more rapid in the 591-nm peak when low intensity is used (a).  For medium intensity (b), bleaching was more rapid for the 591-nm peak in the first 10~s, and then began approaching a similar rate to the 577-nm peak.  For the high intensity (c), the rates began similar, with the 577-nm peak bleaching rate barely surpassing that of the 591-nm peak after about 20~s.
 
+\begin{figure} %[H]
+        \centering
+                \includegraphics[width=.5\textwidth]{figures/bleach_577-nm_555vs564.png}
+                ~
+                \includegraphics[width=.5\textwidth]{figures/bleach_591-nm_555vs560.png}
+                \caption{Fluorescence vs. time with different excitation wavelengths for (a) the 477-nm peak, and (b) the 591-nm peak.  Deposits are continuous Ba\textsuperscript{+} at 45~K, observed at 11~K.}
+\label{fig:bleach_excitCompare}
+\end{figure}
+
 Comparisons of bleaching with different excitation wavelengths are shown in Fig. \ref{fig:bleach_excitCompare} for (a) the 577-nm peak, and (b) the 591-nm peak.  In the case of the 577-nm peak (a), the excitation wavelengths (566.3 and 556.9~nm) correspond to different peaks in the excitation spectrum (Fig. \ref{fig:excitspecGrn}).  Very different bleaching rates were observed (although the 556.9-nm excitation had about 2.5$\times$ the intensity).  In the case of the 591-nm peak (b), the excitation wavelengths (562.6 and 556.9~nm) correspond to neighboring peaks in the triplet structure of the excitation spectrum.  The bleaching rates are similar, with a somewhat faster rate for the 556.9-nm excitation, which had about 2$\times$ the intensity.
 
 % as the 562.6-nm excitation
@@ -167,16 +176,17 @@ Ultimately, these studies suggested the usage of the 577-nm peak in imaging smal
 
 \begin{figure} %[H]
         \centering
-                \includegraphics[width=.5\textwidth]{figures/bleach_577-nm_555vs560.png}
+                \includegraphics[width=.5\textwidth]{figures/bleach_model_vacuum_a_regions.png}
                 ~
-                \includegraphics[width=.5\textwidth]{figures/bleach_591-nm_555vs560.png}
+                \includegraphics[width=.5\textwidth]{figures/bleach_model_vacuum_b_regions.png}
                 \caption{}
-\label{fig:bleach_excitCompare}
+\label{fig:bleach_model_vac}
 \end{figure}
 
-A numerical model of fluorescence vs. time, described in Sec. \ref{sec:model} for a 5-level system of Ba in vacuum, was calculated for comparison to bleaching data.
+A numerical model of fluorescence vs. time for a 5-level system of Ba in vacuum, described in Sec. \ref{sec:model} and using the Ba vacuum transition parameters given in Table \ref{table:BaTransitions}, is compared to bleaching data of the 591-nm peak in Fig. \ref{fig:bleach_model_vac} for excitation at (a) 562.6~nm, and (b) 566.3~nm.  In the model, the input value for the excitation rate $w_{12}$ is similar to the calculated value based on the laser power, laser radius, and cross-section of Ba in SXe of $1.2 \times 10^{-15}$~cm\textsuperscript{2} measured in \cite{Brian}, with slight adjustments.  $w_{12}$ is scaled by 0.8 for 562.6-nm excitation (a), and 0.5 for 566.3-nm excitation, which is explained by the lower value in the 591-nm peak excitation spectrum at 566.3~nm.  Each model is normalized to the beginning of its respective data set.  Agreement between the model and data is observed for the first several seconds of the bleaching process, and then deviation occurs in two major regions, A and B.  In region A, the model predicts more rapid bleaching than is observed.  In region B, the model predicts a leveling off as a steady state in energy level populations is reached, though the data continues to decay beyond this region.
 
-The 6(5)-level model solved in [sec. in Ch. 2]... similar to vacuum rates is OK for beginning (fails at certain point, pretty consistent across the board) ...could draw regions A and B where there is disagreement
+The agreement between model and data in the initial rapid decay region suggests that a major contribution of bleaching is indeed optical pumping into the metastable D states.  Subsequent deviation from the vacuum model could be explained by altered transition rates in the SXe matrix.  Models with modified transition rates are shown in Fig. [].  [first solve A and then B]  ...
+
 
 %talk about hole bleaching?
 
