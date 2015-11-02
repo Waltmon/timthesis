@@ -40,10 +40,10 @@
 \contentsline {subsection}{\tocsubsection {}{5.4.3}{Bleaching of the 619-nm Peak}}{64}
 \contentsline {section}{\tocsection {}{5.5}{Fluorescence Efficiency of 577- and 591-nm Peaks}}{65}
 \contentsline {section}{\tocsection {}{5.6}{Candidate Ba\textsuperscript {+} Lines/Blue Excitation}}{65}
-\contentsline {chapter}{\tocchapter {Chapter}{6}{Results: Imaging}}{69}
-\contentsline {section}{\tocsection {}{6.1}{Imaging 577- and 591-nm peaks}}{70}
-\contentsline {section}{\tocsection {}{6.2}{Imaging 619-nm peak}}{72}
-\contentsline {section}{\tocsection {}{6.3}{Scanned Images}}{77}
-\contentsline {chapter}{\tocchapter {Chapter}{7}{Conclusions}}{78}
-\contentsline {section}{\tocsection {}{7.1}{Future Steps}}{78}
-\contentsline {chapter}{Bibliography}{79}
+\contentsline {chapter}{\tocchapter {Chapter}{6}{Results: Imaging}}{68}
+\contentsline {section}{\tocsection {}{6.1}{Imaging 577- and 591-nm peaks}}{69}
+\contentsline {section}{\tocsection {}{6.2}{Imaging 619-nm peak}}{71}
+\contentsline {section}{\tocsection {}{6.3}{Scanned Images}}{76}
+\contentsline {chapter}{\tocchapter {Chapter}{7}{Conclusions}}{77}
+\contentsline {section}{\tocsection {}{7.1}{Future Steps}}{77}
+\contentsline {chapter}{Bibliography}{78}
