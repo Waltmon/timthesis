@@ -179,9 +179,10 @@ Ultimately, these studies suggested the usage of the 577-nm peak in imaging smal
                 \includegraphics[width=.5\textwidth]{figures/bleach_model_vacuum_a_regions.png}
                 ~
                 \includegraphics[width=.5\textwidth]{figures/bleach_model_vacuum_b_regions.png}
-                \caption{\color{gray}may want to show 3, though 1 I think was bad.}
+                \caption{Vacuum model (orange) comparisons to bleaching data with excitation at (a) 562.6~nm, and (b) 566.3~nm.  Regions A and B indicate behavioral differences.  Deposits are continuous Ba\textsuperscript{+} at 45~K, observed at 11~K.}
 \label{fig:bleach_model_vac}
 \end{figure}
+%\color{gray}may want to show 3, though 1 I think was bad.
 
 A numerical model of fluorescence vs. time for a 5-level system of Ba in vacuum, described in Sec. \ref{sec:model} and using the Ba vacuum transition parameters given in Table \ref{table:BaTransitions}, is compared to bleaching data of the 591-nm peak in Fig. \ref{fig:bleach_model_vac} for excitation at (a) 562.6~nm, and (b) 566.3~nm.  In the model, the input value for the excitation rate $w_{12}$ is similar to the calculated value based on the laser power, laser radius, and cross-section of Ba in SXe of $1.2 \times 10^{-15}$~cm\textsuperscript{2} measured in \cite{Brian}, with slight adjustments.  $w_{12}$ is scaled by 0.8 for 562.6-nm excitation (a), and 0.5 for 566.3-nm excitation, which is explained by the lower value in the 591-nm peak excitation spectrum at 566.3~nm.  Each model is normalized to the beginning of its respective data set.  Agreement between the model and data is observed for the first several seconds of the bleaching process, and then deviation occurs in two major regions, A and B.  In region A, the model predicts more rapid bleaching than is observed.  In region B, the model predicts a leveling off as a steady state in energy level populations is reached, though the data continues to decay beyond this region.
 
@@ -211,11 +212,11 @@ Re-pumping of optically pumped Ba could require up to three additional lasers, o
                 \includegraphics[width=.5\textwidth]{figures/bleach_re-pump_a.png}
                 ~
                 \includegraphics[width=.5\textwidth]{figures/bleach_re-pump_b.png}
-                \caption{\emph{\color{gray}should separate violets by power in legend}}
+                \caption{Bleaching data with and without additional re-pump lasers at (a) 1064~nm ($\sim$18~mW/mm\textsuperscript{2}), 1550~nm ($\sim$9~mW/mm\textsuperscript{2}), 657~nm ($\sim$9~mW/mm\textsuperscript{2}) and 472.64~nm ($\sim$14~mW/mm\textsuperscript{2}), and (b) 406~nm.  All curves have 1.4 - 1.5~mW of 555-nm excitation, semi-focused to around 600-$\mu$m beam waist.  Deposits are (a) 6~s and (b) 3~s continuous Ba\textsuperscript{+} at 11~K.}
 \label{fig:bleach_repump}
 \end{figure}
 
-Fluorescence counts vs. time for several Ba\textsuperscript{+} deposits are shown in Fig. \ref{fig:bleach_repump} for several laser combinations, all of which were combined by dichroic filters into the same path.  Each curve is a separate deposit, all of which are scaled to begin at the same point for comparison.  In Fig. \ref{fig:bleach_repump}(a), green-only (555~nm) excitation (i.e., no re-pump lasers) is shown along with green + IR (1064~nm and 1550~nm), green + IR + red (657~nm), green + IR + blue (C480 dye at ???~nm), and green + IR + red + blue.  Increased bleaching was observed by inclusion of these re-pump lasers, especially with the blue laser.  In Fig. \ref{fig:bleach_repump}(b), green-only is shown again along with green + IR and green + IR + violet (Kr ion laser at 406~nm).  Here, {\color{gray}the IR lasers we at a lower power than in (a), and no difference is observed vs. green-only.}  Increased bleaching was observed with the violet laser, with more bleaching at the higher violet laser power.
+591-nm fluorescence counts vs. time for several Ba\textsuperscript{+} deposits made and observed at 11~K are shown in Fig. \ref{fig:bleach_repump} for several laser combinations, all of which were combined by dichroic filters into the same path.  Each curve is a separate deposit, all of which are scaled to begin at the same point for comparison.  In Fig. \ref{fig:bleach_repump}(a), green-only (555~nm) excitation (i.e., no re-pump lasers) is shown along with green + IR (1064~nm and 1550~nm), green + IR + red (657~nm), green + IR + blue (C480 dye at 472.64~nm), and green + IR + red + blue.  Increased bleaching was observed by inclusion of these re-pump lasers, especially with the blue laser.  In Fig. \ref{fig:bleach_repump}(b), green-only is shown again along with green + violet (Kr ion laser at 406~nm) at two different powers.  Increased bleaching was observed with the violet laser, with more bleaching at the higher violet laser power.
 
 %The only effects observed on bleaching rates by these re-pump lasers were increased bleaching by the blue dye and 406-nm Kr ion lasers.  Some effect of a return of fluorescence was observed after separate exposures of low-intensity 406-nm Kr ion laser, shown in Fig. [fig Kr return].  In this experiment, bleaching of the 591-nm peak was observed by x-nm excitation, and then the x-nm laser was blocked for a length of time, either for a waiting period or for exposure to the 406-nm laser.  Larger returns in 591-nm fluorescence were observed with 406-nm exposure than for periods of just waiting, for low intensities of the 406~nm.  However, co-exposure of this intensity of 406~nm with the green excitation laser had no noticeable effect.
 
@@ -227,14 +228,16 @@ Fluorescence counts vs. time for several Ba\textsuperscript{+} deposits are show
 
 %Another possible mechanism for bleaching is matrix site change caused by the difference in the Ba-Xe interactions when the Ba is in the excited state.  This was explored in an experiment where excitation spectra were produced before and after bleaching the Ba sample at various wavelengths.  \emph{\color{gray}Selected} runs are shown in Fig. [bleaching excitspec].  \emph{\color{gray}describe -- interesting changes may reveal different site components of the peaks -- or does it?  idk how this could happen ... cuz the triple peak thing was supposedly normal for a single site ... small rises were ween, but poplulations cannot be known, so we don;t know}  \emph{\color{red}plots could be simple, like 2 excitspec for a single peak with an arrow at the bleaching (between) $\lambda$ w/ a note like ``bleach w/ x~mW of x~nm"...}
 
+The 619-nm peak does bleach somewhat at much higher laser intensities.  At a few mW of 570-nm excitation, bleaching is observed when the laser is focused.  Integrated 619-nm fluorescence, divided by laser power, vs. time from an image of a focused 570-nm laser is shown in Fig. \ref{fig:bleaching619}.  Three scalings of laser power and exposure time were used such that $I \times t$ is conserved, e.g. the curve with 0.21~mW laser power (green) has 1/3 the exposure time of that with 0.07~mW (blue).  The deviation from linearity in the higher-power curves demonstrates more bleaching per excitation.  Since $I \times t$ is conserved, this indicates a time-dependent return mechanism for the fluorescence which is less helpful on shorter time scales.  Shorter exposure times are more convenient, however this must be balanced against a loss of signal-to-noise.  The 0.21~mW laser power was chosen for imaging experiments, described in Sec. \ref{sec:imaging619}.
+
 \begin{figure} %[h]
         \centering
                 \includegraphics[width=.7\textwidth]{figures/619_bleach_summed_per_mW.png}
-                \caption{}
+                \caption{Integrated 619-nm fluorescence counts/mW for three laser powers, with exposure time scaled to conserve $I \times t$.  Excitation is 570~nm focused to $w_{x} \times w_{y}$ beam waists of 2.06~$\mu$m $\times$ 2.66~$\mu$m. All one deposit of 5~s continuous Ba\textsuperscript{+} at 50~K, observed at 11~K from low to high laser intensity.}
 \label{fig:bleaching619}
 \end{figure}
 
-The 619-nm peak does bleach somewhat at much higher laser intensities.  At a few mW of around 570~nm, bleaching is observed when the laser is focused.  Integrated 619-nm fluorescence, divided by laser power, vs. time from an image of a focused 570-nm laser is shown in Fig. \ref{fig:bleaching619}.  Here, three scalings of laser power and exposure time are used such that $I \times t$ is conserved, e.g. the curve with 0.21~mW laser power (green) has 1/3 the exposure time of that with 0.07~mW (blue).  \emph{\color{gray}think one more time... these are scaled down, right?  THAT'S IMPORTANT TO MENTION}... indicates a time-dependent return mechanism for the fluorescence.  Faster exposure times are more convenient, however this must be balanced against a loss of signal-to-noise.  The 0.21~mW laser power was chosen, corresponding to an intensity of about 11.8~$\mu$W/$\mu$m$^{2}$ \emph{\color{gray}what was that based on?  say ``average" due to vibrations?}.
+%, corresponding to an intensity of about $2.4 \times 10^{4}$~mW/mm$^{2}$ for 2.06 x 2.66.
 
 %This could be a return from a metastable state.  Alternatively, if the 619-nm bleaching is caused by laser-heating of the sample (likely by heating the sapphire window), then the time-dependent return could be defined by the cryostat cooling power.
 
@@ -243,6 +246,8 @@ The 619-nm peak does bleach somewhat at much higher laser intensities.  At a few
 %As indicated in Fig. \ref{fig:specTempConditions619} in \ref{sec:tempanneal}, more rapid bleaching of the 619-nm peak is observed with the lower SXe growth rate of 5~nm/s.  This is not understood, though possible explanations include 
 
 \section{Fluorescence Efficiency of 577- and 591-nm Peaks}
+
+thaaaaaaaaaaaaaaaaaaaaangs
 
 \begin{figure} %[H]
         \centering
