@@ -9,6 +9,9 @@ Wavelength calibration of the spectrometer was done using three lasers whose wav
 
 Fitting of fluorescence spectra, with sums of peak-specific fit functions, was used to track peak heights in excitation spectra, annealing cycles, and bleaching.  The center and width parameters of the functions were kept fixed, while the heights were the free fitting parameters.  Center and width parameters for each peak were determined by fitting spectra where that peak is relatively large.  Some fine-tuning was done to match slightly different shapes resulting from different excitation wavelengths.
 
+\subsection{Fitting Spectra with Green Excitation}
+\label{subsec:fitgrn}
+
 \begin{figure} %[H]
         \centering
                 \includegraphics[width=.5\textwidth]{figures/spectra_fit_a.png}
@@ -20,11 +23,30 @@ Fitting of fluorescence spectra, with sums of peak-specific fit functions, was u
                 \includegraphics[width=.5\textwidth]{figures/spectra_fit_e.png}
                 ~
                 \includegraphics[width=.5\textwidth]{figures/spectra_fit_f.png}
-                \caption{Example fits to spectra with excitation at (a) 566.6~nm, (b) 563.4~nm, (c) 546.3~nm, (d) 561.0~nm, (e) 555.9~nm, and (f) 567.3~nm.  Laser scatter can be seen in the lower wavelengths for some figures, especially in (a) where it is on the edge of the Raman filter cutoff.}
+                \caption{Example fits to spectra of Ba\textsuperscript{+} deposits with green excitation at (a) 566.6~nm, (b) 563.4~nm, (c) 546.3~nm, (d) 561.0~nm, (e) 555.9~nm, and (f) 567.3~nm.  Laser scatter can be seen in the lower wavelengths for some figures, especially in (a) where it is on the edge of the Raman filter cutoff.}
 \label{fig:specFitsGrn}
 \end{figure}
 
-Example fits for several different excitation wavelengths are shown in Fig. \ref{fig:specFitsGrn}.  To incorporate the tail in the shape of the 577- and 591-nm peaks, an asymmetric function of the form $A(1+$erf$(\frac{x-a}{\sigma_{1}})(1-$erf$(\frac{x-a}{\sigma_{2}}))$ was used, where $a$ is the fixed center-defining parameter, $\sigma_{1}$ and $\sigma_{2}$ are fixed left and right width parameters, and $A$ is the free amplitude parameter.  The function erf() is an error function.  The 570-, 601-, 619-, and 670-nm peaks are fit with Gaussian functions with fixed widths ($\sigma$) of 1.7~nm, 4.7~nm, 5.3~nm, and 6.7~nm, respectively.  Rather than attempting frame-by-frame background subtractions, additional Gaussians are fit to the broad and sharp background fluorescence.  Two broad Gaussians centered at around 590~nm and 702~nm, and one sharp Gaussian at 694~nm, are chosen by fitting spectra of Xe-only deposits.  These backgrounds and their excitation spectra are discussed in \ref{sec:bgs}.  The full fit, i.e. the sum of each contributing peak fit, is the dotted black line.  Though the shapes do not match perfectly for all excitation wavelengths, the fits still follow the peak amplitudes well.  Ba emission and excitation spectra results are discussed in \ref{sec:fluorescence}.
+Example fits to spectra of Ba\textsuperscript{+} deposits for several different green excitation wavelengths are shown in Fig. \ref{fig:specFitsGrn}.  To incorporate the tail in the shape of the 577- and 591-nm peaks, an asymmetric function of the form $A(1+$erf$(\frac{x-a}{\sigma_{1}})(1-$erf$(\frac{x-a}{\sigma_{2}}))$ was used, where $a$ is the fixed center-defining parameter, $\sigma_{1}$ and $\sigma_{2}$ are fixed left and right width parameters, and $A$ is the free amplitude parameter.  The function erf() is an error function.  The 570-, 601-, 619-, and 670-nm peaks were fit with Gaussian functions with fixed widths ($\sigma$) of 1.7~nm, 4.7~nm, 5.3~nm, and 6.7~nm, respectively.  Rather than attempting frame-by-frame background subtractions, additional Gaussians were fit to the broad and sharp background fluorescence.  Two broad Gaussians centered at around 590~nm and 702~nm, and one sharp Gaussian at 694~nm, were chosen by fitting spectra of Xe-only deposits.  These backgrounds and their excitation spectra are discussed in \ref{sec:bgs}.  The full fit, i.e. the sum of each contributing peak fit, is the dotted black line.  Though the shapes do not match perfectly for all excitation wavelengths, the fits still follow the peak amplitudes well.  Ba emission and excitation spectra results are discussed in Sec. \ref{sec:fluorescence}.
+
+\subsection{Fitting Spectra with Blue Excitation}
+\label{subsec:fitblu}
+
+Example fits to spectra of Ba\textsuperscript{+} deposits for several different blue excitation wavelengths are shown in Fig. \ref{fig:specFitsBlu}.  Gaussian functions were used for 532-, 568-, and 575-nm peaks with widths ($\sigma$) of 2.4~nm, 5.0~nm, and 0.7~nm, respectively.  Lorentzian functions were used for the 553-, 592-, 635-, and 669-nm peaks with widths ($\gamma$) of 1.7~nm, 13.8~nm, 10.4~nm. and 9.1~nm, respectively.  Similar to spectra with green excitation, the background components were fit with two broad Gaussians centered at 546.0~nm and 703.3~nm, with respective $\sigma$ of 49.0~nm and 30.5~nm, as well as one sharp Gaussian centered at 693.4~nm peak with $\sigma$ of 0.5~nm.  The fits around 478~nm (e.g., (c)) are not quite right, mainly due to a shift in central value of the 592-nm peak.  However, fit values still follow respective peaks heights well.  The 522- and 575-nm peaks are seen in (c), though the 522-nm peak is left out of the fitting range since it sits on the Raman filter cutoff.   These spectra are discussed in Sec. \ref{sec:BaPlus}.
+
+\begin{figure} %[H]
+        \centering
+                \includegraphics[width=.5\textwidth]{figures/spectra_blu_fit_a.png}
+                ~
+                \includegraphics[width=.5\textwidth]{figures/spectra_blu_fit_b.png}
+                \includegraphics[width=.5\textwidth]{figures/spectra_blu_fit_c.png}
+                ~
+                \includegraphics[width=.5\textwidth]{figures/spectra_blu_fit_d.png}
+                \caption{Example fits to spectra of Ba\textsuperscript{+} deposits with blue excitation at (a) 461.7~nm, (b) 468.2~nm, (c) 478.3~nm, and (d) 488.2~nm.}
+\label{fig:specFitsBlu}
+\end{figure}
+
+%\emph{results section, moved here: The broad blue BG ... what does its excitspec look like? is it possible it is the surface BG? ... anyway you need to mention it.  You need to figure what happened to the BG strangeness.}
 
 %another sprectrum showing partial 601 nm is 20141107 run95.91 (547.0 nm excit.)
 
@@ -35,6 +57,8 @@ Example fits for several different excitation wavelengths are shown in Fig. \ref
 \section{Optimizing Signal-to-Background}
 \label{sec:bgs}
 
+One source of background emission was observed from the surfaces of the window.  Its broad fluorescence is shown in Fig. \ref{fig:surfBG}(a) with a 610-nm Raman filter cutoff and 570.4~nm excitation, and its excitation spectrum is shown in Fig. \ref{fig:surfBG}(b) over the R6G dye range.  The nature of this emission has not been determined, however a few features were identified.  One was that the emission increased as the window temperature was decreased, down to about 100~K where it remained flat down to 11~K, shown in Fig. \ref{fig:BGtempDependence}.  Another feature of the surface background is that it bleaches with laser exposure.  In order to reduce this background in imaging experiments, as well as to reduce run-to-run variation in the background due to bleaching, the sapphire window was pre-bleached for at least half an hour.  Decay of the surface background emission, with intermittent observation during a pre-bleaching process, is shown in Fig. \ref{fig:surfBGbleach}.  For efficient pre-bleaching, the dye laser tuned to 580.5~nm for higher laser power, though the observation points in Fig. \ref{fig:surfBGbleach} are taken with the dye laser at 570~nm with the same laser power used in the following Ba imaging experiment.  During imaging experiments, frequent Xe-only deposits were made in order to track surface background emission to establish proper background subtraction.
+
 \begin{figure} %[H]
         \centering
                 \includegraphics[width=.5\textwidth]{figures/surfaceBG_a.png}
@@ -43,8 +67,6 @@ Example fits for several different excitation wavelengths are shown in Fig. \ref
                 \caption{(a) Surface background emission spectrum w/ excitation at 570.5~nm, and (b) excitation spectrum through wavelengths in R6G dye range.  The sharp drop in (a) around 608~nm is the Raman filter cutoff.}
 \label{fig:surfBG}
 \end{figure}
-
-One source of background emission was observed from the surfaces of the window.  Its broad fluorescence is shown in Fig. \ref{fig:surfBG}(a) with a 610-nm Raman filter cutoff and 570.4~nm excitation, and its excitation spectrum is shown in Fig. \ref{fig:surfBG}(b) over the R6G dye range.  The nature of this emission has not been determined, however a few features were identified.  One was that the emission increased as the window temperature was decreased, down to about 100~K where it remained flat down to 11~K, shown in Fig. \ref{fig:BGtempDependence}.  Another feature of the surface background is that it bleaches with laser exposure.  In order to reduce this background in imaging experiments, as well as to reduce run-to-run variation in the background due to bleaching, the sapphire window was pre-bleached for at least half an hour.  Decay of the surface background emission, with intermittent observation during a pre-bleaching process, is shown in Fig. \ref{fig:surfBGbleach}.  For efficient pre-bleaching, the dye laser tuned to 580.5~nm for higher laser power, though the observation points in Fig. \ref{fig:surfBGbleach} are taken with the dye laser at 570~nm with the same laser power used in the following Ba imaging experiment.  During imaging experiments, frequent Xe-only deposits were made in order to track surface background emission to establish proper background subtraction.
 
 %\begin{figure} %[H]
 %        \centering

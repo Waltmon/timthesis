@@ -16,6 +16,8 @@
   w bleaching green excitspec
   * fixed 619 bleach plot
   - talk to Bill about discrepancies between this and BaSpec -- leak rate and 11 K vs. 10 K
+  - larger text in 619 bleach figure, as well as removing the box on the legend
+  - make sure that grn excitspec should indeed be 10^3 counts / mW instead of 10^6
 
 
 - do yourself the surface bg excitspec

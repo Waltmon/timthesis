@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.6.6)  4 NOV 2015 16:55
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.6.6)  5 NOV 2015 18:29
 entering extended mode
 **thesis_walton.tex
 (C:\Walton\thesis\timthesis\thesis_walton.tex
@@ -805,59 +805,59 @@ Package pdftex.def Info: figures/stages_2.JPG used on input line 295.
 ) (C:\Walton\thesis\timthesis\chapter_procedure.tex
 [44 <C:/Walton/thesis/timthesis/figures/stages_2.JPG>]
 Chapter 4
-<figures/spectra_fit_a.png, id=240, 949.5475pt x 674.52pt>
+<figures/spectra_fit_a.png, id=240, 712.16063pt x 605.26125pt>
 File: figures/spectra_fit_a.png Graphic file (type png)
 
 <use figures/spectra_fit_a.png>
-Package pdftex.def Info: figures/spectra_fit_a.png used on input line 14.
-(pdftex.def)             Requested size: 234.8775pt x 166.84901pt.
+Package pdftex.def Info: figures/spectra_fit_a.png used on input line 17.
+(pdftex.def)             Requested size: 234.8775pt x 199.61676pt.
 
-<figures/spectra_fit_b.png, id=241, 949.5475pt x 674.52pt>
+<figures/spectra_fit_b.png, id=241, 712.16063pt x 604.50844pt>
 File: figures/spectra_fit_b.png Graphic file (type png)
 
 <use figures/spectra_fit_b.png>
-Package pdftex.def Info: figures/spectra_fit_b.png used on input line 16.
-(pdftex.def)             Requested size: 234.8775pt x 166.84901pt.
+Package pdftex.def Info: figures/spectra_fit_b.png used on input line 19.
+(pdftex.def)             Requested size: 234.8775pt x 199.36848pt.
 
 <figures/spectra_fit_c.png, id=242, 949.5475pt x 674.52pt>
 File: figures/spectra_fit_c.png Graphic file (type png)
 
 <use figures/spectra_fit_c.png>
-Package pdftex.def Info: figures/spectra_fit_c.png used on input line 17.
+Package pdftex.def Info: figures/spectra_fit_c.png used on input line 20.
 (pdftex.def)             Requested size: 234.8775pt x 166.84901pt.
 
 <figures/spectra_fit_d.png, id=243, 949.5475pt x 674.52pt>
 File: figures/spectra_fit_d.png Graphic file (type png)
 
 <use figures/spectra_fit_d.png>
-Package pdftex.def Info: figures/spectra_fit_d.png used on input line 19.
+Package pdftex.def Info: figures/spectra_fit_d.png used on input line 22.
 (pdftex.def)             Requested size: 234.8775pt x 166.84901pt.
 
 <figures/spectra_fit_e.png, id=244, 949.5475pt x 674.52pt>
 File: figures/spectra_fit_e.png Graphic file (type png)
 
 <use figures/spectra_fit_e.png>
-Package pdftex.def Info: figures/spectra_fit_e.png used on input line 20.
+Package pdftex.def Info: figures/spectra_fit_e.png used on input line 23.
 (pdftex.def)             Requested size: 234.8775pt x 166.84901pt.
 
 <figures/spectra_fit_f.png, id=245, 949.5475pt x 674.52pt>
 File: figures/spectra_fit_f.png Graphic file (type png)
 
 <use figures/spectra_fit_f.png>
-Package pdftex.def Info: figures/spectra_fit_f.png used on input line 22.
+Package pdftex.def Info: figures/spectra_fit_f.png used on input line 25.
 (pdftex.def)             Requested size: 234.8775pt x 166.84901pt.
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 14--23
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 17--26
  [][] [] 
  []
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 14--23
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 17--26
  [] [] 
  []
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 14--23
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 17--26
  [] [] 
  []
 
@@ -869,97 +869,140 @@ timthesis/figures/spectra_fit_b.png> <C:/Walton/thesis/timthesis/figures/spectr
 a_fit_c.png> <C:/Walton/thesis/timthesis/figures/spectra_fit_d.png> <C:/Walton/
 thesis/timthesis/figures/spectra_fit_e.png> <C:/Walton/thesis/timthesis/figures
 /spectra_fit_f.png>]
-<figures/surfaceBG_a.png, id=252, 949.5475pt x 674.52pt>
-File: figures/surfaceBG_a.png Graphic file (type png)
+<figures/spectra_blu_fit_a.png, id=254, 949.5475pt x 674.52pt>
+File: figures/spectra_blu_fit_a.png Graphic file (type png)
 
-<use figures/surfaceBG_a.png>
-Package pdftex.def Info: figures/surfaceBG_a.png used on input line 40.
+<use figures/spectra_blu_fit_a.png>
+Package pdftex.def Info: figures/spectra_blu_fit_a.png used on input line 39.
 (pdftex.def)             Requested size: 234.8775pt x 166.84901pt.
 
-<figures/surfaceBG_b.png, id=253, 949.5475pt x 674.52pt>
-File: figures/surfaceBG_b.png Graphic file (type png)
+<figures/spectra_blu_fit_b.png, id=255, 949.5475pt x 674.52pt>
+File: figures/spectra_blu_fit_b.png Graphic file (type png)
 
-<use figures/surfaceBG_b.png>
-Package pdftex.def Info: figures/surfaceBG_b.png used on input line 42.
+<use figures/spectra_blu_fit_b.png>
+Package pdftex.def Info: figures/spectra_blu_fit_b.png used on input line 41.
 (pdftex.def)             Requested size: 234.8775pt x 166.84901pt.
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 40--43
+<figures/spectra_blu_fit_c.png, id=256, 949.5475pt x 674.52pt>
+File: figures/spectra_blu_fit_c.png Graphic file (type png)
+
+<use figures/spectra_blu_fit_c.png>
+Package pdftex.def Info: figures/spectra_blu_fit_c.png used on input line 42.
+(pdftex.def)             Requested size: 234.8775pt x 166.84901pt.
+
+<figures/spectra_blu_fit_d.png, id=257, 949.5475pt x 674.52pt>
+File: figures/spectra_blu_fit_d.png Graphic file (type png)
+
+<use figures/spectra_blu_fit_d.png>
+Package pdftex.def Info: figures/spectra_blu_fit_d.png used on input line 44.
+(pdftex.def)             Requested size: 234.8775pt x 166.84901pt.
+
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 39--45
  [][] [] 
  []
 
-[47 <C:/Walton/thesis/timthesis/figures/surfaceBG_a.png> <C:/Walton/thesis/timt
-hesis/figures/surfaceBG_b.png>]
-<figures/bg_temp_dep.png, id=257, 1019.81pt x 674.52pt>
+
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 39--45
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 1642) has occurred while \output is active []
+
+ [47]
+Underfull \vbox (badness 1688) has occurred while \output is active []
+
+ [48 <C:/Walton/thesis/timthesis/figures/spectra_blu_fit_a.png> <C:/Walton/thes
+is/timthesis/figures/spectra_blu_fit_b.png> <C:/Walton/thesis/timthesis/figures
+/spectra_blu_fit_c.png> <C:/Walton/thesis/timthesis/figures/spectra_blu_fit_d.p
+ng>]
+<figures/surfaceBG_a.png, id=265, 949.5475pt x 674.52pt>
+File: figures/surfaceBG_a.png Graphic file (type png)
+
+<use figures/surfaceBG_a.png>
+Package pdftex.def Info: figures/surfaceBG_a.png used on input line 64.
+(pdftex.def)             Requested size: 234.8775pt x 166.84901pt.
+
+<figures/surfaceBG_b.png, id=266, 949.5475pt x 674.52pt>
+File: figures/surfaceBG_b.png Graphic file (type png)
+
+<use figures/surfaceBG_b.png>
+Package pdftex.def Info: figures/surfaceBG_b.png used on input line 66.
+(pdftex.def)             Requested size: 234.8775pt x 166.84901pt.
+
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 64--67
+ [][] [] 
+ []
+
+<figures/bg_temp_dep.png, id=267, 1019.81pt x 674.52pt>
 File: figures/bg_temp_dep.png Graphic file (type png)
 
 <use figures/bg_temp_dep.png>
-Package pdftex.def Info: figures/bg_temp_dep.png used on input line 64.
+Package pdftex.def Info: figures/bg_temp_dep.png used on input line 86.
 (pdftex.def)             Requested size: 281.85587pt x 186.42502pt.
 
-<figures/Bleach_SurfaceBG_20150807_part1.png, id=258, 899.36pt x 875.27pt>
+<figures/Bleach_SurfaceBG_20150807_part1.png, id=268, 899.36pt x 875.27pt>
 File: figures/Bleach_SurfaceBG_20150807_part1.png Graphic file (type png)
 
 <use figures/Bleach_SurfaceBG_20150807_part1.png>
 Package pdftex.def Info: figures/Bleach_SurfaceBG_20150807_part1.png used on in
-put line 71.
+put line 93.
 (pdftex.def)             Requested size: 187.89914pt x 182.86388pt.
 
-<figures/Cr_a.png, id=259, 949.5475pt x 674.52pt>
+<figures/Cr_a.png, id=269, 949.5475pt x 674.52pt>
 File: figures/Cr_a.png Graphic file (type png)
  <use figures/Cr_a.png>
-Package pdftex.def Info: figures/Cr_a.png used on input line 78.
+Package pdftex.def Info: figures/Cr_a.png used on input line 100.
 (pdftex.def)             Requested size: 234.8775pt x 166.84901pt.
 
-<figures/Cr_b.png, id=260, 712.16063pt x 505.89pt>
+<figures/Cr_b.png, id=270, 712.16063pt x 505.89pt>
 File: figures/Cr_b.png Graphic file (type png)
  <use figures/Cr_b.png>
-Package pdftex.def Info: figures/Cr_b.png used on input line 80.
+Package pdftex.def Info: figures/Cr_b.png used on input line 102.
 (pdftex.def)             Requested size: 234.8775pt x 166.84386pt.
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 78--81
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 100--103
  [][] [] 
  []
 
-<figures/Cr_broad.png, id=261, 949.5475pt x 674.52pt>
+<figures/Cr_broad.png, id=271, 949.5475pt x 674.52pt>
 File: figures/Cr_broad.png Graphic file (type png)
 
 <use figures/Cr_broad.png>
-Package pdftex.def Info: figures/Cr_broad.png used on input line 87.
+Package pdftex.def Info: figures/Cr_broad.png used on input line 109.
 (pdftex.def)             Requested size: 328.82707pt x 233.5845pt.
 
-Underfull \hbox (badness 4416) in paragraph at lines 88--88
-\OT1/cmr/m/sc/12 Figure 4.6.\OT1/cmr/m/n/12 Excitation spec-tra for weaker sap-
+Underfull \hbox (badness 4416) in paragraph at lines 110--110
+\OT1/cmr/m/sc/12 Figure 4.7.\OT1/cmr/m/n/12 Excitation spec-tra for weaker sap-
 phire bulk emis-sions
  []
 
+[49 <C:/Walton/thesis/timthesis/figures/surfaceBG_a.png> <C:/Walton/thesis/timt
+hesis/figures/surfaceBG_b.png> <C:/Walton/thesis/timthesis/figures/bg_temp_dep.
+png>] [50 <C:/Walton/thesis/timthesis/figures/Bleach_SurfaceBG_20150807_part1.p
+ng> <C:/Walton/thesis/timthesis/figures/Cr_a.png> <C:/Walton/thesis/timthesis/f
+igures/Cr_b.png>]
+Underfull \vbox (badness 1048) has occurred while \output is active []
 
-Underfull \vbox (badness 1910) has occurred while \output is active []
-
- [48 <C:/Walton/thesis/timthesis/figures/bg_temp_dep.png> <C:/Walton/thesis/tim
-thesis/figures/Bleach_SurfaceBG_20150807_part1.png>] [49 <C:/Walton/thesis/timt
-hesis/figures/Cr_a.png> <C:/Walton/thesis/timthesis/figures/Cr_b.png> <C:/Walto
-n/thesis/timthesis/figures/Cr_broad.png>]
-<figures/S_to_B_both.png, id=270, 712.16063pt x 505.89pt>
+ [51 <C:/Walton/thesis/timthesis/figures/Cr_broad.png>]
+<figures/S_to_B_both.png, id=282, 712.16063pt x 505.89pt>
 File: figures/S_to_B_both.png Graphic file (type png)
 
 <use figures/S_to_B_both.png>
-Package pdftex.def Info: figures/S_to_B_both.png used on input line 96.
+Package pdftex.def Info: figures/S_to_B_both.png used on input line 118.
 (pdftex.def)             Requested size: 328.82707pt x 233.58449pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [50])
-(C:\Walton\thesis\timthesis\chapter_results_spectroscopy_b.tex [51 <C:/Walton/t
+)
+(C:\Walton\thesis\timthesis\chapter_results_spectroscopy_b.tex [52 <C:/Walton/t
 hesis/timthesis/figures/S_to_B_both.png>]
 Chapter 5
-<figures/BaAbs_fromBaSpec.png, id=278, 1177.39874pt x 748.29562pt>
+<figures/BaAbs_fromBaSpec.png, id=287, 1177.39874pt x 748.29562pt>
 File: figures/BaAbs_fromBaSpec.png Graphic file (type png)
 
 <use figures/BaAbs_fromBaSpec.png>
 Package pdftex.def Info: figures/BaAbs_fromBaSpec.png used on input line 14.
 (pdftex.def)             Requested size: 328.82707pt x 208.9847pt.
 
-<figures/excitspec_grn_spectra_v3.png, id=279, 949.5475pt x 674.52pt>
+<figures/excitspec_grn_spectra_v3.png, id=288, 949.5475pt x 674.52pt>
 File: figures/excitspec_grn_spectra_v3.png Graphic file (type png)
 
 <use figures/excitspec_grn_spectra_v3.png>
@@ -967,21 +1010,21 @@ Package pdftex.def Info: figures/excitspec_grn_spectra_v3.png used on input lin
 e 21.
 (pdftex.def)             Requested size: 375.80544pt x 266.95224pt.
 
-<figures/excitspec_grn.png, id=280, 949.5475pt x 674.52pt>
+<figures/excitspec_grn.png, id=289, 712.16063pt x 505.89pt>
 File: figures/excitspec_grn.png Graphic file (type png)
 
 <use figures/excitspec_grn.png>
 Package pdftex.def Info: figures/excitspec_grn.png used on input line 22.
-(pdftex.def)             Requested size: 375.80544pt x 266.95224pt.
- [52
+(pdftex.def)             Requested size: 375.80544pt x 266.9548pt.
+ [53
 
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [53 <C:/Walton/thesis/timthesis/figures/BaAbs_fromBaSpec.png>] [54 <C:/Walton/
+ [54 <C:/Walton/thesis/timthesis/figures/BaAbs_fromBaSpec.png>] [55 <C:/Walton/
 thesis/timthesis/figures/excitspec_grn_spectra_v3.png> <C:/Walton/thesis/timthe
-sis/figures/excitspec_grn.png>] <figures/Ar_vs_Ba.png, id=291, 949.5475pt x 674
+sis/figures/excitspec_grn.png>] <figures/Ar_vs_Ba.png, id=301, 949.5475pt x 674
 .52pt>
 File: figures/Ar_vs_Ba.png Graphic file (type png)
 
@@ -989,7 +1032,7 @@ File: figures/Ar_vs_Ba.png Graphic file (type png)
 Package pdftex.def Info: figures/Ar_vs_Ba.png used on input line 47.
 (pdftex.def)             Requested size: 234.8775pt x 166.84901pt.
 
-<figures/ArImaging.png, id=292, 949.5475pt x 674.52pt>
+<figures/ArImaging.png, id=302, 949.5475pt x 674.52pt>
 File: figures/ArImaging.png Graphic file (type png)
 
 <use figures/ArImaging.png>
@@ -1000,9 +1043,9 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 47--50
  [][] [] 
  []
 
-[55 <C:/Walton/thesis/timthesis/figures/Ar_vs_Ba.png> <C:/Walton/thesis/timthes
+[56 <C:/Walton/thesis/timthesis/figures/Ar_vs_Ba.png> <C:/Walton/thesis/timthes
 is/figures/ArImaging.png>]
-<figures/spectra_temperature_conditions.png, id=296, 712.16063pt x 451.6875pt>
+<figures/spectra_temperature_conditions.png, id=306, 712.16063pt x 451.6875pt>
 File: figures/spectra_temperature_conditions.png Graphic file (type png)
 
 <use figures/spectra_temperature_conditions.png>
@@ -1010,7 +1053,7 @@ Package pdftex.def Info: figures/spectra_temperature_conditions.png used on inp
 ut line 67.
 (pdftex.def)             Requested size: 328.82707pt x 208.55759pt.
 
-<figures/619_deposit_temp.png, id=297, 1200.485pt x 674.52pt>
+<figures/619_deposit_temp.png, id=307, 1200.485pt x 674.52pt>
 File: figures/619_deposit_temp.png Graphic file (type png)
 
 <use figures/619_deposit_temp.png>
@@ -1020,15 +1063,15 @@ Package pdftex.def Info: figures/619_deposit_temp.png used on input line 74.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[56 <C:/Walton/thesis/timthesis/figures/spectra_temperature_conditions.png>]
-<figures/spectra_annealing.png, id=302, 691.08188pt x 439.6425pt>
+[57 <C:/Walton/thesis/timthesis/figures/spectra_temperature_conditions.png>]
+<figures/spectra_annealing.png, id=312, 691.08188pt x 439.6425pt>
 File: figures/spectra_annealing.png Graphic file (type png)
 
 <use figures/spectra_annealing.png>
 Package pdftex.def Info: figures/spectra_annealing.png used on input line 93.
 (pdftex.def)             Requested size: 328.82707pt x 209.1879pt.
 
-<figures/anneal_577peak_topspace.png, id=303, 712.16063pt x 636.87938pt>
+<figures/anneal_577peak_topspace.png, id=313, 712.16063pt x 636.87938pt>
 File: figures/anneal_577peak_topspace.png Graphic file (type png)
 
 <use figures/anneal_577peak_topspace.png>
@@ -1036,28 +1079,28 @@ Package pdftex.def Info: figures/anneal_577peak_topspace.png used on input line
  102.
 (pdftex.def)             Requested size: 234.8775pt x 210.04451pt.
 
-<figures/anneal_591peak.png, id=304, 949.5475pt x 674.52pt>
+<figures/anneal_591peak.png, id=314, 949.5475pt x 674.52pt>
 File: figures/anneal_591peak.png Graphic file (type png)
 
 <use figures/anneal_591peak.png>
 Package pdftex.def Info: figures/anneal_591peak.png used on input line 103.
 (pdftex.def)             Requested size: 234.8775pt x 166.84901pt.
 
-<figures/anneal_601peak.png, id=305, 949.5475pt x 674.52pt>
+<figures/anneal_601peak.png, id=315, 949.5475pt x 674.52pt>
 File: figures/anneal_601peak.png Graphic file (type png)
 
 <use figures/anneal_601peak.png>
 Package pdftex.def Info: figures/anneal_601peak.png used on input line 105.
 (pdftex.def)             Requested size: 234.8775pt x 166.84901pt.
 
-<figures/anneal_619peak.png, id=306, 949.5475pt x 674.52pt>
+<figures/anneal_619peak.png, id=316, 949.5475pt x 674.52pt>
 File: figures/anneal_619peak.png Graphic file (type png)
 
 <use figures/anneal_619peak.png>
 Package pdftex.def Info: figures/anneal_619peak.png used on input line 106.
 (pdftex.def)             Requested size: 234.8775pt x 166.84901pt.
 
-<figures/anneal_670peak.png, id=307, 949.5475pt x 674.52pt>
+<figures/anneal_670peak.png, id=317, 949.5475pt x 674.52pt>
 File: figures/anneal_670peak.png Graphic file (type png)
 
 <use figures/anneal_670peak.png>
@@ -1076,29 +1119,29 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 102--109
 
 Underfull \vbox (badness 3679) has occurred while \output is active []
 
- [57 <C:/Walton/thesis/timthesis/figures/619_deposit_temp.png>]
+ [58 <C:/Walton/thesis/timthesis/figures/619_deposit_temp.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [58 <C:/Walton/thesis/timthesis/figures/spectra_annealing.png>] [59 <C:/Walton
+ [59 <C:/Walton/thesis/timthesis/figures/spectra_annealing.png>] [60 <C:/Walton
 /thesis/timthesis/figures/anneal_577peak_topspace.png> <C:/Walton/thesis/timthe
 sis/figures/anneal_591peak.png> <C:/Walton/thesis/timthesis/figures/anneal_601p
 eak.png> <C:/Walton/thesis/timthesis/figures/anneal_619peak.png> <C:/Walton/the
 sis/timthesis/figures/anneal_670peak.png>]
-<figures/bleach_spectra_a.png, id=319, 949.5475pt x 674.52pt>
+<figures/bleach_spectra_a.png, id=330, 949.5475pt x 674.52pt>
 File: figures/bleach_spectra_a.png Graphic file (type png)
 
 <use figures/bleach_spectra_a.png>
 Package pdftex.def Info: figures/bleach_spectra_a.png used on input line 138.
 (pdftex.def)             Requested size: 234.8775pt x 166.84901pt.
 
-<figures/bleach_spectra_b.png, id=320, 949.5475pt x 674.52pt>
+<figures/bleach_spectra_b.png, id=331, 949.5475pt x 674.52pt>
 File: figures/bleach_spectra_b.png Graphic file (type png)
 
 <use figures/bleach_spectra_b.png>
 Package pdftex.def Info: figures/bleach_spectra_b.png used on input line 139.
 (pdftex.def)             Requested size: 234.8775pt x 166.84901pt.
 
-<figures/bleach_spectra_c.png, id=321, 949.5475pt x 674.52pt>
+<figures/bleach_spectra_c.png, id=332, 949.5475pt x 674.52pt>
 File: figures/bleach_spectra_c.png Graphic file (type png)
 
 <use figures/bleach_spectra_c.png>
@@ -1109,7 +1152,7 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 138--142
  [] [] 
  []
 
-<figures/bleach_577vs591_on-res_a_low-I.png, id=322, 949.5475pt x 674.52pt>
+<figures/bleach_577vs591_on-res_a_low-I.png, id=333, 949.5475pt x 674.52pt>
 File: figures/bleach_577vs591_on-res_a_low-I.png Graphic file (type png)
 
 <use figures/bleach_577vs591_on-res_a_low-I.png>
@@ -1117,7 +1160,7 @@ Package pdftex.def Info: figures/bleach_577vs591_on-res_a_low-I.png used on inp
 ut line 152.
 (pdftex.def)             Requested size: 234.8775pt x 166.84901pt.
 
-<figures/bleach_577vs591_on-res_b_medium-I.png, id=323, 949.5475pt x 674.52pt>
+<figures/bleach_577vs591_on-res_b_medium-I.png, id=334, 949.5475pt x 674.52pt>
 File: figures/bleach_577vs591_on-res_b_medium-I.png Graphic file (type png)
 
 <use figures/bleach_577vs591_on-res_b_medium-I.png>
@@ -1125,7 +1168,7 @@ Package pdftex.def Info: figures/bleach_577vs591_on-res_b_medium-I.png used on
 input line 153.
 (pdftex.def)             Requested size: 234.8775pt x 166.84901pt.
 
-<figures/bleach_577vs591_on-res_c_high-I.png, id=324, 949.5475pt x 674.52pt>
+<figures/bleach_577vs591_on-res_c_high-I.png, id=335, 949.5475pt x 674.52pt>
 File: figures/bleach_577vs591_on-res_c_high-I.png Graphic file (type png)
 
 <use figures/bleach_577vs591_on-res_c_high-I.png>
@@ -1140,15 +1183,15 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 152--156
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [60 <C:/Walton/thesis/timthesis/figures/bleach_spectra_a.png> <C:/Walton/thesi
+ [61 <C:/Walton/thesis/timthesis/figures/bleach_spectra_a.png> <C:/Walton/thesi
 s/timthesis/figures/bleach_spectra_b.png> <C:/Walton/thesis/timthesis/figures/b
 leach_spectra_c.png>]
 Underfull \vbox (badness 1735) has occurred while \output is active []
 
- [61 <C:/Walton/thesis/timthesis/figures/bleach_577vs591_on-res_a_low-I.png> <C
+ [62 <C:/Walton/thesis/timthesis/figures/bleach_577vs591_on-res_a_low-I.png> <C
 :/Walton/thesis/timthesis/figures/bleach_577vs591_on-res_b_medium-I.png> <C:/Wa
 lton/thesis/timthesis/figures/bleach_577vs591_on-res_c_high-I.png>]
-<figures/bleach_577-nm_555vs564.png, id=332, 949.5475pt x 674.52pt>
+<figures/bleach_577-nm_555vs564.png, id=342, 949.5475pt x 674.52pt>
 File: figures/bleach_577-nm_555vs564.png Graphic file (type png)
 
 <use figures/bleach_577-nm_555vs564.png>
@@ -1156,7 +1199,7 @@ Package pdftex.def Info: figures/bleach_577-nm_555vs564.png used on input line
 164.
 (pdftex.def)             Requested size: 234.8775pt x 166.84901pt.
 
-<figures/bleach_591-nm_555vs560.png, id=333, 949.5475pt x 674.52pt>
+<figures/bleach_591-nm_555vs560.png, id=343, 949.5475pt x 674.52pt>
 File: figures/bleach_591-nm_555vs560.png Graphic file (type png)
 
 <use figures/bleach_591-nm_555vs560.png>
@@ -1168,7 +1211,7 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 164--167
  [][] [] 
  []
 
-<figures/bleach_model_vacuum_a_regions.png, id=334, 949.5475pt x 674.52pt>
+<figures/bleach_model_vacuum_a_regions.png, id=344, 949.5475pt x 674.52pt>
 File: figures/bleach_model_vacuum_a_regions.png Graphic file (type png)
 
 <use figures/bleach_model_vacuum_a_regions.png>
@@ -1176,7 +1219,7 @@ Package pdftex.def Info: figures/bleach_model_vacuum_a_regions.png used on inpu
 t line 179.
 (pdftex.def)             Requested size: 234.8775pt x 166.84901pt.
 
-<figures/bleach_model_vacuum_b_regions.png, id=335, 949.5475pt x 674.52pt>
+<figures/bleach_model_vacuum_b_regions.png, id=345, 949.5475pt x 674.52pt>
 File: figures/bleach_model_vacuum_b_regions.png Graphic file (type png)
 
 <use figures/bleach_model_vacuum_b_regions.png>
@@ -1191,18 +1234,18 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 179--182
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [62 <C:/Walton/thesis/timthesis/figures/bleach_577-nm_555vs564.png> <C:/Walton
-/thesis/timthesis/figures/bleach_591-nm_555vs560.png>] [63 <C:/Walton/thesis/ti
+ [63 <C:/Walton/thesis/timthesis/figures/bleach_577-nm_555vs564.png> <C:/Walton
+/thesis/timthesis/figures/bleach_591-nm_555vs560.png>] [64 <C:/Walton/thesis/ti
 mthesis/figures/bleach_model_vacuum_a_regions.png> <C:/Walton/thesis/timthesis/
 figures/bleach_model_vacuum_b_regions.png>]
-<figures/bleach_re-pump_a.png, id=342, 712.16063pt x 505.89pt>
+<figures/bleach_re-pump_a.png, id=352, 712.16063pt x 505.89pt>
 File: figures/bleach_re-pump_a.png Graphic file (type png)
 
 <use figures/bleach_re-pump_a.png>
 Package pdftex.def Info: figures/bleach_re-pump_a.png used on input line 212.
 (pdftex.def)             Requested size: 234.8775pt x 166.84386pt.
 
-<figures/bleach_re-pump_b.png, id=343, 712.16063pt x 505.89pt>
+<figures/bleach_re-pump_b.png, id=353, 712.16063pt x 505.89pt>
 File: figures/bleach_re-pump_b.png Graphic file (type png)
 
 <use figures/bleach_re-pump_b.png>
@@ -1222,9 +1265,9 @@ $), 1550 nm ($\OMS/cmsy/m/n/12 $\OT1/cmr/m/n/12 9 mW/mm$[]$), 657 nm
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [64 <C:/Walton/thesis/timthesis/figures/bleach_re-pump_a.png> <C:/Walton/thesi
+ [65 <C:/Walton/thesis/timthesis/figures/bleach_re-pump_a.png> <C:/Walton/thesi
 s/timthesis/figures/bleach_re-pump_b.png>]
-<figures/619_bleach_summed_per_mW.png, id=349, 1019.81pt x 674.52pt>
+<figures/619_bleach_summed_per_mW.png, id=359, 1019.81pt x 674.52pt>
 File: figures/619_bleach_summed_per_mW.png Graphic file (type png)
 
 <use figures/619_bleach_summed_per_mW.png>
@@ -1232,60 +1275,57 @@ Package pdftex.def Info: figures/619_bleach_summed_per_mW.png used on input lin
 e 235.
 (pdftex.def)             Requested size: 328.82707pt x 217.48729pt.
 
-<figures/QE_20140626_separate_w.png, id=350, 1200.485pt x 674.52pt>
-File: figures/QE_20140626_separate_w.png Graphic file (type png)
-
-<use figures/QE_20140626_separate_w.png>
-Package pdftex.def Info: figures/QE_20140626_separate_w.png used on input line 
-254.
-(pdftex.def)             Requested size: 328.82707pt x 184.75768pt.
-
 Underfull \vbox (badness 1642) has occurred while \output is active []
 
- [65]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ [66]
+<figures/QE_new_just1000.png, id=364, 712.16063pt x 505.89pt>
+File: figures/QE_new_just1000.png Graphic file (type png)
 
- [66 <C:/Walton/thesis/timthesis/figures/619_bleach_summed_per_mW.png> <C:/Walt
-on/thesis/timthesis/figures/QE_20140626_separate_w.png>]
-<figures/BaHx_a.png, id=358, 949.5475pt x 674.52pt>
+<use figures/QE_new_just1000.png>
+Package pdftex.def Info: figures/QE_new_just1000.png used on input line 256.
+(pdftex.def)             Requested size: 328.82707pt x 233.58449pt.
+
+<figures/BaHx_a.png, id=365, 949.5475pt x 674.52pt>
 File: figures/BaHx_a.png Graphic file (type png)
  <use figures/BaHx_a.png>
-Package pdftex.def Info: figures/BaHx_a.png used on input line 268.
+Package pdftex.def Info: figures/BaHx_a.png used on input line 270.
 (pdftex.def)             Requested size: 234.8775pt x 166.84901pt.
 
-<figures/BaHx_b.png, id=359, 949.5475pt x 674.52pt>
+<figures/BaHx_b.png, id=366, 949.5475pt x 674.52pt>
 File: figures/BaHx_b.png Graphic file (type png)
  <use figures/BaHx_b.png>
-Package pdftex.def Info: figures/BaHx_b.png used on input line 270.
+Package pdftex.def Info: figures/BaHx_b.png used on input line 272.
 (pdftex.def)             Requested size: 234.8775pt x 166.84901pt.
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 268--271
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 270--273
  [][] [] 
  []
 
-<figures/excitspecBlue_a.png, id=360, 949.5475pt x 674.52pt>
-File: figures/excitspecBlue_a.png Graphic file (type png)
+[67 <C:/Walton/thesis/timthesis/figures/619_bleach_summed_per_mW.png>]
+<figures/excitspec_blu_a.png, id=370, 949.5475pt x 674.52pt>
+File: figures/excitspec_blu_a.png Graphic file (type png)
 
-<use figures/excitspecBlue_a.png>
-Package pdftex.def Info: figures/excitspecBlue_a.png used on input line 281.
+<use figures/excitspec_blu_a.png>
+Package pdftex.def Info: figures/excitspec_blu_a.png used on input line 283.
 (pdftex.def)             Requested size: 328.82707pt x 233.5845pt.
 
-<figures/excitspecBlue_b.png, id=361, 949.5475pt x 674.52pt>
+<figures/excitspecBlue_b.png, id=371, 949.5475pt x 674.52pt>
 File: figures/excitspecBlue_b.png Graphic file (type png)
 
 <use figures/excitspecBlue_b.png>
-Package pdftex.def Info: figures/excitspecBlue_b.png used on input line 282.
+Package pdftex.def Info: figures/excitspecBlue_b.png used on input line 284.
 (pdftex.def)             Requested size: 328.82707pt x 233.5845pt.
+ [68 <C:/Walton/thesis/timthesis/figures/QE_new_just1000.png> <C:/Walton/thesis
+/timthesis/figures/BaHx_a.png> <C:/Walton/thesis/timthesis/figures/BaHx_b.png>]
 
-Underfull \vbox (badness 1655) has occurred while \output is active []
+Underfull \vbox (badness 1783) has occurred while \output is active []
 
- [67 <C:/Walton/thesis/timthesis/figures/BaHx_a.png> <C:/Walton/thesis/timthesi
-s/figures/BaHx_b.png>] [68 <C:/Walton/thesis/timthesis/figures/excitspecBlue_a.
-png> <C:/Walton/thesis/timthesis/figures/excitspecBlue_b.png>])
-(C:\Walton\thesis\timthesis\chapter_results_imaging.tex [69]
+ [69 <C:/Walton/thesis/timthesis/figures/excitspec_blu_a.png> <C:/Walton/thesis
+/timthesis/figures/excitspecBlue_b.png>])
+(C:\Walton\thesis\timthesis\chapter_results_imaging.tex [70]
 Chapter 6
 
-<figures/raw_14-atom_labels_from_paper_1f.png, id=371, 359.84438pt x 706.89093p
+<figures/raw_14-atom_labels_from_paper_1f.png, id=382, 359.84438pt x 706.89093p
 t>
 File: figures/raw_14-atom_labels_from_paper_1f.png Graphic file (type png)
  <use figures/raw_14-atom_labels_from_paper_1f.png>
@@ -1295,29 +1335,29 @@ nput line 13.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [70
+ [71
 
 
 ]
-<figures/image_1e4.png, id=375, 748.7975pt x 1015.795pt>
+<figures/image_1e4.png, id=386, 748.7975pt x 1015.795pt>
 File: figures/image_1e4.png Graphic file (type png)
 
 <use figures/image_1e4.png>
 Package pdftex.def Info: figures/image_1e4.png used on input line 33.
 (pdftex.def)             Requested size: 281.85587pt x 382.36366pt.
- [71 <C:/Walton/thesis/timthesis/figures/raw_14-atom_labels_from_paper_1f.png>]
+ [72 <C:/Walton/thesis/timthesis/figures/raw_14-atom_labels_from_paper_1f.png>]
 
 Underfull \vbox (badness 2142) has occurred while \output is active []
 
- [72 <C:/Walton/thesis/timthesis/figures/image_1e4.png>]
-<figures/lin_20150526.png, id=384, 567.62062pt x 439.6425pt>
+ [73 <C:/Walton/thesis/timthesis/figures/image_1e4.png>]
+<figures/lin_20150526.png, id=395, 567.62062pt x 439.6425pt>
 File: figures/lin_20150526.png Graphic file (type png)
 
 <use figures/lin_20150526.png>
 Package pdftex.def Info: figures/lin_20150526.png used on input line 45.
 (pdftex.def)             Requested size: 234.8775pt x 181.91826pt.
 
-<figures/lin_pres_zoom_predictSingleAtom.png, id=385, 568.37344pt x 456.20438pt
+<figures/lin_pres_zoom_predictSingleAtom.png, id=396, 568.37344pt x 456.20438pt
 >
 File: figures/lin_pres_zoom_predictSingleAtom.png Graphic file (type png)
  <use figures/lin_pres_zoom_predictSingleAtom.png>
@@ -1325,7 +1365,7 @@ Package pdftex.def Info: figures/lin_pres_zoom_predictSingleAtom.png used on in
 put line 47.
 (pdftex.def)             Requested size: 234.8775pt x 188.52771pt.
 
-<figures/lin_vsPulses_all_3x3_pre-165.png, id=386, 1501.61pt x 1015.795pt>
+<figures/lin_vsPulses_all_3x3_pre-165.png, id=397, 1501.61pt x 1015.795pt>
 File: figures/lin_vsPulses_all_3x3_pre-165.png Graphic file (type png)
 
 <use figures/lin_vsPulses_all_3x3_pre-165.png>
@@ -1333,7 +1373,7 @@ Package pdftex.def Info: figures/lin_vsPulses_all_3x3_pre-165.png used on input
  line 48.
 (pdftex.def)             Requested size: 234.8775pt x 158.88808pt.
 
-<figures/lin_20150526_cut.png, id=387, 362.7954pt x 245.2362pt>
+<figures/lin_20150526_cut.png, id=398, 362.7954pt x 245.2362pt>
 File: figures/lin_20150526_cut.png Graphic file (type png)
 
 <use figures/lin_20150526_cut.png>
@@ -1349,20 +1389,20 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 45--51
  [] [] 
  []
 
-<figures/lin_corr_20151016.png, id=388, 1019.81pt x 958.58125pt>
+<figures/lin_corr_20151016.png, id=399, 1019.81pt x 958.58125pt>
 File: figures/lin_corr_20151016.png Graphic file (type png)
 
 <use figures/lin_corr_20151016.png>
 Package pdftex.def Info: figures/lin_corr_20151016.png used on input line 57.
 (pdftex.def)             Requested size: 465.06004pt x 437.13515pt.
- [73 <C:/Walton/thesis/timthesis/figures/lin_20150526.png> <C:/Walton/thesis/ti
+ [74 <C:/Walton/thesis/timthesis/figures/lin_20150526.png> <C:/Walton/thesis/ti
 mthesis/figures/lin_pres_zoom_predictSingleAtom.png> <C:/Walton/thesis/timthesi
 s/figures/lin_vsPulses_all_3x3_pre-165.png> <C:/Walton/thesis/timthesis/figures
 /lin_20150526_cut.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [74 <C:/Walton/thesis/timthesis/figures/lin_corr_20151016.png>]
-<figures/train_20150807_v3_runs70_88_81_fromGiorgioFolder.png, id=397, 1001.993
+ [75 <C:/Walton/thesis/timthesis/figures/lin_corr_20151016.png>]
+<figures/train_20150807_v3_runs70_88_81_fromGiorgioFolder.png, id=408, 1001.993
 44pt x 761.84625pt>
 File: figures/train_20150807_v3_runs70_88_81_fromGiorgioFolder.png Graphic file
  (type png)
@@ -1372,7 +1412,7 @@ Package pdftex.def Info: figures/train_20150807_v3_runs70_88_81_fromGiorgioFold
 er.png used on input line 77.
 (pdftex.def)             Requested size: 465.06004pt x 353.60385pt.
 
-<figures/xebaxe.png, id=398, 1050.92625pt x 1445.4pt>
+<figures/xebaxe.png, id=409, 1050.92625pt x 1445.4pt>
 File: figures/xebaxe.png Graphic file (type png)
  <use figures/xebaxe.png>
 Package pdftex.def Info: figures/xebaxe.png used on input line 84.
@@ -1384,14 +1424,14 @@ LaTeX Warning: Float too large for page by 2.52666pt on input line 87.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [75]
+ [76]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [76 <C:/Walton/thesis/timthesis/figures/train_20150807_v3_runs70_88_81_fromGio
-rgioFolder.png>] [77 <C:/Walton/thesis/timthesis/figures/xebaxe.png>])
-(C:\Walton\thesis\timthesis\chapter_conclusions.tex [78]
+ [77 <C:/Walton/thesis/timthesis/figures/train_20150807_v3_runs70_88_81_fromGio
+rgioFolder.png>] [78 <C:/Walton/thesis/timthesis/figures/xebaxe.png>])
+(C:\Walton\thesis\timthesis\chapter_conclusions.tex [79]
 Chapter 7
-) [79
+) [80
 
 
 ]
@@ -1401,12 +1441,12 @@ Missing character: There is no “ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
- [80] [81] [82] (C:\Walton\thesis\timthesis\thesis_walton.aux) ) 
+ [81] [82] [83] (C:\Walton\thesis\timthesis\thesis_walton.aux) ) 
 Here is how much of TeX's memory you used:
- 5020 strings out of 494045
- 74395 string characters out of 3148385
- 224040 words of memory out of 3000000
- 7942 multiletter control sequences out of 15000+200000
+ 5044 strings out of 494045
+ 75045 string characters out of 3148385
+ 224088 words of memory out of 3000000
+ 7962 multiletter control sequences out of 15000+200000
  13150 words of font info for 50 fonts, out of 3000000 for 9000
  876 hyphenation exceptions out of 8191
  40i,14n,35p,2376b,402s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1425,9 +1465,9 @@ onts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmti8.pfb>
-Output written on thesis_walton.pdf (89 pages, 6637392 bytes).
+Output written on thesis_walton.pdf (90 pages, 6736962 bytes).
 PDF statistics:
- 476 PDF objects out of 1000 (max. 8388607)
+ 487 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 481 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 501 words of extra memory for PDF output out of 10000 (max. 10000000)
 
