@@ -18,10 +18,12 @@
   - talk to Bill about discrepancies between this and BaSpec -- leak rate and 11 K vs. 10 K
   - larger text in 619 bleach figure, as well as removing the box on the legend
   - make sure that grn excitspec should indeed be 10^3 counts / mW instead of 10^6
-
+  - do 100 and 1000 micron w reality from 2014-06-24 w/ ray matrices for correct powers and trying a corr on QE
 
 - do yourself the surface bg excitspec
 - do yourself 2D dust spot stuff, cuz chris had less noisy results on his first try, andthe new one sucks
 - thicker borders on small plots? test with excit spec to match the big one in that same figure.
 - ba tagging in intro should have reference to Thomas gas tagging (does it?)
 - if you're not refering to ba spec paper in intro, need to move the reference (did you?)
+
+ummm

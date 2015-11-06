@@ -1,12 +1,10 @@
 - intro:
-  - read about CP-violation aspect of Majorana phases to make your statement -- are they Dirac and Majorana CP-violating phases, respectively?
-  - read KATRIN paper for their mass definition (being different from what you thought was just an expectation value)
-  - find posting of sensitivity plot for if it's 1- and 2-sigma regions, and make this yourself
+  - read about CP-violation aspect of Majorana phases
 
 - theory:
   - Bill:  refs for Ba rates
   - Bill:  soln to 6-level -- small w12?
-  - fiz up Franck-Condon pic
+  * fiz up Franck-Condon pic
 
 - results:
   w two gray refs for Be:Xe and diffusion at x K
@@ -18,26 +16,12 @@
   w bleaching green excitspec
   * fixed 619 bleach plot
   - talk to Bill about discrepancies between this and BaSpec -- leak rate and 11 K vs. 10 K
-
+  - larger text in 619 bleach figure, as well as removing the box on the legend
+  - make sure that grn excitspec should indeed be 10^3 counts / mW instead of 10^6
+  - do 100 and 1000 micron w reality from 2014-06-24 w/ ray matrices for correct powers and trying a corr on QE
 
 - do yourself the surface bg excitspec
 - do yourself 2D dust spot stuff, cuz chris had less noisy results on his first try, andthe new one sucks
 - thicker borders on small plots? test with excit spec to match the big one in that same figure.
 - ba tagging in intro should have reference to Thomas gas tagging (does it?)
 - if you're not refering to ba spec paper in intro, need to move the reference (did you?)
-
-
-
-
-Results:  spec
-1)  peaks / excitspec -- more detail on fits:  don't call asym a Gaus, and show that it doesn't alway work great but it still follows peaks
-2)  temp dependence --> defines deposit/excitation conditions
-3)  bleaching
-4)  BGs
-5)  candidate Ba+
-
-Results: imaging
-intro: the stuff learned above informs conditions for imaging
-1)  imaging 590
-2)  imaging 619
-3)  scanning
