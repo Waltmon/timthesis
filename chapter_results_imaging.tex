@@ -32,7 +32,7 @@ An example image of the focused 570~nm dye laser on a Ba\textsuperscript{+} depo
 \begin{figure} %[H]
         \centering
                 \includegraphics[width=.6\textwidth]{figures/image_1e4.png}
-                \caption{Image of about $10^{4}$ total Ba atoms in SXe, with about $5 \times 10^{3}$ atoms exposed at a time.  100-s exposure with .02~$\mu$W of 566~nm excitation, deposited at 50~K and observed at 11~K.  $3 \times 3$ CCD pixel binning.}
+                \caption{Image of about ? average Ba atoms in SXe.  100-s exposure with .02~$\mu$W of 566~nm excitation, deposited at 50~K and observed at 11~K.  $3 \times 3$ CCD pixel binning.}
 \label{fig:image590s}
 \end{figure}
 
@@ -50,7 +50,7 @@ First attempts at imaging small numbers of Ba atoms in a focused laser region we
 \begin{figure} %[H]
         \centering
                 \includegraphics[width=.95\textwidth]{figures/xebaxe_average.png}
-                \caption{Raw images of three Ba\textsuperscript{+} deposits yielding (a) $\leq 100$, (b) $\leq 9$, and (c) $\leq 2.4$ Ba atoms, with their preceding and succeeding Xe-only deposits.}
+                \caption{Raw images of three Ba\textsuperscript{+} deposits yielding (a) $\leq 49$, (b) $\leq 4$, and (c) $\leq 1$ average Ba atoms, with their preceding and succeeding Xe-only deposits.}
 \label{fig:xebaxe}
 \end{figure}
 
@@ -64,9 +64,11 @@ First attempts at imaging small numbers of Ba atoms in a focused laser region we
 %\label{fig:xevar}
 %\end{figure}
 
-Raw images of Ba\textsuperscript{+} deposits and their preceding and succeeding Xe-only deposits are shown in Fig. \ref{fig:xebaxe} for deposits of (a) $\leq 49$ ($\leq 230$), (b) $\leq 4$ ($\leq 20$), and (c) $\leq 1$ ($\leq 5$) average (total) Ba atoms.   [describe what is observed...] The lack of historical buildup of Ba fluorescence between deposits, even for large Ba\textsuperscript{+} deposits, is important for the implementation of this method of Ba tagging on a probe in nEXO.
+Raw images of Ba\textsuperscript{+} deposits and their preceding and succeeding Xe-only deposits are shown in Fig. \ref{fig:xebaxe} for deposits of (a) $\leq 49$ ($\leq 230$), (b) $\leq 4$ ($\leq 20$), and (c) $\leq 1$ ($\leq 5$) average (total) Ba atoms.   Signal is distinguishable from background by eye, even at the 1-atom average signal level.  The lack of historical buildup of Ba fluorescence between deposits, even for large Ba\textsuperscript{+} deposits, is important for the implementation of this method of Ba tagging on a probe in nEXO.
 
 An imaging experiment consisted of many different pulsed Ba\textsuperscript{+} deposits, each of which was evaporated after observation.  This procedure is described in \ref{sec:deposition}-\ref{sec:collection}.  A linear relationship between observed signal and ions deposited must be observed and repeated.  Frequent Xe-only deposits ware made, typically every three runs, to establish the local background.  The image of each deposit was analyzed by summing the counts of a 3-pixel$\times$3-pixel (15$\mu$m$\times$15$\mu$m) region centered on the laser spot in the SXe layer where it excites Ba atoms, i.e. at the top of the laser path in Fig. \ref{fig:imageexamp}.  A partial-bin integrator was implemented such that the 3-pixel$\times$3-pixel region could be centered on the peak center of each run, which typically varied by about half a micron between runs.  Summed counts vs. Ba\textsuperscript{+} ions deposited into the laser region is shown in Fig. \ref{fig:lin} for a combination of data sets from two separate days \emph{\color{blue}maybe you want them separate (with each point having errors) by color to show agreement }  Each point has subtracted the averaged counts from the two surrounding Xe-only deposits.  Some variation in signal is observed, likely due to spatial drifting of the ion beam, as this variation was larger on days where larger beam drift was observed.  Nonetheless, a clear linearity in observed in signal vs. ions deposited, all the way down to single ions deposited.  Recall that the number of ions is an upper limit on the number of atoms in the 619-nm peak matrix site.  ``0-pulse" deposits are also made, wherein Faraday cup 3 is retracted for the 1-s period, but the ion beam remains deflected with no pulses.  This establishes the level of neutral Ba atoms making their way down the beam line from the source into the laser region.  Signal at the few-atom level is observed from these deposits.
+
+Images of Ba fluorescence are produced by subtracting Xe-only images, shown in Fig. \ref{fig:train} .... um were also directly subtracted to produce images of 619-nm Ba fluorescence.  In cases where the image has shifted slightly between runs, a binning redistribution was applied to do sub-pixel image shifting for better subtraction, though images which did not require this were preferred.  619-nm fluorescence images for several deposits of varying numbers of atoms are shown in Fig. \ref{fig:train}.
 
 %... and try combining those other days.  It will require scaling for intensity difference (spher. abb.) and time, and remember different I$\times$t might give different efficiency.
 
@@ -77,11 +79,9 @@ An imaging experiment consisted of many different pulsed Ba\textsuperscript{+} d
 \label{fig:train}
 \end{figure}
 
-\emph{\color{gray}Paragraph on BG variation was here, but I moved it to Method w/o thinking thru completely in this context.  Image is also commented out here, above train figure... and actually I took it out there too...}
+%\emph{\color{gray}Paragraph on BG variation was here, but I moved it to Method w/o thinking thru completely in this context.  Image is also commented out here, above train figure... and actually I took it out there too...}
 
 %Variation in the background level, dominated by the surface background, is shown in Fig. \ref{fig:xevar}.  Variation was most likely caused by drift of the laser position on the window, to regions of different historical bleaching.  Local variations are at the single-atom signal level, however positive signal after subtraction, even at the single-atom level, demonstrates that this variation is sufficiently low.
-
-Xe-only images were also directly subtracted to produce images of 619-nm Ba fluorescence.  In cases where the image has shifted slightly between runs, a binning redistribution was applied to do sub-pixel image shifting for better subtraction, though images which did not require this were preferred.  619-nm fluorescence images for several deposits of varying numbers of atoms are shown in Fig. \ref{fig:train}.  
 
 \begin{figure} %[H]
         \centering
