@@ -25,7 +25,7 @@
 \contentsline {section}{\tocsection {}{3.4}{Laser Excitation}}{37}
 \contentsline {section}{\tocsection {}{3.5}{Collection Optics}}{39}
 \contentsline {section}{\tocsection {}{3.6}{Vibrations and Effective Laser Region}}{41}
-\contentsline {section}{\tocsection {}{3.7}{Laser Scanning}}{43}
+\contentsline {section}{\tocsection {}{3.7}{Laser Scanning}}{44}
 \contentsline {chapter}{\tocchapter {Chapter}{4}{Method}}{45}
 \contentsline {section}{\tocsection {}{4.1}{Wavelength Calibration}}{45}
 \contentsline {section}{\tocsection {}{4.2}{Fitting of Spectra}}{45}
@@ -44,8 +44,8 @@
 \contentsline {section}{\tocsection {}{5.6}{Blue Excitation / Candidate Ba\textsuperscript {+} Lines}}{67}
 \contentsline {chapter}{\tocchapter {Chapter}{6}{Results: Imaging}}{71}
 \contentsline {section}{\tocsection {}{6.1}{Imaging 577- and 591-nm peaks}}{72}
-\contentsline {section}{\tocsection {}{6.2}{Imaging 619-nm peak}}{74}
-\contentsline {section}{\tocsection {}{6.3}{Scanned Images}}{79}
-\contentsline {chapter}{\tocchapter {Chapter}{7}{Conclusions}}{80}
-\contentsline {section}{\tocsection {}{7.1}{Future Steps}}{80}
-\contentsline {chapter}{Bibliography}{81}
+\contentsline {section}{\tocsection {}{6.2}{Imaging 619-nm peak}}{73}
+\contentsline {section}{\tocsection {}{6.3}{Scanned Images}}{77}
+\contentsline {chapter}{\tocchapter {Chapter}{7}{Conclusions}}{79}
+\contentsline {section}{\tocsection {}{7.1}{Future Steps}}{79}
+\contentsline {chapter}{Bibliography}{80}
