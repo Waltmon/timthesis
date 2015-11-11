@@ -48,4 +48,4 @@
 \contentsline {section}{\tocsection {}{6.3}{Scanned Images}}{75}
 \contentsline {chapter}{\tocchapter {Chapter}{7}{Conclusions}}{79}
 \contentsline {section}{\tocsection {}{7.1}{Future Steps}}{79}
-\contentsline {chapter}{Bibliography}{80}
+\contentsline {chapter}{Bibliography}{81}
