@@ -1,7 +1,7 @@
 \chapter{Results: Imaging}
 \label{imaging}
 
-\emph{\color{red}do corr. on p-meter sensitive A ($\times$1.57) and 89 percent optical flat T}
+%\emph{\color{red}do corr. on p-meter sensitive A ($\times$1.57) and 89 percent optical flat T}
 
 Results presented in Chapter 4 determined the ideal conditions for imaging small numbers of Ba atoms in SXe.  Ideal excitation wavelengths were determined by studying the excitation spectra of the signal as well as the background.  Bleaching of the fluorescence determined ideal laser intensities to be used.  Studies of deposits made and observed at different temperatures determined the procedure of depositing at $50 \pm 5$~K and observing at 11~K.  Imaging of the 577- and 591-nm fluorescence is presented in \ref{sec:imaging590and577} down to the $10^{4}$-atom level, and imaging of the 619-nm peak is presented down to the single-atom level.  Initial scanned images of Ba\textsuperscript{+} deposits are presented in \ref{sec:scanning}.
 
@@ -10,8 +10,8 @@ Though the imaging spectrometer can produce spacial images with the 0-order grat
 %angle=90,
 \begin{figure} %[H]
         \centering
-                \includegraphics[width=.4\textwidth]{figures/raw_14-atom_labels_from_paper_1f.png}
-                \caption{Example image of focused laser spot on a Ba\textsuperscript{+} deposit on a c-plane sapphire window of 0.5~mm thickness surface.  A 620-nm band-pass filter passes the fluorescence. \emph{\color{gray}put 5$\mu$m on axes, and capitalize words.}}
+                \includegraphics[width=.4\textwidth]{figures/imageExamp.png}
+                \caption{Example image of focused laser spot on a Ba\textsuperscript{+} deposit on a c-plane sapphire window of 0.5~mm thickness surface.  A 620-nm band-pass filter passes the fluorescence.}
 \label{fig:imageexamp}
 \end{figure}
 
@@ -68,41 +68,45 @@ Raw images of Ba\textsuperscript{+} deposits and their preceding and succeeding 
 
 %An imaging experiment consisted of many different pulsed Ba\textsuperscript{+} deposits, each of which was evaporated after observation.  This procedure is described in \ref{sec:deposition}-\ref{sec:collection}.
 
-619-nm fluorescence signal is plotted on a log-log scale vs. average ions exposed in Fig. \ref{fig:lin} for many deposits in two experiments with two different laser focusing lenses.  The bi-convex laser-focusing lens with no astigmatism compensation (black) resulted in a larger laser region and a lower intensity than the aspherical lens with astigmatism compensation (orange).  Signal was determined by summing the counts of a 3-pixel$\times$3-pixel (15$\mu$m$\times$15$\mu$m) region centered on the laser spot in the image, and background was determined by averaging the 3-pixel$\times$3-pixel sum of the Xe-only runs before and after each Ba\textsuperscript{+} \emph{\color{gray}may want to put sub-pixel integrator in Method}.  Signal and background were scaled to laser intensity and exposure time respective to each experiment, with laser power respective to each individual run, and then background was subtracted.  The two experiments demonstrate a linear relationship between signal and number of ions exposed over nearly three orders of magnitude.  A linear scale version of this data is shown in Fig. [], with a zoom into small numbers of ions in the inset.  Zero ion deposits are produced by retracting the Faraday cup for 1~s without pulsing the ion beam.  \emph{\color{gray}talk about non-significant non-zero value there?  are the 1-atom also not significant then? ... mention counts / whatev}  Subtracted images of 619-nm Ba fluorescence are shown in Fig. \ref{fig:train} for a few deposits near the linear trend line in Fig. \ref{fig:lin},[].
+\begin{figure} %[H]
+        \centering
+                \includegraphics[width=.5\textwidth]{figures/lin_20150526and20150807_log.png}
+                ~
+                \includegraphics[width=.5\textwidth]{figures/lin_20150526and20150807_lin.png}
+                \caption{619-nm signal, scaled by laser intensity and exposure time, vs. average number of Ba\textsuperscript{+} exposed by focused laser at 570~nm for experiments with two different laser focusing lenses} %:  bi-convex (black) and asphere (orange).
+\label{fig:lin}
+\end{figure}
+
+\begin{figure} %[H]
+        \centering
+                \includegraphics[width=.99\textwidth]{figures/train.png}
+                \caption{Subtracted images of 619-nm fluorescence in focused laser region for runs near linear trend line in signal vs. ions deposited.  Exposure is 60~s with 570~nm excitation.}
+\label{fig:train}
+\end{figure}
+
+619-nm fluorescence signal is plotted on a log-log scale vs. average ions exposed in Fig. \ref{fig:lin} for many deposits in two experiments with two different laser focusing lenses.  The bi-convex laser-focusing lens with no astigmatism compensation (black) resulted in a larger laser region and a lower intensity than the aspherical lens with astigmatism compensation (orange).  Signal was determined by summing the counts of a 3-pixel$\times$3-pixel (15$\mu$m$\times$15$\mu$m) region centered on the laser spot in the image, and background was determined by averaging the 3-pixel$\times$3-pixel sum of the Xe-only runs before and after each Ba\textsuperscript{+}.  Signal and background were scaled to laser intensity and exposure time respective to each experiment, with laser power respective to each individual run, and then background was subtracted.  The two experiments demonstrate a linear relationship between signal and number of ions exposed over nearly three orders of magnitude.  The linear scale includes a zoom into small numbers of ions in the inset.  Zero ion deposits are produced by retracting the Faraday cup for 1~s without pulsing the ion beam.  The slope of the linear fit gives about 126 counts/atom when counts are scaled by laser intensity (mW/$\mu$m\textsuperscript{2}) and exposure time (s).  Subtracted images of 619-nm Ba fluorescence are shown in Fig. \ref{fig:train} for a few deposits near the linear trend line. % in Fig. \ref{fig:lin}.
+
+%MAYBE: \emph{\color{gray}talk about non-significant non-zero value there?  are the 1-atom also not significant then? ... mention counts / whatev}
 
 %Frequent Xe-only deposits ware made, typically every three runs, to establish the local background.  The image of each deposit was analyzed by summing the counts of a 3-pixel$\times$3-pixel (15$\mu$m$\times$15$\mu$m) region centered on the laser spot in the SXe layer where it excites Ba atoms, i.e. at the top of the laser path in Fig. \ref{fig:imageexamp}.  A partial-bin integrator was implemented such that the 3-pixel$\times$3-pixel region could be centered on the peak center of each run, which typically varied by about half a micron between runs.  Summed counts vs. Ba\textsuperscript{+} ions deposited into the laser region is shown in Fig. \ref{fig:lin} for a combination of data sets from two separate days \emph{\color{blue}maybe you want them separate (with each point having errors) by color to show agreement }  Each point has subtracted the averaged counts from the two surrounding Xe-only deposits.  Some variation in signal is observed, likely due to spatial drifting of the ion beam, as this variation was larger on days where larger beam drift was observed.  Nonetheless, a clear linearity in observed in signal vs. ions deposited, all the way down to single ions deposited.  Recall that the number of ions is an upper limit on the number of atoms in the 619-nm peak matrix site.  ``0-pulse" deposits are also made, wherein Faraday cup 3 is retracted for the 1-s period, but the ion beam remains deflected with no pulses.  This establishes the level of neutral Ba atoms making their way down the beam line from the source into the laser region.  Signal at the few-atom level is observed from these deposits.
 
 %... and try combining those other days.  It will require scaling for intensity difference (spher. abb.) and time, and remember different I$\times$t might give different efficiency.
 
-\begin{figure} %[H]
-        \centering
-                \includegraphics[width=.99\textwidth]{figures/train_20150807_v3_runs70_88_81_fromGiorgioFolder.png}
-                \caption{\color{red}will change:  1) have more than this, 2) do pixel (5micron) on axis like others, 3) have same-looking phi angle on all}
-\label{fig:train}
-\end{figure}
-
 %\emph{\color{gray}Paragraph on BG variation was here, but I moved it to Method w/o thinking thru completely in this context.  Image is also commented out here, above train figure... and actually I took it out there too...}
 
 %Variation in the background level, dominated by the surface background, is shown in Fig. \ref{fig:xevar}.  Variation was most likely caused by drift of the laser position on the window, to regions of different historical bleaching.  Local variations are at the single-atom signal level, however positive signal after subtraction, even at the single-atom level, demonstrates that this variation is sufficiently low.
 
-\begin{figure} %[H]
-        \centering
-                \includegraphics[width=.5\textwidth]{figures/lin_20150526.png}
-                ~
-                \includegraphics[width=.5\textwidth]{figures/lin_pres_zoom_predictSingleAtom.png}
-                \includegraphics[width=.5\textwidth]{figures/lin_vsPulses_all_3x3_pre-165.png}
-                ~
-                \includegraphics[width=.5\textwidth]{figures/lin_20150526_cut.png}
-                \caption{\color{gray}this day looks so good that i think you should use it in some way, w/ area corr of course, maybe and ideally combined with lower number stuff -- maybe the variation in e.g. 8-7 is at same level as that in this data? maybe the lin from this will look boss.  remember it has bi-convex.  Showing w/ Xes, as in 3rd thing, is prolly cool too.}
-\label{fig:lintemp}
-\end{figure}
-
-\begin{figure} %[H]
-        \centering
-                \includegraphics[width=.99\textwidth]{figures/lin_corr_20151016.png}
-                \caption{\emph{\color{gray}Probably you would show this after showing actual data and where you are grouping points.}  619-nm signal vs. Ba\textsuperscript{+} deposited in effective excitation region of 17.8~$\mu$m using focused laser at 570~nm. \emph{\color{gray}move y-ax title over, Remove x errors}}
-\label{fig:lin}
-\end{figure}
+%\begin{figure} %[H]
+%        \centering
+%                \includegraphics[width=.5\textwidth]{figures/lin_20150526.png}
+%                ~
+%                \includegraphics[width=.5\textwidth]{figures/lin_pres_zoom_predictSingleAtom.png}
+%                \includegraphics[width=.5\textwidth]{figures/lin_vsPulses_all_3x3_pre-165.png}
+%                ~
+%                \includegraphics[width=.5\textwidth]{figures/lin_20150526_cut.png}
+%                \caption{\color{gray}this day looks so good that i think you should use it in some way, w/ area corr of course, maybe and ideally combined with lower number stuff -- maybe the variation in e.g. 8-7 is at same level as that in this data? maybe the lin from this will look boss.  remember it has bi-convex.  Showing w/ Xes, as in 3rd thing, is prolly cool too.}
+%\label{fig:lintemp}
+%\end{figure}
 
 \section{Scanned Images}
 \label{sec:scanning}

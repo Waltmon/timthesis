@@ -6,6 +6,9 @@
   - Bill:  soln to 6-level -- small w12?
   * fiz up Franck-Condon pic
 
+-method:
+  - sub-pixel integrator
+
 - results:
   w two gray refs for Be:Xe and diffusion at x K
   w talk to Bill about sine fit to x (or rotated?) vibes (1.56 Adam got by hand on 50-ms ... you too?)
