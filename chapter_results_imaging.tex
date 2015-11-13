@@ -84,7 +84,9 @@ Raw images of Ba\textsuperscript{+} deposits and their preceding and succeeding 
 \label{fig:train}
 \end{figure}
 
-619-nm fluorescence signal is plotted on a log-log scale vs. average ions exposed in Fig. \ref{fig:lin} for many deposits in two experiments with two different laser focusing lenses.  The bi-convex laser-focusing lens with no astigmatism compensation (black) resulted in a larger laser region and a lower intensity than the aspherical lens with astigmatism compensation (orange).  Signal was determined by summing the counts of a 3-pixel$\times$3-pixel (15$\mu$m$\times$15$\mu$m) region centered on the laser spot in the image, and background was determined by averaging the 3-pixel$\times$3-pixel sum of the Xe-only runs before and after each Ba\textsuperscript{+}.  Signal and background were scaled to laser intensity and exposure time respective to each experiment, with laser power respective to each individual run, and then background was subtracted.  The two experiments demonstrate a linear relationship between signal and number of ions exposed over nearly three orders of magnitude.  The linear scale includes a zoom into small numbers of ions in the inset.  Zero ion deposits are produced by retracting the Faraday cup for 1~s without pulsing the ion beam.  The slope of the linear fit gives about 126 counts/atom when counts are scaled by laser intensity (mW/$\mu$m\textsuperscript{2}) and exposure time (s).  Subtracted images of 619-nm Ba fluorescence are shown in Fig. \ref{fig:train} for a few deposits near the linear trend line. % in Fig. \ref{fig:lin}.
+619-nm fluorescence signal is plotted on a log-log scale vs. average ions exposed in Fig. \ref{fig:lin} for many deposits in two experiments with two different laser focusing lenses.  The bi-convex laser-focusing lens with no astigmatism compensation (black) resulted in a larger laser region and a lower intensity than the aspherical lens with astigmatism compensation (orange).  Signal was determined by summing the counts of a 3-pixel$\times$3-pixel (15$\mu$m$\times$15$\mu$m) region centered on the laser spot in the image, and background was determined by averaging the 3-pixel$\times$3-pixel sum of the Xe-only runs before and after each Ba\textsuperscript{+}.  Signal and background were scaled to laser intensity and exposure time respective to each experiment, with laser power respective to each individual run, and then background was subtracted.  The two experiments demonstrate a linear relationship between signal and number of ions exposed over nearly three orders of magnitude.  The linear scale includes a zoom into small numbers of ions in the inset.  Zero ion deposits are produced by retracting the Faraday cup for 1~s without pulsing the ion beam.  The slope of the linear fit, which does not include a constant value, gives about $131 \pm 6$~counts/atom when counts are scaled by laser intensity (mW/$\mu$m\textsuperscript{2}) and exposure time (s).  Deposits at the single-ion level average to about $800 \pm 240$~counts.  Subtracted images of 619-nm Ba fluorescence are shown in Fig. \ref{fig:train} for a few deposits near the linear trend line. % in Fig. \ref{fig:lin}.
+
+%, with a 0-atom intercept of about $820 \pm 460$~counts
 
 %MAYBE: \emph{\color{gray}talk about non-significant non-zero value there?  are the 1-atom also not significant then? ... mention counts / whatev}
 
@@ -111,6 +113,37 @@ Raw images of Ba\textsuperscript{+} deposits and their preceding and succeeding 
 \section{Scanned Images}
 \label{sec:scanning}
 
-The ultimate demonstration of single-atom imaging will be to scan the focused laser over samples of separated Ba atoms, observing a peak when the laser moves over individual atoms.  Preliminary scans were performed by scanning the focusing lens in a grid pattern, using the setup described in \ref{sec:laserscanning}.   \emph{\color{gray}choose what to show and what to say about it -- there are some decent things to show really}  [issues are BG, reproduceability, vibrations]
+The ultimate demonstration of single-atom imaging will be to scan the focused laser over samples of separated Ba atoms, observing a peak when the laser moves over individual atoms.  Preliminary scans were performed by scanning the focusing lens in a grid pattern, using the setup described in Sec. \ref{sec:laserscanning}.  Summed counts from the focused laser region, scaled by laser intensity and exposure time, are plotted vs. grid position for several deposits in Fig. \ref{fig:scans}(a-e).  These scans are grids of 20 points in X by 5 points in Y, with step sizes of about 3.75~$\mu$m by 4.78~$\mu$m, respectively.  The aspherical laser focusing lens and astigmatism compensator are used for w$_{\text{x}} \times$ w$_{\text{y}} =$ 2.06~$\mu$m $\times$ 2.66~$\mu$m 1/e$^{2}$ laser region, though cryostat vibrations increase the exposed region as described in Sec. \ref{sec:vibes}.  This had the effect of exposing neighboring step regions to the laser.  Similar to surface background pre-bleaching done in single-location imaging experiments, a pre-bleaching scan was done with the dye laser at 580.5~nm, in a $22 \times 7$ grid centered on the $20 \times 5$ used during the experiment, with 10~s at each location.
 
-\emph{\color{gray}See thought\_process.pptx slide about expected signal / observed BG fluctuation, etc. (unfinished).}
+\begin{figure} %[H]
+        \centering
+                \includegraphics[width=.5\textwidth]{figures/scan_a.png}
+                ~
+                \includegraphics[width=.5\textwidth]{figures/scan_b.png}
+                \includegraphics[width=.5\textwidth]{figures/scan_c.png}
+                ~
+                \includegraphics[width=.5\textwidth]{figures/scan_d.png}
+%                \includegraphics[width=.45\textwidth]{figures/scans_dframeXe.png}
+                \caption{(a) Xe, (b) 0.18 Ba, (c) 48.4 Ba, (d) Xe}
+\label{fig:scans}
+\end{figure}
+
+\begin{figure} %[H]
+        \centering
+                \includegraphics[width=.35\textwidth]{figures/scans_dframeXe.png}
+                \caption{}
+\label{fig:scanVarXe}
+\end{figure}
+
+Scans from the data set in Fig. \ref{fig:scans} reveal step-to-step variation in the background, which is dominated by the surface background.  The difference in counts between successive grid steps is shown as a distribution in Fig.\ref{fig:scans}(f) for all Xe-only deposits from this experiment.  Fluctuations occur at the level of the $800 \pm 240$~counts single-atom signal, and above the level of the $131 \pm 6$ trend line single-atom signal.  Single-atom signals are not expected to stand out under these conditions.  Average counts per step, again scaled by laser intensity and exposure time, are plotted vs. average number of ions per step in Fig. \ref{fig:linScan}, overlain on the data from Fig. \ref{fig:lin}.  Signal levels were consistent.
+
+\begin{figure} %[H]
+        \centering
+                \includegraphics[width=.5\textwidth]{figures/lin_withScan_lin.png}
+                \caption{}
+\label{fig:linScan}
+\end{figure}
+
+%\emph{\color{gray}choose what to show and what to say about it -- there are some decent things to show really}  [issues are BG, reproduceability, vibrations]
+
+%\emph{\color{gray}See thought\_process.pptx slide about expected signal / observed BG fluctuation, etc. (unfinished).}
