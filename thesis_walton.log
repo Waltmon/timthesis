@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.18)  14 NOV 2015 11:41
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.18)  15 NOV 2015 08:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1431,13 +1431,13 @@ Package pdftex.def Info: figures/lin_withScan_lin.png used on input line 140.
 (./chapter_conclusions.tex [79 <./figures/scans_dframeXe.png> <./figures/lin_wi
 thScan_lin.png>]
 Chapter 7
-)
+
 Underfull \vbox (badness 4673) has occurred while \output is active []
 
  [80
 
 
-]
+])
 [81]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
@@ -1468,7 +1468,7 @@ ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf
 nts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmti12.pfb>
-Output written on thesis_walton.pdf (91 pages, 6880456 bytes).
+Output written on thesis_walton.pdf (91 pages, 6880475 bytes).
 PDF statistics:
  493 PDF objects out of 1000 (max. 8388607)
  246 compressed objects within 3 object streams
