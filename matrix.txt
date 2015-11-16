@@ -1,0 +1,2 @@
+original JT paper talks about molecules, but I think again here we consider the matrix system as molecule-like, so it does apply.
+(see wherever that was -- Crepin? -- that said there are multiple explanations (for the triplet structure?) including JT.

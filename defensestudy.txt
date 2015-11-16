@@ -1,6 +1,8 @@
 - Jahn Teller, and are there other explanations for the triplet structure?
 - Heavy Atom Effect
 
+- re-read anticorrelation
+
 w joule thompson vs other normal one (cryogenic He gas?)
 w why does He heat at some parameters?
 

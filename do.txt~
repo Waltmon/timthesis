@@ -6,6 +6,9 @@
   - Bill:  soln to 6-level -- small w12?
   * fiz up Franck-Condon pic
 
+-method:
+  - sub-pixel integrator
+
 - results:
   w two gray refs for Be:Xe and diffusion at x K
   w talk to Bill about sine fit to x (or rotated?) vibes (1.56 Adam got by hand on 50-ms ... you too?)
@@ -25,3 +28,5 @@
 - thicker borders on small plots? test with excit spec to match the big one in that same figure.
 - ba tagging in intro should have reference to Thomas gas tagging (does it?)
 - if you're not refering to ba spec paper in intro, need to move the reference (did you?)
+
+ummm
