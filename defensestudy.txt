@@ -1,4 +1,9 @@
-- Jahn Teller, and are there other explanations for the triplet structure?
+- atomic physics, spec. notation, selection rules
+- why do pot. energy curves have the shape they do when atoms are near (attractive vs. repulsive regions?)?
+  and is it the system or the atom, cuz the fact that at infinity they approach the vacuum levels suggests that it's the atom
+
+heh:
+- Jahn Teller (orbital splitting -- see https://www.angelo.edu/faculty/kboudrea/general/quantum_numbers/Quantum_Numbers.htm), and are there other explanations for the triplet structure?
 - Heavy Atom Effect
 
 - re-read anticorrelation

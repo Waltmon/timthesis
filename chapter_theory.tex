@@ -58,7 +58,7 @@ Ba\textsuperscript{+} & $6p$ $^{2}P_{3/2}$\textsuperscript{o} $\rightarrow 6s $ 
 
 %These energy levels and their transition rates are well known, and are documented in the NIST Atomic Spectra Database.
 
-Single atom/ion detection by spectroscopy generally requires, in addition to the main excitation laser, lasers to provide transitions out of the metastable D states once the atom/ion decays into one of them.  For the atom, for which some of the lowest-lying energy levels are shown in Fig. \ref{fig:elevsBa}, re-pumping can be accomplished via three additional infrared lasers for the direct transitions back to the $6s6p$ $^{1}$P$_{1}$\textsuperscript{o} state, and also via excitation to higher-level states which have paths back into the fluorescence cycle.  A few such higher-level re-pump transitions are shown in Fig. \ref{fig:elevsBa}, including two red transitions to the $5d6p$ $^{3}$D$_{1}$\textsuperscript{o}, and blue and violet transitions to the $6s7p$ $^{1}$P$_{1}$\textsuperscript{o} and $6s8p$ $^{1}$P$_{1}$\textsuperscript{o} states.  Trapping/detection of Ba atoms in a magneto-optical trap (MOT) was achieved in \cite{BaMOT} with all three infrared re-pump transitions, as well as with \emph{\color{gray}look up the other one}.  Observation of trapped single Ba\textsuperscript{+} ions requires only two lasers if the $^{2}$P$_{1/2}$ excited state is used, e.g. \cite{singleBaPlusEXO}.
+Single atom/ion detection by spectroscopy generally requires, in addition to the main excitation laser, lasers to provide transitions out of the metastable D states once the atom/ion decays into one of them.  For the atom, for which some of the lowest-lying energy levels are shown in Fig. \ref{fig:elevsBa}, re-pumping can be accomplished via three additional infrared lasers for the direct transitions back to the $6s6p$ $^{1}$P$_{1}$\textsuperscript{o} state, and also via excitation to higher-level states which have paths back into the fluorescence cycle.  A few such higher-level re-pump transitions are shown in Fig. \ref{fig:elevsBa}, including two red transitions to the $5d6p$ $^{3}$D$_{1}$\textsuperscript{o}, and blue and violet transitions to the $6s7p$ $^{1}$P$_{1}$\textsuperscript{o} and $6s8p$ $^{1}$P$_{1}$\textsuperscript{o} states.  Trapping/detection of Ba atoms in a magneto-optical trap (MOT) was achieved in \cite{BaMOT} with all three infrared re-pump transitions, as well as with a 659.7-nm laser re-pumping the $6s5d$ $^{3}$D$_{1}$ state via the $5d6p$ $^{3}$D$_{1}$\textsuperscript{o} state, replacing the 1130.6-nm transition directly to $6s6p$ $^{1}$P$_{1}$\textsuperscript{o}.  Observation of trapped single Ba\textsuperscript{+} ions requires only two lasers if the $^{2}$P$_{1/2}$ excited state is used, e.g. \cite{singleBaPlusEXO}.
 
 \section{5-level System}
 \label{sec:model}
@@ -67,7 +67,9 @@ Single atom/ion detection by spectroscopy generally requires, in addition to the
 
 %\textbf{iterative (numerical) solution to...}:}
 
-A solution to the 5-level rate equation for atomic Ba transitions, utilized in Sec. \ref{sec:bleach577and591} for comparison with bleaching data, was done numerically.  The rate equation is stated in Eqn. \ref{eqn:rateEqn}:
+A solution to the 5-level rate equation for atomic Ba transitions, utilized in Sec. \ref{sec:bleach577and591} for comparison with bleaching data, was done numerically.  The rate equations are:
+
+% is stated in Eqn. \ref{eqn:rateEqn}:
 
 \begin{equation}
 \begin{aligned}
@@ -81,7 +83,49 @@ A solution to the 5-level rate equation for atomic Ba transitions, utilized in S
 \end{equation}
 
 \noindent
-where $N_{i}$ is the population in state $i$, $A_{ij}$ is the decay rate from state $i$ to state $j$, and $W_{12}$ \emph{\color{gray}check italicization of w12 elsewhere} is the excitation rate.  States 1 and 2 represent the ground and excited states, respectively, and states 3, 4 and 5 represent the {\color{gray}???} metastable states, respectively.
+where $N_{i}$ is the population in state $i$, $A_{ij}$ is the decay rate from state $i$ to state $j$, and $W_{12}$ \emph{\color{gray}check italicization and capitalization of w12 elsewhere} is the excitation rate.  States 1 and 2 represent the ground and excited states, respectively, and states 3, 4 and 5 represent the intermediate metastable states.  When modeling atomic Ba, 3, 4, and 5 represent the $6s5d$ $^{1}$D$_{2}$, $6s5d$ $^{3}$D$_{2}$, and $6s5d$ $^{3}$D$_{1}$ states, respectively.
+
+To simplify computing, the assumption is made that $W_{12}$ is small compared to the other rates.  This effectively ignores any population in the excited state $N_{2}$, leading to definitions for pumping rates into the other states:
+
+\begin{equation}
+W_{1i} = W_{12}\frac{A_{2i}}{A_{21} + A_{23} + A_{24} + A_{25}}
+\label{eqn:smallW12pumpingRates}
+\end{equation}
+
+\noindent
+where $i = 1,3,4,5$, including the pumping rate back to ground.  The fraction in Eqn. \ref{eqn:smallW12pumpingRates} is the respective branching ratio from the excited state.  With this definition, the population derivatives from Eqn. \ref{eqn:rateEqn} for states 3, 4, and 5 can be re-written as:
+
+\begin{equation}
+\begin{aligned}
+\frac{dN_3}{dt} &= W_{13}N_{1} - A_{31}N_{3} \\
+\frac{dN_4}{dt} &= W_{14}N_{1} - A_{41}N_{4} \\
+\frac{dN_5}{dt} &= W_{15}N_{1} - A_{51}N_{5} \\
+\end{aligned}
+\label{eqn:smallW12populationRates}
+\end{equation}
+
+\noindent
+In the model, an additional variable is not needed for $N_{1}$.  Rather, $1 - N_{3} - N_{4} - N_{5}$ is used.  Beginning with all population in the ground state ($N_{3} = N_{4} = N_{5} = 0$), the model calculates the state populations $N_{i}$ at the end of each iterative time step, $t_{\text{step}}$, as:
+
+\begin{equation}
+\begin{aligned}
+N_{i} = N_{i, previous} + \frac{dN_i}{dt}t_{\text{step}} \\
+\end{aligned}
+\label{eqn:smallW12populations}
+\end{equation}
+
+\noindent
+where $i = 3,4,5$, and $dN_i/dt$ is determined at the beginning of each time step according to Eqn. \ref{eqn:smallW12populationRates}.  Time steps of $t_{\text{step}} = 1~\mu$s were used.  In order to model data, which is taken in exposure time ($t_{\text{Exp}}$) frames, the model iterates through $t_{\text{Exp}}/t_{\text{step}}$ steps in each frame, accumulating fluorescence counts at each step ($C_{\text{step}}$) according to the fluorescence rate (Eqn. \ref{eqn:smallW12pumpingRates} with $i = 1$) times $t_{\text{step}}$, amounting to:
+
+\begin{equation}
+\begin{aligned}
+C_{\text{step}} = W_{12}\frac{A_{21}}{A_{21} + A_{23} + A_{24} + A_{25}}t_{\text{step}} \\
+\end{aligned}
+\label{eqn:smallW12counts}
+\end{equation}
+
+\noindent
+To incorporate camera readout time, where laser exposure continues but fluorescence is not observed, populations and derivatives are iterated without adding to total counts.
 
 %\begin{equation}
 %\begin{aligned}
@@ -100,9 +144,17 @@ where $N_{i}$ is the population in state $i$, $A_{ij}$ is the decay rate from st
 
 %\emph{\color{gray}May be good matrix isolation theory references in Ba Spec... yeah, 1 and 2 i think ... shon's 55, 57, 58 are probably good too and maybe overlapping}
 
-In the matrix isolation spectroscopy technique \cite{matrixIso}, a species of interest is embedded and trapped in an inert host matrix, e.g. a solid noble gas.  Low concentrations of the guest species, ideally at least 1:$10^{3}$ host:guest ratio, prevent guest-guest interactions.  
+In the matrix isolation technique, a species of interest is trapped in a crystal, or ``matrix," of inert atoms/molecules such that it can be studied at leisure without guest-guest interactions.  To be effective, temperature must be low enough to prevent diffusion, and guest concentration must be low enough to prevent interaction.  The technique was originally proposed and demonstrated in \cite{matrixIso}, where short-lived species in chemical reactions were studied by isolating them in various solid matrices.  The proposed method of Ba tagging in SXe is a unique application of matrix isolation spectroscopy.  In order to understand the spectroscopic effects which may be encountered due to interaction between the guest Ba/Ba\textsuperscript{+} and the host Xe atoms, some effects encountered in systems of a metal atoms in rare-gas matrices are discussed.
 
-The proposed method of Ba tagging in SXe is a unique application of the matrix isolation spectroscopy technique. It is important to understand the effects we might expect from the interaction between the guest Ba/Ba\textsuperscript{+} and the host Xe atoms.  The ground S state of Ba, as well as for Ba\textsuperscript{+}, is spherically symmetric, and being slightly larger in Van der Waals radius than Xe, it is likely to take the place of one or more Xe atoms in the fcc crystal (substitution), vs. existing in between Xe atoms in the crystal structure (interstitial).  However, the strength of the Ba-Xe interaction, an induced dipole-dipole Van der Waals force, is quite different when the Ba is in the non-spherically-symmetric excited P state \cite{crepin}.  This leads to significant broadening of absorption and emission for the Ba, as well as an energy shift between the two, according to the Franck Condon Principle, illustrated in Fig. \ref{fig:FranckCondon}.  In a cold matrix, the system will be in the ground lattice vibrational state ($\nu =0$) before excitation.  Electronic excitation can occur to multiple vibrational modes whose wavefunctions overlap that of the ground state, thus broadening the absorption energy.  In the excited state, rapid decay occurs to the lowest vibrational mode, and then a similar broadening in the spontaneous emission energy occurs.  A redshift in the emission is observed relative to the excitation.
+%Low concentrations of the guest species, ideally at least 1:$10^{3}$ host:guest ratio, prevent guest-guest interactions.  
+
+The leading interaction between a guest atom and host noble gas atoms is an induced dipole-dipole Van der Waals force.  For a metal atom of group I or II, this interaction is different when the atom is in the excited P state vs. the ground S state, resulting in general in a different potential energy relationship \cite{crepin}.  This results in a shift and broadening of absorption and emission according to the Franck Condon Principle, illustrated in Fig. \ref{fig:FranckCondon} for the simple case of one-dimensional vibration between two bodies.  In a cold matrix, the system will be in the ground lattice vibrational state ($\nu =0$) before excitation.  Electronic excitation can occur to multiple vibrational modes whose wavefunctions overlap that of the ground state, thus broadening the absorption energy.  A shift from vacuum absorption is determined by the difference in potential energy between the ground and excited states.  In the excited state, rapid decay occurs to the lowest vibrational mode, and then a similar broadening in the spontaneous emission energy occurs.  A redshift in the emission is observed relative to the excitation.  Splitting of orbital degeneracy in the P state can produce triplet structures in the absorption according to the Jahn-Teller effect \cite{jahnteller}.  These features depend on the specific configuration of atoms surrounding the guest, and thus different spectra can be observed from guest atoms occupying different matrix ``sites."  Diversity in matrix site populations from a deposit of many guest atoms can result in a multitude of emission peaks.  Annealing a matrix after deposition can reveal relative stability of various matrix sites \cite{crepin}.
+
+%The ground S state of a group I or II atom is spherically symmetric, and being slightly larger in Van der Waals radius than Xe, it is likely to take the place of one or more Xe atoms in the fcc crystal (substitution), vs. existing in between Xe atoms in the crystal structure (interstitial).
+
+%dynamic
+
+%the strength of the Ba-Xe interaction, an induced dipole-dipole Van der Waals force, is quite different when the Ba is in the non-spherically-symmetric excited P state \cite{crepin}.  
 
 % before electronic decay can occur
 
@@ -113,18 +165,27 @@ The proposed method of Ba tagging in SXe is a unique application of the matrix i
 \label{fig:FranckCondon}
 \end{figure}
 
-%\emph{\color{gray}Jahn-Teller?}
-
-As as example \emph{\color{gray}is there a more modern example paper you can use?}, the spectroscopy of Ba in solid Ar (SAr) and solid Kr (SKr) matrices was studied in \cite{SAr}.  The example of Ba in SAr is shown in Fig. \ref{fig:BaSAr}.  The absorption is 10s of nm broad with a multi-peak structure, and the emission is broadened to nms and red-shifted.  These were attributed to the main $6s^{2}$ $^{1}$S$_{0} \rightarrow 6s6p$ $^{1}$P$_{1}$\textsuperscript{o} transition and its spontaneous emission. \emph{\color{gray}talk about other aspects.....brian says the triplet is caused by P state degeneracy being split, but I don't see how this makes sense, and also I have the impression that there are multiple explanations like Jahn Teller -- you should have a feel for this....}
+As an example, spectroscopy on Na atoms in solid rare-gas matrices is studied in \cite{matrixNa}.  Spectral features are exemplified in Fig. \ref{fig:matrixNa} for Na atoms in SAr, SKr, and SXe.  Excitation and emission are broadened to 10s of nm.  Two different matrix sites are observed in all three matrices, with the largest red-shift in emission observed in SXe.  The triplet structures in excitation spectra are attributed to the Jahn-Teller effect.
 
 \begin{figure} %[H]
         \centering
-                \includegraphics[width=.7\textwidth]{figures/Ba_in_SAr.png}
-                \caption{Absorption and emission spectra of neutral Ba in SAr at 10~K.  \cite{SAr}}
-\label{fig:BaSAr}
+                \includegraphics[width=.7\textwidth]{figures/Na_in_matrices.png}
+                \caption{Excitation and emission spectra of Na atoms in SAr, SKr, and SXe.  \cite{matrixNa}}
+\label{fig:matrixNa}
 \end{figure}
 
-Energy level transition probabilities can also be affected in a matrix, e.g., spin-forbidden transitions can become more significant via the heavy atom effect [ref...i know you have crepin but maybe you can use crepin's ref, since you need to understand this anyway].  If electronic potential energy curves cross each other, non-radiative transitions can become allowed for otherwise forbidden transitions. \cite{crepin}  Effects like these could aid in observation of the Ba/Ba\textsuperscript{+}, e.g. by improving decay rates out of metastable D states, or they could reduce detectability, e.g. if a non-radiative decay competes with the fluorescence channel.
+%As as example \emph{\color{gray}is there a more modern example paper you can use?}, the spectroscopy of Ba in solid Ar (SAr) and solid Kr (SKr) matrices was studied in \cite{SAr}.  The example of Ba in SAr is shown in Fig. \ref{fig:BaSAr}.  The absorption is 10s of nm broad with a multi-peak structure, and the emission is broadened to nms and red-shifted.  These were attributed to the main $6s^{2}$ $^{1}$S$_{0} \rightarrow 6s6p$ $^{1}$P$_{1}$\textsuperscript{o} transition and its spontaneous emission. \emph{\color{gray}talk about other aspects.....brian says the triplet is caused by P state degeneracy being split, but I don't see how this makes sense, and also I have the impression that there are multiple explanations like Jahn Teller -- you should have a feel for this....}
+
+%\begin{figure} %[H]
+%        \centering
+%                \includegraphics[width=.7\textwidth]{figures/Ba_in_SAr.png}
+%                \caption{Absorption and emission spectra of neutral Ba in SAr at 10~K.  \cite{SAr}}
+%\label{fig:BaSAr}
+%\end{figure}
+
+Energy level transition probabilities can also be affected in a matrix.  If potential energy curves cross each other, non-radiative transitions can become allowed for otherwise forbidden transitions \cite{crepin}.  Spin-forbidden transitions, both radiative and non-radiative, between triplet and singlet states can become more significant for heavy host atoms like Xe \cite{heavyAtom}.  Effects like these could aid in observation of the Ba/Ba\textsuperscript{+}, e.g. by improving decay rates out of metastable D states, or they could reduce detectability, e.g. if a non-radiative decay competes with the fluorescence channel.
+
+%, e.g., spin-forbidden transitions can become more significant via the heavy atom effect [ref...i know you have crepin but maybe you can use crepin's ref, since you need to understand this anyway]
 
 %The detectability of a single atom/ion can depend greatly on [these]...
 
