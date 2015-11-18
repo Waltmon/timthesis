@@ -11,41 +11,41 @@
 \contentsline {chapter}{\tocchapter {Chapter}{2}{Theory}}{19}
 \contentsline {section}{\tocsection {}{2.1}{Ba/Ba\textsuperscript {+} Spectroscopy in Vacuum}}{19}
 \contentsline {section}{\tocsection {}{2.2}{5-level System}}{21}
-\contentsline {section}{\tocsection {}{2.3}{Matrix Isolation Spectroscopy}}{23}
-\contentsline {section}{\tocsection {}{2.4}{Fluorescence Efficiency}}{25}
-\contentsline {chapter}{\tocchapter {Chapter}{3}{Experimental}}{27}
-\contentsline {section}{\tocsection {}{3.1}{Ion Beam}}{27}
-\contentsline {subsection}{\tocsubsection {}{3.1.1}{Ion Source}}{27}
-\contentsline {subsection}{\tocsubsection {}{3.1.2}{E$\times $B Velocity Filter}}{29}
-\contentsline {subsection}{\tocsubsection {}{3.1.3}{Other Beam Components}}{30}
-\contentsline {subsection}{\tocsubsection {}{3.1.4}{Ion Beam Pulsing}}{32}
-\contentsline {subsection}{\tocsubsection {}{3.1.5}{Calibration of Ion Deposit}}{34}
-\contentsline {section}{\tocsection {}{3.2}{Ba Getter Source}}{35}
-\contentsline {section}{\tocsection {}{3.3}{Sample Deposition}}{36}
-\contentsline {section}{\tocsection {}{3.4}{Laser Excitation}}{39}
-\contentsline {section}{\tocsection {}{3.5}{Collection Optics}}{42}
-\contentsline {section}{\tocsection {}{3.6}{Vibrations and Effective Laser Region}}{43}
-\contentsline {section}{\tocsection {}{3.7}{Laser Scanning}}{44}
-\contentsline {chapter}{\tocchapter {Chapter}{4}{Method}}{47}
-\contentsline {section}{\tocsection {}{4.1}{Wavelength Calibration}}{47}
-\contentsline {section}{\tocsection {}{4.2}{Fitting of Spectra}}{47}
-\contentsline {subsection}{\tocsubsection {}{4.2.1}{Fitting Spectra with Green Excitation}}{47}
-\contentsline {subsection}{\tocsubsection {}{4.2.2}{Fitting Spectra with Blue Excitation}}{49}
-\contentsline {section}{\tocsection {}{4.3}{Optimizing Signal-to-Background}}{50}
-\contentsline {chapter}{\tocchapter {Chapter}{5}{Results: Spectroscopy}}{55}
-\contentsline {section}{\tocsection {}{5.1}{Excitation and Emission of Ba in SXe}}{55}
-\contentsline {section}{\tocsection {}{5.2}{619-nm Peak Identification}}{58}
-\contentsline {section}{\tocsection {}{5.3}{Annealing/Temperature Dependence}}{59}
-\contentsline {section}{\tocsection {}{5.4}{Bleaching}}{63}
-\contentsline {subsection}{\tocsubsection {}{5.4.1}{Bleaching of the 577- and 591-nm Peaks}}{64}
-\contentsline {subsection}{\tocsubsection {}{5.4.2}{Re-pumping}}{67}
-\contentsline {subsection}{\tocsubsection {}{5.4.3}{Bleaching of the 619-nm Peak}}{68}
-\contentsline {section}{\tocsection {}{5.5}{Fluorescence Efficiency of 577- and 591-nm Peaks}}{69}
-\contentsline {section}{\tocsection {}{5.6}{Blue Excitation / Candidate Ba\textsuperscript {+} Lines}}{69}
-\contentsline {chapter}{\tocchapter {Chapter}{6}{Results: Imaging}}{73}
-\contentsline {section}{\tocsection {}{6.1}{Imaging 577- and 591-nm peaks}}{74}
-\contentsline {section}{\tocsection {}{6.2}{Imaging 619-nm peak}}{77}
-\contentsline {section}{\tocsection {}{6.3}{Scanned Images}}{79}
-\contentsline {chapter}{\tocchapter {Chapter}{7}{Conclusions}}{82}
-\contentsline {section}{\tocsection {}{7.1}{Future Work}}{82}
-\contentsline {chapter}{Bibliography}{84}
+\contentsline {section}{\tocsection {}{2.3}{Matrix Isolation Spectroscopy}}{24}
+\contentsline {section}{\tocsection {}{2.4}{Fluorescence Efficiency}}{27}
+\contentsline {chapter}{\tocchapter {Chapter}{3}{Experimental}}{28}
+\contentsline {section}{\tocsection {}{3.1}{Ion Beam}}{28}
+\contentsline {subsection}{\tocsubsection {}{3.1.1}{Ion Source}}{28}
+\contentsline {subsection}{\tocsubsection {}{3.1.2}{E$\times $B Velocity Filter}}{30}
+\contentsline {subsection}{\tocsubsection {}{3.1.3}{Other Beam Components}}{31}
+\contentsline {subsection}{\tocsubsection {}{3.1.4}{Ion Beam Pulsing}}{33}
+\contentsline {subsection}{\tocsubsection {}{3.1.5}{Calibration of Ion Deposit}}{35}
+\contentsline {section}{\tocsection {}{3.2}{Ba Getter Source}}{36}
+\contentsline {section}{\tocsection {}{3.3}{Sample Deposition}}{37}
+\contentsline {section}{\tocsection {}{3.4}{Laser Excitation}}{40}
+\contentsline {section}{\tocsection {}{3.5}{Collection Optics}}{43}
+\contentsline {section}{\tocsection {}{3.6}{Vibrations and Effective Laser Region}}{44}
+\contentsline {section}{\tocsection {}{3.7}{Laser Scanning}}{45}
+\contentsline {chapter}{\tocchapter {Chapter}{4}{Method}}{48}
+\contentsline {section}{\tocsection {}{4.1}{Wavelength Calibration}}{48}
+\contentsline {section}{\tocsection {}{4.2}{Fitting of Spectra}}{48}
+\contentsline {subsection}{\tocsubsection {}{4.2.1}{Fitting Spectra with Green Excitation}}{48}
+\contentsline {subsection}{\tocsubsection {}{4.2.2}{Fitting Spectra with Blue Excitation}}{50}
+\contentsline {section}{\tocsection {}{4.3}{Optimizing Signal-to-Background}}{51}
+\contentsline {chapter}{\tocchapter {Chapter}{5}{Results: Spectroscopy}}{56}
+\contentsline {section}{\tocsection {}{5.1}{Excitation and Emission of Ba in SXe}}{56}
+\contentsline {section}{\tocsection {}{5.2}{619-nm Peak Identification}}{59}
+\contentsline {section}{\tocsection {}{5.3}{Annealing/Temperature Dependence}}{60}
+\contentsline {section}{\tocsection {}{5.4}{Bleaching}}{64}
+\contentsline {subsection}{\tocsubsection {}{5.4.1}{Bleaching of the 577- and 591-nm Peaks}}{65}
+\contentsline {subsection}{\tocsubsection {}{5.4.2}{Re-pumping}}{68}
+\contentsline {subsection}{\tocsubsection {}{5.4.3}{Bleaching of the 619-nm Peak}}{69}
+\contentsline {section}{\tocsection {}{5.5}{Fluorescence Efficiency of 577- and 591-nm Peaks}}{70}
+\contentsline {section}{\tocsection {}{5.6}{Blue Excitation / Candidate Ba\textsuperscript {+} Lines}}{70}
+\contentsline {chapter}{\tocchapter {Chapter}{6}{Results: Imaging}}{74}
+\contentsline {section}{\tocsection {}{6.1}{Imaging 577- and 591-nm peaks}}{75}
+\contentsline {section}{\tocsection {}{6.2}{Imaging 619-nm peak}}{78}
+\contentsline {section}{\tocsection {}{6.3}{Scanned Images}}{80}
+\contentsline {chapter}{\tocchapter {Chapter}{7}{Conclusions}}{83}
+\contentsline {section}{\tocsection {}{7.1}{Future Work}}{83}
+\contentsline {chapter}{Bibliography}{85}

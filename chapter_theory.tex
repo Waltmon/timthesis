@@ -83,7 +83,7 @@ A solution to the 5-level rate equation for atomic Ba transitions, utilized in S
 \end{equation}
 
 \noindent
-where $N_{i}$ is the population in state $i$, $A_{ij}$ is the decay rate from state $i$ to state $j$, and $W_{12}$ \emph{\color{gray}check italicization and capitalization of w12 elsewhere} is the excitation rate.  States 1 and 2 represent the ground and excited states, respectively, and states 3, 4 and 5 represent the intermediate metastable states.  When modeling atomic Ba, 3, 4, and 5 represent the $6s5d$ $^{1}$D$_{2}$, $6s5d$ $^{3}$D$_{2}$, and $6s5d$ $^{3}$D$_{1}$ states, respectively.
+where $N_{i}$ is the population in state $i$, $A_{ij}$ is the decay rate from state $i$ to state $j$, and $W_{12}$ is the excitation rate.  States 1 and 2 represent the ground and excited states, respectively, and states 3, 4 and 5 represent the intermediate metastable states.  When modeling atomic Ba, 3, 4, and 5 represent the $6s5d$ $^{1}$D$_{2}$, $6s5d$ $^{3}$D$_{2}$, and $6s5d$ $^{3}$D$_{1}$ states, respectively.
 
 To simplify computing, the assumption is made that $W_{12}$ is small compared to the other rates.  This effectively ignores any population in the excited state $N_{2}$, leading to definitions for pumping rates into the other states:
 
@@ -126,6 +126,15 @@ C_{\text{step}} = W_{12}\frac{A_{21}}{A_{21} + A_{23} + A_{24} + A_{25}}t_{\text
 
 \noindent
 To incorporate camera readout time, where laser exposure continues but fluorescence is not observed, populations and derivatives are iterated without adding to total counts.
+
+\begin{figure} %[H]
+        \centering
+                \includegraphics[width=.7\textwidth]{figures/thesis_modelExamples.png}
+                \caption{Modeled counts in 0.5-s exposure frames for three values of $W_{12}$, using vacuum Ba transition rates, normalized to the first point.  Intermittent readout times of 0.1~s are used. }
+\label{fig:modelExample}
+\end{figure}
+
+Examples of modeled counts vs. time are shown in Fig. \ref{fig:modelExample} for three values of $W_{12}$, using the transition rates of Ba in vacuum from Table \ref{table:BaTransitions}.  Decay of fluorescence occurs as atoms are optically pumped into the metastable D states.  This model is compared to bleaching data of Ba in SXe in Sec. \ref{sec:bleach577and591}.
 
 %\begin{equation}
 %\begin{aligned}
@@ -195,11 +204,11 @@ Energy level transition probabilities can also be affected in a matrix.  If pote
 Fluorescence efficiency ($\epsilon_{f}$) is the ratio of fluorescence photons emitted to excitations into the fluorescing state.  This becomes less than one when there are paths out of the excited state other than the one which emits the photon being measured, e.g. the $\epsilon_{f}$ of Ba in vacuum is about 99.7\%, not quite 1 due to about 1 in 330 decays from the P state into a metastable D.  $\epsilon_{f}$ can be calculated by Eqn. \ref{eqn:flueEff}:
 
 \begin{equation}
-\epsilon_{f} = \frac{f}{w_{12} \epsilon_{c}} = \frac{f h \nu}{\sigma I \epsilon_{c}}
+\epsilon_{f} = \frac{f}{W_{12} \epsilon_{c}} = \frac{f h \nu}{\sigma I \epsilon_{c}}
 \label{eqn:flueEff}
 \end{equation}
 
 \noindent
-where $f$ is the number of fluorescence photons observed per atom per second, $w_{12}$ is the excitation rate, $\epsilon_{c}$ is the collection efficiency of the system, $\sigma$ is the cross section for the excitation interaction, $I$ is the laser intensity, and $h \nu$ is the excitation photon energy.  
+where $f$ is the number of fluorescence photons observed per atom per second, $W_{12}$ is the excitation rate, $\epsilon_{c}$ is the collection efficiency of the system, $\sigma$ is the cross section for the excitation interaction, $I$ is the laser intensity, and $h \nu$ is the excitation photon energy.  
 %$\sigma$ can be measured by experiment, and the remaining parameters are easily calculated to produce a measurement of $\epsilon_{f}$.
 % \emph{\color{gray}those statements are dumb, and do you want to ref brian for measuring the Ba $\sigma$?}.
