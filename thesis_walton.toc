@@ -11,8 +11,8 @@
 \contentsline {chapter}{\tocchapter {Chapter}{2}{Theory}}{19}
 \contentsline {section}{\tocsection {}{2.1}{Ba/Ba\textsuperscript {+} Spectroscopy in Vacuum}}{19}
 \contentsline {section}{\tocsection {}{2.2}{5-level System}}{21}
-\contentsline {section}{\tocsection {}{2.3}{Matrix Isolation Spectroscopy}}{24}
-\contentsline {section}{\tocsection {}{2.4}{Fluorescence Efficiency}}{27}
+\contentsline {section}{\tocsection {}{2.3}{Matrix Isolation Spectroscopy}}{23}
+\contentsline {section}{\tocsection {}{2.4}{Fluorescence Efficiency}}{26}
 \contentsline {chapter}{\tocchapter {Chapter}{3}{Experimental}}{28}
 \contentsline {section}{\tocsection {}{3.1}{Ion Beam}}{28}
 \contentsline {subsection}{\tocsubsection {}{3.1.1}{Ion Source}}{28}
@@ -43,9 +43,9 @@
 \contentsline {section}{\tocsection {}{5.5}{Fluorescence Efficiency of 577- and 591-nm Peaks}}{70}
 \contentsline {section}{\tocsection {}{5.6}{Blue Excitation / Candidate Ba\textsuperscript {+} Lines}}{70}
 \contentsline {chapter}{\tocchapter {Chapter}{6}{Results: Imaging}}{74}
-\contentsline {section}{\tocsection {}{6.1}{Imaging 577- and 591-nm peaks}}{75}
-\contentsline {section}{\tocsection {}{6.2}{Imaging 619-nm peak}}{78}
+\contentsline {section}{\tocsection {}{6.1}{Imaging 577- and 591-nm Fluorescence}}{75}
+\contentsline {section}{\tocsection {}{6.2}{Imaging 619-nm Fluorescence}}{77}
 \contentsline {section}{\tocsection {}{6.3}{Scanned Images}}{80}
-\contentsline {chapter}{\tocchapter {Chapter}{7}{Conclusions}}{83}
-\contentsline {section}{\tocsection {}{7.1}{Future Work}}{83}
-\contentsline {chapter}{Bibliography}{85}
+\contentsline {chapter}{\tocchapter {Chapter}{7}{Conclusions}}{84}
+\contentsline {section}{\tocsection {}{7.1}{Future Work}}{84}
+\contentsline {chapter}{Bibliography}{86}
