@@ -44,8 +44,8 @@
 \contentsline {section}{\tocsection {}{5.6}{Blue Excitation / Candidate Ba\textsuperscript {+} Lines}}{70}
 \contentsline {chapter}{\tocchapter {Chapter}{6}{Results: Imaging}}{74}
 \contentsline {section}{\tocsection {}{6.1}{Imaging 577- and 591-nm Fluorescence}}{75}
-\contentsline {section}{\tocsection {}{6.2}{Imaging 619-nm Fluorescence}}{77}
-\contentsline {section}{\tocsection {}{6.3}{Scanned Images}}{80}
+\contentsline {section}{\tocsection {}{6.2}{Imaging 619-nm Fluorescence}}{78}
+\contentsline {section}{\tocsection {}{6.3}{Scanned Images}}{81}
 \contentsline {chapter}{\tocchapter {Chapter}{7}{Conclusions}}{84}
 \contentsline {section}{\tocsection {}{7.1}{Future Work}}{84}
 \contentsline {chapter}{Bibliography}{86}
