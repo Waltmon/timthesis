@@ -1,0 +1,11 @@
+590s image (20141218,run95):  .376e-8 refl., subtract .15e-8 from monitor, then times 1.57, and times T/R = 8.02
+             ... gives 2.85e-8 W, i.e. ~0.03 microwatts
+
+
+
+LIN:
+2-11   T over R is 8.13, LV for run is .048e-3 in file,  and with x1.57 -->   0.61 mW
+
+20150526:  ~2 mW, from around .145 mW (refl.) in first ~15 runs, which are used in the lin plot, with T/R of 8.7
+	   also with x1.57, but NOT .89 since no OF
+20150807:  ~0.24 mW, from avereage of .069 and .078 mW refl., T/R = 2.34, and OF and 1.57

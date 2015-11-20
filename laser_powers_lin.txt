@@ -1,5 +1,0 @@
-2-11   T over R is 8.13, LV for run is .048e-3 in file
-
-20150526:  ~2 mW, from around .145 mW (refl.) in first ~15 runs, which are used in the lin plot, with T/R of 8.7
-	   also with x1.57, but NOT .89 since no OF
-20150807:  ~0.24 mW, from avereage of .069 and .078 mW refl., T/R = 2.34, and OF and 1.57
