@@ -1,19 +1,16 @@
-- analysis
-- read: crepin (AND GET IT ON A STICK OR SOMETHING) matrix section (or print????)
-- model section of theory
-
 - intro:
   - read about CP-violation aspect of Majorana phases
 
 - theory:
-  - Bill:  refs for Ba rates
-  - Bill:  soln to 6-level -- small w12?
+  * Bill:  refs for Ba rates
+  * Bill:  soln to 6-level -- small w12?
   * fiz up Franck-Condon pic
 
 -method:
   - sub-pixel integrator
 
 - results:
+  - move (a) over to where (b) is in excitation spectra figure
   w two gray refs for Be:Xe and diffusion at x K
   w talk to Bill about sine fit to x (or rotated?) vibes (1.56 Adam got by hand on 50-ms ... you too?)
   - make less important plots side-by-side
@@ -22,8 +19,8 @@
   * plots for blue excit.
   w bleaching green excitspec
   * fixed 619 bleach plot
-  - talk to Bill about discrepancies between this and BaSpec -- leak rate and 11 K vs. 10 K
-  - larger text in 619 bleach figure, as well as removing the box on the legend
+  * talk to Bill about discrepancies between this and BaSpec -- leak rate and 11 K vs. 10 K
+  w larger text in 619 bleach figure, as well as removing the box on the legend
   - make sure that grn excitspec should indeed be 10^3 counts / mW instead of 10^6
   - do 100 and 1000 micron w reality from 2014-06-24 w/ ray matrices for correct powers and trying a corr on QE
 
