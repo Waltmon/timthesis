@@ -10,7 +10,7 @@
   - sub-pixel integrator
 
 - results:
-  - move (a) over to where (b) is in excitation spectra figure
+  * move (a) over to where (b) is in excitation spectra figure
   w two gray refs for Be:Xe and diffusion at x K
   w talk to Bill about sine fit to x (or rotated?) vibes (1.56 Adam got by hand on 50-ms ... you too?)
   - make less important plots side-by-side
