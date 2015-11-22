@@ -50,7 +50,7 @@ First attempts at imaging small numbers of Ba atoms in a focused laser region we
 \begin{figure} %[H]
         \centering
                 \includegraphics[width=.95\textwidth]{figures/xebaxe_average_scrunched.png}
-                \caption{Raw images through 620-nm band-pass filter of three Ba\textsuperscript{+} deposits yielding (a) $\leq 49$, (b) $\leq 4$, and (c) $\leq 1$ average number of Ba atoms, with their preceding and succeeding Xe-only deposits.  Samples were deposited at 50~K and observed at 11~K.  Exposures are 60~s with around 0.24~mW of 570~nm excitation focused to w$_{\text{x}} \times$ w$_{\text{y}} =$ 2.06~$\mu$m $\times$ 2.66~$\mu$m.}
+                \caption{\emph{\color{gray}change Ba text to likeo range instead of red -- it doesn't even show up well in color} Raw images through 620-nm band-pass filter of three Ba\textsuperscript{+} deposits yielding (a) $\leq 49$, (b) $\leq 4$, and (c) $\leq 1$ average number of Ba atoms, with their preceding and succeeding Xe-only deposits.  Samples were deposited at 50~K and observed at 11~K.  Exposures are 60~s with around 0.24~mW of 570~nm excitation focused to w$_{\text{x}} \times$ w$_{\text{y}} =$ 2.06~$\mu$m $\times$ 2.66~$\mu$m.}
 \label{fig:xebaxe}
 \end{figure}
 
@@ -85,7 +85,7 @@ Images of 619-nm Ba fluorescence are shown in Fig. \ref{fig:train} for a few dep
 \begin{figure} %[H]
         \centering
                 \includegraphics[width=.95\textwidth]{figures/xebaxe_largest_average.png}
-                \caption{Raw images through 620-nm band-pass filter of a Ba\textsuperscript{+} deposit yielding $\leq 7.6 \times 10^{4}$ average number of Ba atoms, with its preceding and succeeding Xe-only deposits.  Exposures are 0.5~s with 0.6~mW of 572~nm excitation focused with asphere and astigmatism compensator.}
+                \caption{\emph{\color{gray}change Ba text to likeo range instead of red -- it doesn't even show up well in color} Raw images through 620-nm band-pass filter of a Ba\textsuperscript{+} deposit yielding $\leq 7.6 \times 10^{4}$ average number of Ba atoms, with its preceding and succeeding Xe-only deposits.  Exposures are 0.5~s with 0.6~mW of 572~nm excitation focused with asphere and astigmatism compensator.}
 \label{fig:xebaxeLarger}
 \end{figure}
 
@@ -106,23 +106,23 @@ The ultimate demonstration of single-atom imaging will be to scan the focused la
 %                \includegraphics[width=.5\textwidth]{figures/scans_dframeXe.png}
 %                \includegraphics[width=.5\textwidth]{figures/scan_d.png}
 %                \includegraphics[width=.45\textwidth]{figures/scans_dframeXe.png}
-                \caption{Early attempts at scanned images of a few deposits: (a) Xe-only, (b) 0.18 average Ba\textsuperscript{+}/step, and (c) 48.4 average Ba\textsuperscript{+}/step.  Exposures are 10-s with 0.4-0.5~mW of focused 570~nm laser.}
+                \caption{\emph{\color{gray}change to show the 6 Ba per, since the counts number is from that, and also show the one with the solid single atom peak, heh...}Early attempts at scanned images of a few deposits: (a) Xe-only, (b) 0.18 average Ba\textsuperscript{+}/step, and (c) 48.4 average Ba\textsuperscript{+}/step.  Exposures are 10-s with 0.4-0.5~mW of focused 570~nm laser.}
 \label{fig:scans}
 \end{figure}
 %, and (d) Xe-only
 
-%\begin{figure} %[H]
-%        \centering
-%                \includegraphics[width=.35\textwidth]{figures/scans_dframeXe.png}
-%                \caption{Distribution of difference in counts ($\Delta_{\text{steps}}$) between successive scan frames in Xe-only deposits.}
-%\label{fig:scanVarXe}
-%\end{figure}
+\begin{figure} %[H]
+        \centering
+                \includegraphics[width=.5\textwidth]{figures/xevar_scanDelta.png}
+                ~
+                \includegraphics[width=.5\textwidth]{figures/xevar_scanSubtraction.png}
+                \caption{\emph{\color{gray}change (b) to ste-to-tep rather than just straight dist.}  Distribution of difference in counts ($\Delta_{\text{steps}}$) between successive scan frames in (a) raw Xe-only deposits, and (b) the subtraction of two Xe-only runs.}
+\label{fig:scanVarXe}
+\end{figure}
 
-Signal and background levels from the scanned images in Fig. \ref{fig:scans} are consistent with previous experiments, with approximately 440~counts/mW per Ba atom, and about 4500~counts/mW background, with 10-s exposures.  However, the scanned images of Xe-only deposits (Fig. \ref{fig:scans}(a)) produce a measure of step-to-step variation in the surface background which is greater than the run-to-run background variations in the single-atom imaging runs of Figures \ref{fig:train}, \ref{fig:lin}, and \ref{fig:xebaxe}.  The difference in counts between successive grid steps is shown as a distribution in Fig.\ref{fig:scanVarXe}(a) for all Xe-only deposits in this set of scanned images.  This is compared to the distribution of run-to-run differences between successive Xe-only deposits in the single-atom dataset used in Figures \ref{fig:train}, \ref{fig:lin}, and \ref{fig:xebaxe}. 
+Signal and background levels from the scanned images in Fig. \ref{fig:scans} are consistent with previous experiments, with approximately 440~counts/mW {\color{red}$pm$ ???} per Ba atom, and about 4500~counts/mW background, with 10-s exposures.  However, the scanned images of Xe-only deposits (Fig. \ref{fig:scans}(a)) produce a measure of step-to-step variation in the surface background which competes with the single-atom signal level for about {\color{red}? -- get from the $\sigma$ value}\% of the fluctuations.  The difference in counts between successive grid steps is shown as a distribution in Fig.\ref{fig:scanVarXe}(a) for all Xe-only deposits in this set of scanned images.  The single-atom signal level of {\color{red}$833 \pm ???$}~counts/mW (for 10-s exposure) is marked with a gray dotted line, which intersects the background distribution at the ? level.  The step-to-step variation in the subtraction of two Xe-only scanned images is shown in Fig. \ref{fig:scanVarXe}.  This distribution is somewhat broader than that of the raw background images, with the single-atom level intersecting at the ? level.  It is difficult to distinguish single Ba atoms from background fluctuations under these conditions.
 
-though average counts are still higher, it is difficult to make out single-atom peaks ... thus need lower BG
-
- Fluctuations occurred at the level of the $800 \pm 240$~counts/(mW/$\mu$m\textsuperscript{2} s) single-atom signal, and above the level of the $131 \pm 6$ counts/(mW/$\mu$m\textsuperscript{2} s) trend line single-atom signal.  Single-atom signals are not expected to stand out under these conditions.  Average counts per step, scaled by laser intensity and exposure time, are plotted (red crosses) vs. average number of ions per step in Fig. \ref{fig:linScan}, along with the data from Fig. \ref{fig:lin}, demonstrating signal levels consistent with previous experiments.  The next steps in scanned imaging of Ba atoms, discussed in Sec. \ref{sec:future}, will involve reducing the surface background.
+Since the single-atom signal level of {\color{red}$833 \pm ???$}~counts/mW assumes 100\% conversion of deposited Ba\textsuperscript{+} ions, it is possible that single Ba atoms produce more signal than this.  Thus, it is possible that, e.g., the peak around (?,?) in Fig. \ref{fig:scans}(?) is due to a single atom.  However, background levels must be reduced further to be sure.  The next steps in scanned imaging of Ba atoms, discussed in Sec. \ref{sec:future}, will involve reducing the surface background.
 
 %\emph{\color{gray}choose what to show and what to say about it -- there are some decent things to show really}  [issues are BG, reproduceability, vibrations]
 
