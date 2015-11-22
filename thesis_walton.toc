@@ -24,28 +24,28 @@
 \contentsline {section}{\tocsection {}{3.3}{Sample Deposition}}{37}
 \contentsline {section}{\tocsection {}{3.4}{Laser Excitation}}{40}
 \contentsline {section}{\tocsection {}{3.5}{Collection Optics}}{43}
-\contentsline {section}{\tocsection {}{3.6}{Vibrations and Effective Laser Region}}{45}
+\contentsline {section}{\tocsection {}{3.6}{Vibrations and Effective Laser Region}}{46}
 \contentsline {section}{\tocsection {}{3.7}{Laser Scanning}}{47}
-\contentsline {chapter}{\tocchapter {Chapter}{4}{Method}}{49}
-\contentsline {section}{\tocsection {}{4.1}{Wavelength Calibration}}{49}
-\contentsline {section}{\tocsection {}{4.2}{Fitting of Spectra}}{49}
-\contentsline {subsection}{\tocsubsection {}{4.2.1}{Fitting Spectra with Green Excitation}}{49}
-\contentsline {subsection}{\tocsubsection {}{4.2.2}{Fitting Spectra with Blue Excitation}}{51}
-\contentsline {section}{\tocsection {}{4.3}{Optimizing Signal-to-Background}}{52}
-\contentsline {chapter}{\tocchapter {Chapter}{5}{Results: Spectroscopy}}{57}
-\contentsline {section}{\tocsection {}{5.1}{Excitation and Emission of Ba in SXe}}{57}
-\contentsline {section}{\tocsection {}{5.2}{619-nm Peak Attribution}}{60}
-\contentsline {section}{\tocsection {}{5.3}{Annealing/Temperature Dependence}}{61}
-\contentsline {section}{\tocsection {}{5.4}{Bleaching}}{65}
-\contentsline {subsection}{\tocsubsection {}{5.4.1}{Bleaching of the 577- and 591-nm Peaks}}{66}
-\contentsline {subsection}{\tocsubsection {}{5.4.2}{Re-pumping}}{69}
-\contentsline {subsection}{\tocsubsection {}{5.4.3}{Bleaching of the 619-nm Peak}}{70}
-\contentsline {section}{\tocsection {}{5.5}{Fluorescence Efficiency of 577- and 591-nm Peaks}}{71}
-\contentsline {section}{\tocsection {}{5.6}{Blue Excitation / Candidate Ba\textsuperscript {+} Lines}}{71}
-\contentsline {chapter}{\tocchapter {Chapter}{6}{Results: Imaging}}{75}
-\contentsline {section}{\tocsection {}{6.1}{Imaging 577- and 591-nm Fluorescence}}{75}
-\contentsline {section}{\tocsection {}{6.2}{Imaging 619-nm Fluorescence}}{76}
-\contentsline {section}{\tocsection {}{6.3}{Scanned Images}}{81}
-\contentsline {chapter}{\tocchapter {Chapter}{7}{Conclusions}}{84}
-\contentsline {section}{\tocsection {}{7.1}{Future Work}}{84}
-\contentsline {chapter}{Bibliography}{87}
+\contentsline {chapter}{\tocchapter {Chapter}{4}{Method}}{50}
+\contentsline {section}{\tocsection {}{4.1}{Wavelength Calibration}}{50}
+\contentsline {section}{\tocsection {}{4.2}{Fitting of Spectra}}{50}
+\contentsline {subsection}{\tocsubsection {}{4.2.1}{Fitting Spectra with Green Excitation}}{50}
+\contentsline {subsection}{\tocsubsection {}{4.2.2}{Fitting Spectra with Blue Excitation}}{52}
+\contentsline {section}{\tocsection {}{4.3}{Optimizing Signal-to-Background}}{53}
+\contentsline {chapter}{\tocchapter {Chapter}{5}{Results: Spectroscopy}}{58}
+\contentsline {section}{\tocsection {}{5.1}{Excitation and Emission of Ba in SXe}}{58}
+\contentsline {section}{\tocsection {}{5.2}{619-nm Peak Attribution}}{61}
+\contentsline {section}{\tocsection {}{5.3}{Annealing/Temperature Dependence}}{62}
+\contentsline {section}{\tocsection {}{5.4}{Bleaching}}{66}
+\contentsline {subsection}{\tocsubsection {}{5.4.1}{Bleaching of the 577- and 591-nm Peaks}}{67}
+\contentsline {subsection}{\tocsubsection {}{5.4.2}{Re-pumping}}{70}
+\contentsline {subsection}{\tocsubsection {}{5.4.3}{Bleaching of the 619-nm Peak}}{71}
+\contentsline {section}{\tocsection {}{5.5}{Fluorescence Efficiency of 577- and 591-nm Peaks}}{72}
+\contentsline {section}{\tocsection {}{5.6}{Blue Excitation / Candidate Ba\textsuperscript {+} Lines}}{72}
+\contentsline {chapter}{\tocchapter {Chapter}{6}{Results: Imaging}}{76}
+\contentsline {section}{\tocsection {}{6.1}{Imaging 577- and 591-nm Fluorescence}}{76}
+\contentsline {section}{\tocsection {}{6.2}{Imaging 619-nm Fluorescence}}{77}
+\contentsline {section}{\tocsection {}{6.3}{Scanned Images}}{82}
+\contentsline {chapter}{\tocchapter {Chapter}{7}{Conclusions}}{85}
+\contentsline {section}{\tocsection {}{7.1}{Future Work}}{85}
+\contentsline {chapter}{Bibliography}{88}

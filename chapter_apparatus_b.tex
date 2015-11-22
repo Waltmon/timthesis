@@ -220,6 +220,16 @@ A lens focuses the laser into the cryostat from the side, shown in Fig. \ref{fig
 
 To correct for astigmatism introduced by the tilted sapphire window, compensating astigmatism is introduced by a fused silica optical flat of 1~cm thickness, placed after the lens, tilted on the y-axis (the laser is along the z-axis, and the sapphire window is tilted on the x-axis).  The proper angle for the compensator was determined to be about 10$^{\circ}$ from normal by a ray matrix calculation \cite{raymatrix}.  The effect of the SXe layer is negligible since its thickness is only about half a micron in a typical fluorescence experiment.  With the compensator, overlapping minimum spot sizes of 2.06~$\mu$m and 2.66~$\mu$m are calculated for x and y, respectively.  To observe the astigmatism and the effect of the compensator, the relative position of the x- and y-focus was observed by imaging 619-nm Ba fluorescence from a large deposit of Ba\textsuperscript{+} in SXe, with a varying laser focus.  For each z-position of the laser focusing lens, an image was taken, and a 2D Gaussian fit determined the x and y beam waists, w$_{\text{x}}$ and w$_{\text{y}}$.  Example fits to the 619-nm fluorescence for three laser focus positions, using the astigmatism compensator at 10$\pm 1^{\circ}$, are shown in Fig. \ref{fig:astig}(a,b,c).  Gaussian fit values for w$_{\text{x}}$ and w$_{\text{y}}$ are plotted vs. laser focus position with (d) no compensator, and with the compensator at (e) 10$\pm 1^{\circ}$, (f) 13$\pm 1^{\circ}$, and (g) 11$\pm 1^{\circ}$.  With no compensator (d), the focal positions for x and y are measured to be 127.6$ \pm 2.5$~$\mu$m apart.  10$\pm 1^{\circ}$ (e) and 13$\pm 1^{\circ}$ (f) can be seen to under- and over-shoot the optimal angle, respectively.  11$\pm 1^{\circ}$ (g), which was used in imaging experiments, is near optimal, i.e. the x and y foci are consistent to within 45~$\mu$m.  %\emph{\color{gray}A systematic uncertainty... on the beam size is then obtained ... leading to a focused laser spot of ?? $\pm$ ?? $\mu$m\textsuperscript{2} [get this uncertainty from error propagation of angle(s) through gaussian beam ray matrix}
 
+The laser spot size ($A_{\text{laser}}$) is defined as the area enclosed within the 1/$e$ radii of the laser beam, according to Eq. \ref{eqn:laserspot}:
+
+\begin{equation}
+A_{\text{laser}} = \frac{\pi w_{x} w_{y}}{2}
+\label{eqn:laserspot}
+\end{equation}
+
+\noindent
+where $w_{x,y}$ are the $x$ and $y$ 1/$e^{2}$ radii of the focused laser in the SXe.  In the case of the bi-convex lens, $w_{x} \approx w_{y} \equiv w$.
+
 %\emph{\color{gray}which is consistent with the calculated value of {\color{red}??}~$\mu$m from...}
 
 %[waist measurements? -- apply calibration uncertainty to the good motor-stage ones]
