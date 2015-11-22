@@ -1,0 +1,2 @@
+- just re-run xebaxe_largerst... for the orange text
+- same for thesis_xebaxe(), since it seemed squished, which will involve re-putting in the (a),..., and "scrunching" it (for the caption)
