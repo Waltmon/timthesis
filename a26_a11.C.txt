@@ -1,0 +1,1 @@
+counts_mod[io-1] += w12*a21*(1./(a21+a23+a24+a25+a26))*timestep*(1. - N3 - N4 - N5 - N6);
