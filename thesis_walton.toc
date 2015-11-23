@@ -15,17 +15,17 @@
 \contentsline {section}{\tocsection {}{2.4}{Fluorescence Efficiency}}{28}
 \contentsline {chapter}{\tocchapter {Chapter}{3}{Experimental}}{30}
 \contentsline {section}{\tocsection {}{3.1}{Ion Beam}}{30}
-\contentsline {subsection}{\tocsubsection {}{3.1.1}{Ion Source}}{30}
+\contentsline {subsection}{\tocsubsection {}{3.1.1}{Ion Source}}{32}
 \contentsline {subsection}{\tocsubsection {}{3.1.2}{E$\times $B Velocity Filter}}{32}
 \contentsline {subsection}{\tocsubsection {}{3.1.3}{Other Beam Components}}{33}
 \contentsline {subsection}{\tocsubsection {}{3.1.4}{Ion Beam Pulsing}}{35}
-\contentsline {subsection}{\tocsubsection {}{3.1.5}{Calibration of Ion Deposit}}{37}
-\contentsline {section}{\tocsection {}{3.2}{Ba Getter Source}}{38}
-\contentsline {section}{\tocsection {}{3.3}{Sample Deposition}}{39}
+\contentsline {subsection}{\tocsubsection {}{3.1.5}{Calibration of Ion Deposits}}{37}
+\contentsline {section}{\tocsection {}{3.2}{Ba Getter Source}}{39}
+\contentsline {section}{\tocsection {}{3.3}{Sample Deposition}}{40}
 \contentsline {section}{\tocsection {}{3.4}{Laser Excitation}}{42}
-\contentsline {section}{\tocsection {}{3.5}{Collection Optics}}{45}
+\contentsline {section}{\tocsection {}{3.5}{Collection Optics}}{46}
 \contentsline {section}{\tocsection {}{3.6}{Vibrations and Effective Laser Region}}{48}
-\contentsline {section}{\tocsection {}{3.7}{Laser Scanning}}{49}
+\contentsline {section}{\tocsection {}{3.7}{Laser Scanning}}{50}
 \contentsline {chapter}{\tocchapter {Chapter}{4}{Method}}{52}
 \contentsline {section}{\tocsection {}{4.1}{Wavelength Calibration}}{52}
 \contentsline {section}{\tocsection {}{4.2}{Fitting of Spectra}}{52}

@@ -5,12 +5,15 @@
 %\noindent
 %\emph{
 
-This chapter describes the apparatus at Colorado State University which was used for producing and observing  deposits of Ba/Ba\textsuperscript{+} in SXe.  The main barium source, a Ba\textsuperscript{+} ion beam, is first described, as well as a neutral Ba getter source.  The co-deposit of Ba/Ba\textsuperscript{+} with Xe gas onto a cold sapphire window, subsequent laser excitation, and finally the collection optics for the fluorescence are described.
+This chapter describes the apparatus at Colorado State University that was used for producing and observing  deposits of Ba and Ba\textsuperscript{+} in SXe.  The main barium source, a Ba\textsuperscript{+} ion beam, is first described in Sec. \ref{sec:ionbeam}, and then a neutral Ba getter source is discussed in Sec. \ref{sec:getter}.  The co-deposit of Ba or Ba\textsuperscript{+} with Xe gas onto a cold sapphire window is described in Sec. \ref{sec:deposition}.  The technique for focusing the laser into the SXe is described in Sec. \ref{sec:laser}, and imaging of the laser region is described in Sec. \ref{sec:collection}, with attention to the effect of vibrations in Sec. \ref{sec:vibes}.  Finally, a system for scanning the focused laser across the sapphire window is described in Sec. \ref{sec:laserscanning}.
 
 \section{Ion Beam}
+\label{sec:ionbeam}
 
-The ion beam system is shown in Fig. \ref{fig:ionbeam}.  This is a clean source of Ba\textsuperscript{+} which can do a very wide range of deposit sizes, from billions of ions in a focused laser region all the way down to the single-ion level and below.
+The Colutron ion beam system is a clean mass-selected source of Ba\textsuperscript{+} which, with the added capability of pulsing, can do a very wide range of deposit sizes, from billions of ions in a focused laser region all the way down to the single-ion level and below.  The different components of this system are shown in Fig. \ref{fig:ionbeam} and described in the following subsections.  Ions produced in a Colutron ion source receptacle are accelerated and collimated for passage through the mass filter.  Several sets of deflection plates are available for steering, and Einzel lenses focus the beam near the final Faraday cup.  A set of pulsing plates can be used to deposit 1-$\mu$s, or continuous ion current can be used in depositing in SXe on the cold sapphire window.
 %(may only want to say that if we have those scans)
+
+\vspace{20mm}
 
 %\begin{landscape}
 \begin{figure} %[H]
@@ -20,10 +23,13 @@ The ion beam system is shown in Fig. \ref{fig:ionbeam}.  This is a clean source 
 \label{fig:ionbeam}
 \end{figure}
 %\end{landscape}
+%width=1.4 is good for landscape, but idk how to get it in the center
 
 \subsection{Ion Source}
 
-Ba\textsuperscript{+} ions are produced in a Model DCIS-101 Colutron ion gun system \cite{Colutron}.  The source is shown in Fig. \ref{fig:ionsource}.  A solid barium charge is placed into the hollowed end of a stainless steel rod, which is inserted into the discharge chamber, where it is heated by a filament.  The barium vaporizes, and escapes the hollowed rod around a loosely threaded set screw.  The source is designed to produce a discharge between the anode plate and the filament cathode, through an argon buffer gas leaked into the source chamber.  This controlled discharge would then also ionize atoms from the solid charge to produce the desired ion beam, and Ar ions would be filtered out.  However, to avoid contamination of the SXe matrix with residual Ar gas, the buffer gas was not used in this work.  Discharge can be maintained with Ba vapor alone.  The longevity of ion current from a single charge (at least several 10s of hours) suggests that Ba is coating the inner walls of the source chamber, and is heated enough to provide sufficient Ba pressure to support a discharge.  The discharge produces a plasma, containing barium ions, which escapes the chamber through a small hole in the anode, where it enters the acceleration region.  The acceleration potential applied is 2~kV, between the ion source anode and the first element of Einzel lens 1 (L1).  This lens approximately collimates the ion beam for passage through the E$\times$B velocity filter.
+Ba\textsuperscript{+} ions are produced in the source of a Model DCIS-101 Colutron ion gun \cite{Colutron}.  It is shown in Fig. \ref{fig:ionsource}.  A solid Ba charge is placed into the hollowed end of a stainless steel rod, which is capped by a loose screw.  The source rod is inserted into the discharge chamber, where it is heated by a filament, vaporizing the Ba.  The source is designed to produce a discharge between the anode plate and the filament cathode, through an argon buffer gas leaked into the source chamber.  This controlled discharge also ionizes Ba atoms from the solid charge to produce the desired Ba\textsuperscript{+} ion beam, and the Ar\textsuperscript{+} ions are filtered out.  In the present work, to avoid contamination of the SXe matrix with residual Ar gas, the buffer gas was not used.  It has been found that, with care, the discharge can be maintained with Ba vapor alone.  The longevity of ion current from a single charge is at least several 10s of hours.  This suggests that Ba is coating the inner walls of the source chamber, and is heated enough to provide sufficient Ba pressure to support a discharge.
+
+The discharge produces a plasma, containing barium ions.  The application of an acceleration potential draws Ba\textsuperscript{+} ions from the plasma.  The 2~kV acceleration potential is applied between the ion source anode and the first element of Einzel lens 1 (L1).  The potential of this lens is adjusted to collimate the ion beam for passage through the E$\times$B velocity filter.
 
 %This is supported by the observation of white oxidation of the inner source parts after a few minutes of exposure to air when opening the system.
 
@@ -36,7 +42,7 @@ Ba\textsuperscript{+} ions are produced in a Model DCIS-101 Colutron ion gun sys
 
 \subsection{E$\times$B Velocity Filter}
 
-The E$\times$B velocity filter selects Ba\textsuperscript{+} by creating perpendicular electric and magnetic fields, which produce opposing forces on charged particles moving through the filter.  The opposing forces will be equal for ions with velocity $v = \frac{E}{B}$.  Since ion velocity is determined by mass ($m$), charge ($q$) and beam potential ($V$), the filter selects ions satisfying Eqn. \ref{eqn:massfilt}:
+The E$\times$B velocity filter selects Ba\textsuperscript{+} by creating perpendicular electric and magnetic fields, which produce opposing forces on charged particles moving through the filter.  The opposing forces will be equal for ions with velocity $v = \frac{E}{B}$.  Since ion velocity is determined by mass ($m$), charge ($q$) and beam potential ($V$), the filter selects ions satisfying Eq. \ref{eqn:massfilt}:
 
 \begin{equation}
 \frac{m}{q} = \frac{2 V B^{2}}{E^{2}}
@@ -46,7 +52,7 @@ The E$\times$B velocity filter selects Ba\textsuperscript{+} by creating perpend
 \noindent
 where $B$ and $E$ are the magnetic and electric fields, respectively.  Those fields are chosen such that Ba\textsuperscript{+} ions pass straight through.  Other ions will be deflected.  
 
-The E$\times$B filter is shown in Fig. \ref{fig:exb}.  Electromagnets provide the vertical magnetic field.  Electrode plates and field-shaping guard rings provide the horizontal electric field.  The guard rings prevent a lensing and astigmatism effect from fringe fields of the plates \cite{Colutron}.
+The E$\times$B filter is shown in Fig. \ref{fig:exb}.  Electromagnets provide a vertical magnetic field.  Electrode plates and field-shaping guard rings provide a horizontal electric field.  The guard rings prevent lensing and astigmatism from fringe fields of the plates \cite{Colutron}.
 
 \begin{figure}[h]
         \centering
@@ -60,17 +66,21 @@ The E$\times$B filter is shown in Fig. \ref{fig:exb}.  Electromagnets provide th
 
 \subsection{Other Beam Components}
 
-The first three sets of deflection plates can be used for beam diagnostics, and are set to 0~V during normal operation.  The deflection plates just before the pulsing plates, H1 and V1, are set to constant values of +50~V and 0~V, respectively, which have been selected such that the beam, in both pulsing and continuous modes, can be deposited at the sapphire window for reasonable settings on the final deflection plates, H2 and V2.  As described in Section \ref{subsec:ionDepCal}, different settings in H2/V2 are required for peak ion current in Faraday cup 3 vs. peak deposit at the window.
+The first three sets of deflection plates shown in Fig. \ref{fig:ionbeam} can be used for beam diagnostics, and are set to 0~V during normal operation.  The fourth set of deflection plates, H1 and V1, located just before the pulsing plates are set to constant values of +50~V and 0~V, respectively.  These voltages have been selected such that the beam, in both pulsing and continuous modes, can be deposited at the sapphire window for reasonable settings on the final deflection plates, H2 and V2.  As described in Section \ref{subsec:ionDepCal}, different settings in H2/V2 are required for peak ion current in Faraday cup 3 vs. peak deposit at the window.
 
-Einzel lens 2 (L2) focuses the beam to pass through the aperture in the first element of the decelerator lens.  Einzel lens 3 (L3) is set to zero in this setup.  The decelerator lens can be used to vary Ba\textsuperscript{+} deposit energy, which was done in \cite{Shon}, but it in this work it acts as an Einzel lens with only the second element (D2) at voltage.  It focuses the beam near the sample and Faraday cup 3 (there is no Faraday cup 2 in this setup).  Faraday cup 3 measures the ion current during experiments, and is retracted when deposits are being made.  Calibration of deposits using Faraday cup 3 is described in Section \ref{subsec:ionDepCal}.  Faraday cup 1 can be used for beam diagnostics, and is usually retracted.  
+Einzel lens 2 (L2) focuses the beam to pass through the aperture in the first element of the decelerator lens.  Einzel lens 3 (L3) is set to zero in this setup.  The decelerator lens can be used to vary Ba\textsuperscript{+} deposit energy, which was done in \cite{Shon}, but in this work it acts as an Einzel lens with only the second element (D2) at non-zero voltage.  It focuses the beam near the sample and Faraday cup 3 (there is no Faraday cup 2 in this setup).
 
-To align the ion beam, L1 was first tuned to maximize ion current in Faraday cup 3, with L2, L3, and D2 set to zero.  Since cup 3 is about 2~m away from L1, this approximately collimates the beam for passage through the E$\times$B filter.  The optimal value for L1 was found to be around -400~V relative to the 2000~V beam energy \emph{\color{red}consistent with Bill's SIMION -- show?}.  Next, L2 and D2 were fine-tuned together to achieve maximal current in cup 3.  Finally, the straightness of the beam was checked by peaking ion current with deflection plates H1 and V1 on cup 3, as well as on cup W, which is an additional Faraday cup attached to the coldfinger in place of the sapphire window.  Cup W is further described in Section \ref{subsec:ionDepCal}.
+Faraday cup 3 measures the ion current during experiments, and is retracted when deposits are being made.  Calibration of deposits using Faraday cup 3 is described in Section \ref{subsec:ionDepCal}.  Faraday cup 1 can be used for beam diagnostics, and is usually retracted.  An additional Faraday cup, cup W, can be attached to the coldfinger in place of the sapphire window for determining deflection plate voltages for depositing Ba\textsuperscript{+} on the sapphire window, and for calibrating ion deposits.  This is described further in Sec. \ref{subsec:ionDepCal}.
+
+To align the ion beam, L1 was first tuned to maximize ion current in Faraday cup 3, with L2, L3, and D2 set to zero.  Since cup 3 is about 2~m away from L1, this approximately collimates the beam for passage through the E$\times$B filter.  The optimal value for L1 was found to be around -400~V relative to the 2000~V beam energy.  Next, L2 and D2 were fine-tuned together to achieve maximal current in cup 3.  Finally, the straightness of the beam was checked by peaking ion current with deflection plates H1 and V1 on cup 3 and cup W.
+
+%\emph{\color{red}consistent with Bill's SIMION -- show?}
 
 %L2 8.34 = 
 
 \subsection{Ion Beam Pulsing}
 
-When running in pulsing mode, the pulsing plates are normally set to 200~V and -200~V to deflect the beam, and are pulsed to 0~V for 1~$\mu$s to pass a short pulse of ions straight forward.  The pulsing circuit is shown in Fig. \ref{fig:pulse_circuit}.  Square waves, triggered by LabVIEW at 500~Hz, enter the circuit at (a). The transformed pulse triggers the MOSFET switch, which closes the circuit for the period of the pulse.
+To deposit small numbers of ions, it is desirable to be able to pulse the ion beam with short pulses.  To achieve pulsed beams, the pulsing plates, normally set to 200~V and -200~V to deflect the beam, are pulsed to 0~V for 1~$\mu$s to pass a short pulse of ions straight forward.  The pulsing circuit is shown in Fig. \ref{fig:pulse_circuit}.  Square waves, triggered by LabVIEW at 500~Hz, enter the circuit at (a). A transformer isolates a MOSFET switch from ground.  Upon a trigger pulse the MOSFET switch shorts the pulsing plates for the period of the pulse.
 
 \begin{figure} %[h]
         \centering
@@ -79,7 +89,7 @@ When running in pulsing mode, the pulsing plates are normally set to 200~V and -
 \label{fig:pulse_circuit}
 \end{figure}
 
-The induction plates are used to observe pulses during a deposit.  Pulses just prior to a deposit can be observed by cup 3 (as well as the induction plates) for a measurement of ion current in the pulses.  eV Products pre-amplifiers convert the ion current to voltage signals, which are recorded on a digital oscilloscope.  An example of raw oscilloscope traces of Faraday cup 3 and induction plate signals are shown in Fig. \ref{fig:pulse_raw_shaped}(a).  The pre-amp output voltage is related to the input current according to Eqn. \ref{eqn:preamp}:
+The pulsing plates are followed by three induction plates, the middle plate of which provides a measure of the ion pulses.  Just prior to a deposit, the charge in the pulses can be directly measured on cup 3.  eV Products pre-amplifiers convert the ion current in the induction plates and cup 3 (or cup W) to voltage signals, which are recorded on a digital oscilloscope.  An example of raw oscilloscope traces of Faraday cup 3 and induction plate signals are shown in Fig. \ref{fig:pulse_raw_shaped}(a).  The pre-amp output voltage is related to the input current according to Eq. \ref{eqn:preamp}:
 
 \begin{equation}
 I = \frac{-(V_{out} + R_{1} C \frac{dV_{out}}{dt})}{R_{1} M}
@@ -87,7 +97,7 @@ I = \frac{-(V_{out} + R_{1} C \frac{dV_{out}}{dt})}{R_{1} M}
 \end{equation}
 
 \noindent
-$R_{1} C$ and $R_{1} M$ are determined by putting a known square pulse into the pre-amp.  First, the time constant of an exponential fit to the signal decay determines $R_{1} C$, and then $R_{1} M$ is determined by matching this shaped signal to the original square pulse.  Actual currents in the induction plates and cup 3 are shown in Fig. \ref{fig:pulse_raw_shaped}(b).  The induction signal is positive as ions are approaching the sensitive plate, and an equal but negative signal is seen after the ions pass through.  The Faraday cup stops the ions, so it produces only a positive induction signal as ions approach it.
+where $R_{1} C$ and $R_{1} M$ are determined by putting a known square pulse of current into the pre-amp through a large resistor.  First, the time constant of an exponential fit to the signal decay after the pulse determines $R_{1} C$.  Then $R_{1} M$ is determined by matching this shaped signal to the original square pulse.  The actual currents in the induction plates and cup 3 derived using Eq. \ref{eqn:preamp} are shown in Fig. \ref{fig:pulse_raw_shaped}(b).  The induction signal is positive as ions are approaching the middle plate, and an equal but negative signal is seen after the ions pass through.  The Faraday cup stops the ions, so it produces only a positive induction signal as ions approach it.
 
 \begin{figure} %[H]
         %\centering
@@ -102,38 +112,39 @@ $R_{1} C$ and $R_{1} M$ are determined by putting a known square pulse into the 
         \label{fig:pulse_raw_shaped}
 \end{figure}
 
-Pulsing data also provides confirmation that the beam is composed of Ba\textsuperscript{+}.  The time between the center of the pulsing plate voltage overlap and the center of the pulse measured by the Faraday cup, along with a measurement of the distance traveled, provides a velocity measurement of the ions.  This distance was measured to be 31.5 $\pm$ 0.5~cm from the center of the pulsing plates to the Faraday cup, and time-of-flight data, e.g. Fig. \ref{fig:pulses_ArBa}, give 39.8 $\pm$ 3.4~amu for Ar\textsuperscript{+} and 136.8 $\pm$ 6.3~amu for Ba\textsuperscript{+}, including an uncertainty on the time of flight of $\pm$ 0.1~$\mu s$.
+Pulsing data also provide confirmation that the beam is composed of Ba\textsuperscript{+}.  The time between the center of the pulsing plate voltage overlap and the center of the pulse measured by the Faraday cup, along with the known distance traveled, determines the velocity measurement of the ions.  The distance from the center of the pulsing plates to the Faraday cup was measured to be 31.5 $\pm$ 0.5~cm.  Time-of-flight data, e.g. Fig. \ref{fig:pulses_ArBa}, give 39.8 $\pm$ 3.4~amu for Ar\textsuperscript{+} ions and 136.8 $\pm$ 6.3~amu for Ba\textsuperscript{+} ions, including an uncertainty on the time of flight of $\pm$ 0.1~$\mu s$.  These agree with the known atomic masses.
 
 \begin{figure}[h]
         \centering
                 \includegraphics[width=.7\textwidth]{figures/pulses_BaAr.png}
-                \caption{Arrival time of pulses at cup 3 vs. time of pulsing plate signal (black (+) and gray (-)) for Ar\textsuperscript{+} and Ba\textsuperscript{+}.}
+                \caption{Arrival time of pulses at cup 3 vs. time of pulsing plate signal (black (+) and gray (-)) for Ar\textsuperscript{+} and Ba\textsuperscript{+} ions at 2000~eV.}
 \label{fig:pulses_ArBa}
 \end{figure}
 
-\subsection{Calibration of Ion Deposit}
+\subsection{Calibration of Ion Deposits}
 \label{subsec:ionDepCal}
 
-To calibrate the signal at cup 3 to an ion density at the sapphire window, another Faraday cup (cup W) is attached to the cold finger in place of the sapphire window.  The ratio of between ion current in cup 3 and cup W is measured ($\equiv f$).  Then, knowing the radius of the entrance aperture in cup W lets one determine the ion density per pulse at the sapphire window:
+The ratio of between ion current in cup 3 and cup W is measured to be $0.5 \equiv r_{\text{w}}$.  Then, the ion density per pulse at the sapphire window is defined by:
 
 \begin{equation}
-\frac{\text{ions}}{\text{pulse} \times m^{2}} = \frac{Q f}{e A}
+\frac{\text{ions}}{\text{pulse} \times m^{2}} = \frac{Q r_{\text{w}}}{e A}
 \label{eqn:ion_density}
 \end{equation}
 
 \noindent
-where $Q$ is the charge/pulse at cup 3, $A$ is the area of cup W, and $e$ is the elementary charge.  The voltages on the final deflection plates H2 and V2 are also determined to optimize the signal in cup W.  In later experiments, these differed from the values for maximum cup 3 signal by about 70~V in H2 and 60~V in V2, corresponding to about 4~mm in x and y position at cup W, indicating that some drift in optimal ion beam component settings occurred over time.
+where $Q$ is the charge/pulse at cup 3, $A$ is the area of cup W, and $e$ is the elementary charge.  The radius of the opening in cup W is 1.4~mm.  Each time cup W is inserted, the voltages on the final deflection plates H2 and V2 which optimize the signal in cup W, in pulsed and continuous mode, are determined.  In the latest imaging experiments, these differed from the values for maximum cup 3 signal by about 70~V in H2 and 60~V in V2, corresponding to an effect of the undeflected beam of about 4~mm in x and y position at cup W relative to the center line from cup 3.  This indicates the level of drift in optimal ion beam component settings that occur over time.
 
 \section{Ba Getter Source}
+\label{sec:getter}
 
-A BaAl$_{4}$ getter, manufactured by SAES, can be inserted on a bellows to emit toward the sapphire window, shown in Fig. \ref{fig:endOfBeamBa}.  When heated, the getter emits neutral Ba with minimal Ba\textsuperscript{+}.  Getters were used extensively in previous work \cite{Brian} for measuring the absorption of Ba in SXe with large Ba deposits, and in identifying emission peaks.  A getter was used briefly in this work in identifying the 619-nm fluorescence peak, as described in Section \ref{sec:619identification}.  The barium getters used in \cite{Brian} were exothermic BaAl$_{4}$-Ni flash getters.  The getter used here is an endothermic BaAl$_{4}$ type, designed for more controlled Ba emission.  
+A BaAl$_{4}$ getter, manufactured by SAES with part number ST 2/F/WIRE, can be inserted on a bellows to emit toward the sapphire window, as shown in Fig. \ref{fig:endOfBeamBa}.  When heated, the getter emits neutral Ba with minimal Ba\textsuperscript{+} due to the low temperature ($\sim$800$^{\circ}$ C determined by observing brick red color temperature).  Getters were used extensively in previous work \cite{Brian} for measuring the absorption and emission spectra of Ba in SXe with large Ba deposits.  A getter was used briefly in this work in verifying that the 619-nm fluorescence peak, that is used for single Ba imaging, is actually a neutral Ba peak, as described in Section \ref{sec:619identification}.  The barium getters used in \cite{Brian} were exothermic BaAl$_{4}$-Ni flash getters.  The getter used here is an endothermic BaAl$_{4}$ type, designed for more controlled Ba emission.  
 
 %no evidence is provided in Brian's thesis, nor Shon's, and I don't see anything on the SAES website
 
 \begin{figure} %[h]
         \centering
                 \includegraphics[width=.75\textwidth]{figures/window_etc_justBa.png}
-                \caption{Apparatus near sapphire window, including Ba getter, Faraday cup 3, induction plates, and Xe gas inlet.}
+                \caption{Apparatus near sapphire window, including induction plates, Ba getter, Faraday cup 3, Xe gas inlet, and sapphire window at 11~K.}
 \label{fig:endOfBeamBa}
 \end{figure}
 
@@ -147,7 +158,7 @@ A BaAl$_{4}$ getter, manufactured by SAES, can be inserted on a bellows to emit 
 \section{Sample Deposition}
 \label{sec:deposition}
 
-The Ba\textsuperscript{+}/Ba is co-deposited with ultra-pure Xe gas onto a cold sapphire window.  Sapphire has good thermal conductivity at low temperature and good optical transparency in the visible.  The window is held in a copper mount attached to a coldfinger and is tilted at 45$^{\circ}$ to allow access of the ion beam and Xe gas, as well as the excitation laser and collection optics.  To begin a deposit, Xe gas is flowed toward the window via a leak valve.  Cup 3 is then retracted and the ion beam is pulsed, depositing Ba\textsuperscript{+} ions into the SXe matrix as it grows.  Cup 3 is then replaced, and the Xe leak stopped.
+The Ba\textsuperscript{+}/Ba is co-deposited with ultra-pure Xe gas onto a cold sapphire window.  Sapphire has good thermal conductivity at low temperature and good optical transparency in the visible.  The window is held in a copper mount attached to a coldfinger and is tilted at 45$^{\circ}$ to allow access of the ion beam and Xe gas, as well as the excitation laser and collection optics.  To begin a deposit, Xe gas is flowed toward the window via a leak valve, through an inlet system designed and built by Brian Mong and Shon Cook \cite{Brian,Shon}.  Cup 3 is then retracted and the pulsing plates are pulsed to zero volts, depositing 1-$\mu$s pulses of Ba\textsuperscript{+} ions into the SXe matrix as it grows.  Cup 3 is then replaced, and the Xe leak stopped.
 
 \begin{figure} %[h]
         \centering
@@ -165,7 +176,7 @@ The Ba\textsuperscript{+}/Ba is co-deposited with ultra-pure Xe gas onto a cold 
 \label{fig:fringes_52K_vs_11K}
 \end{figure}
 
-SXe matrix deposition rate can be measured by interference fringes in a laser reflected against the front surface of the sapphire window, as shown in Fig. \ref{fig:fringe_setup}.  Fringes for SXe deposition at 52~K and 11~K are shown in Fig. \ref{fig:fringes_52K_vs_11K}(a) for the leak rate used in this work.  The refractive index of SXe has a negligible dependence on temperature between 50~ and 30~K \cite{SXeIndex}, so these can be compared directly.  A distribution of SXe deposition rate measurements from several deposits is shown in Fig. \ref{fig:fringes_52K_vs_11K}(b).  A somewhat lower rate is observed at 52~K, $31.3 \pm 0.44(\text{stat}) \pm 0.31(\text{sys})$~nm/s, vs. $35.4 \pm 0.41(\text{stat}) \pm 0.35(\text{sys})$~nm/s at 11~K.  Statistical errors are $\sigma / \sqrt{N}$ where $\sigma$ is the standard deviation of the Gaussian fits to the distributions in Fig. \ref{fig:fringes_52K_vs_11K}(b), and $N$ is the number of entries.  Systematic errors come from propagating an uncertainty on the angle between the laser and sapphire window of $\pm 2^{\circ}$.
+The SXe matrix deposition rate have been measured by interference fringes in a laser reflected from the front surface of the sapphire window and the SXe surface, as shown in Fig. \ref{fig:fringe_setup}.  Fringes for SXe deposition at 52~K and 11~K are shown in Fig. \ref{fig:fringes_52K_vs_11K}(a) for the typical leak rate used in this work.  The refractive index of SXe has a negligible dependence on temperature between 50~ and 30~K \cite{SXeIndex}, so these rates can be compared directly.  A distribution of SXe deposition rate measurements from several deposits is shown in Fig. \ref{fig:fringes_52K_vs_11K}(b).  A somewhat lower rate is observed at 52~K, $31.3 \pm 0.44(\text{stat}) \pm 0.31(\text{sys})$~nm/s, vs. $35.4 \pm 0.41(\text{stat}) \pm 0.35(\text{sys})$~nm/s at 11~K.  Statistical errors are $\sigma / \sqrt{N}$ where $\sigma$ is the standard deviation of the Gaussian fits to the distributions in Fig. \ref{fig:fringes_52K_vs_11K}(b), and $N$ is the number of entries.  Systematic errors come from propagating an uncertainty on the angle between the laser and sapphire window of $\pm 2^{\circ}$.
 
 \begin{figure} %[h]
         \centering
@@ -284,7 +295,7 @@ An example raw image of the focused 570~nm dye laser on a Ba\textsuperscript{+} 
 \section{Vibrations and Effective Laser Region}
 \label{sec:vibes}
 
-Relative vibrations between the laser and sapphire window affect the number of Ba atoms exposed, increasing the effective laser spot size.  This was studied by observing the position of a ``dust spot" (a highly scattering feature on the sapphire window) relative to the position of the laser in an image on time scales down to 50~ms.  An example of an image from this experiment is shown in Fig. \ref{fig:dustspot}.  The 570-nm dye laser was somewhat de-focused, and the dust spot was illuminated by a de-focused 657~nm diode laser. For each frame, 2D Gaussian functions were fit to locate the center of the laser spot and the dust spot in order to measure their relative position.  The fit for the laser spot was restricted in y so that it was not affected by the bulk sapphire fluorescence path.  The distances in x and y between the dust spot and laser are plotted for each 50-ms snapshot in Fig. \ref{fig:cryovibe2D}(a).  The distribution shows a correlation between x and y.  To calculate an effective laser spot size due to this vibration, each difference (x,y) between laser and dust spot was used as the center of a 2D Gaussian, each with w$_{x} = 2.06~\mu$m and w$_{y} = 2.66~\mu$m to represent the laser spot.  Such Gaussian functions were summed for all points to produce a distribution of summed laser exposure, shown in Fig. \ref{fig:cryovibe2D}(b).  The area enclosed by a 1/e contour then represents the total exposed area, while signal at a given moment is emitted from the laser spot size.  This leads to two definitions for the number of ions in the laser region (see Eqn. \ref{eqn:ion_density}), and thus the upper limit on the number of atoms:  average atoms exposed is defined by the laser spot size, and total atoms exposed is defined by the total region covered due to vibrations.  Note that the factor between average and total areas depends on the laser spot size.  The factor is about 4.7 for w$_{\text{x}} \times $w$_{\text{y}}$ = $2.06~\mu$m$ \times 2.66~\mu$m, and about 3 for w$_{\text{x}} \times $w$_{\text{y}}$ = $5~\mu$m$ \times 5~\mu$m.
+Relative vibrations between the laser and sapphire window affect the number of Ba atoms exposed, increasing the effective laser spot size.  This was studied by observing the position of a ``dust spot" (a highly scattering feature on the sapphire window) relative to the position of the laser in an image on time scales down to 50~ms.  An example of an image from this experiment is shown in Fig. \ref{fig:dustspot}.  The 570-nm dye laser was somewhat de-focused, and the dust spot was illuminated by a de-focused 657~nm diode laser. For each frame, 2D Gaussian functions were fit to locate the center of the laser spot and the dust spot in order to measure their relative position.  The fit for the laser spot was restricted in y so that it was not affected by the bulk sapphire fluorescence path.  The distances in x and y between the dust spot and laser are plotted for each 50-ms snapshot in Fig. \ref{fig:cryovibe2D}(a).  The distribution shows a correlation between x and y.  To calculate an effective laser spot size due to this vibration, each difference (x,y) between laser and dust spot was used as the center of a 2D Gaussian, each with w$_{x} = 2.06~\mu$m and w$_{y} = 2.66~\mu$m to represent the laser spot.  Such Gaussian functions were summed for all points to produce a distribution of summed laser exposure, shown in Fig. \ref{fig:cryovibe2D}(b).  The area enclosed by a 1/e contour then represents the total exposed area, while signal at a given moment is emitted from the laser spot size.  This leads to two definitions for the number of ions in the laser region (see Eq. \ref{eqn:ion_density}), and thus the upper limit on the number of atoms:  average atoms exposed is defined by the laser spot size, and total atoms exposed is defined by the total region covered due to vibrations.  Note that the factor between average and total areas depends on the laser spot size.  The factor is about 4.7 for w$_{\text{x}} \times $w$_{\text{y}}$ = $2.06~\mu$m$ \times 2.66~\mu$m, and about 3 for w$_{\text{x}} \times $w$_{\text{y}}$ = $5~\mu$m$ \times 5~\mu$m.
 
 %In the absence of signal bleaching, the average number of atoms exposed is a good definition for the number of atoms observed.
 
