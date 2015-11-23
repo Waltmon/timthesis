@@ -1,22 +1,18 @@
-- just re-run xebaxe_largerst... for the orange text
-- same for thesis_xebaxe(), since it seemed squished, which will involve re-putting in the (a),..., and "scrunching" it (for the caption)
+? larger ("10^4") deposit for 5902 image figure?
 
-- larger ("10^4") deposit for 5902 image figure?
+NOT SURE THERE'S TIME TO SOLVE:
+1)  eff. loss of fluor. at SXe interface, and of laser on window interface
+
+
+
+
 
 * find anti-cor plot -- of calib source with resolution of each?  and finish that paragraph
 w ask whoever made sensitivity plot whether it is 1(2) sigma (look for Josh email)
 * alpha ion reference? (at end of Ch.1)
-
-- find P. Toschek + H. Dehmelt (sp?) 1970s Ba+ paper (and Dave Wineland?)
-
-- look for 3P1 --> 1S0 rate (w/ ref)
-
-- do side view thing on Ba getter picture
-
-- check Xe bottle purity and put in section Sample Deposition (Ch.3)
-
-- measure difference between gain / ADC modes (at some point)
-
-
-NOT SURE THERE'S TIME TO SOLVE:
-1)  eff. loss of fluor. at SXe interface, and of laser on window interface
+* just re-run xebaxe_largerst... for the orange text
+* same for thesis_xebaxe(), since it seemed squished, which will involve re-putting in the (a),..., and "scrunching" it (for the caption)
+w look for 3P1 --> 1S0 rate (w/ ref)
+* (sorta -- conservatively saying we got "Research" and not "research plus", whch would be 99.999) check Xe bottle purity and put in section Sample Deposition (Ch.3)
+* find P. Toschek + H. Dehmelt (sp?) 1970s Ba+ paper (and Dave Wineland?)
+* do side view thing on Ba getter picture

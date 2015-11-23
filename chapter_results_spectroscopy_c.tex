@@ -1,0 +1,311 @@
+\chapter{Results: Spectroscopy}
+\label{chapter:spectroscopy}
+
+The spectroscopy of Ba in SXe was studied in detail beyond that reported in two previous theses \cite{Shon,Brian}, with the goal of imaging single Ba atoms.  Emission and excitation spectra are analyzed in Sec. \ref{sec:fluorescence}, with particular interest in the 619-nm peak in Sec. \ref{sec:619identification}.  Studies of temperature and bleaching effects in Sections \ref{sec:tempanneal} and \ref{sec:bleaching} aid in determining optimal conditions for observation.  Finally, candidate emission lines for Ba\textsuperscript{+} in SXe are discussed in Sec. \ref{sec:BaPlus}.
+
+%Backgrounds are analyzed in \ref{sec:bgs} in order to optimize sensitivity,
+
+\section{Excitation and Emission of Ba in SXe}
+\label{sec:fluorescence}
+
+Deposits of Ba in SXe absorb primarily between 540~nm and 570~nm.  An absorption spectrum, obtained by observing absorption of white light by a large Ba deposit at 10~K, is shown in Fig. \ref{fig:BaAbs}.  Significant broadening, as well as a 4-nm redshift  of the central peak, occur relative to the vacuum $6s^{2}$ $^{1}$S$_{0} \rightarrow 6s6p$ $^{1}$P$_{1}$ absorption value of 553.5~nm.  Initial absorption and emission spectra was done with the Ba getter source \cite{Mong2015,Shon,Brian}, which is expected to produce neutral Ba with minimal Ba\textsuperscript{+}.  The emission spectrum in Fig. \ref{fig:BaAbs} was obtained by 557-nm excitation of a Ba\textsuperscript{+} deposit, made at 45~K and observed at 11~K.  Observation of the same 577- and 591-nm fluorescence peaks from Ba getter deposits demonstrates that these peaks are emission of neutral Ba.  Therefore some neutralization of the ions takes place during the deposit \cite{Mong2015,Shon,Brian}.  The fraction of ions neutralized has not yet been determined.
+
+\begin{figure} %[H]
+        \centering
+                \includegraphics[width=.7\textwidth]{figures/BaAbs_fromBaSpec.png}
+                \caption{Absorption and emission spectra of neutral Ba in SXe.  The absorption is of a Ba getter deposit at 10~K, and the emission is of a (neutralized) Ba\textsuperscript{+} deposit, deposited at 45~K and observed at 11~K with 557~nm excitation.  From \cite{Mong2015}.}
+\label{fig:BaAbs}
+\end{figure}
+
+\begin{figure} %[H]
+        \centering
+                \includegraphics[width=.8\textwidth]{figures/excitspec_grn_spectra_v3.png}
+                \includegraphics[width=.8\textwidth]{figures/excitspec_grn.png}
+                \caption{(a) Fluorescence spectra for a few different excitation wavelengths, and (b) excitation spectra for all observed Ba fluorescence peaks.  Exposures are 1~s.}
+\label{fig:excitspecGrn}
+\end{figure}
+
+%(relative magnitudes are arbitrary as they are affected by relative site populations and fluorescence efficiencies)
+
+%Put legend in (b)? It's crowded.
+
+%\begin{equation}
+%A(1+erf(\frac{x-a}{\sigma_{1}})(1-erf(\frac{x-a}{\sigma_{2}}))
+%\label{eqn:specfit}
+%\end{equation}
+
+%Deposition at temperatures higher than 10~K and exploration of more excitation wavelengths have led to discovery of emission peaks beyond the 591- and 577-nm peaks reported in \cite{Shon} and \cite{Brian}.  
+
+Emission spectra, scaled by laser power, of a Ba\textsuperscript{+} deposit made at 44~K and observed at 11~K are shown in Fig. \ref{fig:excitspecGrn}(a) for a few different excitation wavelengths.  The 577- and 591-nm peaks are clear at all three wavelengths, with varying strength.  Peaks at 570~nm and 601~nm, first reported here, are both clear at 546-nm excitation.  The 619-nm peak is stronger at higher wavelength, and the 670-nm peak is clear at 556-nm excitation.
+
+Excitation spectra, shown in Fig. \ref{fig:excitspecGrn}(b), were produced by scanning the dye laser and measuring the magnitude of each fluorescence peak vs. excitation wavelength.  For each frame, the spectrum was fit with a sum of peak-specific fit functions, where function shape parameters were fixed (centers and widths) and magnitudes were allowed to float.  Fitting is described in Section \ref{subsec:fitgrn}.  Since the dye laser power varies over the tuning range, fluorescence counts at each excitation wavelength are scaled to the laser power in that frame.  Since signal levels are dependent on the deposit size, the absolute scale is arbitrary.  Thus, curves were scaled for visibility on the same plot.  The discontinuity around 566~nm for the 619- and 670-nm peaks is the boundary between the scan range of different laser dyes.  R6G dye was used for higher wavelengths and R110 for lower wavelengths.  Bleaching, discussed in Sec. \ref{sec:bleaching}, was prevented from occurring in the 570-, 577-, 591-, and 601-nm peaks during excitation spectrum scans by using low laser intensities.  For those peaks, maximal laser power was 0.1~mW, and the laser radius was w = 7~mm with no focusing.  The scans for the 619- and 670-nm peaks, which bleach only at much higher intensities, were done with the laser somewhat focused to radii of w = 1000~$\mu$m in the R110 dye range, and w = 200~$\mu$m in the R6G dye range, with maximal laser powers of 10~mW and 100~mW, respectively.
+
+%Due to these different laser radii, as well as different deposit sizes, curves for the R6G segments (619- and 670-nm peaks) required special scaling to line up with their respective R110 segments.  This scaling was slightly different between the 619- and 670-nm peaks, likely due to different relative populations of those sites on the different deposits.
+
+%INFO:  619- and 670-nm deposits had 5 s DC, with 24 nA on R110 one and 41.5 nA on R6G one
+
+\section{619-nm Peak Attribution}
+\label{sec:619identification}
+
+\begin{figure} %[H]
+        \centering
+                \includegraphics[width=.5\textwidth]{figures/Ar_vs_Ba.png}
+                ~
+                \includegraphics[width=.5\textwidth]{figures/ArImaging.png}
+                \caption{Comparison of signal observed for deposits with the Ba\textsuperscript{+} ion beam (red), Ba getter (blue), and Ar\textsuperscript{+} ion beam (green) (a), and signal through 620-nm band-pass from deposits of small to large numbers of Ar\textsuperscript{+} ions in SXe.}
+\label{fig:ArVsBa}
+\end{figure}
+
+The 619-nm peak, as well as the 670-nm peak, was demonstrated to be related to neutral Ba by a few further tests.  The spectra of a large Ba\textsuperscript{+} deposit and a deposit made with the Ba getter are compared in Fig. \ref{fig:ArVsBa}(a).  The 619-nm and 670-nm peaks are observed with both sources with similar shapes.  Since the getter produces only neutral Ba, these peaks are attributed to neutralized Ba\textsuperscript{+} ions.  Observation of a deposit of Ar\textsuperscript{+} of similar energy and charge in SXe is also shown in Fig. \ref{fig:ArVsBa}(a).  The lack of fluorescence in the Ar\textsuperscript{+} deposit eliminates a matrix-damage-related source of the fluorescence, such as color centers.  Imaging experiments of Ar\textsuperscript{+} deposits were also performed, with both pulsing and continuous ion beams.  Summed counts/mW from these deposits are shown to be consistent with background in Fig. \ref{fig:ArVsBa}(b).  To be similar to Ba imaging experiments discussed in Sec. \ref{sec:imaging619}, the focused dye laser was at 570~nm, and a 620-nm band-pass filter was used on the fluorescence.
+
+%Finally, to rule out the possibility that the signal in Ba imaging experiments is due to passed wavelengths far from the 620-nm band-pass region, e.g. infrared, imaging experiments of Ar\textsuperscript{+} deposits in SXe were performed with both pulsing and continuous ion beams.  The same 620-nm band-pass filter was used, as well as the same focused 570-nm laser, to be similar to Ba\textsuperscript{+} 619-nm imaging experiments.  Summed counts from these deposits were consistent with background, as shown in Fig. \ref{fig:ArVsBa}(b).
+
+%Observation of the fluorescence with two different types of Ba sources is itself positive.  In addition, observation of the fluorescence with the low deposit energy of the getter may bode well for the prospect of grabbing on a probe in LXe.
+
+%at one point youthought leak rate dependence could go here
+
+\section{Annealing/Temperature Dependence}
+\label{sec:tempanneal}
+
+%\emph{\color{gray}When does it need to be mentioned that certain data was also used in the paper(s)?}
+
+%Matrix site occupancies for Ba atoms
+
+\begin{figure} %[H]
+        \centering
+                \includegraphics[width=.7\textwidth]{figures/spectra_temperature_conditions.png}
+                \caption{Spectra of peaks around 590~nm of a Ba\textsuperscript{+} deposit made at 11~K before and after annealing to 39.4~K, and one made at 44~K.  All observations are at 11~K.  Both Ba\textsuperscript{+} deposits are 15~s, however the 44~K deposit is scaled slightly to account for different ion current.  Laser power was about 0.1~mW with an unfocused beam radius of w = 7.056~mm, at 566~nm wavelength.}
+\label{fig:specTempConditions}
+\end{figure}
+
+\begin{figure} [h]
+        \centering
+                \includegraphics[width=.8\textwidth]{figures/619_deposit_temp.png}
+                \caption{Images of 619-nm fluorescence in focused 570-nm laser region for deposits made at (a) 11K and (b) 52~K.  Deposits are 3~s of continuous Ba\textsuperscript{+} current.  Exposures are 0.1~s.  Observation is at 11~K.}
+\label{fig:specTempConditions619}
+\end{figure}
+
+Emission spectra can depend on the thermal history of the deposit, such as the temperature at which it was made, and any annealing of the deposit.  Spectra observed at 11~K with different thermal histories are shown in Fig. \ref{fig:specTempConditions}.  Peak shapes in the annealed deposit look similar to those in the deposit made at 44~K.  However, larger signal is observed in the deposit at 44~K.  The broader emission around 596~nm in non-annealed 11-K deposits may be due to a higher population of the 601-nm peak,which is not resolved from the 591-nm peak.  The deposit temperature dependence of the 619-nm peak is illustrated by images comparing the fluorescence from a focused laser through the 620-nm band-pass filter, shown in Fig. \ref{fig:specTempConditions619}.  The level of 619-nm signal is about 3$\times$ larger in deposits made at 52~K vs. 11~K.  Imaging is described in detail in Chapter \ref{chapter:imaging}.  These tests guided the standard of depositing at 50$\pm$5~K when observing the 577-, 591-, and/or 619-nm peaks.
+
+%differences in the relative amplitudes of the peaks could be due to differences in matrix site populations
+
+%the respective 31~nm/s and 37~nm/s are from the same Xe leak rate, resulting in different SXe deposition rates daccording to Fig. \ref{fig:fringes_52K_vs_11K}
+
+%A study of deposit conditions for the 619-nm peak (rather than just temp-depend)
+
+% is discussed briefly in \ref{sec:bleaching}.
+
+%5.4E4 Xe:Ba for leak 48 50~K (31 nm/s)
+
+% at leak setting 48 (619 vs temp)
+
+\begin{figure} %[H]
+        \centering
+                \includegraphics[width=.7\textwidth]{figures/spectra_annealing.png}
+                \caption{Spectra of a large Ba\textsuperscript{+} deposit through several annealing cycles.  The initial deposit was at 11~K.  The laser power was about 0.2~mW with an unfocused beam radius of w = 7.056~mm, at 564~nm wavelength.  These are selections from the full data set shown as peak counts vs. temperature in Fig. \ref{fig:annealGrn}.  \cite{Mong2015}}
+\label{fig:specAnneal}
+\end{figure}
+
+\begin{figure} %[H]
+        \centering
+%                \includegraphics[width=.5\textwidth]{figures/spectra_anneal_fit.png}
+%                ~
+                \includegraphics[width=.5\textwidth]{figures/anneal_577peak_topspace.png}
+                \includegraphics[width=.5\textwidth]{figures/anneal_591peak.png}
+                ~
+                \includegraphics[width=.5\textwidth]{figures/anneal_601peak.png}
+                \includegraphics[width=.5\textwidth]{figures/anneal_619peak.png}
+                ~
+                \includegraphics[width=.5\textwidth]{figures/anneal_670peak.png}
+                \caption{Fit peak counts for the (a) 577-, (b) 591-, (c) 601-, (d) 619-, and (e) 670-nm fluorescence peaks through three annealing cycles of the Ba\textsuperscript{+} deposit made at 11~K.  ``1", ``2", and ``3" mark the beginning of each anneal cycle.  Laser power was about 0.2~mW with an unfocused beam radius of w = 7.056~mm, at 564~nm wavelength.}
+\label{fig:annealGrn}
+\end{figure}
+%\clearpage weird
+
+Fluorescence spectra with 564~nm excitation through several annealing cycles for a deposit made at 11~K are shown in Fig. \ref{fig:specAnneal}.  The initial exposure shows significant 591- and 601-nm (unresolved from one another) emission, with some 577-nm emission.  All peaks are reduced at the high temperature ends of the anneal cycles.  The return to lower temperatures results in an overall increase for some peaks, e.g. the 577- and 619-nm peaks, and an overall loss of others, e.g. the 670-nm peak.  
+
+Fit peak counts (fitting is described in Sec. \ref{sec:fitting}) vs. temperature are shown in Fig. \ref{fig:annealGrn}.  The 577-nm and 619-nm peaks gained significantly with the first anneal, suggesting that they are due to more stable matrix sites.  Both of these peaks remained about the same after the second cycle (small gain in 577-nm), and both had loss after the third cycle, which reached the higher temperature of 48~K.  The 591-nm had moderate loss with each cycle.  The 601-nm peak had nearly complete loss in the first anneal cycle.  The 670-nm peak had significant loss, with more loss after each succeeding anneal cycle, each of which reached higher a temperature than the last.
+
+%This could be due to greater diffusion at higher temperature leading to Ba/Ba interactions.
+
+%At this wavelength, all observed Ba peaks are prominent except the 570-nm peak.
+
+% In this interpretation, the 601-nm peak along with the 591-nm peak fit the broader peak in the initial 11~K deposit.
+
+Aside from matrix site changes, direct temperature dependence of fluorescence can be observed in annealing cycles.  The 577-, 591- and 619-nm peaks have their highest amplitude at 11~K.  The 577-nm and 619-nm peaks reach a plateau at 11~K, while the 591-nm may benefit from even lower temperatures.  The inverse relationship between fluorescence of these major peaks and temperature suggests that a probe in nEXO will need to be moved to an evacuated chamber in order to cool to 11~K or below for observation.  
+
+% After annealing, the 670-nm peak has its highest amplitude at around 25~K.
+
+%\emph{\color{gray}601 and (not shown) 570 would require different wavelength to study.}
+
+%[inverse relationship] could be due to a different matrix environment at higher temperature, or possibly a loss of fluorescence efficiency due to increased non-radiative decays from the excited state.  
+
+%\vspace{40mm}
+\section{Bleaching}
+\label{sec:bleaching}
+
+% QUESTION: \emph{\color{gray}Just show bleaching, as informant on how to image, rather than showing model fits.}
+
+Decay of fluorescence with laser exposure, or bleaching, was observed for all six Ba fluorescence peaks.  Examples of bleaching spectra are shown in Fig. \ref{fig:specBleach}, with excitation at (a) 556.9~nm, (b) 562.6~nm, and (c) 566.3~nm, using a semi-focused laser of radius w = 1000 $\mu$m.  Each curve is the Ba emission spectrum at different points in time.  Bleaching was rapid for the 570-, 577-, 591-, and 601-nm peaks, and much slower for the 619- and 670-nm peaks.
+
+\begin{figure} %[H]
+        \centering
+                \includegraphics[width=.5\textwidth]{figures/bleach_spectra_a.png}
+                \includegraphics[width=.5\textwidth]{figures/bleach_spectra_b.png}
+                ~
+                \includegraphics[width=.5\textwidth]{figures/bleach_spectra_c.png}
+                \caption{Bleaching Ba emission peaks with excitation at (a) 556.9~nm, (b) 562.6~nm, and (c) 566.3~nm.  Laser power and exposure times are (a) 1.3~mW and 1~s, (b) 7.5~mW and 0.2~s, and (c) 5.8~mW and 0.2~s.  Every tenth exposure is shown, beginning with the second in the darkest blue, ending with the darkest red.  Each is a 5-s continuous Ba\textsuperscript{+} deposit at 45~K, observed at 11~K. \cite{Mong2015}}
+\label{fig:specBleach}
+\end{figure}
+
+%To produce a well-known laser intensity, the laser was de-focused to a specific beam waist, and the image of 619-nm fluorescence (which defines the laser region due to its low bleaching) from a large Ba\textsuperscript{+} deposit was centered in the spectrometer slit and a y-pixel region of interest (ROI) with edges at 90\% of the maximal intensity.  Ba spectra over time are shown in Fig. \ref{fig:specBleach}(a,b,c) for excitation at (a) 556.9~nm, (b) 562.6~nm, and (c) 566.3~nm, where relative bleaching rates between peaks can be seen to depend on the excitation wavelength.
+
+\subsection{Bleaching of the 577- and 591-nm Peaks}
+\label{sec:bleach577and591}
+
+\begin{figure} %[H]
+        \centering
+                \includegraphics[width=.5\textwidth]{figures/bleach_577vs591_on-res_a_low-I.png}
+                \includegraphics[width=.5\textwidth]{figures/bleach_577vs591_on-res_b_medium-I.png}
+                ~
+                \includegraphics[width=.5\textwidth]{figures/bleach_577vs591_on-res_c_high-I.png}
+                \caption{Fluorescence vs. time for three orders of magnitude (a,b,c) in laser intensity, for the 577-nm (purple) and 591-nm (green) fluorescence peaks.  Deposits are continuous Ba\textsuperscript{+} at 45~K, observed at 11~K.  Exposures are 0.2 or 2~s (indicated by point spacing minus 98.18~ms readout time).}
+\label{fig:bleach_577vs591}
+\end{figure}
+
+Fit integral fluorescence counts vs. time are shows in Fig. \ref{fig:bleach_577vs591} for both the 577-nm (purple) and 591-nm (green) fluorescence peaks, with laser intensities on the order of (a) 0.33, (b) 4.0, and (c) 43 mW/mm\textsuperscript{2}.  Exact intensities are listed in the legends.  The excitation wavelengths used for these comparisons were chosen to be optimal for the respective fluorescence peak:  566.3~nm was used for the 577-nm peak, and 562.6~nm for the 591-nm peak (see Fig. \ref{fig:excitspecGrn} for excitation spectrum).  Bleaching was more rapid in the 591-nm peak when low intensity is used (a).  For medium intensity (b), bleaching was more rapid for the 591-nm peak in the first 10~s, and then began approaching a similar rate to the 577-nm peak.  For the high intensity (c), the rates began similar, with the 577-nm peak bleaching rate barely surpassing that of the 591-nm peak after about 20~s.
+
+\begin{figure} %[H]
+        \centering
+                \includegraphics[width=.5\textwidth]{figures/bleach_577-nm_555vs564.png}
+                ~
+                \includegraphics[width=.5\textwidth]{figures/bleach_591-nm_555vs560.png}
+                \caption{Fluorescence vs. time with different excitation wavelengths for (a) the 477-nm peak, and (b) the 591-nm peak.  Deposits are continuous Ba\textsuperscript{+} at 45~K, observed at 11~K.}
+\label{fig:bleach_excitCompare}
+\end{figure}
+
+Comparisons of bleaching with different excitation wavelengths are shown in Fig. \ref{fig:bleach_excitCompare} for (a) the 577-nm peak, and (b) the 591-nm peak.  In the case of the 577-nm peak (a), the excitation wavelengths (566.3 and 556.9~nm) correspond to different peaks in the excitation spectrum (Fig. \ref{fig:excitspecGrn}).  Very different bleaching rates were observed (although the 556.9-nm excitation had about 2.5$\times$ the intensity).  In the case of the 591-nm peak (b), the excitation wavelengths (562.6 and 556.9~nm) correspond to neighboring peaks in the triplet structure of the excitation spectrum.  The bleaching rates are similar, with a somewhat faster rate for the 556.9-nm excitation, which had about 2$\times$ the intensity.
+
+% as the 562.6-nm excitation
+
+Ultimately, these studies suggested the usage of the 577-nm peak in imaging small numbers of atoms due to its lower bleaching rate, especially with excitation on the high-wavelength end of the range studied.  Imaging of Ba atoms using a combination of the 577- and 591-nm peaks with excitation at 566~nm, via a band-pass filter passing 573 - 599~nm FWHM, is discussed in Sec. \ref{sec:imaging590and577}.
+
+\begin{figure} %[H]
+        \centering
+                \includegraphics[width=.5\textwidth]{figures/bleach_model_vacuum_a_regions.png}
+                ~
+                \includegraphics[width=.5\textwidth]{figures/bleach_model_vacuum_b_regions.png}
+                \caption{Vacuum model (orange) comparisons to bleaching data with excitation at (a) 562.6~nm, and (b) 566.3~nm.  Regions A and B indicate behavioral differences.  Deposits are continuous Ba\textsuperscript{+} at 45~K, observed at 11~K.}
+\label{fig:bleach_model_vac}
+\end{figure}
+%\color{gray}may want to show 3, though 1 I think was bad.
+
+A numerical model of fluorescence vs. time for a 5-level system of Ba in vacuum, described in Sec. \ref{sec:model} and using the Ba vacuum transition parameters given in Table \ref{table:BaTransitions}, is compared to bleaching data of the 591-nm peak in Fig. \ref{fig:bleach_model_vac} for excitation at (a) 562.6~nm, and (b) 566.3~nm.  In the model, the input value for the excitation rate $W_{12}$ is similar to the calculated value based on the laser power, laser radius, and cross-section of Ba in SXe of $1.2 \times 10^{-15}$~cm\textsuperscript{2} measured in \cite{Brian}, with slight adjustments.  $W_{12}$ is scaled by 0.8 for 562.6-nm excitation (a), and 0.5 for 566.3-nm excitation, which is explained by the lower value in the 591-nm peak excitation spectrum at 566.3~nm.  Each model is normalized to the beginning of its respective data set.  Agreement between the model and data is observed for the first several seconds of the bleaching process, and then deviation occurs in two major regions, A and B.  In region A, the model predicts more rapid bleaching than is observed.  In region B, the model predicts a leveling off as a steady state in energy level populations is reached, though the data continues to decay beyond this region.
+
+%The agreement between model and data in the initial rapid decay region suggests that a major contribution of bleaching is indeed optical pumping into the metastable D states \emph{\color{gray}Bill probably won't like that, so you might just sort of start with the next sentence with a sort of ``deviation from vacuum agreement" or something}.  Subsequent deviation from the vacuum model could be explained by altered transition rates in the SXe matrix.  Models with modified transition rates are shown in Fig. [].  [first solve A and then B]  ummm whaaaat i don't even know, whaaaat.  well:  you say, if you show the vacuum model, you should at least \emph{try} some alterations ... maybe you can come up with reasonable try type things if you can't get something good.
+
+% look in model/matrix/fromVacuum/ and subsequent folders for where you are with model fixes
+
+%talk about hole bleaching?
+
+%\begin{figure} %[H]
+ %       \centering
+  %              \includegraphics[width=.9\textwidth]{figures/hole_bleach_590.png}
+   %             \caption{}
+%\label{fig:testfig}
+%\end{figure}
+
+\subsection{Re-pumping}
+
+%mention that similarity to vacuum rates suggests laser repumping?
+
+Re-pumping of optically pumped Ba could require up to three additional lasers, one for each of the populated metastable D states.  The optimal excitation wavelength for each transition would need to be discovered using tunable lasers in the infrared.  However, mixing of states and/or alterations in transition rates for Ba in the Xe matrix could lower the number of lasers needed.  Re-pumping was attempted, with low-cost and on-hand lasers, for the direct infrared transitions as well as the higher-level transitions shown in Fig. \ref{fig:elevsBa}.  A 1550-nm diode laser and a 1064-nm Nd:YAG laser were used to attempt direct re-pumping from the \textsuperscript{1}D and \textsuperscript{3}D states, respectively.  A 657-nm diode laser was used to attempt excitation from the \textsuperscript{3}D states into the higher-level $5d6p$ \textsuperscript{3}D$_{1}$\textsuperscript{o} state, similar to the red laser utilized in the Ba MOT in \cite{BaMOT} for the $6d5d$ \textsuperscript{3}D$_{1}$ state.  The blue C480 dye laser and 406-nm Kr ion laser were used to attempt excitation from the \textsuperscript{1}D state into the higher-level states $6s7p$ \textsuperscript{1}P$_{1}$\textsuperscript{o} and $6s8p$ \textsuperscript{1}P$_{1}$\textsuperscript{o}, respectively.
+
+%MOT was with 659.7~nm I think
+
+\begin{figure} %[H]
+        \centering
+                \includegraphics[width=.5\textwidth]{figures/bleach_re-pump_a.png}
+                ~
+                \includegraphics[width=.5\textwidth]{figures/bleach_re-pump_b.png}
+                \caption{Bleaching data with and without additional re-pump lasers at (a) 1064~nm ($\sim$18~mW/mm\textsuperscript{2}), 1550~nm ($\sim$9~mW/mm\textsuperscript{2}), 657~nm ($\sim$9~mW/mm\textsuperscript{2}) and 472.64~nm ($\sim$14~mW/mm\textsuperscript{2}), and (b) 406~nm.  All curves have 1.4 - 1.5~mW of 555-nm excitation, semi-focused to around 600-$\mu$m beam radius.  Deposits are (a) 6~s and (b) 3~s continuous Ba\textsuperscript{+} at 11~K.}
+\label{fig:bleach_repump}
+\end{figure}
+
+591-nm fluorescence counts vs. time for several Ba\textsuperscript{+} deposits made and observed at 11~K are shown in Fig. \ref{fig:bleach_repump} for several laser combinations, all of which were combined by dichroic filters into the same path.  Each curve is a separate deposit, all of which are scaled to begin at the same point for comparison.  In Fig. \ref{fig:bleach_repump}(a), green-only (555~nm) excitation (i.e., no re-pump lasers) is shown along with green + IR (1064~nm and 1550~nm), green + IR + red (657~nm), green + IR + blue (C480 dye at 472.64~nm), and green + IR + red + blue.  Increased bleaching was observed by inclusion of these re-pump lasers, especially with the blue laser.  In Fig. \ref{fig:bleach_repump}(b), green-only is shown again along with green + violet (Kr ion laser at 406~nm) at two different powers.  Increased bleaching was observed with the violet laser, with more bleaching at the higher violet laser power.
+
+%The only effects observed on bleaching rates by these re-pump lasers were increased bleaching by the blue dye and 406-nm Kr ion lasers.  Some effect of a return of fluorescence was observed after separate exposures of low-intensity 406-nm Kr ion laser, shown in Fig. [fig Kr return].  In this experiment, bleaching of the 591-nm peak was observed by x-nm excitation, and then the x-nm laser was blocked for a length of time, either for a waiting period or for exposure to the 406-nm laser.  Larger returns in 591-nm fluorescence were observed with 406-nm exposure than for periods of just waiting, for low intensities of the 406~nm.  However, co-exposure of this intensity of 406~nm with the green excitation laser had no noticeable effect.
+
+%[Kr separates next to simultaneous -- nothing -- and separarte repump is not distinguished from a temperature effect]
+
+%This phenomenon was not explored further.
+
+\subsection{Bleaching of the 619-nm Peak}
+
+%Another possible mechanism for bleaching is matrix site change caused by the difference in the Ba-Xe interactions when the Ba is in the excited state.  This was explored in an experiment where excitation spectra were produced before and after bleaching the Ba sample at various wavelengths.  \emph{\color{gray}Selected} runs are shown in Fig. [bleaching excitspec].  \emph{\color{gray}describe -- interesting changes may reveal different site components of the peaks -- or does it?  idk how this could happen ... cuz the triple peak thing was supposedly normal for a single site ... small rises were ween, but poplulations cannot be known, so we don;t know}  \emph{\color{red}plots could be simple, like 2 excitspec for a single peak with an arrow at the bleaching (between) $\lambda$ w/ a note like ``bleach w/ x~mW of x~nm"...}
+
+The 619-nm peak does bleach somewhat at much higher laser intensities.  At a few mW of 570-nm excitation, bleaching is observed when the laser is focused.  Integrated 619-nm fluorescence, divided by laser power, vs. time from an image of a focused 570-nm laser is shown in Fig. \ref{fig:bleaching619}.  Three scalings of laser power and exposure time were used such that $I \times t$ is conserved, e.g. the curve with 0.21~mW laser power (green) has 1/3 the exposure time of that with 0.07~mW (blue).  The deviation from linearity in the higher-power curves demonstrates more bleaching per excitation.  Since $I \times t$ is conserved, this indicates a time-dependent return mechanism for the fluorescence which is less helpful on shorter time scales.  Shorter exposure times are more convenient, however this must be balanced against a loss of signal-to-noise.  The 0.21~mW laser power was chosen for imaging experiments, described in Sec. \ref{sec:imaging619}.
+
+\begin{figure} %[h]
+        \centering
+                \includegraphics[width=.7\textwidth]{figures/619_bleach_summed_per_mW.png}
+                \caption{Integrated 619-nm fluorescence counts/mW for three laser powers, with exposure time scaled to conserve $I \times t$.  Excitation is 570~nm focused to w$_{\text{x}} \times$ w$_{\text{y}}$ beam radii of 2.06~$\mu$m $\times$ 2.66~$\mu$m. All one deposit of 5~s continuous Ba\textsuperscript{+} at 50~K, observed at 11~K from low to high laser intensity.}
+\label{fig:bleaching619}
+\end{figure}
+
+%, corresponding to an intensity of about $2.4 \times 10^{4}$~mW/mm$^{2}$ for 2.06 x 2.66.
+
+%This could be a return from a metastable state.  Alternatively, if the 619-nm bleaching is caused by laser-heating of the sample (likely by heating the sapphire window), then the time-dependent return could be defined by the cryostat cooling power.
+
+%Observation of lower total counts when laser intensity and exposure time are increased and decreased, respectively, by the same factor, i.e. the same number of photons on faster time scales, 
+
+%As indicated in Fig. \ref{fig:specTempConditions619} in \ref{sec:tempanneal}, more rapid bleaching of the 619-nm peak is observed with the lower SXe growth rate of 5~nm/s.  This is not understood, though possible explanations include 
+
+\section{Fluorescence Efficiency of 577- and 591-nm Peaks}
+
+The fluorescence efficiency ($\epsilon_{f}$), defined in Sec. \ref{sec:fluorEff}, was measured by the total counts observed near the beginning of exposure, before substantial bleaching has occurred. $\epsilon_{f}$ vs. excitation rate ($W_{12}$) is shown in Fig. \ref{fig:qe} for the 577- and 591-nm peaks, where $W_{12}$ is calculated using the cross-section of Ba in SXe measured in \cite{Brian} of $1.2 \times 10^{-15}$~cm\textsuperscript{2}.  $\epsilon_{f}$ is fairly constant below $W_{12} \approx 100$~s\textsuperscript{-1}, and begins to decline at higher $W_{12}$.  This is explained by higher effect of bleaching at higher $W_{12}$ in the first exposure.  Using the lowest values of $W_{12}$, $\epsilon_{f}$ is measured to be about $2 \times 10^{-3}$ for the 591-nm peak with 562.6-nm excitation, and $5 \times 10^{-4}$ for the 577-nm peak with 566.3-nm excitation.
+
+%This method of measuring $\epsilon_{f}$ becomes less accurate with more optical pumping in the first frame, i.e. with higher $w_{12}$ for a given frame time.  Thus, the trend should be extrapolated toward zero.  Since it seems to be leveling off in the lowest $w_{12}$ values,  the trend suggests a real $\epsilon_{f}$ of about {\color{red}0.5\%}.  The bleaching model was unable to explain this low $\epsilon_{f}$ by additional paths out of the excited state without introducing extreme alterations to existing rates, or by introducing extreme $a_{26}$ and $a_{61}$, in order to dominate $a_{21}$.  A possibility is that the low count rate actually reflects a matrix site population by only about 1\% of deposited Ba\textsuperscript{+} ions.
+
+\begin{figure} %[H]
+        \centering
+                \includegraphics[width=.7\textwidth]{figures/QE_new_just1000.png}
+                \caption{Fluorescence efficiency vs. $W_{12}$ using the first exposure frame for the 577-nm (red) and 591-nm (green) peaks.  Deposits are 5~s continuous Ba\textsuperscript{+} at 50~K, observed at 11~K with laser radius w = 1000~$\mu$m.}
+\label{fig:qe}
+\end{figure}
+
+%Another interesting result is the model's inability to explain the low fluorescence efficiency ($\epsilon_{f}$) observed in these peaks.  The number of counts observed is significantly lower than expected from $a_{21} = ?$.  ...  \emph{\color{gray}I bet $w = 100~\mu m$ is more likely to be the wrong one ... does that one require that more extreme w12 change in modeling (or, the one that still requires a fix after the right P correction has been applied)?}
+
+\section{Blue Excitation / Candidate Ba\textsuperscript{+} Lines}
+\label{sec:BaPlus}
+
+%Since the neutralization fraction of Ba\textsuperscript{+} deposited in SXe is not known to be 100\%, in this system and particularly in future tests of grabbing out of LXe, detection of single Ba\textsuperscript{+} in SXe is still of interest.  Preliminary studies of fluorescence from Ba\textsuperscript{+} deposits were performed by blue laser excitation with the C480 dye laser.
+
+\begin{figure} %[H]
+        \centering
+                \includegraphics[width=.5\textwidth]{figures/BaHx_a.png}
+                ~
+                \includegraphics[width=.5\textwidth]{figures/BaHx_b.png}
+                \caption{Comparison of Ba\textsuperscript{+} deposits made at (a) 55~K vs. 11~K, and (b) 20~nm/s vs. 0.7~nm/s.\cite{Mong2015}}
+\label{fig:BaHx}
+\end{figure}
+
+%\emph{\color{gray}Somewhere you should show that the ``Ba+" lines all show up a lot more, and in fact vs. not showing up at all, with higher temp deps, and maybe this will be a nicer showing of the fig \ref{fig:BaHx}(a).}
+
+Blue excitation of Ba\textsuperscript{+} in SXe was first explored in the thesis of Shon Cook, wherein a set of sharp emission peaks were observed at 522, 575, 637, 712, and 814~nm, in decreasing amplitude.  These peaks were attributed to emission from different vibrational states of a molecule composed of Ba and one or more H atoms \cite{Shon}.  This attribution was supported by two additional experiments.  Firstly, a reduction of those peaks is observed in deposits made at 50~K, well above the H$_{2}$ freezing temperature of 12~K, vs. deposits made at 11~K, as shown in Fig. \ref{fig:BaHx}(a).  Secondly, the peaks are much stronger in deposits made with lower leak rates, as shown in Fig. \ref{fig:BaHx}(b), for deposits made at 11~K.  This is explained by a higher concentration of H$_{2}$ impurities in a matrix formed with a lower leak rate.
+
+\begin{figure} %[H]
+        \centering
+                \includegraphics[width=.7\textwidth]{figures/excitspec_blu_a.png}
+                \includegraphics[width=.7\textwidth]{figures/excitspecBlue_b.png}
+                \caption{(a) Background-subtracted fluorescence spectra for a few different excitation wavelengths, and (b) excitation spectra for peaks observed through C480 dye range.}
+\label{fig:excitspecBlue}
+\end{figure}
+
+In contrast to lower BaH$_{x}$ emission, several other emission peaks become prominent in deposits made at 50$\pm$5~K and observed at 11~K.  Representative spectra at a few excitation wavelengths are shown in \ref{fig:excitspecBlue}(a).  An excitation spectrum, shown in \ref{fig:excitspecBlue}(b), was produced for each emission peak, similar to spectra with green excitation, by scanning the C480 dye laser and fitting the spectrum in each frame.  Fitting is described in Sec, \ref{subsec:fitblu}.  Of particular interest are the peaks at 532~nm and 635~nm.  These peaks have identical excitation spectra, indicating that they are due to the same excitation transition.  Thus the 532- and 635-nm peaks may be due to relaxation to the ground and metastable D states, respectively, from one of the excited P states of Ba\textsuperscript{+} in SXe.  However, matrix effects would need to be responsible for the higher number of counts observed in the 635nm peak vs. the 532-nm peak, whereas the P $\rightarrow$ S transition is about 4$\times$ more likely than the P $\rightarrow$ D transition in vacuum.  The resemblance between the excitation spectra for the 592- and 669-nm peaks, as well as between the 553- and 568-nm peaks, is also interesting.  
+
+\emph{\color{gray}Mention here that the blue ``Ba" lines in the paper have been shown to be Sr lines (see Bill Ch. 7 corrections)}
+
+%(a) the much slower bleaching rate than would be observed by optical pumping of Ba\textsuperscript{+} in vacuum, and (b)
+
+%, as well as identical bleaching rates, shown in Fig. [fig 532/635 bleach]
