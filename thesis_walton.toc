@@ -25,7 +25,7 @@
 \contentsline {section}{\tocsection {}{3.4}{Laser Excitation}}{42}
 \contentsline {section}{\tocsection {}{3.5}{Collection Optics}}{46}
 \contentsline {section}{\tocsection {}{3.6}{Vibrations and Effective Laser Region}}{48}
-\contentsline {section}{\tocsection {}{3.7}{Laser Scanning}}{50}
+\contentsline {section}{\tocsection {}{3.7}{Laser Scanning}}{51}
 \contentsline {chapter}{\tocchapter {Chapter}{4}{Method}}{52}
 \contentsline {section}{\tocsection {}{4.1}{Wavelength Calibration}}{52}
 \contentsline {section}{\tocsection {}{4.2}{Fitting of Spectra}}{52}

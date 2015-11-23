@@ -16,3 +16,5 @@
 - do side view thing on Ba getter picture
 
 - check Xe bottle purity and put in section Sample Deposition (Ch.3)
+
+- measure difference between gain / ADC modes (at some point)
