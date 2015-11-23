@@ -1,2 +1,12 @@
 - just re-run xebaxe_largerst... for the orange text
 - same for thesis_xebaxe(), since it seemed squished, which will involve re-putting in the (a),..., and "scrunching" it (for the caption)
+
+- larger ("10^4") deposit for 5902 image figure?
+
+- find anti-cor plot -- of calib source with resolution of each?  and finish that paragraph
+
+- ask whoever made sensitivity plot whether it is 1(2) sigma (look for Josh email)
+
+-alpha ion reference? (at end of Ch.1)
+
+- find P. Toschek + H. Dehmelt (sp?) 1970s Ba+ paper (and Dave Wineland?)
