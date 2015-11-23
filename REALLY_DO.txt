@@ -1,0 +1,2 @@
+- check anti-corr plot:  is it actually like that in the real 2-nu?  otherwise idk what you should do.
+- check Xe bottle purity

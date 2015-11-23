@@ -214,7 +214,14 @@ A view into one of the TPCs is shown in Fig. \ref{fig:tpcphoto}.  On the detecti
 
 The cathode is set to -8~kV, providing an electric field of 374~V/cm across the 20~cm drift length of each TPC.  Ionized electrons drift from the decay site, first passing the v-wires, which receive an induction signal as depicted in Fig. \ref{fig:detectionplane}, and are then collected by the u-wires, which are set at a 60$^\circ$ angle from the v-wires.  An electric field of 778~V/cm between the u- and v-wires ensures 100\% v-wire transparency.  The charge collection provides an energy measurement.  Together, the u- and v-wires give an x/y position measurement for the event.  The time between the initial scintillation detection and the charge collection give a z position.  Thus a 3D position can be reconstructed for the event if u-wire, v-wire, and scintillation signals are detected.  \cite{EXO200TwoNuLong}  
 
-A well-known microscopic anti-correlation between ionization and scintillation signals in LXe \cite{anticorr} is exploited in EXO-200 to improve the energy resolution.  Energies measured by ionization and scintillation of events produced by the \textsuperscript{228}Th gamma source, one of the sources used to calibrate the EXO-200 detector, are plotted in Fig. [].  The tilt of the full absorption ellipse of the 2615~keV gamma line demonstrates the anti-correlation.  A ``rotated energy" is defined according to this tilt in order to optimize energy resolution.
+\begin{figure} %[H]
+	\centering
+	\includegraphics[width=.5\textwidth]{figures/anticorr.png}
+	\caption{Anti-correlation between ionization and scintillation in events from the \textsuperscript{228}Th calibration source in EXO-200.  The dashed red line defines a cut on non-reconstructed events. \cite{EXO200TwoNuLong}}
+\label{fig:antiCorr}
+\end{figure}
+
+A well-known microscopic anti-correlation between ionization and scintillation signals in LXe \cite{anticorr} is exploited in EXO-200 to improve the energy resolution.  Energies measured by ionization and scintillation of events produced by the \textsuperscript{228}Th gamma source, one of the sources used to calibrate the EXO-200 detector, are plotted in Fig. \ref{fig:antiCorr}.  The tilt of the full absorption ellipse of the 2615~keV gamma line demonstrates the anti-correlation.  A ``rotated energy" is defined according to this tilt in order to optimize energy resolution.
 
 %Energy resolution is important in a $0\nu\beta\beta$ search, as it distinguishes those events from $2\nu\beta\beta$ events in the tail of their spectrum.
 
