@@ -224,16 +224,16 @@ The optics for these experiments is shown in Fig. \ref{fig:endOfBeamOptics}.  In
                 \includegraphics[width=.45\textwidth]{figures/astigcorr_curve_no-corr_806.png}
                 ~
                 \includegraphics[width=.45\textwidth]{figures/astigcorr_curve_corr_10deg.png}
-                \includegraphics[width=.45\textwidth]{figures/astigcorr_curve_corr_13deg.png}
-                ~
                 \includegraphics[width=.45\textwidth]{figures/astigcorr_curve_corr_9-16.png}
-                \caption{Example 2D Gaussian fits (black grid lines) with varying laser z position (a,b,c), and fit radii  w$_{\text{x}}$ (black) and  w$_{\text{y}}$ (blue) vs. laser focus lens position with (d) no compensator, and with compensator at about (e) 10$^{\circ}$, (f) 13$^{\circ}$, and (g) 11$^{\circ}$.}
+                ~
+                \includegraphics[width=.45\textwidth]{figures/astigcorr_curve_corr_13deg.png}
+                \caption{Example 2D Gaussian fits (black grid lines) with varying laser z position (a,b,c), and fit radii  w$_{\text{x}}$ (black) and  w$_{\text{y}}$ (blue) vs. laser focus lens position with (d) no compensator, and with compensator at about (e) 10$^{\circ}$, (f) 11$^{\circ}$, and (g) 13$^{\circ}$.}
 \label{fig:astig}
 \end{figure}	
 
 The tilted sapphire window introduces astigmatism to the focused laser.  To correct for this, compensating astigmatism is introduced by a fused silica optical flat of 1~cm thickness, placed after the lens, tilted in the y plane (the laser is along the z-direction, and the sapphire window is tilted in the x plane).  The proper angle for the compensator was determined to be about 10$^{\circ}$ from normal by a ray matrix calculation \cite{raymatrix}.  The astigmatism of the SXe layer is negligible since its thickness is only about half a micron in a typical fluorescence experiment.  With the compensator, overlapping minimum spot sizes of 2.06~$\mu$m and 2.66~$\mu$m are calculated for x and y, respectively.
 
-To observe the astigmatism and the effect of the compensator, the relative positions in z of the x and y foci were observed by imaging 619-nm Ba fluorescence from a large deposit of Ba\textsuperscript{+} in SXe, with a varying laser focus.  For each z-position of the laser focusing lens, an image was taken, and a 2D Gaussian fit determined the 1/$e^{2}$ x- and y- radii, w$_{\text{x}}$ and w$_{\text{y}}$, of the image.  Although these radii are significantly larger than that of the laser beam due to SXe surface scattering and collection optics imperfections, the z-position of the best focus can be accurately determined.  Example fits to the 619-nm fluorescence images for three laser focus positions, using the astigmatism compensator at 10$\pm 1^{\circ}$, are shown in Fig. \ref{fig:astig}(a,b,c).  Gaussian fit values for w$_{\text{x}}$ and w$_{\text{y}}$ are plotted vs. laser focus position with (d) no compensator, and with the compensator at (e) 10$\pm 1^{\circ}$, (f) 13$\pm 1^{\circ}$, and (g) 11$\pm 1^{\circ}$.  With no compensator (d), the focal positions for x and y are measured to be 127.6$ \pm 2.5$~$\mu$m apart.  Compensation angles 10$\pm 1^{\circ}$ (e) and 13$\pm 1^{\circ}$ (f) can be seen to under- and over-shoot the optimal angle, respectively.  The angle \emph{\color{red}make these part references correct}11$\pm 1^{\circ}$ (g), which was used in imaging experiments, is near optimal, i.e. the x and y focal positions are consistent to within 45~$\mu$m.  %\emph{\color{gray}A systematic uncertainty... on the beam size is then obtained ... leading to a focused laser spot of ?? $\pm$ ?? $\mu$m\textsuperscript{2} [get this uncertainty from error propagation of angle(s) through gaussian beam ray matrix}
+To observe the astigmatism and the effect of the compensator, the relative positions in z of the x and y foci were observed by imaging 619-nm Ba fluorescence from a large deposit of Ba\textsuperscript{+} in SXe, with a varying laser focus.  For each z-position of the laser focusing lens, an image was taken, and a 2D Gaussian fit determined the 1/$e^{2}$ x- and y- radii, w$_{\text{x}}$ and w$_{\text{y}}$, of the image.  Although these radii are significantly larger than that of the laser beam due to SXe surface scattering and collection optics imperfections, the z-position of the best focus can be accurately determined.  Example fits to the 619-nm fluorescence images for three laser focus positions, using the astigmatism compensator at 10$\pm 1^{\circ}$, are shown in Fig. \ref{fig:astig}(a,b,c).  Gaussian fit values for w$_{\text{x}}$ and w$_{\text{y}}$ are plotted vs. laser focus position with (d) no compensator, and with the compensator at (e) 10$\pm 1^{\circ}$, (f) 11$\pm 1^{\circ}$, and (g) 13$\pm 1^{\circ}$.  With no compensator (d), the focal positions for x and y are measured to be 127.6$ \pm 2.5$~$\mu$m apart.  Compensation angles 10$\pm 1^{\circ}$ (e) and 13$\pm 1^{\circ}$ (f) can be seen to under- and over-shoot the optimal angle, respectively.  The angle \emph{\color{red}make these part references correct}11$\pm 1^{\circ}$ (g), which was used in imaging experiments, is near optimal, i.e. the x and y focal positions are consistent to within 45~$\mu$m.  %\emph{\color{gray}A systematic uncertainty... on the beam size is then obtained ... leading to a focused laser spot of ?? $\pm$ ?? $\mu$m\textsuperscript{2} [get this uncertainty from error propagation of angle(s) through gaussian beam ray matrix}
 
 The laser spot size ($A_{\text{laser}}$) is defined as the area enclosed within the 1/$e$ radii of the laser beam, according to Eq. \ref{eqn:laserspot}:
 
@@ -298,6 +298,10 @@ Although the imaging spectrometer can produce spacial images with the 0-order gr
 
 An example raw image of the focused 570~nm dye laser on a Ba\textsuperscript{+} deposit using the fluorescence of the 619-nm peak is shown in Fig. \ref{fig:imageexamp}.  With 4$\times$ magnification, each pixel corresponds to 5~$\mu$m$\times$5~$\mu$m on the window.  The laser's path through the window is faintly visible by the residual broad Cr\textsuperscript{3+} fluorescence that is passed by the 620-nm band-pass filter.  The laser is focused at the top surface of the window, which faces the ion beam.  The surface background is seen on the back surface, and the 619-nm Ba fluorescence stands out above both backgrounds on the top surface.  The imaging resolution results in a 1/e$^{2}$ radius of about 12~$\mu$m when imaging the 2.06~$\mu$m $\times$ 2.66~$\mu$m 1/e$^{2}$ laser spot.
 
+\section{Wavelength Calibration}
+
+Wavelength calibration of the spectrometer was done using three lasers whose wavelengths were first measured with a Burleigh Wavemeter:  a red diode laser at 656.99~nm, a doubled Nd:YAG laser at 532.23~nm, and the C480 blue dye laser typically around 475~nm.  These lasers were directed at the same position on the sapphire window, and their scatter was imaged along the same path as the Ba fluorescence.  The WinSpec software applies the diffraction grating equation to calibrate each CCD pixel to a wavelength.
+
 \section{Vibrations and Effective Laser Region}
 \label{sec:vibes}
 
@@ -328,9 +332,9 @@ Relative vibrations between the laser and the sapphire window occur from a few s
 
 For imaging of single Ba atoms, the relative vibration is the vibration of most concern.  Vibration of the laser itself is seen to be small in this study.  Vibration of the collection optics will affect the imaging resolution, but not the number of atoms being observed, or the resolution of a single atom iamge in a laser raster scan.  These vibrations were minimized by stable mounting on large diameter posts.
 
-\vspace{10mm}
+%\vspace{10mm}
 
-\begin{figure} [H]
+\begin{figure} %[H]
         \centering
                 \includegraphics[width=.5\textwidth]{figures/stages_2.JPG}
                 \caption{Asphere laser focusing lens mounted to two motorized Newport translation stages for laser scanning in x and y.}

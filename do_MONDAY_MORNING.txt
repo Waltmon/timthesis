@@ -3,11 +3,9 @@
 
 - larger ("10^4") deposit for 5902 image figure?
 
-- find anti-cor plot -- of calib source with resolution of each?  and finish that paragraph
-
-- ask whoever made sensitivity plot whether it is 1(2) sigma (look for Josh email)
-
--alpha ion reference? (at end of Ch.1)
+* find anti-cor plot -- of calib source with resolution of each?  and finish that paragraph
+w ask whoever made sensitivity plot whether it is 1(2) sigma (look for Josh email)
+* alpha ion reference? (at end of Ch.1)
 
 - find P. Toschek + H. Dehmelt (sp?) 1970s Ba+ paper (and Dave Wineland?)
 
@@ -18,3 +16,7 @@
 - check Xe bottle purity and put in section Sample Deposition (Ch.3)
 
 - measure difference between gain / ADC modes (at some point)
+
+
+NOT SURE THERE'S TIME TO SOLVE:
+1)  eff. loss of fluor. at SXe interface, and of laser on window interface

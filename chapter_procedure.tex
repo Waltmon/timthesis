@@ -1,13 +1,13 @@
 \chapter{Method}
 
-\section{Wavelength Calibration}
-
-Wavelength calibration of the spectrometer was done using three lasers whose wavelengths were first measured with a Burleigh Wavemeter:  a red diode laser at 656.99~nm, a doubled Nd:YAG laser at 532.23~nm, and the C480 blue dye laser typically around 475~nm.  These lasers were directed at the same position on the sapphire window, and their scatter was imaged along the same path as the Ba fluorescence.  The WinSpec software applies the diffraction grating equation to calibrate each CCD pixel to a wavelength.
+The method of spectrum fitting is discussed in Sec. \ref{sec:fitting}, which is used in analysis for separating contributions of semi-resolved fluorescence peaks.  Background signals are discussed in Sec. \ref{sec:bgs} with the purpose of optimizing signal-to-background.
 
 \section{Fitting of Spectra}
 \label{sec:fitting}
 
-Fitting of fluorescence spectra, with sums of peak-specific fit functions, was used to track peak heights in excitation spectra, annealing cycles, and bleaching.  The center and width parameters of the functions were kept fixed, while the heights were the free fitting parameters.  Center and width parameters for each peak were determined by fitting spectra where that peak is relatively large.  Some fine-tuning was done to match slightly different shapes resulting from different excitation wavelengths.
+In most circumstances, the different fluorescence peaks in a spectrum overlapped.  Thus it was necessary to fit the fluorescence spectra with a sum of peak-specific fit functions in order to extract peak heights and integrals.  These were used, e.g., in excitation spectra, annealing, and bleaching curves for different peaks.  Gaussians, Lorentzians and asymmetric functions were used, depending on the best match to a specific peak.
+
+%The center and width parameters of the fit functions were fixed, while the amplitudes were the free fitting parameters.  Center and width parameters for each peak were determined by fitting spectra where that peak is relatively large.  Some fine-tuning was done to match slightly different shapes resulting from different excitation wavelengths.
 
 \subsection{Fitting Spectra with Green Excitation}
 \label{subsec:fitgrn}
@@ -32,7 +32,7 @@ Example fits to spectra of Ba\textsuperscript{+} deposits for several different 
 \subsection{Fitting Spectra with Blue Excitation}
 \label{subsec:fitblu}
 
-Example fits to spectra of Ba\textsuperscript{+} deposits for several different blue excitation wavelengths are shown in Fig. \ref{fig:specFitsBlu}.  Gaussian functions were used for 532-, 568-, and 575-nm peaks with widths ($\sigma$) of 2.4~nm, 5.0~nm, and 0.7~nm, respectively.  Lorentzian functions were used for the 553-, 592-, 635-, and 669-nm peaks with widths ($\gamma$) of 1.7~nm, 13.8~nm, 10.4~nm. and 9.1~nm, respectively.  Similar to spectra with green excitation, the background components were fit with two broad Gaussians centered at 546.0~nm and 703.3~nm, with respective $\sigma$ of 49.0~nm and 30.5~nm, as well as one sharp Gaussian centered at 693.4~nm peak with $\sigma$ of 0.5~nm.  The fits around 478~nm (e.g., (c)) are not quite right, mainly due to a shift in central value of the 592-nm peak.  However, fit values still follow respective peaks heights well.  The 522- and 575-nm peaks are seen in (c), though the 522-nm peak is left out of the fitting range since it sits on the Raman filter cutoff.   These spectra are discussed in Sec. \ref{sec:BaPlus}.
+Example fits to spectra of Ba\textsuperscript{+} deposits for several different blue excitation wavelengths are shown in Fig. \ref{fig:specFitsBlu}.  Gaussian functions were used for 532-, 568-, and 575-nm peaks with standard deviations ($\sigma$) of 2.4~nm, 5.0~nm, and 0.7~nm, respectively.  Lorentzian functions were used for the 553-, 592-, 635-, and 669-nm peaks with half width at half maxima ($\gamma$) of 1.7~nm, 13.8~nm, 10.4~nm. and 9.1~nm, respectively.  Similar to spectra with green excitation, the background components were fit with two broad Gaussians centered at 546.0~nm and 703.3~nm, with respective $\sigma$ of 49.0~nm and 30.5~nm, as well as one sharp Gaussian centered at 693.4~nm peak with $\sigma$ of 0.5~nm.  The fits around 478~nm (e.g., (c)) are not quite right, mainly due to a shift in central value of the 592-nm peak.  However, fit values still follow respective peaks heights well.  The 522- and 575-nm peaks are seen in (c), though the 522-nm peak is left out of the fitting range since it sits on the edge of the Raman filter cutoff.   These spectra are discussed in Sec. \ref{sec:BaPlus}.
 
 \begin{figure} %[H]
         \centering
@@ -54,10 +54,28 @@ Example fits to spectra of Ba\textsuperscript{+} deposits for several different 
 
 %A 566~nm Raman filter was used to attenuate the majority of the laser scatter, however the small amount of scatter passed by the filter was used to determine the frame's excitation wavelength.  Each peak's fit contribution was then integrated and scaled by the frame's laser power, as the power output is not constant through the dye range.
 
-\section{Optimizing Signal-to-Background}
+\section{Background Spectra}
 \label{sec:bgs}
 
-One source of background emission was observed from the surfaces of the window.  Its broad fluorescence is shown in Fig. \ref{fig:surfBG}(a) with a 610-nm Raman filter cutoff and 570.4~nm excitation, and its excitation spectrum is shown in Fig. \ref{fig:surfBG}(b) over the R6G dye range.  The nature of this emission has not been determined, however a few features were identified.  One was that the emission increased as the window temperature was decreased, down to about 100~K where it remained flat down to 11~K, shown in Fig. \ref{fig:BGtempDependence}.  Another feature of the surface background is that it bleaches with laser exposure.  In order to reduce this background in imaging experiments, as well as to reduce run-to-run variation in the background due to bleaching, the sapphire window was pre-bleached for at least half an hour.  Decay of the surface background emission, with intermittent observation during a pre-bleaching process, is shown in Fig. \ref{fig:surfBGbleach}.  For efficient pre-bleaching, the dye laser tuned to 580.5~nm for higher laser power, though the observation points in Fig. \ref{fig:surfBGbleach} are taken with the dye laser at 570~nm with the same laser power used in the following Ba imaging experiment.  During imaging experiments, frequent Xe-only deposits were made in order to track surface background emission to establish proper background subtraction.
+\begin{figure} %[H]
+        \centering
+                \includegraphics[width=.5\textwidth]{figures/Cr_a.png}
+                ~
+                \includegraphics[width=.5\textwidth]{figures/Cr_b.png}
+                \caption{(a) Sapphire bulk emission with 562-nm excitation at 11~K, and (b) excitation spectrum of the sharp 694-nm emission peak using three different laser dyes.  Due to different laser powers and exposure times, the R110 and R6G were scaled to match at their boundary.}
+\label{fig:Cr}
+\end{figure}
+
+\begin{figure} %[H]
+        \centering
+                \includegraphics[width=.7\textwidth]{figures/Cr_broad.png}
+                \caption{Excitation spectra for weaker sapphire bulk emissions (blue,orange) along with that of the strong 694-nm emission (red) at 11~K.}
+        \label{fig:CrBroad}
+\end{figure}
+
+The sharp and broad background discussed in Sec. \ref{subsec:fitgrn} is mainly due to Cr\textsuperscript{3+} impurity ions in the sapphire window.  A spectrum of this fluorescence with 562~nm excitation is shown in Fig. \ref{fig:Cr}(a).  The strong, sharp peak at 694~nm is a well-known $^{2}E$ - $^{4}A_{2}$ emission in the $d^{3}$ configuration of Cr\textsuperscript{3+} impurities in the sapphire bulk \cite{SapphireRlines1964,SapphireRlines2010}.  An excitation spectrum for this peak is shown in Fig. \ref{fig:Cr}(b) over the range all three dyes R6G, R110, and C480, using one of the sapphire windows with higher Cr\textsuperscript{3+} content.  Multiple features are observed in the excitation spectrum, obtained by integrating the 694-nm peak fit (Sec. \ref{sec:fitting}) vs. excitation wavelength.  The broad absorption in the green/yellow, peaking around 550~nm, with vibrational peaks on the red tail, agree with well understood features in the spectrum of Cr\textsuperscript{3+} in sapphire at 77~K, including three sharp peaks in the blue at 468.4, 474.8, and 476.5~nm \cite{SapphireFord,SapphireMcclure}.  In addition to the 694-nm peak, a weaker and much broader emission is observed, along with three weak peaks in the 615-635~nm region.  Excitation spectra for these fluorescence components are shown in Fig. \ref{fig:CrBroad} for the R6G dye range.  In this experiment, the laser was de-focused to about w = 200~$\mu$m, and the emission observed had contribution of the surface background as well as the bulk sapphire emission.  This is negligible for the prominent 694-nm peak, however the rising features of the surface background emission, near 600~nm and 567~nm, can be seen in the excitation spectra of the weaker components (blue, and especially orange curves in Fig. \ref{fig:CrBroad}).  Nonetheless, observation of the same vibrational peaks as in the 694-nm peak excitation spectrum demonstrates that the broad emission and weak peaks in the 620 band-pass (Fig. \ref{fig:Cr}(a)) are also due to Cr\textsuperscript{3+} in the sapphire.  Commercially available c-plane quality sapphire windows contain low concentrations of Cr\textsuperscript{3+}.  Sample windows of 0.75" diameter and 0.02" thickness from a few companies were tested, and those from Meller Optics produced the lowest sapphire bulk emission in the 620-nm band-pass region.
+
+An additional background emission was observed from the surfaces of the window.  Its broad fluorescence is shown in Fig. \ref{fig:surfBG}(a) with a 610-nm Raman filter cutoff and 570.4~nm excitation, and its excitation spectrum is shown in Fig. \ref{fig:surfBG}(b) over the R6G dye range.  The nature of this emission has not been determined, however a few features were identified.  One was that the emission increased as the window temperature was decreased, down to about 100~K where it remained flat down to 11~K, shown in Fig. \ref{fig:BGtempDependence}.  Another feature of the surface background is that it bleaches with laser exposure.  In order to reduce this background in imaging experiments, as well as to reduce run-to-run variation in the background due to bleaching, the sapphire window was pre-bleached for at least half an hour.  Decay of the surface background emission, with intermittent observation during a pre-bleaching process, is shown in Fig. \ref{fig:surfBGbleach}.  For efficient pre-bleaching, the dye laser tuned to 580.5~nm for higher laser power, though the observation points in Fig. \ref{fig:surfBGbleach} are taken with the dye laser at 570~nm with the same laser power used in the following Ba imaging experiment.  During imaging experiments, frequent Xe-only deposits were made in order to track surface background emission to establish proper background subtraction.
 
 \begin{figure} %[H]
         \centering
@@ -97,30 +115,12 @@ One source of background emission was observed from the surfaces of the window. 
 
 \begin{figure} %[H]
         \centering
-                \includegraphics[width=.5\textwidth]{figures/Cr_a.png}
-                ~
-                \includegraphics[width=.5\textwidth]{figures/Cr_b.png}
-                \caption{(a) Sapphire bulk emission with 562-nm excitation at 11~K, and (b) excitation spectrum of the sharp 694-nm emission peak using three different laser dyes.  Due to different laser powers and exposure times, the R110 and R6G were scaled to match at their boundary.}
-\label{fig:Cr}
-\end{figure}
-
-\begin{figure} %[H]
-        \centering
-                \includegraphics[width=.7\textwidth]{figures/Cr_broad.png}
-                \caption{Excitation spectra for weaker sapphire bulk emissions (blue,orange) along with that of the strong 694-nm emission (red) at 11~K.}
-        \label{fig:CrBroad}
-\end{figure}
-
-Another source of background is fluorescence from the sapphire window bulk.  A spectrum of this fluorescence with 562~nm excitation is shown in Fig. \ref{fig:Cr}(a).  The strong, sharp peak at 694~nm is a well-known $^{2}E$ - $^{4}A_{2}$ emission in the $d^{3}$ configuration of Cr\textsuperscript{3+} impurities in the sapphire bulk \cite{SapphireRlines1964,SapphireRlines2010}.  An excitation spectrum for this peak is shown in Fig. \ref{fig:Cr}(b) over the range all three dyes R6G, R110, and C480, using a sapphire window with relatively high Cr\textsuperscript{3+} content.  Multiple features observed in the excitation spectrum, obtained by integrating the 694-nm peak fit (Sec. \ref{sec:fitting}) vs. excitation wavelength, are consistent with the absorption spectrum of Cr\textsuperscript{3+} in sapphire at 77~K, including three sharp peaks in the blue at 468.4, 474.8, and 476.5~nm, as well as a broad absorption in the green/yellow, peaking around 550~nm, with vibrational peaks on the red tail \cite{SapphireFord,SapphireMcclure}.  In addition to the 694-nm peak, a weaker and much broader emission is observed, along with three weak peaks around the 619-nm Ba peak region, also from the sapphire bulk.  Excitation spectra for these fluorescence components are shown in Fig. \ref{fig:CrBroad} for the R6G dye range.  In this experiment, the laser was de-focused to about w = 200~$\mu$m, and the emission observed was had contribution of the surface background as well as the bulk sapphire emission.  This is negligible for the prominent 694-nm peak, however the rising features of the surface background emission, near 600~nm and 567~nm, can be seen in the excitation spectra of the weaker components (blue, and especially orange curves in Fig. \ref{fig:CrBroad}).  Nonetheless, observation of the same vibrational peaks as in the 694-nm peak demonstrates that the broad emission and weak peaks in the 620 band-pass (Fig. \ref{fig:Cr}(a)) are also due to Cr\textsuperscript{3+} in the sapphire.  Commercially available c-plane quality sapphire windows contain low concentrations of Cr\textsuperscript{3+}.  Sample windows of 0.75" diameter and 0.02" thickness from a few companies were tested, and those from Meller Optics produced the lowest sapphire bulk emission in the 620-nm band-pass region.
-
-\begin{figure} %[H]
-        \centering
                 \includegraphics[width=.7\textwidth]{figures/S_to_B_both.png}
                 \caption{Optimization of signal to background with the 619-nm fluorescence signal (S) for emission from the surface background (B$_{\text{surf}}$, red) and for the bulk sapphire emission (B$_{\text{sap}}$, cyan).}
         \label{fig:StoB}
 \end{figure}
 
-Consideration of signal-to-background ($S$/$\sqrt{B}$) guided the choice of 570~nm for excitation of the 619-nm fluorescence.  $S$/$\sqrt{B}$ for emission passed by the 620-nm band-pass filter is plotted vs. excitation wavelength in Fig. \ref{fig:StoB} for the surface background (B$_{\text{surf}}$) as well as for the sapphire bulk emission (B$_{\text{sap}}$).  The peak in $S$/$\sqrt{B}$ represents the optimal excitation wavelength respective to each of the two background sources.  Around 568.5~nm is optimal vs. the sapphire emission, and around 571~nm is optimal vs. the surface background emission. 570~nm, which was used in sensitive imaging experiments, is nearly optimal in both cases.
+Consideration of signal-to-background ($S$/$\sqrt{B}$) guided the choice of 570~nm for excitation of the 619-nm fluorescence.  $S$/$\sqrt{B}$ for emission passed by the 620-nm band-pass filter is plotted vs. excitation wavelength in Fig. \ref{fig:StoB} for the surface background (B$_{\text{surf}}$) as well as for the sapphire bulk emission (B$_{\text{sap}}$).  The peak in $S$/$\sqrt{B}$ represents the optimal excitation wavelength respective to each of the two background sources.  Around 568.5~nm is optimal vs. the sapphire emission, and around 571~nm is optimal vs. the surface background emission. 570~nm, which was used in sensitive imaging experiments, is nearly optimal in both cases, although the bulk sapphire background contribution was small in in these experiments.
 
 %Consideration of signal-to-background ($S$/$\sqrt{B}$) guided the choice of 570~nm for excitation of the 619-nm fluorescence.  $S$/$\sqrt{B}$ is plotted vs. excitation wavelength in Fig. \ref{fig:StoB} for the surface background (B$_{\text{surf}}$) as well as for combination of the surface background and sapphire bulk emission (B$_{\text{sap + surf}}$).
 

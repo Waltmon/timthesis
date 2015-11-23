@@ -24,28 +24,28 @@
 \contentsline {section}{\tocsection {}{3.3}{Sample Deposition}}{40}
 \contentsline {section}{\tocsection {}{3.4}{Laser Excitation}}{42}
 \contentsline {section}{\tocsection {}{3.5}{Collection Optics}}{46}
-\contentsline {section}{\tocsection {}{3.6}{Vibrations and Effective Laser Region}}{48}
-\contentsline {section}{\tocsection {}{3.7}{Laser Scanning}}{51}
-\contentsline {chapter}{\tocchapter {Chapter}{4}{Method}}{52}
-\contentsline {section}{\tocsection {}{4.1}{Wavelength Calibration}}{52}
-\contentsline {section}{\tocsection {}{4.2}{Fitting of Spectra}}{52}
-\contentsline {subsection}{\tocsubsection {}{4.2.1}{Fitting Spectra with Green Excitation}}{52}
-\contentsline {subsection}{\tocsubsection {}{4.2.2}{Fitting Spectra with Blue Excitation}}{54}
-\contentsline {section}{\tocsection {}{4.3}{Optimizing Signal-to-Background}}{55}
-\contentsline {chapter}{\tocchapter {Chapter}{5}{Results: Spectroscopy}}{60}
-\contentsline {section}{\tocsection {}{5.1}{Excitation and Emission of Ba in SXe}}{60}
-\contentsline {section}{\tocsection {}{5.2}{619-nm Peak Attribution}}{63}
-\contentsline {section}{\tocsection {}{5.3}{Annealing/Temperature Dependence}}{64}
-\contentsline {section}{\tocsection {}{5.4}{Bleaching}}{68}
-\contentsline {subsection}{\tocsubsection {}{5.4.1}{Bleaching of the 577- and 591-nm Peaks}}{69}
-\contentsline {subsection}{\tocsubsection {}{5.4.2}{Re-pumping}}{72}
-\contentsline {subsection}{\tocsubsection {}{5.4.3}{Bleaching of the 619-nm Peak}}{73}
-\contentsline {section}{\tocsection {}{5.5}{Fluorescence Efficiency of 577- and 591-nm Peaks}}{74}
-\contentsline {section}{\tocsection {}{5.6}{Blue Excitation / Candidate Ba\textsuperscript {+} Lines}}{74}
-\contentsline {chapter}{\tocchapter {Chapter}{6}{Results: Imaging}}{78}
-\contentsline {section}{\tocsection {}{6.1}{Imaging 577- and 591-nm Fluorescence}}{78}
-\contentsline {section}{\tocsection {}{6.2}{Imaging 619-nm Fluorescence}}{79}
-\contentsline {section}{\tocsection {}{6.3}{Scanned Images}}{84}
-\contentsline {chapter}{\tocchapter {Chapter}{7}{Conclusions}}{87}
-\contentsline {section}{\tocsection {}{7.1}{Future Work}}{87}
-\contentsline {chapter}{Bibliography}{90}
+\contentsline {section}{\tocsection {}{3.6}{Wavelength Calibration}}{48}
+\contentsline {section}{\tocsection {}{3.7}{Vibrations and Effective Laser Region}}{49}
+\contentsline {section}{\tocsection {}{3.8}{Laser Scanning}}{51}
+\contentsline {chapter}{\tocchapter {Chapter}{4}{Method}}{53}
+\contentsline {section}{\tocsection {}{4.1}{Fitting of Spectra}}{53}
+\contentsline {subsection}{\tocsubsection {}{4.1.1}{Fitting Spectra with Green Excitation}}{53}
+\contentsline {subsection}{\tocsubsection {}{4.1.2}{Fitting Spectra with Blue Excitation}}{55}
+\contentsline {section}{\tocsection {}{4.2}{Background Spectra}}{55}
+\contentsline {chapter}{\tocchapter {Chapter}{5}{Results: Spectroscopy}}{61}
+\contentsline {section}{\tocsection {}{5.1}{Excitation and Emission of Ba in SXe}}{61}
+\contentsline {section}{\tocsection {}{5.2}{619-nm Peak Attribution}}{64}
+\contentsline {section}{\tocsection {}{5.3}{Annealing/Temperature Dependence}}{65}
+\contentsline {section}{\tocsection {}{5.4}{Bleaching}}{69}
+\contentsline {subsection}{\tocsubsection {}{5.4.1}{Bleaching of the 577- and 591-nm Peaks}}{70}
+\contentsline {subsection}{\tocsubsection {}{5.4.2}{Re-pumping}}{73}
+\contentsline {subsection}{\tocsubsection {}{5.4.3}{Bleaching of the 619-nm Peak}}{74}
+\contentsline {section}{\tocsection {}{5.5}{Fluorescence Efficiency of 577- and 591-nm Peaks}}{75}
+\contentsline {section}{\tocsection {}{5.6}{Blue Excitation / Candidate Ba\textsuperscript {+} Lines}}{75}
+\contentsline {chapter}{\tocchapter {Chapter}{6}{Results: Imaging}}{79}
+\contentsline {section}{\tocsection {}{6.1}{Imaging 577- and 591-nm Fluorescence}}{79}
+\contentsline {section}{\tocsection {}{6.2}{Imaging 619-nm Fluorescence}}{80}
+\contentsline {section}{\tocsection {}{6.3}{Scanned Images}}{85}
+\contentsline {chapter}{\tocchapter {Chapter}{7}{Conclusions}}{88}
+\contentsline {section}{\tocsection {}{7.1}{Future Work}}{88}
+\contentsline {chapter}{Bibliography}{91}
