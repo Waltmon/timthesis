@@ -189,8 +189,6 @@ EXO-200 and nEXO (EXO standing for Enriched Xenon Observatory) are a progression
 
 Located about half a mile underground in the Waste Isolation Pilot Plant (WIPP) near Carlsbad, NM, EXO-200 has been operational since 2011.  It is a TPC using LXe enriched to 80.672 $\pm$ 0.14\% \textsuperscript{136}Xe \cite{EXO200TwoNuLong}, with a fiducial volume corresponding to 66.20~kg of \textsuperscript{136}Xe. It is designed to probe Majorana neutrino masses down to around 100~meV \cite{EXO200instrumentationPart1}.  The WIPP mine is in a salt basin, which contains lower levels of Uranium and Thorium than rock in a typical mine.
 
-A schematic diagram of the TPC in the class 100 cleanroom is shown in Fig. \ref{fig:cleanroom}.  Several layers of lead wall surround the copper cryostat, which is filled with HFE-7000, a cryogenic fluid which keeps the TPC cooled to LXe temperatures  The HFE also provides shielding for the detector.  The TPC vessel is made of low-radioactivity copper, and is kept as thin as possible to minimize backgrounds.  Scintillating panels on the outside of the cleanroom provide a cosmic ray muon veto.
-
 \begin{figure} %[H]
 	\centering
 	\includegraphics[width=.9\textwidth]{figures/cleanroom.png}
@@ -198,7 +196,7 @@ A schematic diagram of the TPC in the class 100 cleanroom is shown in Fig. \ref{
 \label{fig:cleanroom}
 \end{figure}
 
-A cut-away view of the EXO-200 detector is shown in Fig. \ref{fig:tpc}.  It is two mirrored TPCs which share a cathode.  The detection planes are a combination of ionized charge induction/collection wires and large area avalanche photodiodes (LAAPDs), which detect scintillation light \cite{APDs}.
+A schematic diagram of the TPC in the class 100 cleanroom is shown in Fig. \ref{fig:cleanroom}.  Several layers of lead wall surround the copper cryostat, which is filled with HFE-7000, a cryogenic fluid which keeps the TPC cooled to LXe temperatures  The HFE also provides shielding for the detector.  The TPC vessel is made of low-radioactivity copper, and is kept as thin as possible to minimize backgrounds.  Scintillating panels on the outside of the cleanroom provide a cosmic ray muon veto.
 
 \begin{figure} %[H]
 	\centering
@@ -207,7 +205,7 @@ A cut-away view of the EXO-200 detector is shown in Fig. \ref{fig:tpc}.  It is t
 \label{fig:tpc}
 \end{figure}
 
-A view into one of the TPCs is shown in Fig. \ref{fig:tpcphoto}.  On the detection plane, holes for the LAAPDs can be seen below the cross-hatched u- and v-wires.  The white material on the inner wall is the Teflon reflector.  When a double beta decay event occurs in the LXe, the energetic electrons ionize many surrounding Xe atoms, as well as produce a scintillation signal.  %Scintillation light provides an initial time for z-measurement of the event, as well as an energy measurement.
+A cut-away view of the EXO-200 detector is shown in Fig. \ref{fig:tpc}.  It is two mirrored TPCs which share a cathode.  The detection planes are a combination of ionized charge induction/collection wires and large area avalanche photodiodes (LAAPDs), which detect scintillation light \cite{APDs}.
 
 \begin{figure} %[H]
 	\centering
@@ -216,7 +214,7 @@ A view into one of the TPCs is shown in Fig. \ref{fig:tpcphoto}.  On the detecti
 \label{fig:tpcphoto}
 \end{figure}
 
-The cathode is set to -8~kV, providing an electric field of 374~V/cm across the 20~cm drift length of each TPC.  Ionized electrons drift from the decay site, first passing the v-wires, which receive an induction signal as depicted in Fig. \ref{fig:detectionplane}, and are then collected by the u-wires, which are set at a 60$^\circ$ angle from the v-wires.  An electric field of 778~V/cm between the u- and v-wires ensures 100\% v-wire transparency.  The charge collection provides an energy measurement.  Together, the u- and v-wires give an x/y position measurement for the event.  The time between the initial scintillation detection and the charge collection give a z position.  Thus a 3D position can be reconstructed for the event if u-wire, v-wire, and scintillation signals are detected.  \cite{EXO200TwoNuLong}  
+A view into one of the TPCs is shown in Fig. \ref{fig:tpcphoto}.  On the detection plane, holes for the LAAPDs can be seen below the cross-hatched u- and v-wires.  The white material on the inner wall is the Teflon reflector.  When a double beta decay event occurs in the LXe, the energetic electrons ionize many surrounding Xe atoms, as well as produce a scintillation signal.  %Scintillation light provides an initial time for z-measurement of the event, as well as an energy measurement.
 
 \begin{figure} %[H]
 	\centering
@@ -225,7 +223,7 @@ The cathode is set to -8~kV, providing an electric field of 374~V/cm across the 
 \label{fig:detectionplane}
 \end{figure}
 
-The anti-correlation between ionization and scintillation signals of individual events in LXe \cite{anticorr} is exploited in EXO-200 to improve the energy resolution.  Energies measured by ionization and scintillation of events produced by the \textsuperscript{228}Th gamma source, one of the sources used to calibrate the EXO-200 detector, are plotted in Fig. \ref{fig:antiCorr}.  The tilt of the full absorption ellipse of the 2615~keV gamma line demonstrates the anti-correlation.  A ``rotated energy" is defined according to this tilt in order to optimize energy resolution.
+The cathode is set to -8~kV, providing an electric field of 374~V/cm across the 20~cm drift length of each TPC.  Ionized electrons drift from the decay site, first passing the v-wires, which receive an induction signal as depicted in Fig. \ref{fig:detectionplane}, and are then collected by the u-wires, which are set at a 60$^\circ$ angle from the v-wires.  An electric field of 778~V/cm between the u- and v-wires ensures 100\% v-wire transparency.  The charge collection provides an energy measurement.  Together, the u- and v-wires give an x/y position measurement for the event.  The time between the initial scintillation detection and the charge collection give a z position.  Thus a 3D position can be reconstructed for the event if u-wire, v-wire, and scintillation signals are detected.  \cite{EXO200TwoNuLong}  
 
 \begin{figure} %[H]
 	\centering
@@ -234,13 +232,13 @@ The anti-correlation between ionization and scintillation signals of individual 
 \label{fig:antiCorr}
 \end{figure}
 
+The anti-correlation between ionization and scintillation signals of individual events in LXe \cite{anticorr} is exploited in EXO-200 to improve the energy resolution.  Energies measured by ionization and scintillation of events produced by the \textsuperscript{228}Th gamma source, one of the sources used to calibrate the EXO-200 detector, are plotted in Fig. \ref{fig:antiCorr}.  The tilt of the full absorption ellipse of the 2615~keV gamma line demonstrates the anti-correlation.  A ``rotated energy" is defined according to this tilt in order to optimize energy resolution.
+
 %Energy resolution is important in a $0\nu\beta\beta$ search, as it distinguishes those events from $2\nu\beta\beta$ events in the tail of their spectrum.
 
 Having a reconstructed 3D event position is important in several ways.  Firstly, position-based corrections to scintillation and charge collection can be applied.  For charge, electronegative impurities in the LXe will absorb the drifting charge, requiring a drift-length (z-position) correction.  High purity levels, measured in terms of electron lifetime, of 2-5ms and higher are maintained in EXO-200, resulting in a correction of a few \% for maximal drift lengths.  For scintillation, a 3D correction is applied, as some regions have more efficient light collection by the LAAPDs.  A 3D position also allows a fiducial volume to be defined.  A standoff distance from detector surfaces aids in distinction between gamma ray events and double beta decay events.  Gamma backgrounds, which mostly come from detector materials, exhibit some attenuation in the LXe.  Double beta decay events are uniformly distributed in the LXe.  Finally, 3D reconstruction allows the distinction between single-site (SS) and multi-site (MS) events.  A MS event is one where two spatially separated events occur in the same 2048-$\mu s$ time window.  These are mostly caused by gamma events, which can Compton-scatter one or more times in the LXe.  Rejecting MS events further aids in separating gamma events from double beta decay events.  \cite{EXO200TwoNuLong} Barium tagging will also benefit from a 3D reconstructed event position in nEXO.
 
 %Calibration of EXO-200 is done using various radioactive sources which can be moved to several positions around the outside of the TPC.  Several different sources [\textsuperscript{137}Cs, \textsuperscript{60}Co, \textsuperscript{228}Th] span the energy range of interest, but the main source is $^{228}$Th, which produces gamma rays at [???]~MeV (\textsuperscript{208}Tl peak ... in chain right?), near the Q-value of $^{136}$Xe double beta decay where the $0\nu\beta\beta$ peak will be.  Source calibration data also provides a comparison between data and Monet-Carlo simulation, and provides the data for purity measurement and Light Map determination.  Data and Monte-Carlo for $^{228}$Th are shown in Fig. [ref fig source agreement].
-
-The final data set is fit using a combination of probability distribution functions (PDFs) for $0\nu\beta\beta$, $2\nu\beta\beta$, and background components.  Fits to the final energy spectrum data for (a) SS events, and (b) MS events are shown in Fig. \ref{fig:exo200data} for the most recent $0\nu\beta\beta$ analysis.  The green bands beneath each plot show the residuals vs. energy.  The $2\nu\beta\beta$ spectrum, in gray, dominates the signal in the SS spectrum below the Q-value.  The vertical red lines in the SS spectrum outline the $\pm 2 \sigma$ region of interest around the Q-value, where the $0\nu\beta\beta$ peak will lie.  The insets are a zoom into this region.  The best fit value for $0\nu\beta\beta$ in this dataset is non-zero, but it is consistent with the null hypothesis at $1.2 \sigma$.  This sets an upper limit on the $0\nu\beta\beta$ half-life at $T^{0\nu\beta\beta}_{1/2} < 1.1 \times 10^{25}$~yr (90\% CL), which corresponds to $\braket{m_{\nu_{e}}} < $190-450~meV depending on nuclear matrix element calculations \cite{EXO2000nuNature}.  The $2\nu\beta\beta$ half-life has also been measured in EXO-200 as $T^{2\nu\beta\beta}_{1/2} = 2.165 \pm 0.016$(stat)$ \pm 0.059$(sys)$ \times 10^{21}$~yr \cite{EXO200TwoNuLong}.  This is the most precise $2\nu\beta\beta$ measurement to date and is consistent with previous measurements by EXO-200 in 2011 \cite{EXO200TwoNuOriginal} and KamLAND-ZEN in 2012 \cite{KamLAND}.
 
 \begin{figure} %[H]
 	\centering
@@ -248,6 +246,8 @@ The final data set is fit using a combination of probability distribution functi
 	\caption{EXO-200 energy spectrum of events from the latest $0\nu\beta\beta$ search analysis.  The insets show a zoom into the region of interest around the $2\nu\beta\beta$ end point. \cite{EXO2000nuNature}}
 \label{fig:exo200data}
 \end{figure}
+
+The final data set is fit using a combination of probability distribution functions (PDFs) for $0\nu\beta\beta$, $2\nu\beta\beta$, and background components.  Fits to the final energy spectrum data for (a) SS events, and (b) MS events are shown in Fig. \ref{fig:exo200data} for the most recent $0\nu\beta\beta$ analysis.  The green bands beneath each plot show the residuals vs. energy.  The $2\nu\beta\beta$ spectrum, in gray, dominates the signal in the SS spectrum below the Q-value.  The vertical red lines in the SS spectrum outline the $\pm 2 \sigma$ region of interest around the Q-value, where the $0\nu\beta\beta$ peak will lie.  The insets are a zoom into this region.  The best fit value for $0\nu\beta\beta$ in this dataset is non-zero, but it is consistent with the null hypothesis at $1.2 \sigma$.  This sets an upper limit on the $0\nu\beta\beta$ half-life at $T^{0\nu\beta\beta}_{1/2} < 1.1 \times 10^{25}$~yr (90\% CL), which corresponds to $\braket{m_{\nu_{e}}} < $190-450~meV depending on nuclear matrix element calculations \cite{EXO2000nuNature}.  The $2\nu\beta\beta$ half-life has also been measured in EXO-200 as $T^{2\nu\beta\beta}_{1/2} = 2.165 \pm 0.016$(stat)$ \pm 0.059$(sys)$ \times 10^{21}$~yr \cite{EXO200TwoNuLong}.  This is the most precise $2\nu\beta\beta$ measurement to date and is consistent with previous measurements by EXO-200 in 2011 \cite{EXO200TwoNuOriginal} and KamLAND-ZEN in 2012 \cite{KamLAND}.
 
 \subsection{nEXO}
 

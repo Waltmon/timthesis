@@ -1,16 +1,13 @@
 \chapter{Theory}
+\label{chapter:theory}
 %\label{chap:theory} this doesn't seem to work
 
-%Theory relevant to the spectroscopy and detection of single Ba/Ba\textsuperscript{+} in SXe matrices is discussed.  Spectroscopy of Ba/Ba\textsuperscript{+} in vacuum is discussed in Sec. \ref{sec:vacuum}, and spectroscopy of metal species trapped in solid noble gas matrices is discussed in Sec. \ref{sec:matrix}.  yeah, i don't want to just list stuff...
-
-\emph{\color{gray}Need into paragraph?}
-
-\emph{\color{gray}Needs cross section calc. like Shon now.}
+Theory relevant to the spectroscopy of single Ba atoms and Ba\textsuperscript{+} ions in SXe matrices is discussed, beginning with the spectroscopy of Ba and Ba\textsuperscript{+} in vacuum in Sec. \ref{sec:vacuum}, with a numerical solution to a 5-level rate equations model in Sec. \ref{sec:model}.  Matrix isolation spectroscopy of metal species in solid noble gas matrices is discussed in Sec. \ref{sec:matrix}.  Finally, fluorescence efficiency and cross section calculations are presented in Sec. \ref{sec:fluorEff}.
 
 \section{Ba/Ba\textsuperscript{+} Spectroscopy in Vacuum}
 \label{sec:vacuum}
 
-Some of the low-lying energy levels for Ba in vacuum are shown in Fig. \ref{fig:elevsBa}.  The main transition is between the ground $6s^{2}$ $^{1}$S$_{0}$ state to the excited $6s6p$ $^{1}$P$_{1}$\textsuperscript{o} state.  Branching ratios from the $^{1}$P$_{1}$\textsuperscript{o} state result in a decay to one of three metastable D states in about 1 in 330 excitations.  Decays back to ground from the D states are parity-forbidden, resulting in very low decay rates of around 4~s$^{-1}$ for the $^{1}$D$_{2}$ state, and around 0.01~s$^{-1}$ for the $^{3}$D states.  Transition rates for the lowest-lying Ba energy levels in vacuum are shown in Table \ref{table:BaTransitions}.
+Some of the low-lying energy levels for Ba in vacuum are shown in Fig. \ref{fig:elevsBa}.  Transition rates for the lowest-lying Ba energy levels in vacuum are shown in Table \ref{table:BaTransitions}.  The main transition is between the ground $6s^{2}$ $^{1}$S$_{0}$ state to the excited $6s6p$ $^{1}$P$_{1}$\textsuperscript{o} state.  Decays from the $^{1}$P$_{1}$\textsuperscript{o} state to three metastable D states have a branching ratio of about 1 in 330 excitations.  Decays back to ground from the D states are parity-forbidden, resulting in very low decay rates of around 4~s$^{-1}$ for the $^{1}$D$_{2}$ state, and around 0.01~s$^{-1}$ for the $^{3}$D states.  This can lead to significant optical pumping of these states during multiple cycles of excitation of the  $^{1}$S$_{0} \rightarrow ^{1}$P$_{1}$\textsuperscript{o} transition.
 
 %, including that of $^{3}$P$_{1}$\textsuperscript{o} to ground.  Though decays into the $^{3}$P states from $^{1}$P$_{1}$\textsuperscript{o} are parity-forbidden, they may occur for Ba in a SXe matrix, in which case $^{3}$P$_{1}$\textsuperscript{o} to ground is relevant
 
@@ -20,7 +17,7 @@ Some of the low-lying energy levels for Ba in vacuum are shown in Fig. \ref{fig:
     \label{fig:elevsBa}
 \end{figure}
 
-The low-lying energy levels of Ba\textsuperscript{+} in vacuum are shown in Fig. \ref{fig:elevsBaPlus}.  Two strong transitions exist between the ground $6s$ $^{2}$S$_{1/2}$ state and the $6p$ $^{2}$P$_{1/2}$ and $6p$ $^{2}$P$_{3/2}$ excited states.  Branching ratios to the two metastable $^{2}$D states result in a decay into a $^{2}$D state after about 4 excitations.  Transition rates between these levels are listed in Table \ref{table:BaTransitions}.    
+The low-lying energy levels of Ba\textsuperscript{+} in vacuum are shown in Fig. \ref{fig:elevsBaPlus}.  Two strong transitions exist between the ground $6s$ $^{2}$S$_{1/2}$ state and the $6p$ $^{2}$P$_{1/2}$ and $6p$ $^{2}$P$_{3/2}$ excited states.  Branching ratios to the two metastable $^{2}$D states result in a decay into a $^{2}$D state after about 4 excitations.  Decay out of the $^{2}$D states takes 10s of seconds.  Transition rates between these levels are listed in Table \ref{table:BaTransitions}.    
 
 \begin{table}[!htbp]
 \caption{Transition rates for the lowest-lying energy levels of Ba and Ba\textsuperscript{+} in vacuum.} %not sure what [Small Table], between \caption and {}, w/ no spaces, does
@@ -65,14 +62,14 @@ Ba\textsuperscript{+} & $6p$ $^{2}P_{3/2}$\textsuperscript{o} $\rightarrow 6s $ 
 
 %These energy levels and their transition rates are well known, and are documented in the NIST Atomic Spectra Database.
 
-Single atom/ion detection by spectroscopy requires many excitation/emission cycles in order to detect an observable number of photons from a single atom/ion.  For Ba/Ba\textsuperscript{+}, in addition to the main excitation laser, lasers may be needed to depopulate the metastable D states once the atom/ion becomes optically pumped into one of them.  This recovery is called re-pumping.  In Ba, re-pumping can be accomplished via three infrared lasers at wavelengths 1107.6~nm, 1130.0~nm, and 1500.0~nm for the direct transitions back to the $6s6p$ $^{1}$P$_{1}$\textsuperscript{o} state.  An alternative re-pumping scheme is via excitation to higher-level states which have paths back to the ground state or the $6s6p$ $^{1}$P$_{1}$\textsuperscript{o} state.  A few such higher-level re-pump transitions are shown in Fig. \ref{fig:elevsBa}, including two red transitions to the $5d6p$ $^{3}$D$_{1}$\textsuperscript{o}, and blue and violet transitions to the $6s7p$ $^{1}$P$_{1}$\textsuperscript{o} and $6s8p$ $^{1}$P$_{1}$\textsuperscript{o} states.  Trapping/detection of Ba atoms in a magneto-optical trap (MOT) was achieved in \cite{BaMOT}.  This was done with two separate re-pumping schemes:  by incorporating three infrared re-pump transitions, as well as with two infrared re-pump transitions along with a 659.7-nm laser re-pumping the $6s5d$ $^{3}$D$_{1}$ state via the $5d6p$ $^{3}$D$_{1}$\textsuperscript{o} state.  Observation of trapped single Ba\textsuperscript{+} ions in vacuum has been achieved using 493.4~nm along with one re-pump laser at 649.7~nm \cite{BaPlus1978,singleBaPlusEXO}.
+Single atom/ion detection by fluorescence requires many excitation/emission cycles in order to detect an observable number of photons from a single atom/ion.  For Ba and Ba\textsuperscript{+}, in addition to the main excitation laser, lasers may be needed to depopulate the metastable D states once the atom/ion becomes optically pumped into one of them.  This recovery is called re-pumping.  In Ba, re-pumping can be accomplished via three infrared lasers at wavelengths 1107.6~nm, 1130.0~nm, and 1500.0~nm for the direct transitions back to the $6s6p$ $^{1}$P$_{1}$\textsuperscript{o} state.  An alternative re-pumping scheme is via excitation to higher-level states which have paths back to the ground state or the $6s6p$ $^{1}$P$_{1}$\textsuperscript{o} state.  A few such higher-level re-pump transitions are shown in Fig. \ref{fig:elevsBa}, including two red transitions to the $5d6p$ $^{3}$D$_{1}$\textsuperscript{o}, and blue and violet transitions to the $6s7p$ $^{1}$P$_{1}$\textsuperscript{o} and $6s8p$ $^{1}$P$_{1}$\textsuperscript{o} states.  Trapping and detection of Ba atoms in a magneto-optical trap (MOT) was achieved in \cite{BaMOT}.  This was done with two separate re-pumping schemes:  by incorporating three infrared re-pump transitions, as well as with two infrared re-pump transitions along with a 659.7-nm laser re-pumping the $6s5d$ $^{3}$D$_{1}$ state via the $5d6p$ $^{3}$D$_{1}$\textsuperscript{o} state.  Observation of trapped single Ba\textsuperscript{+} ions in vacuum has been achieved using 493.4~nm along with one re-pump laser at 649.7~nm \cite{BaPlus1978,singleBaPlusEXO}.
 
 %, replacing the 1130.6-nm transition directly to $6s6p$ $^{1}$P$_{1}$\textsuperscript{o}
 
-\section{5-level System}
+\section{5-level Rate Equations Model}
 \label{sec:model}
 
-The model for Ba transitions in vacuum with excitation to the $6s6p$ $^{1}$P$_{1}$\textsuperscript{o} state is a 5-level system, shown schematically in Fig. \ref{fig:5lev}.  States 1 and 2 represent the $6s^{2}$ $^{1}$S$_{0}$ and $6s6p$ $^{1}$P$_{1}$\textsuperscript{o} states, respectively, and states 3, 4 and 5 represent the $6s5d$ $^{1}$D$_{2}$, $6s5d$ $^{3}$D$_{2}$, and $6s5d$ $^{3}$D$_{1}$ states, respectively.  The rate equations for this system, neglecting stimulated emission, are given in Eq. \ref{eqn:rateEqn}:
+A 5-level rate equations model for Ba transitions in vacuum with excitation to the $6s6p$ $^{1}$P$_{1}$\textsuperscript{o} state, shown schematically in Fig. \ref{fig:5lev}.  States 1 and 2 represent the $6s^{2}$ $^{1}$S$_{0}$ and $6s6p$ $^{1}$P$_{1}$\textsuperscript{o} states, respectively, and states 3, 4 and 5 represent the $6s5d$ $^{1}$D$_{2}$, $6s5d$ $^{3}$D$_{2}$, and $6s5d$ $^{3}$D$_{1}$ states, respectively.  The rate equations for this system, neglecting stimulated emission, are given in Eq. \ref{eqn:rateEqn}:
 
 
 \begin{figure} %[H]
@@ -96,9 +93,17 @@ The model for Ba transitions in vacuum with excitation to the $6s6p$ $^{1}$P$_{1
 \end{equation}
 
 \noindent
-where $N_{i}$ is the population in state $i$, $A_{ij}$ is the decay rate from state $i$ to state $j$, and $W_{12}$ is the excitation rate.
+where $N_{i}$ is the population in state $i$, $A_{ij}$ is the spontaneous decay rate from state $i$ to state $j$, and $W_{12}$ is the excitation rate:
 
-Under some experimental conditions, the assumption can be made that $W_{12}$ is small compared to the rates out of the $^{1}$P$_{1}$\textsuperscript{o} state.  In this case the population in the excited state $N_{2}$ is negligible.  For these conditions, there is an effective pumping rate for the D states:
+\begin{equation}
+W_{12} =  \frac{\sigma I}{h \nu}
+\label{eqn:w12}
+\end{equation}
+
+\noindent
+where $\sigma$ is the cross section for excitation, $I$ is the laser intensity, and $h \nu$ is the excitation photon energy.
+
+Under some experimental conditions, the assumption can be made that $W_{12}$ is small compared to the rates out of the $^{1}$P$_{1}$\textsuperscript{o} state.  In this case the population in the excited state $N_{2}$ is small compared to the populations of the other states.  Except for very short times, $dN_2/dt$ is also small compared to $W_{12} N_1$ and $N_2 A_{21}$.  For these conditions, there is an effective pumping rate for the D states:
 
 \begin{equation}
 W_{1i} = W_{12}\frac{A_{2i}}{A_{21} + A_{23} + A_{24} + A_{25}}
@@ -106,7 +111,7 @@ W_{1i} = W_{12}\frac{A_{2i}}{A_{21} + A_{23} + A_{24} + A_{25}}
 \end{equation}
 
 \noindent
-where $i = 3,4,5$.  Eq. 8 is also true for $i = 1$, where $W_{11}$ represents the fluorescence rate.  The fraction in Eq. \ref{eqn:smallW12pumpingRates} is the respective branching ratio from the excited state.  With this definition, the rate equations for states 3, 4, and 5 can be re-written as:
+where $i = 3,4,5$.  The fraction in Eq. \ref{eqn:smallW12pumpingRates} is the respective branching ratio from the excited state.  With this definition, the rate equations for states 3, 4, and 5 can be re-written as:
 
 %, including the pumping rate back to ground
 
@@ -120,7 +125,9 @@ where $i = 3,4,5$.  Eq. 8 is also true for $i = 1$, where $W_{11}$ represents th
 \end{equation}
 
 \noindent
-where $N_{1} = 1 - N_{3} - N_{4} - N_{5}$ by conservation of total population.  For a numerical solution of these equations, initially all population is in the ground state ($N_{3} = N_{4} = N_{5} = 0$).  The model calculates the state populations $N_{i}$ at the end of each iterative time step, $t_{\text{step}}$, as:
+where $N_{1} = 1 - N_{3} - N_{4} - N_{5}$ by conservation of total population.
+
+For a numerical solution of these equations, initially all population is in the ground state ($N_{3} = N_{4} = N_{5} = 0$).  The model calculates the state populations $N_{i}$ at the end of each iterative time step, $t_{\text{step}}$, as:
 
 \begin{equation}
 \begin{aligned}
@@ -130,7 +137,7 @@ N_{i} = N_{i, previous} + \frac{dN_i}{dt}t_{\text{step}} \\
 \end{equation}
 
 \noindent
-where $i = 3,4,5$, and $dN_i/dt$ is determined at the beginning of each time step according to Eq. \ref{eqn:smallW12populationRates}.  Time steps of $t_{\text{step}} = 1~\mu$s were used.  In order to model data, which is taken in exposure time ($t_{\text{exp}}$) frames, the model iterates through $t_{\text{exp}}/t_{\text{step}}$ steps in each frame, accumulating fluorescence photons emitted at each step ($\Delta S_{\text{step}}$) according to the fluorescence rate $N_{1} W_{11}$ times $t_{\text{step}}$, amounting to:
+where $i = 3,4,5$, and $dN_i/dt$ is determined at the beginning of each time step according to Eq. \ref{eqn:smallW12populationRates}.  Time steps of $t_{\text{step}} = 1~\mu$s were used.  In order to model data, which is taken in exposure time ($t_{\text{exp}}$) frames, the model iterates through $t_{\text{exp}}/t_{\text{step}}$ steps in each frame, accumulating fluorescence photons emitted at each step ($\Delta S_{\text{step}}$) according to the fluorescence rate times $t_{\text{step}}$:
 
 \begin{equation}
 \begin{aligned}
@@ -168,11 +175,11 @@ Examples of modeled normalized photons emitted vs. time are shown in Fig. \ref{f
 
 %\emph{\color{gray}May be good matrix isolation theory references in Ba Spec... yeah, 1 and 2 i think ... shon's 55, 57, 58 are probably good too and maybe overlapping}
 
-In the matrix isolation technique, a species of interest is trapped in a crystal, or ``matrix," of inert atoms/molecules such that it can be studied at leisure without guest-guest interactions.  To be effective, the temperature must be low enough to prevent diffusion of guest atoms, and the guest concentration must be low enough to prevent interaction.  The technique was originally proposed and demonstrated in \cite{matrixIso}, where short-lived species in chemical reactions were studied by isolating them in various solid matrices.  The proposed method of Ba tagging in SXe is a unique application of matrix isolation spectroscopy.  In order to understand the spectroscopic effects which may be encountered due to interaction between the guest Ba/Ba\textsuperscript{+} and the host Xe atoms, some effects encountered in systems of metal atoms in rare-gas matrices are discussed.
+In the matrix isolation technique, a species of interest is trapped in a crystal, or ``matrix," of inert atoms/molecules such that it can be studied at leisure.  To be effective, the temperature must be low enough to prevent diffusion of guest atoms, and the guest concentration must be low enough to prevent guest-guest interaction.  The technique was originally proposed and demonstrated in \cite{matrixIso}, where otherwise short-lived species in were studied by isolating them in various solid matrices.  The proposed method of Ba tagging in SXe is a unique application of matrix isolation spectroscopy.  In order to understand the spectroscopic effects which may be encountered due to interaction between the guest Ba atoms and Ba\textsuperscript{+} ions and the host Xe atoms, some effects encountered in systems of metal atoms in rare-gas matrices are discussed.
 
 %Low concentrations of the guest species, ideally at least 1:$10^{3}$ host:guest ratio, prevent guest-guest interactions.  
 
-The leading interaction between a guest atom and the host noble gas atoms is an induced dipole-dipole Van der Waals force.  For a metal atom of group I or II, this interaction is quite different when the atom is in the excited P state vs. the ground S state, resulting in general in different shaped potential energy curves \cite{crepin}.  As an approximation to these curves, the ground state potential for a BaXe molecule and a guess at the excited state potential is shown in Fig. \ref{fig:FranckCondon}.  In a cold matrix, the system will be mainly in the ground lattice vibrational state ($\nu =0$) before excitation.  According to the Franck-Condon principle, the strongest electronic excitation will occur to vibrational states whose wavefunctions overlap that of the ground state.  Because this occurs for a band of vibrations, the absorption is broadened.  The peak absorption energy is determined by the difference in potential energy between the ground and excited states, which in general is not the same as the absorption energy in vacuum.  In the excited state, rapid decay occurs to the lowest vibrational mode, and then a similar broadening in the spontaneous emission energy occurs.  A redshift in the emission is observed relative to the excitation.  Additionally, splitting of orbital degeneracy in the P state can produce triplet structures in the absorption according to the Jahn-Teller effect \cite{jahnteller}.  These features depend on the specific configuration of atoms surrounding the guest, and thus different spectra can be observed from guest atoms occupying different matrix ``sites."  Annealing a matrix after deposition can reveal relative stability of various matrix sites \cite{crepin}.
+The leading interaction between a guest atom and the host noble gas atoms is an induced dipole-dipole Van der Waals force.  For a metal atom of group I or II, this interaction is quite different when the atom is in the excited P state vs. the ground S state, resulting in general in different shaped potential energy curves \cite{crepin}.  As an approximation to these curves, the ground state potential for a BaXe molecule and a guess at the excited state potential is shown in Fig. \ref{fig:FranckCondon}.  In a cold matrix, the system will be mainly in the ground lattice vibrational state ($\nu =0$) before excitation.  According to the Franck-Condon principle, the strongest electronic excitation will occur to vibrational states whose wavefunctions overlap that of the ground state.  Because this occurs for a band of vibrations, the absorption is broadened.  The peak absorption energy is determined by the difference in potential energy between the ground state and the median vibrational excited state, which in general is not the same as the absorption energy in vacuum.  In the excited state, rapid decay occurs to the lowest vibrational state, and then a similar broadening in the spontaneous emission energy occurs.  A redshift in the emission is observed relative to the excitation.  Additionally, splitting of orbital degeneracy in the P state can produce triplet structures in the absorption according to the Jahn-Teller effect \cite{jahnteller}.  These features depend on the specific configuration of atoms surrounding the guest, and thus different spectra can be observed from guest atoms occupying different matrix ``sites."  Annealing a matrix after deposition can reveal the relative stability of various matrix sites \cite{crepin}.
 
 %The ground S state of a group I or II atom is spherically symmetric, and being slightly larger in Van der Waals radius than Xe, it is likely to take the place of one or more Xe atoms in the fcc crystal (substitution), vs. existing in between Xe atoms in the crystal structure (interstitial).
 
@@ -189,7 +196,7 @@ The leading interaction between a guest atom and the host noble gas atoms is an 
 \label{fig:FranckCondon}
 \end{figure}
 
-As an example, the spectroscopy on Na atoms in solid rare-gas matrices was studied in \cite{matrixNa}.  Spectral features are exemplified in Fig. \ref{fig:matrixNa} for Na atoms in SAr, SKr, and SXe.  Excitation and emission are broadened to 10s of nm.  Two or three different matrix sites are observed in the three matrices, with the largest red-shift in emission observed in SXe.  The triplet structures in excitation spectra are attributed to the Jahn-Teller effect.  The specific matrix configuration associated with each excitation triplet is identified in this paper through theoretical modeling of the Na-matrix interactions.
+As an example, the spectroscopy on Na atoms in solid rare-gas matrices was studied in \cite{matrixNa}.  Spectral features are exemplified in Fig. \ref{fig:matrixNa} for Na atoms in SAr, SKr, and SXe.  Excitation and emission are broadened to 10's of nm.  Two or three different matrix sites are observed in the three matrices, with the largest red-shift in emission observed in SXe.  The triplet structures in excitation spectra are attributed to the Jahn-Teller effect.  The specific matrix configuration associated with each excitation triplet is identified in this paper through theoretical modeling of the Na-matrix interactions.
 
 \begin{figure} %[H]
         \centering
@@ -216,26 +223,16 @@ As an example, the spectroscopy on Na atoms in solid rare-gas matrices was studi
 \section{Fluorescence Efficiency}
 \label{sec:fluorEff}
 
-Fluorescence efficiency ($\epsilon_{f}$) is the ratio of total fluorescence photons emitted to photons absorbed.  This can be calculated by Eq. \ref{eqn:flueEff}:
+The fluorescence efficiency ($\epsilon_{f}$) is the ratio of total fluorescence photons emitted to photons absorbed.  This can be calculated by Eq. \ref{eqn:flueEff}:
 
 \begin{equation}
-\epsilon_{f} = \frac{f}{W_{12} \epsilon_{c}}
+\epsilon_{f} = \frac{f}{W_{12} \epsilon_{\text{tot}}}
 \label{eqn:flueEff}
 \end{equation}
 % = \frac{f h \nu}{\sigma I \epsilon_{c}}
 
 \noindent
-where $f$ is the number of fluorescence photons observed per atom per second, $W_{12}$ is the excitation rate, and $\epsilon_{c}$ is the collection efficiency of the system.  $W_{12}$ can be calculated by Eq. \ref{eqn:w12}:
-
-\begin{equation}
-W_{12} =  \frac{\sigma I}{h \nu}
-\label{eqn:w12}
-\end{equation}
-
-\noindent
-where $\sigma$ is the cross section for the excitation interaction, $I$ is the laser intensity, and $h \nu$ is the excitation photon energy.
-
-The cross section can be calculated using the shape of an excitation spectrum according to Eq. \ref{eqn:sigma}:
+where $f$ is the number of fluorescence photons observed per atom per second, $W_{12}$ is the excitation rate, and $\epsilon_{\text{tot}}$ is the photon detection efficiency of the system.  $W_{12}$ can be calculated by Eq. \ref{eqn:w12}.  The cross section can be calculated using the shape of an excitation spectrum according to Eq. \ref{eqn:sigma}:
 
 \begin{equation}
 \sigma(\nu) = A_{21} \frac{g_2}{g_1} \frac{c^2}{8 \pi \nu^2} g(\nu)
@@ -259,7 +256,7 @@ Integrating Eq. \ref{eqn:sigma} then yields:
 \end{equation}
 
 \noindent
-Since the cross section is proportional to the excitation spectrum $E(\nu)$, we can finally write the cross section as a function of $\nu$ according to Eq. \ref{eqn:sigmafinal}:
+Since the cross section $\sigma(\nu)$ is proportional to the excitation spectrum $E(\nu)$, we can finally write the cross section as a function of $\nu$ according to Eq. \ref{eqn:sigmafinal}:
 
 \begin{equation}
 \sigma(\nu) = \frac{A_{21} E(\nu)}{\int_{0}^{\infty} E(\nu') \nu'^2 d\nu'} \frac{g_2}{g_1} \frac{c^2}{8 \pi}.
