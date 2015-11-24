@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.18)  23 NOV 2015 23:58
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.18)  24 NOV 2015 01:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1272,66 +1272,71 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 195--199
  [] [] 
  []
 
+[71 <./figures/bleach_compareExcitations_specificSigmas_a.png> <./figures/bleac
+h_compareExcitations_specificSigmas_b.png>] [72 <./figures/bleach_model_vacuum_
+w12t_a.png> <./figures/bleach_model_vacuum_w12t_b.png> <./figures/bleach_model_
+vacuum_w12t_c.png>]
+<figures/619_bleach_w12t.png, id=387, 798.985pt x 774.895pt>
+File: figures/619_bleach_w12t.png Graphic file (type png)
+
+<use figures/619_bleach_w12t.png>
+Package pdftex.def Info: figures/619_bleach_w12t.png used on input line 231.
+(pdftex.def)             Requested size: 234.8775pt x 227.79984pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [71 <./figures/bleach_compareExcitations_specificSigmas_a.png> <./figures/blea
-ch_compareExcitations_specificSigmas_b.png>] [72 <./figures/bleach_model_vacuum
-_w12t_a.png> <./figures/bleach_model_vacuum_w12t_b.png> <./figures/bleach_model
-_vacuum_w12t_c.png>] <figures/bleach_re-pump_a.png, id=387, 712.16063pt x 505.8
-9pt>
+ [73]
+<figures/bleach_re-pump_a.png, id=391, 712.16063pt x 505.89pt>
 File: figures/bleach_re-pump_a.png Graphic file (type png)
 
 <use figures/bleach_re-pump_a.png>
-Package pdftex.def Info: figures/bleach_re-pump_a.png used on input line 229.
+Package pdftex.def Info: figures/bleach_re-pump_a.png used on input line 254.
 (pdftex.def)             Requested size: 234.8775pt x 166.84386pt.
 
-<figures/bleach_re-pump_b.png, id=388, 712.16063pt x 505.89pt>
+<figures/bleach_re-pump_b.png, id=392, 712.16063pt x 505.89pt>
 File: figures/bleach_re-pump_b.png Graphic file (type png)
 
 <use figures/bleach_re-pump_b.png>
-Package pdftex.def Info: figures/bleach_re-pump_b.png used on input line 231.
+Package pdftex.def Info: figures/bleach_re-pump_b.png used on input line 256.
 (pdftex.def)             Requested size: 234.8775pt x 166.84386pt.
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 229--232
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 254--257
  [][] [] 
  []
 
 
-Underfull \hbox (badness 1117) in paragraph at lines 232--232
+Underfull \hbox (badness 1117) in paragraph at lines 257--257
 \OT1/cmr/m/n/12 at (a) 1064 nm ($\OMS/cmsy/m/n/12 ^^X$\OT1/cmr/m/n/12 18 mW/mm$
 []$), 1550 nm ($\OMS/cmsy/m/n/12 ^^X$\OT1/cmr/m/n/12 9 mW/mm$[]$), 657 nm
  []
 
-[73] [74 <./figures/bleach_re-pump_a.png> <./figures/bleach_re-pump_b.png>]
-<figures/619_bleach_summed_per_mW.png, id=397, 798.985pt x 774.895pt>
-File: figures/619_bleach_summed_per_mW.png Graphic file (type png)
 
-<use figures/619_bleach_summed_per_mW.png>
-Package pdftex.def Info: figures/619_bleach_summed_per_mW.png used on input lin
-e 252.
-(pdftex.def)             Requested size: 328.82707pt x 318.91505pt.
- [75 <./figures/619_bleach_summed_per_mW.png>] <figures/QE_new_just1000.png, id
-=401, 712.16063pt x 505.89pt>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [74 <./figures/619_bleach_w12t.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [75 <./figures/bleach_re-pump_a.png> <./figures/bleach_re-pump_b.png>]
+<figures/QE_new_just1000.png, id=401, 712.16063pt x 505.89pt>
 File: figures/QE_new_just1000.png Graphic file (type png)
 
 <use figures/QE_new_just1000.png>
-Package pdftex.def Info: figures/QE_new_just1000.png used on input line 273.
+Package pdftex.def Info: figures/QE_new_just1000.png used on input line 277.
 (pdftex.def)             Requested size: 328.82707pt x 233.58449pt.
 
 <figures/BaHx_a.png, id=402, 949.5475pt x 674.52pt>
 File: figures/BaHx_a.png Graphic file (type png)
  <use figures/BaHx_a.png>
-Package pdftex.def Info: figures/BaHx_a.png used on input line 287.
+Package pdftex.def Info: figures/BaHx_a.png used on input line 291.
 (pdftex.def)             Requested size: 234.8775pt x 166.84901pt.
 
 <figures/BaHx_b.png, id=403, 949.5475pt x 674.52pt>
 File: figures/BaHx_b.png Graphic file (type png)
  <use figures/BaHx_b.png>
-Package pdftex.def Info: figures/BaHx_b.png used on input line 289.
+Package pdftex.def Info: figures/BaHx_b.png used on input line 293.
 (pdftex.def)             Requested size: 234.8775pt x 166.84901pt.
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 287--290
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 291--294
  [][] [] 
  []
 
@@ -1340,42 +1345,44 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 287--290
 File: figures/excitspec_blu_a.png Graphic file (type png)
 
 <use figures/excitspec_blu_a.png>
-Package pdftex.def Info: figures/excitspec_blu_a.png used on input line 300.
+Package pdftex.def Info: figures/excitspec_blu_a.png used on input line 304.
 (pdftex.def)             Requested size: 328.82707pt x 233.5845pt.
 
 <figures/excitspecBlue_b.png, id=409, 949.5475pt x 674.52pt>
 File: figures/excitspecBlue_b.png Graphic file (type png)
 
 <use figures/excitspecBlue_b.png>
-Package pdftex.def Info: figures/excitspecBlue_b.png used on input line 301.
+Package pdftex.def Info: figures/excitspecBlue_b.png used on input line 305.
 (pdftex.def)             Requested size: 328.82707pt x 233.5845pt.
 
 Underfull \vbox (badness 4001) has occurred while \output is active []
 
- [77 <./figures/BaHx_a.png> <./figures/BaHx_b.png>]) (./chapter_results_imaging
-_e.tex
-[78 <./figures/excitspec_blu_a.png> <./figures/excitspecBlue_b.png>]
+ [77 <./figures/BaHx_a.png> <./figures/BaHx_b.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [78 <./figures/excitspec_blu_a.png> <./figures/excitspecBlue_b.png>])
+(./chapter_results_imaging_e.tex [79]
 Chapter 6
-<figures/image_1e4.png, id=417, 557.08125pt x 705.38531pt>
+<figures/image_1e4.png, id=420, 557.08125pt x 705.38531pt>
 File: figures/image_1e4.png Graphic file (type png)
 
 <use figures/image_1e4.png>
 Package pdftex.def Info: figures/image_1e4.png used on input line 27.
 (pdftex.def)             Requested size: 281.85587pt x 356.90024pt.
- [79
+ [80
 
 
 ]
-<figures/xebaxe_instantaneous_scrunched.png, id=421, 1120.185pt x 1415.2875pt>
+<figures/xebaxe_instantaneous_scrunched.png, id=424, 1120.185pt x 1415.2875pt>
 File: figures/xebaxe_instantaneous_scrunched.png Graphic file (type png)
 
 <use figures/xebaxe_instantaneous_scrunched.png>
 Package pdftex.def Info: figures/xebaxe_instantaneous_scrunched.png used on inp
 ut line 42.
 (pdftex.def)             Requested size: 446.26582pt x 563.83745pt.
- [80 <./figures/image_1e4.png>] [81 <./figures/xebaxe_instantaneous_scrunched.p
+ [81 <./figures/image_1e4.png>] [82 <./figures/xebaxe_instantaneous_scrunched.p
 ng>]
-<figures/lin_just20150807_lin.png, id=430, 899.36pt x 875.27pt>
+<figures/lin_just20150807_lin.png, id=433, 899.36pt x 875.27pt>
 File: figures/lin_just20150807_lin.png Graphic file (type png)
 
 <use figures/lin_just20150807_lin.png>
@@ -1383,7 +1390,7 @@ Package pdftex.def Info: figures/lin_just20150807_lin.png used on input line 56
 .
 (pdftex.def)             Requested size: 234.8775pt x 228.57985pt.
 
-<figures/lin_just20150526_lin.png, id=431, 899.36pt x 875.27pt>
+<figures/lin_just20150526_lin.png, id=434, 899.36pt x 875.27pt>
 File: figures/lin_just20150526_lin.png Graphic file (type png)
 
 <use figures/lin_just20150526_lin.png>
@@ -1395,7 +1402,7 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 56--59
  [][] [] 
  []
 
-<figures/train.png, id=432, 1150.2975pt x 975.645pt>
+<figures/train.png, id=435, 1150.2975pt x 975.645pt>
 File: figures/train.png Graphic file (type png)
  <use figures/train.png>
 Package pdftex.def Info: figures/train.png used on input line 65.
@@ -1403,12 +1410,12 @@ Package pdftex.def Info: figures/train.png used on input line 65.
 
 Underfull \vbox (badness 3240) has occurred while \output is active []
 
- [82 <./figures/lin_just20150807_lin.png> <./figures/lin_just20150526_lin.png>]
+ [83 <./figures/lin_just20150807_lin.png> <./figures/lin_just20150526_lin.png>]
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [83 <./figures/train.png>]
-<figures/xebaxe_largest_instantaneous.png, id=439, 1702.36pt x 674.52pt>
+ [84 <./figures/train.png>]
+<figures/xebaxe_largest_instantaneous.png, id=443, 1702.36pt x 674.52pt>
 File: figures/xebaxe_largest_instantaneous.png Graphic file (type png)
 
 <use figures/xebaxe_largest_instantaneous.png>
@@ -1418,8 +1425,8 @@ Package pdftex.def Info: figures/xebaxe_largest_instantaneous.png used on input
 
 Underfull \vbox (badness 1152) has occurred while \output is active []
 
- [84 <./figures/xebaxe_largest_instantaneous.png>]
-<figures/scan0point48Ba_run128.png, id=444, 899.36pt x 875.27pt>
+ [85 <./figures/xebaxe_largest_instantaneous.png>]
+<figures/scan0point48Ba_run128.png, id=447, 899.36pt x 875.27pt>
 File: figures/scan0point48Ba_run128.png Graphic file (type png)
 
 <use figures/scan0point48Ba_run128.png>
@@ -1427,14 +1434,14 @@ Package pdftex.def Info: figures/scan0point48Ba_run128.png used on input line 9
 4.
 (pdftex.def)             Requested size: 234.8775pt x 228.57985pt.
 
-<figures/scanXe_run142.png, id=445, 899.36pt x 875.27pt>
+<figures/scanXe_run142.png, id=448, 899.36pt x 875.27pt>
 File: figures/scanXe_run142.png Graphic file (type png)
 
 <use figures/scanXe_run142.png>
 Package pdftex.def Info: figures/scanXe_run142.png used on input line 96.
 (pdftex.def)             Requested size: 234.8775pt x 228.57985pt.
 
-<figures/scan0point63Ba_run144.png, id=446, 899.36pt x 875.27pt>
+<figures/scan0point63Ba_run144.png, id=449, 899.36pt x 875.27pt>
 File: figures/scan0point63Ba_run144.png Graphic file (type png)
 
 <use figures/scan0point63Ba_run144.png>
@@ -1442,7 +1449,7 @@ Package pdftex.def Info: figures/scan0point63Ba_run144.png used on input line 9
 7.
 (pdftex.def)             Requested size: 234.8775pt x 228.57985pt.
 
-<figures/scan5point7Ba_run148.png, id=447, 899.36pt x 875.27pt>
+<figures/scan5point7Ba_run148.png, id=450, 899.36pt x 875.27pt>
 File: figures/scan5point7Ba_run148.png Graphic file (type png)
 
 <use figures/scan5point7Ba_run148.png>
@@ -1459,41 +1466,41 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 94--103
  [] [] 
  []
 
-<figures/xevarxe_scanDelta_trendline.png, id=448, 899.36pt x 875.27pt>
+<figures/xevarxe_scanDelta_trendline.png, id=451, 899.36pt x 875.27pt>
 File: figures/xevarxe_scanDelta_trendline.png Graphic file (type png)
 
 <use figures/xevarxe_scanDelta_trendline.png>
 Package pdftex.def Info: figures/xevarxe_scanDelta_trendline.png used on input 
 line 110.
 (pdftex.def)             Requested size: 234.8775pt x 228.57985pt.
- [85]
+ [86]
 Underfull \vbox (badness 7186) has occurred while \output is active []
 
- [86 <./figures/scan0point48Ba_run128.png> <./figures/scanXe_run142.png> <./fig
+ [87 <./figures/scan0point48Ba_run128.png> <./figures/scanXe_run142.png> <./fig
 ures/scan0point63Ba_run144.png> <./figures/scan5point7Ba_run148.png>])
-(./chapter_conclusions_b.tex [87 <./figures/xevarxe_scanDelta_trendline.png>]
+(./chapter_conclusions_b.tex [88 <./figures/xevarxe_scanDelta_trendline.png>]
 Chapter 7
 
 Underfull \vbox (badness 4673) has occurred while \output is active []
 
- [88
+ [89
 
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [89])
-[90]
+ [90])
+[91]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
- [91] [92] [93] (./thesis_walton.aux) ) 
+ [92] [93] [94] (./thesis_walton.aux) ) 
 Here is how much of TeX's memory you used:
  5289 strings out of 493304
- 80098 string characters out of 6139871
+ 80053 string characters out of 6139871
  235563 words of memory out of 5000000
  8351 multiletter control sequences out of 15000+600000
  12439 words of font info for 48 fonts, out of 8000000 for 9000
@@ -1512,10 +1519,10 @@ exmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmti12.pfb>
-Output written on thesis_walton.pdf (100 pages, 7155877 bytes).
+Output written on thesis_walton.pdf (101 pages, 7157165 bytes).
 PDF statistics:
- 524 PDF objects out of 1000 (max. 8388607)
- 262 compressed objects within 3 object streams
+ 527 PDF objects out of 1000 (max. 8388607)
+ 264 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  536 words of extra memory for PDF output out of 10000 (max. 10000000)
 
