@@ -9,6 +9,17 @@
 - short-time comment by Bill in 5-level model leading to exp decay at beginning, and demonstration of this in ch.5?
 - need franck condon ref (see bill comments)
 - may want the rate-change paragraph uncommented at end of matrix iso., but need to se Bill comments
+- check M. Danilov ref [5] in corrections Ch. 1 v.3 corrections.pnf
+- smaller text in dub beta dec spectrum figure
+- remove repeat deposits in bleaching data (including model)
+- make color 2D gaus fits on astig fit fig.
+- * Question of Bill on pg. 16 of Ch 3 v3 corrections.pdf
+- coll eff stuff in Ch 3 v3 corrections.pdf
+- "need to think about" comment on fitting in Bill comments (sec. 14.1.2)
+- also comment on Cr3+ stuff (sideways)
+- also on that page need to specify Raman wavelength stuff
+- plot time instead of Run Numb. in surf bleach plot
+- get ref for wuantum dots in cocnnlusions
 
 * check anti-corr plot:  is it actually like that in the real 2-nu?  otherwise idk what you should do. [it's in orig. 0nu]
 * (sorta)check Xe bottle purity

@@ -14,15 +14,15 @@
 \contentsline {section}{\tocsection {}{2.3}{Matrix Isolation Spectroscopy}}{26}
 \contentsline {section}{\tocsection {}{2.4}{Fluorescence Efficiency}}{28}
 \contentsline {chapter}{\tocchapter {Chapter}{3}{Experimental}}{31}
-\contentsline {section}{\tocsection {}{3.1}{Ion Beam}}{31}
+\contentsline {section}{\tocsection {}{3.1}{Ion Beam System}}{31}
 \contentsline {subsection}{\tocsubsection {}{3.1.1}{Ion Source}}{33}
 \contentsline {subsection}{\tocsubsection {}{3.1.2}{E$\times $B Velocity Filter}}{33}
 \contentsline {subsection}{\tocsubsection {}{3.1.3}{Other Beam Components}}{34}
 \contentsline {subsection}{\tocsubsection {}{3.1.4}{Ion Beam Pulsing}}{36}
 \contentsline {subsection}{\tocsubsection {}{3.1.5}{Calibration of Ion Deposits}}{38}
 \contentsline {section}{\tocsection {}{3.2}{Ba Getter Source}}{40}
-\contentsline {section}{\tocsection {}{3.3}{Sample Deposition}}{41}
-\contentsline {section}{\tocsection {}{3.4}{Laser Excitation}}{43}
+\contentsline {section}{\tocsection {}{3.3}{Sample Deposition}}{40}
+\contentsline {section}{\tocsection {}{3.4}{Laser Excitation}}{44}
 \contentsline {section}{\tocsection {}{3.5}{Collection Optics}}{47}
 \contentsline {section}{\tocsection {}{3.6}{Wavelength Calibration}}{49}
 \contentsline {section}{\tocsection {}{3.7}{Vibrations and Effective Laser Region}}{50}
@@ -45,6 +45,6 @@
 \contentsline {section}{\tocsection {}{6.1}{Imaging 577- and 591-nm Fluorescence}}{80}
 \contentsline {section}{\tocsection {}{6.2}{Imaging 619-nm Fluorescence}}{81}
 \contentsline {section}{\tocsection {}{6.3}{Scanned Images}}{86}
-\contentsline {chapter}{\tocchapter {Chapter}{7}{Conclusions}}{89}
-\contentsline {section}{\tocsection {}{7.1}{Future Work}}{89}
-\contentsline {chapter}{Bibliography}{92}
+\contentsline {chapter}{\tocchapter {Chapter}{7}{Conclusions}}{90}
+\contentsline {section}{\tocsection {}{7.1}{Future Work}}{90}
+\contentsline {chapter}{Bibliography}{93}
