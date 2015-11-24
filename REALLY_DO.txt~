@@ -1,7 +1,6 @@
 - measure difference between gain / ADC modes (at some point)
 - 10^4 image
 - fix cross sections by fitting/extending
-- want a statement of "becomes bleached after x excitations"?  It reaches 1/e of (initial - "SS") in maybe 40,000 excit. in (b) and (c) of green/purple plots, but (a) is sort of different
 - check all data which you produced quickly in the middle of the night
 
 * check anti-corr plot:  is it actually like that in the real 2-nu?  otherwise idk what you should do. [it's in orig. 0nu]
