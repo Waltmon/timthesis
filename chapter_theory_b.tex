@@ -120,7 +120,7 @@ where $i = 3,4,5$.  Eq. 8 is also true for $i = 1$, where $W_{11}$ represents th
 \end{equation}
 
 \noindent
-In the model, an additional variable is not needed for $N_{1}$.  Rather, $1 - N_{3} - N_{4} - N_{5}$ is used.  Beginning with all population in the ground state ($N_{3} = N_{4} = N_{5} = 0$), the model calculates the state populations $N_{i}$ at the end of each iterative time step, $t_{\text{step}}$, as:
+where $N_{1} = 1 - N_{3} - N_{4} - N_{5}$ by conservation of total population.  For a numerical solution of these equations, initially all population is in the ground state ($N_{3} = N_{4} = N_{5} = 0$).  The model calculates the state populations $N_{i}$ at the end of each iterative time step, $t_{\text{step}}$, as:
 
 \begin{equation}
 \begin{aligned}
@@ -130,11 +130,11 @@ N_{i} = N_{i, previous} + \frac{dN_i}{dt}t_{\text{step}} \\
 \end{equation}
 
 \noindent
-where $i = 3,4,5$, and $dN_i/dt$ is determined at the beginning of each time step according to Eq. \ref{eqn:smallW12populationRates}.  Time steps of $t_{\text{step}} = 1~\mu$s were used.  In order to model data, which is taken in exposure time ($t_{\text{exp}}$) frames, the model iterates through $t_{\text{exp}}/t_{\text{step}}$ steps in each frame, accumulating fluorescence counts at each step ($C_{\text{step}}$) according to the fluorescence rate (Eq. \ref{eqn:smallW12pumpingRates} with $i = 1$) times $t_{\text{step}}$, amounting to:
+where $i = 3,4,5$, and $dN_i/dt$ is determined at the beginning of each time step according to Eq. \ref{eqn:smallW12populationRates}.  Time steps of $t_{\text{step}} = 1~\mu$s were used.  In order to model data, which is taken in exposure time ($t_{\text{exp}}$) frames, the model iterates through $t_{\text{exp}}/t_{\text{step}}$ steps in each frame, accumulating fluorescence photons emitted at each step ($\Delta S_{\text{step}}$) according to the fluorescence rate $N_{1} W_{11}$ times $t_{\text{step}}$, amounting to:
 
 \begin{equation}
 \begin{aligned}
-C_{\text{step}} = W_{12}\frac{A_{21}}{A_{21} + A_{23} + A_{24} + A_{25}}t_{\text{step}} \\
+\Delta S_{\text{step}} = W_{12}\frac{A_{21} N_{1}}{A_{21} + A_{23} + A_{24} + A_{25}}t_{\text{step}} \\
 \end{aligned}
 \label{eqn:smallW12counts}
 \end{equation}
@@ -145,11 +145,11 @@ To incorporate camera readout time, where laser exposure continues but fluoresce
 \begin{figure} %[H]
         \centering
                 \includegraphics[width=.7\textwidth]{figures/thesis_modelExamples.png}
-                \caption{Modeled counts in 0.5-s exposure frames for three values of $W_{12}$, using vacuum Ba transition rates, normalized to the first point.  Intermittent readout times of 0.1~s are used. }
+                \caption{Modeled photons emitted in 0.5-s exposure frames for three values of $W_{12}$, using vacuum Ba transition rates, normalized to the first point.  A readout time of 0.1~s is used between frames. }
 \label{fig:modelExample}
 \end{figure}
 
-Examples of modeled counts vs. time are shown in Fig. \ref{fig:modelExample} for three values of $W_{12}$, using the transition rates of Ba in vacuum from Table \ref{table:BaTransitions}.  Decay of fluorescence occurs as atoms are optically pumped into the metastable D states.  This model is compared to bleaching data of Ba in SXe in Sec. \ref{sec:bleach577and591}.
+Examples of modeled normalized photons emitted vs. time are shown in Fig. \ref{fig:modelExample} for three values of $W_{12}$, using the transition rates of Ba in vacuum from Table \ref{table:BaTransitions}.  Decay of fluorescence occurs as atoms are optically pumped into the metastable D states.  For long times the curves reach a steady state value.  This model is compared to bleaching data of Ba in SXe in Sec. \ref{sec:bleach577and591}.
 
 %\begin{equation}
 %\begin{aligned}
@@ -168,11 +168,11 @@ Examples of modeled counts vs. time are shown in Fig. \ref{fig:modelExample} for
 
 %\emph{\color{gray}May be good matrix isolation theory references in Ba Spec... yeah, 1 and 2 i think ... shon's 55, 57, 58 are probably good too and maybe overlapping}
 
-In the matrix isolation technique, a species of interest is trapped in a crystal, or ``matrix," of inert atoms/molecules such that it can be studied at leisure without guest-guest interactions.  To be effective, temperature must be low enough to prevent diffusion, and guest concentration must be low enough to prevent interaction.  The technique was originally proposed and demonstrated in \cite{matrixIso}, where short-lived species in chemical reactions were studied by isolating them in various solid matrices.  The proposed method of Ba tagging in SXe is a unique application of matrix isolation spectroscopy.  In order to understand the spectroscopic effects which may be encountered due to interaction between the guest Ba/Ba\textsuperscript{+} and the host Xe atoms, some effects encountered in systems of a metal atoms in rare-gas matrices are discussed.
+In the matrix isolation technique, a species of interest is trapped in a crystal, or ``matrix," of inert atoms/molecules such that it can be studied at leisure without guest-guest interactions.  To be effective, the temperature must be low enough to prevent diffusion of guest atoms, and the guest concentration must be low enough to prevent interaction.  The technique was originally proposed and demonstrated in \cite{matrixIso}, where short-lived species in chemical reactions were studied by isolating them in various solid matrices.  The proposed method of Ba tagging in SXe is a unique application of matrix isolation spectroscopy.  In order to understand the spectroscopic effects which may be encountered due to interaction between the guest Ba/Ba\textsuperscript{+} and the host Xe atoms, some effects encountered in systems of metal atoms in rare-gas matrices are discussed.
 
 %Low concentrations of the guest species, ideally at least 1:$10^{3}$ host:guest ratio, prevent guest-guest interactions.  
 
-The leading interaction between a guest atom and host noble gas atoms is an induced dipole-dipole Van der Waals force.  For a metal atom of group I or II, this interaction is different when the atom is in the excited P state vs. the ground S state, resulting in general in a different potential energy relationship \cite{crepin}.  This can cause shifts and broadening of absorption and emission according to the Franck Condon Principle, illustrated in Fig. \ref{fig:FranckCondon} for the simple case of one-dimensional vibration between two bodies.  In a cold matrix, the system will be in the ground lattice vibrational state ($\nu =0$) before excitation.  Electronic excitation can occur to multiple vibrational modes whose wavefunctions overlap that of the ground state, thus broadening the absorption.  Absorption energy is determined by the difference in potential energy between the ground and excited states, which in general is not the same as the absorption energy in vacuum.  In the excited state, rapid decay occurs to the lowest vibrational mode, and then a similar broadening in the spontaneous emission energy occurs.  A redshift in the emission is observed relative to the excitation.  Additionally, splitting of orbital degeneracy in the P state can produce triplet structures in the absorption according to the Jahn-Teller effect \cite{jahnteller}.  These features depend on the specific configuration of atoms surrounding the guest, and thus different spectra can be observed from guest atoms occupying different matrix ``sites."  Diversity in matrix site populations from a deposit of many guest atoms can result in a multitude of emission peaks.  Annealing a matrix after deposition can reveal relative stability of various matrix sites \cite{crepin}.
+The leading interaction between a guest atom and the host noble gas atoms is an induced dipole-dipole Van der Waals force.  For a metal atom of group I or II, this interaction is quite different when the atom is in the excited P state vs. the ground S state, resulting in general in different shaped potential energy curves \cite{crepin}.  As an approximation to these curves, the ground state potential for a BaXe molecule and a guess at the excited state potential is shown in Fig. \ref{fig:FranckCondon}.  In a cold matrix, the system will be mainly in the ground lattice vibrational state ($\nu =0$) before excitation.  According to the Franck-Condon principle, the strongest electronic excitation will occur to vibrational states whose wavefunctions overlap that of the ground state.  Because this occurs for a band of vibrations, the absorption is broadened.  The peak absorption energy is determined by the difference in potential energy between the ground and excited states, which in general is not the same as the absorption energy in vacuum.  In the excited state, rapid decay occurs to the lowest vibrational mode, and then a similar broadening in the spontaneous emission energy occurs.  A redshift in the emission is observed relative to the excitation.  Additionally, splitting of orbital degeneracy in the P state can produce triplet structures in the absorption according to the Jahn-Teller effect \cite{jahnteller}.  These features depend on the specific configuration of atoms surrounding the guest, and thus different spectra can be observed from guest atoms occupying different matrix ``sites."  Annealing a matrix after deposition can reveal relative stability of various matrix sites \cite{crepin}.
 
 %The ground S state of a group I or II atom is spherically symmetric, and being slightly larger in Van der Waals radius than Xe, it is likely to take the place of one or more Xe atoms in the fcc crystal (substitution), vs. existing in between Xe atoms in the crystal structure (interstitial).
 
@@ -189,7 +189,7 @@ The leading interaction between a guest atom and host noble gas atoms is an indu
 \label{fig:FranckCondon}
 \end{figure}
 
-As an example, spectroscopy on Na atoms in solid rare-gas matrices is studied in \cite{matrixNa}.  Spectral features are exemplified in Fig. \ref{fig:matrixNa} for Na atoms in SAr, SKr, and SXe.  Excitation and emission are broadened to 10s of nm.  Two different matrix sites are observed in all three matrices, with the largest red-shift in emission observed in SXe.  The triplet structures in excitation spectra are attributed to the Jahn-Teller effect.
+As an example, the spectroscopy on Na atoms in solid rare-gas matrices was studied in \cite{matrixNa}.  Spectral features are exemplified in Fig. \ref{fig:matrixNa} for Na atoms in SAr, SKr, and SXe.  Excitation and emission are broadened to 10s of nm.  Two or three different matrix sites are observed in the three matrices, with the largest red-shift in emission observed in SXe.  The triplet structures in excitation spectra are attributed to the Jahn-Teller effect.  The specific matrix configuration associated with each excitation triplet is identified in this paper through theoretical modeling of the Na-matrix interactions.
 
 \begin{figure} %[H]
         \centering
@@ -207,30 +207,61 @@ As an example, spectroscopy on Na atoms in solid rare-gas matrices is studied in
 %\label{fig:BaSAr}
 %\end{figure}
 
-Energy level transition probabilities can also be affected in a matrix.  If potential energy curves cross each other, non-radiative transitions can become allowed for otherwise forbidden transitions \cite{crepin}.  Spin-forbidden transitions, both radiative and non-radiative, between triplet and singlet states can become more significant for heavy host atoms like Xe \cite{heavyAtom}.  Effects like these could aid in observation of the Ba/Ba\textsuperscript{+}, e.g. by improving decay rates out of metastable D states, or they could reduce detectability, e.g. if a non-radiative decay competes with the fluorescence channel.
+%Energy level transition probabilities can also be affected in a matrix.  If potential energy curves cross each other, non-radiative transitions can become allowed for otherwise forbidden transitions \cite{crepin}.  Spin-forbidden transitions, both radiative and non-radiative, between triplet and singlet states can become more significant for heavy host atoms like Xe \cite{heavyAtom}.  Effects like these could aid in observation of the Ba/Ba\textsuperscript{+}, e.g. by improving decay rates out of metastable D states, or they could reduce detectability, e.g. if a non-radiative decay competes with the fluorescence channel.
 
 %, e.g., spin-forbidden transitions can become more significant via the heavy atom effect [ref...i know you have crepin but maybe you can use crepin's ref, since you need to understand this anyway]
 
 %The detectability of a single atom/ion can depend greatly on [these]...
 
-\section{Interaction Cross Section} %um .. something And (?) Fluorescence Efficiency}
+\section{Fluorescence Efficiency}
 \label{sec:fluorEff}
 
-\emph{\color{gray}The something is that here you should have cross section calc. stuff, and an actual definition for W12.}
+Fluorescence efficiency ($\epsilon_{f}$) is the ratio of total fluorescence photons emitted to photons absorbed.  This can be calculated by Eq. \ref{eqn:flueEff}:
+
+\begin{equation}
+\epsilon_{f} = \frac{f}{W_{12} \epsilon_{c}}
+\label{eqn:flueEff}
+\end{equation}
+% = \frac{f h \nu}{\sigma I \epsilon_{c}}
+
+\noindent
+where $f$ is the number of fluorescence photons observed per atom per second, $W_{12}$ is the excitation rate, and $\epsilon_{c}$ is the collection efficiency of the system.  $W_{12}$ can be calculated by Eq. \ref{eqn:w12}:
 
 \begin{equation}
 W_{12} =  \frac{\sigma I}{h \nu}
 \label{eqn:w12}
 \end{equation}
 
-Fluorescence efficiency ($\epsilon_{f}$) is the ratio of fluorescence photons emitted to excitations into the fluorescing state.  This becomes less than one when there are paths out of the excited state other than the one which emits the photon being measured, e.g. the $\epsilon_{f}$ of Ba in vacuum is about 99.7\%, not quite 100\% due to about 1 in 330 decays from the P state into a metastable D state.  $\epsilon_{f}$ can be calculated by Eq. \ref{eqn:flueEff}:
+\noindent
+where $\sigma$ is the cross section for the excitation interaction, $I$ is the laser intensity, and $h \nu$ is the excitation photon energy.
+
+The cross section can be calculated using the shape of an excitation spectrum according to Eq. \ref{eqn:sigma}:
 
 \begin{equation}
-\epsilon_{f} = \frac{f}{W_{12} \epsilon_{c}} = \frac{f h \nu}{\sigma I \epsilon_{c}}
-\label{eqn:flueEff}
+\sigma(\nu) = A_{21} \frac{g_2}{g_1} \frac{c^2}{8 \pi \nu^2} g(\nu)
+\label{eqn:sigma}
 \end{equation}
 
 \noindent
-where $f$ is the number of fluorescence photons observed per atom per second, $W_{12}$ is the excitation rate, $\epsilon_{c}$ is the collection efficiency of the system, $\sigma$ is the cross section for the excitation interaction, $I$ is the laser intensity, and $h \nu$ is the excitation photon energy.  
-%$\sigma$ can be measured by experiment, and the remaining parameters are easily calculated to produce a measurement of $\epsilon_{f}$.
-% \emph{\color{gray}those statements are dumb, and do you want to ref brian for measuring the Ba $\sigma$?}.
+where $A_{21}$ is the atomic transition rate, $g_1$ and $g_2$ are the ground and excited state degeneracies, respectively, and $\nu$ is the photon frequency.  $g(\nu)$ is the normalized line shape, satisfying:
+
+\begin{equation}
+\int_{0}^{\infty} g(\nu) d\nu = 1
+\label{eqn:g}
+\end{equation}
+
+\noindent
+Integrating Eq. \ref{eqn:sigma} then yields:
+
+\begin{equation}
+\int_{0}^{\infty} \sigma(\nu) \nu^2 d\nu = A_{21} \frac{g_2}{g_1} \frac{c^2}{8 \pi}
+\label{eqn:sigma2}
+\end{equation}
+
+\noindent
+Since the cross section is proportional to the excitation spectrum $E(\nu)$, we can finally write the cross section as a function of $\nu$ according to Eq. \ref{eqn:sigmafinal}:
+
+\begin{equation}
+\sigma(\nu) = \frac{A_{21} E(\nu)}{\int_{0}^{\infty} E(\nu') \nu'^2 d\nu'} \frac{g_2}{g_1} \frac{c^2}{8 \pi}.
+\label{eqn:sigmafinal}
+\end{equation}
