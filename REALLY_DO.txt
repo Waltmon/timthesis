@@ -1,3 +1,4 @@
+- THETA 23 HAS WRONG DECIMAL PLACE IN TABLE
 - measure difference between gain / ADC modes (at some point)
 - 10^4 image
 - fix cross sections by fitting/extending
