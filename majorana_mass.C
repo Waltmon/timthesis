@@ -66,4 +66,6 @@
   leg->SetFillColor(0);
   //leg->SetBorderSize(0);
   leg->SetTextFont(42);
+
+  Double_t pi = 3.14159265359;
 }

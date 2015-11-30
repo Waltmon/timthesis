@@ -7,7 +7,7 @@ void nh(Double_t del_m12=0., Double_t del_m=0., Double_t del_t12=0., Double_t de
 	Double_t t12 = asin(sqrt(0.308 + del_t12));
 	Double_t t23 = asin(sqrt(.437 + del_t23));
 	Double_t t13 = asin(sqrt(0.0234 + del_t13));
-	Double_t Delta_m12_sq = 7.54e-5; //eV_sq
+	Double_t Delta_m12_sq = -7.54e-5; //eV_sq  NEGATIVE BECAUSE I HAD IT DEFINED WRONG
 	Double_t Delta_m_sq   = 2.43e-3; //eV_sq
 
 	Double_t c12_sq = cos(t12)**2;
@@ -52,7 +52,7 @@ void ih(Double_t del_m12=0., Double_t del_m=0., Double_t del_t12=0., Double_t de
 	Double_t t12 = asin(sqrt(0.308 + del_t12));
 	Double_t t23 = asin(sqrt(.455 + del_t23));
 	Double_t t13 = asin(sqrt(0.024 + del_t13));
-	Double_t Delta_m12_sq = 7.54e-5; //eV_sq
+	Double_t Delta_m12_sq = -7.54e-5; //eV_sq
 	Double_t Delta_m_sq   = -2.38e-3; //eV_sq
 
 	Double_t c12_sq = cos(t12)**2;
