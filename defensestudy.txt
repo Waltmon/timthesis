@@ -3,8 +3,9 @@
   and is it the system or the atom, cuz the fact that at infinity they approach the vacuum levels suggests that it's the atom
 
 heh:
-- Jahn Teller (orbital splitting -- see https://www.angelo.edu/faculty/kboudrea/general/quantum_numbers/Quantum_Numbers.htm), and are there other explanations for the triplet structure?
+- Jahn Teller (orbital splitting -- see https://www.angelo.edu/faculty/kboudrea/general/quantum_numbers/Quantum_Numbers.htm), ...splitting or ORBITAL degeneracy... but what degeneracy -- see pic in defense/study/ (could see [32] and crepin)
 - Heavy Atom Effect
+- Crepin says heavier hosts --> more red shift ... why?
 
 - re-read anticorrelation
 
@@ -21,6 +22,7 @@ w why does He heat at some parameters?
 - Majorana phases -- there's a section on them in one of those papers
    ...what ARE they, and what makes them CP-violating?  same for delta ........ are there constraints on them at all?  seems so based on my plotting
 - why do the hierarchies split where they do?  why does NH go lower, and WHY does the delta make that lower part there?
+- phonon coupling mentioned in crepin?
 
 
 
