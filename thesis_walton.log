@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.6.6)  1 DEC 2015 16:31
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.6.6)  2 DEC 2015 15:14
 entering extended mode
 **thesis_walton.tex
 (C:\Walton\thesis\timthesis\thesis_walton.tex
@@ -1349,12 +1349,12 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 294--297
 
 [77 <C:/Walton/thesis/timthesis/figures/bleach_re-pump_a.png> <C:/Walton/thesis
 /timthesis/figures/bleach_re-pump_b.png>]
-<figures/excitspec_blu_a.png, id=408, 949.5475pt x 674.52pt>
+<figures/excitspec_blu_a.png, id=408, 712.16063pt x 505.89pt>
 File: figures/excitspec_blu_a.png Graphic file (type png)
 
 <use figures/excitspec_blu_a.png>
 Package pdftex.def Info: figures/excitspec_blu_a.png used on input line 308.
-(pdftex.def)             Requested size: 328.82707pt x 233.5845pt.
+(pdftex.def)             Requested size: 328.82707pt x 233.58449pt.
 
 <figures/excitspecBlue_b.png, id=409, 949.5475pt x 674.52pt>
 File: figures/excitspecBlue_b.png Graphic file (type png)
@@ -1370,7 +1370,7 @@ s/figures/BaHx_b.png>]) (C:\Walton\thesis\timthesis\chapter_results_imaging_e.t
 ex [79 <C:/Walton/thesis/timthesis/figures/excitspec_blu_a.png> <C:/Walton/thes
 is/timthesis/figures/excitspecBlue_b.png>] [80]
 Chapter 6
-<figures/image_1e4.png, id=420, 557.08125pt x 705.38531pt>
+<figures/image_1e4.png, id=421, 557.08125pt x 705.38531pt>
 File: figures/image_1e4.png Graphic file (type png)
 
 <use figures/image_1e4.png>
@@ -1380,7 +1380,7 @@ Package pdftex.def Info: figures/image_1e4.png used on input line 27.
 
 
 ]
-<figures/xebaxe_instantaneous_scrunched.png, id=424, 1120.185pt x 1415.2875pt>
+<figures/xebaxe_instantaneous_scrunched.png, id=425, 1120.185pt x 1415.2875pt>
 File: figures/xebaxe_instantaneous_scrunched.png Graphic file (type png)
 
 <use figures/xebaxe_instantaneous_scrunched.png>
@@ -1389,7 +1389,7 @@ ut line 42.
 (pdftex.def)             Requested size: 446.26582pt x 563.83745pt.
  [82 <C:/Walton/thesis/timthesis/figures/image_1e4.png>] [83 <C:/Walton/thesis/
 timthesis/figures/xebaxe_instantaneous_scrunched.png>]
-<figures/lin_just20150807_lin.png, id=433, 899.36pt x 875.27pt>
+<figures/lin_just20150807_lin.png, id=434, 899.36pt x 875.27pt>
 File: figures/lin_just20150807_lin.png Graphic file (type png)
 
 <use figures/lin_just20150807_lin.png>
@@ -1397,7 +1397,7 @@ Package pdftex.def Info: figures/lin_just20150807_lin.png used on input line 56
 .
 (pdftex.def)             Requested size: 234.8775pt x 228.57985pt.
 
-<figures/lin_just20150526_lin.png, id=434, 899.36pt x 875.27pt>
+<figures/lin_just20150526_lin.png, id=435, 899.36pt x 875.27pt>
 File: figures/lin_just20150526_lin.png Graphic file (type png)
 
 <use figures/lin_just20150526_lin.png>
@@ -1409,7 +1409,7 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 56--59
  [][] [] 
  []
 
-<figures/train.png, id=435, 1150.2975pt x 975.645pt>
+<figures/train.png, id=436, 1150.2975pt x 975.645pt>
 File: figures/train.png Graphic file (type png)
  <use figures/train.png>
 Package pdftex.def Info: figures/train.png used on input line 65.
@@ -1422,7 +1422,7 @@ hesis/timthesis/figures/lin_just20150526_lin.png>]
 Underfull \vbox (badness 3158) has occurred while \output is active []
 
  [85 <C:/Walton/thesis/timthesis/figures/train.png>]
-<figures/xebaxe_largest_instantaneous.png, id=443, 1702.36pt x 674.52pt>
+<figures/xebaxe_largest_instantaneous.png, id=444, 1702.36pt x 674.52pt>
 File: figures/xebaxe_largest_instantaneous.png Graphic file (type png)
 
 <use figures/xebaxe_largest_instantaneous.png>
@@ -1434,7 +1434,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [86]
 [87 <C:/Walton/thesis/timthesis/figures/xebaxe_largest_instantaneous.png>]
-<figures/scan0point48Ba_run128.png, id=450, 899.36pt x 875.27pt>
+<figures/scan0point48Ba_run128.png, id=451, 899.36pt x 875.27pt>
 File: figures/scan0point48Ba_run128.png Graphic file (type png)
 
 <use figures/scan0point48Ba_run128.png>
@@ -1442,14 +1442,14 @@ Package pdftex.def Info: figures/scan0point48Ba_run128.png used on input line 9
 4.
 (pdftex.def)             Requested size: 234.8775pt x 228.57985pt.
 
-<figures/scanXe_run142.png, id=451, 899.36pt x 875.27pt>
+<figures/scanXe_run142.png, id=452, 899.36pt x 875.27pt>
 File: figures/scanXe_run142.png Graphic file (type png)
 
 <use figures/scanXe_run142.png>
 Package pdftex.def Info: figures/scanXe_run142.png used on input line 96.
 (pdftex.def)             Requested size: 234.8775pt x 228.57985pt.
 
-<figures/scan0point63Ba_run144.png, id=452, 899.36pt x 875.27pt>
+<figures/scan0point63Ba_run144.png, id=453, 899.36pt x 875.27pt>
 File: figures/scan0point63Ba_run144.png Graphic file (type png)
 
 <use figures/scan0point63Ba_run144.png>
@@ -1457,7 +1457,7 @@ Package pdftex.def Info: figures/scan0point63Ba_run144.png used on input line 9
 7.
 (pdftex.def)             Requested size: 234.8775pt x 228.57985pt.
 
-<figures/scan5point7Ba_run148.png, id=453, 899.36pt x 875.27pt>
+<figures/scan5point7Ba_run148.png, id=454, 899.36pt x 875.27pt>
 File: figures/scan5point7Ba_run148.png Graphic file (type png)
 
 <use figures/scan5point7Ba_run148.png>
@@ -1474,16 +1474,13 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 94--103
  [] [] 
  []
 
-<figures/xevarxe_scanDelta_trendline.png, id=454, 899.36pt x 875.27pt>
+<figures/xevarxe_scanDelta_trendline.png, id=455, 899.36pt x 875.27pt>
 File: figures/xevarxe_scanDelta_trendline.png Graphic file (type png)
 
 <use figures/xevarxe_scanDelta_trendline.png>
 Package pdftex.def Info: figures/xevarxe_scanDelta_trendline.png used on input 
 line 110.
 (pdftex.def)             Requested size: 234.8775pt x 228.57985pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [88 <C:/Walton/thesis/timthesis/figures/scan0point48Ba_run128.png> <C:/Walton/
 thesis/timthesis/figures/scanXe_run142.png> <C:/Walton/thesis/timthesis/figures
 /scan0point63Ba_run144.png> <C:/Walton/thesis/timthesis/figures/scan5point7Ba_r
@@ -1529,9 +1526,9 @@ les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
 public/amsfonts/cm/cmti12.pfb>
-Output written on thesis_walton.pdf (103 pages, 7036338 bytes).
+Output written on thesis_walton.pdf (103 pages, 7037994 bytes).
 PDF statistics:
- 530 PDF objects out of 1000 (max. 8388607)
+ 531 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  536 words of extra memory for PDF output out of 10000 (max. 10000000)
 
