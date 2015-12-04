@@ -1,3 +1,4 @@
+- why is red shift typically larger in heavier hosts?  (will result from grater difference between ground and excited) -> Crepin should say
 - atomic physics, spec. notation, selection rules
 - why do pot. energy curves have the shape they do when atoms are near (attractive vs. repulsive regions?)?
   and is it the system or the atom, cuz the fact that at infinity they approach the vacuum levels suggests that it's the atom
