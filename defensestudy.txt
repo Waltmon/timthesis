@@ -1,29 +1,28 @@
-- why is red shift typically larger in heavier hosts?  (will result from grater difference between ground and excited) -> Crepin should say
-- atomic physics, spec. notation, selection rules
-- why do pot. energy curves have the shape they do when atoms are near (attractive vs. repulsive regions?)?
+w why is red shift typically larger in heavier hosts?  (will result from grater difference between ground and excited) -> Crepin should say
+* atomic physics, spec. notation, selection rules
+w why do pot. energy curves have the shape they do when atoms are near (attractive vs. repulsive regions?)?
   and is it the system or the atom, cuz the fact that at infinity they approach the vacuum levels suggests that it's the atom
 
 heh:
-- Jahn Teller (orbital splitting -- see https://www.angelo.edu/faculty/kboudrea/general/quantum_numbers/Quantum_Numbers.htm), ...splitting or ORBITAL degeneracy... but what degeneracy -- see pic in defense/study/ (could see [32] and crepin)
-- Heavy Atom Effect
-- Crepin says heavier hosts --> more red shift ... why?
+* Jahn Teller (orbital splitting -- see https://www.angelo.edu/faculty/kboudrea/general/quantum_numbers/Quantum_Numbers.htm), ...splitting or ORBITAL degeneracy... but what degeneracy -- see pic in defense/study/ (could see [32] and crepin)
+w Heavy Atom Effect
+w Crepin says heavier hosts --> more red shift ... why?
 
-- re-read anticorrelation
+
 
 w joule thompson vs other normal one (cryogenic He gas?)
 w why does He heat at some parameters?
 
-- just go over atomic states stuff ... one question is: the 2 superscript means doublet (right?), so why is the ion ground state a doublet?  
+w just go over atomic states stuff ... one question is: the 2 superscript means doublet (right?), so why is the ion ground state a doublet?  
 
-- on sensitivity plot:
+w on sensitivity plot:
 "To make this plot we used the best fit values of the mixing
 	angles $\theta$sol=33.9°, $\theta$atm=45°, and $\theta$13=0° and the $\Delta$m2s
 	(Table I)" from review bb Rev...pdf (2008)
 
-- Majorana phases -- there's a section on them in one of those papers
-   ...what ARE they, and what makes them CP-violating?  same for delta ........ are there constraints on them at all?  seems so based on my plotting
-- why do the hierarchies split where they do?  why does NH go lower, and WHY does the delta make that lower part there?
-- phonon coupling mentioned in crepin?
+
+* why do the hierarchies split where they do?  why does NH go lower, and WHY does the delta make that lower part there?
+w phonon coupling mentioned in crepin?
 
 
 
@@ -32,3 +31,16 @@ w why does He heat at some parameters?
 atomic physics:
 https://www.angelo.edu/faculty/kboudrea/general/quantum_numbers/Quantum_Numbers.htm
 http://www.astro.sunysb.edu/fwalter/AST341/qn.html
+
+
+
+
+* re-read anticorrelation
+- Majorana phases -- there's a section on them in one of those papers
+   ...what ARE they, and what makes them CP-violating?  same for delta ........ are there constraints on them at all?  seems so based on my plotting
+   refs 41,193 may be helpful, and esp. 178,195
+- get plot from chris (cryo)
+- nu discovery... SK or K?  and what were the experiments...
+
+nobel:  Kajita (SK) and McDonald (SNO)
+        Davis and Koshiba (Kamioka, confirmed Davis)
