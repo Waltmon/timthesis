@@ -36,11 +36,11 @@ http://www.astro.sunysb.edu/fwalter/AST341/qn.html
 
 
 * re-read anticorrelation
-- Majorana phases -- there's a section on them in one of those papers
+* Majorana phases -- there's a section on them in one of those papers
    ...what ARE they, and what makes them CP-violating?  same for delta ........ are there constraints on them at all?  seems so based on my plotting
    refs 41,193 may be helpful, and esp. 178,195
-- get plot from chris (cryo)
-- nu discovery... SK or K?  and what were the experiments...
-
+* get plot from chris (cryo)
+* nu discovery: SK-1 -- mu nu disappearance in nu's vs. zenith
+  oscilliation specifically needs to see the sin(L/E)
 nobel:  Kajita (SK) and McDonald (SNO)
         Davis and Koshiba (Kamioka, confirmed Davis)

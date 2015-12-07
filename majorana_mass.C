@@ -2,6 +2,7 @@
   #include "plotText.C";
   #include "plot_mark.C";
   #include "majorana_plot.C";
+  //#include "majorana_plot2.C";
   #include "majorana_freeze.C";
 
   gROOT->Reset();
