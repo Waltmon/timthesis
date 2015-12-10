@@ -1,4 +1,6 @@
 - measure difference between gain / ADC modes (at some point)
+- chanve m_betabeta to m_nu in the sensitivity plot, and make the axis labels like in talk
+- make energy spectrum signature concept pic less dumb-looking
 - 10^4 image
 - fix cross sections by fitting/extending
 - want a statement of "becomes bleached after x excitations"?  It reaches 1/e of (initial - "SS") in maybe 40,000 excit. in (b) and (c) of green/purple plots, but (a) is sort of different
@@ -44,5 +46,25 @@
 Italian (1933):    http://link.springer.com/article/10.1007%2FBF02959820          -and-          http://www.phys.uniroma1.it/DipWeb/museo/collezione%20Fermi/documento1.htm
 German (1934): http://link.springer.com/article/10.1007%2FBF01351864
 
+- isotopically OK word? (pg. 8)
+
+
+
+
 ~~~~ changed wordings (thus of particular interest):
 - 1st paragraph of 1.1.1
+- 1st parag of 1.2:  sentence on suppressed beta decay
+- beginning of anti-correlation parag.
+
+
+
+@@@@@@@ STILL NEED TO DO:
+- Bill comments on pg. 10 (EXP-200 voltages)
+- Bob wanting drift times of e-s and ions, pg. 10 (was there something about it being mentioned later, maybe with e- lifetime?)
+- check v-to-u spacing, as Bill circled 6mm in the topology figure
+
+
+1i:  Bob detector res., pg. 7
+
+AT END:  do a final read-through for typos, and for instances of Blah blah blah.  [ref]  (which should be Blah blah blah [ref].)
+...and then check figure placement, etc.

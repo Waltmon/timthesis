@@ -1,13 +1,68 @@
 - measure difference between gain / ADC modes (at some point)
+- chanve m_betabeta to m_nu in the sensitivity plot, and make the axis labels like in talk
+- make energy spectrum signature concept pic less dumb-looking
 - 10^4 image
 - fix cross sections by fitting/extending
 - want a statement of "becomes bleached after x excitations"?  It reaches 1/e of (initial - "SS") in maybe 40,000 excit. in (b) and (c) of green/purple plots, but (a) is sort of different
 - check all data which you produced quickly in the middle of the night -- OF SPECIAL CONCERN is the light blue bleach model curve, since it's sort of discrepant, and you did that pretty quick
 - fix w12 in QE plot
 - Sr lines in Blue excit.
-- shallower S in Franck Condon
+- shallower S in Franck Condon (see comments)
 - short-time comment by Bill in 5-level model leading to exp decay at beginning, and demonstration of this in ch.5?
 - need franck condon ref (see bill comments)
+- may want the rate-change paragraph uncommented at end of matrix iso., but need to se Bill comments
+- check M. Danilov ref [5] in corrections Ch. 1 v.3 corrections.pnf
+- smaller text in dub beta dec spectrum figure
+- remove repeat deposits in bleaching data (including model), change comment on consistency then
+- make color 2D gaus fits on astig fit fig.
+- * Question of Bill on pg. 16 of Ch 3 v3 corrections.pdf
+- coll eff stuff in Ch 3 v3 corrections.pdf
+- "need to think about" comment on fitting in Bill comments (sec. 14.1.2)
+- also comment on Cr3+ stuff (sideways)
+- also on that page need to specify Raman wavelength stuff
+- plot time instead of Run Numb. in surf bleach plot
+- get ref for wuantum dots in cocnnlusions
+- "fix this later" in Theory
+- possible comment on large % of atoms in 619, at end of section right before Bleaching of the 619-nm Peak section (see Bill comments)
+- change cross sections to cm^2
+- sentence beginning w/ superscript 136 in Intro
+
+- check citation orders anf giures too
+
+- 1st parag of nu oscill. subsection: make it 2 sentences with perios before "that is, ..."
+- change franck condon image ref to ...2.png
+- semi-log on re-pump plots?  prolly
 
 * check anti-corr plot:  is it actually like that in the real 2-nu?  otherwise idk what you should do. [it's in orig. 0nu]
 * (sorta)check Xe bottle purity
+* THETA 23 HAS WRONG DECIMAL PLACE IN TABLE
+
+
+
+=============================================
+             CORRECTIONS NOTES
+=============================================
+- pg. 1, Bob:  [2] is not original, but it is a translation of the original, at least of the German copy (1934)
+Italian (1933):    http://link.springer.com/article/10.1007%2FBF02959820          -and-          http://www.phys.uniroma1.it/DipWeb/museo/collezione%20Fermi/documento1.htm
+German (1934): http://link.springer.com/article/10.1007%2FBF01351864
+
+- isotopically OK word? (pg. 8)
+
+
+
+
+~~~~ changed wordings (thus of particular interest):
+- 1st paragraph of 1.1.1
+- 1st parag of 1.2:  sentence on suppressed beta decay
+- beginning of anti-correlation parag.
+
+
+
+@@@@@@@ STILL NEED TO DO:
+- Bill comments on pg. 10 (EXP-200 voltages)
+- Bob wanting drift times of e-s and ions, pg. 10 (was there something about it being mentioned later, maybe with e- lifetime?)
+
+
+1i:  Bob detector res., pg. 7
+
+AT END:  do a final read-through for typos, and for instances of Blah blah blah.  [ref]  (which should be Blah blah blah [ref].)
