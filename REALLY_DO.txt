@@ -48,6 +48,14 @@ German (1934): http://link.springer.com/article/10.1007%2FBF01351864
 
 - isotopically OK word? (pg. 8)
 
+- Bill's pg. 10:  I just changed to ~20 cm -- is that ok now?  the numbers come from the long paper
+
+- also on pg. 10:  is my "on order of mm/s" ok?
+
+- why you circle 6 mm in topoogy?
+
+- comment on KamLAND's stronger limit OK?
+
 
 
 
@@ -59,12 +67,21 @@ German (1934): http://link.springer.com/article/10.1007%2FBF01351864
 
 
 @@@@@@@ STILL NEED TO DO:
-- Bill comments on pg. 10 (EXP-200 voltages)
-- Bob wanting drift times of e-s and ions, pg. 10 (was there something about it being mentioned later, maybe with e- lifetime?)
-- check v-to-u spacing, as Bill circled 6mm in the topology figure
+- 
+
+
 
 
 1i:  Bob detector res., pg. 7
 
 AT END:  do a final read-through for typos, and for instances of Blah blah blah.  [ref]  (which should be Blah blah blah [ref].)
 ...and then check figure placement, etc.
+...also check for break-ups of "Fig. []", and "EXO-200", ... anything else?
+
+
+
+
+
+* check v-to-u spacing, as Bill circled 6mm in the topology figure   (it's from EXO instrum.)
+* Bob wanting drift times of e-s and ions, pg. 10 (was there something about it being mentioned later, maybe with e- lifetime?)
+* Bill comments on pg. 10 (EXP-200 voltages)
