@@ -156,19 +156,26 @@ T_{1/2}^{0\nu} = (G^{0\nu}(Q,Z)|M^{0\nu}|^{2}\braket{m_{\nu}}^{2})^{-1}
 \noindent
 where $T_{1/2}^{0\nu}$ is the $0\nu\beta\beta$ half-life,  $G^{0\nu}$ is a known phase space factor, and $M^{0\nu}$ is a model-dependent nuclear matrix element.  $\braket{m_{\nu}}$ is the effective Majorana neutrino mass:
 
+\begin{figure} %[H]
+        \centering
+                \includegraphics[width=.5\textwidth]{figures/sensitivity_v3_noOverlain.png}
+                \caption{Majorana neutrino mass vs. the minimum of the three neutrino masses, for both the normal and inverted hierarchies.  The dotted (solid) lines denote the 1(2)-$\sigma$ region allowed by neutrino oscillation measurements.}
+\label{fig:majoranaMassVsMin}
+\end{figure}
+
 \begin{equation}
 \braket{m_{\nu}} = \sum\limits_{i} U_{ei}^{2} m_{i}.
 \label{eqn:effectivemass}
 \end{equation}
 
 \noindent
-The terms $U_{ei}$ contain the measured mixing angles $\theta_{12}$ and $\theta_{13}$, as well as the unknown CP-violating phases $\delta$, $\alpha_1$, and $\alpha_2$.
+The terms $U_{ei}$ contain the measured mixing angles $\theta_{12}$ and $\theta_{13}$, as well as the unknown CP-violating phases $\delta$, $\alpha_1$, and $\alpha_2$.  The effective Majorana mass is plotted vs. the minimum of the three neutrino mass eigenvalues in Fig. \ref{fig:majoranaMassVsMin}, with dotted (solid) lines enclosing the 1(2)-$\sigma$ regions allowed by neutrino oscillation measurements.  The region above $\braket{m_{\nu}} \approx 0.1~eV$, where the NH and IH overlap, is referred to as the quasi-degenerate (QD) region. If $\braket{m_{\nu}}$ lies below the QD region, its measurement could also determine the correct neutrino mass hierarchy.
 
 The sum of the energies of the emitted electrons in double beta decay will serve as the distinction between the two-neutrino and zero-neutrino modes, shown in Fig. \ref{fig:spectrum_bb}. In the two-neutrino mode, the total decay energy is shared probabilistically between the electrons and the neutrinos (the nuclear recoil energy is negligible), resulting in a broad distribution in the summed electron energy. (Recall the similarly broad electron energy in single beta decay, which ultimately led to discovery of the neutrino involved.) But in the zero-neutrino mode, essentially all of the decay energy is carried away by the two electrons, resulting in effectively a single allowed value for the total electron energy -- a peak in the summed electron energy spectrum at the Q-value. 
 
 \begin{figure} %[H]
         \centering
-                \includegraphics[width=.5\textwidth]{figures/spectrum_bb.png}
+                \includegraphics[width=.5\textwidth]{figures/spectrum_bb_smalltext.png}
                 \caption{Conceptual two-neutrino (blue) and zero-neutrino (red) double beta decay spectra.}
 \label{fig:spectrum_bb}
 \end{figure}
@@ -256,7 +263,7 @@ The next-generation successor to EXO-200 is nEXO, a $\sim$5~ton LXe TPC which wi
 \begin{figure} %[H]
 	\centering
 	\includegraphics[width=.7\textwidth]{figures/nEXO_cryopit.png}
-	\caption{nEXO TPC in the SNOLAB cryopit.}
+	\caption{nEXO TPC in the SNOLAB cryopit, with 6-foot person for scale.}
 \label{fig:nEXO_cryopit}
 \end{figure}
 
@@ -267,14 +274,14 @@ The next-generation successor to EXO-200 is nEXO, a $\sim$5~ton LXe TPC which wi
 \label{fig:nEXO_readout}
 \end{figure}
 
-The sensitivity projections for nEXO are shown in Fig. \ref{fig:sensitivity_nEXO}, along with those of \text{EXO-200}.  \text{EXO-200} probes the degenerate mass region down to about 0.1~eV.  nEXO will reach the non-degenerate region where the two possible mass hierarchies split, and will probe the full inverted hierarchy.  The addition of barium tagging would be a very significant advance, as it would push the mass sensitivity down into the region allowed only by the normal hierarchy.
+The sensitivity projections for nEXO are shown in Fig. \ref{fig:sensitivity_nEXO}, along with those of \text{EXO-200}.  \text{EXO-200} probes the QD region down to about 0.1~eV.  nEXO will reach the non-degenerate region where the two possible mass hierarchies split, and will probe the full inverted hierarchy.  The addition of barium tagging would be a very significant advance, as it would push the mass sensitivity down into the region allowed only by the NH.
 
 % {\color{gray}[ref for this?]}
 
 \begin{figure} %[H]
 	\centering
-	\includegraphics[width=.7\textwidth]{figures/sensitivity_v3.png}
-	\caption{nEXO projected sensitivity to the effective Majorana neutrino mass vs. the minimum of the three masses neutrino m$_{min}$.  The dotted (solid) lines denote the 1(2)-$\sigma$ region allowed by neutrino oscillation measurements.}
+	\includegraphics[width=.5\textwidth]{figures/sensitivity_v3.png}
+	\caption{Projected nEXO sensitivity to the effective Majorana neutrino mass, overlain on $\braket{m_{\nu}}$ vs. the minimum of the three neutrino masses for both NH and IH.  The dotted (solid) lines denote the 1(2)-$\sigma$ region allowed by neutrino oscillation measurements.}
 \label{fig:sensitivity_nEXO}
 \end{figure}
 
@@ -284,13 +291,15 @@ The ability to observe the daughter of each $0\nu\beta\beta$ event is the ultima
 
 %Another concept was to grab the daughter in SXe on a cold probe, similar to the method explored in this thesis, but to then evaporate the SXe and drift the daughter into a trap for detection in vacuum.  This method was abandoned when extraction of barium from SXe samples could not be achieved by Liang Yang's group [ref?].
 
-A few barium tagging techniques continue to be explored.  One of these is to grab the daughter on a probe surface, brought to the decay site by a probe.  It would then be moved to a location where it can be desorbed from that surface by an infrared laser, and subsequently resonantly ionized by two lasers in order to detect it by time-of-flight spectroscopy.  The apparatus for the study of this method is described in \cite{Twelker2014}, along with some initial results.
+A few barium tagging techniques continue to be explored.  One of these is to grab the daughter on a surface, brought to the decay site by a probe.  It would then be moved to a location where it can be desorbed from that surface by an infrared laser, and subsequently resonantly ionized by two lasers in order to detect it by time-of-flight spectroscopy.  The apparatus for the study of this method is described in \cite{Twelker2014}, along with some initial results.
 
-The other leading technique for barium tagging in LXe, now the focus of our group and the subject of this thesis, is barium tagging in solid xenon (SXe).  In this method, a cold probe would be inserted to the site of the candidate $0\nu\beta\beta$ event, and additional cooling would be applied to trap the Ba or Ba\textsuperscript{+} daughter in a small amount of SXe.  The single Ba/Ba\textsuperscript{+} would be observed by laser-induced fluorescence in the SXe, a technique more generally called matrix isolation spectroscopy.  A concept for a probe is shown in Fig. \ref{fig:probe}.  The SXe layer is formed on a sapphire window at the end of the probe.  Sapphire is a good candidate for a substrate because it has good thermal conductivity at low temperature and is highly transparent.  An excitation laser may be brought into the probe through a fiber, and scanned across the sapphire to excite the Ba/Ba\textsuperscript{+} in the SXe.  A return fiber could collect the laser reflection to measure the SXe thickness via interference fringes.  The Ba/Ba\textsuperscript{+} fluorescence would then be collected by a lens/filter system and imaged onto a CCD.  Additional components, not shown, would be required for cooling the sapphire, either by liquid He or by a Joule-Thompson nozzle.
+The other leading technique for barium tagging in LXe, now the focus of our group and the subject of this thesis, is barium tagging in solid xenon (SXe).  In this method, a cold probe would be inserted to the site of the candidate $0\nu\beta\beta$ event, and additional cooling would be applied to trap the Ba or Ba\textsuperscript{+} daughter in a small amount of SXe at the end of the probe.  The single Ba/Ba\textsuperscript{+} would be observed by laser-induced fluorescence in the SXe, a technique more generally called matrix isolation spectroscopy.
+
+A concept for a probe is shown in Fig. \ref{fig:probe}.  The SXe layer is formed on a sapphire window at the end of the probe.  Sapphire is a good candidate for a substrate because it has good thermal conductivity at low temperature and is highly transparent.  An excitation laser may be brought into the probe through a fiber, and scanned across the sapphire to excite the Ba/Ba\textsuperscript{+} in the SXe.  A return fiber could collect the laser reflection to measure the SXe thickness via interference fringes.  The Ba/Ba\textsuperscript{+} fluorescence would then be collected by a lens/filter system and imaged onto a CCD.  Additional components, not shown, would be required for cooling the sapphire, either by liquid He or by a Joule-Thompson nozzle.
 
 \begin{figure} %[H]
 	\centering
-	\includegraphics[width=.5\textwidth]{figures/probe_flat.png}
+	\includegraphics[width=.4\textwidth]{figures/probe_flat.png}
 	\caption{Concept for a cryoprobe for \textsuperscript{136}Ba\textsuperscript{+} daughter ion capture and detection in SXe, and a concept for internal collection optics.}
 \label{fig:probe}
 \end{figure}

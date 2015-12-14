@@ -56,6 +56,18 @@ German (1934): http://link.springer.com/article/10.1007%2FBF01351864
 
 - comment on KamLAND's stronger limit OK?
 
+- like placement of mass vs. mass plot?  and the sentence structure, where it comes in the same paragraph as the effective mas eq.?
+
+- changed "normal hierarchy" to "NH" on pg. 17
+
+- can i ignore Bob's "why" on SXe thickness measuement on probe (w/ fibers)? i think it opens more than I want to talk about there.
+
+- ...and can i ignore his "dimensions" thing on the conceptual probe?  it's conceptual.  ...can i ignore some comments?
+
+- and similarly, Bruce wonders why 3D3 is ignored after.  But maybe I should not have a line for it in the figure?
+
+- changed sentence before franck condon ("an illustration...")
+
 
 
 
