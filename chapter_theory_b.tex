@@ -111,7 +111,7 @@ W_{1i} = W_{12}\frac{A_{2i}}{A_{21} + A_{23} + A_{24} + A_{25}}
 \end{equation}
 
 \noindent
-where $i = 3,4,5$.  The fraction in Eq. \ref{eqn:smallW12pumpingRates} is the respective branching ratio from the excited state.  With this definition, the rate equations for states 3, 4, and 5 can be re-written as:
+where $i = 3,4,5$.  The fraction in Eq. \ref{eqn:smallW12pumpingRates} is the respective branching ratio from the excited state 2.  With this definition, the rate equations for states 3, 4, and 5 can be re-written as:
 
 %, including the pumping rate back to ground
 
@@ -179,6 +179,13 @@ In the matrix isolation technique, a species of interest is trapped in a crystal
 
 %Low concentrations of the guest species, ideally at least 1:$10^{3}$ host:guest ratio, prevent guest-guest interactions.  
 
+\begin{figure} %[H]
+        \centering
+                \includegraphics[width=.6\textwidth]{figures/FranckCondon3.png}
+                \caption{Illustration of the Franck-Condon Principle resulting in red-shifted emission as well as broadening in absorption (A) and emission (B) due to vibrational modes $\nu$ ($\nu$') in the ground (excited) state.}
+\label{fig:FranckCondon}
+\end{figure}
+
 The leading interaction between a guest atom and the host noble gas atoms is an induced dipole-dipole Van der Waals force.  For a metal atom of group I or II, this interaction is quite different when the atom is in the excited P state vs. the ground S state, resulting in general in different shaped potential energy curves \cite{crepin}.  To illustrate the concept, guesses at the ground and excited state potentials for a BaXe molecule are shown in Fig. \ref{fig:FranckCondon}.  In a cold matrix, the system will be mainly in the ground lattice vibrational state ($\nu =0$) before excitation.  According to the Franck-Condon principle, the strongest electronic excitation will occur to vibrational states whose wavefunctions overlap that of the ground state.  Because this occurs for a band of vibrations, the absorption is broadened.  The peak absorption energy is determined by the difference in potential energy between the ground state and the median vibrational state excited, which in general is not the same as the absorption energy of atoms in vacuum.  In the excited state, rapid decay occurs to the lowest vibrational state, and then a similar broadening in the spontaneous emission energy occurs.  A redshift in the emission is observed relative to the excitation.  Additionally, splitting of orbital degeneracy in the P state can produce triplet structures in the absorption according to the Jahn-Teller effect \cite{jahnteller}.  These features depend on the specific configuration of atoms surrounding the guest, and thus different spectra can be observed from guest atoms occupying different matrix ``sites."  Annealing a matrix after deposition can reveal the relative stability of various matrix sites \cite{crepin}.
 
 %The ground S state of a group I or II atom is spherically symmetric, and being slightly larger in Van der Waals radius than Xe, it is likely to take the place of one or more Xe atoms in the fcc crystal (substitution), vs. existing in between Xe atoms in the crystal structure (interstitial).
@@ -191,19 +198,12 @@ The leading interaction between a guest atom and the host noble gas atoms is an 
 
 \begin{figure} %[H]
         \centering
-                \includegraphics[width=.7\textwidth]{figures/FranckCondon.png}
-                \caption{Illustration of the Franck-Condon Principle resulting in red-shifted emission as well as broadening in absorption (A) and emission (B) due to vibrational modes $\nu$ ($\nu$') in the ground (excited) state.}
-\label{fig:FranckCondon}
-\end{figure}
-
-As an example, the spectroscopy on Na atoms in solid rare-gas matrices was studied in \cite{matrixNa}.  Spectral features are exemplified in Fig. \ref{fig:matrixNa} for Na atoms in SAr, SKr, and SXe.  Excitation and emission are broadened to 10's of nm.  Two or three different matrix sites are observed in the three matrices, with the largest red-shift in emission observed in SXe.  The triplet structures in excitation spectra are attributed to the Jahn-Teller effect.  The specific matrix configuration associated with each excitation triplet is identified in this paper through theoretical modeling of the Na-matrix interactions.
-
-\begin{figure} %[H]
-        \centering
                 \includegraphics[width=.7\textwidth]{figures/Na_in_matrices.png}
                 \caption{Excitation and emission spectra of Na atoms in SAr, SKr, and SXe.  \cite{matrixNa}}
 \label{fig:matrixNa}
 \end{figure}
+
+As an example, the spectroscopy on Na atoms in solid rare-gas matrices was studied in \cite{matrixNa}.  Spectral features are exemplified in Fig. \ref{fig:matrixNa} for Na atoms in SAr, SKr, and SXe.  Excitation and emission are broadened to 10's of nm.  Two or three different matrix sites are observed in the three matrices, with the largest red-shift in emission observed in SXe.  The triplet structures in excitation spectra are attributed to the Jahn-Teller effect.  The specific matrix configuration associated with each excitation triplet is identified in this paper through theoretical modeling of the Na-matrix interactions.
 
 %As as example \emph{\color{gray}is there a more modern example paper you can use?}, the spectroscopy of Ba in solid Ar (SAr) and solid Kr (SKr) matrices was studied in \cite{SAr}.  The example of Ba in SAr is shown in Fig. \ref{fig:BaSAr}.  The absorption is 10s of nm broad with a multi-peak structure, and the emission is broadened to nms and red-shifted.  These were attributed to the main $6s^{2}$ $^{1}$S$_{0} \rightarrow 6s6p$ $^{1}$P$_{1}$\textsuperscript{o} transition and its spontaneous emission. \emph{\color{gray}talk about other aspects.....brian says the triplet is caused by P state degeneracy being split, but I don't see how this makes sense, and also I have the impression that there are multiple explanations like Jahn Teller -- you should have a feel for this....}
 
@@ -226,13 +226,13 @@ As an example, the spectroscopy on Na atoms in solid rare-gas matrices was studi
 The fluorescence efficiency ($\epsilon_{f}$) is the ratio of total fluorescence photons emitted to photons absorbed.  This can be calculated by Eq. \ref{eqn:flueEff}:
 
 \begin{equation}
-\epsilon_{f} = \frac{f}{W_{12} \epsilon_{\text{tot}}}
+\epsilon_{f} = \frac{f}{W_{12} N_1 \epsilon_{\text{tot}}}
 \label{eqn:flueEff}
 \end{equation}
 % = \frac{f h \nu}{\sigma I \epsilon_{c}}
 
 \noindent
-where $f$ is the number of fluorescence photons observed per atom per second, $W_{12}$ is the excitation rate, and $\epsilon_{\text{tot}}$ is the photon detection efficiency of the system.  $W_{12}$ can be calculated by Eq. \ref{eqn:w12}.  The cross section can be calculated using the shape of an excitation spectrum according to Eq. \ref{eqn:sigma}:
+where $f$ is the number of fluorescence photons observed per atom per second, $W_{12} N_1$ is the excitation rate ($N_1 \approx 1$ for short times), and $\epsilon_{\text{tot}}$ is the photon detection efficiency of the system.  $W_{12}$ can be calculated by Eq. \ref{eqn:w12}.  The cross section can be calculated using the shape of an excitation spectrum according to Eq. \ref{eqn:sigma}:
 
 \begin{equation}
 \sigma(\nu) = A_{21} \frac{g_2}{g_1} \frac{c^2}{8 \pi \nu^2} g(\nu)

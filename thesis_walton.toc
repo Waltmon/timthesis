@@ -12,7 +12,7 @@
 \contentsline {section}{\tocsection {}{2.1}{Ba/Ba\textsuperscript {+} Spectroscopy in Vacuum}}{21}
 \contentsline {section}{\tocsection {}{2.2}{5-level Rate Equations Model}}{24}
 \contentsline {section}{\tocsection {}{2.3}{Matrix Isolation Spectroscopy}}{27}
-\contentsline {section}{\tocsection {}{2.4}{Fluorescence Efficiency}}{29}
+\contentsline {section}{\tocsection {}{2.4}{Fluorescence Efficiency}}{30}
 \contentsline {chapter}{\tocchapter {Chapter}{3}{Experimental}}{32}
 \contentsline {section}{\tocsection {}{3.1}{Ion Beam System}}{32}
 \contentsline {subsection}{\tocsubsection {}{3.1.1}{Ion Source}}{34}
