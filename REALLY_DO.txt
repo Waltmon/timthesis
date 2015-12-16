@@ -1,4 +1,4 @@
-- measure difference between gain / ADC modes (at some point)
+- NEED CORRECT FACTOR IN TABLE 3.1 ------ measure difference between gain / ADC modes (at some point)
 - chanve m_betabeta to m_nu in the sensitivity plot, and make the axis labels like in talk
 - make energy spectrum signature concept pic less dumb-looking
 - 10^4 image
@@ -70,13 +70,16 @@ German (1934): http://link.springer.com/article/10.1007%2FBF01351864
 
 - like new Franck Condon picture?  want more vibes in excited state, or shallower one?
 
+- not sure what Bill means by "reference company too?" on pg. 33
 
+- Bob does not like "instantaneously exposed", and to compensate for that I put "relative to..." in paranthases on pg. 50... what do you think about that?
 
 
 ~~~~ changed wordings (thus of particular interest):
 - 1st paragraph of 1.1.1
 - 1st parag of 1.2:  sentence on suppressed beta decay
 - beginning of anti-correlation parag.
+- "sinusoidal motion..." sentence and readout sentence on page 52
 
 
 
@@ -87,6 +90,7 @@ German (1934): http://link.springer.com/article/10.1007%2FBF01351864
 
 
 1i:  Bob detector res., pg. 7
+2i:  Bob illegible pg. 50
 
 AT END:  do a final read-through for typos, and for instances of Blah blah blah.  [ref]  (which should be Blah blah blah [ref].)
 ...and then check figure placement, etc.

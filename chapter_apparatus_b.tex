@@ -27,18 +27,18 @@ The Colutron ion beam system is a clean mass-selected source of Ba\textsuperscri
 
 \subsection{Ion Source}
 
-Ba\textsuperscript{+} ions are produced in the source of a Model DCIS-101 Colutron ion gun \cite{Colutron}.  It is shown in Fig. \ref{fig:ionsource}.  A solid Ba charge is placed into the hollowed end of a stainless steel rod, which is capped by a loose screw.  The source rod is inserted into the discharge chamber, where it is heated by a filament, vaporizing the Ba.  The source is designed to produce a discharge between the anode plate and the filament cathode, through an argon buffer gas leaked into the source chamber.  This controlled discharge also ionizes Ba atoms in the vapor to produce the desired Ba\textsuperscript{+} ion beam.  In the present work, to avoid contamination of the SXe matrix with residual Ar gas, the buffer gas was not used.  It has been found that, with care, the discharge can be maintained with Ba vapor alone.  The longevity of ion current from a single charge is at least several 10s of hours.  This suggests that Ba is coating the inner walls of the source chamber, and is heated enough to provide sufficient Ba pressure to support a discharge.
-
-The discharge produces a plasma, containing barium ions.  The application of a 2~kV acceleration potential between the ion source anode and the first element of Einzel lens 1 (L1) draws Ba\textsuperscript{+} ions from the plasma.  The potential of this lens is adjusted to collimate the ion beam for passage through the E$\times$B velocity filter.
-
-%This is supported by the observation of white oxidation of the inner source parts after a few minutes of exposure to air when opening the system.
-
 \begin{figure} %[H]
         \centering
                 \includegraphics[width=.95\textwidth]{figures/ionSource.png}
-                \caption{Ba\textsuperscript{+}/Ar\textsuperscript{+} ion source.}
+                \caption{Colutron Ba\textsuperscript{+}/Ar\textsuperscript{+} ion source.}
 \label{fig:ionsource}
 \end{figure}
+
+Ba\textsuperscript{+} ions are produced in the source of a Model DCIS-101 Colutron ion gun \cite{Colutron}.  It is shown in Fig. \ref{fig:ionsource}.  A solid Ba charge is placed into the hollowed end of a stainless steel rod, which is capped by a loose screw.  The source rod is inserted into the discharge chamber, where it is heated by a filament, vaporizing the Ba.  The source is designed to produce a discharge between the anode plate and the filament cathode, through an argon buffer gas leaked into the source chamber.  This controlled discharge also ionizes Ba atoms in the vapor to produce the desired Ba\textsuperscript{+} ion beam.  In the present work, to avoid contamination of the SXe matrix with residual Ar gas, the buffer gas was not used.  It has been found that, with care, the discharge can be maintained with Ba vapor alone.  The longevity of ion current from a single charge is at least several 10s of hours.  This suggests that Ba is coating the inner walls of the source chamber, and is heated enough to provide sufficient Ba pressure to support a discharge.
+
+The discharge produces a plasma that contains barium ions.  The application of a 2~kV acceleration potential between the ion source anode and the first element of Einzel lens 1 (L1) draws Ba\textsuperscript{+} ions from the plasma.  The potential of this lens is adjusted to collimate the ion beam for passage through the E$\times$B velocity filter.
+
+%This is supported by the observation of white oxidation of the inner source parts after a few minutes of exposure to air when opening the system.
 
 \subsection{E$\times$B Velocity Filter}
 
@@ -52,14 +52,15 @@ The E$\times$B velocity filter selects Ba\textsuperscript{+} by creating perpend
 \noindent
 where $B$ and $E$ are the magnetic and electric fields, respectively.  Those fields are chosen such that Ba\textsuperscript{+} ions pass straight through.  Other ions, e.g. Ar\textsuperscript{+}, will be deflected.  
 
-The E$\times$B filter is shown in Fig. \ref{fig:exb}.  Electromagnets provide a vertical magnetic field.  Electrode plates and field-shaping guard rings provide a horizontal electric field.  The guard rings prevent lensing and astigmatism from fringe fields of the plates \cite{Colutron}.
-
-\begin{figure}[h]
+\begin{figure} %[h]
         \centering
-                \includegraphics[width=.7\textwidth]{figures/ExB.png}
+                \includegraphics[width=.6\textwidth]{figures/ExB.png}
                 \caption{Colutron E$\times$B ion velocity filter.}
 \label{fig:exb}
 \end{figure}
+
+
+The E$\times$B filter is shown in Fig. \ref{fig:exb}.  Electromagnets provide a vertical magnetic field.  Electrode plates and field-shaping guard rings provide a horizontal electric field.  The guard rings prevent lensing and astigmatism from the fringe fields of the plates \cite{Colutron}.
 
 %\emph{\color{gray}If we need mass scans, we probably need to do new ones with a constant magnetic field, and Ar\textsuperscript{+} and Ba\textsuperscript{+} in same day.  Past scans were all over the place, partly because we were changing beam settings, but new peaks are not very consistent either.}
 %To determine the mass components of the beam, the electric field can be scanned.  Mass scans of the Ba\textsuperscript{+} beam is shown in Fig. [ref mass scan fig], as well as of an Ar\textsuperscript{+} beam.  The known mass of Ar aids in calibrating the magnetic field, which differs from the calculation given by Colutron, likely due to hysteresis in the magnet.  \emph{\color{gray}The Ba\textsuperscript{+} peak agrees with the Ba mas s... }
@@ -70,9 +71,9 @@ The first three sets of deflection plates shown in Fig. \ref{fig:ionbeam} can be
 
 Einzel lens 2 (L2) focuses the beam to pass through the aperture in the first element of the decelerator lens.  Einzel lens 3 (L3) is set to zero in this setup.  If desired, the decelerator lens can be used to vary the Ba\textsuperscript{+} deposit energy, which was done in \cite{Shon}, but in this work it acts as an Einzel lens with only the second element (D2) at non-zero voltage.  It focuses the beam near the sample and Faraday cup 3 (there is no Faraday cup 2 in this setup).
 
-Faraday cup 3 measures the ion current during experiments, and is retracted when deposits are being made.  Calibration of deposits using Faraday cup 3 is described in Section \ref{subsec:ionDepCal}.  Faraday cup 1 can be used for beam diagnostics, and is usually retracted.  An additional Faraday cup, cup W, can be attached to the coldfinger in place of the sapphire window for determining optimum deflection plate voltages for depositing Ba\textsuperscript{+} on the sapphire window, and for calibrating ion deposits.  This is described further in Sec. \ref{subsec:ionDepCal}.
+Faraday cup 3 measures the ion current during experiments, and is retracted when deposits are being made.  Calibration of deposits using Faraday cup 3 is described in Section \ref{subsec:ionDepCal}.  Faraday cup 1 can be used for beam diagnostics, and is usually retracted.  An additional Faraday cup, cup W, can be attached to the coldfinger, in place of the sapphire window, for determining optimum deflection plate voltages for depositing Ba\textsuperscript{+} on the sapphire window and for calibrating ion deposits.  This is described further in Sec. \ref{subsec:ionDepCal}.
 
-To align the ion beam, L1 was first tuned to maximize ion current in Faraday cup 3, with L2, L3, and D2 set to zero.  Since cup 3 is about 2~m away from L1, this approximately collimates the beam for passage through the E$\times$B filter.  The optimal value for L1 was found to be around -400~V relative to the 2000~V beam energy.  Next, L2 and D2 were fine-tuned together to achieve maximal current in cup 3.  Finally, the straightness of the beam was checked by peaking ion current with the final four deflection plates on cup 3 and cup W.
+To align the ion beam, L1 was first tuned to maximize ion current in Faraday cup 3, with L2, L3, and D2 set to zero.  Since cup 3 is about 2~m away from L1, this approximately collimates the beam for passage through the E$\times$B filter.  The optimal value for L1 was found to be around -400~V relative to the 2000~V beam energy.  Next, L2 and D2 were fine-tuned together to achieve maximal current in cup 3.  Finally, the straightness of the beam was checked by peaking the ion current with the final four deflection plates on cup 3 and cup W.
 
 %\emph{\color{red}consistent with Bill's SIMION -- show?}
 
@@ -80,24 +81,14 @@ To align the ion beam, L1 was first tuned to maximize ion current in Faraday cup
 
 \subsection{Ion Beam Pulsing}
 
-To deposit small numbers of ions, it is desirable to be able to pulse the ion beam with short pulses.  To achieve pulsed beams, the pulsing plates, normally set to 200~V and -200~V to deflect the beam, are pulsed to 0~V for 1~$\mu$s to pass a short pulse of ions straight forward.  The pulsing circuit is shown in Fig. \ref{fig:pulse_circuit}.  Square waves, triggered by LabVIEW at 500~Hz, enter the circuit at (a). A transformer isolates a MOSFET switch from ground.  Upon a trigger pulse the MOSFET switch shorts the pulsing plates for the period of the pulse.
-
 \begin{figure} %[h]
         \centering
-                \includegraphics[width=.85\textwidth]{figures/pulsing_circuit.png}
+                \includegraphics[width=.8\textwidth]{figures/pulsing_circuit.png}
                 \caption{Pulsing circuit.  R$_{1}$ = R$_{2}$ = $470~\Omega$, R$_{3}$ = R$_{4}$ = 20~k$\Omega$, and \newline C$_{1}$ = C$_{2}$ = 680~nF. \cite{Shon}}
 \label{fig:pulse_circuit}
 \end{figure}
 
-The pulsing plates are followed by three induction plates, the middle plate of which provides a measure of the ion pulses.  Just prior to a deposit, the charge in the pulses can be directly measured on cup 3.  eV Products pre-amplifiers convert the ion current in the induction plates and cup 3 (or cup W) to voltage signals, which are recorded on a digital oscilloscope.  An example of raw oscilloscope traces of Faraday cup 3 and induction plate signals are shown in Fig. \ref{fig:pulse_raw_shaped}(a).  The input current is related to the pre-amp output voltage according to Eq. \ref{eqn:preamp}:
-
-\begin{equation}
-I = \frac{-(V_{out} + R_{1} C \frac{dV_{out}}{dt})}{R_{1} M}
-\label{eqn:preamp}
-\end{equation}
-
-\noindent
-where $R_{1} C$ and $R_{1} M$ are determined by putting a known square pulse of current into the pre-amp through a large resistor.  First, the time constant of an exponential fit to the signal decay after the pulse determines $R_{1} C$.  Then $R_{1} M$ is determined by matching the amplitude of the calculated current signal to the original square-pulse input current.  The actual currents in the induction plates and cup 3 calculated using Eq. \ref{eqn:preamp} are shown in Fig. \ref{fig:pulse_raw_shaped}(b).  The induction signal is positive as ions are approaching the middle plate, and an equal but negative signal is seen after the ions pass this plate.  The Faraday cup stops the ions, so it produces only a positive induction signal as ions approach it.
+To deposit small numbers of ions, it is desirable to be able to pulse the ion beam with short pulses.  To achieve pulsed beams, the pulsing plates, normally set to 200~V and -200~V to deflect the beam, are pulsed to 0~V for 1~$\mu$s to pass a short pulse of ions straight forward.  The pulsing circuit is shown in Fig. \ref{fig:pulse_circuit}.  Square waves, triggered by LabVIEW at 500~Hz, enter the circuit at (a). A transformer isolates a MOSFET switch from ground.  Upon a trigger pulse the MOSFET switch shorts the pulsing plates for the period of the pulse.
 
 \begin{figure} %[H]
         %\centering
@@ -112,7 +103,15 @@ where $R_{1} C$ and $R_{1} M$ are determined by putting a known square pulse of 
         \label{fig:pulse_raw_shaped}
 \end{figure}
 
-Pulsing data also provide confirmation that the beam is composed of Ba\textsuperscript{+}.  The time between the pulsing plate voltage peaks and the center of the pulse measured by the Faraday cup, along with the known distance traveled, determines the velocity of the ions.  The distance from the center of the pulsing plates to the Faraday cup was measured to be 31.5 $\pm$ 0.5~cm.  Time-of-flight data, e.g. Fig. \ref{fig:pulses_ArBa}, give 39.8 $\pm$ 3.4~amu for Ar\textsuperscript{+} ions and 136.8 $\pm$ 6.3~amu for Ba\textsuperscript{+} ions, including an uncertainty on the time of flight of $\pm$ 0.1~$\mu s$.  These agree with the known atomic masses.
+The pulsing plates are followed by three induction plates, the middle plate of which provides a measure of the ion pulses.  Just prior to a deposit, the charge in the pulses can be directly measured on cup 3.  Pre-amplifiers made by eV Products convert the ion current in the induction plates and cup 3 (or cup W) to voltage signals, which are recorded on a digital oscilloscope.  An example of raw oscilloscope traces of Faraday cup 3 and induction plate signals are shown in Fig. \ref{fig:pulse_raw_shaped}(a).  The input current is related to the pre-amp output voltage according to Eq. \ref{eqn:preamp}:
+
+\begin{equation}
+I = \frac{-(V_{out} + R_{1} C \frac{dV_{out}}{dt})}{R_{1} M}
+\label{eqn:preamp}
+\end{equation}
+
+\noindent
+where $R_{1} C$ and $R_{1} M$ are determined by putting a known square pulse of current into the pre-amp through a large resistor.  First, the time constant of an exponential fit to the signal decay after the pulse determines $R_{1} C$.  Then $R_{1} M$ is determined by matching the amplitude of the calculated current signal to the original square-pulse input current.  The actual currents in the induction plates and cup 3 calculated using Eq. \ref{eqn:preamp} are shown in Fig. \ref{fig:pulse_raw_shaped}(b).  The induction current is positive as ions are approaching the middle plate, and an equal but negative current is seen after the ions pass this plate.  The Faraday cup stops the ions, so it produces only a positive induction current as ions approach it.
 
 \begin{figure}[h]
         \centering
@@ -121,10 +120,12 @@ Pulsing data also provide confirmation that the beam is composed of Ba\textsuper
 \label{fig:pulses_ArBa}
 \end{figure}
 
+Pulsing data also provide confirmation that the beam is composed of Ba\textsuperscript{+}.  The time between the pulsing plate voltage peak and the center of the pulse measured by the Faraday cup, along with the known distance traveled, determines the velocity of the ions.  The distance from the center of the pulsing plates to the Faraday cup was measured to be 31.5 $\pm$ 0.5~cm.  Time-of-flight data, e.g. Fig. \ref{fig:pulses_ArBa}, give 39.8 $\pm$ 3.4~amu for Ar\textsuperscript{+} ions and 136.8 $\pm$ 6.3~amu for Ba\textsuperscript{+} ions, including an uncertainty on the time of flight of $\pm$ 0.1~$\mu s$.  These agree with the known atomic masses.
+
 \subsection{Calibration of Ion Deposits}
 \label{subsec:ionDepCal}
 
-The ratio of between the continuous ion currents in cup 3 and cup W was typically measured to be $r_{\text{w}} = 0.5$.  As the ion beam at cup W is significantly wider than the cup diameter and is thought to be fairly uniform, the ion density per pulse at the sapphire window is given by:
+The ratio between the continuous ion currents in cup 3 and cup W was typically measured to be $r_{\text{w}} = 0.5$.  As the ion beam at cup W is significantly wider than the cup diameter and is thought to be fairly uniform, the ion density per pulse at the sapphire window is given by:
 
 \begin{equation}
 \frac{\text{ions}}{\text{pulse} \times m^{2}} = \frac{Q r_{\text{w}}}{e A}
@@ -132,7 +133,8 @@ The ratio of between the continuous ion currents in cup 3 and cup W was typicall
 \end{equation}
 
 \noindent
-where $Q$ is the charge/pulse at cup 3, $A$ is the area of cup W, and $e$ is the elementary charge.  The radius of the opening in cup W is 1.4~mm.  Each time cup W is inserted, the voltages on the final deflection plates H2 and V2 that optimize the signal in cup W, in pulsed and in continuous mode, are determined.  In the latest imaging experiments, these differed from the values for maximum cup 3 signal by about 70~V in H2 and 60~V in V2, corresponding to a displacement of the undeflected beam of about 4~mm in x and y position at cup W relative to the center line from cup 3.  This indicates the level of drift in optimal ion beam component settings that occur over a long period of time.
+where $Q$ is the charge/pulse at cup 3, $A$ is the area of cup W, and $e$ is the elementary charge.  The radius of the opening in cup W is 1.4~mm.  Each time cup W is inserted, the voltages on the final deflection plates H2 and V2 that optimize the signal in cup W, in pulsed and in continuous mode, are determined.  In the latest imaging experiments, these differed from the values for maximum cup 3 signal by about 70~V in H2 and 60~V in V2, corresponding to a displacement of the undeflected beam of about 4~mm in x and y position at cup W relative to the center line from cup 3.
+%This indicates the level of drift in optimal ion beam component settings that occur over a long period of time.
 
 \section{Ba Getter Source}
 \label{sec:getter}
@@ -144,7 +146,7 @@ A BaAl$_{4}$ getter (SAES with part number ST 2/F/WIRE), can be inserted on a be
 \begin{figure} %[h]
         \centering
                 \includegraphics[width=.75\textwidth]{figures/window_etc_justBa_frontViewGetter.png}
-                \caption{Apparatus near sapphire window, including induction plates, Ba getter, Faraday cup 3, Xe gas inlet, and sapphire window at 11~K.}
+                \caption{Apparatus near the sapphire window, including induction plates, Ba getter, Faraday cup 3, Xe gas inlet, and sapphire window at 11~K.}
 \label{fig:endOfBeamBa}
 \end{figure}
 
@@ -203,16 +205,16 @@ To evaporate a sample, the window is heated to 100~K.  Fringes appear during thi
 \label{fig:endOfBeamOptics}
 \end{figure}
 
-Green to yellow laser excitation is done with a Coherent 599 dye laser, pumped by the 514-nm line of a Lexel 3500 Ar ion laser.  Rhodamine 110 (R110) dye is used for the 542 - 566~nm wavelength range, and Rhodamine 6G (R6G) for the 567 - 590~nm range.  Another Coherent 599 dye laser with Coumarin 480 (C480) dye, pumped by a Kr ion laser., is used for blue excitation.  The Coherent 599 dye lasers are used with birefringent filters for wavelength tuning, but without etalons or single frequency stabilization, since the broad absorption of Ba and Ba\textsuperscript{+} in SXe does not require narrow band laser excitation.
+Green to yellow laser excitation is done with a Coherent 599 dye laser, pumped by the 514-nm line of a Lexel 3500 Ar ion laser.  Rhodamine 110 (R110) dye is used for the 542 - 566~nm wavelength range, and Rhodamine 6G (R6G) for the 567 - 590~nm range.  Another Coherent 599 dye laser with Coumarin 480 (C480) dye, pumped by a Kr ion laser, is used for blue excitation.  The Coherent 599 dye lasers are used with birefringent filters for wavelength tuning, but without etalons or single frequency stabilization, since the broad absorption of Ba and Ba\textsuperscript{+} in SXe does not require narrow band laser excitation.
 
 \begin{figure} %[h]
         \centering
                 \includegraphics[width=.7\textwidth]{figures/DFairbank_aber.png}
-                \caption{Calculated minimum laser spot size distributions, with wavelength 570~nm and incident laser radius w = 7~mm, for (a) bi-convex f = 7~cm lens, and (b) aspherical f = 7.9~cm lens.  \cite{DFairbank}}
+                \caption{Calculated minimum laser spot size distributions, with wavelength 570~nm and laser radius w = 7~mm incident on the lens, for (a) bi-convex f = 7~cm lens, and (b) aspherical f = 7.9~cm lens.  \cite{DFairbank}}
 \label{fig:DFairbank}
 \end{figure}
 
-The optics for these experiments is shown in Fig. \ref{fig:endOfBeamOptics}.  In initial work, including spectroscopy (Chapter \ref{chapter:spectroscopy}) and some imaging (Chapter \ref{chapter:imaging}), a bi-convex was used.  This lens had a little spherical aberration, resulting in blurring of the laser focus.  This aberration does not affect the spectroscopy results in Chapter \ref{chapter:spectroscopy}, where semi-focused beam 1/$e^{2}$ radii of 100-1000~$\mu$m were used.  However, spherical aberrations caused the minimum beam radius to be about 5~$\mu$m.  To approach the diffraction limit in imaging small numbers (Chapter \ref{chapter:imaging}), a 7.9-cm focal length aspherical lens was used.  A comparison of the minimum spot sizes for these two lenses, calculated by David Fairbank of Thorlabs with OpticStudio software, is shown in Fig. \ref{fig:DFairbank}.
+The optics for these experiments is shown in Fig. \ref{fig:endOfBeamOptics}.  In initial work, including spectroscopy (Chapter \ref{chapter:spectroscopy}) and some imaging (Chapter \ref{chapter:imaging}), a bi-convex lens was used.  This lens had a little spherical aberration, resulting in blurring of the laser focus.  This aberration does not affect the spectroscopy results in Chapter \ref{chapter:spectroscopy}, where semi-focused beam 1/$e^{2}$ radii of 100-1000~$\mu$m were used.  However, spherical aberrations caused the minimum beam radius to be about 5~$\mu$m.  To approach the diffraction limit in imaging small numbers (Chapter \ref{chapter:imaging}), a 7.9-cm focal length aspherical lens was used.  A comparison of the minimum spot sizes for these two lenses, calculated by David Fairbank of Thorlabs with OpticStudio software, is shown in Fig. \ref{fig:DFairbank}.
 
 \begin{figure} %[H]
         \centering
@@ -231,11 +233,11 @@ The optics for these experiments is shown in Fig. \ref{fig:endOfBeamOptics}.  In
 \label{fig:astig}
 \end{figure}	
 
-The tilted sapphire window introduces astigmatism to the focused laser.  To correct for this, compensating astigmatism is introduced by a fused silica optical flat of 1~cm thickness, placed after the lens, with surfaces normal to the horizontal xz plane, tilted in the xz plane (the laser is along the z-direction, and the sapphire window is tilted in the vertical yz plane).  The proper angle for the compensator was determined to be about 10$^{\circ}$ from normal by a ray matrix calculation \cite{raymatrix}.  The effect of astigmatism of the SXe layer is negligible since its thickness is only about half a micron in a typical fluorescence experiment.  With the compensator, overlapping minimum spot sizes of 2.06~$\mu$m and 2.66~$\mu$m in the plane of the SXe deposit are calculated for x and y, respectively.
+The tilted sapphire window introduces astigmatism to the focused laser.  To correct for this, compensating astigmatism is introduced by a fused silica optical flat of 1~cm thickness, placed after the lens with the normal to its surface tilted in the horizontal xz plane (the laser is along the z-direction, and the normal to the sapphire window is tilted in the vertical yz plane).  The proper angle for the compensator was determined to be about 10$^{\circ}$ from normal by a ray matrix calculation \cite{raymatrix}.  The effect of astigmatism of the SXe layer is negligible since its thickness is only about half a micron in a typical fluorescence experiment.  With the compensator, overlapping minimum spot sizes of 2.06~$\mu$m and 2.66~$\mu$m in the plane of the SXe deposit are calculated for x and y, respectively.
 
 To observe the astigmatism and the effect of the compensator, the relative positions in z of the x and y foci were observed by imaging 619-nm Ba fluorescence from a large deposit of Ba\textsuperscript{+} in SXe with varying z-position of the laser focusing lens.  For each z, an image was taken, and a 2D Gaussian fit determined the 1/$e^{2}$ x- and y- radii, w$_{\text{x}}$ and w$_{\text{y}}$, of the image.  Although these radii are significantly larger than that of the laser beam due to SXe surface scattering and collection optics imperfections, the z-position of the best focus can be accurately determined.  Example fits to the 619-nm fluorescence images for three laser focus positions, using the astigmatism compensator at 10$\pm 1^{\circ}$, are shown in Fig. \ref{fig:astig}(a,b,c).  Gaussian fit values for w$_{\text{x}}$ and w$_{\text{y}}$ are plotted vs. laser lens position with (d) no compensator, and with the compensator at (e) 10$\pm 1^{\circ}$, (f) 11$\pm 1^{\circ}$, and (g) 13$\pm 1^{\circ}$.  With no compensator (d), the focal positions for x and y are measured to be 127.6$ \pm 2.5$~$\mu$m apart.  Compensation angles 10$\pm 1^{\circ}$ (e) and 13$\pm 1^{\circ}$ (g) can be seen to under- and over-shoot the optimal angle, respectively.  The angle 11$\pm 1^{\circ}$ (f), which was used in imaging experiments, is near optimal, i.e. the x and y focal positions are consistent to within 45~$\mu$m.  %\emph{\color{gray}A systematic uncertainty... on the beam size is then obtained ... leading to a focused laser spot of ?? $\pm$ ?? $\mu$m\textsuperscript{2} [get this uncertainty from error propagation of angle(s) through gaussian beam ray matrix}
 
-The laser spot size ($A_{\text{laser}}$) in the plane of the SXe is defined as the area enclosed within the 1/$e$ radii of the laser beam, according to Eq. \ref{eqn:laserspot}:
+The laser spot size ($A_{\text{laser}}$) in the plane of the SXe is defined as the area enclosed within the radii of the laser beam at 1/$e$ of peak intensity, according to Eq. \ref{eqn:laserspot}:
 
 \begin{equation}
 A_{\text{laser}} = \frac{\pi w_{x} w_{y}}{2}
@@ -252,14 +254,6 @@ where $w_{x,y}$ are the $x$ and $y$ 1/$e^{2}$ radii of the focused laser in the 
 %show measurements of astig. w/ and w/o compensator.?  8-7 prolly best so far
 
 %Astigmatism in the laser itself was measured to be consistent with zero. (pg. 24 of Chris's book)
-\section{Collection Optics}
-\label{sec:collection}
-
-Fluorescence is collected above the cryostat, as shown in Fig. \ref{fig:endOfBeamOptics}.  A 50~mm Nikon camera lens collimates the light, and one or more fluorescence filters sit on top of it.  A band-pass filter is used for imaging, and a Raman filter is used for spectroscopy.  The fluorescence is then guided by two steering mirrors, and is imaged by a 200~mm Nikon camera lens onto a Roper Scientific liquid-nitrogen-cooled CCD, with a net magnification of 4.  The CCD has a specified quantum efficiency of 90\% in the visible, and in its medium gain mode, records one count per four photoelectrons collected.  At the set point of -100~$^{\circ}$C, dark counts are negligible.
-
-For spectroscopy, the 200~mm camera lens focuses the light onto the inlet slit of an Acton SP-2150i imaging spectrometer, which images the light onto the CCD after reflecting off a diffraction grating.  The 0-order reflection of the grating provides an image for alignment when a wide slit is used, and the grating is used in 1\textsuperscript{st}-order with a narrow slit to disperse the spectrum across the horizontal CCD pixels for doing spectroscopy.
-
-When a 1" diameter filter is used, the imaging system has a solid angle of light collection of 1.5\%.  Each additional component in the collection optics, listed in Table \ref{table:colleff}, contributes some loss, resulting in a total collection efficiency ($\epsilon_{c}$) of $1.1 \times 10^{-3}$ with the spectrometer, and $2.1 \times 10^{-3}$ without.  The spectrometer f-number of 4 is not limiting in this setup.
 
 \begin{table} [!htbp]
 \caption{Factors contributing to optical collection efficiency.}
@@ -280,14 +274,21 @@ Spectrometer & 0.5 & $\epsilon_{c}\text{(w/ spectrom.)} = 1.1 \times 10^{-3}$\\
 \end{tabular}
 \end{table}
 
+\section{Collection Optics}
+\label{sec:collection}
+
+Fluorescence is collected above the cryostat, as shown in Fig. \ref{fig:endOfBeamOptics}.  A 50~mm Nikon camera lens collimates the light, and one or more fluorescence filters sit on top of it.  A band-pass filter is used for imaging, and a Raman filter is used for spectroscopy.  The fluorescence is then guided by two steering mirrors, and is imaged by a 200~mm Nikon camera lens onto a Roper Scientific liquid-nitrogen-cooled CCD, with a net magnification of 4.  The CCD has a specified quantum efficiency of 90\% in the visible, and in its medium gain mode, records one count per four photoelectrons collected.  At the set point of -100~$^{\circ}$C, dark counts are negligible.
+
+For spectroscopy, the 200~mm camera lens focuses the light onto the inlet slit of an Acton SP-2150i imaging spectrometer, which images the light onto the CCD after reflecting off a diffraction grating.  The 0-order reflection of the grating provides an image for alignment when a wide slit is used, and the grating is used in 1\textsuperscript{st}-order with a narrow slit to disperse the spectrum across the horizontal CCD pixels for doing spectroscopy.
+
+When a 1" diameter filter is used, the imaging system has a solid angle of light collection of 1.5\%.  Each additional component in the collection optics, listed in Table \ref{table:colleff}, contributes some loss, resulting in a total collection efficiency ($\epsilon_{c}$) of $1.1 \times 10^{-3}$ with the spectrometer, and $2.1 \times 10^{-3}$ without.  The spectrometer f-number of 4 is not limiting in this setup.
+
 %Spectrom. Mirrors ($\times 2$) & {\color{red}??} & \\
 %Diffraction Grating & 0.5 & $\epsilon_{c}\text{(w/ spectrom.)} = ${\color{red}??}\\
 
-To avoid unnecessary fluorescence bleaching, a laser shutter was linked to the camera shutter with a LabVIEW program.  This program also recorded laser power via a calibrated pickoff plate, as well as the temperature of the coldfinger near the sapphire window during observation.
+To avoid unnecessary fluorescence bleaching (bleaching is described in Sec. \ref{sec:bleaching}), a laser shutter was linked to the camera shutter with a LabVIEW program.  This program also recorded laser power via a calibrated pickoff plate, as well as the temperature of the coldfinger near the sapphire window during observation.
 
 %the laser exposure was limited to only the time of CCD exposure using
-
-Although the imaging spectrometer can produce spatial images with the 0-order grating reflection, better collection efficiency and imaging quality are achieved by removing the spectrometer and imaging directly onto the CCD.  Band-pass filters were used to pass the desired Ba fluorescence peak(s) while greatly attenuating laser scatter and sapphire fluorescence.
 
 %angle=90,
 \begin{figure} %[H]
@@ -296,6 +297,8 @@ Although the imaging spectrometer can produce spatial images with the 0-order gr
                 \caption{Example image of a Ba\textsuperscript{+} deposit on a c-plane sapphire window of 0.5~mm thickness excited by a focused laser, using a 620-nm fluorescence band-pass filter.}
 \label{fig:imageexamp}
 \end{figure}
+
+Although the imaging spectrometer can produce spatial images with the 0-order grating reflection, better collection efficiency and imaging quality are achieved by removing the spectrometer and imaging directly onto the CCD.  Band-pass filters were used to pass the desired Ba fluorescence peak(s) while greatly attenuating laser scatter and sapphire fluorescence.
 
 An example raw image of the focused 570~nm dye laser on a Ba\textsuperscript{+} deposit using the fluorescence of the 619-nm peak is shown in Fig. \ref{fig:imageexamp}.  With 4$\times$ magnification, each pixel corresponds to 5~$\mu$m$\times$5~$\mu$m on the window.  The laser's path through the window is faintly visible by the residual broad Cr\textsuperscript{3+} fluorescence that is passed by the 620-nm band-pass filter.  The laser is focused at the top surface of the window, which faces the ion beam.  The surface background is seen on the back surface, and the 619-nm Ba fluorescence stands out above both backgrounds on the top surface.  The imaging resolution results in a 1/e$^{2}$ radius of about 12~$\mu$m when imaging the 2.06~$\mu$m $\times$ 2.66~$\mu$m 1/e$^{2}$ laser spot.
 
@@ -318,15 +321,15 @@ Wavelength calibration of the spectrometer was done using three lasers whose wav
                 \includegraphics[width=.5\textwidth]{figures/cryovibes_a.png}
                 ~
                 \includegraphics[width=.5\textwidth]{figures/cryovibes_b.png}
-                \caption{Cryostat vibration measurements based on relative position of dust spot vs. laser on sapphire window in 50-ms snapshots (a), with 2D Gaussians of w$_{\text{x}} \times $w$_{\text{y}}$ = $2.06~\mu$m$ \times 2.66~\mu$m overlain on each point to represent total laser exposure vs. position (b).}
+                \caption{Cryostat vibration measurements based on relative position of dust spot vs. laser on sapphire window in 50-ms snapshots (a), with 2D Gaussians of w$_{\text{x}} \times $w$_{\text{y}}$ = $2.06~\mu$m$ \times 2.66~\mu$m overlain on each point and summed to represent total laser exposure vs. position (b).}
 \label{fig:cryovibe2D}
 \end{figure}
 
-Relative vibrations between the laser and the sapphire window could occur on the micron scale from a few sources.  First, the laser is on a separate optical table from the cryostat and collection optics.  Second, the cryostat vibrates due to its He pump cycles.  Vibrations increase the total number of Ba atoms exposed during a measurement, but not the instantaneous number of Ba atoms in the laser beam area.
+Relative vibrations between the laser and the sapphire window could occur on the micron scale from a few sources.  First, the laser is on a separate optical table from the cryostat and collection optics.  Second, the cryostat vibrates due to its He pump cycles.  Vibrations increase the total number of Ba atoms exposed during a measurement, but not the instantaneous (relative to the fluorescence process) number of Ba atoms in the laser beam area.
 
-Vibrations were observed by determining the position of a ``dust spot" (a highly scattering feature on one sapphire window) relative to the position of the laser in an image on time scales down to 50~ms.  An example of an image from this experiment is shown in Fig. \ref{fig:dustspot}.  The dust spot was illuminated by a defocused 657~nm diode laser, and the 570-nm dye laser was somewhat defocused in order to optimally defocus the red laser with the same focusing lens. For each frame, 2D Gaussian functions with variable widths and magnitudes were fit to locate the center of the laser spot and the dust spot in order to measure their relative position.  The fit range for the laser spot was restricted in y so that it was not affected by the bulk sapphire fluorescence path.  The distances in x and y between the dust spot and laser are plotted for each 50-ms snapshot in Fig. \ref{fig:cryovibe2D}(a).  The distribution shows a correlation between x and y, indicating vibration in a particular direction.  The amplitude of the vibration is about 15~$\mu$m from this data.
+Vibrations were observed by determining the position of a ``dust spot" (a highly scattering feature on one sapphire window) relative to the position of the laser in an image on time scales down to 50~ms.  An example of an image from this experiment is shown in Fig. \ref{fig:dustspot}.  The dust spot was illuminated by a defocused 657~nm diode laser, and the 570-nm dye laser was somewhat defocused in order to optimally defocus the red laser with the same focusing lens. For each frame, 2D Gaussian functions with variable widths and magnitudes were fit to locate the center of the laser spot and the dust spot in order to measure their relative position.  The fit range for the laser spot was restricted in y so that it was not affected by the bulk sapphire fluorescence path.  The distances in x and y between the dust spot and laser are plotted for each 50-ms snapshot in Fig. \ref{fig:cryovibe2D}(a).  CCD readout and shutter compensation time occur for about 877~ms between frames.  The distribution shows a correlation between x and y, indicating vibration in a particular direction.  Sinusoidal motion results in a collection of data points at the two ends.  The amplitude of the vibration is about 15~$\mu$m from this data.
 
-To calculate an effective laser area with this vibration, each difference (x,y) between laser and dust spot was used as the center of a 2D Gaussian, each with w$_{x} = 2.06~\mu$m and w$_{y} = 2.66~\mu$m to represent the laser spot.  Such Gaussian functions were summed for all points to produce a distribution of summed laser exposure, shown in Fig. \ref{fig:cryovibe2D}(b).  The area enclosed by a 1/e contour then is a measure of the effective total exposed area.  On the other hand, signal at a given moment is still emitted only from the instantaneous laser area.  Then there are two possible definitions for the number of ions in the laser region, that provides the upper limit on the number of atoms.  In the absence of signal bleaching, the instantaneous number of atoms exposed is a reasonable definition for the number of atoms observed.  If there is large bleaching, the more conservative estimate is more appropriate.  Note that the factor between instantaneous and total exposure areas depends on the laser spot size.  The factor is about 4.7 for w$_{\text{x}} \times $w$_{\text{y}}$ = $2.06~\mu$m$ \times 2.66~\mu$m (astigmatism compensation and aspherical lens), and about 3 for w$_{\text{x}} \times $w$_{\text{y}}$ = $5~\mu$m$ \times 5~\mu$m (biconvex lens).
+To calculate an effective laser area with this vibration, each difference (x,y) between laser and dust spot was used as the center of a 2D Gaussian, each with w$_{x} = 2.06~\mu$m and w$_{y} = 2.66~\mu$m to represent the laser spot.  Such Gaussian functions were summed for all points to produce a distribution of summed laser exposure, shown in Fig. \ref{fig:cryovibe2D}(b).  The area enclosed by a 1/e contour then is a measure of the effective total exposed area.  On the other hand, signal at a given moment is still emitted only from the instantaneous laser area.  Then there are two possible definitions for the number of ions in the laser region, that provides the upper limit on the number of atoms.  In the absence of signal bleaching (described in Sec. \ref{sec:bleaching}), the instantaneous number of atoms exposed is a reasonable definition for the number of atoms observed.  If there is large bleaching, the more conservative estimate is more appropriate.  Note that the factor between instantaneous and total exposure areas depends on the laser spot size.  The factor is about 4.7 for w$_{\text{x}} \times $w$_{\text{y}}$ = $2.06~\mu$m$ \times 2.66~\mu$m (astigmatism compensation and aspherical lens), and about 3 for w$_{\text{x}} \times $w$_{\text{y}}$ = $5~\mu$m$ \times 5~\mu$m (biconvex lens).
 
 %In the absence of signal bleaching, the average number of atoms exposed is a good definition for the number of atoms observed.
 
@@ -335,9 +338,14 @@ To calculate an effective laser area with this vibration, each difference (x,y) 
 %The difference between dust spot and laser positions is plotted in {\color{red}Fig. [fig vibe vs. time with sine fit]} for both x and y.  Each exposure in this plot is 50~ms, though readout time and camera shutter compensation time result in x~s between frames.  The best fit of a sine function results in a vibration frequency of x~Hz.  This is consistent with the audible frequency of the cryostat He pump.
 %...could do this for rotated
 
-For imaging of single Ba atoms, the relative vibration is the measure of most concern.  The vibration of the laser itself was seen to be small in this study.  Vibration of the collection optics will affect the imaging resolution, but not the number of atoms being observed, or the resolution of a single atom image in a laser raster scan.  These vibrations were minimized by stable mounting of the collection optics on large diameter posts.
+For imaging of single Ba atoms, the relative vibration is the measure of most concern.  The vibration of the laser itself was seen to be small in this study.  Vibration of the collection optics will affect the imaging resolution, but not the number of atoms being observed, or the resolution of a single atom image in a laser raster scan.  The amplitude of these vibrations was minimized by stable mounting of the collection optics on large diameter posts.
 
 %\vspace{10mm}
+
+\section{Laser Scanning}
+\label{sec:laserscanning}
+
+In order to obtain images of separated single atoms, the laser focusing lens is attached to motorized translation stages which scan the laser position by translating the lens in x and y with sub-micron resolution, as shown in Fig. \ref{fig:laserStages}.  These stages sit atop a manual z-translation stage for laser focusing.  A LabVIEW program coordinates movement of these stages such that x or y position is stepped in between CCD frames, and each frame then corresponds to a position in a laser scan grid.
 
 \begin{figure} %[H]
         \centering
@@ -346,13 +354,7 @@ For imaging of single Ba atoms, the relative vibration is the measure of most co
 \label{fig:laserStages}
 \end{figure}
 
-
-\section{Laser Scanning}
-\label{sec:laserscanning}
-
-In order to obtain images of separated single atoms, the laser focusing lens is attached to motorized translation stages which scan the laser position by translating the lens in x and y with sub-micron resolution, as shown in Fig. \ref{fig:laserStages}.  These stages sat atop a manual z-translation stage for laser focusing.  A LabVIEW program coordinates movement of these stages such that x or y position is stepped in between CCD frames, and each frame then corresponded to a position in a laser scan grid.
-
-Relative laser-window vibration may be eliminated by using a different cryostat, or by gating the laser with a shutter to block exposure during He pump surges.  With no vibration, resolution of Ba atoms in scanned images is limited only by the size of the laser beam, not by the resolution of the collection optics and the CCD pixel size.
+Relative laser-window vibration may be eliminated by using a different cryostat, or by gating the laser with a shutter to block exposure during He pump surges.  With no vibration, the spatial resolution of Ba atoms in scanned images is limited only by the size of the laser beam, not by the resolution of the collection optics and the CCD pixel size.
 
 %\emph{\color{red}The stages used in this work were Newport AG-LS25, which are driven by piezoelectric motors, but without accurate position feedback.  As a result, some inconsistency in position reproducibility was observed.  The position of the focused laser, measured by the center of a 2D Gaussian fit to the image of the laser spot, is shown in Fig. [fig laser grid] for ... 2015-08-12 has one from chris where he did 2D gaus, but you should get that w/ them lined up from the start too, to separate init pos from inconsistency, and you need to quantify both}
 
