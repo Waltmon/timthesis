@@ -74,6 +74,10 @@ German (1934): http://link.springer.com/article/10.1007%2FBF01351864
 
 - Bob does not like "instantaneously exposed", and to compensate for that I put "relative to..." in paranthases on pg. 50... what do you think about that?
 
+- Beginning of Method:  Bob says "[are these plots yours]?" ... do I need to specify somewhere?  Really all but the absorption curve are mine.
+
+- Method:  Bob didn't like how things are said here for the first time (577 eg) w/o having really been introduced as they are in Ch. 5 (since this is really a reference for that chapter ... SHOULD THESE SECTIONS BE APPENDiCES?
+
 
 ~~~~ changed wordings (thus of particular interest):
 - 1st paragraph of 1.1.1
