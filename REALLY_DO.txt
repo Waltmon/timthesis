@@ -1,3 +1,4 @@
+- overlapping 100 thing in train plot
 - NEED CORRECT FACTOR IN TABLE 3.1 ------ measure difference between gain / ADC modes (at some point)
 - chanve m_betabeta to m_nu in the sensitivity plot, and make the axis labels like in talk
 - make energy spectrum signature concept pic less dumb-looking
@@ -78,13 +79,23 @@ German (1934): http://link.springer.com/article/10.1007%2FBF01351864
 
 - Method:  Bob didn't like how things are said here for the first time (577 eg) w/o having really been introduced as they are in Ch. 5 (since this is really a reference for that chapter ... SHOULD THESE SECTIONS BE APPENDiCES?
 
+- somewhat ignoring the fitting "why chosen" -- "what physical motivation" based on the discussion we had in the room
+
+- I just took out "at 77 K" for the sapphire (app.B) to avoid confusion, is this OK?
 
 ~~~~ changed wordings (thus of particular interest):
 - 1st paragraph of 1.1.1
 - 1st parag of 1.2:  sentence on suppressed beta decay
 - beginning of anti-correlation parag.
 - "sinusoidal motion..." sentence and readout sentence on page 52
-
+- changed 694 to 693 based on Temp. data mainly from Guguschev
+- added "(heating and re-cooling)" on pg. 66 for Bob
+- changed "Decay of fluorescence" to "loss of emission" for Bob in first sentence of Bleaching (pg. 70)
+- slightly changed the model agreement sentence, ala Bill comment on pg. 74
+- H2 concentration on pg. 78
+- added "[compare to getter deps]" to end of Ch. 5 (pg. 80), since no, I do not believe I ever looked for the 532etc. with the getter
+- lots of referencing in imaging sections now -- pg. 84 and 81
+- statement on similar signal level between 8-7 and 5-26 on pg. 86
 
 
 @@@@@@@ STILL NEED TO DO:
@@ -95,6 +106,8 @@ German (1934): http://link.springer.com/article/10.1007%2FBF01351864
 
 1i:  Bob detector res., pg. 7
 2i:  Bob illegible pg. 50
+3i:  Bob not liking "somewhat" focused on pg. 65
+4i:  Bob "can this be estimated" on the H2 concentration on pg. 78
 
 AT END:  do a final read-through for typos, and for instances of Blah blah blah.  [ref]  (which should be Blah blah blah [ref].)
 ...and then check figure placement, etc.
