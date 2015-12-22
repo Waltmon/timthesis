@@ -96,6 +96,11 @@ German (1934): http://link.springer.com/article/10.1007%2FBF01351864
 - added "[compare to getter deps]" to end of Ch. 5 (pg. 80), since no, I do not believe I ever looked for the 532etc. with the getter
 - lots of referencing in imaging sections now -- pg. 84 and 81
 - statement on similar signal level between 8-7 and 5-26 on pg. 86
+- stuff on fit params being arbitrary in 4.1 intro paragraph
+- "i.e. is reduced during laser exposure" to explain bleaching here, on NEW page 60
+
+
+
 
 
 @@@@@@@ STILL NEED TO DO:
