@@ -1,10 +1,8 @@
-- overlapping 100 thing in train plot
+- remove repeat deposits in bleaching data (including model), change comment on consistency then
+- want a statement of "becomes bleached after x excitations"?  It reaches 1/e of (initial  "SS") in maybe 40,000 excit. in (b) and (c) of green/purple plots, but (a) is sort of different
+
+- make color 2D gaus fits on astig fit fig.
 - NEED CORRECT FACTOR IN TABLE 3.1 ------ measure difference between gain / ADC modes (at some point)
-- chanve m_betabeta to m_nu in the sensitivity plot, and make the axis labels like in talk
-- make energy spectrum signature concept pic less dumb-looking
-- 10^4 image
-- fix cross sections by fitting/extending
-- want a statement of "becomes bleached after x excitations"?  It reaches 1/e of (initial - "SS") in maybe 40,000 excit. in (b) and (c) of green/purple plots, but (a) is sort of different
 - check all data which you produced quickly in the middle of the night -- OF SPECIAL CONCERN is the light blue bleach model curve, since it's sort of discrepant, and you did that pretty quick
 - fix w12 in QE plot
 - Sr lines in Blue excit.
@@ -13,30 +11,43 @@
 - need franck condon ref (see bill comments)
 - may want the rate-change paragraph uncommented at end of matrix iso., but need to se Bill comments
 - check M. Danilov ref [5] in corrections Ch. 1 v.3 corrections.pnf
-- smaller text in dub beta dec spectrum figure
-- remove repeat deposits in bleaching data (including model), change comment on consistency then
-- make color 2D gaus fits on astig fit fig.
 - * Question of Bill on pg. 16 of Ch 3 v3 corrections.pdf
 - coll eff stuff in Ch 3 v3 corrections.pdf
 - "need to think about" comment on fitting in Bill comments (sec. 14.1.2)
 - also comment on Cr3+ stuff (sideways)
 - also on that page need to specify Raman wavelength stuff
-- plot time instead of Run Numb. in surf bleach plot
 - get ref for wuantum dots in cocnnlusions
 - "fix this later" in Theory
 - possible comment on large % of atoms in 619, at end of section right before Bleaching of the 619-nm Peak section (see Bill comments)
-- change cross sections to cm^2
-- sentence beginning w/ superscript 136 in Intro
 
-- check citation orders anf giures too
 
-- 1st parag of nu oscill. subsection: make it 2 sentences with perios before "that is, ..."
-- change franck condon image ref to ...2.png
-- semi-log on re-pump plots?  prolly
+c overlapping 100 thing in train plot
 
+* chanve m_betabeta to m_nu in the sensitivity plot, and make the axis labels like in talk
+* make energy spectrum signature concept pic less dumb-looking
+w 10^4 image
+w fix cross sections by fitting/extending
+* smaller text in dub beta dec spectrum figure
+* plot time instead of Run Numb. in surf bleach plot
+* change cross sections to cm^2
+w change franck condon image ref to ...2.png
+w semi-log on re-pump plots?  prolly
 * check anti-corr plot:  is it actually like that in the real 2-nu?  otherwise idk what you should do. [it's in orig. 0nu]
 * (sorta)check Xe bottle purity
 * THETA 23 HAS WRONG DECIMAL PLACE IN TABLE
+w sentence beginning w/ superscript 136 in Intro
+w 1st parag of nu oscill. subsection: make it 2 sentences with perios before "that is, ..."
+
+
+
+LAST:
+- check citation orders anf giures too
+- thing on paper, which I'm pretty sure is about checking figure placement
+
+
+
+
+
 
 
 
