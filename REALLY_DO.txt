@@ -1,7 +1,6 @@
-- remove repeat deposits in bleaching data (including model), change comment on consistency then
+- remove repeat deposits in bleaching data (including model), change comment on consistency then, and FIX COMMENTS ON POWERS, SINCE THEY ARE NO LONGER IN THE LEGEND ... LIKE, PUT THEM IN THE TEXT INSTEAD
 - want a statement of "becomes bleached after x excitations"?  It reaches 1/e of (initial  "SS") in maybe 40,000 excit. in (b) and (c) of green/purple plots, but (a) is sort of different
 
-- make color 2D gaus fits on astig fit fig.
 - NEED CORRECT FACTOR IN TABLE 3.1 ------ measure difference between gain / ADC modes (at some point)
 - check all data which you produced quickly in the middle of the night -- OF SPECIAL CONCERN is the light blue bleach model curve, since it's sort of discrepant, and you did that pretty quick
 - fix w12 in QE plot
@@ -23,6 +22,7 @@
 
 c overlapping 100 thing in train plot
 
+* make color 2D gaus fits on astig fit fig.
 * chanve m_betabeta to m_nu in the sensitivity plot, and make the axis labels like in talk
 * make energy spectrum signature concept pic less dumb-looking
 w 10^4 image
@@ -93,6 +93,8 @@ German (1934): http://link.springer.com/article/10.1007%2FBF01351864
 - somewhat ignoring the fitting "why chosen" -- "what physical motivation" based on the discussion we had in the room
 
 - I just took out "at 77 K" for the sapphire (app.B) to avoid confusion, is this OK?
+
+- like red versions of astig fit plots?
 
 ~~~~ changed wordings (thus of particular interest):
 - 1st paragraph of 1.1.1
