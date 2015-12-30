@@ -1,41 +1,57 @@
-- measure difference between gain / ADC modes (at some point)
-- chanve m_betabeta to m_nu in the sensitivity plot, and make the axis labels like in talk
-- make energy spectrum signature concept pic less dumb-looking
-- 10^4 image
-- fix cross sections by fitting/extending
-- want a statement of "becomes bleached after x excitations"?  It reaches 1/e of (initial - "SS") in maybe 40,000 excit. in (b) and (c) of green/purple plots, but (a) is sort of different
+- check the actual numbers of lowest QE for each peak, for correct quoting in text
+- find where Bill wanted a x.xx for Eqn. ref (since hard to know where it is ... because you changed one yourself in QE section)
+
+- NEED CORRECT FACTOR IN TABLE 3.1 ------ measure difference between gain / ADC modes (at some point)
 - check all data which you produced quickly in the middle of the night -- OF SPECIAL CONCERN is the light blue bleach model curve, since it's sort of discrepant, and you did that pretty quick
-- fix w12 in QE plot
 - Sr lines in Blue excit.
 - shallower S in Franck Condon (see comments)
 - short-time comment by Bill in 5-level model leading to exp decay at beginning, and demonstration of this in ch.5?
 - need franck condon ref (see bill comments)
 - may want the rate-change paragraph uncommented at end of matrix iso., but need to se Bill comments
 - check M. Danilov ref [5] in corrections Ch. 1 v.3 corrections.pnf
-- smaller text in dub beta dec spectrum figure
-- remove repeat deposits in bleaching data (including model), change comment on consistency then
-- make color 2D gaus fits on astig fit fig.
 - * Question of Bill on pg. 16 of Ch 3 v3 corrections.pdf
 - coll eff stuff in Ch 3 v3 corrections.pdf
 - "need to think about" comment on fitting in Bill comments (sec. 14.1.2)
 - also comment on Cr3+ stuff (sideways)
 - also on that page need to specify Raman wavelength stuff
-- plot time instead of Run Numb. in surf bleach plot
 - get ref for wuantum dots in cocnnlusions
 - "fix this later" in Theory
 - possible comment on large % of atoms in 619, at end of section right before Bleaching of the 619-nm Peak section (see Bill comments)
-- change cross sections to cm^2
-- sentence beginning w/ superscript 136 in Intro
 
-- check citation orders anf giures too
 
-- 1st parag of nu oscill. subsection: make it 2 sentences with perios before "that is, ..."
-- change franck condon image ref to ...2.png
-- semi-log on re-pump plots?  prolly
+c overlapping 100 thing in train plot
 
+* FIX (probably) text about QE -- prolly quotes numbers whic are now different, and maybe wanna say it uses correct sigmas
+* w12 in QE -- I think it needs specific for each excitation wavelength
+pw want a statement of "becomes bleached after x excitations"?  It reaches 1/e of (initial  "SS") in maybe 40,000 excit. in (b) and (c) of green/purple plots, but (a) is sort of different
+* remove repeat deposits in bleaching data (including model), change comment on consistency then, and FIX COMMENTS ON POWERS, SINCE THEY ARE NO LONGER IN THE LEGEND ... LIKE, PUT THEM IN THE TEXT INSTEAD
+* make color 2D gaus fits on astig fit fig.
+* chanve m_betabeta to m_nu in the sensitivity plot, and make the axis labels like in talk
+* make energy spectrum signature concept pic less dumb-looking
+w 10^4 image
+w fix cross sections by fitting/extending
+* smaller text in dub beta dec spectrum figure
+* plot time instead of Run Numb. in surf bleach plot
+* change cross sections to cm^2
+w change franck condon image ref to ...2.png
+w semi-log on re-pump plots?  prolly
 * check anti-corr plot:  is it actually like that in the real 2-nu?  otherwise idk what you should do. [it's in orig. 0nu]
 * (sorta)check Xe bottle purity
 * THETA 23 HAS WRONG DECIMAL PLACE IN TABLE
+w sentence beginning w/ superscript 136 in Intro
+w 1st parag of nu oscill. subsection: make it 2 sentences with perios before "that is, ..."
+
+
+
+LAST:
+- read carefully for content correctness (including references to what's in figures), wordings and typos
+- check citation orders and figures too
+- thing on paper, which I'm pretty sure is about checking figure placement
+
+
+
+
+
 
 
 
@@ -48,21 +64,81 @@ German (1934): http://link.springer.com/article/10.1007%2FBF01351864
 
 - isotopically OK word? (pg. 8)
 
+- Bill's pg. 10:  I just changed to ~20 cm -- is that ok now?  the numbers come from the long paper
 
+- also on pg. 10:  is my "on order of mm/s" ok?
 
+- why you circle 6 mm in topoogy?
+
+- comment on KamLAND's stronger limit OK?
+
+- like placement of mass vs. mass plot?  and the sentence structure, where it comes in the same paragraph as the effective mas eq.?
+
+- changed "normal hierarchy" to "NH" on pg. 17
+
+- can i ignore Bob's "why" on SXe thickness measuement on probe (w/ fibers)? i think it opens more than I want to talk about there.
+
+- ...and can i ignore his "dimensions" thing on the conceptual probe?  it's conceptual.  ...can i ignore some comments?
+
+- and similarly, Bruce wonders why 3D3 is ignored after.  But maybe I should not have a line for it in the figure?
+
+- changed sentence before franck condon ("an illustration...")
+
+- like new Franck Condon picture?  want more vibes in excited state, or shallower one?
+
+- not sure what Bill means by "reference company too?" on pg. 33
+
+- Bob does not like "instantaneously exposed", and to compensate for that I put "relative to..." in paranthases on pg. 50... what do you think about that?
+
+- Beginning of Method:  Bob says "[are these plots yours]?" ... do I need to specify somewhere?  Really all but the absorption curve are mine.
+
+- Method:  Bob didn't like how things are said here for the first time (577 eg) w/o having really been introduced as they are in Ch. 5 (since this is really a reference for that chapter ... SHOULD THESE SECTIONS BE APPENDiCES?
+
+- somewhat ignoring the fitting "why chosen" -- "what physical motivation" based on the discussion we had in the room
+
+- I just took out "at 77 K" for the sapphire (app.B) to avoid confusion, is this OK?
+
+- like red versions of astig fit plots?
 
 ~~~~ changed wordings (thus of particular interest):
 - 1st paragraph of 1.1.1
 - 1st parag of 1.2:  sentence on suppressed beta decay
 - beginning of anti-correlation parag.
+- "sinusoidal motion..." sentence and readout sentence on page 52
+- changed 694 to 693 based on Temp. data mainly from Guguschev
+- added "(heating and re-cooling)" on pg. 66 for Bob
+- changed "Decay of fluorescence" to "loss of emission" for Bob in first sentence of Bleaching (pg. 70)
+- slightly changed the model agreement sentence, ala Bill comment on pg. 74
+- H2 concentration on pg. 78
+- added "[compare to getter deps]" to end of Ch. 5 (pg. 80), since no, I do not believe I ever looked for the 532etc. with the getter
+- lots of referencing in imaging sections now -- pg. 84 and 81
+- statement on similar signal level between 8-7 and 5-26 on pg. 86
+- stuff on fit params being arbitrary in 4.1 intro paragraph
+- "i.e. is reduced during laser exposure" to explain bleaching here, on NEW page 60
+
+
 
 
 
 @@@@@@@ STILL NEED TO DO:
-- Bill comments on pg. 10 (EXP-200 voltages)
-- Bob wanting drift times of e-s and ions, pg. 10 (was there something about it being mentioned later, maybe with e- lifetime?)
+- 
+
+
 
 
 1i:  Bob detector res., pg. 7
+2i:  Bob illegible pg. 50
+3i:  Bob not liking "somewhat" focused on pg. 65
+4i:  Bob "can this be estimated" on the H2 concentration on pg. 78
 
 AT END:  do a final read-through for typos, and for instances of Blah blah blah.  [ref]  (which should be Blah blah blah [ref].)
+...and then check figure placement, etc.
+...also check for break-ups of "Fig. []", and "EXO-200", ... anything else?
+
+
+
+
+
+* check v-to-u spacing, as Bill circled 6mm in the topology figure   (it's from EXO instrum.)
+* Bob wanting drift times of e-s and ions, pg. 10 (was there something about it being mentioned later, maybe with e- lifetime?)
+* Bill comments on pg. 10 (EXP-200 voltages)

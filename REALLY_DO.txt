@@ -1,4 +1,5 @@
-- FIX (probably) text about QE -- prolly quotes numbers whic are now different, and maybe wanna say it uses correct sigmas
+- check the actual numbers of lowest QE for each peak, for correct quoting in text
+- find where Bill wanted a x.xx for Eqn. ref (since hard to know where it is ... because you changed one yourself in QE section) ... SEARCH FOR ALL EQN. REFS AND MAYBE DO THIS
 
 - NEED CORRECT FACTOR IN TABLE 3.1 ------ measure difference between gain / ADC modes (at some point)
 - check all data which you produced quickly in the middle of the night -- OF SPECIAL CONCERN is the light blue bleach model curve, since it's sort of discrepant, and you did that pretty quick
@@ -20,6 +21,7 @@
 
 c overlapping 100 thing in train plot
 
+* FIX (probably) text about QE -- prolly quotes numbers whic are now different, and maybe wanna say it uses correct sigmas
 * w12 in QE -- I think it needs specific for each excitation wavelength
 pw want a statement of "becomes bleached after x excitations"?  It reaches 1/e of (initial  "SS") in maybe 40,000 excit. in (b) and (c) of green/purple plots, but (a) is sort of different
 * remove repeat deposits in bleaching data (including model), change comment on consistency then, and FIX COMMENTS ON POWERS, SINCE THEY ARE NO LONGER IN THE LEGEND ... LIKE, PUT THEM IN THE TEXT INSTEAD
