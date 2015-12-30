@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.6.6)  28 DEC 2015 16:56
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.6.6)  29 DEC 2015 17:25
 entering extended mode
 **thesis_walton.tex
 (C:\Walton\thesis\timthesis\thesis_walton.tex
@@ -1214,85 +1214,50 @@ Package pdftex.def Info: figures/bleach_compareEmission577vs591_specificSigmas_
 a.png used on input line 167.
 (pdftex.def)             Requested size: 234.8775pt x 166.84901pt.
 
+<figures/bleach_compareEmission577vs591_specificSigmas_b.png, id=375, 949.5475p
+t x 674.52pt>
+File: figures/bleach_compareEmission577vs591_specificSigmas_b.png Graphic file 
+(type png)
 
-LaTeX Warning: File `figures/bleach_compareEmission577vs591_specificSigmas_b.pn
-g' not found on input line 168.
+<use figures/bleach_compareEmission577vs591_specificSigmas_b.png>
+Package pdftex.def Info: figures/bleach_compareEmission577vs591_specificSigmas_
+b.png used on input line 168.
+(pdftex.def)             Requested size: 234.8775pt x 166.84901pt.
 
+<figures/bleach_compareEmission577vs591_specificSigmas_c.png, id=376, 949.5475p
+t x 674.52pt>
+File: figures/bleach_compareEmission577vs591_specificSigmas_c.png Graphic file 
+(type png)
 
-! Package pdftex.def Error: File `figures/bleach_compareEmission577vs591_specif
-icSigmas_b.png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.168 ...areEmission577vs591_specificSigmas_b.png}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `figures/bleach_compareEmission577vs591_specificSigmas_c.pn
-g' not found on input line 170.
-
-
-! Package pdftex.def Error: File `figures/bleach_compareEmission577vs591_specif
-icSigmas_c.png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.170 ...areEmission577vs591_specificSigmas_c.png}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+<use figures/bleach_compareEmission577vs591_specificSigmas_c.png>
+Package pdftex.def Info: figures/bleach_compareEmission577vs591_specificSigmas_
+c.png used on input line 170.
+(pdftex.def)             Requested size: 234.8775pt x 166.84901pt.
 
 Overfull \hbox (2.61107pt too wide) in paragraph at lines 167--171
  [] [] 
  []
 
 
-LaTeX Warning: File `figures/bleach_compareExcitations_specificSigmas_a.png' no
-t found on input line 180.
+<figures/bleach_compareExcitations_specificSigmas_a.png, id=377, 949.5475pt x 6
+74.52pt>
+File: figures/bleach_compareExcitations_specificSigmas_a.png Graphic file (type
+ png)
+ <use figures/bleach_compareExcitations_specificSigmas_a.png>
+Package pdftex.def Info: figures/bleach_compareExcitations_specificSigmas_a.png
+ used on input line 181.
+(pdftex.def)             Requested size: 234.8775pt x 166.84901pt.
 
+<figures/bleach_compareExcitations_specificSigmas_b.png, id=378, 949.5475pt x 6
+74.52pt>
+File: figures/bleach_compareExcitations_specificSigmas_b.png Graphic file (type
+ png)
+ <use figures/bleach_compareExcitations_specificSigmas_b.png>
+Package pdftex.def Info: figures/bleach_compareExcitations_specificSigmas_b.png
+ used on input line 183.
+(pdftex.def)             Requested size: 234.8775pt x 166.84901pt.
 
-! Package pdftex.def Error: File `figures/bleach_compareExcitations_specificSig
-mas_a.png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.180 ..._compareExcitations_specificSigmas_a.png}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `figures/bleach_compareExcitations_specificSigmas_b.png' no
-t found on input line 182.
-
-
-! Package pdftex.def Error: File `figures/bleach_compareExcitations_specificSig
-mas_b.png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.182 ..._compareExcitations_specificSigmas_b.png}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 180--183
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 181--184
  [][] [] 
  []
 
@@ -1301,93 +1266,104 @@ Underfull \vbox (badness 4156) has occurred while \output is active []
 
  [73 <C:/Walton/thesis/timthesis/figures/bleach_spectra_a.png> <C:/Walton/thesi
 s/timthesis/figures/bleach_spectra_b.png> <C:/Walton/thesis/timthesis/figures/b
-leach_spectra_c.png>]
-<figures/bleach_model_vacuum_w12t_a.png, id=382, 949.5475pt x 674.52pt>
+leach_spectra_c.png>] [74 <C:/Walton/thesis/timthesis/figures/bleach_compareEmi
+ssion577vs591_specificSigmas_a.png> <C:/Walton/thesis/timthesis/figures/bleach_
+compareEmission577vs591_specificSigmas_b.png> <C:/Walton/thesis/timthesis/figur
+es/bleach_compareEmission577vs591_specificSigmas_c.png> <C:/Walton/thesis/timth
+esis/figures/bleach_compareExcitations_specificSigmas_a.png> <C:/Walton/thesis/
+timthesis/figures/bleach_compareExcitations_specificSigmas_b.png>]
+<figures/bleach_model_vacuum_w12t_a.png, id=389, 949.5475pt x 674.52pt>
 File: figures/bleach_model_vacuum_w12t_a.png Graphic file (type png)
 
 <use figures/bleach_model_vacuum_w12t_a.png>
 Package pdftex.def Info: figures/bleach_model_vacuum_w12t_a.png used on input l
-ine 195.
+ine 196.
 (pdftex.def)             Requested size: 234.8775pt x 166.84901pt.
 
-<figures/bleach_model_vacuum_w12t_b.png, id=383, 949.5475pt x 674.52pt>
+<figures/bleach_model_vacuum_w12t_b.png, id=390, 949.5475pt x 674.52pt>
 File: figures/bleach_model_vacuum_w12t_b.png Graphic file (type png)
 
 <use figures/bleach_model_vacuum_w12t_b.png>
 Package pdftex.def Info: figures/bleach_model_vacuum_w12t_b.png used on input l
-ine 196.
+ine 197.
 (pdftex.def)             Requested size: 234.8775pt x 166.84901pt.
 
-<figures/bleach_model_vacuum_w12t_c.png, id=384, 949.5475pt x 674.52pt>
+<figures/bleach_model_vacuum_w12t_c.png, id=391, 949.5475pt x 674.52pt>
 File: figures/bleach_model_vacuum_w12t_c.png Graphic file (type png)
 
 <use figures/bleach_model_vacuum_w12t_c.png>
 Package pdftex.def Info: figures/bleach_model_vacuum_w12t_c.png used on input l
-ine 198.
+ine 199.
 (pdftex.def)             Requested size: 234.8775pt x 166.84901pt.
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 195--199
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 196--200
  [] [] 
  []
 
-[74 <C:/Walton/thesis/timthesis/figures/bleach_compareEmission577vs591_specific
-Sigmas_a.png>] [75] [76 <C:/Walton/thesis/timthesis/figures/bleach_model_vacuum
-_w12t_a.png> <C:/Walton/thesis/timthesis/figures/bleach_model_vacuum_w12t_b.png
-> <C:/Walton/thesis/timthesis/figures/bleach_model_vacuum_w12t_c.png>]
-<figures/QE_new_just1000.png, id=395, 712.16063pt x 505.89pt>
-File: figures/QE_new_just1000.png Graphic file (type png)
+[75 <C:/Walton/thesis/timthesis/figures/bleach_model_vacuum_w12t_a.png> <C:/Wal
+ton/thesis/timthesis/figures/bleach_model_vacuum_w12t_b.png> <C:/Walton/thesis/
+timthesis/figures/bleach_model_vacuum_w12t_c.png>]
+<figures/QE_just1000_separteSigmas.png, id=395, 949.5475pt x 674.52pt>
+File: figures/QE_just1000_separteSigmas.png Graphic file (type png)
 
-<use figures/QE_new_just1000.png>
-Package pdftex.def Info: figures/QE_new_just1000.png used on input line 210.
-(pdftex.def)             Requested size: 328.82707pt x 233.58449pt.
- [77 <C:/Walton/thesis/timthesis/figures/QE_new_just1000.png>]
-<figures/619_bleach_w12t_semilog.png, id=400, 798.985pt x 774.895pt>
+<use figures/QE_just1000_separteSigmas.png>
+Package pdftex.def Info: figures/QE_just1000_separteSigmas.png used on input li
+ne 212.
+(pdftex.def)             Requested size: 328.82707pt x 233.5845pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [76]
+<figures/619_bleach_w12t_semilog.png, id=399, 798.985pt x 774.895pt>
 File: figures/619_bleach_w12t_semilog.png Graphic file (type png)
 
 <use figures/619_bleach_w12t_semilog.png>
 Package pdftex.def Info: figures/619_bleach_w12t_semilog.png used on input line
- 242.
+ 244.
 (pdftex.def)             Requested size: 234.8775pt x 227.79984pt.
 
-<figures/BaHx_a.png, id=401, 949.5475pt x 674.52pt>
+<figures/BaHx_a.png, id=400, 949.5475pt x 674.52pt>
 File: figures/BaHx_a.png Graphic file (type png)
  <use figures/BaHx_a.png>
-Package pdftex.def Info: figures/BaHx_a.png used on input line 297.
+Package pdftex.def Info: figures/BaHx_a.png used on input line 299.
 (pdftex.def)             Requested size: 234.8775pt x 166.84901pt.
 
-<figures/BaHx_b.png, id=402, 949.5475pt x 674.52pt>
+<figures/BaHx_b.png, id=401, 949.5475pt x 674.52pt>
 File: figures/BaHx_b.png Graphic file (type png)
  <use figures/BaHx_b.png>
-Package pdftex.def Info: figures/BaHx_b.png used on input line 299.
+Package pdftex.def Info: figures/BaHx_b.png used on input line 301.
 (pdftex.def)             Requested size: 234.8775pt x 166.84901pt.
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 297--300
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 299--302
  [][] [] 
  []
 
-[78 <C:/Walton/thesis/timthesis/figures/619_bleach_w12t_semilog.png>]
-<figures/excitspec_blu_a.png, id=407, 712.16063pt x 505.89pt>
+
+Underfull \vbox (badness 3108) has occurred while \output is active []
+
+ [77 <C:/Walton/thesis/timthesis/figures/QE_just1000_separteSigmas.png>] [78 <C
+:/Walton/thesis/timthesis/figures/619_bleach_w12t_semilog.png> <C:/Walton/thesi
+s/timthesis/figures/BaHx_a.png> <C:/Walton/thesis/timthesis/figures/BaHx_b.png>
+]
+<figures/excitspec_blu_a.png, id=409, 712.16063pt x 505.89pt>
 File: figures/excitspec_blu_a.png Graphic file (type png)
 
 <use figures/excitspec_blu_a.png>
-Package pdftex.def Info: figures/excitspec_blu_a.png used on input line 311.
+Package pdftex.def Info: figures/excitspec_blu_a.png used on input line 313.
 (pdftex.def)             Requested size: 328.82707pt x 233.58449pt.
 
-<figures/excitspecBlue_b.png, id=408, 949.5475pt x 674.52pt>
+<figures/excitspecBlue_b.png, id=410, 949.5475pt x 674.52pt>
 File: figures/excitspecBlue_b.png Graphic file (type png)
 
 <use figures/excitspecBlue_b.png>
-Package pdftex.def Info: figures/excitspecBlue_b.png used on input line 312.
+Package pdftex.def Info: figures/excitspecBlue_b.png used on input line 314.
 (pdftex.def)             Requested size: 328.82707pt x 233.5845pt.
-
-Underfull \vbox (badness 4001) has occurred while \output is active []
-
- [79 <C:/Walton/thesis/timthesis/figures/BaHx_a.png> <C:/Walton/thesis/timthesi
-s/figures/BaHx_b.png>]) (C:\Walton\thesis\timthesis\chapter_results_imaging_e.t
-ex [80 <C:/Walton/thesis/timthesis/figures/excitspec_blu_a.png> <C:/Walton/thes
-is/timthesis/figures/excitspecBlue_b.png>]
+)
+(C:\Walton\thesis\timthesis\chapter_results_imaging_e.tex [79] [80 <C:/Walton/t
+hesis/timthesis/figures/excitspec_blu_a.png> <C:/Walton/thesis/timthesis/figure
+s/excitspecBlue_b.png>]
 Chapter 6
-<figures/image_1e4.png, id=416, 557.08125pt x 705.38531pt>
+<figures/image_1e4.png, id=418, 557.08125pt x 705.38531pt>
 File: figures/image_1e4.png Graphic file (type png)
 
 <use figures/image_1e4.png>
@@ -1397,7 +1373,7 @@ Package pdftex.def Info: figures/image_1e4.png used on input line 28.
 
 
 ]
-<figures/xebaxe_instantaneous_scrunched.png, id=420, 1120.185pt x 1415.2875pt>
+<figures/xebaxe_instantaneous_scrunched.png, id=422, 1120.185pt x 1415.2875pt>
 File: figures/xebaxe_instantaneous_scrunched.png Graphic file (type png)
 
 <use figures/xebaxe_instantaneous_scrunched.png>
@@ -1406,7 +1382,7 @@ ut line 43.
 (pdftex.def)             Requested size: 446.26582pt x 563.83745pt.
  [82 <C:/Walton/thesis/timthesis/figures/image_1e4.png>] [83 <C:/Walton/thesis/
 timthesis/figures/xebaxe_instantaneous_scrunched.png>]
-<figures/lin_just20150807_lin.png, id=429, 899.36pt x 875.27pt>
+<figures/lin_just20150807_lin.png, id=431, 899.36pt x 875.27pt>
 File: figures/lin_just20150807_lin.png Graphic file (type png)
 
 <use figures/lin_just20150807_lin.png>
@@ -1414,7 +1390,7 @@ Package pdftex.def Info: figures/lin_just20150807_lin.png used on input line 57
 .
 (pdftex.def)             Requested size: 234.8775pt x 228.57985pt.
 
-<figures/lin_just20150526_lin.png, id=430, 899.36pt x 875.27pt>
+<figures/lin_just20150526_lin.png, id=432, 899.36pt x 875.27pt>
 File: figures/lin_just20150526_lin.png Graphic file (type png)
 
 <use figures/lin_just20150526_lin.png>
@@ -1426,7 +1402,7 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 57--60
  [][] [] 
  []
 
-<figures/train.png, id=431, 662.475pt x 731.73375pt>
+<figures/train.png, id=433, 662.475pt x 731.73375pt>
 File: figures/train.png Graphic file (type png)
  <use figures/train.png>
 Package pdftex.def Info: figures/train.png used on input line 66.
@@ -1443,7 +1419,7 @@ Underfull \vbox (badness 2221) has occurred while \output is active []
  [84 <C:/Walton/thesis/timthesis/figures/lin_just20150807_lin.png> <C:/Walton/t
 hesis/timthesis/figures/lin_just20150526_lin.png>] [85 <C:/Walton/thesis/timthe
 sis/figures/train.png>]
-<figures/xebaxe_largest_instantaneous.png, id=440, 1702.36pt x 674.52pt>
+<figures/xebaxe_largest_instantaneous.png, id=442, 1702.36pt x 674.52pt>
 File: figures/xebaxe_largest_instantaneous.png Graphic file (type png)
 
 <use figures/xebaxe_largest_instantaneous.png>
@@ -1464,35 +1440,31 @@ Chapter 7
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [89])
-[90] [91] [92] [93] (C:\Walton\thesis\timthesis\thesis_walton.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+[90] [91] [92] [93] (C:\Walton\thesis\timthesis\thesis_walton.aux) ) 
 Here is how much of TeX's memory you used:
- 5076 strings out of 494045
- 75515 string characters out of 3148385
+ 5090 strings out of 494045
+ 76540 string characters out of 3148385
  226443 words of memory out of 3000000
- 7994 multiletter control sequences out of 15000+200000
- 12608 words of font info for 49 fonts, out of 3000000 for 9000
+ 8009 multiletter control sequences out of 15000+200000
+ 12439 words of font info for 48 fonts, out of 3000000 for 9000
  876 hyphenation exceptions out of 8191
  40i,14n,35p,2464b,396s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.p
-fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on thesis_walton.pdf (100 pages, 7013024 bytes).
+<C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmti12.pfb>
+Output written on thesis_walton.pdf (100 pages, 7057937 bytes).
 PDF statistics:
- 515 PDF objects out of 1000 (max. 8388607)
+ 514 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 486 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 506 words of extra memory for PDF output out of 10000 (max. 10000000)
 
