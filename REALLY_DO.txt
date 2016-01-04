@@ -1,5 +1,6 @@
 - I put what I believe to be the correct 0.25 factor in the table for counts/photoelectron, but need to measure difference between gain / ADC modes (at some point).  IF YOU COME UP WITH A DIFFERENT ONE, NEED TO UPDATE QE PLOT, AND ALSO THE QUOTED NUMBERS IN TEXT (see QE.txt in realtemp/)
 - sideways Cr3+ old comments (Bill) about quoting a detection number of Cr (talk to Bill)
+- should 76(5)% be 76(6)% on alphaion thing?
 ? Sr lines in Blue excit.?  Issue is described in the unfinished, commented-out section in TEX file
 
 
