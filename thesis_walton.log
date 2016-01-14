@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.6.6)  13 JAN 2016 14:23
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.6.6)  14 JAN 2016 09:36
 entering extended mode
 **thesis_walton.tex
 (C:\Walton\thesis\timthesis\thesis_walton.tex
@@ -852,11 +852,8 @@ File: figures/stages_2.JPG Graphic file (type jpg)
 <use figures/stages_2.JPG>
 Package pdftex.def Info: figures/stages_2.JPG used on input line 352.
 (pdftex.def)             Requested size: 234.8775pt x 132.87445pt.
-) (C:\Walton\thesis\timthesis\chapter_procedure_b.tex
-Underfull \vbox (badness 1642) has occurred while \output is active []
-
- [53]
-[54 <C:/Walton/thesis/timthesis/figures/stages_2.JPG>]
+) (C:\Walton\thesis\timthesis\chapter_procedure_b.tex [53] [54 <C:/Walton/thesi
+s/timthesis/figures/stages_2.JPG>]
 Chapter 4
 <figures/spectra_fit_a.png, id=282, 949.5475pt x 674.52pt>
 File: figures/spectra_fit_a.png Graphic file (type png)
@@ -1382,7 +1379,7 @@ File: figures/xebaxe_instantaneous_scrunched.png Graphic file (type png)
 
 <use figures/xebaxe_instantaneous_scrunched.png>
 Package pdftex.def Info: figures/xebaxe_instantaneous_scrunched.png used on inp
-ut line 43.
+ut line 44.
 (pdftex.def)             Requested size: 446.26582pt x 563.83745pt.
  [82 <C:/Walton/thesis/timthesis/figures/image_1e4.png>] [83 <C:/Walton/thesis/
 timthesis/figures/xebaxe_instantaneous_scrunched.png>]
@@ -1390,7 +1387,7 @@ timthesis/figures/xebaxe_instantaneous_scrunched.png>]
 File: figures/lin_just20150807_lin.png Graphic file (type png)
 
 <use figures/lin_just20150807_lin.png>
-Package pdftex.def Info: figures/lin_just20150807_lin.png used on input line 57
+Package pdftex.def Info: figures/lin_just20150807_lin.png used on input line 58
 .
 (pdftex.def)             Requested size: 234.8775pt x 227.79984pt.
 
@@ -1398,25 +1395,19 @@ Package pdftex.def Info: figures/lin_just20150807_lin.png used on input line 57
 File: figures/lin_just20150526_lin.png Graphic file (type png)
 
 <use figures/lin_just20150526_lin.png>
-Package pdftex.def Info: figures/lin_just20150526_lin.png used on input line 59
+Package pdftex.def Info: figures/lin_just20150526_lin.png used on input line 60
 .
 (pdftex.def)             Requested size: 234.8775pt x 227.79984pt.
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 57--60
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 58--61
  [][] [] 
  []
 
 <figures/train.png, id=433, 662.475pt x 731.73375pt>
 File: figures/train.png Graphic file (type png)
  <use figures/train.png>
-Package pdftex.def Info: figures/train.png used on input line 66.
+Package pdftex.def Info: figures/train.png used on input line 67.
 (pdftex.def)             Requested size: 375.80544pt x 415.09398pt.
-
-Underfull \hbox (badness 1014) in paragraph at lines 67--67
-\OT1/cmr/m/n/12 with around 0.24 mW of 570 nm ex-ci-ta-tion fo-cused to w$[] \O
-MS/cmsy/m/n/12 $ \OT1/cmr/m/n/12 w$[] =$
- []
-
 
 Underfull \vbox (badness 2460) has occurred while \output is active []
 
@@ -1428,7 +1419,7 @@ File: figures/xebaxe_largest_instantaneous.png Graphic file (type png)
 
 <use figures/xebaxe_largest_instantaneous.png>
 Package pdftex.def Info: figures/xebaxe_largest_instantaneous.png used on input
- line 81.
+ line 82.
 (pdftex.def)             Requested size: 446.26582pt x 176.82228pt.
 )
 (C:\Walton\thesis\timthesis\chapter_conclusions_b.tex
@@ -1446,10 +1437,10 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [89])
 [90] [91] [92] [93] (C:\Walton\thesis\timthesis\thesis_walton.aux) ) 
 Here is how much of TeX's memory you used:
- 5090 strings out of 494045
- 76575 string characters out of 3148385
- 226443 words of memory out of 3000000
- 8009 multiletter control sequences out of 15000+200000
+ 5093 strings out of 494045
+ 76677 string characters out of 3148385
+ 226459 words of memory out of 3000000
+ 8012 multiletter control sequences out of 15000+200000
  12439 words of font info for 48 fonts, out of 3000000 for 9000
  876 hyphenation exceptions out of 8191
  40i,14n,35p,2464b,400s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1466,7 +1457,7 @@ m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
 pe1/public/amsfonts/cm/cmti12.pfb>
-Output written on thesis_walton.pdf (100 pages, 7054835 bytes).
+Output written on thesis_walton.pdf (100 pages, 7055163 bytes).
 PDF statistics:
  514 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

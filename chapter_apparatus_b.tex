@@ -10,7 +10,7 @@ In this chapter the apparatus at Colorado State University that was used for pro
 \section{Ion Beam System}
 \label{sec:ionbeam}
 
-The Colutron ion beam system is a clean mass-selected source of Ba\textsuperscript{+} which, with the added capability of pulsing, can do a very wide range of deposit sizes, from billions of ions in a focused laser region all the way down to the single-ion level and below.  The different components of this system are shown in Fig. \ref{fig:ionbeam} and described in the following subsections.  Ions produced in a Colutron ion source are accelerated and collimated for passage through the mass filter.  Several sets of deflection plates are available for steering, and Einzel lenses focus the beam near the final Faraday cup.  A set of pulsing plates can be used to deposit 1-$\mu$s ion pulses in SXe on the cold sapphire window, or continuous ion current can be used in depositing larger numbers of ions.
+The Colutron \cite{ColutronCompany} ion beam system is a clean mass-selected source of Ba\textsuperscript{+} which, with the added capability of pulsing, can do a very wide range of deposit sizes, from billions of ions in a focused laser region all the way down to the single-ion level and below.  The different components of this system are shown in Fig. \ref{fig:ionbeam} and described in the following subsections.  Ions produced in a Colutron ion source are accelerated and collimated for passage through the mass filter.  Several sets of deflection plates are available for steering, and Einzel lenses focus the beam near the final Faraday cup.  A set of pulsing plates can be used to deposit 1-$\mu$s ion pulses in SXe on the cold sapphire window, or continuous ion current can be used in depositing larger numbers of ions.
 %(may only want to say that if we have those scans)
 
 \vspace{20mm}
@@ -268,16 +268,16 @@ Camera Lens 200~mm & 0.91 & \\
 Steering Mirrors ($\times 2$) & 0.95 & \\
 CCD Quantum Efficiency & 0.90 & \\
 Filter & 0.98 & \\
-Counts per Photoelectron (CCD) & 0.5 & $\epsilon_{c}\text{(w/o spectrom.)} = 4.8 \times 10^{-3}$\\
+Counts per Photoelectron (CCD) & 0.467 & $\epsilon_{c}\text{(w/o spectrom.)} = 4.5 \times 10^{-3}$\\
 \hline
-Spectrometer & 0.5 & $\epsilon_{c}\text{(w/ spectrom.)} = 2.4 \times 10^{-3}$\\
+Spectrometer & 0.5 & $\epsilon_{c}\text{(w/ spectrom.)} = 2.2 \times 10^{-3}$\\
 \end{tabular}
 \end{table}
 
 \section{Collection Optics}
 \label{sec:collection}
 
-Fluorescence is collected above the cryostat, as shown in Fig. \ref{fig:endOfBeamOptics}.  A 50~mm Nikon camera lens collimates the light, and one or more fluorescence filters sit on top of it.  A band-pass filter is used for imaging, and a Raman filter is used for spectroscopy.  The fluorescence is then guided by two steering mirrors, and is imaged by a 200~mm Nikon camera lens onto a Roper Scientific liquid-nitrogen-cooled CCD, with a net magnification of 4.  The CCD has a specified quantum efficiency of 90\% in the visible, and in its medium gain mode and 50~kHz digitization rate, records one count per two photoelectrons collected.  At the set point of -100~$^{\circ}$C, dark counts are negligible.
+Fluorescence is collected above the cryostat, as shown in Fig. \ref{fig:endOfBeamOptics}.  A 50~mm Nikon camera lens collimates the light, and one or more fluorescence filters sit on top of it.  A band-pass filter is used for imaging, and a Raman filter is used for spectroscopy.  The fluorescence is then guided by two steering mirrors, and is imaged by a 200~mm Nikon camera lens onto a Roper Scientific liquid-nitrogen-cooled CCD, with a net magnification of 4.  The CCD has a specified quantum efficiency of 90\% in the visible, and in its medium gain mode and 50~kHz digitization rate, records one count per 2.14 photoelectrons collected \cite{PrincetonInstruments}.  At the set point of -100~$^{\circ}$C, dark counts are negligible.
 
 For spectroscopy, the 200~mm camera lens focuses the light onto the inlet slit of an Acton SP-2150i imaging spectrometer, which images the light onto the CCD after reflecting off a diffraction grating.  The 0-order reflection of the grating provides an image for alignment when a wide slit is used, and the grating is used in 1\textsuperscript{st}-order with a narrow slit to disperse the spectrum across the horizontal CCD pixels for doing spectroscopy.
 
@@ -300,7 +300,7 @@ To avoid unnecessary fluorescence bleaching (bleaching is described in Sec. \ref
 
 Although the imaging spectrometer can produce spatial images with the 0-order grating reflection, better collection efficiency and imaging quality are achieved by removing the spectrometer and imaging directly onto the CCD.  Band-pass filters were used to pass the desired Ba fluorescence peak(s) while greatly attenuating laser scatter and sapphire fluorescence.
 
-An example raw image of the focused 570~nm dye laser on a Ba\textsuperscript{+} deposit using the fluorescence of the 619-nm peak is shown in Fig. \ref{fig:imageexamp}.  With 4$\times$ magnification, each pixel corresponds to 5~$\mu$m$\times$5~$\mu$m on the window.  The laser's path through the window is faintly visible by the residual broad Cr\textsuperscript{3+} fluorescence that is passed by the 620-nm band-pass filter.  The laser is focused at the top surface of the window, which faces the ion beam.  The surface background is seen on the back surface, and the 619-nm Ba fluorescence stands out above both backgrounds on the top surface.  The imaging resolution results in a 1/e$^{2}$ radius of about 12~$\mu$m when imaging the 2.06~$\mu$m $\times$ 2.66~$\mu$m 1/e$^{2}$ laser spot.
+An example raw image of the focused 570~nm dye laser on a Ba\textsuperscript{+} deposit using the fluorescence of the 619-nm peak is shown in Fig. \ref{fig:imageexamp}.  With 4$\times$ magnification, each pixel corresponds to 5~$\mu$m$~\times~$5~$\mu$m on the window.  The laser's path through the window is faintly visible by the residual broad Cr\textsuperscript{3+} fluorescence that is passed by the 620-nm band-pass filter.  The laser is focused at the top surface of the window, which faces the ion beam.  The surface background is seen on the back surface, and the 619-nm Ba fluorescence stands out above both backgrounds on the top surface.  The imaging resolution results in a 1/e$^{2}$ radius of about 12~$\mu$m when imaging the 2.06~$\mu$m~$\times$~2.66~$\mu$m 1/e$^{2}$ laser spot.
 
 \section{Wavelength Calibration}
 
@@ -325,7 +325,7 @@ Wavelength calibration of the spectrometer was done using three lasers whose wav
 \label{fig:cryovibe2D}
 \end{figure}
 
-Relative vibrations between the laser and the sapphire window could occur on the micron scale from a few sources.  First, the laser is on a separate optical table from the cryostat and collection optics.  Second, the cryostat vibrates due to its He pump cycles.  Vibrations increase the total number of Ba atoms exposed during a measurement, but not the instantaneous (relative to the fluorescence process) number of Ba atoms in the laser beam area.
+Relative vibrations between the laser and the sapphire window could occur on the micron scale from a few sources.  First, the laser is on a separate optical table from the cryostat and collection optics.  Second, the cryostat vibrates due to its He pump cycles.  Vibrations increase the total number of Ba atoms exposed during a measurement, but not the instantaneous number of Ba atoms in the laser beam area.
 
 Vibrations were observed by determining the position of a ``dust spot" (a highly scattering feature on one sapphire window) relative to the position of the laser in an image on time scales down to 50~ms.  An example of an image from this experiment is shown in Fig. \ref{fig:dustspot}.  The dust spot was illuminated by a defocused 657~nm diode laser, and the 570-nm dye laser was somewhat defocused in order to optimally defocus the red laser with the same focusing lens. For each frame, 2D Gaussian functions with variable widths and magnitudes were fit to locate the center of the laser spot and the dust spot in order to measure their relative position.  The fit range for the laser spot was restricted in y so that it was not affected by the bulk sapphire fluorescence path.  The distances in x and y between the dust spot and laser are plotted for each 50-ms snapshot in Fig. \ref{fig:cryovibe2D}a.  CCD readout and shutter compensation time occur for about 877~ms between frames.  The distribution shows a correlation between x and y, indicating vibration in a particular direction.  Sinusoidal motion results in a collection of data points at the two ends.  The amplitude of the vibration is about 15~$\mu$m from this data.
 

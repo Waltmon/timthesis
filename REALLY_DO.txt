@@ -1,15 +1,16 @@
-AT END:  do a final read-through for typos, and for instances of Blah blah blah.  [ref]  (which should be Blah blah blah [ref].)
+AT END:
+...read carefully for content correctness (including references to what's in figures), wordings and typos
+...READ all non-Imaging chapters for number of atoms, or counts/atom, quoted (will need 0.8 corr)
+...look for figures where whole page is taken up by more figures but more than one caption -- Bill commented in old comments that, in Moethod, he had a hard time finding Fig. 4.2 (called 1.2 there).
 ...and then check figure placement, etc.
 ...also check for break-ups of "Fig. []", and "EXO-200", ... anything else?
-...READ all non-Imaging chapters for number of atoms, or counts/atom, quoted (will need 0.8 corr)
-...see comment on ice cube paper
-...look for figures where whole page is taken up by more figures but more than one caption -- Bill commented in old comments that, in Moethod, he had a hard time finding Fig. 4.2 (called 1.2 there).
-...does reference to future scanning make sense now on its own?  anything about re-pumping?
-...and this other list of (redundant?) things:
-LAST:
-- read carefully for content correctness (including references to what's in figures), wordings and typos
-- check citation orders and figures too
-- thing on paper, which I'm pretty sure is about checking figure placement
+...make sure the 15umX15um ~pg.84 (paragraph begins with "To determine the total 619-..." in Imaging) and its nearby 3pixelX... aren't cut off by lines, since they aren't ~ed, but I like the way they look and am making an exception.
+
+* and for instances of Blah blah blah.  [ref]  (which should be Blah blah blah [ref].)
+? see comment on ice cube paper
+* does reference to future scanning make sense now on its own?  anything about re-pumping?
+* check citation orders and figures too
+* thing on paper, which I'm pretty sure is about checking figure placement
 
 
 
@@ -18,6 +19,24 @@ LAST:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		   (done)
 =============================================
              CORRECTIONS NOTES
 =============================================
