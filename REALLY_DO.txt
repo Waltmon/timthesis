@@ -1,6 +1,7 @@
 AT END:
 ...read carefully for content correctness (including references to what's in figures), wordings and typos
 ...READ all non-Imaging chapters for number of atoms, or counts/atom, quoted (will need 0.8 corr)
+...change back to gray from red (astig fits)?
 ...look for figures where whole page is taken up by more figures but more than one caption -- Bill commented in old comments that, in Moethod, he had a hard time finding Fig. 4.2 (called 1.2 there).
 ...and then check figure placement, etc.
 ...also check for break-ups of "Fig. []", and "EXO-200", ... anything else?
