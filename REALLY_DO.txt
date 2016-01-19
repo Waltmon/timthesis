@@ -1,3 +1,5 @@
+- IS THERE ANY MENTION OF THE 0.8 STUFF IN THE TEXT?  I found nothing on it in Ch. 3.
+
 AT END:
 ...read carefully for content correctness (including references to what's in figures), wordings and typos
 ...READ all non-Imaging chapters for number of atoms, or counts/atom, quoted (will need 0.8 corr)
