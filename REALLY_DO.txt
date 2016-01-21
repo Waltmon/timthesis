@@ -1,4 +1,5 @@
 - IS THERE ANY MENTION OF THE 0.8 STUFF IN THE TEXT?  I found nothing on it in Ch. 3.
+- change fig:CrBroad to say 693 in legend
 
 AT END:
 ...read carefully for content correctness (including references to what's in figures), wordings and typos
