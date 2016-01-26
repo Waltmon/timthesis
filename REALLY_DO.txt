@@ -1,6 +1,6 @@
 - IS THERE ANY MENTION OF THE 0.8 STUFF IN THE TEXT?  I found nothing on it in Ch. 3.
 - change fig:CrBroad to say 693 in legend
-- dude, it really seems like, e.g., (b) in green fitting figure is NOT the right wavelength...
+- add something in Ch. 4 text and maybe "(bleached)" in caption too, that says that green bleach figure (e) was bleached with ~165 s of 548 nm at 3.5 mW, w~=1000 micron
 - things on group meeting paper about the BG vs. Temp. plot
 
 AT END:
@@ -117,6 +117,7 @@ German (1934): http://link.springer.com/article/10.1007%2FBF01351864
 
 
 ----------------------------------------------------------------------------------------------------------------------
+* it really seems like, e.g., (b) in green fitting figure is NOT the right wavelength...
 * I put what I believe to be the correct 0.25 factor in the table for counts/photoelectron, but need to measure difference between gain / ADC modes (at some point).  IF YOU COME UP WITH A DIFFERENT ONE, NEED TO UPDATE QE PLOT, AND ALSO THE QUOTED NUMBERS IN TEXT (see QE.txt in realtemp/)
 * should 76(5)% be 76(6)% on alphaion thing?
 w sideways Cr3+ old comments (Bill) about quoting a detection number of Cr (talk to Bill)
