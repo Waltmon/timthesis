@@ -2,6 +2,10 @@
 - change fig:CrBroad to say 693 in legend
 - add something in Ch. 4 text and maybe "(bleached)" in caption too, that says that green bleach figure (e) was bleached with ~165 s of 548 nm at 3.5 mW, w~=1000 micron
 - things on group meeting paper about the BG vs. Temp. plot
+- Caption for dig 5.10 add "normalized" at beginning like the previous figure
+- Could even have a side figure showing the integrated regions with arrows from the legend, with explanation in text
+- Yes, like nothing is said about the BG vs temp... I don think you even mention te sapphire. Talks about it, an change surface to surface +BG, in legend too
+- The number of Ar+ in laser region in fig 5.3b -- I bet a correction should have been made, if you give a crap.
 
 AT END:
 ...read carefully for content correctness (including references to what's in figures), wordings and typos
