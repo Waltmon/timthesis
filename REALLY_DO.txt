@@ -1,3 +1,4 @@
+- replace 5-26 with full set?
 - IS THERE ANY MENTION OF THE 0.8 STUFF IN THE TEXT?  I found nothing on it in Ch. 3.
 - change fig:CrBroad to say 693 in legend
 - add something in Ch. 4 text and maybe "(bleached)" in caption too, that says that green bleach figure (e) was bleached with ~165 s of 548 nm at 3.5 mW, w~=1000 micron
