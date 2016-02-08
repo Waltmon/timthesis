@@ -1,3 +1,4 @@
+- re-make 5-26 with the right calculation, and triple check numions, and also double check counts level on one
 - after fixing 5-26 to do Xe ave (would it be easy to do 2/3 and 1/3?), have it plot crazy BG ones as open circles, and have text explaining (maybe not in caption), saying those have a more varying surface BG which correlates with a movement of the image.
 - change fig:CrBroad to say 693 in legend
 - add something in Ch. 4 text and maybe "(bleached)" in caption too, that says that green bleach figure (e) was bleached with ~165 s of 548 nm at 3.5 mW, w~=1000 micron
@@ -17,6 +18,7 @@ AT END:
 ...also check for break-ups of "Fig. []", and "EXO-200", ... anything else?
 ...make sure the 15umX15um ~pg.84 (paragraph begins with "To determine the total 619-..." in Imaging) and its nearby 3pixelX... aren't cut off by lines, since they aren't ~ed, but I like the way they look and am making an exception.
 
+* you have to check 8-7 numbers vs. what you get in ions_in_laser_region.xlsx:  run its script w/o saving, and w/ labels, and compare to what's in thesis as well as ions_in_laser_region w/ additional 0.8
 * IS THERE ANY MENTION OF THE 0.8 STUFF IN THE TEXT?  I found nothing on it in Ch. 3.
 * and for instances of Blah blah blah.  [ref]  (which should be Blah blah blah [ref].)
 ? see comment on ice cube paper
