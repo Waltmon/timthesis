@@ -28,9 +28,9 @@
 \contentsline {section}{\tocsection {}{3.7}{Vibrations and Effective Laser Region}}{51}
 \contentsline {chapter}{\tocchapter {Chapter}{4}{Method}}{54}
 \contentsline {section}{\tocsection {}{4.1}{Fitting of Spectra}}{54}
-\contentsline {subsection}{\tocsubsection {}{4.1.1}{Fitting Spectra with Green Excitation}}{55}
+\contentsline {subsection}{\tocsubsection {}{4.1.1}{Fitting Spectra with Green Excitation}}{56}
 \contentsline {subsection}{\tocsubsection {}{4.1.2}{Fitting Spectra with Blue Excitation}}{56}
-\contentsline {section}{\tocsection {}{4.2}{Background Spectra}}{57}
+\contentsline {section}{\tocsection {}{4.2}{Background Spectra}}{58}
 \contentsline {chapter}{\tocchapter {Chapter}{5}{Results: Spectroscopy}}{63}
 \contentsline {section}{\tocsection {}{5.1}{Excitation and Emission of Ba in SXe}}{63}
 \contentsline {section}{\tocsection {}{5.2}{619-nm Peak Assignment}}{66}

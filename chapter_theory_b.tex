@@ -4,21 +4,6 @@
 
 Theory relevant to the spectroscopy of single Ba atoms and Ba\textsuperscript{+} ions in SXe matrices is discussed, beginning with the spectroscopy of Ba and Ba\textsuperscript{+} in vacuum in Sec. \ref{sec:vacuum}, with a numerical solution to a 5-level rate equations model in Sec. \ref{sec:model}.  Matrix isolation spectroscopy of metal species in solid noble gas matrices is discussed in Sec. \ref{sec:matrix}.  Finally, fluorescence efficiency and cross section calculations are presented in Sec. \ref{sec:fluorEff}.
 
-\section{Ba/Ba\textsuperscript{+} Spectroscopy in Vacuum}
-\label{sec:vacuum}
-
-Some of the low-lying energy levels for Ba in vacuum are shown in Fig. \ref{fig:elevsBa}.  Transition rates for the lowest-lying Ba energy levels in vacuum are shown in Table \ref{table:BaTransitions}.  The main transition is between the ground $6s^{2}$ $^{1}$S$_{0}$ state to the excited $6s6p$ $^{1}$P$_{1}$\textsuperscript{o} state.  Decays from the $^{1}$P$_{1}$\textsuperscript{o} state to three metastable D states have a branching ratio of about 1 in 330 excitations.  Decays back to ground from the D states are parity-forbidden, resulting in very low decay rates of around 4~s$^{-1}$ for the $^{1}$D$_{2}$ state, and around 0.01~s$^{-1}$ for the $^{3}$D states.  This can lead to significant optical pumping of these states during multiple cycles of excitation of the  $^{1}$S$_{0} \rightarrow ^{1}$P$_{1}$\textsuperscript{o} transition.
-
-%, including that of $^{3}$P$_{1}$\textsuperscript{o} to ground.  Though decays into the $^{3}$P states from $^{1}$P$_{1}$\textsuperscript{o} are parity-forbidden, they may occur for Ba in a SXe matrix, in which case $^{3}$P$_{1}$\textsuperscript{o} to ground is relevant
-
-\begin{figure} %[H]
-	\includegraphics[width=.8\textwidth]{figures/elevs_Ba_extra_with3P1.png}
-	\caption{Ba energy levels in vacuum.}
-    \label{fig:elevsBa}
-\end{figure}
-
-The low-lying energy levels of Ba\textsuperscript{+} in vacuum are shown in Fig. \ref{fig:elevsBaPlus}.  Two strong transitions exist between the ground $6s$ $^{2}$S$_{1/2}$ state and the $6p$ $^{2}$P$_{1/2}$ and $6p$ $^{2}$P$_{3/2}$ excited states.  Branching ratios to the two metastable $^{2}$D states result in a decay into a $^{2}$D state after about 4 excitations.  Decay out of the $^{2}$D states takes tens of seconds.  Transition rates between these levels are listed in Table \ref{table:BaTransitions}.    
-
 \begin{table}[!htbp]
 \caption{Transition rates for the lowest-lying energy levels of Ba and Ba\textsuperscript{+} in vacuum.} %not sure what [Small Table], between \caption and {}, w/ no spaces, does
 \label{table:BaTransitions}
@@ -43,6 +28,21 @@ Ba\textsuperscript{+} & $6p$ $^{2}P_{3/2}$\textsuperscript{o} $\rightarrow 6s $ 
 & $5d$ $^{2}D_{3/2} \rightarrow 6s$ $^{2}S_{1/2}$ & $1.3 \times 10^{-2}$ & \cite{BaPlusD32} \\
 \end{tabular}
 \end{table}
+
+\section{Ba/Ba\textsuperscript{+} Spectroscopy in Vacuum}
+\label{sec:vacuum}
+
+Some of the low-lying energy levels for Ba in vacuum are shown in Fig. \ref{fig:elevsBa}.  Transition rates for the lowest-lying Ba energy levels in vacuum are shown in Table \ref{table:BaTransitions}.  The main transition is between the ground $6s^{2}$ $^{1}$S$_{0}$ state to the excited $6s6p$ $^{1}$P$_{1}$\textsuperscript{o} state.  Decays from the $^{1}$P$_{1}$\textsuperscript{o} state to three metastable D states have a branching ratio of about 1 in 330 excitations.  Decays back to ground from the D states are parity-forbidden, resulting in very low decay rates of around 4~s$^{-1}$ for the $^{1}$D$_{2}$ state, and around 0.01~s$^{-1}$ for the $^{3}$D states.  This can lead to significant optical pumping of these states during multiple cycles of excitation of the  $^{1}$S$_{0} \rightarrow ^{1}$P$_{1}$\textsuperscript{o} transition.
+
+%, including that of $^{3}$P$_{1}$\textsuperscript{o} to ground.  Though decays into the $^{3}$P states from $^{1}$P$_{1}$\textsuperscript{o} are parity-forbidden, they may occur for Ba in a SXe matrix, in which case $^{3}$P$_{1}$\textsuperscript{o} to ground is relevant
+
+\begin{figure} %[H]
+	\includegraphics[width=.8\textwidth]{figures/elevs_Ba_extra_with3P1.png}
+	\caption{Ba energy levels in vacuum.}
+    \label{fig:elevsBa}
+\end{figure}
+
+The low-lying energy levels of Ba\textsuperscript{+} in vacuum are shown in Fig. \ref{fig:elevsBaPlus}.  Two strong transitions exist between the ground $6s$ $^{2}$S$_{1/2}$ state and the $6p$ $^{2}$P$_{1/2}$ and $6p$ $^{2}$P$_{3/2}$ excited states.  Branching ratios to the two metastable $^{2}$D states result in a decay into a $^{2}$D state after about 4 excitations.  Decay out of the $^{2}$D states takes tens of seconds.  Transition rates between these levels are listed in Table \ref{table:BaTransitions}.    
 
 \begin{figure} %[H]
 	\includegraphics[width=.6\textwidth]{figures/elevs_Ba+_separate.png}
@@ -259,6 +259,6 @@ Integrating Eq. \ref{eqn:sigma} then yields:
 Since the cross section $\sigma(\nu)$ is proportional to the excitation spectrum $E(\nu)$, we can finally write the cross section as a function of $\nu$ according to Eq. \ref{eqn:sigmafinal}:
 
 \begin{equation}
-\sigma(\nu) = \frac{A_{21} E(\nu)}{\int_{0}^{\infty} E(\nu') \nu'^2 d\nu'} \frac{g_2}{g_1} \frac{c^2}{8 \pi}.
+\sigma(\nu) = \frac{A_{21} E(\nu)}{\int_{0}^{\infty} E(\nu') \nu'^2 d\nu'} \frac{g_2}{g_1} \frac{c^2}{8 \pi}
 \label{eqn:sigmafinal}
 \end{equation}
