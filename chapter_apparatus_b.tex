@@ -43,6 +43,13 @@ The discharge produces a plasma that contains barium ions.  The application of a
 
 \subsection{E$\times$B Velocity Filter}
 
+\begin{figure} %[h]
+        \centering
+                \includegraphics[width=.6\textwidth]{figures/ExB.png}
+                \caption{Colutron E$\times$B ion velocity filter.}
+\label{fig:exb}
+\end{figure}
+
 The E$\times$B velocity filter selects Ba\textsuperscript{+} by creating perpendicular electric and magnetic fields, which produce opposing forces on charged particles moving through the filter.  The opposing forces will be equal for ions with velocity $v = \frac{E}{B}$.  Since ion velocity is determined by mass ($m$), charge ($q$) and beam potential ($V$), the filter selects ions satisfying Eq. \ref{eqn:massfilt}:
 
 \begin{equation}
@@ -52,14 +59,6 @@ The E$\times$B velocity filter selects Ba\textsuperscript{+} by creating perpend
 
 \noindent
 where $B$ and $E$ are the magnetic and electric fields, respectively.  Those fields are chosen such that Ba\textsuperscript{+} ions pass straight through.  Other ions, e.g. Ar\textsuperscript{+}, will be deflected.  
-
-\begin{figure} %[h]
-        \centering
-                \includegraphics[width=.6\textwidth]{figures/ExB.png}
-                \caption{Colutron E$\times$B ion velocity filter.}
-\label{fig:exb}
-\end{figure}
-
 
 The E$\times$B filter is shown in Fig. \ref{fig:exb}.  Electromagnets provide a vertical magnetic field.  Electrode plates and field-shaping guard rings provide a horizontal electric field.  The guard rings prevent lensing and astigmatism from the fringe fields of the plates \cite{Colutron}.
 
@@ -114,7 +113,7 @@ I = \frac{-(V_{out} + R_{1} C \frac{dV_{out}}{dt})}{R_{1} M}
 \noindent
 where $R_{1} C$ and $R_{1} M$ are determined by putting a known square pulse of current into the pre-amp through a large resistor.  First, the time constant of an exponential fit to the signal decay after the pulse determines $R_{1} C$.  Then $R_{1} M$ is determined by matching the amplitude of the calculated current signal to the original square-pulse input current.  The actual currents in the induction plates and cup 3 calculated using Eq. \ref{eqn:preamp} are shown in Fig. \ref{fig:pulse_raw_shaped}b.  The induction current is positive as ions are approaching the middle plate, and an equal but negative current is seen after the ions pass this plate.  The Faraday cup stops the ions, so it produces only a positive induction current as ions approach it.
 
-\begin{figure}[h]
+\begin{figure} [h]
         \centering
                 \includegraphics[width=.7\textwidth]{figures/pulses_BaAr.png}
                 \caption{Arrival time of pulses at cup 3 vs. time of pulsing plate signal (black (+) and gray (-)) for Ar\textsuperscript{+} and Ba\textsuperscript{+} ions at 2000~eV.}
@@ -142,16 +141,16 @@ The number of ions being observed is then determined by multiplying the ion dens
 \section{Ba Getter Source}
 \label{sec:getter}
 
-A BaAl$_{4}$ getter (SAES with part number ST 2/F/WIRE), can be inserted on a bellows to emit Ba atoms toward the sapphire window, as shown in Fig. \ref{fig:endOfBeamBa}.  When heated, the getter emits neutral Ba with minimal Ba\textsuperscript{+} content due to the low temperature ($\sim$800$^{\circ}$ C determined by observing brick red color temperature).  Getters were used extensively in previous work \cite{Brian} for measuring the absorption and emission spectra of Ba in SXe with large Ba deposits.  A getter was used briefly in this work in verifying that the 619-nm fluorescence peak, that is used for single Ba imaging, is actually a neutral Ba peak, as described in Section \ref{sec:619identification}.  The barium getters used in \cite{Brian} were exothermic BaAl$_{4}$-Ni flash getters.  The getter used here is an endothermic BaAl$_{4}$ type, designed for more controlled Ba emission.  
-
-%no evidence is provided in Brian's thesis, nor Shon's, and I don't see anything on the SAES website
-
 \begin{figure} %[h]
         \centering
                 \includegraphics[width=.75\textwidth]{figures/window_etc_justBa_frontViewGetter.png}
                 \caption{Apparatus near the sapphire window, including induction plates, Ba getter, Faraday cup 3, Xe gas inlet, and sapphire window at 11~K.}
 \label{fig:endOfBeamBa}
 \end{figure}
+
+A BaAl$_{4}$ getter (SAES with part number ST 2/F/WIRE), can be inserted on a bellows to emit Ba atoms toward the sapphire window, as shown in Fig. \ref{fig:endOfBeamBa}.  When heated, the getter emits neutral Ba with minimal Ba\textsuperscript{+} content due to the low temperature ($\sim$800$^{\circ}$ C determined by observing brick red color temperature).  Getters were used extensively in previous work \cite{Brian} for measuring the absorption and emission spectra of Ba in SXe with large Ba deposits.  A getter was used briefly in this work in verifying that the 619-nm fluorescence peak, that is used for single Ba imaging, is actually a neutral Ba peak, as described in Section \ref{sec:619identification}.  The barium getters used in \cite{Brian} were exothermic BaAl$_{4}$-Ni flash getters.  The getter used here is an endothermic BaAl$_{4}$ type, designed for more controlled Ba emission.  
+
+%no evidence is provided in Brian's thesis, nor Shon's, and I don't see anything on the SAES website
 
 %\begin{figure} %[h]
 %        \centering
@@ -210,14 +209,14 @@ To evaporate a sample, the window is heated to 100~K.  Fringes appear during thi
 
 Green to yellow laser excitation is done with a Coherent 599 dye laser, pumped by the 514-nm line of a Lexel 3500 Ar ion laser.  Rhodamine 110 (R110) dye is used for the 542 - 566~nm wavelength range, and Rhodamine 6G (R6G) for the 567 - 590~nm range.  Another Coherent 599 dye laser with Coumarin 480 (C480) dye, pumped by a Kr ion laser, is used for blue excitation.  The Coherent 599 dye lasers are used with birefringent filters for wavelength tuning, but without etalons or single frequency stabilization, since the broad absorption of Ba and Ba\textsuperscript{+} in SXe does not require narrow band laser excitation.
 
+The optics for these experiments is shown in Fig. \ref{fig:endOfBeamOptics}.  In initial work, including spectroscopy (Chapter \ref{chapter:spectroscopy}) and some imaging (Chapter \ref{chapter:imaging}), a bi-convex lens was used.  This lens had a little spherical aberration, resulting in blurring of the laser focus.  This aberration does not affect the spectroscopy results in Chapter \ref{chapter:spectroscopy}, where semi-focused beam 1/$e^{2}$ radii of 100-1000~$\mu$m were used.  However, spherical aberrations caused the minimum beam radius to be about 5~$\mu$m.  To approach the diffraction limit in imaging small numbers (Chapter \ref{chapter:imaging}), a 7.9-cm focal length aspherical lens was used.  A comparison of the minimum spot sizes for these two lenses, calculated by David Fairbank of Thorlabs with OpticStudio software, is shown in Fig. \ref{fig:DFairbank}.
+
 \begin{figure} %[h]
         \centering
                 \includegraphics[width=.7\textwidth]{figures/DFairbank_aber.png}
                 \caption{Calculated minimum laser spot size distributions, with wavelength 570~nm and laser radius w = 7~mm incident on the lens, for (a) bi-convex f = 7~cm lens, and (b) aspherical f = 7.9~cm lens.  \cite{DFairbank}}
 \label{fig:DFairbank}
 \end{figure}
-
-The optics for these experiments is shown in Fig. \ref{fig:endOfBeamOptics}.  In initial work, including spectroscopy (Chapter \ref{chapter:spectroscopy}) and some imaging (Chapter \ref{chapter:imaging}), a bi-convex lens was used.  This lens had a little spherical aberration, resulting in blurring of the laser focus.  This aberration does not affect the spectroscopy results in Chapter \ref{chapter:spectroscopy}, where semi-focused beam 1/$e^{2}$ radii of 100-1000~$\mu$m were used.  However, spherical aberrations caused the minimum beam radius to be about 5~$\mu$m.  To approach the diffraction limit in imaging small numbers (Chapter \ref{chapter:imaging}), a 7.9-cm focal length aspherical lens was used.  A comparison of the minimum spot sizes for these two lenses, calculated by David Fairbank of Thorlabs with OpticStudio software, is shown in Fig. \ref{fig:DFairbank}.
 
 \begin{figure} %[H]
         \centering
