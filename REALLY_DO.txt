@@ -1,13 +1,11 @@
-good:  12345
-
-- check all page numbers for text overlap
-- go through in zoom out mode to make sure it looks all nice
-
-on figure placement, remember you can add white space at the top of an image, which may help a little on things where there are two separate figures on one page, e.g. figures 4.7 and 4.8
 
 
 
 
+
+* check all page numbers for text overlap
+* go through in zoom out mode to make sure it looks all nice
+* on figure placement, remember you can add white space at the top of an image, which may help a little on things where there are two separate figures on one page, e.g. figures 4.7 and 4.8
 * Ch2:  energy level figs, 2.2 is refered to too far back -- may need to put table on 1st page and have Ba and Ba+ on same page
 * The number of Ar+ in laser region in fig 5.3b -- I bet a correction should have been made, if you give a crap.
 * re-read the final paragraph one more time, and also the new (last) paragraph in Calibration of Ion Deposit section
