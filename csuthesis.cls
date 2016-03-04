@@ -608,6 +608,45 @@
     \prevdepth\z@ % because \abstractbox is a vtop
   \fi
 }
+%Tim EDIT
+\newbox\dedbox
+\newenvironment{dedication}{%
+  \ifx\maketitle\relax
+    \ClassWarning{\@classname}{dedication should precede
+      \protect\maketitle\space in the csuthesis class; reported}%
+  \fi
+  \global\setbox\ackbox=\vtop \bgroup
+	\list{}{\labelwidth\z@
+			\leftmargin0pc \rightmargin\leftmargin
+			\listparindent\normalparindent \itemindent\z@
+			\parsep\z@
+			\itemsep0.5\baselineskip
+			% In order to get equation numbers indented with the rest of the abstract, we have to do this:
+			\let\fullwidthdisplay\relax
+		}%
+	\ifsmallcapsok
+		\item \begin{center}\scshape Dedication\end{center}
+% 		\addcontentsline{toc}{chapter}{{\scshape Acknowledgements}}
+	\else
+		\item \begin{center}\MakeUppercase{Dedication}\end{center}
+% 		\addcontentsline{toc}{chapter}{\MakeUppercase{Acknowledgements}}
+	\fi
+	\addcontentsline{toc}{chapter}{Dedication}
+	\item[\hskip\normalparindent]
+% 	\ifsmallcapsok
+% % 		\begin{center}\scshape Acknowledgements\end{center}
+% 		\centerline{\scshape Acknowledgements}
+% 		\addcontentsline{toc}{chapter}{{\scshape Acknowledgements}}
+% 	\else
+% % 		\begin{center}{\MakeUppercase{Acknowledgements}}\end{center}%
+% 		\centerline{\MakeUppercase{Acknowledgements}}
+% 		\addcontentsline{toc}{chapter}{\MakeUppercase{Acknowledgements}}
+% 	\fi
+% 	\hspace{\baselineskip}
+	%blank line below here so acknowledgements starts indented (to match abstract)
+	
+}%end Tim EDIT
+
 % Now we overwrite \maketitle
 % the original had a lot more error handling, which I have ignored here.
 % The original was also a lot more elegant.  Begin hack and slash.

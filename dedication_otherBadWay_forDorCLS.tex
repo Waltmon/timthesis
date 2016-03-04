@@ -1,0 +1,53 @@
+\newbox\dedbox
+\newenvironment{dedication}{%
+	\ifx\maketitle\relax
+		\ClassWarning{\@classname}{um whatever no: should precede
+			\protect\maketitle\space in CSU Thesis document class; reported}%
+	\fi
+	\global\setbox\dedbox=\vtop \bgroup
+% 		\normalfont\Small
+% 		\begin{center}\scshape
+% 		\dedname \\
+% 		\vspace{.5\baselineskip}
+% 		\@title
+% 		\end{center}
+		\list{}{\labelwidth\z@
+			\leftmargin0pc \rightmargin\leftmargin
+			\listparindent\normalparindent \itemindent\z@
+			\parsep\z@
+			\itemsep0.5\baselineskip
+			% In order to get equation numbers indented with the rest of the abstract, we have to do this:
+			\let\fullwidthdisplay\relax
+		}%
+	\ifsmallcapsok
+		\item \begin{center}\scshape Dedication\end{center}
+%		\item \begin{center}\scshape \@title\end{center}
+% 		\addcontentsline{toc}{chapter}{{\scshape Abstract}}
+	\else
+		\item \begin{center}\MakeUppercase{Dedication}\end{center}
+%		\item \begin{center}\MakeUppercase{\@title}\end{center}
+% 		\addcontentsline{toc}{chapter}{\MakeUppercase{Abstract}}
+	\fi
+	\addcontentsline{toc}{chapter}{Dedication}
+	\item[\hskip\normalparindent]
+% % 	\begin{center}\begin{singlespace}\MakeUppercase{Abstract}\\ ~\\\end{singlespace}
+% % 	\centerline{\scshape Abstract}
+% % % 	~\\
+% % 	\begin{center}\scshape \@title\end{center}
+% 	\ifsmallcapsok
+% 		\begin{center}\begin{singlespace}{\scshape Abstract}\\ ~\\\end{singlespace}
+% 		{\scshape \@title}
+% 		\addcontentsline{toc}{chapter}{{\scshape Abstract}}
+% 	\else
+% 		\begin{center}\begin{singlespace}{\MakeUppercase{Abstract}}\\ ~\\\end{singlespace}
+% 		\MakeUppercase{\@title}
+% 		\addcontentsline{toc}{chapter}{\MakeUppercase{Abstract}}
+% 	\fi
+% % 	\hspace{-\baselineskip}
+% 	\end{center}
+% % 	\begin{singlespace}\vspace{\baselineskip}\end{singlespace}
+% % 	\vspace{.5\baselineskip}
+% 	\vskip 0pt plus 0pt minus 0pt
+% 	%blank line below here so the abstract starts indented.
+% 	
+} %END OF TIM EDIT
