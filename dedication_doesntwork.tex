@@ -1,0 +1,57 @@
+%this just doesn't show up at all, tho it doesn't err
+
+\newbox\dedbox
+\newenvironment{dedication}{%
+  \ifx\maketitle\relax
+    \ClassWarning{\@classname}{dedication should precede
+      \protect\maketitle\space in the csuthesis class; reported}%
+  \fi
+  \global\setbox\dedbox=\vtop \bgroup
+	\list{}{\labelwidth\z@
+			\leftmargin0pc \rightmargin\leftmargin
+			\listparindent\normalparindent \itemindent\z@
+			\parsep\z@
+			\itemsep0.5\baselineskip
+			% In order to get equation numbers indented with the rest of the abstract, we have to do this:
+			\let\fullwidthdisplay\relax
+		}%
+	\ifsmallcapsok
+		\item \begin{center}\scshape Dedication\end{center}
+% 		\addcontentsline{toc}{chapter}{{\scshape Acknowledgements}}
+	\else
+		\item \begin{center}\MakeUppercase{Dedication}\end{center}
+% 		\addcontentsline{toc}{chapter}{\MakeUppercase{Acknowledgements}}
+	\fi
+	\addcontentsline{toc}{chapter}{Dedication}
+	\item[\hskip\normalparindent]
+% 	\ifsmallcapsok
+% % 		\begin{center}\scshape Acknowledgements\end{center}
+% 		\centerline{\scshape Acknowledgements}
+% 		\addcontentsline{toc}{chapter}{{\scshape Acknowledgements}}
+% 	\else
+% % 		\begin{center}{\MakeUppercase{Acknowledgements}}\end{center}%
+% 		\centerline{\MakeUppercase{Acknowledgements}}
+% 		\addcontentsline{toc}{chapter}{\MakeUppercase{Acknowledgements}}
+% 	\fi
+% 	\hspace{\baselineskip}
+	%blank line below here so acknowledgements starts indented (to match abstract)
+	
+}{%
+	% 	Great thanks are also due to Leif Anderson for building this \LaTeX\ document class, allowing me to meet the graduate school formatting requirements with no effort on my part. % You're welcome.
+	
+	%This \ifphd dissertation \else thesis \fi is typset in \LaTeX\ using a document class designed by Leif Anderson.%The more professional version.
+	% Go ahead, comment it out.  But if you're here you probably know how much work went into this.
+	% I call this my little "no need to thank me" easter egg.
+  \endlist\egroup
+  \ifx\@setded\relax \@setdeda \fi
+}
+\def\@setded{\@setdeda \global\let\@setded\relax}
+\def\@setdeda{%
+  \ifvoid\dedbox
+  \else
+    \skip@20\p@ \advance\skip@-\lastskip
+    \advance\skip@-\baselineskip \vskip\skip@
+    \box\dedbox
+    \prevdepth\z@ % because \abstractbox is a vtop
+  \fi
+}

@@ -538,6 +538,7 @@
 % If the abstract was supposed to be typeset earlier, then \@setabstract is now equal to \relax, and we had better drop the contents of the abstract box onto the page immediately, to salvage the situation as best we can.
 \ifx\@setabstract\relax \@setabstracta \fi
 }
+
 % % Because the abstract might be postponed until the end of an article, we can-not simply use the fact of a preceding \maketitle to tell whether \endabstract should immediately put the abstract box contents on the page. So we use an auxiliary function that will be reset to no-op once we have passed the point where the abstract should normally be typeset.
 % This part should still be intact in the amsbook class.
 % \def\@setabstract{\@setabstracta \global\let\@setabstract\relax}
@@ -609,43 +610,8 @@
   \fi
 }
 %Tim EDIT
-\newbox\dedbox
-\newenvironment{dedication}{%
-  \ifx\maketitle\relax
-    \ClassWarning{\@classname}{dedication should precede
-      \protect\maketitle\space in the csuthesis class; reported}%
-  \fi
-  \global\setbox\ackbox=\vtop \bgroup
-	\list{}{\labelwidth\z@
-			\leftmargin0pc \rightmargin\leftmargin
-			\listparindent\normalparindent \itemindent\z@
-			\parsep\z@
-			\itemsep0.5\baselineskip
-			% In order to get equation numbers indented with the rest of the abstract, we have to do this:
-			\let\fullwidthdisplay\relax
-		}%
-	\ifsmallcapsok
-		\item \begin{center}\scshape Dedication\end{center}
-% 		\addcontentsline{toc}{chapter}{{\scshape Acknowledgements}}
-	\else
-		\item \begin{center}\MakeUppercase{Dedication}\end{center}
-% 		\addcontentsline{toc}{chapter}{\MakeUppercase{Acknowledgements}}
-	\fi
-	\addcontentsline{toc}{chapter}{Dedication}
-	\item[\hskip\normalparindent]
-% 	\ifsmallcapsok
-% % 		\begin{center}\scshape Acknowledgements\end{center}
-% 		\centerline{\scshape Acknowledgements}
-% 		\addcontentsline{toc}{chapter}{{\scshape Acknowledgements}}
-% 	\else
-% % 		\begin{center}{\MakeUppercase{Acknowledgements}}\end{center}%
-% 		\centerline{\MakeUppercase{Acknowledgements}}
-% 		\addcontentsline{toc}{chapter}{\MakeUppercase{Acknowledgements}}
-% 	\fi
-% 	\hspace{\baselineskip}
-	%blank line below here so acknowledgements starts indented (to match abstract)
-	
-}%end Tim EDIT
+%dedication_doesntwork.tex
+%end Tim EDIT
 
 % Now we overwrite \maketitle
 % the original had a lot more error handling, which I have ignored here.
