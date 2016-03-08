@@ -72,7 +72,7 @@
 \input{acknowledgements}
 %this is optional.  It must be declared before maketitle, a lot like abstract.  Consider having this in a separate file, like ack.tex, and then using \input{ack}
 
-\input{dedication}
+%\input{dedication}
 
 \maketitle
 % maketitle is a huge command in a small package.  It will render the title page, copyright page, acknowledgements, abstract, and probably a bunch of other stuff that I'm forgetting about.  If you choose not to define copyright, acknowledgements, etc, it automatically doesn't render them.
@@ -81,8 +81,9 @@
 % most frontmatter than I consider silly is not yet automated.  Also most frontmatter doesn't have any explicit style requirements, so I feel justified in ignoring it.
 
 %old dedication was here, and yes it had the \newline:
-%\newpage
-%\input{dedication}
+\newpage
+\input{dedication}
+\addcontentsline{toc}{chapter}{Dedication}
 
 \tableofcontents %don't move this around too much
 %\listoftables %optional, but this is the spot it should go

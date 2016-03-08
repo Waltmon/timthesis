@@ -1,10 +1,8 @@
 Grad School Corrections:
 * Change the date on the title page to Spring 2016. 
 * Abstract page is missing your title. Please see the sample page on the Graduate School website's ETD section for example of formatting and spacing.
-- Dedication page is missing the "Dedication" heading. 
-
-AT:  it's working now, but it seems like it has to be EITHER acknowledgments OR dedication, for some reason it won't keep both...........................
-
+* Dedication page is missing the "Dedication" heading. 
+- check centering of dedication from far out
 - Table of contents is missing the dedication page. 
 - Page 89: text should be flush with the top 1" margin
 - MAKE SURE EVERYTHING STILL LOOKS OK THROUGHOUT AFTER THOSE CHANGES
